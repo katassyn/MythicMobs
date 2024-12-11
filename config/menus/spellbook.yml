@@ -1,0 +1,43 @@
+Menu:
+  Display: "Spellbook"
+  Size: 54
+  Schema:
+    - '1 2 3 4 X X X I B'
+    - 'X X X X X X X X X'
+    - '$ $ $ $ $ $ $ $ $'
+    - '$ $ $ $ $ $ $ $ $'
+    - '$ $ $ $ $ $ $ $ $'
+    - 'P X X X F C X X N'
+  Icons:
+    FILLER:
+      Mapping: X
+      Material: RED_STAINED_GLASS_PANE
+      Display: ''
+      Model: 1
+    BACK:
+      Mapping: B
+      Material: GOLD_INGOT
+      Model: 4
+      Display: '&7Back to Character Menu &8>>'
+    NEXT_PAGE:
+      Mapping: N
+      Material: ARROW
+      Model: 2
+      Display: '&7Next Page &8>>'
+    PREVIOUS_PAGE:
+      Mapping: P
+      Material: ARROW
+      Model: 3
+      Display: '&7<< Previous Page'
+    BINDINGS:
+      Mapping: I
+      Material: KNOWLEDGE_BOOK
+      Display: '&4Bindings'
+    FILTER_BUTTON:
+      Mapping: F
+      Material: OAK_SIGN
+      Display: '&4Search Spellbook'
+    FILTER_RESET_BUTTON:
+      Mapping: C
+      Material: BARRIER
+      Display: '&4Clear Search'

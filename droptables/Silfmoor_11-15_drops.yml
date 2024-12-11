@@ -1,0 +1,42 @@
+black_fur:
+  Drops:
+    # - experience 10
+    - black_fur_item_drops 1
+black_fur_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - old_armor 1 0.05
+    - simple_slacks 1 0.05
+    - rafined_helmet 1 0.01
+    - beast_hunter_sword 1 0.005
+    - slimed_pants 1 0.005
+
+bog_beast:
+  Drops:
+    # - experience 10
+    - bog_beast_item_drops 1
+bog_beast_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - old_armor 1 0.075
+    - simple_slacks 1 0.075
+    - rafined_helmet 1 0.03
+    - beast_hunter_sword 1 0.015
+    - slimed_pants 1 0.015
+    - black_fur_hunter_spear 1 0.005
+
+talking:
+  Drops:
+    - fur_black 1 0.25
+    - talking_item_drops 1
+talking_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - rafined_helmet 1 0.08
+    - beast_hunter_sword 1 0.025
+    - slimed_pants 1 0.025
+    - black_fur_hunter_spear 1 0.015
+    - talking_skeleton_skull 1 0.005

@@ -1,0 +1,40 @@
+LunkyFireDemon:
+  Drops:
+    # - experience 10
+    - LunkyFireDemon_item_drops 1
+LunkyFireDemon_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - ips 1 0.01
+
+ShadowNorseman:
+  Drops:
+    # - experience 10
+    - ShadowNorseman_item_drops 1
+ShadowNorseman_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - ips 1 0.1
+    - researcher_boots 1 0.025
+    - greaves_of_void_shadow 1 0.025
+    - ring_of_eternal_agony 1 0.025
+    - blade_of_the_fallen_souls 1 0.025
+
+DemonWarden:
+  Drops:
+    # - experience 10
+    - demon_blood 1 0.2
+    - DemonWarden_item_drops 1
+DemonWarden_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - ips 1 0.2
+    - researcher_boots 1 0.05
+    - greaves_of_void_shadow 1 0.05
+    - ring_of_eternal_agony 1 0.05
+    - blade_of_the_fallen_souls 1 0.05
+    - pendant_of_the_demonic_soul 1 0.002
+    - scythe_of_shadows_doom 1 0.002

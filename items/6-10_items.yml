@@ -1,0 +1,101 @@
+rusty_greatsword:
+  Id: iron_sword
+  Display: '&l&3○&r &3Rusty Greatsword'
+  Group: 6-10
+  Lore:
+    - ''
+    - '§7Damage: §c5 ⚔'
+    - '&lRarity:&r &3Normal'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+profane_helmet:
+  Id: iron_helmet
+  Display: '&l&3○&r &3Profane Helmet'
+  Group: 6-10
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    HideAttributes: true
+    Unbreakable: true
+    HideFlags: true
+  Hide:
+    - ATTRIBUTES
+
+used_club:
+  Id: iron_axe
+  Display: '&l&a⬧&r &aUsed Club'
+  Group: 6-10
+  Lore:
+    - ''
+    - '§7Damage: §c7 ⚔'
+    - '&lRarity:&r &aImproved'
+  Options:
+    HideAttributes: true
+    Unbreakable: true
+    HideFlags: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 7 ADD
+
+bulwark_of_power:
+  Id: iron_chestplate
+  Display: '&l&9✦&r &9Bulwark of Power'
+  Group: 6-10
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:5
+  Lore:
+    - ''
+    - '&7Protection:&9 5 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+steps_of_destiny:
+  Id: iron_boots
+  Display: '&l&5✯&r &5Steps of Destiny'
+  Group: 6-10
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:7
+    - PROTECTION_PROJECTILE:5
+  Lore:
+    - ''
+    - '&7Protection:&9 7 🛡'
+    - '&7Projectile Protection:&a 5 🏹'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+leggings_of_valor:
+  Id: diamond_leggings
+  Display: '&6⚜ &6Leggings of Valor'
+  Group: 6-10
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:7
+    - PROTECTION_PROJECTILE:7
+  Lore:
+    - ''
+    - '&7Protection:&9 7 🛡'
+    - '&7Projectile Protection:&a 7 🏹'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES

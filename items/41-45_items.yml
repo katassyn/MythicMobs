@@ -1,0 +1,116 @@
+entangled_trausers:
+  Id: leather_leggings
+  Display: '&l&a⬧&r &aEntangled Trausers'
+  Group: 41-45
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:30
+  Lore:
+    - ''
+    - '&7Protection:&9 30 🛡'
+    - '&lRarity:&r &aImproved'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+    Color: 156,136,1
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+twilight_chestplate:
+  Id: iron_chestplate
+  Display: '&l&a⬧&r &aTwilight Chestplate'
+  Group: 41-45
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:30
+  Lore:
+    - ''
+    - '&7Protection:&9 30 🛡'
+    - '&lRarity:&r &aImproved'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=9;p=false;force=true;hasIcon=false} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+rotten_fang:
+  Id: diamond_sword
+  Display: '&l&9✦&r &9Rotten Fang'
+  Group: 41-45
+  Lore:
+    - ''
+    - '§7(Strong against players)'
+    - '§7Damage: §c66 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideAttributes: true
+    Unbreakable: true
+    HideFlags: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 40 ADD
+  Enchantments:
+    - DAMAGE_ALL:40
+
+helm_of_the_lost:
+  Id: diamond_helmet
+  Display: '&l&9✦&r &9Helm of The Lost'
+  Group: 41-45
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:40
+  Lore:
+    - ''
+    - '&7Protection:&9 40 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+wraith_stalkers:
+  Id: diamond_boots
+  Display: '&l&5✯&r &5Wraith Stalkers'
+  Group: 41-45
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:45
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 45 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+dark_whisper:
+  Id: netherite_sword
+  Display: '&6⚜ &6Dark Whisper'
+  Group: 41-45
+  Lore:
+    - ''
+    - '§7Damage: §c148 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    Unbreakable: true
+    HideFlags: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 150 ADD

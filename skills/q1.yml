@@ -1,0 +1,91 @@
+SummonServants:
+  Cooldown: 30
+  Skills:
+    - summon{mob=flamecult_servant_inf;amount=2;radius=3;noise=3} @self
+    - summon{mob=flamecult_archer_inf;amount=1;radius=3;noise=3} @self
+
+SummonServants_hell:
+  Cooldown: 30
+  Skills:
+    - summon{mob=flamecult_servant_hell;amount=2;radius=3;noise=3} @self
+    - summon{mob=flamecult_archer_hell;amount=2;radius=3;noise=3} @self
+
+SummonServants_blood:
+  Cooldown: 30
+  Skills:
+    - summon{mob=flamecult_servant_blood;amount=4;radius=3;noise=3} @self
+    - summon{mob=flamecult_archer_blood;amount=2;radius=3;noise=3} @self
+
+PowerfulProjectile:
+  Cooldown: 10
+  Skills:
+    - potion{type=SLOW;duration=60;level=10} @self
+    - delay 5
+    - projectile{onTick=Projectile-Tick;onHit=Projectile-Hit;v=5;i=FIRE_CHARGE;hR=1;vR=1;hnp=true} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
+    # Efekt SLOW wygaśnie po 3 sekundach
+
+Projectile-Tick:
+  Skills:
+    - effect:particles{p=FLAME;amount=10;speed=0;hS=0.2;vS=0.2} @origin
+
+Projectile-Hit:
+  Skills:
+    - damage{a=100} @target
+    - effect:particles{p=EXPLOSION_LARGE;amount=1;speed=1} @target
+
+ExplosiveFireball:
+  Cooldown: 15
+  Skills:
+    - potion{type=SLOW;duration=60;level=10} @self
+    - delay 5
+    - projectile{onTick=Fireball-Tick;onHit=Fireball-Hit;v=4;i=FIRE_CHARGE;hR=1;vR=1;hnp=true} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
+    # Efekt SLOW wygaśnie po 3 sekundach
+
+Fireball-Tick:
+  Skills:
+    - effect:particles{p=FLAME;amount=20;speed=0;hS=0.2;vS=0.2} @origin
+
+Fireball-Hit:
+  Skills:
+    - damage{a=300} @target
+    - effect:particles{p=EXPLOSION_LARGE;amount=1;speed=1} @origin
+    - explosion{power=2;fire=false} @origin
+    - velocity{v=2;h=2} @EntitiesInRadius{r=5}
+
+TeleportToPlayer:
+  Cooldown: 15
+  Skills:
+    - potion{type=SLOW;duration=40;level=10} @self
+    - teleport @self @PlayersInRadius{r=30;limit=1;sort=NEAREST}
+    - ignite{ticks=250} @Target
+    - message{m="&d<mob.name>&f: Burn!"}
+    # Efekt SLOW wygaśnie po 2 sekundach
+
+BurningShotElite:
+  Cooldown: 30
+  Conditions:
+    - offgcd
+  Skills:
+    - message{m="&d<mob.name>&f: You will be nothing but ashes!"}
+    - delay 20
+    - shoot{type=ARROW;velocity=30;damage=300} @Target
+    - ignite{ticks=250} @Target
+    - GCD{ticks=160}
+
+SummonFlamecultServants:
+  Cooldown: 60
+  Skills:
+    - message{m="&d<mob.name>&f: Arise, my servants!"}
+    - summon{mob=flamecult_servant_inf;amount=4;radius=3;noise=2} @self
+
+SummonFlamecultServants_hell:
+  Cooldown: 60
+  Skills:
+    - message{m="&d<mob.name>&f: Arise, my servants!"}
+    - summon{mob=flamecult_servant_hell;amount=6;radius=3;noise=2} @self
+
+SummonFlamecultServants_blood:
+  Cooldown: 60
+  Skills:
+    - message{m="&d<mob.name>&f: Arise, my servants!"}
+    - summon{mob=flamecult_servant_blood;amount=8;radius=3;noise=2} @self

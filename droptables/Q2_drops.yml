@@ -1,0 +1,161 @@
+# INF INF INF
+# INF INF INF
+# INF INF INF
+gremlin_marauder_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - gremlin_marauder_inf_drop_item_drops 1
+gremlin_marauder_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - spider_web_chestplate 1 0.01
+    - poisonous_dagger 1 0.01
+    - shroud_of_the_untouchables 1 0.01
+    - oceanus_ring_of_poison 1 0.0005
+
+corrupted_root_creature_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - corrupted_root_creature_inf_drop_item_drops 1
+corrupted_root_creature_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - spider_web_chestplate 1 0.25
+    - poisonous_dagger 1 0.25
+    - shroud_of_the_untouchables 1 0.05
+    - oceanus_ring_of_poison 1 0.01
+
+xerib_the_hunchback_inf_drop:
+  Drops:
+    - ips 1 0.5
+    - xerib_the_hunchback_inf_drop_item_drops 1
+xerib_the_hunchback_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - spider_web_chestplate 1 0.5
+    - poisonous_dagger 1 0.5
+    - shroud_of_the_untouchables 1 0.1
+    - oceanus_ring_of_poison 1 0.04
+
+arachna_inf_drop:
+  Drops:
+    - arachna_frag_I 1 0.05
+    - ips 1 1
+    - arachna_inf_drop_item_drops 1
+arachna_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - spider_web_chestplate 1 1
+    - poisonous_dagger 1 1
+    - shroud_of_the_untouchables 1 0.25
+    - oceanus_ring_of_poison 1 0.1
+
+# HELL HELL HELL
+# HELL HELL HELL
+# HELL HELL HELL
+gremlin_marauder_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - gremlin_marauder_hell_drop_item_drops 1
+gremlin_marauder_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - spider_web_chestplate_hell 1 0.01
+    - poisonous_dagger_hell 1 0.01
+    - shroud_of_the_untouchables_hell 1 0.02
+    - oceanus_ring_of_poison_hell 1 0.001
+
+corrupted_root_creature_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - corrupted_root_creature_hell_drop_item_drops 1
+corrupted_root_creature_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - spider_web_chestplate_hell 1 0.025
+    - poisonous_dagger_hell 1 0.025
+    - shroud_of_the_untouchables_hell 1 0.1
+    - oceanus_ring_of_poison_hell 1 0.02
+
+xerib_the_hunchback_hell_drop:
+  Drops:
+    - ips 2 0.5
+    - xerib_the_hunchback_hell_drop_item_drops 1
+xerib_the_hunchback_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - oceanus_ring_of_poison_hell 1 0.05
+    - arachnas_venomous_revenge 1 0.0125
+
+arachna_hell_drop:
+  Drops:
+    - arachna_frag_II 1 0.05
+    - ips 2 1
+    - arachna_hell_drop_item_drops 1
+arachna_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - oceanus_ring_of_poison_hell 1 0.125
+    - arachnas_venomous_revenge 1 0.025
+
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+gremlin_marauder_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - gremlin_marauder_blood_drop_item_drops 1
+gremlin_marauder_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - spider_web_chestplate_bloodshed 1 0.01
+    - poisonous_dagger_bloodshed 1 0.01
+    - shroud_of_the_untouchables_bloodshed 1 0.03
+    - oceanus_ring_of_poison_bloodshed 1 0.005
+
+corrupted_root_creature_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - corrupted_root_creature_blood_drop_item_drops 1
+corrupted_root_creature_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - spider_web_chestplate_bloodshed 1 0.25
+    - poisonous_dagger_bloodshed 1 0.025
+    - shroud_of_the_untouchables_bloodshed 1 0.2
+    - oceanus_ring_of_poison_bloodshed 1 0.03
+
+xerib_the_hunchback_blood_drop:
+  Drops:
+    - ips 3 0.5
+    - xerib_the_hunchback_blood_drop_item_drops 1
+xerib_the_hunchback_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - oceanus_ring_of_poison_bloodshed 1 0.06
+    - arachnas_venomous_revenge_blood 1 0.025
+    - arachnas_vigor_of_the_spider 1 0.001
+
+arachna_blood_drop:
+  Drops:
+    - arachna_frag_III 1 0.05
+    - ips 3 1
+    - arachna_blood_drop_item_drops 1
+arachna_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - oceanus_ring_of_poison_bloodshed 1 0.15
+    - arachnas_venomous_revenge_blood 1 0.05
+    - arachnas_vigor_of_the_spider 1 0.01

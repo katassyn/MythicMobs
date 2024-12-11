@@ -1,0 +1,66 @@
+#
+# Spell Configuration Options
+#
+# More information about Mythic Spell options can be found here:
+# https://git.lumine.io/mythiccraft/mythicrpg/-/wikis/Spells
+#
+Configuration:
+
+  #================================================================================
+  # General Options
+  #================================================================================
+
+  Spellbook:
+    Enabled: true                   # Enables the spellbook
+
+  #================================================================================
+  # Casting Options
+  #================================================================================
+  Casting:
+    Command:
+      Enabled: true                 # Enables the /cast command
+
+    QuickCasting:
+      Method: HOTBAR                # The quick-casting method. HOTBAR, CLICK_COMBO, or NONE
+      Activation: SWAP_HANDS        # How the quickcast bar is toggled
+      BindableSlots: 5              # How many slots are bindable. Maximum 8 for HOTBAR.
+      DisableWhileSneaking: false
+      ActivationSound: block.respawn_anchor.charge 0.1 2.0 PLAYER
+
+    # Options for the CAST_BAR method
+    HotBar:
+      Location: ITEMS               # Can be ITEMS or ACTION_BAR
+      SingleCast: true              # Whether the bar will hide after a single cast
+      OffsetKeys: false             # Whether to offset from the currently selected slot
+
+    # Options for the CLICK_COMBO method
+    ClickCombos:
+      ShowInActionBar: true         # Show current combo in the action bar
+      ComboLength: 3                # How many slots are bindable
+      BindCombos: true              # Whether players can bind spells to pre-set combos
+      Bindings:
+        1: RRR
+        2: LRR
+        3: RLR
+        4: LRL
+        5: LLR
+
+    # Options for MythicHUD integration
+    HUD:
+      Enabled: false                # Show current combo in the action bar
+      Layout:                 # How many slots are bindable
+
+    # Casting using special wand items
+    Wands:
+      Enabled: false
+
+  #================================================================================
+  # Global Mechanics
+  # - These mechanics are applied to all players
+  #================================================================================
+
+  GlobalSkills: []
+  #
+  # Example of using this to implement global mana regeneration
+  # - modifyReagent{reagent=mana;amount=10} @self ~onTimer:20
+  #

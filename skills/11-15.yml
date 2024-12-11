@@ -1,0 +1,15 @@
+Summon11-15:
+  Cooldown: 10
+  Skills:
+    - summon{mob=black_furred_mauler;amount=2;noise=5} @Self
+
+arrow:
+  Cooldown: 5
+  Skills:
+    - projectile{onTick=arrow-Tick;onHit=arrow-Hit;v=7;i=1;hR=1;vR=1;hnp=true}
+arrow-Tick:
+  Skills:
+    - effect:particles{p=end_rod;amount=10;speed=0;hS=0.2;vS=0.2} @origin
+arrow-Hit:
+  Skills:
+    - damage{a=6}

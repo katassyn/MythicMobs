@@ -1,0 +1,26 @@
+ShamanBlindnessBall:
+  Skills:
+    - projectile{onHit=applyBlindness;v=5} @target
+applyBlindness:
+  Skills:
+    - potion{t=BLINDNESS;d=100;level=1} @target
+
+ResurrectToltecWarrior:
+  Skills:
+    - summon{mob=ObstinateToltecWarrior;amount=1} @Self
+
+PoisonSpit:
+  Cooldown: 15
+  Skills:
+    - projectile{onTick=PoisonSpit-Tick;onHit=PoisonSpit-Hit;v=4;i=1;hR=1;vR=1;hnp=true}
+PoisonSpit-Tick:
+  Skills:
+    - effect:particles{p=poison;amount=15;speed=0;hS=0.2;vS=0.2} @origin
+PoisonSpit-Hit:
+  Skills:
+    - potion{t=POISON;d=100;level=2} @target
+    - damage{a=250} @target
+
+LeaveAcid:
+  Skills:
+    - summon{mob=AcidPool;amount=1} @Self

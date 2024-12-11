@@ -1,0 +1,1767 @@
+#CRAFTING CRAFTING CRAFTING
+#CRAFTING CRAFTING CRAFTING
+#CRAFTING CRAFTING CRAFTING
+
+#EXPO EXPO EXPO EXPO EXPO
+#EXPO EXPO EXPO EXPO EXPO
+#EXPO EXPO EXPO EXPO EXPO
+broken_armor_piece:
+  Id: iron_ingot
+  Display: '&2Broken Armor Piece'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+tousled_priest_robe:
+  Id: shulker_shell
+  Display: '&2Tousled Priest Robe'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+fur_black:
+  Id: rabbit_hide
+  Display: '&2Black Fur'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+dragon_scale:
+  Id: phantom_membrane
+  Display: '&2Dragon Scale'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+chain_fragment:
+  Id: chain
+  Display: '&2Chain Fragment'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+satyrs_horn:
+  Id: pointed_dripstone
+  Display: '&2Satyr`s Horn'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+gorgons_poison:
+  Id: scute
+  Display: '&2Gorgon`s Poison'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+dragon_gold:
+  Id: gold_ingot
+  Display: '&2Dragon`s Gold'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+protectors_heart:
+  Id: orange_dye
+  Display: '&2Protector`s Heart'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+deaddd_bush:
+  Id: dead_bush
+  Display: '&2Dead Bush'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+demon_blood:
+  Id: red_dye
+  Display: '&dDemon Blood'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+sticky_mucus:
+  Id: slime_ball
+  Display: '&dSticky Mucus'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+soul_of_an_acient_spartan: #0.15
+  Id: pitcher_pod
+  Display: '&dSoul of an Acient Spartan'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+shadow_rose: #0.15
+  Id: wither_rose
+  Display: '&dShadow Rose'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+Throphy_of_the_long_forgotten_bone_dragon: #0.1
+  Id: dragon_head
+  Display: '&dThrophy of the Long Forgotten Bone Dragon'
+  Group: Quest
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Crafting and Quest resource'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+#Q Q Q Q Q Q
+#Q Q Q Q Q Q
+#Q Q Q Q Q Q
+ips:
+  Id: iron_nugget
+  Display: '&4Fragment of Infernal Passage'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Used to unlock the dangerous dungeons'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+mob_soul_I:
+  Id: flint
+  Display: '&9[ I ] Monster Soul Fragment'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+mob_soul_I_100x:
+  Id: flint
+  Display: '&9[ I ] Monster Soul Fragment x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+mob_soul_I_1000x:
+  Id: flint
+  Display: '&9[ I ] Monster Soul Fragment x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+mob_soul_II:
+  Id: flint
+  Display: '&5[ II ] Monster Soul Fragment'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+mob_soul_II_100x:
+  Id: flint
+  Display: '&5[ II ] Monster Soul Fragment x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+mob_soul_II_1000x:
+  Id: flint
+  Display: '&5[ II ] Monster Soul Fragment x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+mob_soul_III:
+  Id: flint
+  Display: '&6&6[ III ] Monster Soul Fragment '
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+mob_soul_III_100x:
+  Id: flint
+  Display: '&6&6[ III ] Monster Soul Fragment x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+mob_soul_III_1000x:
+  Id: flint
+  Display: '&6[ III ] Monster Soul Fragment x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+elite_heart_I:
+  Id: nether_wart
+  Display: '&9[ I ] Monster Heart Fragment'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+elite_heart_I_100x:
+  Id: nether_wart
+  Display: '&9[ I ] Monster Heart Fragment x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+elite_heart_I_1000x:
+  Id: nether_wart
+  Display: '&9[ I ] Monster Heart Fragment x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+elite_heart_II:
+  Id: nether_wart
+  Display: '&5[ II ] Monster Heart Fragment'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+elite_heart_II_100x:
+  Id: nether_wart
+  Display: '&5[ II ] Monster Heart Fragment x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+elite_heart_II_1000x:
+  Id: nether_wart
+  Display: '&5[ II ] Monster Heart Fragment x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+elite_heart_III:
+  Id: nether_wart
+  Display: '&6[ III ] Monster Heart Fragment'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+elite_heart_III_100x:
+  Id: nether_wart
+  Display: '&6[ III ] Monster Heart Fragment x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+elite_heart_III_1000x:
+  Id: nether_wart
+  Display: '&6[ III ] Monster Heart Fragment x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
+grimmag_frag_I:
+  Id: leather
+  Display: '&9[ I ] Grimmage Burned Cape'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+grimmag_frag_II:
+  Id: leather
+  Display: '&5[ II ] Grimmage Burned Cape'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+grimmag_frag_III:
+  Id: leather
+  Display: '&6&6[ III ] Grimmage Burned Cape'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+arachna_frag_I:
+  Id: phantom_membrane
+  Display: '&9[ I ] Arachana Poisonous Skeleton'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+arachna_frag_II:
+  Id: phantom_membrane
+  Display: '&5[ II ] Arachana Poisonous Skeleton'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+arachna_frag_III:
+  Id: phantom_membrane
+  Display: '&6&6[ III ] Arachana Poisonous Skeleton'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+heredur_frag_I:
+  Id: PRISMARINE_CRYSTALS
+  Display: '&9[ I ] Heredur`s Glacial Armor'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+heredur_frag_II:
+  Id: PRISMARINE_CRYSTALS
+  Display: '&5[ II ] Heredur`s Glacial Armor'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+heredur_frag_III:
+  Id: PRISMARINE_CRYSTALS
+  Display: '&6&6[ III ] Heredur`s Glacial Armor'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+bearach_frag_I:
+  Id: HONEYCOMB
+  Display: '&9[ I ] Bearach Honey Hide'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+bearach_frag_II:
+  Id: HONEYCOMB
+  Display: '&5[ II ] Bearach Honey Hide'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+bearach_frag_III:
+  Id: HONEYCOMB
+  Display: '&6&6[ III ] Bearach Honey Hide'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+khalys_frag_I:
+  Id: black_dye
+  Display: '&9[ I ] Khalys Magic Robe'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+khalys_frag_II:
+  Id: black_dye
+  Display: '&5[ II ] Khalys Magic Robe'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+khalys_frag_III:
+  Id: black_dye
+  Display: '&6&6[ III ] Khalys Magic Robe'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+heralds_frag_I:
+  Id: netherite_scrap
+  Display: '&9[ I ] Heralds Dragon Skin'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+heralds_frag_II:
+  Id: netherite_scrap
+  Display: '&5[ II ] Heralds Dragon Skin'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+heralds_frag_III:
+  Id: netherite_scrap
+  Display: '&6&6[ III ] Heralds Dragon Skin'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+sigrismar_frag_I:
+  Id: amethyst_shard
+  Display: '&9[ I ] Sigrismarr`s Eternal Ice'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+sigrismar_frag_II:
+  Id: amethyst_shard
+  Display: '&5[ II ] Sigrismarr`s Eternal Ice'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+sigrismar_frag_III:
+  Id: amethyst_shard
+  Display: '&6&6[ III ] Sigrismarr`s Eternal Ice'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+medusa_frag_I:
+  Id: scute
+  Display: '&9[ I ] M`Edusa Stone Scales'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+medusa_frag_II:
+  Id: scute
+  Display: '&5[ II ] M`Edusa Stone Scales'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+medusa_frag_III:
+  Id: scute
+  Display: '&6&6[ III ] M`Edusa Stone Scales'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+gorga_frag_I:
+  Id: lightning_rod
+  Display: '&9[ I ] Gorga`s Broken Tooth'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+gorga_frag_II:
+  Id: lightning_rod
+  Display: '&5[ II ] Gorga`s Broken Tooth'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+gorga_frag_III:
+  Id: lightning_rod
+  Display: '&6&6[ III ] Gorga`s Broken Tooth'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+mortis_frag_I:
+  Id: bone
+  Display: '&9[ I ] Mortis Sacrificial Bones'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+mortis_frag_II:
+  Id: bone
+  Display: '&5[ II ] Mortis Sacrificial Bones'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+mortis_frag_III:
+  Id: bone
+  Display: '&6&6[ III ] Mortis Sacrificial Bones'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+#KOPALNIA KOPALNIA KOPALNIA
+#KOPALNIA KOPALNIA KOPALNIA
+#KOPALNIA KOPALNIA KOPALNIA
+ore_I:
+  Id: cobblestone
+  Display: '&9[ I ] Ore'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+ore_I_100x:
+  Id: cobblestone
+  Display: '&9[ I ] Ore x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+ore_I_1000x:
+  Id: cobblestone
+  Display: '&9[ I ] Ore x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+ore_II:
+  Id: cobblestone
+  Display: '&5[ II ] Ore'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+ore_II_100x:
+  Id: cobblestone
+  Display: '&5[ II ] Ore x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+ore_II_1000x:
+  Id: cobblestone
+  Display: '&5[ II ] Ore x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+ore_III:
+  Id: cobblestone
+  Display: '&6[ III ] Ore'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+ore_III_100x:
+  Id: cobblestone
+  Display: '&6[ III ] Ore x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+ore_III_1000x:
+  Id: cobblestone
+  Display: '&6[ III ] Ore x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
+blood_I:
+  Id: redstone
+  Display: '&9[ I ] Cursed Blood'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+blood_I_100x:
+  Id: redstone
+  Display: '&9[ I ] Cursed Blood x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+blood_I_1000x:
+  Id: redstone
+  Display: '&9[ I ] Cursed Blood x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+blood_II:
+  Id: redstone
+  Display: '&5[ II ] Cursed Blood'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+blood_II_100x:
+  Id: redstone
+  Display: '&5[ II ] Cursed Blood x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+blood_II_1000x:
+  Id: redstone
+  Display: '&5[ II ] Cursed Blood x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+blood_III:
+  Id: redstone
+  Display: '&6[ III ] Cursed Blood'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+blood_III_100x:
+  Id: redstone
+  Display: '&6[ III ] Cursed Blood x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+blood_III_1000x:
+  Id: redstone
+  Display: '&6[ III ] Cursed Blood x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+bone_I:
+  Id: bone
+  Display: '&9[ I ] Shattered Bone'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+bone_I_100x:
+  Id: bone
+  Display: '&9[ I ] Shattered Bone x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+bone_I_1000x:
+  Id: bone
+  Display: '&9[ I ] Shattered Bone x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+bone_II:
+  Id: bone
+  Display: '&5[ II ] Shattered Bone'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+bone_II_100x:
+  Id: bone
+  Display: '&5[ II ] Shattered Bone x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+bone_II_1000x:
+  Id: bone
+  Display: '&5[ II ] Shattered Bone x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+bone_III:
+  Id: bone
+  Display: '&6[ III ] Shattered Bone'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+bone_III_100x:
+  Id: bone
+  Display: '&6[ III ] Shattered Bone x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+bone_III_1000x:
+  Id: bone
+  Display: '&6[ III ] Shattered Bone x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
+leaf_I:
+  Id: kelp
+  Display: '&9[ I ] Leaf'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+leaf_I_100x:
+  Id: kelp
+  Display: '&9[ I ] Leaf x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+leaf_I_1000x:
+  Id: kelp
+  Display: '&9[ I ] Leaf x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+leaf_II:
+  Id: kelp
+  Display: '&5[ II ] Leaf'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+leaf_II_100x:
+  Id: kelp
+  Display: '&5[ II ] Leaf x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+leaf_II_1000x:
+  Id: kelp
+  Display: '&5[ II ] Leaf x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+leaf_III:
+  Id: kelp
+  Display: '&6[ III ] Leaf'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+leaf_III_100x:
+  Id: kelp
+  Display: '&6[ III ] Leaf x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+leaf_III_1000x:
+  Id: kelp
+  Display: '&6[ III ] Leaf x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+#LOWISKO LOWISKO LOWISKO
+#LOWISKO LOWISKO LOWISKO
+#LOWISKO LOWISKO LOWISKO
+alga_I:
+  Id: horn_coral
+  Display: '&9[ I ] Algal'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+alga_I_100x:
+  Id: horn_coral
+  Display: '&9[ I ] Algal x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+alga_I_1000x:
+  Id: horn_coral
+  Display: '&9[ I ] Algal x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+alga_II:
+  Id: horn_coral
+  Display: '&5[ II ] Algal'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+alga_II_100x:
+  Id: horn_coral
+  Display: '&5[ II ] Algal x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+alga_II_1000x:
+  Id: horn_coral
+  Display: '&5[ II ] Algal x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+alga_III:
+  Id: horn_coral
+  Display: '&6[ III ] Algal'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+alga_III_100x:
+  Id: horn_coral
+  Display: '&6[ III ] Algal x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+alga_III_1000x:
+  Id: horn_coral
+  Display: '&6[ III ] Algal x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
+pearl_I:
+  Id: turtle_egg
+  Display: '&9[ I ] Shiny Pearl'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+pearl_I_100x:
+  Id: turtle_egg
+  Display: '&9[ I ] Shiny Pearl x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+pearl_I_1000x:
+  Id: turtle_egg
+  Display: '&9[ I ] Shiny Pearl x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+pearl_II:
+  Id: turtle_egg
+  Display: '&5[ II ] Shiny Pearl'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+pearl_II_100x:
+  Id: turtle_egg
+  Display: '&5[ II ] Shiny Pearl x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+pearl_II_1000x:
+  Id: turtle_egg
+  Display: '&5[ II ] Shiny Pearl x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+pearl_III:
+  Id: turtle_egg
+  Display: '&6[ III ] Shiny Pearl'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+pearl_III_100x:
+  Id: turtle_egg
+  Display: '&6[ III ] Shiny Pearl x100'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+pearl_III_1000x:
+  Id: turtle_egg
+  Display: '&6[ III ] Shiny Pearl x1000'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
+ocean_heart_I:
+  Id: heart_of_the_sea
+  Display: '&9[ I ] Heart of the Ocean'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+ocean_heart_II:
+  Id: heart_of_the_sea
+  Display: '&5[ II ] Heart of the Ocean'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+ocean_heart_III:
+  Id: heart_of_the_sea
+  Display: '&6&6[ III ] Heart of the Ocean'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+#&9[ I ]
+#&1&1[ II ]
+#&6&6[ III ]
+#CURRENCY CURRENCY CURRENCY
+#CURRENCY CURRENCY CURRENCY
+#CURRENCY CURRENCY CURRENCY
+draken:
+  Id: Glistering_Melon_Slice
+  Display: '§e&lDrakenMelon'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Event currency'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+clover:
+  Id: sunflower
+  Display: '§6&lGlided Sunflower'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Unique currency'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+andermant:
+  Id: small_amethyst_bud
+  Display: '§5&lAndermant'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Premium currency'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+gold_1k:
+  Id: gold_nugget
+  Display: '§eGold Coin`s - 1k $'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic trading currency'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+gold_10k:
+  Id: gold_nugget
+  Display: '§eGold Coin`s - 10k $'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic trading currency'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+gold_100k:
+  Id: gold_nugget
+  Display: '§eGold Coin`s - 100k $'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic trading currency'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+gold_1kk:
+  Id: gold_nugget
+  Display: '§eGold Coin`s - 1m $'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic trading currency'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+gold_10kk:
+  Id: gold_nugget
+  Display: '§eGold Coin`s - 10m $'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic trading currency'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+gold_100kk:
+  Id: gold_nugget
+  Display: '§eGold Coin`s - 100m $'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic trading currency'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+gold_1kkk:
+  Id: gold_nugget
+  Display: '§eGold Coin`s - 1b $'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic trading currency'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
+# DO NPC DO NPC DO NPC
+# DO NPC DO NPC DO NPC
+# DO NPC DO NPC DO NPC
+
+sell_button:
+  Id: red_wool
+  Display: '§cSell'
+  Group: button
+
+craft_button:
+  Id: lime_wool
+  Display: '§2Craft'
+  Group: button
+
+buy_button:
+  Id: yellow_wool
+  Display: '§eBuy'
+  Group: button
+
+background:
+  Id: white_stained_glass_pane
+  Display: ' '
+  Group: button
+
+
+q1_button:
+  Id: nether_bricks
+  Display: '&eQ1'
+  Group: button
+
+q2_button:
+  Id: stripped_jungle_wood
+  Display: '&eQ2'
+  Group: button
+
+q3_button:
+  Id: gray_concrete
+  Display: '&eQ3'
+  Group: button
+
+q4_button:
+  Id: honey_block
+  Display: '&eQ4'
+  Group: button
+
+q5_button:
+  Id: crying_obsidian
+  Display: '&eQ5'
+  Group: button
+
+q6_button:
+  Id: blackstone
+  Display: '&eQ6'
+  Group: button
+
+q7_button:
+  Id: magma_block
+  Display: '&eQ7'
+  Group: button
+
+q8_button:
+  Id: snow_block
+  Display: '&eQ8'
+  Group: button
+
+q9_button:
+  Id: prismarine
+  Display: '&eQ9'
+  Group: button
+
+q10_button:
+  Id: dried_kelp_block
+  Display: '&eQ10'
+  Group: button
+
+q_infernal_button:
+  Id: light_blue_wool
+  Display: '&9Infernal'
+  Group: button
+
+q_hell_button:
+  Id: blue_wool
+  Display: '&1Hell'
+  Group: button
+
+q_blood_button:
+  Id: orange_wool
+  Display: '&6Bloodshed'
+  Group: button
+
+q+1_button:
+  Id: oak_button
+  Display: '&e+1'
+  Group: button
+
+q+2_button:
+  Id: oak_button
+  Display: '&e+2'
+  Group: button
+
+q+3_button:
+  Id: oak_button
+  Display: '&e+3'
+  Group: button
+
+q+4_button:
+  Id: oak_button
+  Display: '&e+4'
+  Group: button

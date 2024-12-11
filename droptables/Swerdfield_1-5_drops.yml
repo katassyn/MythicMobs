@@ -1,0 +1,27 @@
+undead_villager_drops:
+  Drops:
+   # - experience 10
+   # - money 10
+    - undead_villager_item_drops 1
+undead_villager_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - worn_chainmail 1 0.05
+    - torn_leggings 1 0.05
+    - decent_blade 1 0.01
+    - tabi_boots 1 0.005
+
+undead_knight_drops:
+  Drops:
+    - broken_armor_piece 1 0.25
+    - undead_knight_item_drops 1
+undead_knight_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - worn_chainmail 1 0.075
+    - torn_leggings 1 0.075
+    - decent_blade 1 0.03
+    - tabi_boots 1 0.015
+    - bobs_helmet 1 0.005

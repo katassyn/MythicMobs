@@ -1,0 +1,89 @@
+q_inf_mob_crafting:
+  Drops:
+    - q_inf_mob_crafting_item_drops 1
+q_inf_mob_crafting_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - mob_soul_I 1 0.05
+    - ore_I 1 0.025
+    - leaf_I 1 0.025
+    - alga_I 1 0.025
+    - andermant 1-3 0.025
+
+q_hell_mob_crafting:
+  Drops:
+    - q_hell_mob_crafting_item_drops 1
+q_hell_mob_crafting_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - mob_soul_II 1 0.05
+    - ore_II 1 0.025
+    - leaf_II 1 0.025
+    - alga_II 1 0.025
+    - andermant 3-5 0.025
+
+q_blood_mob_crafting:
+  Drops:
+    - q_blood_mob_crafting_item_drops 1
+q_blood_mob_crafting_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - mob_soul_III 1 0.05
+    - ore_III 1 0.025
+    - leaf_III 1 0.025
+    - alga_III 1 0.025
+    - andermant 5-10 0.025
+
+q_inf_elite_crafting:
+  Drops:
+    - q_inf_elite_crafting_item_drops 1
+q_inf_elite_crafting_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - mob_soul_I 1 0.05
+    - elite_heart_I 1 0.1
+    - ore_I 1 0.025
+    - leaf_I 1 0.025
+    - blood_I 1 0.05
+    - bone_I 1 0.05
+    - alga_I 1 0.025
+    - pearl_I 1 0.05
+    - andermant 1-3 0.025
+
+q_hell_elite_crafting:
+  Drops:
+    - q_hell_elite_crafting_item_drops 1
+q_hell_elite_crafting_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - mob_soul_II 1 0.05
+    - elite_heart_II 1 0.1
+    - ore_II 1 0.025
+    - leaf_II 1 0.025
+    - blood_II 1 0.05
+    - bone_II 1 0.05
+    - alga_II 1 0.025
+    - pearl_II 1 0.05
+    - andermant 3-5 0.025
+
+q_blood_elite_crafting:
+  Drops:
+    - q_blood_elite_crafting_item_drops 1
+q_blood_elite_crafting_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - mob_soul_I 1 0.05
+    - elite_heart_I 1 0.1
+    - ore_I 1 0.025
+    - leaf_I 1 0.025
+    - blood_I 1 0.05
+    - bone_I 1 0.05
+    - alga_I 1 0.025
+    - pearl_I 1 0.05
+    - andermant 1-3 0.025

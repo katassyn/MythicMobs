@@ -1,0 +1,47 @@
+priest_chest:
+  Id: leather_chestplate
+  Display:  '1'
+  Group: Mobs
+  Options:
+    Color: 50,205,50
+    Unbreakable: true
+
+priest_pants:
+  Id: leather_leggings
+  Display:  '2'
+  Group: Mobs
+  Options:
+    Color: 50,205,50
+    Unbreakable: true
+
+priest_head:
+  Id: leather_helmet
+  Group: Mobs
+  Display:  '3'
+  Options:
+    Color: 50,205,50
+    Unbreakable: true
+
+snooper_chest:
+  Id: leather_chestplate
+  Display:  '1'
+  Group: Mobs
+  Options:
+    Color: 128,128,0
+    Unbreakable: true
+
+snooper_pants:
+  Id: leather_leggings
+  Display:  '2'
+  Group: Mobs
+  Options:
+    Color: 128,128,0
+    Unbreakable: true
+
+snooper_head:
+  Id: leather_helmet
+  Group: Mobs
+  Display:  '3'
+  Options:
+    Color: 128,128,0
+    Unbreakable: true

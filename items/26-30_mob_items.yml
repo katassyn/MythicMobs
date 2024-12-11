@@ -1,0 +1,39 @@
+satyr_chest:
+  Id: leather_chestplate
+  Display:  '1'
+  Group: Mobs
+  Options:
+    Color: 230,230,143
+    Unbreakable: true
+
+satyr_legs:
+  Id: leather_leggings
+  Display:  '2'
+  Group: Mobs
+  Options:
+    Color: 230,230,143
+    Unbreakable: true
+
+satyr_boots:
+  Id: leather_boots
+  Display:  '2'
+  Group: Mobs
+  Options:
+    Color: 230,230,143
+    Unbreakable: true
+
+satyr_bow:
+  id: bow
+  Display: "2"
+  Group: Mobs
+  Enchantments:
+    - ARROW_DAMAGE:125
+
+cyclops_legs:
+  Id: leather_leggings
+  Display:  '2'
+  Group: Mobs
+  Options:
+    Color: 134,122,13
+    Unbreakable: true
+

@@ -1,0 +1,92 @@
+normal:
+  Type:
+  Display: '&l(name) [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health:
+  Damage:
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: ''
+  Faction:
+  Group:
+  Equipment:
+    -  HEAD
+    -  CHEST
+    -  LEGS
+    -  FEET
+    -  HAND
+  Drops:
+    - name_moba
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+elita:
+  Type:
+  Display: '&e&l (name)&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health:
+  Damage:
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: ''
+  Faction:
+  Group:
+  Equipment:
+    -  HEAD
+    -  CHEST
+    -  LEGS
+    -  FEET
+    -  HAND
+  Drops:
+    - name_moba
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+mini_boss:
+  Type:
+  Display: '&5&l (name)&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health:
+  Damage:
+  Armor: 0
+  Options:
+    FollowRange: 10
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: ''
+    KnockbackResistance: 0.5
+  Faction:
+  Group:
+  Equipment:
+    -  HEAD
+    -  CHEST
+    -  FEET
+    -  LEGS
+    -  HAND
+    -  OFFHAND
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - name_moba

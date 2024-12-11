@@ -1,0 +1,200 @@
+dune_wrap:
+  Id: leather_helmet
+  Display: '&l&a⬧&r &aDune Wrap'
+  Group: 26-30
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:7
+  Lore:
+    - ''
+    - '&7Protection:&9 7 🛡'
+    - '&lRarity:&r &aImproved'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+    Color: 166,255,169
+  Hide:
+    - ATTRIBUTES
+
+
+desert_sandals:
+  Id: diamond_boots
+  Display: '&l&a⬧&r &aDesert Sandals'
+  Group: 26-30
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:7
+  Lore:
+    - ''
+    - '&7Protection:&9 7 🛡'
+    - '&lRarity:&r &aImproved'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+
+sandstorm_leggings:
+  Id: diamond_leggings
+  Display: '&l&9✦&r &9Sandstorm Leggings'
+  Group: 26-30
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:10
+  Lore:
+    - ''
+    - '&7Protection:&9 10 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=0;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+
+sunfire_chestplate:
+  Id: diamond_chestplate
+  Display: '&l&9✦&r &9Sunfire Chestplate'
+  Group: 26-30
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:10
+  Lore:
+    - ''
+    - '&7Protection:&9 10 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=4;p=false;force=true;hasIcon=false} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+flamecaller_scimitar:
+  Id: iron_sword
+  Display: '&l&9✦&r &9Flamecaller Scimitar'
+  Group: 26-30
+  Lore:
+    - ''
+    - '§7(Strong against players)'
+    - '§7Damage: §c21 ⚔ '
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideAttributes: true
+    Unbreakable: true
+    HideFlags: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 15 ADD
+  Enchantments:
+    - DAMAGE_ALL:10
+
+inferno_dagger:
+  Id: diamond_sword
+  Display: '&l&9✦&r &9Inferno Dagger'
+  Group: 26-30
+  Lore:
+    - ''
+    - '§7Damage: §c25 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideAttributes: true
+    HideFlags: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 25 ADD
+
+eternal_ember_chestplate:
+  Id: diamond_chestplate
+  Display: '&l&5✯&r &5Eternal Ember Chestplate'
+  Group: 26-30
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:15
+    - PROTECTION_FIRE:10
+  Lore:
+    - ''
+    - '&7Protection:&9 15 🛡'
+    - '&7Fire Protection:&c 10 🔥'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=4;p=false;force=true;hasIcon=false} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+flamewarden_helm:
+  Id: diamond_helmet
+  Display: '&l&5✯&r &5Flamewarden Helm'
+  Group: 26-30
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:10
+    - PROTECTION_FIRE:15
+  Lore:
+    - ''
+    - '&7Protection:&9 10 🛡'
+    - '&7Fire Protection:&c 15 🔥'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=0;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+scorchweaver_leggings:
+  Id: diamond_leggings
+  Display: '&6⚜ &6Scorchweaver Leggings'
+  Group: 26-30
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:20
+    - PROTECTION_FIRE:20
+  Lore:
+    - ''
+    - '&7Protection:&9 20 🛡'
+    - '&7Fire Protection:&c 20 🔥'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=0;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+doomsday_scythe:
+  Id: stone_hoe
+  Display: '&6⚜ &6Doomsday Scythe'
+  Group: 26-30
+  Lore:
+    - ''
+    - '§7Damage: §c60 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 60 ADD
+

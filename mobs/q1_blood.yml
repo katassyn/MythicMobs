@@ -1,0 +1,201 @@
+flamecult_servant_blood:
+  Type: ZOMBIE
+  Disguise: SKELETON
+  Display: '&lFlamecult Servant &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 7500 #x10 z infa
+  Damage: 750  #x5 z infa
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.3'
+  Faction: q1_blood
+  Group: q1_blood
+  Equipment:
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - flamecult_servant_blood
+    - q_blood_mob_crafting
+
+flamecult_archer_blood:
+  Type: SKELETON
+  Display: '&lFlamecult Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 5000
+  Damage: 1250
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.25'
+  Faction: q1_blood
+  Group: q1_blood
+  Equipment:
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - flamecult_servant_blood
+    - q_blood_mob_crafting
+
+flamecult_worshipper_blood:
+  Type: SKELETON
+  Display: '&e&lFlamecult Worshipper&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 10000
+  Damage: 1000
+  Options:
+    FollowRange: 20
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.2'
+    Despawn: CHUNK
+  Faction: q1_blood
+  Group: q1_blood
+  Equipment:
+    - leather_helmet{color=blue} HEAD
+    - leather_chestplate{color=blue} CHEST
+    - leather_leggings{color=blue} LEGS
+    - leather_boots{color=blue} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummonServants_blood} ~onDamaged
+    - skill{s=PowerfulProjectile} @target ~onTimer:10
+  Drops:
+    - flamecult_worshipper_blood
+    - q_blood_elite_crafting
+
+perral_world_dragonknight_blood:
+  Type: SKELETON
+  Display: '&5&lPerral World Dragonknight&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 30000
+  Damage: 750
+  Options:
+    FollowRange: 20
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.35'
+    KnockbackResistance: 0.85
+    Despawn: CHUNK
+  Faction: q1_blood
+  Group: q1_blood
+  Equipment:
+    - diamond_helmet HEAD
+    - diamond_chestplate CHEST
+    - diamond_leggings LEGS
+    - diamond_boots FEET
+    - diamond_Sword HAND
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=CatapultProjectile} @PlayersInRadius{r=30} ~onTimer:60
+  Drops:
+    - raazghul_the_corruptor_blood
+    - q_blood_elite_crafting
+
+
+raazghul_the_corruptor_blood:
+  Type: ZOMBIE
+  Display: '&5&lRaazghul the Corruptor&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 20000
+  Damage: 1250
+  Options:
+    FollowRange: 25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.2'
+    KnockbackResistance: 0.85
+    Despawn: CHUNK
+  Faction: q1_blood
+  Group: q1_blood
+  Equipment:
+    - leather_helmet{color=red} HEAD
+    - leather_chestplate{color=red} CHEST
+    - leather_leggings{color=red} LEGS
+    - leather_boots{color=red} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummonServants_blood} ~onDamaged
+    - skill{s=ExplosiveFireball} @target ~onTimer:10
+  Drops:
+    - raazghul_the_corruptor_blood
+    - q_blood_elite_crafting
+
+grimmag_blood:
+  Type: ZOMBIE
+  Display: '&4 <&skull> &l Grimmag the Risen&r&4 <&skull>'
+  Health: 50000
+  Damage: 1500
+  BossBar:
+    Enabled: true
+    Title: ' &c<&skull> Grimmag the Risen - <mob.hp{round=0}> <&skull>'
+    Range: 50
+    Color: RED
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.4'
+    KnockbackResistance: 0.85
+    Despawn: CHUNK
+  Faction: q1_blood
+  Group: q1_blood
+  Equipment:
+    - wither_skeleton_skull HEAD
+    - leather_chestplate{color=red} CHEST
+    - leather_leggings{color=red} LEGS
+    - leather_boots{color=red} FEET
+    - lightning_rod hand
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=TeleportToPlayer} @target ~onTimer:10
+    - skill{s=BurningShotElite} @PIR{r=40} >0 0.2
+    - skill{s=SummonFlamecultServants_blood} @target ~onDamaged <50%
+  Drops:
+    - grimmag_blood

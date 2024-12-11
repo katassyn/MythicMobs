@@ -1,0 +1,163 @@
+# INF INF INF
+# INF INF INF
+# INF INF INF
+flamecult_servant_inf:
+  Drops:
+    - ips 1 0.01
+    - flamecult_servant_inf_item_drops 1
+flamecult_servant_inf_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - fireman_pants 1 0.01
+    - pyro_helmet 1 0.01
+    - path_of_the_untouchables 1 0.01
+    - cuchulains_battle_armor 1 0.0005
+flamecult_worshipper_inf:
+  Drops:
+    - ips 1 0.25
+    - flamecult_worshipper_inf_item_drops 1
+flamecult_worshipper_inf_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - fireman_pants 1 0.25
+    - pyro_helmet 1 0.25
+    - path_of_the_untouchables 1 0.05
+    - cuchulains_battle_armor 1 0.01
+raazghul_the_corruptor_inf:
+  Drops:
+    - ips 1 0.5
+    - raazghul_the_corruptor_inf_item_drops 1
+raazghul_the_corruptor_inf_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - fireman_pants 1 0.5
+    - pyro_helmet 1 0.5
+    - path_of_the_untouchables 1 0.1
+    - cuchulains_battle_armor 1 0.04
+grimmag_inf:
+  Drops:
+    - grimmag_frag_I 1 0.05
+    - ips 1 1
+    - grimmag_inf_item_drops 1
+grimmag_inf_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - fireman_pants 1 1
+    - pyro_helmet 1 1
+    - path_of_the_untouchables 1 0.25
+    - cuchulains_battle_armor 1 0.1
+# HELL HELL HELL
+# HELL HELL HELL
+# HELL HELL HELL
+
+flamecult_servant_hell:
+  Drops:
+    - ips 2 0.01
+    - flamecult_servant_hell_item_drops 1
+flamecult_servant_hell_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - fireman_pants_hell 1 0.01
+    - pyro_helmet_hell 1 0.01
+    - path_of_the_untouchables_hell 1 0.02
+    - cuchulains_battle_armor_hell 1 0.001
+
+flamecult_worshipper_hell:
+  Drops:
+    - ips 2 0.25
+    - flamecult_worshipper_hell_item_drops 1
+flamecult_worshipper_hell_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - fireman_pants_hell 1 0.025
+    - pyro_helmet_hell 1 0.025
+    - path_of_the_untouchables_hell 1 0.1
+    - cuchulains_battle_armor_hell 1 0.02
+
+raazghul_the_corruptor_hell:
+  Drops:
+    - ips 2 0.5
+    - raazghul_the_corruptor_hell_item_drops 1
+raazghul_the_corruptor_hell_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - cuchulains_battle_armor_hell 1 0.05
+    - grimmags_flaming_wrath 1 0.0125
+    - fiery_tracks_of_grimmag 1 0.0125
+
+grimmag_hell:
+  Drops:
+    - grimmag_frag_II 1 0.05
+    - ips 2 1
+    - grimmag_hell_item_drops 1
+grimmag_hell_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - cuchulains_battle_armor_hell 1 0.125
+    - grimmags_flaming_wrath 1 0.025
+    - fiery_tracks_of_grimmag 1 0.025
+
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+
+flamecult_servant_blood:
+  Drops:
+    - ips 3 0.01
+    - flamecult_servant_blood_item_drops 1
+flamecult_servant_blood_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - fireman_pants_bloodshed 1 0.01
+    - pyro_helmet_bloodshed 1 0.01
+    - path_of_the_untouchables_bloodshed 1 0.03
+    - cuchulains_battle_armor_bloodshed 1 0.005
+
+flamecult_worshipper_blood:
+  Drops:
+    - ips 3 0.01
+    - flamecult_worshipper_blood_item_drops 1
+flamecult_worshipper_blood_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - fireman_pants_bloodshed 1 0.25
+    - pyro_helmet_bloodshed 1 0.025
+    - path_of_the_untouchables_bloodshed 1 0.2
+    - cuchulains_battle_armor_bloodshed 1 0.03
+
+raazghul_the_corruptor_blood:
+  Drops:
+    - ips 3 0.5
+    - raazghul_the_corruptor_blood_item_drops 1
+raazghul_the_corruptor_blood_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - cuchulains_battle_armor_bloodshed 1 0.06
+    - grimmags_flaming_wrath_bloodshed 1 0.025
+    - fiery_tracks_of_grimmag_bloodshed 1 0.025
+    - fyrgons_ring_of_fire 1 0.001
+
+grimmag_blood:
+  Drops:
+    - grimmag_frag_III 1 0.05
+    - ips 3 1
+    - grimmag_blood_item_drops 1
+grimmag_blood_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - cuchulains_battle_armor_bloodshed 1 0.15
+    - grimmags_flaming_wrath_bloodshed 1 0.05
+    - fiery_tracks_of_grimmag_bloodshed 1 0.05
+    - fyrgons_ring_of_fire 1 0.01

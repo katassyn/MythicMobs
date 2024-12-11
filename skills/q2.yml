@@ -1,0 +1,286 @@
+# -----------------------------------------
+# Umiejętności
+# -----------------------------------------
+
+# Magic Projectile for Death Witch (Infernal)
+MagicProjectile_inf:
+  Cooldown: 5
+  Skills:
+    - damage{a=40} @target
+    - effect:particles{p=SPELL_WITCH;amount=20;speed=1} @target
+
+# Summon Sphere for Death Witch (Infernal)
+SummonSphere_inf:
+  Cooldown: 15
+  Skills:
+    - summon{mob=gremlin_marauder_inf;amount=1;radius=0;noise=0} @target
+    - effect:particles{p=POOF;amount=30;speed=1} @target
+
+# Magic Projectile for Death Witch (Hell)
+MagicProjectile_hell:
+  Cooldown: 4
+  Skills:
+    - damage{a=80} @target
+    - effect:particles{p=SPELL_WITCH;amount=20;speed=1} @target
+
+# Summon Sphere for Death Witch (Hell)
+SummonSphere_hell:
+  Cooldown: 12
+  Skills:
+    - summon{mob=gremlin_marauder_hell;amount=1;radius=0;noise=0} @target
+    - effect:particles{p=POOF;amount=30;speed=1} @target
+
+# Magic Projectile for Death Witch (Blood)
+MagicProjectile_blood:
+  Cooldown: 3
+  Skills:
+    - damage{a=200} @target
+    - effect:particles{p=SPELL_WITCH;amount=20;speed=1} @target
+
+# Summon Sphere for Death Witch (Blood)
+SummonSphere_blood:
+  Cooldown: 10
+  Skills:
+    - summon{mob=gremlin_marauder_blood;amount=1;radius=0;noise=0} @target
+    - effect:particles{p=POOF;amount=30;speed=1} @target
+
+# Vine Chase for Corrupted Root Creature (Infernal)
+VineChase_inf:
+  Cooldown: 15
+  Skills:
+    - message{m="&6Corrupted Root Creature unleashes vines!"}
+    - effect:particles{p=BLOCK_CRACK;material=VINE;amount=5;hS=0.5;vS=0.5} @target
+    - damage{a=100} @target
+    - potion{type=SLOW;duration=100;level=2} @target
+
+# Vine Chase for Corrupted Root Creature (Hell)
+VineChase_hell:
+  Cooldown: 12
+  Skills:
+    - message{m="&6Corrupted Root Creature unleashes vines!"}
+    - effect:particles{p=BLOCK_CRACK;material=VINE;amount=7;hS=0.5;vS=0.5} @target
+    - damage{a=200} @target
+    - potion{type=SLOW;duration=120;level=3} @target
+
+# Vine Chase for Corrupted Root Creature (Blood)
+VineChase_blood:
+  Cooldown: 10
+  Skills:
+    - message{m="&6Corrupted Root Creature unleashes vines!"}
+    - effect:particles{p=BLOCK_CRACK;material=VINE;amount=10;hS=0.5;vS=0.5} @target
+    - damage{a=500} @target
+    - potion{type=SLOW;duration=140;level=4} @target
+
+# Summoning Sphere for Xerib (Infernal)
+SummoningSphereXerib_inf:
+  Cooldown: 20
+  Skills:
+    - message{m="&5Xerib shouts: &d'Come forth, my minions!'"}
+    - summon{mob=gremlin_marauder_inf;amount=4;radius=3;noise=2} @target
+    - effect:particles{p=POOF;amount=30;speed=1} @target
+
+# Poison Magic Projectile for Xerib (Infernal)
+PoisonMagicProjectile_inf:
+  Cooldown: 10
+  Skills:
+    - message{m="&5Xerib hisses: &d'Taste my venom!'"}
+    - damage{a=60} @target
+    - effect:particles{p=SPELL_WITCH;amount=20;speed=1} @target
+    # Opóźnione obrażenia zamiast 'repeat'
+    - delay 20
+    - damage{a=20} @target
+    - delay 20
+    - damage{a=20} @target
+    - delay 20
+    - damage{a=20} @target
+    - delay 20
+    - damage{a=20} @target
+    - delay 20
+    - damage{a=20} @target
+
+# Falling Poison Sphere for Xerib (Infernal)
+FallingPoisonSphere_inf:
+  Cooldown: 15
+  Skills:
+    - message{m="&5Xerib cackles: &d'Feel the wrath from above!'"}
+    - effect:particles{p=SUSPENDED;amount=50;speed=1} @location
+    - damage{a=<caster.mhp>*0.1} @PlayersInRadius{r=5}
+    - potion{type=POISON;duration=80;level=2} @PlayersInRadius{r=5}
+
+# Summoning Sphere for Xerib (Hell)
+SummoningSphereXerib_hell:
+  Cooldown: 18
+  Skills:
+    - message{m="&5Xerib shouts: &d'Come forth, my minions!'"}
+    - summon{mob=gremlin_marauder_hell;amount=4;radius=3;noise=2} @target
+    - effect:particles{p=POOF;amount=30;speed=1} @target
+
+# Poison Magic Projectile for Xerib (Hell)
+PoisonMagicProjectile_hell:
+  Cooldown: 8
+  Skills:
+    - message{m="&5Xerib hisses: &d'Taste my venom!'"}
+    - damage{a=120} @target
+    - effect:particles{p=SPELL_WITCH;amount=20;speed=1} @target
+    # Opóźnione obrażenia zamiast 'repeat'
+    - delay 20
+    - damage{a=40} @target
+    - delay 20
+    - damage{a=40} @target
+    - delay 20
+    - damage{a=40} @target
+    - delay 20
+    - damage{a=40} @target
+    - delay 20
+    - damage{a=40} @target
+
+# Falling Poison Sphere for Xerib (Hell)
+FallingPoisonSphere_hell:
+  Cooldown: 12
+  Skills:
+    - message{m="&5Xerib cackles: &d'Feel the wrath from above!'"}
+    - effect:particles{p=SUSPENDED;amount=70;speed=1} @location
+    - damage{a=<caster.mhp>*0.1} @PlayersInRadius{r=5}
+    - potion{type=POISON;duration=100;level=3} @PlayersInRadius{r=5}
+
+# Summoning Sphere for Xerib (Blood)
+SummoningSphereXerib_blood:
+  Cooldown: 15
+  Skills:
+    - message{m="&5Xerib shouts: &d'Come forth, my minions!'"}
+    - summon{mob=gremlin_marauder_blood;amount=4;radius=3;noise=2} @target
+    - effect:particles{p=POOF;amount=30;speed=1} @target
+
+# Poison Magic Projectile for Xerib (Blood)
+PoisonMagicProjectile_blood:
+  Cooldown: 6
+  Skills:
+    - message{m="&5Xerib hisses: &d'Taste my venom!'"}
+    - damage{a=300} @target
+    - effect:particles{p=SPELL_WITCH;amount=20;speed=1} @target
+    # Opóźnione obrażenia zamiast 'repeat'
+    - delay 20
+    - damage{a=100} @target
+    - delay 20
+    - damage{a=100} @target
+    - delay 20
+    - damage{a=100} @target
+    - delay 20
+    - damage{a=100} @target
+    - delay 20
+    - damage{a=100} @target
+
+# Falling Poison Sphere for Xerib (Blood)
+FallingPoisonSphere_blood:
+  Cooldown: 10
+  Skills:
+    - message{m="&5Xerib cackles: &d'Feel the wrath from above!'"}
+    - effect:particles{p=SUSPENDED;amount=100;speed=1} @location
+    - damage{a=<caster.mhp>*0.1} @PlayersInRadius{r=5}
+    - potion{type=POISON;duration=120;level=4} @PlayersInRadius{r=5}
+
+# Throw Stone for Archus the Mad (Infernal)
+ThrowStone_inf:
+  Cooldown: 12
+  Skills:
+    - damage{a=150} @target
+    - potion{type=SLOW;duration=100;level=3} @target
+    - potion{type=CONFUSION;duration=100;level=1} @target
+    - effect:particles{p=BLOCK_BREAK;material=COBBLESTONE;amount=30} @target
+
+# Throw Stone for Archus the Mad (Hell)
+ThrowStone_hell:
+  Cooldown: 10
+  Skills:
+    - damage{a=300} @target
+    - potion{type=SLOW;duration=120;level=4} @target
+    - potion{type=CONFUSION;duration=120;level=1} @target
+    - effect:particles{p=BLOCK_BREAK;material=COBBLESTONE;amount=40} @target
+
+# Throw Stone for Archus the Mad (Blood)
+ThrowStone_blood:
+  Cooldown: 8
+  Skills:
+    - damage{a=750} @target
+    - potion{type=SLOW;duration=140;level=5} @target
+    - potion{type=CONFUSION;duration=140;level=2} @target
+    - effect:particles{p=BLOCK_BREAK;material=COBBLESTONE;amount=50} @target
+
+# Web Shot for Arachna (Infernal)
+WebShot_inf:
+  Cooldown: 10
+  Skills:
+    - message{m="&cArachna shoots webs at you!"} @PlayersInRadius{r=30}
+    - potion{type=SLOW;duration=100;level=3} @target
+    - damage{a=100} @target
+    - effect:particles{p=BLOCK_CRACK;material=COBWEB;amount=20} @target
+
+# Venom Spit for Arachna (Infernal)
+VenomSpit_inf:
+  Cooldown: 15
+  Skills:
+    - message{m="&cArachna spits venom!"} @PlayersInRadius{r=30}
+    - potion{type=POISON;duration=120;level=2} @target
+    - damage{a=150} @target
+    - effect:particles{p=SPELL_INSTANT;amount=30;speed=1} @target
+
+# Summon Poisonous Spiders for Arachna (Infernal)
+SummonPoisonousSpiders_inf:
+  Cooldown: 25
+  Skills:
+    - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=30}
+    - summon{mob=poisonous_spider_inf;amount=10;radius=10;noise=5} @self
+
+# Falling Poison Sphere for Arachna (Infernal)
+# Web Shot for Arachna (Hell)
+WebShot_hell:
+  Cooldown: 8
+  Skills:
+    - message{m="&cArachna shoots webs at you!"} @PlayersInRadius{r=35}
+    - potion{type=SLOW;duration=120;level=4} @target
+    - damage{a=200} @target
+    - effect:particles{p=BLOCK_CRACK;material=COBWEB;amount=25} @target
+
+# Venom Spit for Arachna (Hell)
+VenomSpit_hell:
+  Cooldown: 12
+  Skills:
+    - message{m="&cArachna spits venom!"} @PlayersInRadius{r=35}
+    - potion{type=POISON;duration=140;level=3} @target
+    - damage{a=300} @target
+    - effect:particles{p=SPELL_INSTANT;amount=40;speed=1} @target
+
+# Summon Poisonous Spiders for Arachna (Hell)
+SummonPoisonousSpiders_hell:
+  Cooldown: 22
+  Skills:
+    - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=35}
+    - summon{mob=poisonous_spider_hell;amount=12;radius=12;noise=6} @self
+
+# Falling Poison Sphere for Arachna (Hell)
+# Web Shot for Arachna (Blood)
+WebShot_blood:
+  Cooldown: 6
+  Skills:
+    - message{m="&cArachna shoots webs at you!"} @PlayersInRadius{r=40}
+    - potion{type=SLOW;duration=140;level=5} @target
+    - damage{a=500} @target
+    - effect:particles{p=BLOCK_CRACK;material=COBWEB;amount=30} @target
+
+# Venom Spit for Arachna (Blood)
+VenomSpit_blood:
+  Cooldown: 10
+  Skills:
+    - message{m="&cArachna spits venom!"} @PlayersInRadius{r=40}
+    - potion{type=POISON;duration=160;level=4} @target
+    - damage{a=750} @target
+    - effect:particles{p=SPELL_INSTANT;amount=50;speed=1} @target
+
+# Summon Poisonous Spiders for Arachna (Blood)
+SummonPoisonousSpiders_blood:
+  Cooldown: 18
+  Skills:
+    - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=40}
+    - summon{mob=poisonous_spider_blood;amount=15;radius=15;noise=7} @self
+
+# Falling Poison Sphere for Arachna (Blood)

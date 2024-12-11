@@ -1,0 +1,143 @@
+LunkyFireDemon:
+  Type: ZOMBIE
+  Display: '&lLunky Fire Demon &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 250
+  Damage: 90
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.3'
+  Faction: brigavik
+  Group: brigavik
+  Equipment:
+    - netherrack HEAD
+    - leather_chestplate{color=red} CHEST
+    - leather_leggings{color=red} LEGS
+    - leather_boots{color=red} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - LunkyFireDemon
+
+ShadowGazer:
+  Type: BABY_ZOMBIE
+  Display: '&lShadow Gazer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 700
+  Damage: 120
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.35'
+  Faction: brigavik
+  Group: brigavik
+  Equipment:
+    - leather_helmet{color=black} HEAD
+    - leather_boots{color=black} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - LunkyFireDemon
+
+HungrynorseWolf:
+  Type: ZOMBIE
+  Disguise: WOLF
+  Display: '&lHungrynorse Wolf &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 300
+  Damage: 100
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.4'
+  Faction: brigavik
+  Group: brigavik
+  Equipment: []
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - LunkyFireDemon
+
+ShadowNorseman:
+  Type: ZOMBIE
+  Display: '&e&lShadow Norseman&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1500
+  Damage: 200
+  Options:
+    FollowRange: 20
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.35'
+  Faction: brigavik
+  Group: brigavik
+  Equipment:
+    - ice_block HEAD
+    - leather_chestplate{color=blue} CHEST
+    - iron_axe HAND
+    - iron_axe OFFHAND
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=ShadowNorseman_Dash} @PlayersInRadius{r=7} ~onTimer:100
+  Drops:
+    - ShadowNorseman
+
+DemonWarden:
+  Type: ZOMBIE
+  Display: '&5&lDemon Warden&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 4000
+  Damage: 300
+  Options:
+    FollowRange: 25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.2'
+    KnockbackResistance: 0.85
+  Faction: brigavik
+  Group: brigavik
+  Equipment:
+    - wither_skeleton_skull head
+    - chainmail_chestplate CHEST
+    - chainmail_leggings LEGS
+    - shield OFFHAND
+    - stone_axe HAND
+  Skills:
+    - skill{s=SummonLunkyDemons} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - DemonWarden

@@ -1,0 +1,82 @@
+serpent_fighter:
+  Type: ZOMBIE
+  Display: '&l Serpent Fighter &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 600
+  Damage: 100
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.25'
+  Faction: 46-50
+  Group: 46-50
+  Equipment:
+    - chainmail_chestplate CHEST
+    - chainmail_leggings LEGS
+    - iron_sword HAND
+  Drops:
+    - serpent_fighter
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+serpent_spitter:
+  Type: ZOMBIE
+  Display: '&e&l Serpent Spitter&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 750
+  Damage: 150
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.25'
+  Faction: 46-50
+  Group: 46-50
+  Equipment:
+    - chainmail_chestplate CHEST
+    - chainmail_leggings LEGS
+    - bow HAND
+  Drops:
+    - serpent_spitter
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - potion{t=POISON;d=100;l=10} @target
+
+scarab_knephre:
+  Type: ZOMBIE
+  Disguise: COW
+  Display: '&5&l Knephres Scarabeus&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 4000
+  Damage: 400
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.3'
+    KnockbackResistance: 0.85
+  Faction: 46-50
+  Group: 46-50
+  Drops:
+    - scarab_knephre
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

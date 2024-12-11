@@ -1,0 +1,168 @@
+soulless_dragon_warrior:
+  Type: SKELETON
+  Display: '&lSoulless Dragon Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 75
+  Damage: 15
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.25'
+  Faction: Teganswall
+  Group: Teganswall
+  Equipment:
+    - HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+    - soul_sword HAND
+  Drops:
+    - soulless
+  DamageModifiers:
+    - FIRE -1
+    - FIRE_TICK -1
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+soulless_dragon_archer:
+  Type: SKELETON
+  Display: '&lSoulless Dragon Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 40
+  Damage: 8
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.25'
+  Faction: Teganswall
+  Group: Teganswall
+  Equipment:
+    - HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+    - soul_bow HAND
+  Drops:
+    - soulless
+  DamageModifiers:
+    - FIRE -1
+    - FIRE_TICK -1
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+dragon_berserk_thug:
+  Type: ZOMBIE
+  Display: '&e&lDragon Berserk Thug&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 100
+  Damage: 25
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.20'
+  Faction: Teganswall
+  Group: Teganswall
+  Equipment:
+    - chainmail_helmet HEAD
+    - chainmail_chestplate CHEST
+    - chainmail_leggings LEGS
+    - chainmail_boots FEET
+    - stone_sword HAND
+  Drops:
+    - dragons
+  DamageModifiers:
+    - FIRE -1
+    - FIRE_TICK -1
+  Skills:
+    - skill{s=fire} @target ~onTimer:100
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+dragon_brood_militarist:
+  Type: ZOMBIE
+  Display: '&e&lDragon-blood Militarist&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 85
+  Damage: 25
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.3'
+  Faction: Teganswall
+  Group: Teganswall
+  Equipment:
+    - netherite_chestplate CHEST
+    - golden_axe HAND
+  Drops:
+    - dragons
+  DamageModifiers:
+    - FIRE -1
+    - FIRE_TICK -1
+  Skills:
+    - skill{s=fireball} @target ~onTimer:100
+    - skill{s=fire} @target ~onTimer:100
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+commander_emberwing:
+  Type: ZOMBIE
+  Display: '&5&lCommander Goldwing&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 200
+  Damage: 35
+  Armor: 0
+  Options:
+    FollowRange: 10
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.30'
+    KnockbackResistance: 0.5
+  Faction: Teganswall
+  Group: Teganswall
+  Equipment:
+    - blaze_skull HEAD
+    - golden_chestplate CHEST
+    - golden_boots FEET
+    - golden_leggings LEGS
+    - commander_sword HAND
+    - commander_sword OFFHAND
+  Skills:
+    - skill{s=fire#2} @target ~onTimer:100
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - commander
+  DamageModifiers:
+    - FIRE -1
+    - FIRE_TICK -1

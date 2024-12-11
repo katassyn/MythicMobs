@@ -1,0 +1,90 @@
+fireman_pants:
+  Id: iron_leggings
+  Display: '&9[ I ] &9Fireman Pants'
+  Group: q1-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:40
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 40 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+pyro_helmet:
+  Id: iron_helmet
+  Display: '&9[ I ] &9Pyro Helmet'
+  Group: q1-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:40
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 40 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+path_of_the_untouchables:
+  Id: diamond_boots
+  Display: '&9[ I ] &5Path of the Untouchables'
+  Group: q1-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:50
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 50 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10 # Speed III
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+cuchulains_battle_armor:
+  Id: diamond_chestplate
+  Display: '&9[ I ] &6Cuchulain`s Battle Armor'
+  Group: q1-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:60
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 60 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 50 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+

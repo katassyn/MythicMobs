@@ -1,0 +1,27 @@
+mapa31-35mini_boss#1:
+  MobName: high_priest_baran
+  World: world
+  X: -449
+  Y: -58
+  Z: -117
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 0.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '1'
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 2000
+  Warmup: 0
+  ActivationRange: 12.0
+  ScalingRange: 25.0
+  LeashRange: 32.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: true
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  CooldownTimer: 1

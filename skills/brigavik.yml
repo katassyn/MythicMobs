@@ -1,0 +1,10 @@
+SummonLunkyDemons:
+  Cooldown: 15
+  Skills:
+    - summon{mob=LunkyFireDemon;amount=10;noise=5} @Self
+
+ShadowNorseman_Dash:
+  Cooldown: 15
+  Skills:
+    - leap{v=1;y=0.5} @target
+    - damage{a=100} @target ~onHit

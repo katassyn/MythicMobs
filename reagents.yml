@@ -1,0 +1,5 @@
+
+Mana:
+  Display: 'Mana'
+  MinValue: 0
+  MaxValue: 1000

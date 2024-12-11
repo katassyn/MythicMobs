@@ -1,0 +1,2546 @@
+dark_exile_helm_infernal:
+  Id: chainmail_helmet
+  Display: '&9[ I ] &6Dark Exile Helm'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 80 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_helm_infernal+1:
+  Id: chainmail_helmet
+  Display: '&9[ I ] &6Dark Exile Helm'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 85 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:85
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_helm_infernal+2:
+  Id: chainmail_helmet
+  Display: '&9[ I ] &6Dark Exile Helm'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 90 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:90
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_helm_infernal+3:
+  Id: chainmail_helmet
+  Display: '&9[ I ] &6Dark Exile Helm'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 95 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:95
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_helm_infernal+4:
+  Id: chainmail_helmet
+  Display: '&9[ I ] &6Dark Exile Helm'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+dark_exile_helm_hell:
+  Id: chainmail_helmet
+  Display: '&5[ II ] &6Dark Exile Helm'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 90 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:90
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_helm_hell+1:
+  Id: chainmail_helmet
+  Display: '&5[ II ] &6Dark Exile Helm'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 95 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:95
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_helm_hell+2:
+  Id: chainmail_helmet
+  Display: '&5[ II ] &6Dark Exile Helm'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_helm_hell+3:
+  Id: chainmail_helmet
+  Display: '&5[ II ] &6Dark Exile Helm'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 105 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:105
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_helm_hell+4:
+  Id: chainmail_helmet
+  Display: '&5[ II ] &6Dark Exile Helm'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 110 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:110
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+dark_exile_helm_blood:
+  Id: chainmail_helmet
+  Display: '&6[ III ] &6Dark Exile Helm'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=4;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_helm_blood+1:
+  Id: chainmail_helmet
+  Display: '&6[ III ] &6Dark Exile Helm'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 105 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:105
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=4;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_helm_blood+2:
+  Id: chainmail_helmet
+  Display: '&6[ III ] &6Dark Exile Helm'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 110 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:110
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=4;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_helm_blood+3:
+  Id: chainmail_helmet
+  Display: '&6[ III ] &6Dark Exile Helm'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 115 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:115
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=4;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_helm_blood+4:
+  Id: chainmail_helmet
+  Display: '&6[ III ] &6Dark Exile Helm'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 120 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:120
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=4;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+dark_exile_chestplate_infernal:
+  Id: chainmail_chestplate
+  Display: '&9[ I ] &6Dark Exile Chestplate'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 80 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=34;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_chestplate_infernal+1:
+  Id: chainmail_chestplate
+  Display: '&9[ I ] &6Dark Exile Chestplate'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 85 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:85
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=34;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_chestplate_infernal+2:
+  Id: chainmail_chestplate
+  Display: '&9[ I ] &6Dark Exile Chestplate'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 90 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:90
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=34;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_chestplate_infernal+3:
+  Id: chainmail_chestplate
+  Display: '&9[ I ] &6Dark Exile Chestplate'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 95 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:95
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=34;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_chestplate_infernal+4:
+  Id: chainmail_chestplate
+  Display: '&9[ I ] &6Dark Exile Chestplate'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=34;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+dark_exile_chestplate_hell:
+  Id: chainmail_chestplate
+  Display: '&5[ II ] &6Dark Exile Chestplate'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 90 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:90
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=39;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_chestplate_hell+1:
+  Id: chainmail_chestplate
+  Display: '&5[ II ] &6Dark Exile Chestplate'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 95 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:95
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=39;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_chestplate_hell+2:
+  Id: chainmail_chestplate
+  Display: '&5[ II ] &6Dark Exile Chestplate'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=39;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_chestplate_hell+3:
+  Id: chainmail_chestplate
+  Display: '&5[ II ] &6Dark Exile Chestplate'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 105 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:105
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=39;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_chestplate_hell+4:
+  Id: chainmail_chestplate
+  Display: '&5[ II ] &6Dark Exile Chestplate'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 110 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:110
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=39;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+dark_exile_chestplate_blood:
+  Id: chainmail_chestplate
+  Display: '&6[ III ] &6Dark Exile Chestplate'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=49;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_chestplate_blood+1:
+  Id: chainmail_chestplate
+  Display: '&6[ III ] &6Dark Exile Chestplate'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 105 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:105
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=49;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_chestplate_blood+2:
+  Id: chainmail_chestplate
+  Display: '&6[ III ] &6Dark Exile Chestplate'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 110 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:110
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=49;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_chestplate_blood+3:
+  Id: chainmail_chestplate
+  Display: '&6[ III ] &6Dark Exile Chestplate'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 115 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:115
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=49;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_chestplate_blood+4:
+  Id: chainmail_chestplate
+  Display: '&6[ III ] &6Dark Exile Chestplate'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 120 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:120
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=49;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+dark_exile_leggings_infernal:
+  Id: chainmail_leggings
+  Display: '&9[ I ] &6Dark Exile Leggings'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 80 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_leggings_infernal+1:
+  Id: chainmail_leggings
+  Display: '&9[ I ] &6Dark Exile Leggings'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 85 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:85
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_leggings_infernal+2:
+  Id: chainmail_leggings
+  Display: '&9[ I ] &6Dark Exile Leggings'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 90 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:90
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_leggings_infernal+3:
+  Id: chainmail_leggings
+  Display: '&9[ I ] &6Dark Exile Leggings'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 95 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:95
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_leggings_infernal+4:
+  Id: chainmail_leggings
+  Display: '&9[ I ] &6Dark Exile Leggings'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+dark_exile_leggings_hell:
+  Id: chainmail_leggings
+  Display: '&5[ II ] &6Dark Exile Leggings'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 90 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:90
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_leggings_hell+1:
+  Id: chainmail_leggings
+  Display: '&5[ II ] &6Dark Exile Leggings'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 95 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:95
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_leggings_hell+2:
+  Id: chainmail_leggings
+  Display: '&5[ II ] &6Dark Exile Leggings'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_leggings_hell+3:
+  Id: chainmail_leggings
+  Display: '&5[ II ] &6Dark Exile Leggings'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 105 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:105
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_leggings_hell+4:
+  Id: chainmail_leggings
+  Display: '&5[ II ] &6Dark Exile Leggings'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 110 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:110
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+dark_exile_leggings_blood:
+  Id: chainmail_leggings
+  Display: '&6[ III ] &6Dark Exile Leggings'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=4;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_leggings_blood+1:
+  Id: chainmail_leggings
+  Display: '&6[ III ] &6Dark Exile Leggings'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 105 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:105
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=4;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_leggings_blood+2:
+  Id: chainmail_leggings
+  Display: '&6[ III ] &6Dark Exile Leggings'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 110 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:110
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=4;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_leggings_blood+3:
+  Id: chainmail_leggings
+  Display: '&6[ III ] &6Dark Exile Leggings'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 115 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:115
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=4;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_leggings_blood+4:
+  Id: chainmail_leggings
+  Display: '&6[ III ] &6Dark Exile Leggings'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 120 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:120
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=4;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_boots_infernal:
+  Id: chainmail_boots
+  Display: '&9[ I ] &6Dark Exile Boots'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 80 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_boots_infernal+1:
+  Id: chainmail_boots
+  Display: '&9[ I ] &6Dark Exile Boots'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 85 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:85
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_boots_infernal+2:
+  Id: chainmail_boots
+  Display: '&9[ I ] &6Dark Exile Boots'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 90 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:90
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_boots_infernal+3:
+  Id: chainmail_boots
+  Display: '&9[ I ] &6Dark Exile Boots'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 95 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:95
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_boots_infernal+4:
+  Id: chainmail_boots
+  Display: '&9[ I ] &6Dark Exile Boots'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.15 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+dark_exile_boots_hell:
+  Id: chainmail_boots
+  Display: '&5[ II ] &6Dark Exile Boots'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 90 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:90
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_boots_hell+1:
+  Id: chainmail_boots
+  Display: '&5[ II ] &6Dark Exile Boots'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 95 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:95
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_boots_hell+2:
+  Id: chainmail_boots
+  Display: '&5[ II ] &6Dark Exile Boots'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_boots_hell+3:
+  Id: chainmail_boots
+  Display: '&5[ II ] &6Dark Exile Boots'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 105 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:105
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_boots_hell+4:
+  Id: chainmail_boots
+  Display: '&5[ II ] &6Dark Exile Boots'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Protection:&9 110 🛡'
+    - '&7HP:&c -13%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:110
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.13 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+dark_exile_boots_blood:
+  Id: chainmail_boots
+  Display: '&6[ III ] &6Dark Exile Boots'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_boots_blood+1:
+  Id: chainmail_boots
+  Display: '&6[ III ] &6Dark Exile Boots'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 105 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:105
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_boots_blood+2:
+  Id: chainmail_boots
+  Display: '&6[ III ] &6Dark Exile Boots'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 110 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:110
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_boots_blood+3:
+  Id: chainmail_boots
+  Display: '&6[ III ] &6Dark Exile Boots'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 115 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:115
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_boots_blood+4:
+  Id: chainmail_boots
+  Display: '&6[ III ] &6Dark Exile Boots'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 120 🛡'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:120
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: -0.10 ADD_SCALAR
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_scythe_infernal:
+  Id: stone_hoe
+  Display: '&9[ I ] &6Dark Exile Scythe'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +500 ⚔'
+    - '&7HP:&c -20%'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 500 ADD
+      Health: -0.20 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_scythe_infernal+1:
+  Id: stone_hoe
+  Display: '&9[ I ] &6Dark Exile Scythe'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +550 ⚔'
+    - '&7HP:&c -20%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Enchantments: []
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 550 ADD
+      Health: -0.20 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_scythe_infernal+2:
+  Id: stone_hoe
+  Display: '&9[ I ] &6Dark Exile Scythe'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +600 ⚔'
+    - '&7HP:&c -20%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Enchantments: []
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 600 ADD
+      Health: -0.20 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_scythe_infernal+3:
+  Id: stone_hoe
+  Display: '&9[ I ] &6Dark Exile Scythe'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +650 ⚔'
+    - '&7HP:&c -20%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Enchantments: []
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 650 ADD
+      Health: -0.20 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_scythe_infernal+4:
+  Id: stone_hoe
+  Display: '&9[ I ] &6Dark Exile Scythe'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +700 ⚔'
+    - '&7HP:&c -20%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Enchantments: []
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 700 ADD
+      Health: -0.20 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+
+dark_exile_scythe_hell:
+  Id: stone_hoe
+  Display: '&5[ II ] &6Dark Exile Scythe'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +700 ⚔'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 700 ADD
+      Health: -0.15 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_scythe_hell+1:
+  Id: stone_hoe
+  Display: '&5[ II ] &6Dark Exile Scythe'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +750 ⚔'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 750 ADD
+      Health: -0.15 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_scythe_hell+2:
+  Id: stone_hoe
+  Display: '&5[ II ] &6Dark Exile Scythe'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +800 ⚔'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 800 ADD
+      Health: -0.15 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_scythe_hell+3:
+  Id: stone_hoe
+  Display: '&5[ II ] &6Dark Exile Scythe'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +850 ⚔'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 850 ADD
+      Health: -0.15 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_scythe_hell+4:
+  Id: stone_hoe
+  Display: '&5[ II ] &6Dark Exile Scythe'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +900 ⚔'
+    - '&7HP:&c -15%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 900 ADD
+      Health: -0.15 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+
+dark_exile_scythe_blood:
+  Id: stone_hoe
+  Display: '&6[ III ] &6Dark Exile Scythe'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +900 ⚔'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 900 ADD
+      Health: -0.10 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_scythe_blood+1:
+  Id: stone_hoe
+  Display: '&6[ III ] &6Dark Exile Scythe'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +950 ⚔'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 950 ADD
+      Health: -0.10 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_scythe_blood+2:
+  Id: stone_hoe
+  Display: '&6[ III ] &6Dark Exile Scythe'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +1000 ⚔'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 1000 ADD
+      Health: -0.10 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_scythe_blood+3:
+  Id: stone_hoe
+  Display: '&6[ III ] &6Dark Exile Scythe'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +1050 ⚔'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 1050 ADD
+      Health: -0.10 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+dark_exile_scythe_blood+4:
+  Id: stone_hoe
+  Display: '&6[ III ] &6Dark Exile Scythe'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +1100 ⚔'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 1100 ADD
+      Health: -0.10 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+mortis_ring_of_death_infernal:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Mortis` Ring of Death'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +3 ⏲️'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 3 ADD
+      Health: -0.10 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+mortis_ring_of_death_infernal+1:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Mortis` Ring of Death'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +4 ⏲️'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 4 ADD
+      Health: -0.10 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+mortis_ring_of_death_infernal+2:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Mortis` Ring of Death'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +5 ⏲️'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 5 ADD
+      Health: -0.10 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+mortis_ring_of_death_infernal+3:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Mortis` Ring of Death'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +6 ⏲️'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 6 ADD
+      Health: -0.10 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+mortis_ring_of_death_infernal+4:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Mortis` Ring of Death'
+  Group: q6-infernal
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +7 ⏲️'
+    - '&7HP:&c -10%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 7 ADD
+      Health: -0.10 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+
+mortis_ring_of_death_hell:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Mortis` Ring of Death'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +4 ⏲️'
+    - '&7HP:&c -8%'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 4 ADD
+      Health: -0.08 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+mortis_ring_of_death_hell+1:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Mortis` Ring of Death'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +5 ⏲️'
+    - '&7HP:&c -8%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 5 ADD
+      Health: -0.08 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+mortis_ring_of_death_hell+2:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Mortis` Ring of Death'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +6 ⏲️'
+    - '&7HP:&c -8%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 6 ADD
+      Health: -0.08 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+mortis_ring_of_death_hell+3:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Mortis` Ring of Death'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +7 ⏲️'
+    - '&7HP:&c -8%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 7 ADD
+      Health: -0.08 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+mortis_ring_of_death_hell+4:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Mortis` Ring of Death'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +8 ⏲️'
+    - '&7HP:&c -8%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 8 ADD
+      Health: -0.08 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+
+mortis_ring_of_death_blood:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Mortis` Ring of Death'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +5 ⏲️'
+    - '&7HP:&c -5%'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 5 ADD
+      Health: -0.05 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+mortis_ring_of_death_blood+1:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Mortis` Ring of Death'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +6 ⏲️'
+    - '&7HP:&c -5%'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 6 ADD
+      Health: -0.05 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+mortis_ring_of_death_blood+2:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Mortis` Ring of Death'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +7 ⏲️'
+    - '&7HP:&c -5%'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 7 ADD
+      Health: -0.05 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+mortis_ring_of_death_blood+3:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Mortis` Ring of Death'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +8 ⏲️'
+    - '&7HP:&c -5%'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 8 ADD
+      Health: -0.05 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+mortis_ring_of_death_blood+4:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Mortis` Ring of Death'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +9 ⏲️'
+    - '&7HP:&c -5%'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 9 ADD
+      Health: -0.05 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+seal_of_death_hell:
+  Id: chest_minecart
+  Display: '&5[ II ] &eSeal of Death'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +10% ⚔'
+    - '&7HP:&c -25%'
+    - '&lRarity:&r &l&eUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 0.1 ADD_SCALAR
+      Health: -0.25 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+seal_of_death_hell+1:
+  Id: chest_minecart
+  Display: '&5[ II ] &eSeal of Death'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +20% ⚔'
+    - '&7HP:&c -25%'
+    - '&lRarity:&r &l&eUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 0.2 ADD_SCALAR
+      Health: -0.25 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+seal_of_death_hell+2:
+  Id: chest_minecart
+  Display: '&5[ II ] &eSeal of Death'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +30% ⚔'
+    - '&7HP:&c -25%'
+    - '&lRarity:&r &l&eUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 0.3 ADD_SCALAR
+      Health: -0.25 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+seal_of_death_hell+3:
+  Id: chest_minecart
+  Display: '&5[ II ] &eSeal of Death'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +40% ⚔'
+    - '&7HP:&c -25%'
+    - '&lRarity:&r &l&eUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 0.4 ADD_SCALAR
+      Health: -0.25 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+seal_of_death_hell+4:
+  Id: chest_minecart
+  Display: '&5[ II ] &eSeal of Death'
+  Group: q6-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +50% ⚔'
+    - '&7HP:&c -25%'
+    - '&lRarity:&r &l&eUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 0.5 ADD_SCALAR
+      Health: -0.25 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+
+seal_of_death_blood:
+  Id: chest_minecart
+  Display: '&6[ III ] &eSeal of Death'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +15% ⚔'
+    - '&7HP:&c -25%'
+    - '&lRarity:&r &l&eUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 0.15 ADD_SCALAR
+      Health: -0.25 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+seal_of_death_blood+1:
+  Id: chest_minecart
+  Display: '&6[ III ] &eSeal of Death'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +25% ⚔'
+    - '&7HP:&c -25%'
+    - '&lRarity:&r &l&eUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 0.25 ADD_SCALAR
+      Health: -0.25 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+seal_of_death_blood+2:
+  Id: chest_minecart
+  Display: '&6[ III ] &eSeal of Death'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +35% ⚔'
+    - '&7HP:&c -25%'
+    - '&lRarity:&r &l&eUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 0.35 ADD_SCALAR
+      Health: -0.25 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+seal_of_death_blood+3:
+  Id: chest_minecart
+  Display: '&6[ III ] &eSeal of Death'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +45% ⚔'
+    - '&7HP:&c -25%'
+    - '&lRarity:&r &l&eUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 0.45 ADD_SCALAR
+      Health: -0.25 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+seal_of_death_blood+4:
+  Id: chest_minecart
+  Display: '&6[ III ] &eSeal of Death'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +55% ⚔'
+    - '&7HP:&c -25%'
+    - '&lRarity:&r &l&eUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 0.55 ADD_SCALAR
+      Health: -0.25 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+armor_of_unchained_death_god_blood:
+  Id: netherite_chestplate
+  Display: '&6[ III ] &c&lARMOR OF UNCHAINED DEATH GOD'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 110 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:110
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All: {}
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=59;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+armor_of_unchained_death_god_blood+1:
+  Id: netherite_chestplate
+  Display: '&6[ III ] &c&lARMOR OF UNCHAINED DEATH GOD'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 120 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:120
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All: {}
+  Skills:
+    # prot 120 => 140 serc = level 69
+    - potion{t=ABSORPTION;d=400;level=69;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+armor_of_unchained_death_god_blood+2:
+  Id: netherite_chestplate
+  Display: '&6[ III ] &c&lARMOR OF UNCHAINED DEATH GOD'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 130 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:130
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All: {}
+  Skills:
+    # prot 130 => 160 serc = level 79
+    - potion{t=ABSORPTION;d=400;level=79;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+armor_of_unchained_death_god_blood+3:
+  Id: netherite_chestplate
+  Display: '&6[ III ] &c&lARMOR OF UNCHAINED DEATH GOD'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 140 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:140
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All: {}
+  Skills:
+    # prot 140 => 180 serc = level 89
+    - potion{t=ABSORPTION;d=400;level=89;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+armor_of_unchained_death_god_blood+4:
+  Id: netherite_chestplate
+  Display: '&6[ III ] &c&lARMOR OF UNCHAINED DEATH GOD'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 150 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:150
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All: {}
+  Skills:
+    # prot 150 => 200 serc = level 99
+    - potion{t=ABSORPTION;d=400;level=99;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+pants_of_unchained_death_god_blood:
+  Id: netherite_leggings
+  Display: '&6[ III ] &c&lPANTS OF UNCHAINED DEATH GOD'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 110 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:110
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All: {}
+  Skills:
+    # 110 prot => Regen V (4)
+    - potion{t=REGENERATION;d=-1;level=4;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+pants_of_unchained_death_god_blood+1:
+  Id: netherite_leggings
+  Display: '&6[ III ] &c&lPANTS OF UNCHAINED DEATH GOD'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 120 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:120
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All: {}
+  Skills:
+    # 120 prot still <130 => Regen V(4)
+    - potion{t=REGENERATION;d=-1;level=4;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+pants_of_unchained_death_god_blood+2:
+  Id: netherite_leggings
+  Display: '&6[ III ] &c&lPANTS OF UNCHAINED DEATH GOD'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 130 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:130
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All: {}
+  Skills:
+    # 130 prot => Regen VI(5)
+    - potion{t=REGENERATION;d=-1;level=5;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+pants_of_unchained_death_god_blood+3:
+  Id: netherite_leggings
+  Display: '&6[ III ] &c&lPANTS OF UNCHAINED DEATH GOD'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 140 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:140
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All: {}
+  Skills:
+    # 140 prot still <150 => Regen VI(5)
+    - potion{t=REGENERATION;d=-1;level=5;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+pants_of_unchained_death_god_blood+4:
+  Id: netherite_leggings
+  Display: '&6[ III ] &c&lPANTS OF UNCHAINED DEATH GOD'
+  Group: q6-blood
+  Lore:
+    - ''
+    - '&7Protection:&9 150 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:150
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All: {}
+  Skills:
+    # 150 prot => Regen VII(6)
+    - potion{t=REGENERATION;d=-1;level=6;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES

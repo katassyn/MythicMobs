@@ -1,0 +1,124 @@
+_arisen_warrior:
+  Type: ZOMBIE
+  Display: '&lAnimated Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 30
+  Damage: 5
+  Armor: 0
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.2'
+  Faction: Catacombs
+  Group: Catacombs
+  Equipment:
+    - chainmail_helmet HEAD
+    - chainmail_chestplate CHEST
+    - chainmail_leggings LEGS
+    - chainmail_boots FEET
+    - STONE_SWORD HAND
+    - SHIELD OFFHAND
+  Drops:
+    - arisen
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+_arisen_archer:
+  Type: SKELETON
+  Display: '&lAnimated Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 20
+  Damage: 7
+  Armor: 0
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.15'
+  Faction: Catacombs
+  Group: Catacombs
+  Equipment:
+    - chainmail_helmet HEAD
+    - chainmail_chestplate CHEST
+    - chainmail_leggings LEGS
+    - chainmail_boots FEET
+    - bow HAND
+  Drops:
+    - arisen
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+_nefertari_snooper:
+  Type: SKELETON
+  Display: '&5&lNefratti Snooper&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 75
+  Damage: 10
+  Armor: 0
+  Options:
+    FollowRange: 10
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.15'
+  Faction: Catacombs
+  Group: Catacombs
+  Equipment:
+    - snooper_head HEAD
+    - snooper_chest CHEST
+    - snooper_pants LEGS
+  Drops:
+    - nefertari_snooper
+  Skills:
+    - skill{s=bolt} @target ~onTimer:100
+    - skill{s=Summon6-10} @self 0.1
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+_nefertari_priest:
+  Type: SKELETON
+  Display: '&e&lNefratti Priest&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 50
+  Damage: 8
+  Armor: 0
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.10'
+  Faction: Catacombs
+  Group: Catacombs
+  Equipment:
+    - priest_head HEAD
+    - priest_chest CHEST
+    - priest_pants LEGS
+  Drops:
+    - nefertari_priest
+  Skills:
+    - skill{s=Summon6-10#2} @self 0.1
+    - skill{s=bolt} @target ~onTimer:100
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

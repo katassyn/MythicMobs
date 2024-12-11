@@ -1,0 +1,147 @@
+bog_beast:
+  Type: Slime
+  Disguise: SLIME
+  Display: '&e&lBog Beast&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 75
+  Damage: 8
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.2'
+    Size: 5
+  Faction: Slifmoor
+  Group: Slifmoor
+  Drops:
+    - bog_beast
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+black_furred_berserk:
+  Type: PIG_ZOMBIE
+  Display: '&lBlack-furred Berserk &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 50
+  Damage: 5
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.25'
+  Faction: Slifmoor
+  Group: Slifmoor
+  Equipment:
+    - piglin_head head
+    - fur_chest CHEST
+    - fur_legs legs
+    - TRIDENT HAND
+  Drops:
+    - black_fur
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+black_furred_piercer:
+  Type: ZOMBIE
+  Disguise: STRAY
+  Display: '&lBlack-furred Hunter &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 30
+  Damage: 7
+  Armor: 0
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.25'
+  Faction: Slifmoor
+  Group: Slifmoor
+  Equipment:
+    - fur_chest CHEST
+    - fur_legs LEGS
+    - fur_boots FEET
+    - bow OFFHAND
+    - goat_horn HAND
+  Skills:
+    - skill{s=Summon11-15} @self ~onDamaged
+    - skill{s=arrow} @target ~onTimer:100
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - black_fur
+
+black_furred_mauler:
+  Type: ZOMBIE
+  Disguise: WOLF
+  Display: '&lBlack-furred Wolf &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 20
+  Damage: 4
+  Armor: 0
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.35'
+    Faction: Slifmoor
+    Group: Slifmoor
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - black_fur
+
+talking_sekeleton:
+  Type: ZOMBIE
+  Disguise: SKELETON
+  Display: '&5&lTalking Skeleton&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 100
+  Damage: 8
+  Armor: 0
+  Options:
+    FollowRange: 10
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.30'
+    KnockbackResistance: 0.5
+  Faction: Slifmoor
+  Group: Slifmoor
+  Equipment:
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+    - iron_sword HAND
+    - shield OFFHAND
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - talking

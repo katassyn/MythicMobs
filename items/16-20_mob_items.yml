@@ -1,0 +1,23 @@
+soul_bow:
+  Id: bow
+  Group: Mobs
+  Enchantments:
+    - ARROW_FIRE:3
+
+soul_sword:
+  Id: iron_sword
+  Group: Mobs
+  Enchantments:
+    - FIRE_ASPECT:1
+
+commander_sword:
+  Id: golden_sword
+  Group: Mobs
+  Enchantments:
+    - FIRE_ASPECT:3
+
+toltac_bow:
+  Id: bow
+  Group: Mobs
+  Enchantments:
+    - ARROW_DAMAGE:250

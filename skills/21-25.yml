@@ -1,0 +1,9 @@
+Summon21-25:
+  Cooldown: 10
+  Skills:
+    - summon{mob=norse_gnome;amount=1;noise=5} @Self
+
+Summon21-25#2:
+  Cooldown: 10
+  Skills:
+    - summon{mob=norse_gnome;amount=3;noise=5} @Self

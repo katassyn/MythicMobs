@@ -1,0 +1,81 @@
+worn_chainmail:
+  Id: chainmail_chestplate
+  Display: '&l&3○&r &3Worn Chainmail'
+  Group: 1-5
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    HideAttributes: true
+    Unbreakable: true
+    HideFlags: true
+  Hide:
+    - ATTRIBUTES
+
+torn_leggings:
+  Id: chainmail_leggings
+  Display: '&l&3○&r &3Torn Leggings'
+  Group: 1-5
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    HideAttributes: true
+    Unbreakable: true
+    HideFlags: true
+  Hide:
+    - ATTRIBUTES
+
+decent_blade:
+  Id: stone_sword
+  Display: '&l&a⬧&r &aDecent Blade'
+  Group: 1-5
+  Lore:
+    - ''
+    - '§7Damage: §c5.5 ⚔'
+    - '&lRarity:&r &aImproved'
+  Attributes:
+    MainHand:
+      Damage: 5.5 ADD
+  Options:
+    HideAttributes: true
+    HideFlags: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+tabi_boots:
+  Id: iron_boots
+  Display: '&l&9✦&r &9Tabi Boots'
+  Group: 1-5
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:5
+  Lore:
+    - ''
+    - '&7Protection:&9 5 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+bobs_helmet:
+  Id: iron_helmet
+  Display: '&l&5✯&r &5Bobs Helmet'
+  Group: 1-5
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:5
+    - PROTECTION_PROJECTILE:7
+  Lore:
+    - ''
+    - '&7Protection:&9 5 🛡'
+    - '&7Projectile Protection:&a 7 🏹'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES

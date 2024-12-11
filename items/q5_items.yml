@@ -1,0 +1,328 @@
+# q5-infernal.yml
+
+# Andermagic Neckel (Naszyjnik)
+andermagic_neckel_infernal:
+  Id: chest_minecart  # Naszyjnik
+  Display: '&9[ I ] &9Andermagic Neckel'
+  Group: q5-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +5 ⚔'
+    - '&7Movement Speed:&a +0.10 👟'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 5 ADD
+      MovementSpeed: 0.10 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Void Axe
+void_axe_infernal:
+  Id: iron_axe
+  Display: '&9[ I ] &9Void Axe'
+  Group: q5-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +300 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 300 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Duty of the Untouchables (Zbroja)
+duty_of_the_untouchables_infernal:
+  Id: diamond_chestplate
+  Display: '&9[ I ] &5Duty of the Untouchables'
+  Group: q5-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:50
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 50 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=19;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Khalys' Dark Gaze (Hełm)
+khalys_dark_gaze_infernal:
+  Id: diamond_helmet
+  Display: '&9[ I ] &6Khalys` Dark Gaze'
+  Group: q5-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:60
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 60 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=400;level=2;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+# q5-hell.yml
+
+# Andermagic Neckel (Naszyjnik)
+andermagic_neckel_hell:
+  Id: chest_minecart
+  Display: '&5[ II ] &9Andermagic Neckel'
+  Group: q5-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +8 ⚔'
+    - '&7Movement Speed:&a +0.15 👟'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 8 ADD
+      MovementSpeed: 0.15 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Void Axe
+void_axe_hell:
+  Id: iron_axe
+  Display: '&5[ II ] &9Void Axe'
+  Group: q5-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +350 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 350 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Duty of the Untouchables (Zbroja)
+duty_of_the_untouchables_hell:
+  Id: diamond_chestplate
+  Display: '&5[ II ] &5Duty of the Untouchables'
+  Group: q5-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:60
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 60 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Khalys' Dark Gaze (Hełm)
+khalys_dark_gaze_hell:
+  Id: diamond_helmet
+  Display: '&5[ II ] &6Khalys` Dark Gaze'
+  Group: q5-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:70
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 70 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Khalys' Dark Scheme (Naszyjnik)
+khalys_dark_scheme_hell:
+  Id: chest_minecart
+  Display: '&5[ II ] &eKhalys` Dark Scheme'
+  Group: q5-hell
+  Lore:
+    - ''
+    - '&7Luck:&a +3 🍀'
+    - '&7Damage:&c +100 ⚔'
+    - '&lRarity:&r &l&eUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 3 ADD
+      Damage: 100 ADD
+  Hide:
+    - ATTRIBUTES
+# q5-blood.yml
+
+# Andermagic Neckel (Naszyjnik)
+andermagic_neckel_blood:
+  Id: chest_minecart
+  Display: '&6[ III ] &9Andermagic Neckel'
+  Group: q5-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +11 ⚔'
+    - '&7Movement Speed:&a +0.12 👟'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 11 ADD
+      MovementSpeed: 0.12 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Void Axe
+void_axe_blood:
+  Id: iron_axe
+  Display: '&6[ III ] &9Void Axe'
+  Group: q5-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +400 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 400 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Duty of the Untouchables (Zbroja)
+duty_of_the_untouchables_blood:
+  Id: diamond_chestplate
+  Display: '&6[ III ] &5Duty of the Untouchables'
+  Group: q5-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:70
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 70 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=29;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Khalys' Dark Gaze (Hełm)
+khalys_dark_gaze_blood:
+  Id: diamond_helmet
+  Display: '&6[ III ] &6Khalys` Dark Gaze'
+  Group: q5-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 80 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Khalys' Dark Scheme (Naszyjnik)
+khalys_dark_scheme_blood:
+  Id: chest_minecart
+  Display: '&6[ III ] &eKhalys` Dark Scheme'
+  Group: q5-blood
+  Lore:
+    - ''
+    - '&7Luck:&a +7 🍀'
+    - '&7Damage:&c +300 ⚔'
+    - '&lRarity:&r &l&eUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 7 ADD
+      Damage: 300 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Balor Ring of Chaos (Pierścień)
+balor_ring_of_chaos_blood:
+  Id: hopper_minecart
+  Display: '&6[ III ] &c&lBALOR RING OF CHAOS'
+  Group: q5-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +600 ⚔'
+    - '&lRarity:&r &l&cMYTHIC'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 600 ADD
+  Hide:
+    - ATTRIBUTES

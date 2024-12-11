@@ -1,0 +1,40 @@
+arisen:
+  Drops:
+    # - experience 10
+    - arisen_item_drops 1
+arisen_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - rusty_greatsword 1 0.05
+    - profane_helmet 1 0.05
+    - used_club 1 0.01
+    - bulwark_of_power 1 0.005
+
+nefertari_priest:
+  Drops:
+    # - experience 10
+    - nefertari_priest_item_drops 1
+nefertari_priest_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - rusty_greatsword 1 0.075
+    - profane_helmet 1 0.075
+    - used_club 1 0.03
+    - bulwark_of_power 1 0.015
+    - steps_of_destiny 1 0.005
+
+nefertari_snooper:
+  Drops:
+    # - experience 10
+    - tousled_priest_robe 1 0.25
+    - nefertari_snooper_item_drops 1
+nefertari_snooper_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - used_club 1 0.08
+    - bulwark_of_power 1 0.025
+    - steps_of_destiny 1 0.015
+    - leggings_of_valor 1 0.005

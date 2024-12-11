@@ -1,0 +1,189 @@
+diamond_headguard:
+  Id: diamond_helmet
+  Display: '&l&3○&r &3Diamond Headguard'
+  Group: 16-20
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    HideAttributes: true
+    HideFlags: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+diamond_greaves:
+  Id: diamond_leggings
+  Display: '&l&3○&r &3Diamond Greaves'
+  Group: 16-20
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    HideAttributes: true
+    HideFlags: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+diamond_cuirass:
+  Id: diamond_chestplate
+  Display: '&l&3○&r &3Diamond Cuirass'
+  Group: 16-20
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    HideAttributes: true
+    HideFlags: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+diamond_shoes:
+  Id: diamond_boots
+  Display: '&l&3○&r &3Diamond Shoes'
+  Group: 16-20
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    HideAttributes: true
+    HideFlags: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+rafined_sabre:
+  Id: diamond_sword
+  Display: '&l&a⬧&r &aRafined Sabre'
+  Group: 16-20
+  Lore:
+    - ''
+    - '§7Damage: §c12 ⚔'
+    - '&lRarity:&r &aImproved'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 12 ADD
+
+burning_pants:
+  Id: diamond_leggings
+  Display: '&l&9✦&r &9Burning Pants'
+  Group: 16-20
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:5
+  Lore:
+    - ''
+    - '&7Protection:&9 5 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+
+burning_boots:
+  Id: diamond_boots
+  Display: '&l&9✦&r &9Burning Boots'
+  Group: 16-20
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:5
+  Lore:
+    - ''
+    - '&7Protection:&9 5 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+
+fire-hardened_armor:
+  Id: diamond_chestplate
+  Display: '&l&5✯&r &5Fire-hardened Armor'
+  Group: 16-20
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:7
+    - PROTECTION_PROJECTILE:5
+  Lore:
+    - ''
+    - '&7Protection:&9 7 🛡'
+    - '&7Projectile Protection:&a 5 🏹'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+
+blazing_crown:
+  Id: diamond_helmet
+  Display: '&l&5✯&r &5Blazing Crown'
+  Group: 16-20
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:5
+    - PROTECTION_PROJECTILE:7
+  Lore:
+    - ''
+    - '&7Protection:&9 5 🛡'
+    - '&7Projectile Protection:&a 7 🏹'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+
+imperial_chestarmor:
+  Id: diamond_chestplate
+  Display: '&6⚜ &6Imperial Chestarmor'
+  Group: 16-20
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:10
+    - PROTECTION_FIRE:10
+  Lore:
+    - ''
+    - '&7Protection:&9 10 🛡'
+    - '&7Fire Protection:&c 10 🔥'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=4;p=false;force=true;hasIcon=false} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+sword_of_the_dragon_god:
+  Id: diamond_sword
+  Display: '&6⚜ &6Sword of The Dragon God'
+  Group: 16-20
+  Lore:
+    - ''
+    - '§7Damage: §c36 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    Unbreakable: true
+    HideFlags: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 36 ADD

@@ -1,0 +1,155 @@
+fireman_pants_bloodshed:
+  Id: iron_leggings
+  Display: '&6[ III ] &9Fireman Pants'
+  Group: q1-bloodshed
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:60
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 60 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10  # Regeneration III
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+pyro_helmet_bloodshed:
+  Id: iron_helmet
+  Display: '&6[ III ] &9Pyro Helmet'
+  Group: q1-bloodshed
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:60
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 60 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10  # Strength III
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+path_of_the_untouchables_bloodshed:
+  Id: diamond_boots
+  Display: '&6[ III ] &5Path of the Untouchables'
+  Group: q1-bloodshed
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:70
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 70 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10  # Speed IV
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+grimmags_flaming_wrath_bloodshed:
+  Id: furnace_minecart
+  Display: '&6[ III ] &eGrimmag`s Flaming Wrath'
+  Group: q1-bloodshed
+  Lore:
+    - ''
+    - '§7Health: §c+30 ❤'
+    - '§7Damage: §c+300 ⚔'
+    - '&lRarity:&r &e&lUnique'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 30 ADD
+      Damage: 300 ADD
+
+fiery_tracks_of_grimmag_bloodshed:
+  Id: diamond_boots
+  Display: '&6[ III ] &eFiery Tracks of Grimmag'
+  Group: q1-bloodshed
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:90
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 90 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &e&lUnique'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10 # Speed IV
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_ring_of_fire:
+  Id: tnt_minecart
+  Display: '&6[ III ] &l&cFYRGON`S RING OF FIRE'
+  Group: q1-bloodshed
+  Lore:
+    - ''
+    - '§7Health: §c+100 ❤'
+    - '§7Movement Speed: §b+0.3 👟'
+    - '&lRarity:&r &c&lMYTHIC'
+    - '&8-------------------'
+    - '&aRequired Level: &6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 100 ADD
+      MovementSpeed: 0.3 ADD
+
+cuchulains_battle_armor_bloodshed:
+  Id: diamond_chestplate
+  Display: '&6[ III ] &6Cuchulain`s Battle Armor'
+  Group: q1-bloodshed
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 80 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=34;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 70 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES

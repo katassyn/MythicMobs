@@ -1,0 +1,74 @@
+start_sword:
+  Id: stone_sword
+  Display:  '&l&3○&r &3Broken Sword'
+  Group: START
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+start_head:
+  Id: leather_helmet
+  Display: '&l&3○&r Straw Hat'
+  Group: START
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    Color: 255,255,0
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+start_chest:
+  Id: leather_chestplate
+  Display: '&l&3○&r Torn Shirt'
+  Group: START
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    HideFlags: true
+    Color: 125,36,36
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+start_pants:
+  Id: leather_leggings
+  Display: '&l&3○&r Shitty Pants'
+  Group: START
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    Color: 58,228,126
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+start_boots:
+  Id: leather_boots
+  Display: '&l&3○&r Slippers'
+  Group: START
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    Color: 195,201,172
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+

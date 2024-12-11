@@ -1,0 +1,23 @@
+gorgon_chest:
+  Id: leather_chestplate
+  Display:  '1'
+  Group: Mobs
+  Options:
+    Color: 43,0,116
+    Unbreakable: true
+
+gorgon_legs:
+  Id: leather_leggings
+  Display:  '2'
+  Group: Mobs
+  Options:
+    Color: 43,0,116
+    Unbreakable: true
+
+gorgon_boots:
+  Id: leather_boots
+  Display:  '2'
+  Group: Mobs
+  Options:
+    Color: 43,0,116
+    Unbreakable: true

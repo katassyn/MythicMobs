@@ -1,0 +1,27 @@
+mapa6-10#23:
+  MobName: _arisen_archer
+  World: world
+  X: 74
+  Y: -55
+  Z: 139
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 3.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '2'
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 100
+  Warmup: 0
+  ActivationRange: 16.0
+  ScalingRange: 25.0
+  LeashRange: 32.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: true
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  SpawnerGroup: 6-10

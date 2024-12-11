@@ -1,0 +1,29 @@
+fire:
+  Cooldown: 10
+  Skills:
+    - projectile{onTick=fire-Tick;onHit=fire-Hit;v=3;i=1;hR=1;vR=1;hnp=true}
+fire-Tick:
+  Skills:
+    - effect:particles{p=flame;amount=20;speed=0.05;hS=0.1;vS=0.1} @origin
+fire-Hit:
+  Skills:
+    - damage{a=2,pkb=true}
+    - ignite{t=50}
+
+fireball:
+  cooldown: 5
+  Skills:
+    - shootfireball{y=1;v=4} @target
+
+fire#2:
+  Cooldown: 7
+  Skills:
+    - projectile{onTick=fire-Tick;onHit=fire-Hit;v=7;i=1;hR=1.5;vR=1.5;hnp=true}
+  fire-Tick:
+    Skills:
+      - effect:particles{p=flame;amount=20;speed=0.35;hS=0.1;vS=0.1} @origin
+  fire-Hit:
+    Skills:
+      - damage{a=6,pkb=true}
+      - ignite{t=100}
+

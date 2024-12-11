@@ -1,0 +1,121 @@
+researcher_boots:
+  Id: diamond_boots
+  Display: '&l&5✯&r &5Researcher Boots'
+  Group: 51-60
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:45
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 45 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=1;p=false;hasIcon=false} @self ~onequip
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+greaves_of_void_shadow:
+  Id: diamond_leggings
+  Display: '&l&5✯&r &5Greaves of Void Shadow'
+  Group: 51-60
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:45
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 45 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+ring_of_eternal_agony:
+  Id: tnt_minecart
+  Display: '&l&5✯&r &5Ring of Eternal Agony'
+  Group: 51-60
+  Lore:
+    - ''
+    - '§7Damage: §c+25 ⚔'
+    - '§7Health: §c-2 ❤'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 25 ADD
+      Health: -2 ADD
+
+blade_of_the_fallen_souls:
+  Id: diamond_sword
+  Display: '&l&5✯&r &5Blade of the Fallen Souls'
+  Group: 51-60
+  Lore:
+    - ''
+    - '§7Damage: §c200 ⚔'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 200 ADD
+
+pendant_of_the_demonic_soul:
+  Id: chest_minecart
+  Display: '&6⚜ &6Pendant of the Demonic Soul'
+  Group: 51-60
+  Lore:
+    - ''
+    - '§7Health: §c+5 ❤'
+    - '§7Luck: §a+5 ☘'
+    - '§7Damage: §c+50 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 50 ADD
+      Health: 5 ADD
+      Luck: 5 ADD
+
+scythe_of_shadows_doom:
+  Id: stone_hoe
+  Display: '&6⚜ &6Scythe of Shadows Doom'
+  Group: 51-60
+  Lore:
+    - ''
+    - '§7Damage: §c300 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 300 ADD
+

@@ -1,0 +1,158 @@
+mermans_boots:
+  Id: chainmail_boots
+  Display: '&l&a⬧&r &aMerman Boots'
+  Group: 31-35
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:15
+  Lore:
+    - ''
+    - '&7Protection:&9 15 🛡'
+    - '&lRarity:&r &aImproved'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=0;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+nautilus_helm:
+  Id: golden_helmet
+  Display: '&l&a⬧&r &aNautilus Helm'
+  Group: 31-35
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:15
+  Lore:
+    - ''
+    - '&7Protection:&9 15 🛡'
+    - '&lRarity:&r &aImproved'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=0;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+abyssal_leggings:
+  Id: diamond_leggings
+  Display: '&l&9✦&r &9Abyssal Leggings'
+  Group: 31-35
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:20
+  Lore:
+    - ''
+    - '&7Protection:&9 20 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=0;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+trident_blade:
+  Id: golden_sword
+  Display: '&l&9✦&r &9Trident Blade'
+  Group: 31-35
+  Lore:
+    - ''
+    - '§7(Strong against players)'
+    - '§7Damage: §c31 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideAttributes: true
+    Unbreakable: true
+    HideFlags: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 20 ADD
+  Enchantments:
+    - DAMAGE_ALL:20
+
+coral_guardian_chestplate:
+  Id: diamond_chestplate
+  Display: '&l&5✯&r &5Coral Guardian Chestplate'
+  Group: 31-35
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:25
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 25 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=4;p=false;force=true;hasIcon=false} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+tidal_crown:
+  Id: diamond_helmet
+  Display: '&l&5✯&r &5Tidal Crown'
+  Group: 31-35
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:25
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 25 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+ancient_fury:
+  Id: diamond_sword
+  Display: '&6⚜ &6Ancient Fury'
+  Group: 31-35
+  Lore:
+    - ''
+    - '§7Damage: §c90 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    Unbreakable: true
+    HideFlags: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 90 ADD
+
+sea_emperor_greaves:
+  Id: diamond_boots
+  Display: '&6⚜ &6Sea Emperor Greaves'
+  Group: 31-35
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:30
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 30 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip

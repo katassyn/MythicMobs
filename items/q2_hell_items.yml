@@ -1,0 +1,98 @@
+spider_web_chestplate_hell:
+  Id: chainmail_chestplate
+  Display: '&5[ II ] &9Spider-Web Chestplate'
+  Group: q2-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:50
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 50 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=19;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 40 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+poisonous_dagger_hell:
+  Id: iron_sword
+  Display: '&5[ II ] &9Poisonous Dagger'
+  Group: q2-hell
+  Lore:
+    - ''
+    - '§7Damage: §c300 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 300 ADD
+
+shroud_of_the_untouchables_hell:
+  Id: white_banner
+  Display: '&5[ II ] &5Shroud of the Untouchables'
+  Group: q2-hell
+  Lore:
+    - ''
+    - '§7Damage: §c+15 ⚔'
+    - '§7Health: §c+15 ❤'
+    - '&lRarity:&r &5Extraordinary'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 15 ADD
+      Health: 15 ADD
+
+oceanus_ring_of_poison_hell:
+  Id: hopper_minecart
+  Display: '&5[ II ] &6Oceanus`s Ring of Poison'
+  Group: q2-hell
+  Lore:
+    - ''
+    - '§7Health: §c+25 ❤'
+    - '§7Armor: §b+3 🛡'
+    - '&lRarity:&r &6Legendary'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 25 ADD
+      Armor: 3 ADD
+
+arachnas_venomous_revenge:
+  Id: diamond_sword
+  Display: '&5[ II ] &eArachna`s Venomous Revenge'
+  Group: q2-hell
+  Lore:
+    - ''
+    - '§7Damage: §c500 ⚔'
+    - '&lRarity:&r &e&lUnique'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=POISON;d=100;level=2;p=true} @target ~onAttack # Poison for 5 seconds
+    - potion{t=SLOW;d=100;level=2;p=true} @target ~onAttack # Slowness III for 5 seconds
+  Attributes:
+    MainHand:
+      Damage: 500 ADD

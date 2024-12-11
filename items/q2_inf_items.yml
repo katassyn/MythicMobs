@@ -1,0 +1,79 @@
+spider_web_chestplate:
+  Id: chainmail_chestplate
+  Display: '&9[ I ] &9Spider-Web Chestplate'
+  Group: q2-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:40
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 40 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=9;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 20 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+poisonous_dagger:
+  Id: iron_sword
+  Display: '&9[ I ] &9Poisonous Dagger'
+  Group: q2-infernal
+  Lore:
+    - ''
+    - '§7Damage: §c250 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 250 ADD
+
+shroud_of_the_untouchables:
+  Id: white_banner
+  Display: '&9[ I ] &5Shroud of the Untouchables'
+  Group: q2-infernal
+  Lore:
+    - ''
+    - '§7Damage: §c+10 ⚔'
+    - '§7Health: §c+10 ❤'
+    - '&lRarity:&r &5Extraordinary'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 10 ADD
+      Health: 10 ADD
+
+oceanus_ring_of_poison:
+  Id: hopper_minecart
+  Display: '&9[ I ] &6Oceanus`s Ring of Poison'
+  Group: q2-infernal
+  Lore:
+    - ''
+    - '§7Health: §c+20 ❤'
+    - '§7Armor: §b+2 🛡'
+    - '&lRarity:&r &6Legendary'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 20 ADD
+      Armor: 2 ADD
+
+

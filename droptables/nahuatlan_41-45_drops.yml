@@ -1,0 +1,42 @@
+mummy:
+  Drops:
+    # - experience 10
+    - mummy_item_drops 1
+mummy_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - entangled_trausers 1 0.01
+    - twilight_chestplate 1 0.01
+    - rotten_fang 1 0.005
+    - helm_of_the_lost 1 0.005
+
+crushing:
+  Drops:
+    # - experience 10
+    - crushing_item_drops 1
+crushing_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - entangled_trausers 1 0.03
+    - twilight_chestplate 1 0.003
+    - rotten_fang 1 0.015
+    - helm_of_the_lost 1 0.015
+    - wraith_stalkers 1 0.005
+
+protector:
+  Drops:
+    - protectors_heart 1 0.25
+    # - experience 10
+    - protector_item_drops 1
+protector_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - entangled_trausers 1 0.08
+    - twilight_chestplate 1 0.08
+    - rotten_fang 1 0.025
+    - helm_of_the_lost 1 0.025
+    - wraith_stalkers 1 0.015
+    - dark_whisper 1 0.005

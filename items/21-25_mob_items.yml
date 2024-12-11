@@ -1,0 +1,37 @@
+gnome_chest:
+  Id: leather_chestplate
+  Display:  '1'
+  Group: Mobs
+  Options:
+    Color: 128,131,135
+    Unbreakable: true
+
+gnome_pants:
+  Id: leather_leggings
+  Display:  '2'
+  Group: Mobs
+  Options:
+    Color: 128,131,135
+    Unbreakable: true
+
+gnome_boots:
+  Id: leather_boots
+  Group: Mobs
+  Display:  '3'
+  Options:
+    Color: 128,131,135
+    Unbreakable: true
+
+gnome_pickaxe:
+  Id: iron_pickaxe
+  Group: Mobs
+  Display: '3'
+  Enchantments:
+    - KNOCKBACK 1
+
+agitator_sword:
+  Id: chain
+  Group: Mobs
+  Display: '3'
+  Enchantments:
+    - KNOCKBACK 3

@@ -1,0 +1,1323 @@
+# q4-ulepszenia.yml
+
+# Ulepszenia dla Honey Charm (+1 do +4)
+
+# Infernal
+honey_charm_infernal+1:
+  Id: furnace_minecart
+  Display: '&9[ I ] &9Honey Charm'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Health:&c +10 ❤'
+    - '&7Damage:&c +10 ⚔'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 10 ADD
+      Damage: 10 ADD
+  Hide:
+    - ATTRIBUTES
+
+honey_charm_infernal+2:
+  Id: furnace_minecart
+  Display: '&9[ I ] &9Honey Charm'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Health:&c +12 ❤'
+    - '&7Damage:&c +12 ⚔'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 12 ADD
+      Damage: 12 ADD
+  Hide:
+    - ATTRIBUTES
+
+honey_charm_infernal+3:
+  Id: furnace_minecart
+  Display: '&9[ I ] &9Honey Charm'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Health:&c +14 ❤'
+    - '&7Damage:&c +14 ⚔'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 14 ADD
+      Damage: 14 ADD
+  Hide:
+    - ATTRIBUTES
+
+honey_charm_infernal+4:
+  Id: furnace_minecart
+  Display: '&9[ I ] &9Honey Charm'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Health:&c +16 ❤'
+    - '&7Damage:&c +16 ⚔'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 16 ADD
+      Damage: 16 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Hell
+honey_charm_hell+1:
+  Id: furnace_minecart
+  Display: '&5[ II ] &9Honey Charm'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Health:&c +12 ❤'
+    - '&7Damage:&c +12 ⚔'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 12 ADD
+      Damage: 12 ADD
+  Hide:
+    - ATTRIBUTES
+
+honey_charm_hell+2:
+  Id: furnace_minecart
+  Display: '&5[ II ] &9Honey Charm'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Health:&c +14 ❤'
+    - '&7Damage:&c +14 ⚔'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 14 ADD
+      Damage: 14 ADD
+  Hide:
+    - ATTRIBUTES
+
+honey_charm_hell+3:
+  Id: furnace_minecart
+  Display: '&5[ II ] &9Honey Charm'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Health:&c +16 ❤'
+    - '&7Damage:&c +16 ⚔'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 16 ADD
+      Damage: 16 ADD
+  Hide:
+    - ATTRIBUTES
+
+honey_charm_hell+4:
+  Id: furnace_minecart
+  Display: '&5[ II ] &9Honey Charm'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Health:&c +18 ❤'
+    - '&7Damage:&c +18 ⚔'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 18 ADD
+      Damage: 18 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Blood
+honey_charm_blood+1:
+  Id: furnace_minecart
+  Display: '&6[ III ] &9Honey Charm'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Health:&c +14 ❤'
+    - '&7Damage:&c +14 ⚔'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 14 ADD
+      Damage: 14 ADD
+  Hide:
+    - ATTRIBUTES
+
+honey_charm_blood+2:
+  Id: furnace_minecart
+  Display: '&6[ III ] &9Honey Charm'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Health:&c +16 ❤'
+    - '&7Damage:&c +16 ⚔'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 16 ADD
+      Damage: 16 ADD
+  Hide:
+    - ATTRIBUTES
+
+honey_charm_blood+3:
+  Id: furnace_minecart
+  Display: '&6[ III ] &9Honey Charm'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Health:&c +18 ❤'
+    - '&7Damage:&c +18 ⚔'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 18 ADD
+      Damage: 18 ADD
+  Hide:
+    - ATTRIBUTES
+
+honey_charm_blood+4:
+  Id: furnace_minecart
+  Display: '&6[ III ] &9Honey Charm'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Health:&c +20 ❤'
+    - '&7Damage:&c +20 ⚔'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 20 ADD
+      Damage: 20 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Ulepszenia dla Beekeeper Hat (+1 do +4)
+
+# Infernal
+beekeeper_hat_infernal+1:
+  Id: iron_helmet
+  Display: '&9[ I ] &9Beekeeper Hat'
+  Group: q4-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:43
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 43 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+beekeeper_hat_infernal+2:
+  Id: iron_helmet
+  Display: '&9[ I ] &9Beekeeper Hat'
+  Group: q4-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:46
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 46 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+beekeeper_hat_infernal+3:
+  Id: iron_helmet
+  Display: '&9[ I ] &9Beekeeper Hat'
+  Group: q4-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:49
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 49 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+beekeeper_hat_infernal+4:
+  Id: iron_helmet
+  Display: '&9[ I ] &9Beekeeper Hat'
+  Group: q4-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:52
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 52 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Hell
+beekeeper_hat_hell+1:
+  Id: iron_helmet
+  Display: '&5[ II ] &9Beekeeper Hat'
+  Group: q4-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:53
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 53 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+beekeeper_hat_hell+2:
+  Id: iron_helmet
+  Display: '&5[ II ] &9Beekeeper Hat'
+  Group: q4-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:56
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 56 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+beekeeper_hat_hell+3:
+  Id: iron_helmet
+  Display: '&5[ II ] &9Beekeeper Hat'
+  Group: q4-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:59
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 59 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+beekeeper_hat_hell+4:
+  Id: iron_helmet
+  Display: '&5[ II ] &9Beekeeper Hat'
+  Group: q4-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:62
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 62 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Blood
+beekeeper_hat_blood+1:
+  Id: iron_helmet
+  Display: '&6[ III ] &9Beekeeper Hat'
+  Group: q4-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:63
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 63 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+beekeeper_hat_blood+2:
+  Id: iron_helmet
+  Display: '&6[ III ] &9Beekeeper Hat'
+  Group: q4-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:66
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 66 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+beekeeper_hat_blood+3:
+  Id: iron_helmet
+  Display: '&6[ III ] &9Beekeeper Hat'
+  Group: q4-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:69
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 69 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+beekeeper_hat_blood+4:
+  Id: iron_helmet
+  Display: '&6[ III ] &9Beekeeper Hat'
+  Group: q4-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:72
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 72 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Ulepszenia dla Strike of the Untouchables (+1 do +4)
+
+# Infernal
+strike_of_the_untouchables_infernal+1:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &5Strike of the Untouchables'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.2 ⏲️'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.2 ADD
+  Hide:
+    - ATTRIBUTES
+
+strike_of_the_untouchables_infernal+2:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &5Strike of the Untouchables'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.3 ⏲️'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.3 ADD
+  Hide:
+    - ATTRIBUTES
+
+strike_of_the_untouchables_infernal+3:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &5Strike of the Untouchables'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.4 ⏲️'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.4 ADD
+  Hide:
+    - ATTRIBUTES
+
+strike_of_the_untouchables_infernal+4:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &5Strike of the Untouchables'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.5 ⏲️'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.5 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Hell
+strike_of_the_untouchables_hell+1:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &5Strike of the Untouchables'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.3 ⏲️'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.3 ADD
+  Hide:
+    - ATTRIBUTES
+
+strike_of_the_untouchables_hell+2:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &5Strike of the Untouchables'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.4 ⏲️'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.4 ADD
+  Hide:
+    - ATTRIBUTES
+
+strike_of_the_untouchables_hell+3:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &5Strike of the Untouchables'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.5 ⏲️'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.5 ADD
+  Hide:
+    - ATTRIBUTES
+
+strike_of_the_untouchables_hell+4:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &5Strike of the Untouchables'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.6 ⏲️'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.6 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Blood
+strike_of_the_untouchables_blood+1:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &5Strike of the Untouchables'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.4 ⏲️'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.4 ADD
+  Hide:
+    - ATTRIBUTES
+
+strike_of_the_untouchables_blood+2:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &5Strike of the Untouchables'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.5 ⏲️'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.5 ADD
+  Hide:
+    - ATTRIBUTES
+
+strike_of_the_untouchables_blood+3:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &5Strike of the Untouchables'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.6 ⏲️'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.6 ADD
+  Hide:
+    - ATTRIBUTES
+
+strike_of_the_untouchables_blood+4:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &5Strike of the Untouchables'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.7 ⏲️'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.7 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Ulepszenia dla Artaya's Cape of Life (+1 do +4)
+
+# Infernal
+artayas_cape_of_life_infernal+1:
+  Id: white_banner
+  Display: '&9[ I ] &6Artaya`s Cape of Life'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Health:&c +35 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 35 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_cape_of_life_infernal+2:
+  Id: white_banner
+  Display: '&9[ I ] &6Artaya`s Cape of Life'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Health:&c +40 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 40 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_cape_of_life_infernal+3:
+  Id: white_banner
+  Display: '&9[ I ] &6Artaya`s Cape of Life'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Health:&c +45 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 45 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_cape_of_life_infernal+4:
+  Id: white_banner
+  Display: '&9[ I ] &6Artaya`s Cape of Life'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Health:&c +50 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 50 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Hell
+artayas_cape_of_life_hell+1:
+  Id: white_banner
+  Display: '&5[ II ] &6Artaya`s Cape of Life'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Health:&c +45 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 45 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_cape_of_life_hell+2:
+  Id: white_banner
+  Display: '&5[ II ] &6Artaya`s Cape of Life'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Health:&c +50 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 50 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_cape_of_life_hell+3:
+  Id: white_banner
+  Display: '&5[ II ] &6Artaya`s Cape of Life'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Health:&c +55 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 55 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_cape_of_life_hell+4:
+  Id: white_banner
+  Display: '&5[ II ] &6Artaya`s Cape of Life'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Health:&c +60 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 60 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Blood
+artayas_cape_of_life_blood+1:
+  Id: white_banner
+  Display: '&6[ III ] &6Artaya`s Cape of Life'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Health:&c +55 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 55 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_cape_of_life_blood+2:
+  Id: white_banner
+  Display: '&6[ III ] &6Artaya`s Cape of Life'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Health:&c +60 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 60 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_cape_of_life_blood+3:
+  Id: white_banner
+  Display: '&6[ III ] &6Artaya`s Cape of Life'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Health:&c +65 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 65 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_cape_of_life_blood+4:
+  Id: white_banner
+  Display: '&6[ III ] &6Artaya`s Cape of Life'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Health:&c +70 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 70 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Ulepszenia dla Artaya's Wild Care (+1 do +4)
+
+# Hell
+artayas_wild_care_hell+1:
+  Id: iron_door
+  Display: '&5[ II ] &eArtaya`s Wild Care'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 20% 🎲'
+    - '&7Block Strength:&a +8% ⛓️'
+    - '&7Health:&c +31 ❤'
+    - '&lRarity:&r &l&eUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 31 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_wild_care_hell+2:
+  Id: iron_door
+  Display: '&5[ II ] &eArtaya`s Wild Care'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 25% 🎲'
+    - '&7Block Strength:&a +11% ⛓️'
+    - '&7Health:&c +37 ❤'
+    - '&lRarity:&r &l&eUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 37 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_wild_care_hell+3:
+  Id: iron_door
+  Display: '&5[ II ] &eArtaya`s Wild Care'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 30% 🎲'
+    - '&7Block Strength:&a +14% ⛓️'
+    - '&7Health:&c +43 ❤'
+    - '&lRarity:&r &l&eUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 43 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_wild_care_hell+4:
+  Id: iron_door
+  Display: '&5[ II ] &eArtaya`s Wild Care'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 35% 🎲'
+    - '&7Block Strength:&a +17% ⛓️'
+    - '&7Health:&c +49 ❤'
+    - '&lRarity:&r &l&eUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 49 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Blood
+artayas_wild_care_blood+1:
+  Id: iron_door
+  Display: '&6[ III ] &eArtaya`s Wild Care'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 30% 🎲'
+    - '&7Block Strength:&a +8% ⛓️'
+    - '&7Health:&c +56 ❤'
+    - '&lRarity:&r &l&eUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 56 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_wild_care_blood+2:
+  Id: iron_door
+  Display: '&6[ III ] &eArtaya`s Wild Care'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 35% 🎲'
+    - '&7Block Strength:&a +11% ⛓️'
+    - '&7Health:&c +62 ❤'
+    - '&lRarity:&r &l&eUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 62 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_wild_care_blood+3:
+  Id: iron_door
+  Display: '&6[ III ] &eArtaya`s Wild Care'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 40% 🎲'
+    - '&7Block Strength:&a +14% ⛓️'
+    - '&7Health:&c +68 ❤'
+    - '&lRarity:&r &l&eUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 68 ADD
+  Hide:
+    - ATTRIBUTES
+
+artayas_wild_care_blood+4:
+  Id: iron_door
+  Display: '&6[ III ] &eArtaya`s Wild Care'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 45% 🎲'
+    - '&7Block Strength:&a +17% ⛓️'
+    - '&7Health:&c +74 ❤'
+    - '&lRarity:&r &l&eUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 74 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Ulepszenia dla Bearach's Tormentor (+1 do +4)
+
+# Blood
+bearachs_tormentor_blood+1:
+  Id: netherite_sword
+  Display: '&6[ III ] &l&cBEARACH`S TORMENTOR'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +3500 ⚔'
+    - '&7Damage:&c +5% ⚔'
+    - '&lRarity:&r &c&lMYTHIC &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 3500 ADD
+    MainHand:
+      Damage: 0.05 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+bearachs_tormentor_blood+2:
+  Id: netherite_sword
+  Display: '&6[ III ] &l&cBEARACH`S TORMENTOR'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +4000 ⚔'
+    - '&7Damage:&c +5% ⚔'
+    - '&lRarity:&r &c&lMYTHIC &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 4000 ADD
+    MainHand:
+      Damage: 0.05 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+bearachs_tormentor_blood+3:
+  Id: netherite_sword
+  Display: '&6[ III ] &l&cBEARACH`S TORMENTOR'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +4500 ⚔'
+    - '&7Damage:&c +5% ⚔'
+    - '&lRarity:&r &c&lMYTHIC &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 4500 ADD
+    MainHand:
+      Damage: 0.05 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+bearachs_tormentor_blood+4:
+  Id: netherite_sword
+  Display: '&6[ III ] &l&cBEARACH`S TORMENTOR'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +5000 ⚔'
+    - '&7Damage:&c +5% ⚔'
+    - '&lRarity:&r &c&lMYTHIC &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 5000 ADD
+    MainHand:
+      Damage: 0.05 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+# Ulepszenia dla Bearach's Instinct (+1 do +4)
+
+# Blood
+bearachs_instinct_blood+1:
+  Id: minecart
+  Display: '&6[ III ] &l&cBEARACH`S INSTINCT'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +3.5 🧱'
+    - '&7Health:&c +47 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 3.5 ADD
+      Health: 47 ADD
+  Hide:
+    - ATTRIBUTES
+
+bearachs_instinct_blood+2:
+  Id: minecart
+  Display: '&6[ III ] &l&cBEARACH`S INSTINCT'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +4 🧱'
+    - '&7Health:&c +54 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 4 ADD
+      Health: 54 ADD
+  Hide:
+    - ATTRIBUTES
+
+bearachs_instinct_blood+3:
+  Id: minecart
+  Display: '&6[ III ] &l&cBEARACH`S INSTINCT'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +4.5 🧱'
+    - '&7Health:&c +61 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 4.5 ADD
+      Health: 61 ADD
+  Hide:
+    - ATTRIBUTES
+
+bearachs_instinct_blood+4:
+  Id: minecart
+  Display: '&6[ III ] &l&cBEARACH`S INSTINCT'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +5 🧱'
+    - '&7Health:&c +68 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 5 ADD
+      Health: 68 ADD
+  Hide:
+    - ATTRIBUTES

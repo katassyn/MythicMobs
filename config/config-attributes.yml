@@ -1,0 +1,22 @@
+#
+# Attributes Configuration Options
+#
+# More information about Mythic PointType features can be found here:
+# https://git.lumine.io/mythiccraft/mythicrpg/-/wikis/Attributes
+#
+Configuration:
+
+  #================================================================================
+  # General Options
+  #================================================================================
+  Attributes:
+    - Health GENERIC_MAX_HEALTH 20
+    - Speed GENERIC_MOVEMENT_SPEED 1
+    - Strength GENERIC_ATTACK_DAMAGE 1
+    - Intelligence GENERIC_ATTACK_SPEED 1
+    - Defense GENERIC_ARMOR 0
+    - CriticalChance GENERIC_CRIT_CHANCE 0
+    - CriticalDamage GENERIC_CRIT_DAMAGE 1
+    - Luck GENERIC_LUCK 0
+    - ManaRegeneration MYTHIC_MANA_REGEN 0
+    - MaxMana MYTHIC_MAX_MANA 0

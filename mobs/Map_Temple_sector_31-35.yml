@@ -1,0 +1,112 @@
+gorgon_soldier:
+  Type: ZOMBIE
+  Display: '&l Gorgon Soldier &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 300
+  Damage: 60
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.3'
+  Faction: temple_sector
+  Group: temple_sector
+  Equipment:
+    - gorgon_legs LEGS
+    - gorgon_chest CHEST
+    - TRIDENT HAND
+  Drops:
+    - gorgon
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+jellyfish:
+  Type: Zombie
+  Disguise: SLIME
+  Display: '&l Jellyfish &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 100
+  Damage: 150
+  Options:
+    FollowRange: 10
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.25'
+  Faction: temple_sector
+  Group: temple_sector
+  Equipment:
+    - prismarine_crystals HAND
+  Drops:
+    - gorgon
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - damage{d=300} @LivingEntitiesInRadius{r=10;f=enemy} ~onDeath
+
+gorgon_heretic:
+  Type: ZOMBIE
+  Display: '&e&l Gorgon Heretic &r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 450
+  Damage: 100
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.3'
+  Faction: temple_sector
+  Group: temple_sector
+  Equipment:
+    - golden_helmet HEAD
+    - golden_chestplate CHEST
+    - TRIDENT HAND
+  Drops:
+    - gorgon_heretic
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+high_priest_baran:
+  Type: ZOMBIE
+  Display: '&5&l High Priest Gorgon B`aran&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1000
+  Damage: 250
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.4'
+    KnockbackResistance: 0.85
+  Faction: temple_sector
+  Group: temple_sector
+  Equipment:
+    - diamond_helmet HEAD
+    - diamond_chestplate CHEST
+    - diamond_leggings LEGS
+    - iron_sword HAND
+  Drops:
+    - high_priest_baran
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

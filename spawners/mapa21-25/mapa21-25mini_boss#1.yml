@@ -1,0 +1,27 @@
+mapa21-25mini_boss#1:
+  MobName: frost_paw
+  World: world
+  X: -259
+  Y: -60
+  Z: 259
+  Yaw: 0.0
+  Pitch: 0.0
+  Radius: 1.0
+  RadiusY: 0.0
+  UseTimer: true
+  MaxMobs: '1'
+  MobLevel: '1'
+  MobsPerSpawn: 1
+  Cooldown: 1000
+  Warmup: 0
+  ActivationRange: 10.0
+  ScalingRange: 25.0
+  LeashRange: 32.0
+  HealOnLeash: false
+  ResetThreatOnLeash: false
+  Breakable: false
+  CheckForPlayers: true
+  ShowFlames: false
+  Conditions: []
+  SpawnConditions: []
+  CooldownTimer: 1

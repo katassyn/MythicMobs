@@ -1,0 +1,37 @@
+evil_chest:
+  Id: leather_chestplate
+  Display:  '1'
+  Group: Mobs
+  Options:
+    Color: 0,0,0
+    Unbreakable: true
+
+evil_legs:
+  Id: leather_leggings
+  Display:  '2'
+  Group: Mobs
+  Options:
+    Color: 0,0,0
+    Unbreakable: true
+
+evil_boots:
+  Id: leather_boots
+  Display:  '2'
+  Group: Mobs
+  Options:
+    Color: 0,0,0
+    Unbreakable: true
+
+evil_head:
+  Id: leather_helmet
+  Display:  '2'
+  Group: Mobs
+  Options:
+    Color: 0,0,0
+    Unbreakable: true
+
+high_priest_sword:
+  Id: iron_sword
+  Group: Mobs
+  Enchantments:
+    - FIRE_ASPECT:10

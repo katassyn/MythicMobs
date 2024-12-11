@@ -1,0 +1,344 @@
+# q4-bazowe.yml
+
+# Honey Charm (Ozdoba broni - Adornment)
+honey_charm_infernal:
+  Id: furnace_minecart  # Adornment
+  Display: '&9[ I ] &9Honey Charm'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Health:&c +8 ❤'
+    - '&7Damage:&c +8 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 8 ADD
+      Damage: 8 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Beekeeper Hat (Hełm)
+beekeeper_hat_infernal:
+  Id: iron_helmet
+  Display: '&9[ I ] &9Beekeeper Hat'
+  Group: q4-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:40
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 40 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Strike of the Untouchables (Rękawice - Gloves)
+strike_of_the_untouchables_infernal:
+  Id: leather_horse_armor  # Gloves
+  Display: '&9[ I ] &5Strike of the Untouchables'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.1 ⏲️'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Artaya's Cape of Life (Płaszcz - Cloak)
+artayas_cape_of_life_infernal:
+  Id: white_banner  # Cloak
+  Display: '&9[ I ] &6Artaya`s Cape of Life'
+  Group: q4-infernal
+  Lore:
+    - ''
+    - '&7Health:&c +30 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 30 ADD
+  Hide:
+    - ATTRIBUTES
+
+# q4-hell
+
+# Honey Charm
+honey_charm_hell:
+  Id: furnace_minecart
+  Display: '&5[ II ] &9Honey Charm'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Health:&c +10 ❤'
+    - '&7Damage:&c +10 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 10 ADD
+      Damage: 10 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Beekeeper Hat
+beekeeper_hat_hell:
+  Id: iron_helmet
+  Display: '&5[ II ] &9Beekeeper Hat'
+  Group: q4-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:50
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 50 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Strike of the Untouchables
+strike_of_the_untouchables_hell:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &5Strike of the Untouchables'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.2 ⏲️'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.2 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Artaya's Cape of Life
+artayas_cape_of_life_hell:
+  Id: white_banner
+  Display: '&5[ II ] &6Artaya`s Cape of Life'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Health:&c +40 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 40 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Artaya's Wild Care (Tarcza - Shield)
+artayas_wild_care_hell:
+  Id: iron_door
+  Display: '&5[ II ] &eArtaya`s Wild Care'
+  Group: q4-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 15% 🎲'
+    - '&7Block Strength:&a +5% ⛓️'
+    - '&7Health:&c +25 ❤'
+    - '&lRarity:&r &e&lUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 25 ADD
+  Hide:
+    - ATTRIBUTES
+
+# q4-blood
+
+# Honey Charm
+honey_charm_blood:
+  Id: furnace_minecart
+  Display: '&6[ III ] &9Honey Charm'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Health:&c +12 ❤'
+    - '&7Damage:&c +12 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 12 ADD
+      Damage: 12 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Beekeeper Hat
+beekeeper_hat_blood:
+  Id: iron_helmet
+  Display: '&6[ III ] &9Beekeeper Hat'
+  Group: q4-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:60
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 60 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onEquip
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Strike of the Untouchables
+strike_of_the_untouchables_blood:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &5Strike of the Untouchables'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +0.3 ⏲️'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 0.3 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Artaya's Cape of Life
+artayas_cape_of_life_blood:
+  Id: white_banner
+  Display: '&6[ III ] &6Artaya`s Cape of Life'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Health:&c +50 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 50 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Artaya's Wild Care
+artayas_wild_care_blood:
+  Id: iron_door
+  Display: '&6[ III ] &eArtaya`s Wild Care'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 25% 🎲'
+    - '&7Block Strength:&a +5% ⛓️'
+    - '&7Health:&c +50 ❤'
+    - '&lRarity:&r &l&eUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 50 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Bearach's Tormentor (Broń)
+bearachs_tormentor_blood:
+  Id: netherite_sword
+  Display: '&6[ III ] &l&cBEARACH`S TORMENTOR'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +3000 ⚔'
+    - '&7Damage:&c +5% ⚔'
+    - '&lRarity:&r &c&lMYTHIC'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 3000 ADD
+    MainHand:
+      Damage: 0.05 ADD_SCALAR
+  Hide:
+    - ATTRIBUTES
+
+# Bearach's Instinct (Pasek - Belt)
+bearachs_instinct_blood:
+  Id: minecart  # Belt
+  Display: '&6[ III ] &l&cBEARACH`S INSTINCT'
+  Group: q4-blood
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +3 🧱'
+    - '&7Health:&c +40 ❤'
+    - '&lRarity:&r &c&lMYTHIC'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 3 ADD
+      Health: 40 ADD
+  Hide:
+    - ATTRIBUTES

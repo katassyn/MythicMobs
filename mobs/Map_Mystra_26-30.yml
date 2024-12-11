@@ -1,0 +1,120 @@
+horned_satyr_warrior:
+  Type: ZOMBIE
+  Display: '&l Satyr Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 150
+  Damage: 45
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.25'
+  Faction: mystra
+  Group: mystra
+  Equipment:
+    - satyr_legs LEGS
+    - satyr_chest CHEST
+    - satyr_boots FEET
+    - STONE_SWORD HAND
+    - STONE_SWORD OFFHAND
+  Drops:
+    - satyr
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+horned_satyr_archer:
+  Type: SKELETON
+  Display: '&lSatyr Archer  &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 100
+  Damage: 50
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.15'
+  Faction: mystra
+  Group: mystra
+  Equipment:
+    - satyr_legs LEGS
+    - satyr_chest CHEST
+    - satyr_boots FEET
+    - satyr_bow HAND
+  Drops:
+    - satyr
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+drunken_cyclops:
+  Type: ZOMBIE
+  Display: '&e&l Drunk Cyclops &r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 300
+  Damage: 75
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.3'
+  Faction: mystra
+  Group: mystra
+  Equipment:
+    - cyclops_legs LEGS
+    - wooden_axe HAND
+  Drops:
+    - cyclops
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=KnockupSkill} ~onAttack
+
+horned_satyr_general:
+  Type: ZOMBIE
+  Display: '&5&l Satyr General&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 500
+  Damage: 100
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.35'
+    KnockbackResistance: 0.75
+  Faction: mystra
+  Group: mystra
+  Equipment:
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+    - iron_sword HAND
+  Drops:
+    - satyr_general
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SatyrRoar} @self ~onTimer:300
+    - skill{s=SatyrLeap} @self ~onTimer:200
+    - skill{s=SatyrSmash} @self ~onAttack

@@ -1,0 +1,497 @@
+#+1 +1 +1#+1 +1 +1
+#+1 +1 +1#+1 +1 +1
+#+1 +1 +1#+1 +1 +1
+#+1 +1 +1#+1 +1 +1
+spider_web_chestplate_bloodshed+1:
+  Id: chainmail_chestplate
+  Display: '&6[ III ] &9Spider-Web Chestplate'
+  Group: q2-blood_+1
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:63
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 63 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 50 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+poisonous_dagger_bloodshed+1:
+  Id: iron_sword
+  Display: '&6[ III ] &9Poisonous Dagger'
+  Group: q2-blood_+1
+  Lore:
+    - ''
+    - '§7Damage: §c370 ⚔'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 370 ADD
+
+
+shroud_of_the_untouchables_bloodshed+1:
+  Id: white_banner
+  Display: '&6[ III ] &5Shroud of the Untouchables'
+  Group: q2-blood_+1
+  Lore:
+    - ''
+    - '§7Damage: §c+40 ⚔'
+    - '§7Health: §c+25 ❤'
+    - '&lRarity:&r &5Extraordinary &l+1'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 40 ADD
+      Health: 25 ADD
+
+oceanus_ring_of_poison_bloodshed+1:
+  Id: hopper_minecart
+  Display: '&6[ III ] &6Oceanus`s Ring of Poison'
+  Group: q2-blood_+1
+  Lore:
+    - ''
+    - '§7Health: §c+42 ❤'
+    - '§7Armor: §b+7 🛡'
+    - '&lRarity:&r &6Legendary &l+1'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 42 ADD
+      Armor: 7 ADD
+
+arachnas_venomous_revenge_blood+1:
+  Id: diamond_sword
+  Display: '&6[ III ] &eArachna`s Venomous Revenge'
+  Group: q2-blood_+1
+  Lore:
+    - ''
+    - '§7Damage: §c1600 ⚔'
+    - '&lRarity:&r &e&lUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=POISON;d=100;level=2;p=true} @target ~onAttack  # Poison for 5 seconds
+    - potion{t=SLOW;d=100;level=2;p=true} @target ~onAttack  # Slowness III for 5 seconds
+  Attributes:
+    MainHand:
+      Damage: 1600 ADD
+
+arachnas_vigor_of_the_spider+1:
+  Id: chest_minecart
+  Display: '&6[ III ] &l&cARACHNA`S VIGOR OF THE SPIDER'
+  Group: q2-blood_+1
+  Lore:
+    - ''
+    - '§7Health: §c+50 ❤'
+    - '§7Damage: §c+20% ⚔'
+    - '&lRarity:&r &c&lMYTHIC &l+1'
+    - '&8-------------------'
+    - '&aRequired Level: &6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 50 ADD
+      Damage: 0.2 ADD_SCALAR
+
+#+2 +2 +2 +2 +2 +2
+#+2 +2 +2 +2 +2 +2
+#+2 +2 +2 +2 +2 +2
+#+2 +2 +2 +2 +2 +2
+spider_web_chestplate_bloodshed+2:
+  Id: chainmail_chestplate
+  Display: '&6[ III ] &9Spider-Web Chestplate'
+  Group: q2-blood_+2
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:66
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 66 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 50 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+poisonous_dagger_bloodshed+2:
+  Id: iron_sword
+  Display: '&6[ III ] &9Poisonous Dagger'
+  Group: q2-blood_+2
+  Lore:
+    - ''
+    - '§7Damage: §c390 ⚔'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 390 ADD
+
+shroud_of_the_untouchables_bloodshed+2:
+  Id: white_banner
+  Display: '&6[ III ] &5Shroud of the Untouchables'
+  Group: q2-blood_+2
+  Lore:
+    - ''
+    - '§7Damage: §c+60 ⚔'
+    - '§7Health: §c+30 ❤'
+    - '&lRarity:&r &5Extraordinary &l+2'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 60 ADD
+      Health: 30 ADD
+
+oceanus_ring_of_poison_bloodshed+2:
+  Id: hopper_minecart
+  Display: '&6[ III ] &6Oceanus`s Ring of Poison'
+  Group: q2-blood_+2
+  Lore:
+    - ''
+    - '§7Health: §c+49 ❤'
+    - '§7Armor: §b+10 🛡'
+    - '&lRarity:&r &6Legendary &l+2'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 49 ADD
+      Armor: 10 ADD
+
+
+arachnas_venomous_revenge_blood+2:
+  Id: diamond_sword
+  Display: '&6[ III ] &eArachna`s Venomous Revenge'
+  Group: q2-blood_+2
+  Lore:
+    - ''
+    - '§7Damage: §c1700 ⚔'
+    - '&lRarity:&r &e&lUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=POISON;d=100;level=2;p=true} @target ~onAttack  # Poison for 5 seconds
+    - potion{t=SLOW;d=100;level=2;p=true} @target ~onAttack  # Slowness III for 5 seconds
+  Attributes:
+    MainHand:
+      Damage: 1700 ADD
+
+
+arachnas_vigor_of_the_spider+2:
+  Id: chest_minecart
+  Display: '&6[ III ] &l&cARACHNA`S VIGOR OF THE SPIDER'
+  Group: q2-blood_+2
+  Lore:
+    - ''
+    - '§7Health: §c+75 ❤'
+    - '§7Damage: §c+30% ⚔'
+    - '&lRarity:&r &c&lMYTHIC &l+2'
+    - '&8-------------------'
+    - '&aRequired Level: &6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 75 ADD
+      Damage: 0.3 ADD_SCALAR
+
+#+3 +3 +3 +3 +3 +3
+#+3 +3 +3 +3 +3 +3
+#+3 +3 +3 +3 +3 +3
+#+3 +3 +3 +3 +3 +3
+spider_web_chestplate_bloodshed+3:
+  Id: chainmail_chestplate
+  Display: '&6[ III ] &9Spider-Web Chestplate'
+  Group: q2-blood_+3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:69
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 69 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 50 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+poisonous_dagger_bloodshed+3:
+  Id: iron_sword
+  Display: '&6[ III ] &9Poisonous Dagger'
+  Group: q2-blood_+3
+  Lore:
+    - ''
+    - '§7Damage: §c410 ⚔'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 410 ADD
+
+
+shroud_of_the_untouchables_bloodshed+3:
+  Id: white_banner
+  Display: '&6[ III ] &5Shroud of the Untouchables'
+  Group: q2-blood_+3
+  Lore:
+    - ''
+    - '§7Damage: §c+80 ⚔'
+    - '§7Health: §c+35 ❤'
+    - '&lRarity:&r &5Extraordinary &l+3'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 80 ADD
+      Health: 35 ADD
+
+oceanus_ring_of_poison_bloodshed+3:
+  Id: hopper_minecart
+  Display: '&6[ III ] &6Oceanus`s Ring of Poison'
+  Group: q2-blood_+3
+  Lore:
+    - ''
+    - '§7Health: §c+56 ❤'
+    - '§7Armor: §b+13 🛡'
+    - '&lRarity:&r &6Legendary &l+3'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 56 ADD
+      Armor: 13 ADD
+
+arachnas_venomous_revenge_blood+3:
+  Id: diamond_sword
+  Display: '&6[ III ] &eArachna`s Venomous Revenge'
+  Group: q2-blood_+3
+  Lore:
+    - ''
+    - '§7Damage: §c1800 ⚔'
+    - '&lRarity:&r &e&lUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=POISON;d=100;level=2;p=true} @target ~onAttack  # Poison for 5 seconds
+    - potion{t=SLOW;d=100;level=2;p=true} @target ~onAttack  # Slowness III for 5 seconds
+  Attributes:
+    MainHand:
+      Damage: 1800 ADD
+
+arachnas_vigor_of_the_spider+3:
+  Id: chest_minecart
+  Display: '&6[ III ] &l&cARACHNA`S VIGOR OF THE SPIDER'
+  Group: q2-blood_+3
+  Lore:
+    - ''
+    - '§7Health: §c+100 ❤'
+    - '§7Damage: §c+40% ⚔'
+    - '&lRarity:&r &c&lMYTHIC &l+3'
+    - '&8-------------------'
+    - '&aRequired Level: &6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 100 ADD
+      Damage: 0.4 ADD_SCALAR
+
+
+#+4 +4 +4 +4 +4 +4
+#+4 +4 +4 +4 +4 +4
+#+4 +4 +4 +4 +4 +4
+#+4 +4 +4 +4 +4 +4
+spider_web_chestplate_bloodshed+4:
+  Id: chainmail_chestplate
+  Display: '&6[ III ] &9Spider-Web Chestplate'
+  Group: q2-blood_+4
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:72
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 72 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 50 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+poisonous_dagger_bloodshed+4:
+  Id: iron_sword
+  Display: '&6[ III ] &9Poisonous Dagger'
+  Group: q2-blood_+4
+  Lore:
+    - ''
+    - '§7Damage: §c430 ⚔'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 430 ADD
+
+shroud_of_the_untouchables_bloodshed+4:
+  Id: white_banner
+  Display: '&6[ III ] &5Shroud of the Untouchables'
+  Group: q2-blood_+4
+  Lore:
+    - ''
+    - '§7Damage: §c+100 ⚔'
+    - '§7Health: §c+40 ❤'
+    - '&lRarity:&r &5Extraordinary &l+4'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 100 ADD
+      Health: 40 ADD
+
+oceanus_ring_of_poison_bloodshed+4:
+  Id: hopper_minecart
+  Display: '&6[ III ] &6Oceanus`s Ring of Poison'
+  Group: q2-blood_+4
+  Lore:
+    - ''
+    - '§7Health: §c+63 ❤'
+    - '§7Armor: §b+16 🛡'
+    - '&lRarity:&r &6Legendary &l+4'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 63 ADD
+      Armor: 16 ADD
+
+arachnas_venomous_revenge_blood+4:
+  Id: diamond_sword
+  Display: '&6[ III ] &eArachna`s Venomous Revenge'
+  Group: q2-blood_+4
+  Lore:
+    - ''
+    - '§7Damage: §c1900 ⚔'
+    - '&lRarity:&r &e&lUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=POISON;d=100;level=2;p=true} @target ~onAttack  # Poison for 5 seconds
+    - potion{t=SLOW;d=100;level=2;p=true} @target ~onAttack  # Slowness III for 5 seconds
+  Attributes:
+    MainHand:
+      Damage: 1900 ADD
+
+arachnas_vigor_of_the_spider+4:
+  Id: chest_minecart
+  Display: '&6[ III ] &l&cARACHNA`S VIGOR OF THE SPIDER'
+  Group: q2-blood_+4
+  Lore:
+    - ''
+    - '§7Health: §c+125 ❤'
+    - '§7Damage: §c+50% ⚔'
+    - '&lRarity:&r &c&lMYTHIC &l+4'
+    - '&8-------------------'
+    - '&aRequired Level: &6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 125 ADD
+      Damage: 0.5 ADD_SCALAR
+

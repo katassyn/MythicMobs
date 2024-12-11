@@ -1,0 +1,122 @@
+armor_of_elder_tree:
+  Id: leather_chestplate
+  Display: '&l&5✯&r &5Armor of Elder Tree'
+  Group: 61-70
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:50
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 50 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=19;p=false;force=true;hasIcon=false} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+steps_of_elder_deity:
+  Id: diamond_boots
+  Display: '&l&5✯&r &5Steps of Elder Deity'
+  Group: 61-70
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:50
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 50 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+cloak_of_spirit_hunter:
+  Id: white_banner
+  Display: '&l&5✯&r &5Cloak of Spirit Hunter'
+  Group: 61-70
+  Lore:
+    - ''
+    - '§7Movement Speed: §b+1 👟'
+    - '§7Health: §c+3 ❤'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      MovementSpeed: 0.1 ADD
+      Health: 3 ADD
+
+spear_of_sacred_oak:
+  Id: wooden_shovel
+  Display: '&l&5✯&r &5Spear of Sacred Oak'
+  Group: 61-70
+  Lore:
+    - ''
+    - '§7Damage: §c245 ⚔'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 245 ADD
+
+ring_of_eternal_grove:
+  Id: tnt_minecart
+  Display: '&6⚜ &6Ring of Eternal Grove'
+  Group: 61-70
+  Lore:
+    - ''
+    - '§7Damage: §c+70 ⚔'
+    - '§7Health: §c+10 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 70 ADD
+      Health: 10 ADD
+
+mask_of_the_ancient_watcher:
+  Id: diamond_helmet
+  Display: '&6⚜ &6Mask of the Ancient Watcher'
+  Group: 61-70
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:60
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 60 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES

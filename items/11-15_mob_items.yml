@@ -1,0 +1,23 @@
+fur_chest:
+  Id: leather_chestplate
+  Display:  '1'
+  Group: Mobs
+  Options:
+    Color: 0,0,0
+    Unbreakable: true
+
+fur_legs:
+  Id: leather_leggings
+  Display:  '2'
+  Group: Mobs
+  Options:
+    Color: 0,0,0
+    Unbreakable: true
+
+fur_boots:
+  Id: leather_boots
+  Display:  '2'
+  Group: Mobs
+  Options:
+    Color: 0,0,0
+    Unbreakable: true

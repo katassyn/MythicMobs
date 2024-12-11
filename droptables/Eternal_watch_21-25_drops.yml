@@ -1,0 +1,50 @@
+norse_gnome:
+  Drops:
+    # - experience 10
+    - norse_gnome_item_drops 1
+norse_gnome_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - iced_needle 1 0.01
+    - frostbound_helm 1 0.005
+    - frostbound_chestplate 1 0.005
+    - frostbound_leggings 1 0.005
+    - frostbound_boots 1 0.005
+
+frost_catcher:
+  Drops:
+    # - experience 10
+    - frost_catcher_item_drops 1
+frost_catcher_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - iced_needle 1 0.03
+    - frostbound_helm 1 0.015
+    - frostbound_chestplate 1 0.015
+    - frostbound_leggings 1 0.015
+    - frostbound_boots 1 0.015
+    - frostbite_blade 1 0.005
+    - chestplate_of_snow_tempest 1 0.005
+    - windrunner_boots 1 0.005
+
+frost_paw:
+  Drops:
+    # - experience 10
+    - chain_fragment 1 0.25
+    - frost_paw_item_drops 1
+frost_paw_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - iced_needle 1 0.08
+    - frostbound_helm 1 0.025
+    - frostbound_chestplate 1 0.025
+    - frostbound_leggings 1 0.025
+    - frostbound_boots 1 0.025
+    - frostbite_blade 1 0.015
+    - chestplate_of_snow_tempest 1 0.015
+    - windrunner_boots 1 0.015
+    - ymirs_wrath 1 0.005
+    - snowstorm_conq_leggings 1 0.005

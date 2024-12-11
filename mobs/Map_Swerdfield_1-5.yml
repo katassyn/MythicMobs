@@ -1,0 +1,58 @@
+_Undead_Villager_:
+  Type: ZOMBIE
+  Display: '&lUndead Villager &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 20
+  Damage: 5
+  Armor: 0
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.15'
+  Faction: Swerdfield
+  Group: Swerdfield
+  Equipment:
+    - brown_terracotta HEAD
+    - leather_chestplate CHEST
+    - leather_boots FEET
+  Drops:
+    - undead_villager_drops
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+_Undead_Knight_:
+  Type: Zombie
+  Display: '&e&lUndead Knight&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 50
+  Damage: 5
+  Armor: 0
+  Group: Swerdfield
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.2'
+  Faction: Swerdfield
+  Equipment:
+    - yellow_terracotta HEAD
+    - chainmail_chestplate CHEST
+    - chainmail_LEGGINGS LEGS
+    - iron_sword HAND
+  Drops:
+    - undead_knight_drops
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

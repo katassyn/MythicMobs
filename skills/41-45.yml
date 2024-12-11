@@ -1,0 +1,26 @@
+Summon41-45:
+  Cooldown: 30
+  Skills:
+    - summon{mob=temple_mummy;amount=5;noise=5} @Self
+    - delay 20
+    - summon{mob=temple_mummy;amount=5;noise=5} @Self
+
+RainOfDestruction:
+  Skills:
+    - projectile{onTick=RainTick;onHit=RainHit;v=0.5;i=10;hR=10;vR=5;hnp=true;dir=[0,1,0]} @PlayersInRadius{r=15}
+
+RainTick:
+  Skills:
+    - effect:particles{p=smoke_large;amount=10;speed=0;hS=0.2;vS=0.2} @origin
+
+RainHit:
+  Skills:
+    - damage{a=100}
+    - effect:particles{p=explosion_large;amount=1;speed=0} @origin
+    - sound{s=entity.generic.explode;v=1;p=1} @origin
+
+LifeDeathAura:
+  Skills:
+    - damage{a=100;r=5} @EnemiesInRadius{r=5}
+    - effect:particles{p=totem;amount=30;hS=1;vS=1} @Self
+    - sound{s=entity.zombie.attack_iron_door;v=1;p=1} @Self

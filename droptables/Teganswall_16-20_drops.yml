@@ -1,0 +1,50 @@
+soulless:
+  Drops:
+    # - experience 10
+    - soulless_item_drops 1
+soulless_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - diamond_headguard 1 0.05
+    - diamond_greaves 1 0.05
+    - diamond_cuirass 1 0.05
+    - diamond_shoes 1 0.05
+    - rafined_sabre 1 0.01
+    - burning_pants 1 0.005
+    - burning_boots 1 0.005
+
+dragons:
+  Drops:
+    # - experience 10
+    - dragons_item_drops 1
+dragons_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - diamond_headguard 1 0.075
+    - diamond_greaves 1 0.075
+    - diamond_cuirass 1 0.075
+    - diamond_shoes 1 0.075
+    - rafined_sabre 1 0.03
+    - burning_pants 1 0.015
+    - burning_boots 1 0.015
+    - fire-hardened_armor 1 0.005
+    - blazing_crown 1 0.005
+
+commander:
+  Drops:
+    - dragon_scale 1 0.25
+    # - experience 10
+    - commander_item_drops 1
+commander_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - rafined_sabre 1 0.08
+    - burning_pants 1 0.025
+    - burning_boots 1 0.025
+    - fire-hardened_armor 1 0.015
+    - blazing_crown 1 0.015
+    - imperial_chestarmor 1 0.005
+    - sword_of_the_dragon_god 1 0.005

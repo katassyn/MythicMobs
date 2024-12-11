@@ -1,0 +1,193 @@
+iced_needle:
+  Id: stick
+  Display: '&l&a⬧&r &aIced Needle'
+  Group: 21-25
+  Lore:
+    - ''
+    - '&7(knock knock BACK)'
+    - '§7Damage: §c5 ⚔'
+    - '&lRarity:&r &aImproved'
+  Options:
+    HideAttributes: true
+    HideFlags: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 5 ADD
+  Enchantments:
+    - KNOCKBACK 5
+
+frostbound_helm:
+  Id: diamond_helmet
+  Display: '&l&9✦&r &9Frostbound Helm'
+  Group: 21-25
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:7
+  Lore:
+    - ''
+    - '&7Protection:&9 7 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+
+frostbound_chestplate:
+  Id: diamond_chestplate
+  Display: '&l&9✦&r &9Frostbound Chestplate'
+  Group: 21-25
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:7
+  Lore:
+    - ''
+    - '&7Protection:&9 7 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+
+frostbound_leggings:
+  Id: diamond_leggings
+  Display: '&l&9✦&r &9Frostbound Leggings'
+  Group: 21-25
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:7
+  Lore:
+    - ''
+    - '&7Protection:&9 7 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+
+frostbound_boots:
+  Id: diamond_boots
+  Display: '&l&9✦&r &9Frostbound Boots'
+  Group: 21-25
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:7
+  Lore:
+    - ''
+    - '&7Protection:&9 7 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+
+frostbite_blade:
+  Id: diamond_sword
+  Display: '&l&1✯&r &1Frostbite Blade'
+  Group: 21-25
+  Lore:
+    - ''
+    - '§7Damage: §c34 ⚔'
+    - '&lRarity:&r &1Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 34 ADD
+
+chestplate_of_snow_tempest:
+  Id: diamond_chestplate
+  Display: '&l&1✯&r &1Chestplate of Snow Tempest'
+  Group: 21-25
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:10
+    - PROTECTION_PROJECTILE:7
+  Lore:
+    - ''
+    - '&7Protection:&9 10 🛡'
+    - '&7Projectile Protection:&a 7 🏹'
+    - '&lRarity:&r &1Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=4;p=false;force=true;hasIcon=false} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+windrunner_boots:
+  Id: diamond_boots
+  Display: '&l&5✯&r &5Windrunner Boots'
+  Group: 21-25
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:10
+    - PROTECTION_PROJECTILE:7
+  Lore:
+    - ''
+    - '&7Protection:&9 10 🛡'
+    - '&7Projectile Protection:&a 7 🏹'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=0;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+ymirs_wrath:
+  Id: diamond_sword
+  Display: '&6⚜ &6Ymir`s Wrath'
+  Group: 21-25
+  Lore:
+    - ''
+    - '§7Damage: §c45 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    Unbreakable: true
+    HideFlags: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 45 ADD
+
+snowstorm_conq_leggings:
+  Id: diamond_leggings
+  Display: '&6⚜ &6Snowstorm Conqueror Leggings'
+  Group: 21-25
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:15
+    - PROTECTION_PROJECTILE:15
+  Lore:
+    - ''
+    - '&7Protection:&9 15 🛡'
+    - '&7Projectile Protection:&a 15 🏹'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=0;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip

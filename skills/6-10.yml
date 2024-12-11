@@ -1,0 +1,32 @@
+Summon6-10#2:
+  Cooldown: 30
+  Skills:
+    #  - message{m="<caster.name><&co> Arise, my minions!"} @PlayersInRadius{r=40}
+    #  - delay 20
+    #  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+    #  - delay 20
+    - summon{mob=_arisen_archer;amount=1;noise=5} @Self
+    - delay 20
+    - summon{mob=_arisen_warrior;amount=1;noise=5} @Self
+
+Summon6-10:
+  Cooldown: 15
+  Skills:
+    #  - message{m="<caster.name><&co> Arise, my minions!"} @PlayersInRadius{r=40}
+    #  - delay 20
+    #  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
+    #  - delay 20
+    - summon{mob=_arisen_archer;amount=1;noise=5} @Self
+    - delay 20
+    - summon{mob=_arisen_warrior;amount=2;noise=5} @Self
+
+bolt:
+  Cooldown: 5
+  Skills:
+    - projectile{onTick=Bolt-Tick;onHit=Bolt-Hit;v=6;i=1;hR=1;vR=1;hnp=true}
+Bolt-Tick:
+    Skills:
+      - effect:particles{p=dragon_breath;amount=20;speed=0;hS=0.2;vS=0.2} @origin
+Bolt-Hit:
+  Skills:
+    - damage{a=8}

@@ -1,0 +1,138 @@
+old_armor:
+  Id: iron_chestplate
+  Display: '&l&3○&r &3Old Armor'
+  Group: 11-15
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+simple_slacks:
+  Id: iron_leggings
+  Display: '&l&3○&r &3Simple Slacks'
+  Group: 11-15
+  Lore:
+    - ''
+    - '&lRarity:&r &3Normal'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+rafined_helmet:
+  Id: iron_helmet
+  Display: '&l&a⬧&r &aRafined Helmet'
+  Group: 11-15
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:3
+  Lore:
+    - ''
+    - '&7Protection:&9 3 🛡'
+    - '&lRarity:&r &aImproved'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+
+beast_hunter_sword:
+  Id: iron_sword
+  Display: '&l&9✦&r &9Beast Hunters Sword'
+  Group: 11-15
+  Lore:
+    - ''
+    - '§7Damage: §c17.5 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideAttributes: true
+    HideFlags: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 17.5 ADD
+
+slimed_pants:
+  Id: iron_leggings
+  Display: '&l&9✦&r &9Slimed Pants'
+  Group: 11-15
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:5
+  Lore:
+    - ''
+    - '&7Protection:&9 5 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+
+black_fur_hunter_spear:
+  Id: iron_shovel
+  Display: '&l&5✯&r &5Black-fur Hunter Spear'
+  Group: 11-15
+  Lore:
+    - ''
+    - '§7Damage: §c24 ⚔'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 24 ADD
+
+talking_skeleton_skull:
+  Id: golden_helmet
+  Display: '&6⚜ &6Talking Skeleton Skull'
+  Group: 11-15
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:10
+    - PROTECTION_FIRE:10
+  Lore:
+    - ''
+    - '&7Protection:&9 10 🛡'
+    - '&7Fire Protection:&c 10 🔥'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=0;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+quest_chest:
+  Id: diamond_chestplate
+  Display: '&lBlack-fur Chestplate'
+  Group: 11-15
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:9
+  Lore:
+    - ''
+    - '&7Protection:&9 9 🛡'
+    - '&lRarity:&r Quest'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES

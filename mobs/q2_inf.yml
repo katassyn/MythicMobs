@@ -1,0 +1,194 @@
+gremlin_marauder_inf:
+  Type: BABY_ZOMBIE
+  Display: '&lGremlin Marauder &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 100
+  Damage: 30
+  Options:
+    MovementSpeed: 0.3
+    FollowRange: 25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - gremlin_marauder_inf_drop
+    - q_inf_mob_crafting
+  Equipment:
+    - leather_helmet{color=green} HEAD
+    - leather_chestplate{color=green} CHEST
+    - leather_leggings{color=green} LEGS
+    - leather_boots{color=green} FEET
+death_witch_inf:
+  Type: ZOMBIE
+  Disguise: WITCH
+  Display: '&lDeath Witch    &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 200
+  Damage: 40
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.25
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=MagicProjectile_inf} @target ~onTimer:5
+    - skill{s=SummonSphere_inf} @target ~onTimer:15
+  Drops:
+    - gremlin_marauder_inf_drop
+    - q_inf_mob_crafting
+poisonous_spider_inf:
+  Type: ZOMBIE
+  Disguise: SPIDER
+  Display: '&lPoisonous Spider &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 150
+  Damage: 25
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.35
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - potion{type=POISON;duration=60;level=1} @target ~onAttack
+  Drops:
+    - gremlin_marauder_inf_drop
+    - q_inf_mob_crafting
+
+corrupted_root_creature_inf:
+  Type: ZOMBIE
+  Display: '&e&lCorrupted Root Creature &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1000
+  Damage: 50
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.15
+    KnockbackResistance: 0.7
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=VineChase_inf} @target ~onTimer:15
+  Drops:
+    - corrupted_root_creature_inf_drop
+    - q_inf_elite_crafting
+  Equipment:
+    - leather_helmet{color=green} HEAD
+    - leather_chestplate{color=green} CHEST
+    - leather_leggings{color=green} LEGS
+    - leather_boots{color=green} FEET
+    -
+
+xerib_the_hunchback_inf:
+  Type: WITCH
+  Display: '&5&lXerib the Hunchback &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 2000
+  Damage: 60
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.2
+    ShowHealth: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 0.65
+    AlwaysShowName: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummoningSphereXerib_inf} @target ~onTimer:20
+    - skill{s=PoisonMagicProjectile_inf} @target ~onTimer:10
+    - skill{s=FallingPoisonSphere_inf} @target ~onTimer:15
+  Drops:
+    - xerib_the_hunchback_inf_drop
+
+archus_the_mad_inf:
+  Type: ZOMBIE
+  Disguise: HUSK
+  Display: '&5&lArchus the Mad &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 3000
+  Damage: 80
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.45
+    ShowHealth: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 0.65
+    AlwaysShowName: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=ThrowStone_inf} @target ~onTimer:12
+  Drops:
+    - xerib_the_hunchback_inf_drop
+
+arachna_scourge_of_duria_inf:
+  Type: ZOMBIE
+  Disguise: SPIDER
+  Display: '&4<&skull> &lArachna, Scourge of Duria &r&4<&skull>'
+  Health: 5000
+  Damage: 100
+  BossBar:
+    Enabled: true
+    Title: '&c<&skull> Arachna - &c<mob.hp{round=0}> <&skull>'
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.5'
+    KnockbackResistance: 0.85
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=WebShot_inf} @target ~onTimer:10
+    - skill{s=VenomSpit_inf} @target ~onTimer:15
+    - skill{s=FallingPoisonSphere_inf} @target ~onTimer:20
+    - skill{s=SummonPoisonousSpiders_inf} @self ~onTimer:25
+  Drops:
+    - arachna_inf_drop
+

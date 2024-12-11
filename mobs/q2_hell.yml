@@ -1,0 +1,192 @@
+gremlin_marauder_hell:
+  Type: BABY_ZOMBIE
+  Display: '&lGremlin Marauder &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 300  # x3 Zdrowie
+  Damage: 60   # x2 Obrażenia
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.3
+    ShowHealth: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventItemPickup: true
+    AlwaysShowName: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - gremlin_marauder_hell_drop
+    - q_hell_mob_crafting
+  Equipment:
+    - leather_helmet{color=green} HEAD
+    - leather_chestplate{color=green} CHEST
+    - leather_leggings{color=green} LEGS
+    - leather_boots{color=green} FEET
+death_witch_hell:
+  Type: ZOMBIE
+  Disguise: WITCH
+  Display: '&lDeath Witch    &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 600  # x3 Zdrowie
+  Damage: 80   # x2 Obrażenia
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.25
+    ShowHealth: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    AlwaysShowName: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=MagicProjectile_hell} @target ~onTimer:4
+    - skill{s=SummonSphere_hell} @target ~onTimer:12
+  Drops:
+    - gremlin_marauder_hell_drop
+    - q_hell_mob_crafting
+
+poisonous_spider_hell:
+  Type: ZOMBIE
+  Disguise: SPIDER
+  Display: '&lPoisonous Spider &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 450  # x3 Zdrowie
+  Damage: 50   # x2 Obrażenia
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.35
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - potion{type=POISON;duration=100;level=2} @target ~onAttack
+  Drops:
+    - gremlin_marauder_hell_drop
+    - q_hell_mob_crafting
+
+corrupted_root_creature_hell:
+  Type: ZOMBIE
+  Display: '&e&lCorrupted Root Creature &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 3000  # x3 Zdrowie
+  Damage: 100   # x2 Obrażenia
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.15
+    ShowHealth: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.7
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=VineChase_hell} @target ~onTimer:12
+  Drops:
+    - corrupted_root_creature_hell_drop
+    - q_hell_elite_crafting
+  Equipment:
+    - leather_helmet{color=green} HEAD
+    - leather_chestplate{color=green} CHEST
+    - leather_leggings{color=green} LEGS
+    - leather_boots{color=green} FEET
+
+xerib_the_hunchback_hell:
+  Type: WITCH
+  Display: '&5&lXerib the Hunchback &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 6000  # x3 Zdrowie
+  Damage: 120   # x2 Obrażenia
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.2
+    ShowHealth: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    AlwaysShowName: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummoningSphereXerib_hell} @target ~onTimer:18
+    - skill{s=PoisonMagicProjectile_hell} @target ~onTimer:8
+    - skill{s=FallingPoisonSphere_hell} @target ~onTimer:12
+  Drops:
+    - xerib_the_hunchback_hell_drop
+
+archus_the_mad_hell:
+  Type: ZOMBIE
+  Disguise: HUSK
+  Display: '&5&lArchus the Mad &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 9000  # x3 Zdrowie
+  Damage: 160   # x2 Obrażenia
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.45
+    ShowHealth: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    KnockbackResistance: 0.65
+    AlwaysShowName: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=ThrowStone_hell} @target ~onTimer:10
+  Drops:
+    - xerib_the_hunchback_hell_drop
+
+
+arachna_scourge_of_duria_hell:
+  Type: ZOMBIE
+  Disguise: SPIDER
+  Display: '&4<&skull> &lArachna, Scourge of Duria &r&4<&skull>'
+  Health: 15000  # x3 Zdrowie
+  Damage: 200    # x2 Obrażenia
+  BossBar:
+    Enabled: true
+    Title: '&c<&skull> Arachna - &c<mob.hp{round=0}> <&skull>'
+    Color: PURPLE
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 35
+    MovementSpeed: 0.35
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventOtherDrops: true
+    PreventItemPickup: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    Despawn: CHUNK
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=WebShot_hell} @target ~onTimer:8
+    - skill{s=VenomSpit_hell} @target ~onTimer:12
+    - skill{s=FallingPoisonSphere_hell} @target ~onTimer:18
+    - skill{s=SummonPoisonousSpiders_hell} @self ~onTimer:22
+  Drops:
+    - arachna_hell_drop

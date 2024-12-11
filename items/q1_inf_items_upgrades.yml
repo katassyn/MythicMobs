@@ -1,0 +1,362 @@
+fireman_pants+1:
+  Id: iron_leggings
+  Display: '&9[ I ] &9Fireman Pants'
+  Group: q1-infernal_+1
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:43
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 43 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+pyro_helmet+1:
+  Id: iron_helmet
+  Display: '&9[ I ] &9Pyro Helmet'
+  Group: q1-infernal_+1
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:43
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 43 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+path_of_the_untouchables+1:
+  Id: diamond_boots
+  Display: '&9[ I ] &5Path of the Untouchables'
+  Group: q1-infernal_+1
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:54
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 54 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10 # Speed III
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+cuchulains_battle_armor+1:
+  Id: diamond_chestplate
+  Display: '&9[ I ] &6Cuchulain`s Battle Armor'
+  Group: q1-infernal_+1
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:65
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 65 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 50 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+#+2 +2 +2 +2 #+2 +2 +2 +2
+#+2 +2 +2 +2 #+2 +2 +2 +2
+#+2 +2 +2 +2 #+2 +2 +2 +2
+
+fireman_pants+2:
+  Id: iron_leggings
+  Display: '&9[ I ] &9Fireman Pants'
+  Group: q1-infernal_+2
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:46
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 46 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+pyro_helmet+2:
+  Id: iron_helmet
+  Display: '&9[ I ] &9Pyro Helmet'
+  Group: q1-infernal_+2
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:46
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 46 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+path_of_the_untouchables+2:
+  Id: diamond_boots
+  Display: '&9[ I ] &5Path of the Untouchables'
+  Group: q1-infernal_+2
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:58
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 58 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10 # Speed III
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+cuchulains_battle_armor+2:
+  Id: diamond_chestplate
+  Display: '&9[ I ] &6Cuchulain`s Battle Armor'
+  Group: q1-infernal_+2
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:70
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 70 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 50 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+#+3 +3 +3 +3 +3 #+3 +3 +3 +3 +3
+#+3 +3 +3 +3 +3 #+3 +3 +3 +3 +3
+#+3 +3 +3 +3 +3#+3 +3 +3 +3 +3
+fireman_pants+3:
+  Id: iron_leggings
+  Display: '&9[ I ] &9Fireman Pants'
+  Group: q1-infernal_+3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:49
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 49 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+pyro_helmet+3:
+  Id: iron_helmet
+  Display: '&9[ I ] &9Pyro Helmet'
+  Group: q1-infernal_+3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:49
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 49 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+path_of_the_untouchables+3:
+  Id: diamond_boots
+  Display: '&9[ I ] &5Path of the Untouchables'
+  Group: q1-infernal_+3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:62
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 62 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10 # Speed III
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+cuchulains_battle_armor+3:
+  Id: diamond_chestplate
+  Display: '&9[ I ] &6Cuchulain`s Battle Armor'
+  Group: q1-infernal_+3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:75
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 75 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 50 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+#+4 +4 +4 +4 +4 #+4 +4 +4 +4 +4
+#+4 +4 +4 +4 +4 #+4 +4 +4 +4 +4
+#+4 +4 +4 +4 +4 #+4 +4 +4 +4 +4
+fireman_pants+4:
+  Id: iron_leggings
+  Display: '&9[ I ] &9Fireman Pants'
+  Group: q1-infernal_+4
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:52
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 52 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+pyro_helmet+4:
+  Id: iron_helmet
+  Display: '&9[ I ] &9Pyro Helmet'
+  Group: q1-infernal_+4
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:52
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 52 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+path_of_the_untouchables+4:
+  Id: diamond_boots
+  Display: '&9[ I ] &5Path of the Untouchables'
+  Group: q1-infernal_+4
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:66
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 66 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10 # Speed III
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+cuchulains_battle_armor+4:
+  Id: diamond_chestplate
+  Display: '&9[ I ] &6Cuchulain`s Battle Armor'
+  Group: q1-infernal_+4
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 80 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 50 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES

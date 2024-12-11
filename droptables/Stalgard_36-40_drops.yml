@@ -1,0 +1,42 @@
+saw:
+  Drops:
+    # - experience 10
+    - saw_item_drops 1
+saw_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - gearforged_helm 1 0.01
+    - steelwalker_boots 1 0.01
+    - steamforged_axe 1 0.005
+    - automaton_blade 1 0.005
+
+technik:
+  Drops:
+    # - experience 10
+    - technik_item_drops 1
+technik_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - gearforged_helm 1 0.03
+    - steelwalker_boots 1 0.003
+    - steamforged_axe 1 0.015
+    - automaton_blade 1 0.015
+    - ironclad_chestplate 1 0.005
+
+high_priest_danzo:
+  Drops:
+    # - experience 10
+    - dragon_gold 1 0.25
+    - high_priest_danzo_item_drops 1
+high_priest_danzo_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - gearforged_helm 1 0.08
+    - steelwalker_boots 1 0.08
+    - steamforged_axe 1 0.025
+    - automaton_blade 1 0.025
+    - ironclad_chestplate 1 0.015
+    - clockwork_greaves 1 0.005

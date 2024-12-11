@@ -1,0 +1,1362 @@
+# q3-infernal.yml
+
+# Przedmioty bazowe
+
+# Ulepszone wersje przedmiotów (+1 do +4)
+
+# Undead Chestplate +1 do +4
+
+undead_chestplate_infernal+1:
+  Id: iron_chestplate
+  Display: '&9[ I ] &9Undead Chestplate'
+  Group: q3-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:43
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 43 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=9;p=false;hasIcon=false;force=true} @self ~onTimer:200  # Efekt pozostaje taki sam
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+undead_chestplate_infernal+2:
+  Id: iron_chestplate
+  Display: '&9[ I ] &9Undead Chestplate'
+  Group: q3-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:46
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 46 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=9;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+undead_chestplate_infernal+3:
+  Id: iron_chestplate
+  Display: '&9[ I ] &9Undead Chestplate'
+  Group: q3-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:49
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 49 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=9;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+undead_chestplate_infernal+4:
+  Id: iron_chestplate
+  Display: '&9[ I ] &9Undead Chestplate'
+  Group: q3-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:52
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 52 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=9;p=false;hasIcon=false;force=true} @self ~onTimer:200  # Efekt pozostaje taki sam
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Glacial Boots +1 do +4
+
+glacial_boots_infernal+1:
+  Id: iron_boots
+  Display: '&9[ I ] &9Glacial Boots'
+  Group: q3-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:43
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 43 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10  # Szybkość II
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+glacial_boots_infernal+2:
+  Id: iron_boots
+  Display: '&9[ I ] &9Glacial Boots'
+  Group: q3-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:46
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 46 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+glacial_boots_infernal+3:
+  Id: iron_boots
+  Display: '&9[ I ] &9Glacial Boots'
+  Group: q3-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:49
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 49 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+glacial_boots_infernal+4:
+  Id: iron_boots
+  Display: '&9[ I ] &9Glacial Boots'
+  Group: q3-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:52
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 52 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10  # Efekt pozostaje taki sam
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Agathon's Ring of Order +1 do +4
+
+agathons_ring_of_order_infernal+1:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Agathon`s Ring of Order'
+  Group: q3-infernal
+  Lore:
+    - ''
+    - '&7Luck:&a +0.3 🍀'
+    - '&7Health:&c -0.5 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.3 ADD
+      Health: -0.5 ADD
+  Hide:
+    - ATTRIBUTES
+
+agathons_ring_of_order_infernal+2:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Agathon`s Ring of Order'
+  Group: q3-infernal
+  Lore:
+    - ''
+    - '&7Luck:&a +0.5 🍀'
+    - '&7Health:&c 0 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.5 ADD
+      Health: 0 ADD
+  Hide:
+    - ATTRIBUTES
+
+agathons_ring_of_order_infernal+3:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Agathon`s Ring of Order'
+  Group: q3-infernal
+  Lore:
+    - ''
+    - '&7Luck:&a +0.7 🍀'
+    - '&7Health:&c +1 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.7 ADD
+      Health: 1 ADD
+  Hide:
+    - ATTRIBUTES
+
+agathons_ring_of_order_infernal+4:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Agathon`s Ring of Order'
+  Group: q3-infernal
+  Lore:
+    - ''
+    - '&7Luck:&a +0.9 🍀'
+    - '&7Health:&c +1 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.9 ADD
+      Health: 1 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Visage of the Untouchables +1 do +4
+
+visage_of_the_untouchables_infernal+1:
+  Id: diamond_helmet
+  Display: '&9[ I ] &5Visage of the Untouchables'
+  Group: q3-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:54
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 54 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10  # Siła III
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+visage_of_the_untouchables_infernal+2:
+  Id: diamond_helmet
+  Display: '&9[ I ] &5Visage of the Untouchables'
+  Group: q3-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:58
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 58 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+visage_of_the_untouchables_infernal+3:
+  Id: diamond_helmet
+  Display: '&9[ I ] &5Visage of the Untouchables'
+  Group: q3-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:62
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 62 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+visage_of_the_untouchables_infernal+4:
+  Id: diamond_helmet
+  Display: '&9[ I ] &5Visage of the Untouchables'
+  Group: q3-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:66
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 66 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10  # Efekt pozostaje taki sam
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+# q3-hell.yml
+
+# Przedmioty bazowe
+
+
+# Ulepszone wersje przedmiotów (+1 do +4)
+
+# Undead Chestplate +1 do +4
+
+undead_chestplate_hell+1:
+  Id: iron_chestplate
+  Display: '&5[ II ] &9Undead Chestplate'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:53
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 53 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=19;p=false;hasIcon=false;force=true} @self ~onTimer:200  # Efekt pozostaje taki sam
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+undead_chestplate_hell+2:
+  Id: iron_chestplate
+  Display: '&5[ II ] &9Undead Chestplate'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:56
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 56 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=19;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+undead_chestplate_hell+3:
+  Id: iron_chestplate
+  Display: '&5[ II ] &9Undead Chestplate'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:59
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 59 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=19;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+undead_chestplate_hell+4:
+  Id: iron_chestplate
+  Display: '&5[ II ] &9Undead Chestplate'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:62
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 62 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=19;p=false;hasIcon=false;force=true} @self ~onTimer:200  # Efekt pozostaje taki sam
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Glacial Boots +1 do +4
+
+glacial_boots_hell+1:
+  Id: iron_boots
+  Display: '&5[ II ] &9Glacial Boots'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:53
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 53 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10  # Szybkość III
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+glacial_boots_hell+2:
+  Id: iron_boots
+  Display: '&5[ II ] &9Glacial Boots'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:56
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 56 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+glacial_boots_hell+3:
+  Id: iron_boots
+  Display: '&5[ II ] &9Glacial Boots'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:59
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 59 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+glacial_boots_hell+4:
+  Id: iron_boots
+  Display: '&5[ II ] &9Glacial Boots'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:62
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 62 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10  # Efekt pozostaje taki sam
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Agathon's Ring of Order +1 do +4
+
+agathons_ring_of_order_hell+1:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Agathon`s Ring of Order'
+  Group: q3-hell
+  Lore:
+    - ''
+    - '&7Luck:&a +0.5 🍀'
+    - '&7Health:&c -0.5 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.5 ADD
+      Health: -0.5 ADD
+  Hide:
+    - ATTRIBUTES
+
+agathons_ring_of_order_hell+2:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Agathon`s Ring of Order'
+  Group: q3-hell
+  Lore:
+    - ''
+    - '&7Luck:&a +0.7 🍀'
+    - '&7Health:&c 0 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.7 ADD
+      Health: 0 ADD
+  Hide:
+    - ATTRIBUTES
+
+agathons_ring_of_order_hell+3:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Agathon`s Ring of Order'
+  Group: q3-hell
+  Lore:
+    - ''
+    - '&7Luck:&a +0.9 🍀'
+    - '&7Health:&c +1 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.9 ADD
+      Health: 1 ADD
+  Hide:
+    - ATTRIBUTES
+
+agathons_ring_of_order_hell+4:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Agathon`s Ring of Order'
+  Group: q3-hell
+  Lore:
+    - ''
+    - '&7Luck:&a +1.1 🍀'
+    - '&7Health:&c +1 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 1.1 ADD
+      Health: 1 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Visage of the Untouchables +1 do +4
+
+visage_of_the_untouchables_hell+1:
+  Id: diamond_helmet
+  Display: '&5[ II ] &5Visage of the Untouchables'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:64
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 64 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10  # Siła III
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+visage_of_the_untouchables_hell+2:
+  Id: diamond_helmet
+  Display: '&5[ II ] &5Visage of the Untouchables'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:68
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 68 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+visage_of_the_untouchables_hell+3:
+  Id: diamond_helmet
+  Display: '&5[ II ] &5Visage of the Untouchables'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:72
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 72 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+visage_of_the_untouchables_hell+4:
+  Id: diamond_helmet
+  Display: '&5[ II ] &5Visage of the Untouchables'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:76
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 76 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10  # Efekt pozostaje taki sam
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Heredur's Royal Power +1 do +4
+
+heredurs_royal_power_hell+1:
+  Id: diamond_helmet
+  Display: '&5[ II ] &l&eHeredur`s Royal Power'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:86
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 86 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &l&eUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10  # Siła IV
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+heredurs_royal_power_hell+2:
+  Id: diamond_helmet
+  Display: '&5[ II ] &l&eHeredur`s Royal Power'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:92
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 92 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &l&eUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+heredurs_royal_power_hell+3:
+  Id: diamond_helmet
+  Display: '&5[ II ] &l&eHeredur`s Royal Power'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:98
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 98 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &l&eUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10  # Efekt pozostaje taki sam
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+heredurs_royal_power_hell+4:
+  Id: diamond_helmet
+  Display: '&5[ II ] &l&eHeredur`s Royal Power'
+  Group: q3-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:104
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 104 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &l&eUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# q3-blood.yml
+
+# Przedmioty bazowe
+
+
+# Ulepszone wersje przedmiotów (+1 do +4)
+
+# Undead Chestplate +1 do +4
+
+undead_chestplate_blood+1:
+  Id: iron_chestplate
+  Display: '&6[ III ] &9Undead Chestplate'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:63
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 63 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # Efekt pozostaje taki sam
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+undead_chestplate_blood+2:
+  Id: iron_chestplate
+  Display: '&6[ III ] &9Undead Chestplate'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:66
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 66 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+undead_chestplate_blood+3:
+  Id: iron_chestplate
+  Display: '&6[ III ] &9Undead Chestplate'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:69
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 69 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+undead_chestplate_blood+4:
+  Id: iron_chestplate
+  Display: '&6[ III ] &9Undead Chestplate'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:72
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 72 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # Efekt pozostaje taki sam
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Glacial Boots +1 do +4
+
+glacial_boots_blood+1:
+  Id: iron_boots
+  Display: '&6[ III ] &9Glacial Boots'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:63
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 63 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10  # Szybkość III
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+glacial_boots_blood+2:
+  Id: iron_boots
+  Display: '&6[ III ] &9Glacial Boots'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:66
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 66 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+glacial_boots_blood+3:
+  Id: iron_boots
+  Display: '&6[ III ] &9Glacial Boots'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:69
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 69 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+glacial_boots_blood+4:
+  Id: iron_boots
+  Display: '&6[ III ] &9Glacial Boots'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:72
+    - THORNS:20
+  Lore:
+    - ''
+    - '&7Protection:&9 72 🛡'
+    - '&7Thorns:&2 20 🌵'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10  # Efekt pozostaje taki sam
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Agathon's Ring of Order +1 do +4
+
+agathons_ring_of_order_blood+1:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Agathon`s Ring of Order'
+  Group: q3-blood
+  Lore:
+    - ''
+    - '&7Luck:&a +0.7 🍀'
+    - '&7Health:&c -0.5 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.7 ADD
+      Health: -0.5 ADD
+  Hide:
+    - ATTRIBUTES
+
+agathons_ring_of_order_blood+2:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Agathon`s Ring of Order'
+  Group: q3-blood
+  Lore:
+    - ''
+    - '&7Luck:&a +0.9 🍀'
+    - '&7Health:&c 0 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.9 ADD
+      Health: 0 ADD
+  Hide:
+    - ATTRIBUTES
+
+agathons_ring_of_order_blood+3:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Agathon`s Ring of Order'
+  Group: q3-blood
+  Lore:
+    - ''
+    - '&7Luck:&a +1.1 🍀'
+    - '&7Health:&c +1 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 1.1 ADD
+      Health: 1 ADD
+  Hide:
+    - ATTRIBUTES
+
+agathons_ring_of_order_blood+4:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Agathon`s Ring of Order'
+  Group: q3-blood
+  Lore:
+    - ''
+    - '&7Luck:&a +1.3 🍀'
+    - '&7Health:&c +1 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 1.3 ADD
+      Health: 1 ADD
+  Hide:
+    - ATTRIBUTES
+
+# Visage of the Untouchables +1 do +4
+
+visage_of_the_untouchables_blood+1:
+  Id: diamond_helmet
+  Display: '&6[ III ] &5Visage of the Untouchables'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:74
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 74 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10  # Siła IV
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+visage_of_the_untouchables_blood+2:
+  Id: diamond_helmet
+  Display: '&6[ III ] &5Visage of the Untouchables'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:78
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 78 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+visage_of_the_untouchables_blood+3:
+  Id: diamond_helmet
+  Display: '&6[ III ] &5Visage of the Untouchables'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:82
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 82 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+visage_of_the_untouchables_blood+4:
+  Id: diamond_helmet
+  Display: '&6[ III ] &5Visage of the Untouchables'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:86
+    - THORNS:25
+  Lore:
+    - ''
+    - '&7Protection:&9 86 🛡'
+    - '&7Thorns:&2 25 🌵'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10  # Efekt pozostaje taki sam
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Heredur's Royal Power +1 do +4
+
+heredurs_royal_power_blood+1:
+  Id: diamond_helmet
+  Display: '&6[ III ] &l&eHeredur`s Royal Power'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:96
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 96 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &l&eUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10  # Siła IV
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+heredurs_royal_power_blood+2:
+  Id: diamond_helmet
+  Display: '&6[ III ] &l&eHeredur`s Royal Power'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:102
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 102 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &l&eUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+heredurs_royal_power_blood+3:
+  Id: diamond_helmet
+  Display: '&6[ III ] &l&eHeredur`s Royal Power'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:108
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 108 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &l&eUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10  # Efekt pozostaje taki sam
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+heredurs_royal_power_blood+4:
+  Id: diamond_helmet
+  Display: '&6[ III ] &l&eHeredur`s Royal Power'
+  Group: q3-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:114
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 114 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &l&eUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+# Heredur's Royal Shield +1 do +4
+
+heredurs_royal_shield_blood+1:
+  Id: iron_door
+  Display: '&6[ III ] &l&cHEREDUR`S ROYAL SHIELD'
+  Group: q3-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +350 ⚔'
+    - '&7Block Chance:&b 55% 🎲'
+    - '&7Block Strength:&a +18% ⛓️'
+    - '&lRarity:&r &c&lMYTHIC &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 350 ADD
+  Hide:
+    - ATTRIBUTES
+
+heredurs_royal_shield_blood+2:
+  Id: iron_door
+  Display: '&6[ III ] &l&cHEREDUR`S ROYAL SHIELD'
+  Group: q3-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +400 ⚔'
+    - '&7Block Chance:&b 60% 🎲'
+    - '&7Block Strength:&a +21% ⛓️'
+    - '&lRarity:&r &c&lMYTHIC &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 400 ADD
+  Hide:
+    - ATTRIBUTES
+
+heredurs_royal_shield_blood+3:
+  Id: iron_door
+  Display: '&6[ III ] &l&cHEREDUR`S ROYAL SHIELD'
+  Group: q3-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +450 ⚔'
+    - '&7Block Chance:&b 65% 🎲'
+    - '&7Block Strength:&a +24% ⛓️'
+    - '&lRarity:&r &c&lMYTHIC &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 450 ADD
+  Hide:
+    - ATTRIBUTES
+
+heredurs_royal_shield_blood+4:
+  Id: iron_door
+  Display: '&6[ III ] &l&cHEREDUR`S ROYAL SHIELD'
+  Group: q3-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +500 ⚔'
+    - '&7Block Chance:&b 70% 🎲'
+    - '&7Block Strength:&a +27% ⛓️'
+    - '&lRarity:&r &c&lMYTHIC &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 500 ADD
+  Hide:
+    - ATTRIBUTES
