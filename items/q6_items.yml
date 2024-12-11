@@ -1758,7 +1758,7 @@ mortis_ring_of_death_infernal:
   Group: q6-infernal
   Lore:
     - ''
-    - '&7Attack Speed:&a +3 ⏲️'
+    - '&7Attack Speed:&a +3 ⚡'
     - '&7HP:&c -10%'
     - '&lRarity:&r &6Legendary'
   Options:
@@ -1778,7 +1778,7 @@ mortis_ring_of_death_infernal+1:
   Group: q6-infernal
   Lore:
     - ''
-    - '&7Attack Speed:&a +4 ⏲️'
+    - '&7Attack Speed:&a +4 ⚡'
     - '&7HP:&c -10%'
     - '&lRarity:&r &6Legendary &l+1'
   Options:
@@ -1798,7 +1798,7 @@ mortis_ring_of_death_infernal+2:
   Group: q6-infernal
   Lore:
     - ''
-    - '&7Attack Speed:&a +5 ⏲️'
+    - '&7Attack Speed:&a +5 ⚡'
     - '&7HP:&c -10%'
     - '&lRarity:&r &6Legendary &l+2'
   Options:
@@ -1818,7 +1818,7 @@ mortis_ring_of_death_infernal+3:
   Group: q6-infernal
   Lore:
     - ''
-    - '&7Attack Speed:&a +6 ⏲️'
+    - '&7Attack Speed:&a +6 ⚡'
     - '&7HP:&c -10%'
     - '&lRarity:&r &6Legendary &l+3'
   Options:
@@ -1838,7 +1838,7 @@ mortis_ring_of_death_infernal+4:
   Group: q6-infernal
   Lore:
     - ''
-    - '&7Attack Speed:&a +7 ⏲️'
+    - '&7Attack Speed:&a +7 ⚡'
     - '&7HP:&c -10%'
     - '&lRarity:&r &6Legendary &l+4'
   Options:
@@ -1859,7 +1859,7 @@ mortis_ring_of_death_hell:
   Group: q6-hell
   Lore:
     - ''
-    - '&7Attack Speed:&a +4 ⏲️'
+    - '&7Attack Speed:&a +4 ⚡'
     - '&7HP:&c -8%'
     - '&lRarity:&r &6Legendary'
   Options:
@@ -1879,7 +1879,7 @@ mortis_ring_of_death_hell+1:
   Group: q6-hell
   Lore:
     - ''
-    - '&7Attack Speed:&a +5 ⏲️'
+    - '&7Attack Speed:&a +5 ⚡'
     - '&7HP:&c -8%'
     - '&lRarity:&r &6Legendary &l+1'
   Options:
@@ -1899,7 +1899,7 @@ mortis_ring_of_death_hell+2:
   Group: q6-hell
   Lore:
     - ''
-    - '&7Attack Speed:&a +6 ⏲️'
+    - '&7Attack Speed:&a +6 ⚡'
     - '&7HP:&c -8%'
     - '&lRarity:&r &6Legendary &l+2'
   Options:
@@ -1919,7 +1919,7 @@ mortis_ring_of_death_hell+3:
   Group: q6-hell
   Lore:
     - ''
-    - '&7Attack Speed:&a +7 ⏲️'
+    - '&7Attack Speed:&a +7 ⚡'
     - '&7HP:&c -8%'
     - '&lRarity:&r &6Legendary &l+3'
   Options:
@@ -1939,7 +1939,7 @@ mortis_ring_of_death_hell+4:
   Group: q6-hell
   Lore:
     - ''
-    - '&7Attack Speed:&a +8 ⏲️'
+    - '&7Attack Speed:&a +8 ⚡'
     - '&7HP:&c -8%'
     - '&lRarity:&r &6Legendary &l+4'
   Options:
@@ -1960,7 +1960,7 @@ mortis_ring_of_death_blood:
   Group: q6-blood
   Lore:
     - ''
-    - '&7Attack Speed:&a +5 ⏲️'
+    - '&7Attack Speed:&a +5 ⚡'
     - '&7HP:&c -5%'
     - '&lRarity:&r &6Legendary'
   Options:
@@ -1980,7 +1980,7 @@ mortis_ring_of_death_blood+1:
   Group: q6-blood
   Lore:
     - ''
-    - '&7Attack Speed:&a +6 ⏲️'
+    - '&7Attack Speed:&a +6 ⚡'
     - '&7HP:&c -5%'
     - '&lRarity:&r &6Legendary &l+1'
   Options:
@@ -2000,7 +2000,7 @@ mortis_ring_of_death_blood+2:
   Group: q6-blood
   Lore:
     - ''
-    - '&7Attack Speed:&a +7 ⏲️'
+    - '&7Attack Speed:&a +7 ⚡'
     - '&7HP:&c -5%'
     - '&lRarity:&r &6Legendary &l+2'
   Options:
@@ -2020,7 +2020,7 @@ mortis_ring_of_death_blood+3:
   Group: q6-blood
   Lore:
     - ''
-    - '&7Attack Speed:&a +8 ⏲️'
+    - '&7Attack Speed:&a +8 ⚡'
     - '&7HP:&c -5%'
     - '&lRarity:&r &6Legendary &l+3'
   Options:
@@ -2040,7 +2040,7 @@ mortis_ring_of_death_blood+4:
   Group: q6-blood
   Lore:
     - ''
-    - '&7Attack Speed:&a +9 ⏲️'
+    - '&7Attack Speed:&a +9 ⚡'
     - '&7HP:&c -5%'
     - '&lRarity:&r &6Legendary &l+4'
   Options:
