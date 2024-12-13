@@ -1,0 +1,9 @@
+<component name="libraryTable">
+  <library name="resource_pack">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/generation/resource_pack.zip!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
