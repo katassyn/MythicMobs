@@ -51,7 +51,7 @@ strike_of_the_untouchables_infernal:
   Group: q4-infernal
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.1 ⏲️'
+    - '&7Attack Speed:&a +0.1 ⚡'
     - '&lRarity:&r &5Extraordinary'
   Options:
     HideFlags: true
@@ -135,7 +135,7 @@ strike_of_the_untouchables_hell:
   Group: q4-hell
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.2 ⏲️'
+    - '&7Attack Speed:&a +0.2 ⚡'
     - '&lRarity:&r &5Extraordinary'
   Options:
     HideFlags: true
@@ -174,7 +174,7 @@ artayas_wild_care_hell:
   Lore:
     - ''
     - '&7Block Chance:&b 15% 🎲'
-    - '&7Block Strength:&a +5% ⛓️'
+    - '&7Block Strength:&a +5% ⚙'
     - '&7Health:&c +25 ❤'
     - '&lRarity:&r &e&lUnique'
     - '&8-------------------'
@@ -242,7 +242,7 @@ strike_of_the_untouchables_blood:
   Group: q4-blood
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.3 ⏲️'
+    - '&7Attack Speed:&a +0.3 ⚡'
     - '&lRarity:&r &5Extraordinary'
   Options:
     HideFlags: true
@@ -281,7 +281,7 @@ artayas_wild_care_blood:
   Lore:
     - ''
     - '&7Block Chance:&b 25% 🎲'
-    - '&7Block Strength:&a +5% ⛓️'
+    - '&7Block Strength:&a +5% ⚙'
     - '&7Health:&c +50 ❤'
     - '&lRarity:&r &l&eUnique'
     - '&8-------------------'

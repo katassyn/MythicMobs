@@ -523,7 +523,7 @@ strike_of_the_untouchables_infernal+1:
   Group: q4-infernal
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.2 ⏲️'
+    - '&7Attack Speed:&a +0.2 ⚡'
     - '&lRarity:&r &5Extraordinary &l+1'
   Options:
     HideFlags: true
@@ -541,7 +541,7 @@ strike_of_the_untouchables_infernal+2:
   Group: q4-infernal
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.3 ⏲️'
+    - '&7Attack Speed:&a +0.3 ⚡'
     - '&lRarity:&r &5Extraordinary &l+2'
   Options:
     HideFlags: true
@@ -559,7 +559,7 @@ strike_of_the_untouchables_infernal+3:
   Group: q4-infernal
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.4 ⏲️'
+    - '&7Attack Speed:&a +0.4 ⚡'
     - '&lRarity:&r &5Extraordinary &l+3'
   Options:
     HideFlags: true
@@ -577,7 +577,7 @@ strike_of_the_untouchables_infernal+4:
   Group: q4-infernal
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.5 ⏲️'
+    - '&7Attack Speed:&a +0.5 ⚡'
     - '&lRarity:&r &5Extraordinary &l+4'
   Options:
     HideFlags: true
@@ -596,7 +596,7 @@ strike_of_the_untouchables_hell+1:
   Group: q4-hell
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.3 ⏲️'
+    - '&7Attack Speed:&a +0.3 ⚡'
     - '&lRarity:&r &5Extraordinary &l+1'
   Options:
     HideFlags: true
@@ -614,7 +614,7 @@ strike_of_the_untouchables_hell+2:
   Group: q4-hell
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.4 ⏲️'
+    - '&7Attack Speed:&a +0.4 ⚡'
     - '&lRarity:&r &5Extraordinary &l+2'
   Options:
     HideFlags: true
@@ -632,7 +632,7 @@ strike_of_the_untouchables_hell+3:
   Group: q4-hell
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.5 ⏲️'
+    - '&7Attack Speed:&a +0.5 ⚡'
     - '&lRarity:&r &5Extraordinary &l+3'
   Options:
     HideFlags: true
@@ -650,7 +650,7 @@ strike_of_the_untouchables_hell+4:
   Group: q4-hell
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.6 ⏲️'
+    - '&7Attack Speed:&a +0.6 ⚡'
     - '&lRarity:&r &5Extraordinary &l+4'
   Options:
     HideFlags: true
@@ -669,7 +669,7 @@ strike_of_the_untouchables_blood+1:
   Group: q4-blood
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.4 ⏲️'
+    - '&7Attack Speed:&a +0.4 ⚡'
     - '&lRarity:&r &5Extraordinary &l+1'
   Options:
     HideFlags: true
@@ -687,7 +687,7 @@ strike_of_the_untouchables_blood+2:
   Group: q4-blood
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.5 ⏲️'
+    - '&7Attack Speed:&a +0.5 ⚡'
     - '&lRarity:&r &5Extraordinary &l+2'
   Options:
     HideFlags: true
@@ -705,7 +705,7 @@ strike_of_the_untouchables_blood+3:
   Group: q4-blood
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.6 ⏲️'
+    - '&7Attack Speed:&a +0.6 ⚡'
     - '&lRarity:&r &5Extraordinary &l+3'
   Options:
     HideFlags: true
@@ -723,7 +723,7 @@ strike_of_the_untouchables_blood+4:
   Group: q4-blood
   Lore:
     - ''
-    - '&7Attack Speed:&a +0.7 ⏲️'
+    - '&7Attack Speed:&a +0.7 ⚡'
     - '&lRarity:&r &5Extraordinary &l+4'
   Options:
     HideFlags: true
@@ -966,7 +966,7 @@ artayas_wild_care_hell+1:
   Lore:
     - ''
     - '&7Block Chance:&b 20% 🎲'
-    - '&7Block Strength:&a +8% ⛓️'
+    - '&7Block Strength:&a +8% ⚙'
     - '&7Health:&c +31 ❤'
     - '&lRarity:&r &l&eUnique &l+1'
     - '&8-------------------'
@@ -988,7 +988,7 @@ artayas_wild_care_hell+2:
   Lore:
     - ''
     - '&7Block Chance:&b 25% 🎲'
-    - '&7Block Strength:&a +11% ⛓️'
+    - '&7Block Strength:&a +11% ⚙'
     - '&7Health:&c +37 ❤'
     - '&lRarity:&r &l&eUnique &l+2'
     - '&8-------------------'
@@ -1010,7 +1010,7 @@ artayas_wild_care_hell+3:
   Lore:
     - ''
     - '&7Block Chance:&b 30% 🎲'
-    - '&7Block Strength:&a +14% ⛓️'
+    - '&7Block Strength:&a +14% ⚙'
     - '&7Health:&c +43 ❤'
     - '&lRarity:&r &l&eUnique &l+3'
     - '&8-------------------'
@@ -1032,7 +1032,7 @@ artayas_wild_care_hell+4:
   Lore:
     - ''
     - '&7Block Chance:&b 35% 🎲'
-    - '&7Block Strength:&a +17% ⛓️'
+    - '&7Block Strength:&a +17% ⚙'
     - '&7Health:&c +49 ❤'
     - '&lRarity:&r &l&eUnique &l+4'
     - '&8-------------------'
@@ -1055,7 +1055,7 @@ artayas_wild_care_blood+1:
   Lore:
     - ''
     - '&7Block Chance:&b 30% 🎲'
-    - '&7Block Strength:&a +8% ⛓️'
+    - '&7Block Strength:&a +8% ⚙'
     - '&7Health:&c +56 ❤'
     - '&lRarity:&r &l&eUnique &l+1'
     - '&8-------------------'
@@ -1077,7 +1077,7 @@ artayas_wild_care_blood+2:
   Lore:
     - ''
     - '&7Block Chance:&b 35% 🎲'
-    - '&7Block Strength:&a +11% ⛓️'
+    - '&7Block Strength:&a +11% ⚙'
     - '&7Health:&c +62 ❤'
     - '&lRarity:&r &l&eUnique &l+2'
     - '&8-------------------'
@@ -1099,7 +1099,7 @@ artayas_wild_care_blood+3:
   Lore:
     - ''
     - '&7Block Chance:&b 40% 🎲'
-    - '&7Block Strength:&a +14% ⛓️'
+    - '&7Block Strength:&a +14% ⚙'
     - '&7Health:&c +68 ❤'
     - '&lRarity:&r &l&eUnique &l+3'
     - '&8-------------------'
@@ -1121,7 +1121,7 @@ artayas_wild_care_blood+4:
   Lore:
     - ''
     - '&7Block Chance:&b 45% 🎲'
-    - '&7Block Strength:&a +17% ⛓️'
+    - '&7Block Strength:&a +17% ⚙'
     - '&7Health:&c +74 ❤'
     - '&lRarity:&r &l&eUnique &l+4'
     - '&8-------------------'
