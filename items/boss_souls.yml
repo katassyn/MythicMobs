@@ -1,0 +1,169 @@
+q1_soul:
+  Id: DRAGON_BREATH
+  Display: '&c☀ Grimmag’s Burning Soul'
+  Group: Souls
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&6Grants Powerful Buff to ...'
+    - '&4&oA soul imbued with eternal flames.'
+    - '&8-------------------'
+    - '&aRequired Level: &6 75'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q2_soul:
+  Id: DRAGON_BREATH
+  Display: '&2☠ Arachna’s Venomous Soul'
+  Group: Souls
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&6Grants Powerful Buff to ...'
+    - '&2&oA soul dripping with deadly poison.'
+    - '&8-------------------'
+    - '&aRequired Level: &6 75'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q3_soul:
+  Id: DRAGON_BREATH
+  Display: '&b❄ King Heredur’s Frostbound Soul'
+  Group: Souls
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&6Grants Powerful Buff to ...'
+    - '&3&oA soul encased in unyielding ice.'
+    - '&8-------------------'
+    - '&aRequired Level: &6 75'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q4_soul:
+  Id: DRAGON_BREATH
+  Display: '&a🌿 Bearach’s Wildheart Soul'
+  Group: Souls
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&6Grants Powerful Buff to ...'
+    - '&2&oA soul pulsing with untamed energy.'
+    - '&8-------------------'
+    - '&aRequired Level: &6 75'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q5_soul:
+  Id: DRAGON_BREATH
+  Display: '&5⚙ Khalys’s Shadowbound Soul'
+  Group: Souls
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&6Grants Powerful Buff to ...'
+    - '&5&oA soul shrouded in dark rituals.'
+    - '&8-------------------'
+    - '&aRequired Level: &6 75'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q6_soul:
+  Id: DRAGON_BREATH
+  Display: '&8⚔ Mortis’s Unchained Soul'
+  Group: Souls
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&6Grants Powerful Buff to ...'
+    - '&8&oA soul of the death god, now free.'
+    - '&8-------------------'
+    - '&aRequired Level: &6 75'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q7_soul:
+  Id: DRAGON_BREATH
+  Display: '&6🔥 Herald’s Molten Soul'
+  Group: Souls
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&6Grants Powerful Buff to ...'
+    - '&4&oA soul forged in lava and magma.'
+    - '&8-------------------'
+    - '&aRequired Level: &6 75'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q8_soul:
+  Id: DRAGON_BREATH
+  Display: '&b🌨 Sigrismar’s Blizzard Soul'
+  Group: Souls
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&6Grants Powerful Buff to ...'
+    - '&3&oA soul caught in an endless storm.'
+    - '&8-------------------'
+    - '&aRequired Level: &6 75'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q9_soul:
+  Id: DRAGON_BREATH
+  Display: '&2🪨 Medusa’s Petrifying Soul'
+  Group: Souls
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&6Grants Powerful Buff to ...'
+    - '&2&oA soul that turns all to stone.'
+    - '&8-------------------'
+    - '&aRequired Level: &6 75'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q10_soul:
+  Id: DRAGON_BREATH
+  Display: '&3🐍 Gorga’s Abyssal Soul'
+  Group: Souls
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&6Grants Powerful Buff to ...'
+    - '&1&oA soul of the infinite sea serpent.'
+    - '&8-------------------'
+    - '&aRequired Level: &6 75'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
