@@ -1,0 +1,1604 @@
+blazing_shield_infernal:
+  Id: iron_door
+  Display: '&9[ I ] &9Blazing Shield'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Block Chance:&b 10% 🎲'
+    - '&7Damage:&c +5 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 5 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_infernal+1:
+  Id: iron_door
+  Display: '&9[ I ] &9Blazing Shield'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Block Chance:&b 10% 🎲'
+    - '&7Damage:&c +15 ⚔'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 15 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_infernal+2:
+  Id: iron_door
+  Display: '&9[ I ] &9Blazing Shield'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Block Chance:&b 10% 🎲'
+    - '&7Damage:&c +25 ⚔'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 25 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_infernal+3:
+  Id: iron_door
+  Display: '&9[ I ] &9Blazing Shield'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Block Chance:&b 10% 🎲'
+    - '&7Damage:&c +35 ⚔'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 35 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_infernal+4:
+  Id: iron_door
+  Display: '&9[ I ] &9Blazing Shield'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Block Chance:&b 10% 🎲'
+    - '&7Damage:&c +45 ⚔'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 45 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_infernal:
+  Id: white_banner
+  Display: '&9[ I ] &9Fire Shroud of Sun'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +5 ⚔'
+    - '&7HP:&c +5 ❤'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 5 ADD
+      Health: 5 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_infernal+1:
+  Id: white_banner
+  Display: '&9[ I ] &9Fire Shroud of Sun'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +15 ⚔'
+    - '&7HP:&c +7 ❤'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 15 ADD
+      Health: 7 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_infernal+2:
+  Id: white_banner
+  Display: '&9[ I ] &9Fire Shroud of Sun'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +25 ⚔'
+    - '&7HP:&c +9 ❤'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 25 ADD
+      Health: 9 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_infernal+3:
+  Id: white_banner
+  Display: '&9[ I ] &9Fire Shroud of Sun'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +35 ⚔'
+    - '&7HP:&c +11 ❤'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 35 ADD
+      Health: 11 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_infernal+4:
+  Id: white_banner
+  Display: '&9[ I ] &9Fire Shroud of Sun'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +45 ⚔'
+    - '&7HP:&c +13 ❤'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 45 ADD
+      Health: 13 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_infernal:
+  Id: chest_minecart
+  Display: '&9[ I ] &5Resolve of the Alliance'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +30 ⚔'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 30 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_infernal+1:
+  Id: chest_minecart
+  Display: '&9[ I ] &5Resolve of the Alliance'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +60 ⚔'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 60 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_infernal+2:
+  Id: chest_minecart
+  Display: '&9[ I ] &5Resolve of the Alliance'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +90 ⚔'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 90 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_infernal+3:
+  Id: chest_minecart
+  Display: '&9[ I ] &5Resolve of the Alliance'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +120 ⚔'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 120 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_infernal+4:
+  Id: chest_minecart
+  Display: '&9[ I ] &5Resolve of the Alliance'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +150 ⚔'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 150 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_infernal:
+  Id: minecart
+  Display: '&9[ I ] &6Fyrgon`s Fire Belt'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +0.5'
+    - '&7HP:&c +5 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 0.5 ADD
+      Health: 5 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_infernal+1:
+  Id: minecart
+  Display: '&9[ I ] &6Fyrgon`s Fire Belt'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +0.5'
+    - '&7HP:&c +12 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 0.5 ADD
+      Health: 12 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_infernal+2:
+  Id: minecart
+  Display: '&9[ I ] &6Fyrgon`s Fire Belt'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +0.5'
+    - '&7HP:&c +19 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 0.5 ADD
+      Health: 19 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_infernal+3:
+  Id: minecart
+  Display: '&9[ I ] &6Fyrgon`s Fire Belt'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +0.5'
+    - '&7HP:&c +26 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 0.5 ADD
+      Health: 26 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_infernal+4:
+  Id: minecart
+  Display: '&9[ I ] &6Fyrgon`s Fire Belt'
+  Group: q7-infernal
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +0.5'
+    - '&7HP:&c +33 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 0.5 ADD
+      Health: 33 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_hell:
+  Id: iron_door
+  Display: '&5[ II ] &9Blazing Shield'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 15% 🎲'
+    - '&7Damage:&c +10 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 10 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_hell+1:
+  Id: iron_door
+  Display: '&5[ II ] &9Blazing Shield'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 15% 🎲'
+    - '&7Damage:&c +20 ⚔'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 20 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_hell+2:
+  Id: iron_door
+  Display: '&5[ II ] &9Blazing Shield'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 15% 🎲'
+    - '&7Damage:&c +30 ⚔'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 30 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_hell+3:
+  Id: iron_door
+  Display: '&5[ II ] &9Blazing Shield'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 15% 🎲'
+    - '&7Damage:&c +40 ⚔'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 40 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_hell+4:
+  Id: iron_door
+  Display: '&5[ II ] &9Blazing Shield'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 15% 🎲'
+    - '&7Damage:&c +50 ⚔'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 50 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_hell:
+  Id: white_banner
+  Display: '&5[ II ] &9Fire Shroud of Sun'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +10 ⚔'
+    - '&7HP:&c +10 ❤'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 10 ADD
+      Health: 10 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_hell+1:
+  Id: white_banner
+  Display: '&5[ II ] &9Fire Shroud of Sun'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +20 ⚔'
+    - '&7HP:&c +12 ❤'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 20 ADD
+      Health: 12 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_hell+2:
+  Id: white_banner
+  Display: '&5[ II ] &9Fire Shroud of Sun'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +30 ⚔'
+    - '&7HP:&c +14 ❤'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 30 ADD
+      Health: 14 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_hell+3:
+  Id: white_banner
+  Display: '&5[ II ] &9Fire Shroud of Sun'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +40 ⚔'
+    - '&7HP:&c +16 ❤'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 40 ADD
+      Health: 16 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_hell+4:
+  Id: white_banner
+  Display: '&5[ II ] &9Fire Shroud of Sun'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +50 ⚔'
+    - '&7HP:&c +18 ❤'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 50 ADD
+      Health: 18 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_hell:
+  Id: chest_minecart
+  Display: '&5[ II ] &5Resolve of the Alliance'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +45 ⚔'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 45 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_hell+1:
+  Id: chest_minecart
+  Display: '&5[ II ] &5Resolve of the Alliance'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +75 ⚔'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 75 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_hell+2:
+  Id: chest_minecart
+  Display: '&5[ II ] &5Resolve of the Alliance'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +105 ⚔'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 105 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_hell+3:
+  Id: chest_minecart
+  Display: '&5[ II ] &5Resolve of the Alliance'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +135 ⚔'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 135 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_hell+4:
+  Id: chest_minecart
+  Display: '&5[ II ] &5Resolve of the Alliance'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +165 ⚔'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 165 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_hell:
+  Id: minecart
+  Display: '&5[ II ] &6Fyrgon`s Fire Belt'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +0.75'
+    - '&7HP:&c +12 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 0.75 ADD
+      Health: 12 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_hell+1:
+  Id: minecart
+  Display: '&5[ II ] &6Fyrgon`s Fire Belt'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +0.75'
+    - '&7HP:&c +19 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 0.75 ADD
+      Health: 19 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_hell+2:
+  Id: minecart
+  Display: '&5[ II ] &6Fyrgon`s Fire Belt'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +0.75'
+    - '&7HP:&c +26 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 0.75 ADD
+      Health: 26 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_hell+3:
+  Id: minecart
+  Display: '&5[ II ] &6Fyrgon`s Fire Belt'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +0.75'
+    - '&7HP:&c +33 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 0.75 ADD
+      Health: 33 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_hell+4:
+  Id: minecart
+  Display: '&5[ II ] &6Fyrgon`s Fire Belt'
+  Group: q7-hell
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +0.75'
+    - '&7HP:&c +40 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 0.75 ADD
+      Health: 40 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_burning_thunder_hell:
+  Id: diamond_sword
+  Display: '&5[ II ] &eThe Herald`s Burning Thunder'
+  Group: q7-hell
+  Enchantments:
+    - FIRE_ASPECT:5
+  Lore:
+    - ''
+    - '&7Damage:&c +500 ⚔'
+    - '&lRarity:&r &e&lUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 500 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_burning_thunder_hell+1:
+  Id: diamond_sword
+  Display: '&5[ II ] &eThe Herald`s Burning Thunder'
+  Group: q7-hell
+  Enchantments:
+    - FIRE_ASPECT:5
+  Lore:
+    - ''
+    - '&7Damage:&c +600 ⚔'
+    - '&lRarity:&r &e&lUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 600 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_burning_thunder_hell+2:
+  Id: diamond_sword
+  Display: '&5[ II ] &eThe Herald`s Burning Thunder'
+  Group: q7-hell
+  Enchantments:
+    - FIRE_ASPECT:5
+  Lore:
+    - ''
+    - '&7Damage:&c +700 ⚔'
+    - '&lRarity:&r &e&lUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 700 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_burning_thunder_hell+3:
+  Id: diamond_sword
+  Display: '&5[ II ] &eThe Herald`s Burning Thunder'
+  Group: q7-hell
+  Enchantments:
+    - FIRE_ASPECT:5
+  Lore:
+    - ''
+    - '&7Damage:&c +800 ⚔'
+    - '&lRarity:&r &e&lUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 800 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_burning_thunder_hell+4:
+  Id: diamond_sword
+  Display: '&5[ II ] &eThe Herald`s Burning Thunder'
+  Group: q7-hell
+  Enchantments:
+    - FIRE_ASPECT:5
+  Lore:
+    - ''
+    - '&7Damage:&c +900 ⚔'
+    - '&lRarity:&r &e&lUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 900 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_blood:
+  Id: iron_door
+  Display: '&6[ III ] &9Blazing Shield'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 20% 🎲'
+    - '&7Damage:&c +20 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 20 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_blood+1:
+  Id: iron_door
+  Display: '&6[ III ] &9Blazing Shield'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 20% 🎲'
+    - '&7Damage:&c +30 ⚔'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 30 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_blood+2:
+  Id: iron_door
+  Display: '&6[ III ] &9Blazing Shield'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 20% 🎲'
+    - '&7Damage:&c +40 ⚔'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 40 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_blood+3:
+  Id: iron_door
+  Display: '&6[ III ] &9Blazing Shield'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 20% 🎲'
+    - '&7Damage:&c +50 ⚔'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 50 ADD
+  Hide:
+    - ATTRIBUTES
+
+blazing_shield_blood+4:
+  Id: iron_door
+  Display: '&6[ III ] &9Blazing Shield'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 20% 🎲'
+    - '&7Damage:&c +60 ⚔'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 60 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_blood:
+  Id: white_banner
+  Display: '&6[ III ] &9Fire Shroud of Sun'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +15 ⚔'
+    - '&7HP:&c +15 ❤'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 15 ADD
+      Health: 15 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_blood+1:
+  Id: white_banner
+  Display: '&6[ III ] &9Fire Shroud of Sun'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +25 ⚔'
+    - '&7HP:&c +17 ❤'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 25 ADD
+      Health: 17 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_blood+2:
+  Id: white_banner
+  Display: '&6[ III ] &9Fire Shroud of Sun'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +35 ⚔'
+    - '&7HP:&c +19 ❤'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 35 ADD
+      Health: 19 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_blood+3:
+  Id: white_banner
+  Display: '&6[ III ] &9Fire Shroud of Sun'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +45 ⚔'
+    - '&7HP:&c +21 ❤'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 45 ADD
+      Health: 21 ADD
+  Hide:
+    - ATTRIBUTES
+
+fire_shroud_of_sun_blood+4:
+  Id: white_banner
+  Display: '&6[ III ] &9Fire Shroud of Sun'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +55 ⚔'
+    - '&7HP:&c +23 ❤'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 55 ADD
+      Health: 23 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_blood:
+  Id: chest_minecart
+  Display: '&6[ III ] &5Resolve of the Alliance'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +60 ⚔'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 60 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_blood+1:
+  Id: chest_minecart
+  Display: '&6[ III ] &5Resolve of the Alliance'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +90 ⚔'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 90 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_blood+2:
+  Id: chest_minecart
+  Display: '&6[ III ] &5Resolve of the Alliance'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +120 ⚔'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 120 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_blood+3:
+  Id: chest_minecart
+  Display: '&6[ III ] &5Resolve of the Alliance'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +150 ⚔'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 150 ADD
+  Hide:
+    - ATTRIBUTES
+
+resolve_of_the_alliance_blood+4:
+  Id: chest_minecart
+  Display: '&6[ III ] &5Resolve of the Alliance'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +180 ⚔'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 180 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_blood:
+  Id: minecart
+  Display: '&6[ III ] &6Fyrgon`s Fire Belt'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +1'
+    - '&7HP:&c +19 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 1 ADD
+      Health: 19 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_blood+1:
+  Id: minecart
+  Display: '&6[ III ] &6Fyrgon`s Fire Belt'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +1'
+    - '&7HP:&c +26 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 1 ADD
+      Health: 26 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_blood+2:
+  Id: minecart
+  Display: '&6[ III ] &6Fyrgon`s Fire Belt'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +1'
+    - '&7HP:&c +33 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 1 ADD
+      Health: 33 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_blood+3:
+  Id: minecart
+  Display: '&6[ III ] &6Fyrgon`s Fire Belt'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +1'
+    - '&7HP:&c +40 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 1 ADD
+      Health: 40 ADD
+  Hide:
+    - ATTRIBUTES
+
+fyrgons_fire_belt_blood+4:
+  Id: minecart
+  Display: '&6[ III ] &6Fyrgon`s Fire Belt'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Armor Toughness:&b +1'
+    - '&7HP:&c +47 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      ArmorToughness: 1 ADD
+      Health: 47 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_burning_thunder_blood:
+  Id: diamond_sword
+  Display: '&6[ III ] &eThe Herald`s Burning Thunder'
+  Group: q7-blood
+  Enchantments:
+    - FIRE_ASPECT:10
+  Lore:
+    - ''
+    - '&7Damage:&c +1500 ⚔'
+    - '&lRarity:&r &e&lUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 1500 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_burning_thunder_blood+1:
+  Id: diamond_sword
+  Display: '&6[ III ] &eThe Herald`s Burning Thunder'
+  Group: q7-blood
+  Enchantments:
+    - FIRE_ASPECT:10
+  Lore:
+    - ''
+    - '&7Damage:&c +1600 ⚔'
+    - '&lRarity:&r &e&lUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 1600 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_burning_thunder_blood+2:
+  Id: diamond_sword
+  Display: '&6[ III ] &eThe Herald`s Burning Thunder'
+  Group: q7-blood
+  Enchantments:
+    - FIRE_ASPECT:10
+  Lore:
+    - ''
+    - '&7Damage:&c +1700 ⚔'
+    - '&lRarity:&r &e&lUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 1700 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_burning_thunder_blood+3:
+  Id: diamond_sword
+  Display: '&6[ III ] &eThe Herald`s Burning Thunder'
+  Group: q7-blood
+  Enchantments:
+    - FIRE_ASPECT:10
+  Lore:
+    - ''
+    - '&7Damage:&c +1800 ⚔'
+    - '&lRarity:&r &e&lUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 1800 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_burning_thunder_blood+4:
+  Id: diamond_sword
+  Display: '&6[ III ] &eThe Herald`s Burning Thunder'
+  Group: q7-blood
+  Enchantments:
+    - FIRE_ASPECT:10
+  Lore:
+    - ''
+    - '&7Damage:&c +1900 ⚔'
+    - '&lRarity:&r &e&lUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 1900 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_blazing_onslaught_blood:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &cTHE HERALD`S BLAZING ONSLAUGHT'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +1 ⚡'
+    - '&7Damage:&c +200 ⚔'
+    - '&7HP:&c +30 ❤'
+    - '&lRarity:&r &c&lMYTHIC'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 1 ADD
+      Damage: 200 ADD
+      Health: 30 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_blazing_onslaught_blood+1:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &cTHE HERALD`S BLAZING ONSLAUGHT'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +1.5 ⚡'
+    - '&7Damage:&c +400 ⚔'
+    - '&7HP:&c +55 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 1.5 ADD
+      Damage: 400 ADD
+      Health: 55 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_blazing_onslaught_blood+2:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &cTHE HERALD`S BLAZING ONSLAUGHT'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +2.0 ⚡'
+    - '&7Damage:&c +600 ⚔'
+    - '&7HP:&c +80 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 2.0 ADD
+      Damage: 600 ADD
+      Health: 80 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_blazing_onslaught_blood+3:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &cTHE HERALD`S BLAZING ONSLAUGHT'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +2.5 ⚡'
+    - '&7Damage:&c +800 ⚔'
+    - '&7HP:&c +105 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 2.5 ADD
+      Damage: 800 ADD
+      Health: 105 ADD
+  Hide:
+    - ATTRIBUTES
+
+the_heralds_blazing_onslaught_blood+4:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &cTHE HERALD`S BLAZING ONSLAUGHT'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Attack Speed:&a +3.0 ⚡'
+    - '&7Damage:&c +1000 ⚔'
+    - '&7HP:&c +130 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      AttackSpeed: 3.0 ADD
+      Damage: 1000 ADD
+      Health: 130 ADD
+  Hide:
+    - ATTRIBUTES
+
+unbreakable_magma_blood:
+  Id: white_banner
+  Display: '&6[ III ] &cUNBREAKABLE MAGMA'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +400 ⚔'
+    - '&7HP:&c +50 ❤'
+    - '&lRarity:&r &c&lMYTHIC'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 400 ADD
+      Health: 50 ADD
+  Hide:
+    - ATTRIBUTES
+
+unbreakable_magma_blood+1:
+  Id: white_banner
+  Display: '&6[ III ] &cUNBREAKABLE MAGMA'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +600 ⚔'
+    - '&7HP:&c +75 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 600 ADD
+      Health: 75 ADD
+  Hide:
+    - ATTRIBUTES
+
+unbreakable_magma_blood+2:
+  Id: white_banner
+  Display: '&6[ III ] &cUNBREAKABLE MAGMA'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +800 ⚔'
+    - '&7HP:&c +100 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 800 ADD
+      Health: 100 ADD
+  Hide:
+    - ATTRIBUTES
+
+unbreakable_magma_blood+3:
+  Id: white_banner
+  Display: '&6[ III ] &cUNBREAKABLE MAGMA'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +1000 ⚔'
+    - '&7HP:&c +125 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 1000 ADD
+      Health: 125 ADD
+  Hide:
+    - ATTRIBUTES
+
+unbreakable_magma_blood+4:
+  Id: white_banner
+  Display: '&6[ III ] &cUNBREAKABLE MAGMA'
+  Group: q7-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +1200 ⚔'
+    - '&7HP:&c +150 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 1200 ADD
+      Health: 150 ADD
+  Hide:
+    - ATTRIBUTES

@@ -1,0 +1,1617 @@
+frost_axe_infernal:
+  Id: iron_axe
+  Display: '&9[ I ] &9Frost Axe'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +275 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 275 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+
+frost_axe_infernal+1:
+  Id: iron_axe
+  Display: '&9[ I ] &9Frost Axe'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +295 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 295 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+
+frost_axe_infernal+2:
+  Id: iron_axe
+  Display: '&9[ I ] &9Frost Axe'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +315 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 315 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+
+frost_axe_infernal+3:
+  Id: iron_axe
+  Display: '&9[ I ] &9Frost Axe'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +335 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 335 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+
+frost_axe_infernal+4:
+  Id: iron_axe
+  Display: '&9[ I ] &9Frost Axe'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +355 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 355 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+
+frozen_mud_boots_infernal:
+  Id: iron_boots
+  Display: '&9[ I ] &9Frozen Mud Boots'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Protection:&9 50 🛡'
+    - '&7Movement Speed:&c -0.1 👟'
+    - '&lRarity:&r &9Magic'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:50
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.1 ADD
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+frozen_mud_boots_infernal+1:
+  Id: iron_boots
+  Display: '&9[ I ] &9Frozen Mud Boots'
+  Group: q8-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:53
+  Lore:
+    - ''
+    - '&7Protection:&9 53 🛡'
+    - '&7Movement Speed:&c -0.1 👟'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.1 ADD
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+frozen_mud_boots_infernal+2:
+  Id: iron_boots
+  Display: '&9[ I ] &9Frozen Mud Boots'
+  Group: q8-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:56
+  Lore:
+    - ''
+    - '&7Protection:&9 56 🛡'
+    - '&7Movement Speed:&c -0.1 👟'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.1 ADD
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+frozen_mud_boots_infernal+3:
+  Id: iron_boots
+  Display: '&9[ I ] &9Frozen Mud Boots'
+  Group: q8-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:59
+  Lore:
+    - ''
+    - '&7Protection:&9 59 🛡'
+    - '&7Movement Speed:&c -0.1 👟'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.1 ADD
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+frozen_mud_boots_infernal+4:
+  Id: iron_boots
+  Display: '&9[ I ] &9Frozen Mud Boots'
+  Group: q8-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:62
+  Lore:
+    - ''
+    - '&7Protection:&9 62 🛡'
+    - '&7Movement Speed:&c -0.1 👟'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.1 ADD
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+unity_of_the_alliance_infernal:
+  Id: minecart
+  Display: '&9[ I ] &5Unity of the Alliance'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +8 ⚔'
+    - '&7Armor Toughness:&b +0.3'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 8 ADD
+      ArmorToughness: 0.3 ADD
+  Hide:
+    - ATTRIBUTES
+
+unity_of_the_alliance_infernal+1:
+  Id: minecart
+  Display: '&9[ I ] &5Unity of the Alliance'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +28 ⚔'
+    - '&7Armor Toughness:&b +0.5'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 28 ADD
+      ArmorToughness: 0.5 ADD
+  Hide:
+    - ATTRIBUTES
+
+unity_of_the_alliance_infernal+2:
+  Id: minecart
+  Display: '&9[ I ] &5Unity of the Alliance'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +48 ⚔'
+    - '&7Armor Toughness:&b +0.7'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 48 ADD
+      ArmorToughness: 0.7 ADD
+  Hide:
+    - ATTRIBUTES
+
+unity_of_the_alliance_infernal+3:
+  Id: minecart
+  Display: '&9[ I ] &5Unity of the Alliance'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +68 ⚔'
+    - '&7Armor Toughness:&b +0.9'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 68 ADD
+      ArmorToughness: 0.9 ADD
+  Hide:
+    - ATTRIBUTES
+
+unity_of_the_alliance_infernal+4:
+  Id: minecart
+  Display: '&9[ I ] &5Unity of the Alliance'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +88 ⚔'
+    - '&7Armor Toughness:&b +1.1'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 88 ADD
+      ArmorToughness: 1.1 ADD
+  Hide:
+    - ATTRIBUTES
+fjalnirs_ring_of_frost_infernal:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Fjalnir`s Ring of Frost'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +20 ⚔'
+    - '&7HP:&c +5 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 20 ADD
+      Health: 5 ADD
+  Hide:
+    - ATTRIBUTES
+
+fjalnirs_ring_of_frost_infernal+1:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Fjalnir`s Ring of Frost'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +50 ⚔'
+    - '&7HP:&c +12 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 50 ADD
+      Health: 12 ADD
+  Hide:
+    - ATTRIBUTES
+
+fjalnirs_ring_of_frost_infernal+2:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Fjalnir`s Ring of Frost'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +80 ⚔'
+    - '&7HP:&c +19 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 80 ADD
+      Health: 19 ADD
+  Hide:
+    - ATTRIBUTES
+
+fjalnirs_ring_of_frost_infernal+3:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Fjalnir`s Ring of Frost'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +110 ⚔'
+    - '&7HP:&c +26 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 110 ADD
+      Health: 26 ADD
+  Hide:
+    - ATTRIBUTES
+
+fjalnirs_ring_of_frost_infernal+4:
+  Id: tnt_minecart
+  Display: '&9[ I ] &6Fjalnir`s Ring of Frost'
+  Group: q8-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +140 ⚔'
+    - '&7HP:&c +33 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 140 ADD
+      Health: 33 ADD
+  Hide:
+    - ATTRIBUTES
+
+frost_axe_hell:
+  Id: iron_axe
+  Display: '&5[ II ] &9Frost Axe'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +325 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 325 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+
+frost_axe_hell+1:
+  Id: iron_axe
+  Display: '&5[ II ] &9Frost Axe'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +345 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 345 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+
+frost_axe_hell+2:
+  Id: iron_axe
+  Display: '&5[ II ] &9Frost Axe'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +365 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 365 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+
+frost_axe_hell+3:
+  Id: iron_axe
+  Display: '&5[ II ] &9Frost Axe'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +385 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 385 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+
+frost_axe_hell+4:
+  Id: iron_axe
+  Display: '&5[ II ] &9Frost Axe'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +405 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 405 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+frozen_mud_boots_hell:
+  Id: iron_boots
+  Display: '&5[ II ] &9Frozen Mud Boots'
+  Group: q8-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:60
+  Lore:
+    - ''
+    - '&7Protection:&9 60 🛡'
+    - '&7Movement Speed:&c -0.2 👟'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.2 ADD
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+frozen_mud_boots_hell+1:
+  Id: iron_boots
+  Display: '&5[ II ] &9Frozen Mud Boots'
+  Group: q8-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:63
+  Lore:
+    - ''
+    - '&7Protection:&9 63 🛡'
+    - '&7Movement Speed:&c -0.2 👟'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.2 ADD
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+frozen_mud_boots_hell+2:
+  Id: iron_boots
+  Display: '&5[ II ] &9Frozen Mud Boots'
+  Group: q8-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:66
+  Lore:
+    - ''
+    - '&7Protection:&9 66 🛡'
+    - '&7Movement Speed:&c -0.2 👟'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.2 ADD
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+frozen_mud_boots_hell+3:
+  Id: iron_boots
+  Display: '&5[ II ] &9Frozen Mud Boots'
+  Group: q8-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:69
+  Lore:
+    - ''
+    - '&7Protection:&9 69 🛡'
+    - '&7Movement Speed:&c -0.2 👟'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.2 ADD
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+frozen_mud_boots_hell+4:
+  Id: iron_boots
+  Display: '&5[ II ] &9Frozen Mud Boots'
+  Group: q8-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:72
+  Lore:
+    - ''
+    - '&7Protection:&9 72 🛡'
+    - '&7Movement Speed:&c -0.2 👟'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.2 ADD
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+unity_of_the_alliance_hell:
+  Id: minecart
+  Display: '&5[ II ] &5Unity of the Alliance'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +12 ⚔'
+    - '&7Armor Toughness:&b +0.4'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 12 ADD
+      ArmorToughness: 0.4 ADD
+  Hide:
+    - ATTRIBUTES
+
+unity_of_the_alliance_hell+1:
+  Id: minecart
+  Display: '&5[ II ] &5Unity of the Alliance'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +32 ⚔'
+    - '&7Armor Toughness:&b +0.6'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 32 ADD
+      ArmorToughness: 0.6 ADD
+  Hide:
+    - ATTRIBUTES
+
+unity_of_the_alliance_hell+2:
+  Id: minecart
+  Display: '&5[ II ] &5Unity of the Alliance'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +52 ⚔'
+    - '&7Armor Toughness:&b +0.8'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 52 ADD
+      ArmorToughness: 0.8 ADD
+  Hide:
+    - ATTRIBUTES
+
+unity_of_the_alliance_hell+3:
+  Id: minecart
+  Display: '&5[ II ] &5Unity of the Alliance'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +72 ⚔'
+    - '&7Armor Toughness:&b +1.0'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 72 ADD
+      ArmorToughness: 1.0 ADD
+  Hide:
+    - ATTRIBUTES
+
+unity_of_the_alliance_hell+4:
+  Id: minecart
+  Display: '&5[ II ] &5Unity of the Alliance'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +92 ⚔'
+    - '&7Armor Toughness:&b +1.2'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 92 ADD
+      ArmorToughness: 1.2 ADD
+  Hide:
+    - ATTRIBUTES
+fjalnirs_ring_of_frost_hell:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Fjalnir`s Ring of Frost'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +30 ⚔'
+    - '&7HP:&c +10 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 30 ADD
+      Health: 10 ADD
+  Hide:
+    - ATTRIBUTES
+
+fjalnirs_ring_of_frost_hell+1:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Fjalnir`s Ring of Frost'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +60 ⚔'
+    - '&7HP:&c +17 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 60 ADD
+      Health: 17 ADD
+  Hide:
+    - ATTRIBUTES
+
+fjalnirs_ring_of_frost_hell+2:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Fjalnir`s Ring of Frost'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +90 ⚔'
+    - '&7HP:&c +24 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 90 ADD
+      Health: 24 ADD
+  Hide:
+    - ATTRIBUTES
+
+fjalnirs_ring_of_frost_hell+3:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Fjalnir`s Ring of Frost'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +120 ⚔'
+    - '&7HP:&c +31 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 120 ADD
+      Health: 31 ADD
+  Hide:
+    - ATTRIBUTES
+
+fjalnirs_ring_of_frost_hell+4:
+  Id: tnt_minecart
+  Display: '&5[ II ] &6Fjalnir`s Ring of Frost'
+  Group: q8-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +150 ⚔'
+    - '&7HP:&c +38 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 150 ADD
+      Health: 38 ADD
+  Hide:
+    - ATTRIBUTES
+sigrismarrs_eternal_ward_hell:
+  Id: diamond_chestplate
+  Display: '&5[ II ] &eSigrismarr`s Eternal Ward'
+  Group: q8-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:90
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 90 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &eUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=39;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+sigrismarrs_eternal_ward_hell+1:
+  Id: diamond_chestplate
+  Display: '&5[ II ] &eSigrismarr`s Eternal Ward'
+  Group: q8-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:97
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 97 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &eUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=39;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+sigrismarrs_eternal_ward_hell+2:
+  Id: diamond_chestplate
+  Display: '&5[ II ] &eSigrismarr`s Eternal Ward'
+  Group: q8-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:104
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 104 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &eUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=39;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+sigrismarrs_eternal_ward_hell+3:
+  Id: diamond_chestplate
+  Display: '&5[ II ] &eSigrismarr`s Eternal Ward'
+  Group: q8-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:111
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 111 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &eUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=39;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+sigrismarrs_eternal_ward_hell+4:
+  Id: diamond_chestplate
+  Display: '&5[ II ] &eSigrismarr`s Eternal Ward'
+  Group: q8-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:118
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 118 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &eUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=39;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+frost_axe_blood:
+  Id: iron_axe
+  Display: '&6[ III ] &9Frost Axe'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +375 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 375 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+
+frost_axe_blood+1:
+  Id: iron_axe
+  Display: '&6[ III ] &9Frost Axe'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +395 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 395 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+
+frost_axe_blood+2:
+  Id: iron_axe
+  Display: '&6[ III ] &9Frost Axe'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +415 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 415 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+
+frost_axe_blood+3:
+  Id: iron_axe
+  Display: '&6[ III ] &9Frost Axe'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +435 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 435 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+
+frost_axe_blood+4:
+  Id: iron_axe
+  Display: '&6[ III ] &9Frost Axe'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +455 ⚔'
+    - '&7Effect: Slowness on hit'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    MainHand:
+      Damage: 455 ADD
+  Skills:
+    - potion{t=SLOW;d=100;level=1;p=true} @target ~onAttack
+  Hide:
+    - ATTRIBUTES
+unity_of_the_alliance_blood:
+  Id: minecart
+  Display: '&6[ III ] &5Unity of the Alliance'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +16 ⚔'
+    - '&7Armor Toughness:&b +0.5'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 16 ADD
+      ArmorToughness: 0.5 ADD
+  Hide:
+    - ATTRIBUTES
+
+unity_of_the_alliance_blood+1:
+  Id: minecart
+  Display: '&6[ III ] &5Unity of the Alliance'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +36 ⚔'
+    - '&7Armor Toughness:&b +0.7'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 36 ADD
+      ArmorToughness: 0.7 ADD
+  Hide:
+    - ATTRIBUTES
+
+unity_of_the_alliance_blood+2:
+  Id: minecart
+  Display: '&6[ III ] &5Unity of the Alliance'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +56 ⚔'
+    - '&7Armor Toughness:&b +0.9'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 56 ADD
+      ArmorToughness: 0.9 ADD
+  Hide:
+    - ATTRIBUTES
+
+unity_of_the_alliance_blood+3:
+  Id: minecart
+  Display: '&6[ III ] &5Unity of the Alliance'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +76 ⚔'
+    - '&7Armor Toughness:&b +1.1'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 76 ADD
+      ArmorToughness: 1.1 ADD
+  Hide:
+    - ATTRIBUTES
+
+unity_of_the_alliance_blood+4:
+  Id: minecart
+  Display: '&6[ III ] &5Unity of the Alliance'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +96 ⚔'
+    - '&7Armor Toughness:&b +1.3'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 96 ADD
+      ArmorToughness: 1.3 ADD
+  Hide:
+    - ATTRIBUTES
+fjalnirs_ring_of_frost_blood:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Fjalnir`s Ring of Frost'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +40 ⚔'
+    - '&7HP:&c +15 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 40 ADD
+      Health: 15 ADD
+  Hide:
+    - ATTRIBUTES
+
+fjalnirs_ring_of_frost_blood+1:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Fjalnir`s Ring of Frost'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +70 ⚔'
+    - '&7HP:&c +22 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 70 ADD
+      Health: 22 ADD
+  Hide:
+    - ATTRIBUTES
+
+fjalnirs_ring_of_frost_blood+2:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Fjalnir`s Ring of Frost'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +100 ⚔'
+    - '&7HP:&c +29 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 100 ADD
+      Health: 29 ADD
+  Hide:
+    - ATTRIBUTES
+
+fjalnirs_ring_of_frost_blood+3:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Fjalnir`s Ring of Frost'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +130 ⚔'
+    - '&7HP:&c +36 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 130 ADD
+      Health: 36 ADD
+  Hide:
+    - ATTRIBUTES
+
+fjalnirs_ring_of_frost_blood+4:
+  Id: tnt_minecart
+  Display: '&6[ III ] &6Fjalnir`s Ring of Frost'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +160 ⚔'
+    - '&7HP:&c +43 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 160 ADD
+      Health: 43 ADD
+  Hide:
+    - ATTRIBUTES
+
+frozen_mud_boots_blood:
+  Id: iron_boots
+  Display: '&6[ III ] &9Frozen Mud Boots'
+  Group: q8-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:70
+  Lore:
+    - ''
+    - '&7Protection:&9 70 🛡'
+    - '&7Movement Speed:&c -0.3 👟'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.3 ADD
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+frozen_mud_boots_blood+1:
+  Id: iron_boots
+  Display: '&6[ III ] &9Frozen Mud Boots'
+  Group: q8-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:73
+  Lore:
+    - ''
+    - '&7Protection:&9 73 🛡'
+    - '&7Movement Speed:&c -0.3 👟'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.3 ADD
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+frozen_mud_boots_blood+2:
+  Id: iron_boots
+  Display: '&6[ III ] &9Frozen Mud Boots'
+  Group: q8-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:76
+  Lore:
+    - ''
+    - '&7Protection:&9 76 🛡'
+    - '&7Movement Speed:&c -0.3 👟'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.3 ADD
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+frozen_mud_boots_blood+3:
+  Id: iron_boots
+  Display: '&6[ III ] &9Frozen Mud Boots'
+  Group: q8-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:79
+  Lore:
+    - ''
+    - '&7Protection:&9 79 🛡'
+    - '&7Movement Speed:&c -0.3 👟'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.3 ADD
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+frozen_mud_boots_blood+4:
+  Id: iron_boots
+  Display: '&6[ III ] &9Frozen Mud Boots'
+  Group: q8-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:82
+  Lore:
+    - ''
+    - '&7Protection:&9 82 🛡'
+    - '&7Movement Speed:&c -0.3 👟'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      MovementSpeed: -0.3 ADD
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+sigrismarrs_eternal_ward_blood:
+  Id: diamond_chestplate
+  Display: '&6[ III ] &eSigrismarr`s Eternal Ward'
+  Group: q8-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &eUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # 100 serc = normalnie 50, od 0 => 49
+    - potion{t=ABSORPTION;d=400;level=49;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+sigrismarrs_eternal_ward_blood+1:
+  Id: diamond_chestplate
+  Display: '&6[ III ] &eSigrismarr`s Eternal Ward'
+  Group: q8-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:107
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 107 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &eUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=49;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+sigrismarrs_eternal_ward_blood+2:
+  Id: diamond_chestplate
+  Display: '&6[ III ] &eSigrismarr`s Eternal Ward'
+  Group: q8-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:114
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 114 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &eUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=49;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+sigrismarrs_eternal_ward_blood+3:
+  Id: diamond_chestplate
+  Display: '&6[ III ] &eSigrismarr`s Eternal Ward'
+  Group: q8-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:121
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 121 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &eUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=49;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+sigrismarrs_eternal_ward_blood+4:
+  Id: diamond_chestplate
+  Display: '&6[ III ] &eSigrismarr`s Eternal Ward'
+  Group: q8-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:128
+    - THORNS:35
+  Lore:
+    - ''
+    - '&7Protection:&9 128 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&lRarity:&r &eUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=49;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+sigrismarrs_eternal_grasp_blood:
+  Id: furnace_minecart
+  Display: '&6[ III ] &cSIGRISMARR`S ETERNAL GRASP'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +300 ⚔'
+    - '&7Luck:&a +15 🍀'
+    - '&lRarity:&r &c&lMYTHIC'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 300 ADD
+      Luck: 15 ADD
+  Hide:
+    - ATTRIBUTES
+
+sigrismarrs_eternal_grasp_blood+1:
+  Id: furnace_minecart
+  Display: '&6[ III ] &cSIGRISMARR`S ETERNAL GRASP'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +400 ⚔'
+    - '&7Luck:&a +15.5 🍀'
+    - '&lRarity:&r &c&lMYTHIC &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 400 ADD
+      Luck: 15.5 ADD
+  Hide:
+    - ATTRIBUTES
+
+sigrismarrs_eternal_grasp_blood+2:
+  Id: furnace_minecart
+  Display: '&6[ III ] &cSIGRISMARR`S ETERNAL GRASP'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +500 ⚔'
+    - '&7Luck:&a +16.0 🍀'
+    - '&lRarity:&r &c&lMYTHIC &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 500 ADD
+      Luck: 16.0 ADD
+  Hide:
+    - ATTRIBUTES
+
+sigrismarrs_eternal_grasp_blood+3:
+  Id: furnace_minecart
+  Display: '&6[ III ] &cSIGRISMARR`S ETERNAL GRASP'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +600 ⚔'
+    - '&7Luck:&a +16.5 🍀'
+    - '&lRarity:&r &c&lMYTHIC &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 600 ADD
+      Luck: 16.5 ADD
+  Hide:
+    - ATTRIBUTES
+
+sigrismarrs_eternal_grasp_blood+4:
+  Id: furnace_minecart
+  Display: '&6[ III ] &cSIGRISMARR`S ETERNAL GRASP'
+  Group: q8-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +700 ⚔'
+    - '&7Luck:&a +17.0 🍀'
+    - '&lRarity:&r &c&lMYTHIC &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 700 ADD
+      Luck: 17.0 ADD
+  Hide:
+    - ATTRIBUTES
