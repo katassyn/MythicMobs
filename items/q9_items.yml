@@ -1,0 +1,1388 @@
+ancient_hands_infernal:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &9Ancient Hands'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +8 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 8 ADD
+  Hide:
+    - ATTRIBUTES
+
+ancient_hands_infernal+1:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &9Ancient Hands'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +18 ⚔'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 18 ADD
+  Hide:
+    - ATTRIBUTES
+
+ancient_hands_infernal+2:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &9Ancient Hands'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +28 ⚔'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 28 ADD
+  Hide:
+    - ATTRIBUTES
+
+ancient_hands_infernal+3:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &9Ancient Hands'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +38 ⚔'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 38 ADD
+  Hide:
+    - ATTRIBUTES
+
+ancient_hands_infernal+4:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &9Ancient Hands'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +48 ⚔'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 48 ADD
+  Hide:
+    - ATTRIBUTES
+
+pure_chunk_of_meat_infernal:
+  Id: furnace_minecart
+  Display: '&9[ I ] &9Pure Chunk of Meat'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7Luck:&a +0.5 🍀'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.5 ADD
+  Hide:
+    - ATTRIBUTES
+
+pure_chunk_of_meat_infernal+1:
+  Id: furnace_minecart
+  Display: '&9[ I ] &9Pure Chunk of Meat'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7Luck:&a +0.6 🍀'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.6 ADD
+  Hide:
+    - ATTRIBUTES
+
+pure_chunk_of_meat_infernal+2:
+  Id: furnace_minecart
+  Display: '&9[ I ] &9Pure Chunk of Meat'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7Luck:&a +0.7 🍀'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.7 ADD
+  Hide:
+    - ATTRIBUTES
+
+pure_chunk_of_meat_infernal+3:
+  Id: furnace_minecart
+  Display: '&9[ I ] &9Pure Chunk of Meat'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7Luck:&a +0.8 🍀'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.8 ADD
+  Hide:
+    - ATTRIBUTES
+
+pure_chunk_of_meat_infernal+4:
+  Id: furnace_minecart
+  Display: '&9[ I ] &9Pure Chunk of Meat'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7Luck:&a +0.9 🍀'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.9 ADD
+  Hide:
+    - ATTRIBUTES
+oceanus_poison_crown_infernal:
+  Id: iron_helmet
+  Display: '&9[ I ] &6Oceanus Poison Crown'
+  Group: q9-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:60
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 60 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Prot60 ≥50 => Strength III = level=2
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+oceanus_poison_crown_infernal+1:
+  Id: iron_helmet
+  Display: '&9[ I ] &6Oceanus Poison Crown'
+  Group: q9-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:65
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 65 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Efekt siły pozostaje taki sam (level=2)
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+oceanus_poison_crown_infernal+2:
+  Id: iron_helmet
+  Display: '&9[ I ] &6Oceanus Poison Crown'
+  Group: q9-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:70
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 70 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Nadal Str III (2)
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+oceanus_poison_crown_infernal+3:
+  Id: iron_helmet
+  Display: '&9[ I ] &6Oceanus Poison Crown'
+  Group: q9-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:75
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 75 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Efekt nie rośnie po ulepszeniu
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+oceanus_poison_crown_infernal+4:
+  Id: iron_helmet
+  Display: '&9[ I ] &6Oceanus Poison Crown'
+  Group: q9-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 80 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Nie rośnie, nadal Str III(2)
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+swiftness_of_the_alliance_infernal:
+  Id: chest_minecart
+  Display: '&9[ I ] &5Swiftness of the Alliance'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7HP:&c +12 ❤'
+    - '&7Damage:&c +5 ⚔'
+    - '&7Movement Speed:&b +0.05 👟'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 12 ADD
+      Damage: 5 ADD
+      MovementSpeed: 0.05 ADD
+  Hide:
+    - ATTRIBUTES
+
+swiftness_of_the_alliance_infernal+1:
+  Id: chest_minecart
+  Display: '&9[ I ] &5Swiftness of the Alliance'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7HP:&c +17 ❤'
+    - '&7Damage:&c +25 ⚔'
+    - '&7Movement Speed:&b +0.05 👟'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 17 ADD
+      Damage: 25 ADD
+      MovementSpeed: 0.05 ADD
+  Hide:
+    - ATTRIBUTES
+
+swiftness_of_the_alliance_infernal+2:
+  Id: chest_minecart
+  Display: '&9[ I ] &5Swiftness of the Alliance'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7HP:&c +22 ❤'
+    - '&7Damage:&c +45 ⚔'
+    - '&7Movement Speed:&b +0.05 👟'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 22 ADD
+      Damage: 45 ADD
+      MovementSpeed: 0.05 ADD
+  Hide:
+    - ATTRIBUTES
+
+swiftness_of_the_alliance_infernal+3:
+  Id: chest_minecart
+  Display: '&9[ I ] &5Swiftness of the Alliance'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7HP:&c +27 ❤'
+    - '&7Damage:&c +65 ⚔'
+    - '&7Movement Speed:&b +0.05 👟'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 27 ADD
+      Damage: 65 ADD
+      MovementSpeed: 0.05 ADD
+  Hide:
+    - ATTRIBUTES
+
+swiftness_of_the_alliance_infernal+4:
+  Id: chest_minecart
+  Display: '&9[ I ] &5Swiftness of the Alliance'
+  Group: q9-infernal
+  Lore:
+    - ''
+    - '&7HP:&c +32 ❤'
+    - '&7Damage:&c +85 ⚔'
+    - '&7Movement Speed:&b +0.05 👟'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 32 ADD
+      Damage: 85 ADD
+      MovementSpeed: 0.05 ADD
+  Hide:
+    - ATTRIBUTES
+swiftness_of_the_alliance_hell:
+  Id: chest_minecart
+  Display: '&5[ II ] &5Swiftness of the Alliance'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7HP:&c +15 ❤'
+    - '&7Damage:&c +8 ⚔'
+    - '&7Movement Speed:&b +0.075 👟'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 15 ADD
+      Damage: 8 ADD
+      MovementSpeed: 0.075 ADD
+  Hide:
+    - ATTRIBUTES
+
+swiftness_of_the_alliance_hell+1:
+  Id: chest_minecart
+  Display: '&5[ II ] &5Swiftness of the Alliance'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7HP:&c +20 ❤'
+    - '&7Damage:&c +28 ⚔'
+    - '&7Movement Speed:&b +0.075 👟'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 20 ADD
+      Damage: 28 ADD
+      MovementSpeed: 0.075 ADD
+  Hide:
+    - ATTRIBUTES
+
+swiftness_of_the_alliance_hell+2:
+  Id: chest_minecart
+  Display: '&5[ II ] &5Swiftness of the Alliance'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7HP:&c +25 ❤'
+    - '&7Damage:&c +48 ⚔'
+    - '&7Movement Speed:&b +0.075 👟'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 25 ADD
+      Damage: 48 ADD
+      MovementSpeed: 0.075 ADD
+  Hide:
+    - ATTRIBUTES
+
+swiftness_of_the_alliance_hell+3:
+  Id: chest_minecart
+  Display: '&5[ II ] &5Swiftness of the Alliance'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7HP:&c +30 ❤'
+    - '&7Damage:&c +68 ⚔'
+    - '&7Movement Speed:&b +0.075 👟'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 30 ADD
+      Damage: 68 ADD
+      MovementSpeed: 0.075 ADD
+  Hide:
+    - ATTRIBUTES
+
+swiftness_of_the_alliance_hell+4:
+  Id: chest_minecart
+  Display: '&5[ II ] &5Swiftness of the Alliance'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7HP:&c +35 ❤'
+    - '&7Damage:&c +88 ⚔'
+    - '&7Movement Speed:&b +0.075 👟'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 35 ADD
+      Damage: 88 ADD
+      MovementSpeed: 0.075 ADD
+  Hide:
+    - ATTRIBUTES
+oceanus_poison_crown_hell:
+  Id: iron_helmet
+  Display: '&5[ II ] &6Oceanus Poison Crown'
+  Group: q9-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:70
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 70 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Prot70 ≥50 => Str III (level=2)
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+oceanus_poison_crown_hell+1:
+  Id: iron_helmet
+  Display: '&5[ II ] &6Oceanus Poison Crown'
+  Group: q9-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:75
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 75 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Nie rośnie po ulepszeniu, wciąż Str III(2)
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+oceanus_poison_crown_hell+2:
+  Id: iron_helmet
+  Display: '&5[ II ] &6Oceanus Poison Crown'
+  Group: q9-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 80 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Efekt siły bez zmian
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+oceanus_poison_crown_hell+3:
+  Id: iron_helmet
+  Display: '&5[ II ] &6Oceanus Poison Crown'
+  Group: q9-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:85
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 85 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Str III (2) nadal
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+oceanus_poison_crown_hell+4:
+  Id: iron_helmet
+  Display: '&5[ II ] &6Oceanus Poison Crown'
+  Group: q9-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:90
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 90 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Wciąż bez zmian, Str III(2)
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+amulet_of_the_kraken_hell:
+  Id: chest_minecart
+  Display: '&5[ II ] &eAmulet of the Kraken'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +150 ⚔'
+    - '&7Luck:&a +3 🍀'
+    - '&7Movement Speed:&b +0.1 👟'
+    - '&lRarity:&r &eUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 150 ADD
+      Luck: 3 ADD
+      MovementSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+
+amulet_of_the_kraken_hell+1:
+  Id: chest_minecart
+  Display: '&5[ II ] &eAmulet of the Kraken'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +200 ⚔'
+    - '&7Luck:&a +3.25 🍀'
+    - '&7Movement Speed:&b +0.1 👟'
+    - '&lRarity:&r &eUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 200 ADD
+      Luck: 3.25 ADD
+      MovementSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+
+amulet_of_the_kraken_hell+2:
+  Id: chest_minecart
+  Display: '&5[ II ] &eAmulet of the Kraken'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +250 ⚔'
+    - '&7Luck:&a +3.5 🍀'
+    - '&7Movement Speed:&b +0.1 👟'
+    - '&lRarity:&r &eUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 250 ADD
+      Luck: 3.5 ADD
+      MovementSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+
+amulet_of_the_kraken_hell+3:
+  Id: chest_minecart
+  Display: '&5[ II ] &eAmulet of the Kraken'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +300 ⚔'
+    - '&7Luck:&a +3.75 🍀'
+    - '&7Movement Speed:&b +0.1 👟'
+    - '&lRarity:&r &eUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 300 ADD
+      Luck: 3.75 ADD
+      MovementSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+
+amulet_of_the_kraken_hell+4:
+  Id: chest_minecart
+  Display: '&5[ II ] &eAmulet of the Kraken'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +350 ⚔'
+    - '&7Luck:&a +4.0 🍀'
+    - '&7Movement Speed:&b +0.1 👟'
+    - '&lRarity:&r &eUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 350 ADD
+      Luck: 4.0 ADD
+      MovementSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+ancient_hands_blood:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &9Ancient Hands'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +16 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 16 ADD
+  Hide:
+    - ATTRIBUTES
+
+ancient_hands_blood+1:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &9Ancient Hands'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +26 ⚔'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 26 ADD
+  Hide:
+    - ATTRIBUTES
+
+ancient_hands_blood+2:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &9Ancient Hands'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +36 ⚔'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 36 ADD
+  Hide:
+    - ATTRIBUTES
+
+ancient_hands_blood+3:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &9Ancient Hands'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +46 ⚔'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 46 ADD
+  Hide:
+    - ATTRIBUTES
+
+ancient_hands_blood+4:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &9Ancient Hands'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +56 ⚔'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 56 ADD
+  Hide:
+    - ATTRIBUTES
+pure_chunk_of_meat_blood:
+  Id: furnace_minecart
+  Display: '&6[ III ] &9Pure Chunk of Meat'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Luck:&a +0.7 🍀'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.7 ADD
+  Hide:
+    - ATTRIBUTES
+
+pure_chunk_of_meat_blood+1:
+  Id: furnace_minecart
+  Display: '&6[ III ] &9Pure Chunk of Meat'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Luck:&a +0.8 🍀'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.8 ADD
+  Hide:
+    - ATTRIBUTES
+
+pure_chunk_of_meat_blood+2:
+  Id: furnace_minecart
+  Display: '&6[ III ] &9Pure Chunk of Meat'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Luck:&a +0.9 🍀'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.9 ADD
+  Hide:
+    - ATTRIBUTES
+
+pure_chunk_of_meat_blood+3:
+  Id: furnace_minecart
+  Display: '&6[ III ] &9Pure Chunk of Meat'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Luck:&a +1.0 🍀'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 1.0 ADD
+  Hide:
+    - ATTRIBUTES
+
+pure_chunk_of_meat_blood+4:
+  Id: furnace_minecart
+  Display: '&6[ III ] &9Pure Chunk of Meat'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Luck:&a +1.1 🍀'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 1.1 ADD
+  Hide:
+    - ATTRIBUTES
+swiftness_of_the_alliance_blood:
+  Id: chest_minecart
+  Display: '&6[ III ] &5Swiftness of the Alliance'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7HP:&c +18 ❤'
+    - '&7Damage:&c +12 ⚔'
+    - '&7Movement Speed:&b +0.09 👟'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 18 ADD
+      Damage: 12 ADD
+      MovementSpeed: 0.09 ADD
+  Hide:
+    - ATTRIBUTES
+
+swiftness_of_the_alliance_blood+1:
+  Id: chest_minecart
+  Display: '&6[ III ] &5Swiftness of the Alliance'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7HP:&c +23 ❤'
+    - '&7Damage:&c +32 ⚔'
+    - '&7Movement Speed:&b +0.09 👟'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 23 ADD
+      Damage: 32 ADD
+      MovementSpeed: 0.09 ADD
+  Hide:
+    - ATTRIBUTES
+
+swiftness_of_the_alliance_blood+2:
+  Id: chest_minecart
+  Display: '&6[ III ] &5Swiftness of the Alliance'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7HP:&c +28 ❤'
+    - '&7Damage:&c +52 ⚔'
+    - '&7Movement Speed:&b +0.09 👟'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 28 ADD
+      Damage: 52 ADD
+      MovementSpeed: 0.09 ADD
+  Hide:
+    - ATTRIBUTES
+
+swiftness_of_the_alliance_blood+3:
+  Id: chest_minecart
+  Display: '&6[ III ] &5Swiftness of the Alliance'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7HP:&c +33 ❤'
+    - '&7Damage:&c +72 ⚔'
+    - '&7Movement Speed:&b +0.09 👟'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 33 ADD
+      Damage: 72 ADD
+      MovementSpeed: 0.09 ADD
+  Hide:
+    - ATTRIBUTES
+
+swiftness_of_the_alliance_blood+4:
+  Id: chest_minecart
+  Display: '&6[ III ] &5Swiftness of the Alliance'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7HP:&c +38 ❤'
+    - '&7Damage:&c +92 ⚔'
+    - '&7Movement Speed:&b +0.09 👟'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Health: 38 ADD
+      Damage: 92 ADD
+      MovementSpeed: 0.09 ADD
+  Hide:
+    - ATTRIBUTES
+oceanus_poison_crown_blood:
+  Id: iron_helmet
+  Display: '&6[ III ] &6Oceanus Poison Crown'
+  Group: q9-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 80 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Prot≥50 → Str III (level=2)
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+oceanus_poison_crown_blood+1:
+  Id: iron_helmet
+  Display: '&6[ III ] &6Oceanus Poison Crown'
+  Group: q9-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:85
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 85 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Efekt Str III (2) bez zmian
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+oceanus_poison_crown_blood+2:
+  Id: iron_helmet
+  Display: '&6[ III ] &6Oceanus Poison Crown'
+  Group: q9-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:90
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 90 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Str III (2) nadal
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+oceanus_poison_crown_blood+3:
+  Id: iron_helmet
+  Display: '&6[ III ] &6Oceanus Poison Crown'
+  Group: q9-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:95
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 95 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Bez zmian, Str III(2)
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+oceanus_poison_crown_blood+4:
+  Id: iron_helmet
+  Display: '&6[ III ] &6Oceanus Poison Crown'
+  Group: q9-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 100 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Nadal Str III(2)
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+amulet_of_the_kraken_blood:
+  Id: chest_minecart
+  Display: '&6[ III ] &eAmulet of the Kraken'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +400 ⚔'
+    - '&7Luck:&a +3 🍀'
+    - '&7Movement Speed:&b +0.1 👟'
+    - '&lRarity:&r &eUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 400 ADD
+      Luck: 3 ADD
+      MovementSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+
+amulet_of_the_kraken_blood+1:
+  Id: chest_minecart
+  Display: '&6[ III ] &eAmulet of the Kraken'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +450 ⚔'
+    - '&7Luck:&a +3.25 🍀'
+    - '&7Movement Speed:&b +0.1 👟'
+    - '&lRarity:&r &eUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 450 ADD
+      Luck: 3.25 ADD
+      MovementSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+
+amulet_of_the_kraken_blood+2:
+  Id: chest_minecart
+  Display: '&6[ III ] &eAmulet of the Kraken'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +500 ⚔'
+    - '&7Luck:&a +3.5 🍀'
+    - '&7Movement Speed:&b +0.1 👟'
+    - '&lRarity:&r &eUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 500 ADD
+      Luck: 3.5 ADD
+      MovementSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+
+amulet_of_the_kraken_blood+3:
+  Id: chest_minecart
+  Display: '&6[ III ] &eAmulet of the Kraken'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +550 ⚔'
+    - '&7Luck:&a +3.75 🍀'
+    - '&7Movement Speed:&b +0.1 👟'
+    - '&lRarity:&r &eUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 550 ADD
+      Luck: 3.75 ADD
+      MovementSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+
+amulet_of_the_kraken_blood+4:
+  Id: chest_minecart
+  Display: '&6[ III ] &eAmulet of the Kraken'
+  Group: q9-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +600 ⚔'
+    - '&7Luck:&a +4.0 🍀'
+    - '&7Movement Speed:&b +0.1 👟'
+    - '&lRarity:&r &eUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 600 ADD
+      Luck: 4.0 ADD
+      MovementSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+gorgonskin_leather_boots_blood:
+  Id: netherite_boots
+  Display: '&6[ III ] &cGORGONSKIN LEATHER BOOTS'
+  Group: q9-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:110
+    - THORNS:40
+  Lore:
+    - ''
+    - '&7Protection:&9 110 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Prot≥100 => Speed IV = level=3
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+gorgonskin_leather_boots_blood+1:
+  Id: netherite_boots
+  Display: '&6[ III ] &cGORGONSKIN LEATHER BOOTS'
+  Group: q9-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:120
+    - THORNS:40
+  Lore:
+    - ''
+    - '&7Protection:&9 120 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Nadal Speed IV (3), brak wyższych progów
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+gorgonskin_leather_boots_blood+2:
+  Id: netherite_boots
+  Display: '&6[ III ] &cGORGONSKIN LEATHER BOOTS'
+  Group: q9-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:130
+    - THORNS:40
+  Lore:
+    - ''
+    - '&7Protection:&9 130 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Wciąż Speed IV (3)
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+gorgonskin_leather_boots_blood+3:
+  Id: netherite_boots
+  Display: '&6[ III ] &cGORGONSKIN LEATHER BOOTS'
+  Group: q9-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:140
+    - THORNS:40
+  Lore:
+    - ''
+    - '&7Protection:&9 140 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Nadal Speed IV (3)
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+gorgonskin_leather_boots_blood+4:
+  Id: netherite_boots
+  Display: '&6[ III ] &cGORGONSKIN LEATHER BOOTS'
+  Group: q9-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:150
+    - THORNS:40
+  Lore:
+    - ''
+    - '&7Protection:&9 150 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Wciąż Speed IV (3)
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
