@@ -1,0 +1,1495 @@
+charming_belt_infernal:
+  Id: minecart
+  Display: '&9[ I ] &9Charming Belt'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +1 ⚔'
+    - '&7Armor Toughness:&b +0.1'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 1 ADD
+      ArmorToughness: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+charming_belt_infernal+1:
+  Id: minecart
+  Display: '&9[ I ] &9Charming Belt'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +11 ⚔'
+    - '&7Armor Toughness:&b +0.2'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 11 ADD
+      ArmorToughness: 0.2 ADD
+  Hide:
+    - ATTRIBUTES
+charming_belt_infernal+2:
+  Id: minecart
+  Display: '&9[ I ] &9Charming Belt'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +21 ⚔'
+    - '&7Armor Toughness:&b +0.3'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 21 ADD
+      ArmorToughness: 0.3 ADD
+  Hide:
+    - ATTRIBUTES
+charming_belt_infernal+3:
+  Id: minecart
+  Display: '&9[ I ] &9Charming Belt'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +31 ⚔'
+    - '&7Armor Toughness:&b +0.4'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 31 ADD
+      ArmorToughness: 0.4 ADD
+  Hide:
+    - ATTRIBUTES
+charming_belt_infernal+4:
+  Id: minecart
+  Display: '&9[ I ] &9Charming Belt'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +41 ⚔'
+    - '&7Armor Toughness:&b +0.5'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 41 ADD
+      ArmorToughness: 0.5 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_infernal:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &5Abyssal Treasure Gloves'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +10 ⚔'
+    - '&7Attack Speed:&a +0.1 ⚡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 10 ADD
+      AttackSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_infernal+1:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &5Abyssal Treasure Gloves'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +30 ⚔'
+    - '&7Attack Speed:&a +0.3 ⚡'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 30 ADD
+      AttackSpeed: 0.3 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_infernal+2:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &5Abyssal Treasure Gloves'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +50 ⚔'
+    - '&7Attack Speed:&a +0.5 ⚡'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 50 ADD
+      AttackSpeed: 0.5 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_infernal+3:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &5Abyssal Treasure Gloves'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +70 ⚔'
+    - '&7Attack Speed:&a +0.7 ⚡'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 70 ADD
+      AttackSpeed: 0.7 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_infernal+4:
+  Id: leather_horse_armor
+  Display: '&9[ I ] &5Abyssal Treasure Gloves'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +90 ⚔'
+    - '&7Attack Speed:&a +0.9 ⚡'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 90 ADD
+      AttackSpeed: 0.9 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_infernal:
+  Id: hopper_minecart
+  Display: '&9[ I ] &6Ring of Renewal'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +20 ⚔'
+    - '&7HP:&c +5 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 20 ADD
+      Health: 5 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_infernal+1:
+  Id: hopper_minecart
+  Display: '&9[ I ] &6Ring of Renewal'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +50 ⚔'
+    - '&7HP:&c +12 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 50 ADD
+      Health: 12 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_infernal+2:
+  Id: hopper_minecart
+  Display: '&9[ I ] &6Ring of Renewal'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +80 ⚔'
+    - '&7HP:&c +19 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 80 ADD
+      Health: 19 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_infernal+3:
+  Id: hopper_minecart
+  Display: '&9[ I ] &6Ring of Renewal'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +110 ⚔'
+    - '&7HP:&c +26 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 110 ADD
+      Health: 26 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_infernal+4:
+  Id: hopper_minecart
+  Display: '&9[ I ] &6Ring of Renewal'
+  Group: q10-infernal
+  Lore:
+    - ''
+    - '&7Damage:&c +140 ⚔'
+    - '&7HP:&c +33 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 140 ADD
+      Health: 33 ADD
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_infernal:
+  Id: leather_chestplate
+  Display: '&9[ I ] &9Rookie Jacket'
+  Group: q10-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:60
+  Lore:
+    - ''
+    - '&7Protection:&9 60 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Prot=60 => 50 serc absorpcji
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 50 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_infernal+1:
+  Id: leather_chestplate
+  Display: '&9[ I ] &9Rookie Jacket'
+  Group: q10-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:63
+  Lore:
+    - ''
+    - '&7Protection:&9 63 🛡'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Prot=63 => wciąż 50 serc (następny próg to 70)
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 50 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_infernal+2:
+  Id: leather_chestplate
+  Display: '&9[ I ] &9Rookie Jacket'
+  Group: q10-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:66
+  Lore:
+    - ''
+    - '&7Protection:&9 66 🛡'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Prot=66 => nadal 50 serc
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_infernal+3:
+  Id: leather_chestplate
+  Display: '&9[ I ] &9Rookie Jacket'
+  Group: q10-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:69
+  Lore:
+    - ''
+    - '&7Protection:&9 69 🛡'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Prot=69 => nadal 50 serc (próg 70 jeszcze nie osiągnięty)
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_infernal+4:
+  Id: leather_chestplate
+  Display: '&9[ I ] &9Rookie Jacket'
+  Group: q10-infernal
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:72
+  Lore:
+    - ''
+    - '&7Protection:&9 72 🛡'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Prot=72 => wchodzi w próg >=70 => 60 serc
+    - potion{t=ABSORPTION;d=400;level=24;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 60 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+charming_belt_hell:
+  Id: minecart
+  Display: '&5[ II ] &9Charming Belt'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +1 ⚔'
+    - '&7Armor Toughness:&b +0.2'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 1 ADD
+      ArmorToughness: 0.2 ADD
+  Hide:
+    - ATTRIBUTES
+charming_belt_hell+1:
+  Id: minecart
+  Display: '&5[ II ] &9Charming Belt'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +11 ⚔'
+    - '&7Armor Toughness:&b +0.3'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 11 ADD
+      ArmorToughness: 0.3 ADD
+  Hide:
+    - ATTRIBUTES
+charming_belt_hell+2:
+  Id: minecart
+  Display: '&5[ II ] &9Charming Belt'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +21 ⚔'
+    - '&7Armor Toughness:&b +0.4'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 21 ADD
+      ArmorToughness: 0.4 ADD
+  Hide:
+    - ATTRIBUTES
+charming_belt_hell+3:
+  Id: minecart
+  Display: '&5[ II ] &9Charming Belt'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +31 ⚔'
+    - '&7Armor Toughness:&b +0.5'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 31 ADD
+      ArmorToughness: 0.5 ADD
+  Hide:
+    - ATTRIBUTES
+charming_belt_hell+4:
+  Id: minecart
+  Display: '&5[ II ] &9Charming Belt'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +41 ⚔'
+    - '&7Armor Toughness:&b +0.6'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 41 ADD
+      ArmorToughness: 0.6 ADD
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_hell:
+  Id: leather_chestplate
+  Display: '&5[ II ] &9Rookie Jacket'
+  Group: q10-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:70
+  Lore:
+    - ''
+    - '&7Protection:&9 70 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Prot=70 => 60 serc absorpcji
+    - potion{t=ABSORPTION;d=400;level=29;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 60 hearts
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_hell+1:
+  Id: leather_chestplate
+  Display: '&5[ II ] &9Rookie Jacket'
+  Group: q10-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:73
+  Lore:
+    - ''
+    - '&7Protection:&9 73 🛡'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Efekt nie zmienia się — wciąż 60 serc
+    - potion{t=ABSORPTION;d=400;level=29;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_hell+2:
+  Id: leather_chestplate
+  Display: '&5[ II ] &9Rookie Jacket'
+  Group: q10-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:76
+  Lore:
+    - ''
+    - '&7Protection:&9 76 🛡'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Efekt nie zmienia się
+    - potion{t=ABSORPTION;d=400;level=29;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_hell+3:
+  Id: leather_chestplate
+  Display: '&5[ II ] &9Rookie Jacket'
+  Group: q10-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:79
+  Lore:
+    - ''
+    - '&7Protection:&9 79 🛡'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Efekt wciąż 60 serc
+    - potion{t=ABSORPTION;d=400;level=29;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_hell+4:
+  Id: leather_chestplate
+  Display: '&5[ II ] &9Rookie Jacket'
+  Group: q10-hell
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:82
+  Lore:
+    - ''
+    - '&7Protection:&9 82 🛡'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Nadal bez zmiany – 60 serc
+    - potion{t=ABSORPTION;d=400;level=29;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_hell:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &5Abyssal Treasure Gloves'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +14 ⚔'
+    - '&7Attack Speed:&a +0.1 ⚡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 14 ADD
+      AttackSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_hell+1:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &5Abyssal Treasure Gloves'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +34 ⚔'
+    - '&7Attack Speed:&a +0.3 ⚡'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 34 ADD
+      AttackSpeed: 0.3 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_hell+2:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &5Abyssal Treasure Gloves'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +54 ⚔'
+    - '&7Attack Speed:&a +0.5 ⚡'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 54 ADD
+      AttackSpeed: 0.5 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_hell+3:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &5Abyssal Treasure Gloves'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +74 ⚔'
+    - '&7Attack Speed:&a +0.7 ⚡'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 74 ADD
+      AttackSpeed: 0.7 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_hell+4:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &5Abyssal Treasure Gloves'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +94 ⚔'
+    - '&7Attack Speed:&a +0.9 ⚡'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 94 ADD
+      AttackSpeed: 0.9 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_hell:
+  Id: hopper_minecart
+  Display: '&5[ II ] &6Ring of Renewal'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +30 ⚔'
+    - '&7HP:&c +10 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 30 ADD
+      Health: 10 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_hell+1:
+  Id: hopper_minecart
+  Display: '&5[ II ] &6Ring of Renewal'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +60 ⚔'
+    - '&7HP:&c +17 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 60 ADD
+      Health: 17 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_hell+2:
+  Id: hopper_minecart
+  Display: '&5[ II ] &6Ring of Renewal'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +90 ⚔'
+    - '&7HP:&c +24 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 90 ADD
+      Health: 24 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_hell+3:
+  Id: hopper_minecart
+  Display: '&5[ II ] &6Ring of Renewal'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +120 ⚔'
+    - '&7HP:&c +31 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 120 ADD
+      Health: 31 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_hell+4:
+  Id: hopper_minecart
+  Display: '&5[ II ] &6Ring of Renewal'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +150 ⚔'
+    - '&7HP:&c +38 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 150 ADD
+      Health: 38 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_shield_hell:
+  Id: iron_door
+  Display: '&5[ II ] &eAbyssal Treasure Shield'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 25% 🎲'
+    - '&7Damage:&c +150 ⚔'
+    - '&7HP:&c +15 ❤'
+    - '&lRarity:&r &e&lUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 150 ADD
+      Health: 15 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_shield_hell+1:
+  Id: iron_door
+  Display: '&5[ II ] &eAbyssal Treasure Shield'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 28% 🎲'
+    - '&7Damage:&c +200 ⚔'
+    - '&7HP:&c +25 ❤'
+    - '&lRarity:&r &e&lUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 200 ADD
+      Health: 25 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_shield_hell+2:
+  Id: iron_door
+  Display: '&5[ II ] &eAbyssal Treasure Shield'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 31% 🎲'
+    - '&7Damage:&c +250 ⚔'
+    - '&7HP:&c +35 ❤'
+    - '&lRarity:&r &e&lUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 250 ADD
+      Health: 35 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_shield_hell+3:
+  Id: iron_door
+  Display: '&5[ II ] &eAbyssal Treasure Shield'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 34% 🎲'
+    - '&7Damage:&c +300 ⚔'
+    - '&7HP:&c +45 ❤'
+    - '&lRarity:&r &e&lUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 300 ADD
+      Health: 45 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_shield_hell+4:
+  Id: iron_door
+  Display: '&5[ II ] &eAbyssal Treasure Shield'
+  Group: q10-hell
+  Lore:
+    - ''
+    - '&7Block Chance:&b 37% 🎲'
+    - '&7Damage:&c +350 ⚔'
+    - '&7HP:&c +55 ❤'
+    - '&lRarity:&r &e&lUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 350 ADD
+      Health: 55 ADD
+  Hide:
+    - ATTRIBUTES
+charming_belt_blood:
+  Id: minecart
+  Display: '&6[ III ] &9Charming Belt'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +1 ⚔'
+    - '&7Armor Toughness:&b +0.3'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 1 ADD
+      ArmorToughness: 0.3 ADD
+  Hide:
+    - ATTRIBUTES
+charming_belt_blood+1:
+  Id: minecart
+  Display: '&6[ III ] &9Charming Belt'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +11 ⚔'
+    - '&7Armor Toughness:&b +0.4'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 11 ADD
+      ArmorToughness: 0.4 ADD
+  Hide:
+    - ATTRIBUTES
+charming_belt_blood+2:
+  Id: minecart
+  Display: '&6[ III ] &9Charming Belt'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +21 ⚔'
+    - '&7Armor Toughness:&b +0.5'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 21 ADD
+      ArmorToughness: 0.5 ADD
+  Hide:
+    - ATTRIBUTES
+charming_belt_blood+3:
+  Id: minecart
+  Display: '&6[ III ] &9Charming Belt'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +31 ⚔'
+    - '&7Armor Toughness:&b +0.6'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 31 ADD
+      ArmorToughness: 0.6 ADD
+  Hide:
+    - ATTRIBUTES
+charming_belt_blood+4:
+  Id: minecart
+  Display: '&6[ III ] &9Charming Belt'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +41 ⚔'
+    - '&7Armor Toughness:&b +0.7'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 41 ADD
+      ArmorToughness: 0.7 ADD
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_blood:
+  Id: leather_chestplate
+  Display: '&6[ III ] &9Rookie Jacket'
+  Group: q10-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+  Lore:
+    - ''
+    - '&7Protection:&9 80 🛡'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Prot=80 => 70 serc absorpcji
+    - potion{t=ABSORPTION;d=400;level=34;p=false;hasIcon=false;force=true} @self ~onTimer:200  # 70 hearts (Absorption)
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_blood+1:
+  Id: leather_chestplate
+  Display: '&6[ III ] &9Rookie Jacket'
+  Group: q10-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:83
+  Lore:
+    - ''
+    - '&7Protection:&9 83 🛡'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Efekt nadal 70 serc (bo nie jest Mythic)
+    - potion{t=ABSORPTION;d=400;level=34;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_blood+2:
+  Id: leather_chestplate
+  Display: '&6[ III ] &9Rookie Jacket'
+  Group: q10-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:86
+  Lore:
+    - ''
+    - '&7Protection:&9 86 🛡'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Wciąż 70 serc
+    - potion{t=ABSORPTION;d=400;level=34;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_blood+3:
+  Id: leather_chestplate
+  Display: '&6[ III ] &9Rookie Jacket'
+  Group: q10-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:89
+  Lore:
+    - ''
+    - '&7Protection:&9 89 🛡'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Bez zmian
+    - potion{t=ABSORPTION;d=400;level=34;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+rookie_jacket_blood+4:
+  Id: leather_chestplate
+  Display: '&6[ III ] &9Rookie Jacket'
+  Group: q10-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:92
+  Lore:
+    - ''
+    - '&7Protection:&9 92 🛡'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # Wciąż 70 serc
+    - potion{t=ABSORPTION;d=400;level=34;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_blood:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &5Abyssal Treasure Gloves'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +18 ⚔'
+    - '&7Attack Speed:&a +0.1 ⚡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 18 ADD
+      AttackSpeed: 0.1 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_blood+1:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &5Abyssal Treasure Gloves'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +38 ⚔'
+    - '&7Attack Speed:&a +0.3 ⚡'
+    - '&lRarity:&r &5Extraordinary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 38 ADD
+      AttackSpeed: 0.3 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_blood+2:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &5Abyssal Treasure Gloves'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +58 ⚔'
+    - '&7Attack Speed:&a +0.5 ⚡'
+    - '&lRarity:&r &5Extraordinary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 58 ADD
+      AttackSpeed: 0.5 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_blood+3:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &5Abyssal Treasure Gloves'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +78 ⚔'
+    - '&7Attack Speed:&a +0.7 ⚡'
+    - '&lRarity:&r &5Extraordinary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 78 ADD
+      AttackSpeed: 0.7 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_gloves_blood+4:
+  Id: leather_horse_armor
+  Display: '&6[ III ] &5Abyssal Treasure Gloves'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +98 ⚔'
+    - '&7Attack Speed:&a +0.9 ⚡'
+    - '&lRarity:&r &5Extraordinary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 98 ADD
+      AttackSpeed: 0.9 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_blood:
+  Id: hopper_minecart
+  Display: '&6[ III ] &6Ring of Renewal'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +40 ⚔'
+    - '&7HP:&c +15 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 40 ADD
+      Health: 15 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_blood+1:
+  Id: hopper_minecart
+  Display: '&6[ III ] &6Ring of Renewal'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +70 ⚔'
+    - '&7HP:&c +22 ❤'
+    - '&lRarity:&r &6Legendary &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 70 ADD
+      Health: 22 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_blood+2:
+  Id: hopper_minecart
+  Display: '&6[ III ] &6Ring of Renewal'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +100 ⚔'
+    - '&7HP:&c +29 ❤'
+    - '&lRarity:&r &6Legendary &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 100 ADD
+      Health: 29 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_blood+3:
+  Id: hopper_minecart
+  Display: '&6[ III ] &6Ring of Renewal'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +130 ⚔'
+    - '&7HP:&c +36 ❤'
+    - '&lRarity:&r &6Legendary &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 130 ADD
+      Health: 36 ADD
+  Hide:
+    - ATTRIBUTES
+ring_of_renewal_blood+4:
+  Id: hopper_minecart
+  Display: '&6[ III ] &6Ring of Renewal'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Damage:&c +160 ⚔'
+    - '&7HP:&c +43 ❤'
+    - '&lRarity:&r &6Legendary &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 160 ADD
+      Health: 43 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_shield_blood:
+  Id: iron_door
+  Display: '&6[ III ] &eAbyssal Treasure Shield'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 35% 🎲'
+    - '&7Damage:&c +250 ⚔'
+    - '&7HP:&c +15 ❤'
+    - '&lRarity:&r &e&lUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 250 ADD
+      Health: 15 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_shield_blood+1:
+  Id: iron_door
+  Display: '&6[ III ] &eAbyssal Treasure Shield'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 38% 🎲'
+    - '&7Damage:&c +300 ⚔'
+    - '&7HP:&c +25 ❤'
+    - '&lRarity:&r &e&lUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 300 ADD
+      Health: 25 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_shield_blood+2:
+  Id: iron_door
+  Display: '&6[ III ] &eAbyssal Treasure Shield'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 41% 🎲'
+    - '&7Damage:&c +350 ⚔'
+    - '&7HP:&c +35 ❤'
+    - '&lRarity:&r &e&lUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 350 ADD
+      Health: 35 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_shield_blood+3:
+  Id: iron_door
+  Display: '&6[ III ] &eAbyssal Treasure Shield'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 44% 🎲'
+    - '&7Damage:&c +400 ⚔'
+    - '&7HP:&c +45 ❤'
+    - '&lRarity:&r &e&lUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 400 ADD
+      Health: 45 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_shield_blood+4:
+  Id: iron_door
+  Display: '&6[ III ] &eAbyssal Treasure Shield'
+  Group: q10-blood
+  Lore:
+    - ''
+    - '&7Block Chance:&b 47% 🎲'
+    - '&7Damage:&c +450 ⚔'
+    - '&7HP:&c +55 ❤'
+    - '&lRarity:&r &e&lUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 450 ADD
+      Health: 55 ADD
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_helmet_blood:
+  Id: netherite_helmet
+  Display: '&6[ III ] &cABYSSAL TREASURE HELMET'
+  Group: q10-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:110
+    - THORNS:40
+  Lore:
+    - ''
+    - '&7Protection:&9 110 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # prot=110 => Strength V → level=4
+    - potion{t=INCREASE_DAMAGE;d=-1;level=4;p=false;hasIcon=false;force=true} @self ~onTimer:10  # Strength V
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_helmet_blood+1:
+  Id: netherite_helmet
+  Display: '&6[ III ] &cABYSSAL TREASURE HELMET'
+  Group: q10-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:120
+    - THORNS:40
+  Lore:
+    - ''
+    - '&7Protection:&9 120 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # prot=120 => nadal Strength V
+    - potion{t=INCREASE_DAMAGE;d=-1;level=4;p=false;hasIcon=false;force=true} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_helmet_blood+2:
+  Id: netherite_helmet
+  Display: '&6[ III ] &cABYSSAL TREASURE HELMET'
+  Group: q10-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:130
+    - THORNS:40
+  Lore:
+    - ''
+    - '&7Protection:&9 130 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # prot=130 => Strength VI → level=5
+    - potion{t=INCREASE_DAMAGE;d=-1;level=5;p=false;hasIcon=false;force=true} @self ~onTimer:10  # Strength VI
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_helmet_blood+3:
+  Id: netherite_helmet
+  Display: '&6[ III ] &cABYSSAL TREASURE HELMET'
+  Group: q10-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:140
+    - THORNS:40
+  Lore:
+    - ''
+    - '&7Protection:&9 140 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # prot=140 => Strength VI
+    - potion{t=INCREASE_DAMAGE;d=-1;level=5;p=false;hasIcon=false;force=true} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+abyssal_treasure_helmet_blood+4:
+  Id: netherite_helmet
+  Display: '&6[ III ] &cABYSSAL TREASURE HELMET'
+  Group: q10-blood
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:150
+    - THORNS:40
+  Lore:
+    - ''
+    - '&7Protection:&9 150 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&lRarity:&r &c&lMYTHIC &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 65'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Skills:
+    # prot=150 => Strength VII → level=6
+    - potion{t=INCREASE_DAMAGE;d=-1;level=6;p=false;hasIcon=false;force=true} @self ~onTimer:10  # Strength VII
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
