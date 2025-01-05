@@ -1508,7 +1508,7 @@ sigrismarrs_eternal_ward_blood+4:
     - ATTRIBUTES
 sigrismarrs_eternal_grasp_blood:
   Id: furnace_minecart
-  Display: '&6[ III ] &cSIGRISMARR`S ETERNAL GRASP'
+  Display: '&6[ III ] &l&cSIGRISMARR`S ETERNAL GRASP'
   Group: q8-blood
   Lore:
     - ''
@@ -1530,7 +1530,7 @@ sigrismarrs_eternal_grasp_blood:
 
 sigrismarrs_eternal_grasp_blood+1:
   Id: furnace_minecart
-  Display: '&6[ III ] &cSIGRISMARR`S ETERNAL GRASP'
+  Display: '&6[ III ] &l&cSIGRISMARR`S ETERNAL GRASP'
   Group: q8-blood
   Lore:
     - ''
@@ -1552,7 +1552,7 @@ sigrismarrs_eternal_grasp_blood+1:
 
 sigrismarrs_eternal_grasp_blood+2:
   Id: furnace_minecart
-  Display: '&6[ III ] &cSIGRISMARR`S ETERNAL GRASP'
+  Display: '&6[ III ] &l&cSIGRISMARR`S ETERNAL GRASP'
   Group: q8-blood
   Lore:
     - ''
@@ -1574,7 +1574,7 @@ sigrismarrs_eternal_grasp_blood+2:
 
 sigrismarrs_eternal_grasp_blood+3:
   Id: furnace_minecart
-  Display: '&6[ III ] &cSIGRISMARR`S ETERNAL GRASP'
+  Display: '&6[ III ] &l&cSIGRISMARR`S ETERNAL GRASP'
   Group: q8-blood
   Lore:
     - ''
@@ -1596,7 +1596,7 @@ sigrismarrs_eternal_grasp_blood+3:
 
 sigrismarrs_eternal_grasp_blood+4:
   Id: furnace_minecart
-  Display: '&6[ III ] &cSIGRISMARR`S ETERNAL GRASP'
+  Display: '&6[ III ] &l&cSIGRISMARR`S ETERNAL GRASP'
   Group: q8-blood
   Lore:
     - ''

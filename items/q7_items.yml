@@ -1375,7 +1375,7 @@ the_heralds_burning_thunder_blood+4:
 
 the_heralds_blazing_onslaught_blood:
   Id: leather_horse_armor
-  Display: '&6[ III ] &cTHE HERALD`S BLAZING ONSLAUGHT'
+  Display: '&6[ III ] &c&lTHE HERALD`S BLAZING ONSLAUGHT'
   Group: q7-blood
   Lore:
     - ''
@@ -1399,7 +1399,7 @@ the_heralds_blazing_onslaught_blood:
 
 the_heralds_blazing_onslaught_blood+1:
   Id: leather_horse_armor
-  Display: '&6[ III ] &cTHE HERALD`S BLAZING ONSLAUGHT'
+  Display: '&6[ III ] &l&cTHE HERALD`S BLAZING ONSLAUGHT'
   Group: q7-blood
   Lore:
     - ''
@@ -1423,7 +1423,7 @@ the_heralds_blazing_onslaught_blood+1:
 
 the_heralds_blazing_onslaught_blood+2:
   Id: leather_horse_armor
-  Display: '&6[ III ] &cTHE HERALD`S BLAZING ONSLAUGHT'
+  Display: '&6[ III ] &l&cTHE HERALD`S BLAZING ONSLAUGHT'
   Group: q7-blood
   Lore:
     - ''
@@ -1447,7 +1447,7 @@ the_heralds_blazing_onslaught_blood+2:
 
 the_heralds_blazing_onslaught_blood+3:
   Id: leather_horse_armor
-  Display: '&6[ III ] &cTHE HERALD`S BLAZING ONSLAUGHT'
+  Display: '&6[ III ] &l&cTHE HERALD`S BLAZING ONSLAUGHT'
   Group: q7-blood
   Lore:
     - ''
@@ -1471,7 +1471,7 @@ the_heralds_blazing_onslaught_blood+3:
 
 the_heralds_blazing_onslaught_blood+4:
   Id: leather_horse_armor
-  Display: '&6[ III ] &cTHE HERALD`S BLAZING ONSLAUGHT'
+  Display: '&6[ III ] &l&cTHE HERALD`S BLAZING ONSLAUGHT'
   Group: q7-blood
   Lore:
     - ''
@@ -1495,7 +1495,7 @@ the_heralds_blazing_onslaught_blood+4:
 
 unbreakable_magma_blood:
   Id: white_banner
-  Display: '&6[ III ] &cUNBREAKABLE MAGMA'
+  Display: '&6[ III ] &l&cUNBREAKABLE MAGMA'
   Group: q7-blood
   Lore:
     - ''
@@ -1517,7 +1517,7 @@ unbreakable_magma_blood:
 
 unbreakable_magma_blood+1:
   Id: white_banner
-  Display: '&6[ III ] &cUNBREAKABLE MAGMA'
+  Display: '&6[ III ] &l&cUNBREAKABLE MAGMA'
   Group: q7-blood
   Lore:
     - ''
@@ -1539,7 +1539,7 @@ unbreakable_magma_blood+1:
 
 unbreakable_magma_blood+2:
   Id: white_banner
-  Display: '&6[ III ] &cUNBREAKABLE MAGMA'
+  Display: '&6[ III ] &l&cUNBREAKABLE MAGMA'
   Group: q7-blood
   Lore:
     - ''
@@ -1561,7 +1561,7 @@ unbreakable_magma_blood+2:
 
 unbreakable_magma_blood+3:
   Id: white_banner
-  Display: '&6[ III ] &cUNBREAKABLE MAGMA'
+  Display: '&6[ III ] &l&cUNBREAKABLE MAGMA'
   Group: q7-blood
   Lore:
     - ''
@@ -1583,7 +1583,7 @@ unbreakable_magma_blood+3:
 
 unbreakable_magma_blood+4:
   Id: white_banner
-  Display: '&6[ III ] &cUNBREAKABLE MAGMA'
+  Display: '&6[ III ] &l&cUNBREAKABLE MAGMA'
   Group: q7-blood
   Lore:
     - ''

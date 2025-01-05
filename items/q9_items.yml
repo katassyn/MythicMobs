@@ -400,6 +400,177 @@ swiftness_of_the_alliance_infernal+4:
       MovementSpeed: 0.05 ADD
   Hide:
     - ATTRIBUTES
+
+ancient_hands_hell:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &9Ancient Hands'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +12 ⚔'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 12 ADD
+  Hide:
+    - ATTRIBUTES
+ancient_hands_hell+1:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &9Ancient Hands'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +22 ⚔'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 22 ADD
+  Hide:
+    - ATTRIBUTES
+ancient_hands_hell+2:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &9Ancient Hands'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +32 ⚔'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 32 ADD
+  Hide:
+    - ATTRIBUTES
+ancient_hands_hell+3:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &9Ancient Hands'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +42 ⚔'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 42 ADD
+  Hide:
+    - ATTRIBUTES
+ancient_hands_hell+4:
+  Id: leather_horse_armor
+  Display: '&5[ II ] &9Ancient Hands'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Damage:&c +52 ⚔'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Damage: 52 ADD
+  Hide:
+    - ATTRIBUTES
+pure_chunk_of_meat_hell:
+  Id: furnace_minecart
+  Display: '&5[ II ] &9Pure Chunk of Meat'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Luck:&a +0.6 🍀'
+    - '&lRarity:&r &9Magic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.6 ADD
+  Hide:
+    - ATTRIBUTES
+pure_chunk_of_meat_hell+1:
+  Id: furnace_minecart
+  Display: '&5[ II ] &9Pure Chunk of Meat'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Luck:&a +0.7 🍀'
+    - '&lRarity:&r &9Magic &l+1'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.7 ADD
+  Hide:
+    - ATTRIBUTES
+pure_chunk_of_meat_hell+2:
+  Id: furnace_minecart
+  Display: '&5[ II ] &9Pure Chunk of Meat'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Luck:&a +0.8 🍀'
+    - '&lRarity:&r &9Magic &l+2'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.8 ADD
+  Hide:
+    - ATTRIBUTES
+pure_chunk_of_meat_hell+3:
+  Id: furnace_minecart
+  Display: '&5[ II ] &9Pure Chunk of Meat'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Luck:&a +0.9 🍀'
+    - '&lRarity:&r &9Magic &l+3'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 0.9 ADD
+  Hide:
+    - ATTRIBUTES
+pure_chunk_of_meat_hell+4:
+  Id: furnace_minecart
+  Display: '&5[ II ] &9Pure Chunk of Meat'
+  Group: q9-hell
+  Lore:
+    - ''
+    - '&7Luck:&a +1 🍀'
+    - '&lRarity:&r &9Magic &l+4'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    All:
+      Luck: 1 ADD
+  Hide:
+    - ATTRIBUTES
 swiftness_of_the_alliance_hell:
   Id: chest_minecart
   Display: '&5[ II ] &5Swiftness of the Alliance'
@@ -1264,7 +1435,7 @@ amulet_of_the_kraken_blood+4:
     - ATTRIBUTES
 gorgonskin_leather_boots_blood:
   Id: netherite_boots
-  Display: '&6[ III ] &cGORGONSKIN LEATHER BOOTS'
+  Display: '&6[ III ] &l&cGORGONSKIN LEATHER BOOTS'
   Group: q9-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:110
@@ -1289,7 +1460,7 @@ gorgonskin_leather_boots_blood:
 
 gorgonskin_leather_boots_blood+1:
   Id: netherite_boots
-  Display: '&6[ III ] &cGORGONSKIN LEATHER BOOTS'
+  Display: '&6[ III ] &l&cGORGONSKIN LEATHER BOOTS'
   Group: q9-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:120
@@ -1314,7 +1485,7 @@ gorgonskin_leather_boots_blood+1:
 
 gorgonskin_leather_boots_blood+2:
   Id: netherite_boots
-  Display: '&6[ III ] &cGORGONSKIN LEATHER BOOTS'
+  Display: '&6[ III ] &l&cGORGONSKIN LEATHER BOOTS'
   Group: q9-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:130
@@ -1339,7 +1510,7 @@ gorgonskin_leather_boots_blood+2:
 
 gorgonskin_leather_boots_blood+3:
   Id: netherite_boots
-  Display: '&6[ III ] &cGORGONSKIN LEATHER BOOTS'
+  Display: '&6[ III ] &l&cGORGONSKIN LEATHER BOOTS'
   Group: q9-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:140
@@ -1364,7 +1535,7 @@ gorgonskin_leather_boots_blood+3:
 
 gorgonskin_leather_boots_blood+4:
   Id: netherite_boots
-  Display: '&6[ III ] &cGORGONSKIN LEATHER BOOTS'
+  Display: '&6[ III ] &l&cGORGONSKIN LEATHER BOOTS'
   Group: q9-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:150

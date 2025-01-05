@@ -1375,7 +1375,7 @@ abyssal_treasure_shield_blood+4:
     - ATTRIBUTES
 abyssal_treasure_helmet_blood:
   Id: netherite_helmet
-  Display: '&6[ III ] &cABYSSAL TREASURE HELMET'
+  Display: '&6[ III ] &l&cABYSSAL TREASURE HELMET'
   Group: q10-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:110
@@ -1399,7 +1399,7 @@ abyssal_treasure_helmet_blood:
     - ATTRIBUTES
 abyssal_treasure_helmet_blood+1:
   Id: netherite_helmet
-  Display: '&6[ III ] &cABYSSAL TREASURE HELMET'
+  Display: '&6[ III ] &l&cABYSSAL TREASURE HELMET'
   Group: q10-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:120
@@ -1423,7 +1423,7 @@ abyssal_treasure_helmet_blood+1:
     - ATTRIBUTES
 abyssal_treasure_helmet_blood+2:
   Id: netherite_helmet
-  Display: '&6[ III ] &cABYSSAL TREASURE HELMET'
+  Display: '&6[ III ] &l&cABYSSAL TREASURE HELMET'
   Group: q10-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:130
@@ -1447,7 +1447,7 @@ abyssal_treasure_helmet_blood+2:
     - ATTRIBUTES
 abyssal_treasure_helmet_blood+3:
   Id: netherite_helmet
-  Display: '&6[ III ] &cABYSSAL TREASURE HELMET'
+  Display: '&6[ III ] &l&cABYSSAL TREASURE HELMET'
   Group: q10-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:140
@@ -1471,7 +1471,7 @@ abyssal_treasure_helmet_blood+3:
     - ATTRIBUTES
 abyssal_treasure_helmet_blood+4:
   Id: netherite_helmet
-  Display: '&6[ III ] &cABYSSAL TREASURE HELMET'
+  Display: '&6[ III ] &l&cABYSSAL TREASURE HELMET'
   Group: q10-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:150
