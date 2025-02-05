@@ -1,0 +1,28 @@
+shade_crawler:
+  Type: ZOMBIE
+  Display: '&lShade Crawler [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 1000
+  Damage: 150
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.35'
+  Faction: telepolos
+  Group: telepolos
+  Equipment:
+    - leather_helmet{color=black} HEAD
+    - leather_chestplate{color=black} CHEST
+    - leather_leggings{color=black} LEGS
+    - leather_boots{color=black} FEET
+  Drops:
+    - telopolos_normal
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
