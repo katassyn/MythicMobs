@@ -25,4 +25,4 @@ mapa16-2049:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: 16-20
-  CooldownTimer: 35
+  CooldownTimer: 10

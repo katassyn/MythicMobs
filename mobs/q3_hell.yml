@@ -1,0 +1,272 @@
+# Hell version - 3x health, 2x damage from inf version
+cursed_farmer_hell:
+  Type: ZOMBIE
+  Display: '&lCursed Farmer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 3000
+  Damage: 200
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - cursed_farmer_hell_drop
+    - q_hell_mob_crafting
+  Equipment:
+    - leather_helmet{color=brown} HEAD
+    - leather_chestplate{color=brown} CHEST
+    - leather_leggings{color=brown} LEGS
+    - leather_boots{color=brown} FEET
+
+cursed_troll_hell:
+  Type: ZOMBIE
+  Display: '&e&lCursed Troll &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 6000
+  Damage: 500
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    KnockbackResistance: 0.5
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=ThrowBoulder_hell} @target ~onTimer:10
+  Drops:
+    - cursed_troll_hell_drop
+    - q_hell_elite_crafting
+  Equipment:
+    - leather_helmet{color=gray} HEAD
+    - leather_chestplate{color=gray} CHEST
+    - leather_leggings{color=gray} LEGS
+    - leather_boots{color=gray} FEET
+
+cursed_archer_hell:
+  Type: SKELETON
+  Display: '&lCursed Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1800
+  Damage: 300
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - cursed_archer_hell_drop
+    - q_hell_mob_crafting
+  Equipment:
+    - bow HAND
+    - leather_helmet{color=brown} HEAD
+    - leather_chestplate{color=brown} CHEST
+    - leather_leggings{color=brown} LEGS
+    - leather_boots{color=brown} FEET
+
+parallel_world_evil_miller_hell:
+  Type: ZOMBIE
+  Display: '&5&lParallel World Evil Miller &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 12000
+  Damage: 400
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    KnockbackResistance: 0.3
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummonVillagers_hell} ~onTimer:30
+    - skill{s=IceBall_hell} @target ~onTimer:8
+    - skill{s=FrostExplosion_hell} @PlayersInRadius{r=20} ~onTimer:15
+  Drops:
+    - parallel_world_evil_miller_hell_drop
+    - q_hell_elite_crafting
+
+slain_assassin_hell:
+  Type: ZOMBIE
+  Display: '&e&lSlain Assassin &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 2400
+  Damage: 600
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.4
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - slain_assassin_hell_drop
+    - q_hell_elite_crafting
+  Equipment:
+    - iron_sword HAND
+    - leather_helmet{color=black} HEAD
+    - leather_chestplate{color=black} CHEST
+    - leather_leggings{color=black} LEGS
+    - leather_boots{color=black} FEET
+
+slain_warrior_hell:
+  Type: ZOMBIE
+  Display: '&lSlain Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 3600
+  Damage: 300
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - slain_warrior_hell_drop
+    - q_hell_mob_crafting
+  Equipment:
+    - iron_sword HAND
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+
+slain_archer_hell:
+  Type: SKELETON
+  Display: '&lSlain Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 2400
+  Damage: 400
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - slain_archer_hell_drop
+    - q_hell_mob_crafting
+  Equipment:
+    - bow HAND
+    - leather_helmet{color=dark_gray} HEAD
+    - leather_chestplate{color=dark_gray} CHEST
+    - leather_leggings{color=dark_gray} LEGS
+    - leather_boots{color=dark_gray} FEET
+
+the_bloody_arrow_hell:
+  Type: SKELETON
+  Display: '&5&lThe Bloody Arrow &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 9000
+  Damage: 500
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=BlindingShot_hell} @target ~onTimer:12
+    - skill{s=SlowingTrap_hell} @self ~onTimer:15
+  Drops:
+    - the_bloody_arrow_hell_drop
+    - q_hell_elite_crafting
+  Equipment:
+    - bow HAND
+    - leather_helmet{color=red} HEAD
+    - leather_chestplate{color=red} CHEST
+    - leather_leggings{color=red} LEGS
+    - leather_boots{color=red} FEET
+
+undead_parallel_world_king_heredur_hell:
+  Type: ZOMBIE
+  Display: '&4<&skull> &lUndead King Heredur &r&4<&skull>'
+  Health: 30000
+  Damage: 600
+  BossBar:
+    Enabled: true
+    Title: '&c<&skull> King Heredur - <mob.hp{round=0}> <&skull>'
+    Color: PURPLE
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 30
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    KnockbackResistance: 0.8
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=FrostExplosion_hell} @PlayersInRadius{r=30} ~onTimer:15
+    - skill{s=SummonUndead_hell} @self ~onTimer:25
+    - skill{s=DeathBeam_hell} @target ~onTimer:20
+  Drops:
+    - king_heredur_hell_drop
+  Equipment:
+    - golden_crown HEAD
+    - diamond_chestplate CHEST
+    - diamond_leggings LEGS
+    - diamond_boots FEET
+    - diamond_sword HAND

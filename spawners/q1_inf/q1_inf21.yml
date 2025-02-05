@@ -25,4 +25,4 @@ q1_inf21:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: q1_inf
-  CooldownTimer: 41
+  CooldownTimer: 18

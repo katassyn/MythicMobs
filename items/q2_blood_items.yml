@@ -45,8 +45,6 @@ shroud_of_the_untouchables_bloodshed:
     - '§7Damage: §c+20 ⚔'
     - '§7Health: §c+20 ❤'
     - '&lRarity:&r &5Extraordinary'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -65,8 +63,6 @@ oceanus_ring_of_poison_bloodshed:
     - '§7Health: §c+35 ❤'
     - '§7Armor: §b+4 🛡'
     - '&lRarity:&r &6Legendary'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true

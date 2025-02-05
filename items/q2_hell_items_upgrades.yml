@@ -49,8 +49,6 @@ shroud_of_the_untouchables_hell+1:
     - '§7Damage: §c+35 ⚔'
     - '§7Health: §c+20 ❤'
     - '&lRarity:&r &5Extraordinary &l+1'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -69,8 +67,6 @@ oceanus_ring_of_poison_hell+1:
     - '§7Health: §c+32 ❤'
     - '§7Armor: §b+6 🛡'
     - '&lRarity:&r &6Legendary &l+1'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -152,8 +148,6 @@ shroud_of_the_untouchables_hell+2:
     - '§7Damage: §c+55 ⚔'
     - '§7Health: §c+25 ❤'
     - '&lRarity:&r &5Extraordinary &l+2'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -172,8 +166,6 @@ oceanus_ring_of_poison_hell+2:
     - '§7Health: §c+39 ❤'
     - '§7Armor: §b+9 🛡'
     - '&lRarity:&r &6Legendary &l+2'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -255,8 +247,6 @@ shroud_of_the_untouchables_hell+3:
     - '§7Damage: §c+75 ⚔'
     - '§7Health: §c+30 ❤'
     - '&lRarity:&r &5Extraordinary &l+3'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -275,8 +265,6 @@ oceanus_ring_of_poison_hell+3:
     - '§7Health: §c+46 ❤'
     - '§7Armor: §b+12 🛡'
     - '&lRarity:&r &6Legendary &l+3'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -357,8 +345,6 @@ shroud_of_the_untouchables_hell+4:
     - '§7Damage: §c+95 ⚔'
     - '§7Health: §c+35 ❤'
     - '&lRarity:&r &5Extraordinary &l+4'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -377,8 +363,6 @@ oceanus_ring_of_poison_hell+4:
     - '§7Health: §c+53 ❤'
     - '§7Armor: §b+15 🛡'
     - '&lRarity:&r &6Legendary &l+4'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true

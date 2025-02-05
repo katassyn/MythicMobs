@@ -1,0 +1,301 @@
+# Skills for Q4 mobs
+
+# Mission 1 Skills
+SummonHounds_inf:
+  Cooldown: 30
+  Skills:
+    - message{m="&cThe hunter calls for reinforcements!"} @PlayersInRadius{r=20}
+    - summon{mob=raging_hunting_hound_inf;amount=2;radius=3;noise=2} @self
+
+SummonHoundPack_inf:
+  Cooldown: 45
+  Skills:
+    - message{m="&5Ancient Stag summons its pack!"} @PlayersInRadius{r=30}
+    - summon{mob=raging_hunting_hound_inf;amount=4;radius=3;noise=2} @self
+
+PowerShot_inf:
+  Cooldown: 15
+  Skills:
+    - shoot{type=ARROW;velocity=30;damage=200} @Target
+
+# Mission 2 Skills
+TransformPhase2_inf:
+  Skills:
+    - message{m="&5Ulgar transforms into his second form!"} @PlayersInRadius{r=30}
+    - summon{mob=ulgar_the_master_butcher_phase2_inf;amount=1;radius=0} @self
+
+TransformPhase3_inf:
+  Skills:
+    - message{m="&5Ulgar reaches his final form!"} @PlayersInRadius{r=30}
+    - summon{mob=ulgar_the_master_butcher_phase3_inf;amount=1;radius=0} @self
+
+DeathExplosion_inf:
+  Skills:
+    - message{m="&cUlgar's body begins to glow..."} @PlayersInRadius{r=30}
+    - delay 40
+    - message{m="&cUlgar explodes in a violent blast!"} @PlayersInRadius{r=30}
+    - damage{a=300} @PlayersInRadius{r=8}
+    - effect:particles{p=EXPLOSION_HUGE;amount=10} @self
+
+SummonEternalHounds_inf:
+  Cooldown: 30
+  Skills:
+    - message{m="&cEternal Hunter calls his hounds!"} @PlayersInRadius{r=20}
+    - summon{mob=eternal_hunting_hound_inf;amount=2;radius=3;noise=2} @self
+
+# Mission 3 Boss Skills
+LightningStrike_inf:
+  Cooldown: 20
+  Skills:
+    - message{m="&cBearach calls upon the storm!"} @PlayersInRadius{r=30}
+    - lightning @PlayersInRadius{r=8}
+    - damage{a=200} @PlayersInRadius{r=8}
+
+SummonLightningWolves_inf:
+  Cooldown: 40
+  Skills:
+    - message{m="&cBearach summons lightning wolves!"} @PlayersInRadius{r=30}
+    - summon{mob=lightning_wolf_inf;amount=2;radius=3;noise=2} @self
+
+BeeSwarm_inf:
+  Cooldown: 25
+  Skills:
+    - message{m="&cBearach unleashes a swarm of bees!"} @PlayersInRadius{r=30}
+    - projectile{onTick=BeeSwarm-Tick;onHit=BeeSwarm-Hit;v=8;i=BEE_NEST;hR=1;vR=1;amount=3} @target
+
+BeeSwarm-Tick:
+  Skills:
+    - effect:particles{p=WAX_ON;amount=5} @origin
+
+BeeSwarm-Hit:
+  Skills:
+    - damage{a=400} @target
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @target
+
+Whirlwind_inf:
+  Cooldown: 30
+  Skills:
+    - message{m="&cBearach spins with tremendous force!"} @PlayersInRadius{r=30}
+    - delay 20
+    - damage{a=250} @PlayersInRadius{r=6}
+    - potion{type=CONFUSION;duration=100;level=1} @PlayersInRadius{r=6}
+    - effect:particles{p=CLOUD;amount=50;radius=6} @self
+
+# Additional mobs needed for boss fight
+
+
+ShootLightning_inf:
+  Cooldown: 10
+  Skills:
+    - projectile{onTick=Lightning-Tick;onHit=Lightning-Hit;v=10;i=NETHER_STAR;hR=1;vR=1} @target
+
+Lightning-Tick:
+  Skills:
+    - effect:particles{p=END_ROD;amount=3} @origin
+
+Lightning-Hit:
+  Skills:
+    - damage{a=150} @target
+    - potion{type=SLOW;duration=40;level=1} @target
+    - effect:particles{p=FLASH;amount=1} @target
+
+# Skills for Q4 Hell mobs (2x damage from inf version)
+
+# Mission 1 Skills
+SummonHounds_hell:
+  Cooldown: 30
+  Skills:
+    - message{m="&cThe hunter calls for reinforcements!"} @PlayersInRadius{r=20}
+    - summon{mob=raging_hunting_hound_hell;amount=2;radius=3;noise=2} @self
+
+SummonHoundPack_hell:
+  Cooldown: 45
+  Skills:
+    - message{m="&5Ancient Stag summons its pack!"} @PlayersInRadius{r=30}
+    - summon{mob=raging_hunting_hound_hell;amount=4;radius=3;noise=2} @self
+
+PowerShot_hell:
+  Cooldown: 15
+  Skills:
+    - shoot{type=ARROW;velocity=30;damage=400} @Target  # 2x200
+
+# Mission 2 Skills
+TransformPhase2_hell:
+  Skills:
+    - message{m="&5Ulgar transforms into his second form!"} @PlayersInRadius{r=30}
+    - summon{mob=ulgar_the_master_butcher_phase2_hell;amount=1;radius=0} @self
+
+TransformPhase3_hell:
+  Skills:
+    - message{m="&5Ulgar reaches his final form!"} @PlayersInRadius{r=30}
+    - summon{mob=ulgar_the_master_butcher_phase3_hell;amount=1;radius=0} @self
+
+DeathExplosion_hell:
+  Skills:
+    - message{m="&cUlgar's body begins to glow..."} @PlayersInRadius{r=30}
+    - delay 40
+    - message{m="&cUlgar explodes in a violent blast!"} @PlayersInRadius{r=30}
+    - damage{a=600} @PlayersInRadius{r=8}  # 2x300
+    - effect:particles{p=EXPLOSION_HUGE;amount=10} @self
+
+SummonEternalHounds_hell:
+  Cooldown: 30
+  Skills:
+    - message{m="&cEternal Hunter calls his hounds!"} @PlayersInRadius{r=20}
+    - summon{mob=eternal_hunting_hound_hell;amount=2;radius=3;noise=2} @self
+
+# Mission 3 Boss Skills
+LightningStrike_hell:
+  Cooldown: 20
+  Skills:
+    - message{m="&cBearach calls upon the storm!"} @PlayersInRadius{r=30}
+    - lightning @PlayersInRadius{r=8}
+    - damage{a=400} @PlayersInRadius{r=8}  # 2x200
+
+SummonLightningWolves_hell:
+  Cooldown: 40
+  Skills:
+    - message{m="&cBearach summons lightning wolves!"} @PlayersInRadius{r=30}
+    - summon{mob=lightning_wolf_hell;amount=2;radius=3;noise=2} @self
+
+BeeSwarm_hell:
+  Cooldown: 25
+  Skills:
+    - message{m="&cBearach unleashes a swarm of bees!"} @PlayersInRadius{r=30}
+    - projectile{onTick=BeeSwarm-Tick-Hell;onHit=BeeSwarm-Hit-Hell;v=8;i=BEE_NEST;hR=1;vR=1;amount=3} @target
+
+BeeSwarm-Tick-Hell:
+  Skills:
+    - effect:particles{p=WAX_ON;amount=5} @origin
+
+BeeSwarm-Hit-Hell:
+  Skills:
+    - damage{a=800} @target  # 2x400
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @target
+
+Whirlwind_hell:
+  Cooldown: 30
+  Skills:
+    - message{m="&cBearach spins with tremendous force!"} @PlayersInRadius{r=30}
+    - delay 20
+    - damage{a=500} @PlayersInRadius{r=6}  # 2x250
+    - potion{type=CONFUSION;duration=100;level=1} @PlayersInRadius{r=6}
+    - effect:particles{p=CLOUD;amount=50;radius=6} @self
+
+# Additional mobs needed for boss fight
+
+ShootLightning_hell:
+  Cooldown: 10
+  Skills:
+    - projectile{onTick=Lightning-Tick-Hell;onHit=Lightning-Hit-Hell;v=10;i=NETHER_STAR;hR=1;vR=1} @target
+
+Lightning-Tick-Hell:
+  Skills:
+    - effect:particles{p=END_ROD;amount=3} @origin
+
+Lightning-Hit-Hell:
+  Skills:
+    - damage{a=300} @target  # 2x150
+    - potion{type=SLOW;duration=40;level=1} @target
+    - effect:particles{p=FLASH;amount=1} @target
+
+# Skills for Q4 Blood mobs (5x damage from inf version)
+
+# Mission 1 Skills
+SummonHounds_blood:
+  Cooldown: 30
+  Skills:
+    - message{m='&cThe hunter calls for reinforcements!'} @PlayersInRadius{r=20}
+    - summon{mob=raging_hunting_hound_blood;amount=2;radius=3;noise=2} @self
+
+SummonHoundPack_blood:
+  Cooldown: 45
+  Skills:
+    - message{m='&5Ancient Stag summons its pack!'} @PlayersInRadius{r=30}
+    - summon{mob=raging_hunting_hound_blood;amount=4;radius=3;noise=2} @self
+
+PowerShot_blood:
+  Cooldown: 15
+  Skills:
+    - shoot{type=ARROW;velocity=30;damage=1000} @Target  # 5x200
+
+# Mission 2 Skills
+TransformPhase2_blood:
+  Skills:
+    - message{m='&5Ulgar transforms into his second form!'} @PlayersInRadius{r=30}
+    - summon{mob=ulgar_the_master_butcher_phase2_blood;amount=1;radius=0} @self
+
+TransformPhase3_blood:
+  Skills:
+    - message{m='&5Ulgar reaches his final form!'} @PlayersInRadius{r=30}
+    - summon{mob=ulgar_the_master_butcher_phase3_blood;amount=1;radius=0} @self
+
+DeathExplosion_blood:
+  Skills:
+    - message{m='&cUlgar`s body begins to glow...'} @PlayersInRadius{r=30}
+    - delay 40
+    - message{m='&cUlgar explodes in a violent blast!'} @PlayersInRadius{r=30}
+    - damage{a=1500} @PlayersInRadius{r=8}  # 5x300
+    - effect:particles{p=EXPLOSION_HUGE;amount=10} @self
+
+SummonEternalHounds_blood:
+  Cooldown: 30
+  Skills:
+    - message{m='&cEternal Hunter calls his hounds!'} @PlayersInRadius{r=20}
+    - summon{mob=eternal_hunting_hound_blood;amount=2;radius=3;noise=2} @self
+
+# Mission 3 Boss Skills
+LightningStrike_blood:
+  Cooldown: 20
+  Skills:
+    - message{m='&cBearach calls upon the storm!'} @PlayersInRadius{r=30}
+    - lightning @PlayersInRadius{r=8}
+    - damage{a=1000} @PlayersInRadius{r=8}  # 5x200
+
+SummonLightningWolves_blood:
+  Cooldown: 40
+  Skills:
+    - message{m='&cBearach summons lightning wolves!'} @PlayersInRadius{r=30}
+    - summon{mob=lightning_wolf_blood;amount=2;radius=3;noise=2} @self
+
+BeeSwarm_blood:
+  Cooldown: 25
+  Skills:
+    - message{m='&cBearach unleashes a swarm of bees!'} @PlayersInRadius{r=30}
+    - projectile{onTick=BeeSwarm-Tick-Blood;onHit=BeeSwarm-Hit-Blood;v=8;i=BEE_NEST;hR=1;vR=1;amount=3} @target
+
+BeeSwarm-Tick-Blood:
+  Skills:
+    - effect:particles{p=WAX_ON;amount=5} @origin
+
+BeeSwarm-Hit-Blood:
+  Skills:
+    - damage{a=2000} @target  # 5x400
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @target
+
+Whirlwind_blood:
+  Cooldown: 30
+  Skills:
+    - message{m='&cBearach spins with tremendous force!'} @PlayersInRadius{r=30}
+    - delay 20
+    - damage{a=1250} @PlayersInRadius{r=6}  # 5x250
+    - potion{type=CONFUSION;duration=100;level=1} @PlayersInRadius{r=6}
+    - effect:particles{p=CLOUD;amount=50;radius=6} @self
+
+# Additional mobs needed for boss fight
+
+
+ShootLightning_blood:
+  Cooldown: 10
+  Skills:
+    - projectile{onTick=Lightning-Tick-Blood;onHit=Lightning-Hit-Blood;v=10;i=NETHER_STAR;hR=1;vR=1} @target
+
+Lightning-Tick-Blood:
+  Skills:
+    - effect:particles{p=END_ROD;amount=3} @origin
+
+Lightning-Hit-Blood:
+  Skills:
+    - damage{a=750} @target  # 5x150
+    - potion{type=SLOW;duration=40;level=1} @target
+    - effect:particles{p=FLASH;amount=1} @target

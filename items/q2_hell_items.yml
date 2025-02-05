@@ -45,8 +45,6 @@ shroud_of_the_untouchables_hell:
     - '§7Damage: §c+15 ⚔'
     - '§7Health: §c+15 ❤'
     - '&lRarity:&r &5Extraordinary'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -65,8 +63,6 @@ oceanus_ring_of_poison_hell:
     - '§7Health: §c+25 ❤'
     - '§7Armor: §b+3 🛡'
     - '&lRarity:&r &6Legendary'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true

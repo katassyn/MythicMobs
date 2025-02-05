@@ -50,8 +50,6 @@ shroud_of_the_untouchables_bloodshed+1:
     - '§7Damage: §c+40 ⚔'
     - '§7Health: §c+25 ❤'
     - '&lRarity:&r &5Extraordinary &l+1'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -70,8 +68,6 @@ oceanus_ring_of_poison_bloodshed+1:
     - '§7Health: §c+42 ❤'
     - '§7Armor: §b+7 🛡'
     - '&lRarity:&r &6Legendary &l+1'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -173,8 +169,6 @@ shroud_of_the_untouchables_bloodshed+2:
     - '§7Damage: §c+60 ⚔'
     - '§7Health: §c+30 ❤'
     - '&lRarity:&r &5Extraordinary &l+2'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -193,8 +187,6 @@ oceanus_ring_of_poison_bloodshed+2:
     - '§7Health: §c+49 ❤'
     - '§7Armor: §b+10 🛡'
     - '&lRarity:&r &6Legendary &l+2'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -299,8 +291,6 @@ shroud_of_the_untouchables_bloodshed+3:
     - '§7Damage: §c+80 ⚔'
     - '§7Health: §c+35 ❤'
     - '&lRarity:&r &5Extraordinary &l+3'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -319,8 +309,6 @@ oceanus_ring_of_poison_bloodshed+3:
     - '§7Health: §c+56 ❤'
     - '§7Armor: §b+13 🛡'
     - '&lRarity:&r &6Legendary &l+3'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -423,8 +411,6 @@ shroud_of_the_untouchables_bloodshed+4:
     - '§7Damage: §c+100 ⚔'
     - '§7Health: §c+40 ❤'
     - '&lRarity:&r &5Extraordinary &l+4'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -443,8 +429,6 @@ oceanus_ring_of_poison_bloodshed+4:
     - '§7Health: §c+63 ❤'
     - '§7Armor: §b+16 🛡'
     - '&lRarity:&r &6Legendary &l+4'
-    - '&8-------------------'
-    - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true

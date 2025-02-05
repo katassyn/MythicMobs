@@ -1,0 +1,388 @@
+#BASIC POTIONS BASIC POTIONS BASIC POTIONS
+#BASIC POTIONS BASIC POTIONS BASIC POTIONS
+#BASIC POTIONS BASIC POTIONS BASIC POTIONS
+
+potion5hp:
+  Id: raw_mutton
+  Display: '&aSmall Healing Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Heals:&c 5❤'
+    - '&7Cooldown: 10s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potion10hp:
+  Id: raw_mutton
+  Display: '&aMedium Healing Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Heals:&c 10❤'
+    - '&7Cooldown: 10s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potion15hp:
+  Id: raw_mutton
+  Display: '&aLarge Healing Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Heals:&c 15❤'
+    - '&7Cooldown: 10s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+#POTIONY POTIONY #POTIONY POTIONY
+#POTIONY POTIONY #POTIONY POTIONY
+#POTIONY POTIONY #POTIONY POTIONY
+#( NIE STAKUJA SIE , PO DANYM CZASIE PRZESTAJA DZIALAC! )
+potionheal_inf:
+  Id: raw_mutton
+  Display: '&9[ I ]&a Small Healing Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Heals:&c 50%❤'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionlasting_inf:
+  Id: raw_mutton
+  Display: '&9[ I ]&a Small Lasting Healing Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Heals:&c 10%❤/s&7 For 5s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionheal_hell:
+  Id: raw_mutton
+  Display: '&5[ II ]&a Medium Healing Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Heals:&c 75%❤'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionlasting_hell:
+  Id: raw_mutton
+  Display: '&5[ II ]&a Medium Lasting Healing Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Heals:&c 15%❤/s&7 For 5s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionheal_blood:
+  Id: raw_mutton
+  Display: '&6[ III ]&a Large Healing Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Heals:&c 100%❤'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionlasting_blood:
+  Id: raw_mutton
+  Display: '&6[ III ]&a Large Lasting Healing Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Heals:&c 20%❤/s&7 For 5s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionimmun_inf:
+  Id: raw_mutton
+  Display: '&9[ I ]&a Small Immunity Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants Immunity for 1s (Only Mobs)'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionimmun_hell:
+  Id: raw_mutton
+  Display: '&5[ II ]&a Medium Immunity Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants Immunity for 2s (Only Mobs)'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionimmun_blood:
+  Id: raw_mutton
+  Display: '&6[ III ]&a Large Immunity Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants Immunity for 3s (Only Mobs)'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionms_inf:
+  Id: raw_mutton
+  Display: '&9[ I ]&a Small Movement Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §b+25%👟&7 Movement Speed for 3s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionms_hell:
+  Id: raw_mutton
+  Display: '&5[ II ]&a Medium Movement Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §b+50%👟&7 Movement Speed for 3s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionms_blood:
+  Id: raw_mutton
+  Display: '&6[ III ]&a Large Movement Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §b+100%👟&7 Movement Speed for 3s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potiononeluck_inf:
+  Id: raw_mutton
+  Display: '&9[ I ]&a Small One Mob Luck Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants 10x&a🍀&7 More Luck For 1 Mob Lasts 5s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionnoneluck_hell:
+  Id: raw_mutton
+  Display: '&5[ II ]&a Medium One Mob Luck Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants 20x&a🍀&7 More Luck For 1 Mob Lasts 5s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionnoneluck_blood:
+  Id: raw_mutton
+  Display: '&6[ III ]&a Large One Mob Luck Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants 30x&a🍀&7 More Luck For 1 Mob Lasts 5s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionabsorption_inf:
+  Id: raw_mutton
+  Display: '&9[ I ]&a Small Absorption Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Gives &e10❤&7 Absorption For 10s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionabsorption_hell:
+  Id: raw_mutton
+  Display: '&5[ II ]&a Medium Absorption Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Gives &e20❤ &7Absorption For 10s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionabsorption_blood:
+  Id: raw_mutton
+  Display: '&6[ III ]&a Large Absorption Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Gives &e30❤&7 Absorption For 10s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionbersek_inf:
+  Id: raw_mutton
+  Display: '&9[ I ]&a Small Berserk Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+60%⚔&7 Damage And §c-60%❤&7 Health For 5s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionabersek_hell:
+  Id: raw_mutton
+  Display: '&5[ II ]&a Medium Berserk Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+75%⚔&7 Damage And §c-75%❤&7 Health For 5s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+potionbersek_blood:
+  Id: raw_mutton
+  Display: '&6[ III ]&a Large Berserk Potion'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+90%⚔&7 Damage And §c-90%❤&7 Health For 5s'
+    - '&7Cooldown: 30s'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+#TONICS TONICS TONICS #TONICS TONICS TONICS
+#TONICS TONICS TONICS #TONICS TONICS TONICS
+#TONICS TONICS TONICS #TONICS TONICS TONICS
+tonicdmg_inf:
+  Id: raw_beef
+  Display: '&9[ I ]&a Basic Damage Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+10%⚔&7 Damage For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicdmg_hell:
+  Id: raw_beef
+  Display: '&5[ II ]&a Great Damage Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+15%⚔&7 Damage For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicdmg_blood:
+  Id: raw_beef
+  Display: '&6[ III ]&a Excellent Damage Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+20%⚔&7 Damage For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true

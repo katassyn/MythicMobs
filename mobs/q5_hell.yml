@@ -1,0 +1,236 @@
+# Mission 1 Mobs - Hell Version (3x HP, 2x DMG from inf version)
+furious_maggot_hell:
+  Type: SILVERFISH
+  Display: '&lFurious Maggot &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 600  # 3x200
+  Damage: 100  # 2x50
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - furious_maggot_hell_drop
+    - q_hell_mob_crafting
+
+furious_flagrancy_hell:
+  Type: MAGMA_CUBE
+  Display: '&lFurious Flagrancy &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 6000  # 3x2000
+  Damage: 600   # 2x300
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.1
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - furious_flagrancy_hell_drop
+    - q_hell_mob_crafting
+
+furious_andermagic_hell:
+  Type: BLAZE
+  Display: '&e&lFurious Andermagic &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 2400  # 3x800
+  Damage: 500   # 2x250
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=FireballAttack_hell} @target ~onTimer:10
+  Drops:
+    - furious_andermagic_hell_drop
+    - q_hell_elite_crafting
+
+parallel_world_old_jabbax_shaman_hell:
+  Type: MUSHROOM_COW
+  Display: '&5&lParallel World Old Jabbax Shaman &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 9000  # 3x3000
+  Damage: 400   # 2x200
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummonMaggots_hell} ~onTimer:30
+    - skill{s=MeteorStrike_hell} @target ~onTimer:15
+  Drops:
+    - old_jabbax_shaman_hell_drop
+    - q_hell_elite_crafting
+
+# Mission 2 Mobs
+andermagic_guardian_hell:
+  Type: ZOMBIE
+  Display: '&lAndermagic Guardian &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 3000  # 3x1000
+  Damage: 300   # 2x150
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - andermagic_guardian_hell_drop
+    - q_hell_mob_crafting
+
+living_andermagic_hell:
+  Type: BLAZE
+  Display: '&lLiving Andermagic &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1800  # 3x600
+  Damage: 400   # 2x200
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=FireballAttack_hell} @target ~onTimer:8
+  Drops:
+    - living_andermagic_hell_drop
+    - q_hell_mob_crafting
+
+wailing_andermagic_ghost_hell:
+  Type: ZOMBIE
+  Display: '&e&lWailing Andermagic Ghost &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 2400  # 3x800
+  Damage: 200   # 2x100
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SlowAura_hell} @PlayersInRadius{r=5} ~onTimer:5
+    - skill{s=DamageAura_hell} @PlayersInRadius{r=5} ~onTimer:10
+  Drops:
+    - wailing_ghost_hell_drop
+    - q_hell_elite_crafting
+
+andermagic_scoropitl_hell:
+  Type: SPIDER
+  Display: '&e&lAndermagic Scoropitl &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 6000  # 3x2000
+  Damage: 300   # 2x150
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - potion{type=POISON;duration=100;level=2} @target ~onAttack
+  Drops:
+    - andermagic_scoropitl_hell_drop
+    - q_hell_elite_crafting
+
+wandering_experiment_hell:
+  Type: ZOMBIE
+  Display: '&5&lWandering Experiment &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 15000  # 3x5000
+  Damage: 0      # No direct damage
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.4
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=RunFromPlayer_hell} @target ~onTimer:5
+    - potion{type=POISON;duration=60;level=2} @PlayersInRadius{r=3} ~onTimer:10
+  Drops:
+    - wandering_experiment_hell_drop
+    - q_hell_elite_crafting
+
+khalys_leader_of_cultists_hell:
+  Type: WITCH
+  Display: '&4<&skull> &lKhalys, Leader of the Cultists &r&4<&skull>'
+  Health: 24000  # 3x8000
+  Damage: 800    # 2x400
+  BossBar:
+    Enabled: true
+    Title: '&c<&skull> Khalys - <mob.hp{round=0}> <&skull>'
+    Color: PURPLE
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 30
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.8
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummonCopy_hell} ~onTimer:45
+    - skill{s=MagicMissile_hell} @target ~onTimer:10
+    - skill{s=Teleport_hell} @self ~onTimer:30
+    - skill{s=DeathBeam_hell} @PlayersInRadius{r=30} ~onTimer:20
+  Drops:
+    - khalys_hell_drop
+
+khalys_clone_hell:
+  Type: WITCH
+  Display: '&4Khalys Clone &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
+  Health: 240    # 3x80 (1% of original)
+  Damage: 80     # 2x40 (10% of original)
+  Options:
+    MovementSpeed: 0.3
+    ShowHealth: true
+    PreventOtherDrops: true
+    Despawn: REMOVE
+  Skills:
+    - skill{s=MagicMissile_hell} @target ~onTimer:10

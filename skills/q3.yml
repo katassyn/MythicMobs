@@ -1,0 +1,227 @@
+# Skills configuration for Q3 mobs
+ThrowBoulder:
+  Cooldown: 10
+  Skills:
+    - message{m="&cThe troll throws a massive boulder!"} @PlayersInRadius{r=20}
+    - projectile{onTick=Boulder-Tick;onHit=Boulder-Hit;v=8;i=CLAY_BALL;hR=1;vR=1} @target
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=20} @origin
+
+Boulder-Tick:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=5} @origin
+
+Boulder-Hit:
+  Skills:
+    - damage{a=200} @target
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @target
+
+SummonVillagers:
+  Cooldown: 30
+  Skills:
+    - message{m="&5The miller summons his cursed villagers!"} @PlayersInRadius{r=30}
+    - summon{mob=cursed_farmer_inf;amount=2;radius=3} @self
+    - summon{mob=cursed_archer_inf;amount=1;radius=3} @self
+
+IceBall:
+  Cooldown: 8
+  Skills:
+    - projectile{onTick=Ice-Tick;onHit=Ice-Hit;v=10;i=SNOWBALL;hR=1;vR=1} @target
+
+Ice-Tick:
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=5} @origin
+
+Ice-Hit:
+  Skills:
+    - damage{a=150} @target
+    - potion{type=SLOW;duration=60;level=2} @target
+
+FrostExplosion:
+  Cooldown: 15
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
+    - damage{a=200} @PlayersInRadius{r=5}
+    - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=5}
+
+BlindingShot:
+  Cooldown: 12
+  Skills:
+    - message{m="&5The Bloody Arrow fires a blinding shot!"} @PlayersInRadius{r=20}
+    - shoot{type=ARROW;velocity=20;damage=150} @target
+    - potion{type=BLINDNESS;duration=60;level=1} @target
+
+SlowingTrap:
+  Cooldown: 15
+  Skills:
+    - message{m="&5The Bloody Arrow sets a trap!"} @PlayersInRadius{r=20}
+    - effect:particles{p=REDSTONE;color=RED;amount=30;radius=5} @self
+    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
+
+SummonUndead:
+  Cooldown: 25
+  Skills:
+    - message{m="&4King Heredur calls forth his fallen warriors!"} @PlayersInRadius{r=30}
+    - summon{mob=slain_warrior_inf;amount=2;radius=3} @self
+    - summon{mob=slain_archer_inf;amount=2;radius=3} @self
+    - summon{mob=slain_assassin_inf;amount=1;radius=3} @self
+
+DeathBeam:
+  Cooldown: 20
+  Skills:
+    - message{m="&4King Heredur channels a deadly beam!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SPELL_WITCH;amount=50;radius=1} @self
+    - delay 20
+    - projectile{onTick=Beam-Tick;onHit=Beam-Hit;v=3;i=DRAGON_FIREBALL;hR=1;vR=1} @target
+
+Beam-Tick:
+  Skills:
+    - effect:particles{p=SPELL_WITCH;amount=10} @origin
+
+Beam-Hit:
+  Skills:
+    - damage{a=500} @target
+    - effect:particles{p=EXPLOSION_HUGE;amount=1} @target
+
+# Hell version skills (2x damage)
+ThrowBoulder_hell:
+  Cooldown: 10
+  Skills:
+    - message{m="&cThe troll throws a massive boulder!"} @PlayersInRadius{r=20}
+    - projectile{onTick=Boulder-Tick-Hell;onHit=Boulder-Hit-Hell;v=8;i=CLAY_BALL;hR=1;vR=1} @target
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=20} @origin
+
+Boulder-Hit-Hell:
+  Skills:
+    - damage{a=400} @target
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @target
+
+SummonVillagers_hell:
+  Cooldown: 30
+  Skills:
+    - message{m="&5The miller summons his cursed villagers!"} @PlayersInRadius{r=30}
+    - summon{mob=cursed_farmer_hell;amount=2;radius=3} @self
+    - summon{mob=cursed_archer_hell;amount=1;radius=3} @self
+
+IceBall_hell:
+  Cooldown: 8
+  Skills:
+    - projectile{onTick=Ice-Tick;onHit=Ice-Hit-Hell;v=10;i=SNOWBALL;hR=1;vR=1} @target
+
+Ice-Hit-Hell:
+  Skills:
+    - damage{a=300} @target
+    - potion{type=SLOW;duration=80;level=3} @target
+
+FrostExplosion_hell:
+  Cooldown: 15
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
+    - damage{a=400} @PlayersInRadius{r=5}
+    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
+
+BlindingShot_hell:
+  Cooldown: 12
+  Skills:
+    - message{m="&5The Bloody Arrow fires a blinding shot!"} @PlayersInRadius{r=20}
+    - shoot{type=ARROW;velocity=20;damage=300} @target
+    - potion{type=BLINDNESS;duration=80;level=2} @target
+
+SlowingTrap_hell:
+  Cooldown: 15
+  Skills:
+    - message{m="&5The Bloody Arrow sets a trap!"} @PlayersInRadius{r=20}
+    - effect:particles{p=REDSTONE;color=RED;amount=30;radius=5} @self
+    - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5}
+
+SummonUndead_hell:
+  Cooldown: 25
+  Skills:
+    - message{m="&4King Heredur calls forth his fallen warriors!"} @PlayersInRadius{r=30}
+    - summon{mob=slain_warrior_hell;amount=2;radius=3} @self
+    - summon{mob=slain_archer_hell;amount=2;radius=3} @self
+    - summon{mob=slain_assassin_hell;amount=1;radius=3} @self
+
+DeathBeam_hell:
+  Cooldown: 20
+  Skills:
+    - message{m="&4King Heredur channels a deadly beam!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SPELL_WITCH;amount=50;radius=1} @self
+    - delay 20
+    - projectile{onTick=Beam-Tick;onHit=Beam-Hit-Hell;v=3;i=DRAGON_FIREBALL;hR=1;vR=1} @target
+
+Beam-Hit-Hell:
+  Skills:
+    - damage{a=1000} @target
+    - effect:particles{p=EXPLOSION_HUGE;amount=1} @target
+
+# Blood version skills (5x damage)
+ThrowBoulder_blood:
+  Cooldown: 10
+  Skills:
+    - message{m="&cThe troll throws a massive boulder!"} @PlayersInRadius{r=20}
+    - projectile{onTick=Boulder-Tick;onHit=Boulder-Hit-Blood;v=8;i=CLAY_BALL;hR=1;vR=1} @target
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=20} @origin
+
+Boulder-Hit-Blood:
+  Skills:
+    - damage{a=1000} @target
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @target
+
+SummonVillagers_blood:
+  Cooldown: 30
+  Skills:
+    - message{m="&5The miller summons his cursed villagers!"} @PlayersInRadius{r=30}
+    - summon{mob=cursed_farmer_blood;amount=2;radius=3} @self
+    - summon{mob=cursed_archer_blood;amount=1;radius=3} @self
+
+IceBall_blood:
+  Cooldown: 8
+  Skills:
+    - projectile{onTick=Ice-Tick;onHit=Ice-Hit-Blood;v=10;i=SNOWBALL;hR=1;vR=1} @target
+
+Ice-Hit-Blood:
+  Skills:
+    - damage{a=750} @target
+    - potion{type=SLOW;duration=100;level=4} @target
+
+FrostExplosion_blood:
+  Cooldown: 15
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
+    - damage{a=1000} @PlayersInRadius{r=5}
+    - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5}
+
+BlindingShot_blood:
+  Cooldown: 12
+  Skills:
+    - message{m="&5The Bloody Arrow fires a blinding shot!"} @PlayersInRadius{r=20}
+    - shoot{type=ARROW;velocity=20;damage=750} @target
+    - potion{type=BLINDNESS;duration=100;level=3} @target
+
+SlowingTrap_blood:
+  Cooldown: 15
+  Skills:
+    - message{m="&5The Bloody Arrow sets a trap!"} @PlayersInRadius{r=20}
+    - effect:particles{p=REDSTONE;color=RED;amount=30;radius=5} @self
+    - potion{type=SLOW;duration=120;level=5} @PlayersInRadius{r=5}
+
+SummonUndead_blood:
+  Cooldown: 25
+  Skills:
+    - message{m="&4King Heredur calls forth his fallen warriors!"} @PlayersInRadius{r=30}
+    - summon{mob=slain_warrior_blood;amount=2;radius=3} @self
+    - summon{mob=slain_archer_blood;amount=2;radius=3} @self
+    - summon{mob=slain_assassin_blood;amount=1;radius=3} @self
+
+DeathBeam_blood:
+  Cooldown: 20
+  Skills:
+    - message{m="&4King Heredur channels a deadly beam!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SPELL_WITCH;amount=50;radius=1} @self
+    - delay 20
+    - projectile{onTick=Beam-Tick;onHit=Beam-Hit-Blood;v=3;i=DRAGON_FIREBALL;hR=1;vR=1} @target
+
+Beam-Hit-Blood:
+  Skills:
+    - damage{a=2500} @target
+    - effect:particles{p=EXPLOSION_HUGE;amount=1} @target
