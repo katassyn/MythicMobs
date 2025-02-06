@@ -157,6 +157,7 @@ traitorous_imperial_swordsman:
 
 adamant_lava_hound:
   Type: zombie
+  Disguise: wolf
   Display: '&e&l Adamant Lava Hound &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 1400
   Damage: 0

@@ -1,6 +1,6 @@
-# Mission 1 Mobs - Blood Version (10x HP, 5x DMG from inf version)
 furious_maggot_blood:
-  Type: SILVERFISH
+  Type: ZOMBIE
+  Disguise: SILVERFISH
   Display: '&lFurious Maggot &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2000  # 10x200
   Damage: 250   # 5x50
@@ -12,6 +12,11 @@ furious_maggot_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+  Equipment:
+    - magma_block HEAD
+    - leather_chestplate{color=silver} CHEST
+    - leather_leggings{color=silver} LEGS
+    - leather_boots{color=silver} FEET
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -20,10 +25,11 @@ furious_maggot_blood:
     - q_blood_mob_crafting
 
 furious_flagrancy_blood:
-  Type: MAGMA_CUBE
+  Type: ZOMBIE
+  Disguise: MAGMA_CUBE
   Display: '&lFurious Flagrancy &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 20000  # 10x2000
-  Damage: 1500   # 5x300
+  Health: 8000  # 10x800
+  Damage: 600   # 5x120
   Options:
     FollowRange: 15
     MovementSpeed: 0.1
@@ -32,6 +38,11 @@ furious_flagrancy_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+  Equipment:
+    - fire_coral_block HEAD
+    - leather_chestplate{color=orange} CHEST
+    - leather_leggings{color=orange} LEGS
+    - leather_boots{color=orange} FEET
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -40,10 +51,11 @@ furious_flagrancy_blood:
     - q_blood_mob_crafting
 
 furious_andermagic_blood:
-  Type: BLAZE
+  Type: ZOMBIE
+  Disguise: BLAZE
   Display: '&e&lFurious Andermagic &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 8000   # 10x800
-  Damage: 1250   # 5x250
+  Health: 6000  # 10x600
+  Damage: 750   # 5x150
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -52,6 +64,12 @@ furious_andermagic_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+  Equipment:
+    - shroomlight HEAD
+    - leather_chestplate{color=yellow} CHEST
+    - leather_leggings{color=yellow} LEGS
+    - leather_boots{color=yellow} FEET
+    - blaze_rod HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -61,10 +79,11 @@ furious_andermagic_blood:
     - q_blood_elite_crafting
 
 parallel_world_old_jabbax_shaman_blood:
-  Type: MUSHROOM_COW
+  Type: ZOMBIE
+  Disguise: MUSHROOM_COW
   Display: '&5&lParallel World Old Jabbax Shaman &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 30000  # 10x3000
-  Damage: 1000   # 5x200
+  Health: 20000  # 10x2000
+  Damage: 900    # 5x180
   Options:
     FollowRange: 25
     MovementSpeed: 0.25
@@ -75,6 +94,12 @@ parallel_world_old_jabbax_shaman_blood:
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
     Despawn: CHUNK
+  Equipment:
+    - red_mushroom_block HEAD
+    - leather_chestplate{color=purple} CHEST
+    - leather_leggings{color=purple} LEGS
+    - leather_boots{color=purple} FEET
+    - totem_of_undying HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -84,12 +109,11 @@ parallel_world_old_jabbax_shaman_blood:
     - old_jabbax_shaman_blood_drop
     - q_blood_elite_crafting
 
-# Mission 2 Mobs
 andermagic_guardian_blood:
   Type: ZOMBIE
   Display: '&lAndermagic Guardian &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 10000  # 10x1000
-  Damage: 750    # 5x150
+  Health: 6000  # 10x600
+  Damage: 750   # 5x150
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -98,6 +122,12 @@ andermagic_guardian_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+  Equipment:
+    - chain_helmet HEAD
+    - chainmail_chestplate CHEST
+    - chainmail_leggings LEGS
+    - chainmail_boots FEET
+    - iron_sword HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -106,10 +136,11 @@ andermagic_guardian_blood:
     - q_blood_mob_crafting
 
 living_andermagic_blood:
-  Type: BLAZE
+  Type: ZOMBIE
+  Disguise: BLAZE
   Display: '&lLiving Andermagic &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 6000   # 10x600
-  Damage: 1000   # 5x200
+  Health: 4000  # 10x400
+  Damage: 700   # 5x140
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -118,6 +149,12 @@ living_andermagic_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+  Equipment:
+    - glowstone HEAD
+    - leather_chestplate{color=gold} CHEST
+    - leather_leggings{color=gold} LEGS
+    - leather_boots{color=gold} FEET
+    - blaze_rod HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -128,9 +165,10 @@ living_andermagic_blood:
 
 wailing_andermagic_ghost_blood:
   Type: ZOMBIE
+  Disguise: VEX
   Display: '&e&lWailing Andermagic Ghost &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 8000   # 10x800
-  Damage: 500    # 5x100
+  Health: 8000  # 10x800
+  Damage: 500   # 5x100
   Options:
     FollowRange: 15
     MovementSpeed: 0.15
@@ -139,6 +177,11 @@ wailing_andermagic_ghost_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+  Equipment:
+    - soul_lantern HEAD
+    - leather_chestplate{color=white} CHEST
+    - leather_leggings{color=white} LEGS
+    - leather_boots{color=white} FEET
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -149,9 +192,10 @@ wailing_andermagic_ghost_blood:
     - q_blood_elite_crafting
 
 andermagic_scoropitl_blood:
-  Type: SPIDER
+  Type: ZOMBIE
+  Disguise: SPIDER
   Display: '&e&lAndermagic Scoropitl &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 20000  # 10x2000
+  Health: 12000  # 10x1200
   Damage: 750    # 5x150
   Options:
     FollowRange: 20
@@ -161,6 +205,11 @@ andermagic_scoropitl_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+  Equipment:
+    - spider_eye HEAD
+    - leather_chestplate{color=purple} CHEST
+    - leather_leggings{color=purple} LEGS
+    - leather_boots{color=purple} FEET
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -172,7 +221,7 @@ andermagic_scoropitl_blood:
 wandering_experiment_blood:
   Type: ZOMBIE
   Display: '&5&lWandering Experiment &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 50000  # 10x5000
+  Health: 20000  # 10x2000
   Damage: 0      # No direct damage
   Options:
     FollowRange: 20
@@ -183,6 +232,11 @@ wandering_experiment_blood:
     PreventOtherDrops: true
     PreventRandomEquipment: true
     Despawn: CHUNK
+  Equipment:
+    - dragon_breath HEAD
+    - leather_chestplate{color=green} CHEST
+    - leather_leggings{color=green} LEGS
+    - leather_boots{color=green} FEET
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -193,10 +247,11 @@ wandering_experiment_blood:
     - q_blood_elite_crafting
 
 khalys_leader_of_cultists_blood:
-  Type: WITCH
+  Type: ZOMBIE
+  Disguise: WITCH
   Display: '&4<&skull> &lKhalys, Leader of the Cultists &r&4<&skull>'
-  Health: 80000  # 10x8000
-  Damage: 2000   # 5x400
+  Health: 30000  # 10x3000
+  Damage: 1000   # 5x200
   BossBar:
     Enabled: true
     Title: '&c<&skull> Khalys - <mob.hp{round=0}> <&skull>'
@@ -212,6 +267,12 @@ khalys_leader_of_cultists_blood:
     PreventRandomEquipment: true
     KnockbackResistance: 0.8
     Despawn: CHUNK
+  Equipment:
+    - wither_rose HEAD
+    - leather_chestplate{color=black} CHEST
+    - leather_leggings{color=black} LEGS
+    - leather_boots{color=black} FEET
+    - brewing_stand HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -223,14 +284,22 @@ khalys_leader_of_cultists_blood:
     - khalys_blood_drop
 
 khalys_clone_blood:
-  Type: WITCH
+  Type: ZOMBIE
+  Disguise: WITCH
   Display: '&4Khalys Clone &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
-  Health: 800    # 10x80 (1% of original)
-  Damage: 200    # 5x40 (10% of original)
+  Health: 3000  # 10x300
+  Damage: 500   # 5x100
   Options:
     MovementSpeed: 0.3
     ShowHealth: true
     PreventOtherDrops: true
     Despawn: REMOVE
+  Equipment:
+    - dead_bush HEAD
+    - leather_chestplate{color=black} CHEST
+    - leather_leggings{color=black} LEGS
+    - leather_boots{color=black} FEET
   Skills:
     - skill{s=MagicMissile_blood} @target ~onTimer:10
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

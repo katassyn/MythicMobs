@@ -26,8 +26,8 @@ soul_collector_telepolos_item_drops:
     - aspis_splitter 1 0.0075
 
 elite_telepolos:
-  -elite_telepolos_item_drops 1
-
+  drops:
+    -elite_telepolos_item_drops 1
 elite_telepolos_item_drops:
   MinItems: 0
   MaxItems: 1

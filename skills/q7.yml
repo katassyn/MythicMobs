@@ -1,0 +1,236 @@
+# Mission 1 Skills
+FlameAttack:
+  Cooldown: 15
+  Skills:
+    - effect:particles{p=FLAME;amount=20} @target
+    - damage{a=150} @target
+    - ignite{ticks=60} @target
+
+ThunderStrike:
+  Cooldown: 12
+  Skills:
+    - effect:particles{p=WAX_OFF;amount=30} @target
+    - damage{a=200} @target
+    - potion{type=LEVITATION;duration=40;level=1} @target
+    - potion{type=CONFUSION;duration=60;level=1} @target
+
+DeathExplosion:
+  Cooldown: 1
+  Skills:
+    - message{m="&cDark energy builds up..."} @PlayersInRadius{r=5}
+    - delay 40
+    - damage{a=300} @PlayersInRadius{r=3}
+    - effect:particles{p=EXPLOSION_LARGE;amount=20} @self
+
+LaserBeam:
+  Cooldown: 10
+  Skills:
+    - effect:particles{p=END_ROD;amount=50} @Forward{f=10}
+    - damage{a=100} @Forward{f=10}
+
+# Mission 2 Skills
+SummonFlamespawns:
+  Cooldown: 30
+  Skills:
+    - message{m="&cCommander Embersword summons reinforcements!"} @PlayersInRadius{r=20}
+    - summon{mob=angry_flamespawn_inf;amount=2;radius=3} @self
+
+# Mission 3 Boss Skills
+FlameStrike:
+  Cooldown: 5
+  Skills:
+    - message{m="&cThe Herald prepares to strike!"} @PlayersInRadius{r=20}
+    - delay 10
+    - damage{a=200} @target
+    - ignite{ticks=60} @target
+    - effect:particles{p=FLAME;amount=30} @target
+
+PoweredFlameStrike:
+  Cooldown: 10
+  Skills:
+    - message{m="&cThe Herald channels dark flames!"} @PlayersInRadius{r=20}
+    - delay 10
+    - damage{a=600} @target
+    - ignite{ticks=100} @target
+    - potion{type=SLOW;duration=60;level=2} @target
+    - effect:particles{p=FLAME;amount=50} @target
+
+MeteorShower:
+  Cooldown: 15
+  Skills:
+    - message{m="&cMeteors rain from above!"} @PlayersInRadius{r=30}
+    - projectile{onTick=Meteor-Tick;onHit=Meteor-Hit;v=8;i=MAGMA_BLOCK;hR=1;vR=1;amount=5} @target
+
+Meteor-Tick:
+  Skills:
+    - effect:particles{p=FLAME;amount=10} @origin
+
+Meteor-Hit:
+  Skills:
+    - damage{a=300} @PlayersInRadius{r=3}
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
+    - ignite{ticks=60} @PlayersInRadius{r=3}
+
+SummonFlamespawnsLarge:
+  Cooldown: 30
+  Skills:
+    - message{m="&cThe Herald summons its minions!"} @PlayersInRadius{r=30}
+    - summon{mob=angry_flamespawn_inf;amount=5;radius=5} @self
+
+# Mission 1 Skills - Hell version (2x damage)
+FlameAttack_hell:
+  Cooldown: 15
+  Skills:
+    - effect:particles{p=FLAME;amount=20} @target
+    - damage{a=300} @target  # 2x150
+    - ignite{ticks=80} @target
+
+ThunderStrike_hell:
+  Cooldown: 12
+  Skills:
+    - effect:particles{p=WAX_OFF;amount=30} @target
+    - damage{a=400} @target  # 2x200
+    - potion{type=LEVITATION;duration=60;level=2} @target
+    - potion{type=CONFUSION;duration=80;level=1} @target
+
+DeathExplosion_hell:
+  Cooldown: 1
+  Skills:
+    - message{m="&cDark energy builds up..."} @PlayersInRadius{r=5}
+    - delay 40
+    - damage{a=600} @PlayersInRadius{r=3}  # 2x300
+    - effect:particles{p=EXPLOSION_LARGE;amount=20} @self
+
+LaserBeam_hell:
+  Cooldown: 10
+  Skills:
+    - effect:particles{p=END_ROD;amount=50} @Forward{f=10}
+    - damage{a=200} @Forward{f=10}  # 2x100
+
+# Mission 2 Skills
+SummonFlamespawns_hell:
+  Cooldown: 30
+  Skills:
+    - message{m="&cCommander Embersword summons reinforcements!"} @PlayersInRadius{r=20}
+    - summon{mob=angry_flamespawn_hell;amount=2;radius=3} @self
+
+# Mission 3 Boss Skills
+FlameStrike_hell:
+  Cooldown: 5
+  Skills:
+    - message{m="&cThe Herald prepares to strike!"} @PlayersInRadius{r=20}
+    - delay 10
+    - damage{a=400} @target  # 2x200
+    - ignite{ticks=80} @target
+    - effect:particles{p=FLAME;amount=30} @target
+
+PoweredFlameStrike_hell:
+  Cooldown: 10
+  Skills:
+    - message{m="&cThe Herald channels dark flames!"} @PlayersInRadius{r=20}
+    - delay 10
+    - damage{a=1200} @target  # 2x600
+    - ignite{ticks=120} @target
+    - potion{type=SLOW;duration=80;level=3} @target
+    - effect:particles{p=FLAME;amount=50} @target
+
+MeteorShower_hell:
+  Cooldown: 15
+  Skills:
+    - message{m="&cMeteors rain from above!"} @PlayersInRadius{r=30}
+    - projectile{onTick=Meteor-Tick-Hell;onHit=Meteor-Hit-Hell;v=8;i=MAGMA_BLOCK;hR=1;vR=1;amount=5} @target
+
+Meteor-Tick-Hell:
+  Skills:
+    - effect:particles{p=FLAME;amount=10} @origin
+
+Meteor-Hit-Hell:
+  Skills:
+    - damage{a=600} @PlayersInRadius{r=3}  # 2x300
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
+    - ignite{ticks=80} @PlayersInRadius{r=3}
+
+SummonFlamespawnsLarge_hell:
+  Cooldown: 30
+  Skills:
+    - message{m="&cThe Herald summons its minions!"} @PlayersInRadius{r=30}
+    - summon{mob=angry_flamespawn_hell;amount=5;radius=5} @self
+
+# Mission 1 Skills - Blood version (5x damage)
+FlameAttack_blood:
+  Cooldown: 15
+  Skills:
+    - effect:particles{p=FLAME;amount=20} @target
+    - damage{a=750} @target  # 5x150
+    - ignite{ticks=100} @target
+
+ThunderStrike_blood:
+  Cooldown: 12
+  Skills:
+    - effect:particles{p=WAX_OFF;amount=30} @target
+    - damage{a=1000} @target  # 5x200
+    - potion{type=LEVITATION;duration=80;level=3} @target
+    - potion{type=CONFUSION;duration=100;level=2} @target
+
+DeathExplosion_blood:
+  Cooldown: 1
+  Skills:
+    - message{m="&cDark energy builds up..."} @PlayersInRadius{r=5}
+    - delay 40
+    - damage{a=1500} @PlayersInRadius{r=3}  # 5x300
+    - effect:particles{p=EXPLOSION_LARGE;amount=20} @self
+
+LaserBeam_blood:
+  Cooldown: 10
+  Skills:
+    - effect:particles{p=END_ROD;amount=50} @Forward{f=10}
+    - damage{a=500} @Forward{f=10}  # 5x100
+
+# Mission 2 Skills
+SummonFlamespawns_blood:
+  Cooldown: 30
+  Skills:
+    - message{m="&cCommander Embersword summons reinforcements!"} @PlayersInRadius{r=20}
+    - summon{mob=angry_flamespawn_blood;amount=2;radius=3} @self
+
+# Mission 3 Boss Skills
+FlameStrike_blood:
+  Cooldown: 5
+  Skills:
+    - message{m="&cThe Herald prepares to strike!"} @PlayersInRadius{r=20}
+    - delay 10
+    - damage{a=1000} @target  # 5x200
+    - ignite{ticks=100} @target
+    - effect:particles{p=FLAME;amount=30} @target
+
+PoweredFlameStrike_blood:
+  Cooldown: 10
+  Skills:
+    - message{m="&cThe Herald channels dark flames!"} @PlayersInRadius{r=20}
+    - delay 10
+    - damage{a=3000} @target  # 5x600
+    - ignite{ticks=140} @target
+    - potion{type=SLOW;duration=100;level=4} @target
+    - effect:particles{p=FLAME;amount=50} @target
+
+MeteorShower_blood:
+  Cooldown: 15
+  Skills:
+    - message{m="&cMeteors rain from above!"} @PlayersInRadius{r=30}
+    - projectile{onTick=Meteor-Tick-Blood;onHit=Meteor-Hit-Blood;v=8;i=MAGMA_BLOCK;hR=1;vR=1;amount=5} @target
+
+Meteor-Tick-Blood:
+  Skills:
+    - effect:particles{p=FLAME;amount=10} @origin
+
+Meteor-Hit-Blood:
+  Skills:
+    - damage{a=1500} @PlayersInRadius{r=3}  # 5x300
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
+    - ignite{ticks=100} @PlayersInRadius{r=3}
+
+SummonFlamespawnsLarge_blood:
+  Cooldown: 30
+  Skills:
+    - message{m="&cThe Herald summons its minions!"} @PlayersInRadius{r=30}
+    - summon{mob=angry_flamespawn_blood;amount=5;radius=5} @self

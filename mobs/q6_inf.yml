@@ -1,0 +1,337 @@
+# Mission 1 Mobs - Basic versions (inf)
+fallen_warrior_inf:
+  Type: SKELETON
+  Display: '&lFallen Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 800
+  Damage: 150
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_sword HAND
+    - shield OFFHAND
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - fallen_warrior_inf_drop
+    - q_inf_mob_crafting
+
+fallen_archer_inf:
+  Type: SKELETON
+  Display: '&lFallen Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 600
+  Damage: 200
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - bow HAND
+    - iron_helmet HEAD
+    - leather_chestplate CHEST
+    - leather_leggings LEGS
+    - leather_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - fallen_archer_inf_drop
+    - q_inf_mob_crafting
+
+death_knight_inf:
+  Type: SKELETON
+  Display: '&e&lDeath Knight &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1200
+  Damage: 250
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - netherite_sword HAND
+    - netherite_helmet HEAD
+    - netherite_chestplate CHEST
+    - netherite_leggings LEGS
+    - netherite_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=DeathExplosion} @self ~onDeath
+  Drops:
+    - death_knight_inf_drop
+    - q_inf_elite_crafting
+
+mortis_death_knight_inf:
+  Type: SKELETON
+  Display: '&5&lMortis Death Knight &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 3000
+  Damage: 300
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Equipment:
+    - netherite_sword HAND
+    - netherite_helmet HEAD
+    - netherite_chestplate CHEST
+    - netherite_leggings LEGS
+    - netherite_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=DeathExplosion} @self ~onDeath
+  Drops:
+    - mortis_knight_inf_drop
+    - q_inf_elite_crafting
+
+# Mission 2 Mobs
+elite_skeleton_archer_inf:
+  Type: SKELETON
+  Display: '&lElite Skeleton Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 800
+  Damage: 250
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - bow HAND
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - elite_archer_inf_drop
+    - q_inf_mob_crafting
+
+death_archer_inf:
+  Type: SKELETON
+  Display: '&e&lDeath Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1000
+  Damage: 300
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - bow HAND
+    - netherite_helmet HEAD
+    - netherite_chestplate CHEST
+    - netherite_leggings LEGS
+    - netherite_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=WitheringShot} @target ~onTimer:10
+  Drops:
+    - death_archer_inf_drop
+    - q_inf_elite_crafting
+
+raging_soul_inf:
+  Type: SKELETON
+  Display: '&lRaging Soul &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 500
+  Damage: 100
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - leather_helmet{color=black} HEAD
+    - leather_chestplate{color=black} CHEST
+    - leather_leggings{color=black} LEGS
+    - leather_boots{color=black} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - raging_soul_inf_drop
+    - q_inf_mob_crafting
+
+elite_skeleton_warrior_inf:
+  Type: SKELETON
+  Display: '&lElite Skeleton Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1000
+  Damage: 200
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_sword HAND
+    - shield OFFHAND
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - elite_warrior_inf_drop
+    - q_inf_mob_crafting
+
+murot_high_priest_inf:
+  Type: SKELETON
+  Display: '&5&lMurot, High Priest of Mortis &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 3000
+  Damage: 200
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Equipment:
+    - netherite_helmet HEAD
+    - netherite_chestplate CHEST
+    - netherite_leggings LEGS
+    - netherite_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=MeteorStrike} @target ~onTimer:15
+    - skill{s=HomingOrb} @target ~onTimer:10
+  Drops:
+    - murot_priest_inf_drop
+    - q_inf_elite_crafting
+
+# Mission 3 Boss Phases
+skeledragon_phase1_inf:
+  Type: HORSE
+  Display: '&4<&skull> &lSkeledragon &r&4<&skull>'
+  Health: 5000
+  Damage: 300
+  BossBar:
+    Enabled: true
+    Title: '&c<&skull> Skeledragon - Phase 1 <&skull>'
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 40
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.8
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=DragonBreath} @target ~onTimer:15
+    - skill{s=SummonPhase2} @self ~onDeath
+  Drops: []
+
+skeledragon_phase2_inf:
+  Type: HORSE
+  Display: '&4<&skull> &lMortis & Skeledragon &r&4<&skull>'
+  Health: 7000
+  Damage: 400
+  BossBar:
+    Enabled: true
+    Title: '&c<&skull> Mortis & Skeledragon - Phase 2 <&skull>'
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 40
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.8
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=DragonBreath} @target ~onTimer:15
+    - skill{s=ScytheWhirlwind} @self ~onTimer:20
+    - skill{s=SummonPhase3} @self ~onDeath
+  Drops: []
+
+mortis_phase3_inf:
+  Type: SKELETON
+  Display: '&4<&skull> &lMortis, Unchained God of Death &r&4<&skull>'
+  Health: 10000
+  Damage: 500
+  BossBar:
+    Enabled: true
+    Title: '&c<&skull> Mortis - Final Phase <&skull>'
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 40
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.8
+    Despawn: CHUNK
+  Equipment:
+    - netherite_hoe HAND
+    - skeleton_skull HEAD
+    - netherite_chestplate CHEST
+    - netherite_leggings LEGS
+    - netherite_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=ScytheWhirlwind} @self ~onTimer:20
+    - skill{s=DeathDash} @target ~onTimer:10
+    - skill{s=HealingPulse} @self ~onTimer:15
+    - skill{s=DeathZone} @target ~onTimer:25
+    - skill{s=SummonDragon} @self ~onTimer:60 ?health<30%
+  Drops:
+    - mortis_inf_drop

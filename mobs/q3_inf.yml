@@ -1,7 +1,7 @@
 cursed_farmer_inf:
   Type: ZOMBIE
   Display: '&lCursed Farmer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 1000
+  Health: 500
   Damage: 100
   Options:
     FollowRange: 15
@@ -21,16 +21,18 @@ cursed_farmer_inf:
     - cursed_farmer_inf_drop
     - q_inf_mob_crafting
   Equipment:
-    - leather_helmet{color=brown} HEAD
+    - hay_block HEAD
     - leather_chestplate{color=brown} CHEST
     - leather_leggings{color=brown} LEGS
     - leather_boots{color=brown} FEET
+    - stone_hoe HAND
 
 cursed_troll_inf:
   Type: ZOMBIE
+  Disguise: RAVAGER
   Display: '&e&lCursed Troll &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 2000
-  Damage: 250
+  Health: 1000
+  Damage: 150
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -51,16 +53,17 @@ cursed_troll_inf:
     - cursed_troll_inf_drop
     - q_inf_elite_crafting
   Equipment:
-    - leather_helmet{color=gray} HEAD
+    - obsidian HEAD
     - leather_chestplate{color=gray} CHEST
     - leather_leggings{color=gray} LEGS
     - leather_boots{color=gray} FEET
+    - stone_sword HAND
 
 cursed_archer_inf:
   Type: SKELETON
   Display: '&lCursed Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 600
-  Damage: 150
+  Health: 400
+  Damage: 120
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -88,8 +91,8 @@ cursed_archer_inf:
 parallel_world_evil_miller_inf:
   Type: ZOMBIE
   Display: '&5&lParallel World Evil Miller &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 4000
-  Damage: 200
+  Health: 2000
+  Damage: 150
   Options:
     FollowRange: 25
     MovementSpeed: 0.2
@@ -112,12 +115,18 @@ parallel_world_evil_miller_inf:
   Drops:
     - parallel_world_evil_miller_inf_drop
     - q_inf_elite_crafting
+  Equipment:
+    - grindstone HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+    - iron_sword HAND
 
 slain_assassin_inf:
   Type: ZOMBIE
   Display: '&e&lSlain Assassin &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 800
-  Damage: 300
+  Health: 600
+  Damage: 200
   Options:
     FollowRange: 20
     MovementSpeed: 0.4
@@ -145,8 +154,8 @@ slain_assassin_inf:
 slain_warrior_inf:
   Type: ZOMBIE
   Display: '&lSlain Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 1200
-  Damage: 150
+  Health: 800
+  Damage: 130
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -174,8 +183,8 @@ slain_warrior_inf:
 slain_archer_inf:
   Type: SKELETON
   Display: '&lSlain Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 800
-  Damage: 200
+  Health: 500
+  Damage: 150
   Options:
     FollowRange: 20
     MovementSpeed: 0.2
@@ -203,8 +212,8 @@ slain_archer_inf:
 the_bloody_arrow_inf:
   Type: SKELETON
   Display: '&5&lThe Bloody Arrow &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 3000
-  Damage: 250
+  Health: 1500
+  Damage: 180
   Options:
     FollowRange: 25
     MovementSpeed: 0.3
@@ -227,7 +236,7 @@ the_bloody_arrow_inf:
     - q_inf_elite_crafting
   Equipment:
     - bow HAND
-    - leather_helmet{color=red} HEAD
+    - wither_skeleton_skull HEAD
     - leather_chestplate{color=red} CHEST
     - leather_leggings{color=red} LEGS
     - leather_boots{color=red} FEET
@@ -235,8 +244,8 @@ the_bloody_arrow_inf:
 undead_parallel_world_king_heredur_inf:
   Type: ZOMBIE
   Display: '&4<&skull> &lUndead King Heredur &r&4<&skull>'
-  Health: 10000
-  Damage: 300
+  Health: 3000
+  Damage: 200
   BossBar:
     Enabled: true
     Title: '&c<&skull> King Heredur - <mob.hp{round=0}> <&skull>'
