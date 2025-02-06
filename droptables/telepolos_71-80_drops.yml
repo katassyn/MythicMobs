@@ -23,6 +23,7 @@ soul_collector_telepolos_item_drops:
     - dory_gauntlet 1 0.05
     - sandal_blade 1 0.02
     - hoplon_reaver 1 0.02
+    - aspis_splitter 1 0.0075
 
 elite_telepolos:
   -elite_telepolos_item_drops 1
