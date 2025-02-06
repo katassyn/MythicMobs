@@ -25,8 +25,8 @@ soul_collector_telepolos_item_drops:
     - hoplon_reaver 1 0.02
 
 elite_telepolos:
-  -elite_telepolos_item_drops 1
-
+  drops:
+    -elite_telepolos_item_drops 1
 elite_telepolos_item_drops:
   MinItems: 0
   MaxItems: 1

@@ -1,0 +1,290 @@
+# Mission 1 Mobs
+bone_warder_inf:
+  Type: SKELETON
+  Display: '&lBone Warder &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 800
+  Damage: 150
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_sword HAND
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - bone_warder_inf_drop
+    - q_inf_mob_crafting
+
+b1000_combat_mechanoid_inf:
+  Type: ZOMBIE
+  Display: '&lB-1000 Combat Mechanoid &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1200
+  Damage: 100
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=FlameAttack} @target ~onTimer:15
+  Drops:
+    - mechanoid_inf_drop
+    - q_inf_mob_crafting
+
+thundering_cyclops_inf:
+  Type: ZOMBIE
+  Display: '&e&lThundering Cyclops &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1500
+  Damage: 200
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=ThunderStrike} @target ~onTimer:12
+  Drops:
+    - cyclops_inf_drop
+    - q_inf_elite_crafting
+
+dark_sentinel_inf:
+  Type: ZOMBIE
+  Display: '&e&lDark Sentinel &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1800
+  Damage: 250
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - netherite_sword HAND
+    - netherite_helmet HEAD
+    - netherite_chestplate CHEST
+    - netherite_leggings LEGS
+    - netherite_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=DeathExplosion} @self ~onDeath
+  Drops:
+    - sentinel_inf_drop
+    - q_inf_elite_crafting
+
+iron_creeper_gate_guard_inf:
+  Type: ZOMBIE
+  Display: '&5&lIron Creeper Gate Guard &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 3000
+  Damage: 200
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Equipment:
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=LaserBeam} @target ~onTimer:10
+  Drops:
+    - gate_guard_inf_drop
+    - q_inf_elite_crafting
+
+# Mission 2 Mobs
+wild_razorclaw_inf:
+  Type: ZOMBIE
+  Display: '&lWild Razorclaw &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 600
+  Damage: 250
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.4
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - stone_sword HAND
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - razorclaw_inf_drop
+    - q_inf_mob_crafting
+
+flamescale_defender_inf:
+  Type: ZOMBIE
+  Display: '&lFlamescale Defender &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 800
+  Damage: 150
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_sword HAND
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - flamescale_inf_drop
+    - q_inf_mob_crafting
+
+fireclaw_mercenary_inf:
+  Type: ZOMBIE
+  Display: '&e&lFireclaw Mercenary &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1200
+  Damage: 200
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_sword HAND
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - ignite{ticks=60} @target ~onAttack
+  Drops:
+    - fireclaw_inf_drop
+    - q_inf_elite_crafting
+
+angry_flamespawn_inf:
+  Type: ZOMBIE
+  Display: '&lAngry Flamespawn &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 400
+  Damage: 100
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - flamespawn_inf_drop
+    - q_inf_mob_crafting
+
+commander_embersword_inf:
+  Type: ZOMBIE
+  Display: '&5&lCommander Embersword &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 3000
+  Damage: 250
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Equipment:
+    - diamond_sword HAND
+    - diamond_helmet HEAD
+    - diamond_chestplate CHEST
+    - diamond_leggings LEGS
+    - diamond_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummonFlamespawns} ~onTimer:30
+    - ignite{ticks=60} @target ~onAttack
+  Drops:
+    - commander_inf_drop
+    - q_inf_elite_crafting
+
+# Mission 3 Boss
+herald_of_anderworld_inf:
+  Type: ZOMBIE
+  Display: '&4<&skull> &lHerald of the Anderworld &r&4<&skull>'
+  Health: 5000
+  Damage: 0
+  BossBar:
+    Enabled: true
+    Title: '&c<&skull> Herald of the Anderworld - <mob.hp{round=0}> <&skull>'
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 30
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.8
+    Despawn: CHUNK
+  Equipment:
+    - blaze_rod HAND
+    - leather_helmet{color=red} HEAD
+    - leather_chestplate{color=red} CHEST
+    - leather_leggings{color=red} LEGS
+    - leather_boots{color=red} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=FlameStrike} @target ~onTimer:5
+    - skill{s=MeteorShower} @target ~onTimer:15
+    - skill{s=SummonFlamespawnsLarge} @self ~onTimer:30
+  Drops:
+    - herald_inf_drop

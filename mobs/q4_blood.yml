@@ -1,13 +1,12 @@
-# Mission 1 Mobs - Blood Version (10x HP, 5x DMG from inf version)
 sanguine_clan_raging_guardian_blood:
   Type: ZOMBIE
   Disguise: PIGLIN
   Display: '&lSanguine Clan`s Raging Guardian &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 8000  # 10x800
-  Damage: 750   # 5x150
+  Health: 4000  # 10x400
+  Damage: 500   # 5x100
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -16,6 +15,12 @@ sanguine_clan_raging_guardian_blood:
     PreventSunburn: true
     PreventJockeyMounts: true
     PreventTransformation: true
+  Equipment:
+    - crimson_hyphae HEAD
+    - golden_chestplate CHEST
+    - golden_leggings LEGS
+    - golden_boots FEET
+    - golden_sword HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -24,10 +29,11 @@ sanguine_clan_raging_guardian_blood:
     - q_blood_mob_crafting
 
 raging_hunting_hound_blood:
-  Type: WOLF
+  Type: ZOMBIE
+  Disguise: WOLF
   Display: '&lRaging Hunting-Hound &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 4000  # 10x400
-  Damage: 500   # 5x100
+  Health: 3000  # 10x300
+  Damage: 400   # 5x80
   Options:
     FollowRange: 20
     MovementSpeed: 0.4
@@ -36,9 +42,11 @@ raging_hunting_hound_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
-    PreventSunburn: true
-    PreventJockeyMounts: true
-    PreventTransformation: true
+  Equipment:
+    - bone HEAD
+    - leather_chestplate{color=gray} CHEST
+    - leather_leggings{color=gray} LEGS
+    - leather_boots{color=gray} FEET
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -49,8 +57,8 @@ raging_hunting_hound_blood:
 sanguine_clan_raging_snooper_blood:
   Type: ZOMBIE
   Display: '&e&lSanguine Clan`s Raging Snooper &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 10000  # 10x1000
-  Damage: 1000   # 5x200
+  Health: 6000  # 10x600
+  Damage: 600   # 5x120
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -59,14 +67,15 @@ sanguine_clan_raging_snooper_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
-    PreventSunburn: true
-    PreventJockeyMounts: true
-    PreventTransformation: true
+  Equipment:
+    - crimson_fungus HEAD
+    - leather_chestplate{color=red} CHEST
+    - leather_leggings{color=red} LEGS
+    - leather_boots{color=red} FEET
+    - crossbow HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - potion{type=SLOW;duration=60;level=2} @target ~onAttack
-    - potion{type=POISON;duration=60;level=1} @target ~onAttack
   Drops:
     - sanguine_snooper_blood_drop
     - q_blood_elite_crafting
@@ -74,8 +83,8 @@ sanguine_clan_raging_snooper_blood:
 sanguine_clan_raging_hunter_blood:
   Type: SKELETON
   Display: '&e&lSanguine Clan`s Raging Hunter &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 12000  # 10x1200
-  Damage: 1250   # 5x250
+  Health: 8000  # 10x800
+  Damage: 750   # 5x150
   Options:
     FollowRange: 25
     MovementSpeed: 0.3
@@ -84,15 +93,16 @@ sanguine_clan_raging_hunter_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
-    PreventSunburn: true
-    PreventJockeyMounts: true
-    PreventTransformation: true
+  Equipment:
+    - target HEAD
+    - leather_chestplate{color=dark_red} CHEST
+    - leather_leggings{color=dark_red} LEGS
+    - leather_boots{color=dark_red} FEET
+    - bow HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=SummonHounds_blood} ~onTimer:30
-  Equipment:
-    - bow HAND
   Drops:
     - sanguine_hunter_blood_drop
     - q_blood_elite_crafting
@@ -100,8 +110,8 @@ sanguine_clan_raging_hunter_blood:
 parallel_world_ancient_stag_blood:
   Type: SKELETON
   Display: '&5&lParallel World Ancient Stag &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 30000  # 10x3000
-  Damage: 1500   # 5x300
+  Health: 20000  # 10x2000
+  Damage: 1000   # 5x200
   Options:
     FollowRange: 30
     MovementSpeed: 0.35
@@ -110,201 +120,28 @@ parallel_world_ancient_stag_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
-    PreventSunburn: true
-    PreventJockeyMounts: true
-    PreventTransformation: true
     KnockbackResistance: 0.5
     Despawn: CHUNK
+  Equipment:
+    - warped_fungus HEAD
+    - leather_chestplate{color=brown} CHEST
+    - leather_leggings{color=brown} LEGS
+    - leather_boots{color=brown} FEET
+    - bow HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=SummonHoundPack_blood} ~onTimer:45
     - skill{s=PowerShot_blood} @target ~onTimer:15
-  Equipment:
-    - bow HAND
   Drops:
     - ancient_stag_blood_drop
-    - q_blood_elite_crafting
-
-# Mission 2 Mobs
-eternal_satyr_warrior_blood:
-  Type: ZOMBIE
-  Display: '&lEternal Satyr Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 8000  # 10x800
-  Damage: 1000  # 5x200
-  Options:
-    FollowRange: 20
-    MovementSpeed: 0.35
-    ShowHealth: true
-    AlwaysShowName: true
-    PreventItemPickup: true
-    PreventOtherDrops: true
-    PreventRandomEquipment: true
-    PreventSunburn: true
-    PreventJockeyMounts: true
-    PreventTransformation: true
-  Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-  Drops:
-    - eternal_warrior_blood_drop
-    - q_blood_mob_crafting
-
-eternal_root_creature_blood:
-  Type: ZOMBIE
-  Display: '&e&lEternal Root Creature &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 12000  # 10x1200
-  Damage: 750    # 5x150
-  Options:
-    FollowRange: 15
-    MovementSpeed: 0.2
-    ShowHealth: true
-    AlwaysShowName: true
-    PreventItemPickup: true
-    PreventOtherDrops: true
-    PreventRandomEquipment: true
-    PreventSunburn: true
-    PreventJockeyMounts: true
-    PreventTransformation: true
-  Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - potion{type=SLOW;duration=60;level=2} @target ~onAttack
-  Drops:
-    - eternal_root_blood_drop
-    - q_blood_elite_crafting
-
-eternal_hunter_blood:
-  Type: SKELETON
-  Display: '&e&lEternal Hunter &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 10000  # 10x1000
-  Damage: 1250   # 5x250
-  Options:
-    FollowRange: 25
-    MovementSpeed: 0.3
-    ShowHealth: true
-    AlwaysShowName: true
-    PreventItemPickup: true
-    PreventOtherDrops: true
-    PreventRandomEquipment: true
-    PreventSunburn: true
-    PreventJockeyMounts: true
-    PreventTransformation: true
-  Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=SummonEternalHounds_blood} ~onTimer:30
-  Equipment:
-    - bow HAND
-  Drops:
-    - eternal_hunter_blood_drop
-    - q_blood_elite_crafting
-
-eternal_hunting_hound_blood:
-  Type: WOLF
-  Display: '&lEternal Hunting-Hound &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 4000  # 10x400
-  Damage: 500   # 5x100
-  Options:
-    FollowRange: 20
-    MovementSpeed: 0.4
-    ShowHealth: true
-    AlwaysShowName: true
-    PreventItemPickup: true
-    PreventOtherDrops: true
-    PreventRandomEquipment: true
-    PreventSunburn: true
-    PreventJockeyMounts: true
-    PreventTransformation: true
-  Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-  Drops:
-    - eternal_hound_blood_drop
-    - q_blood_mob_crafting
-
-ulgar_the_master_butcher_phase1_blood:
-  Type: ZOMBIE
-  Disguise: PIGLIN
-  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 20000  # 10x2000
-  Damage: 1500   # 5x300
-  Options:
-    FollowRange: 25
-    MovementSpeed: 0.3
-    ShowHealth: true
-    AlwaysShowName: true
-    PreventItemPickup: true
-    PreventOtherDrops: true
-    PreventRandomEquipment: true
-    PreventSunburn: true
-    PreventJockeyMounts: true
-    PreventTransformation: true
-    KnockbackResistance: 0.5
-    Despawn: CHUNK
-  Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=TransformPhase2_blood} @self ~onDeath
-  Drops: []
-
-ulgar_the_master_butcher_phase2_blood:
-  Type: ZOMBIE
-  Disguise: PIGLIN_BRUTE
-  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 25000  # 10x2500
-  Damage: 1750   # 5x350
-  Options:
-    FollowRange: 25
-    MovementSpeed: 0.35
-    ShowHealth: true
-    AlwaysShowName: true
-    PreventItemPickup: true
-    PreventOtherDrops: true
-    PreventRandomEquipment: true
-    PreventSunburn: true
-    PreventJockeyMounts: true
-    PreventTransformation: true
-    KnockbackResistance: 0.6
-    Despawn: CHUNK
-  Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=TransformPhase3_blood} @self ~onDeath
-  Drops: []
-
-ulgar_the_master_butcher_phase3_blood:
-  Type: ZOMBIE
-  Disguise: PIGLIN_BRUTE
-  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 30000  # 10x3000
-  Damage: 2000   # 5x400
-  Options:
-    FollowRange: 25
-    MovementSpeed: 0.4
-    ShowHealth: true
-    AlwaysShowName: true
-    PreventItemPickup: true
-    PreventOtherDrops: true
-    PreventRandomEquipment: true
-    PreventSunburn: true
-    PreventJockeyMounts: true
-    PreventTransformation: true
-    KnockbackResistance: 0.7
-    Despawn: CHUNK
-  Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=DeathExplosion_blood} @self ~onDeath
-  Drops:
-    - ulgar_blood_drop
     - q_blood_elite_crafting
 
 bearach_champion_of_wilds_blood:
   Type: ZOMBIE
   Display: '&4<&skull> &lBearach, Champion of the Wilds &r&4<&skull>'
-  Health: 50000  # 10x5000
-  Damage: 2000   # 5x400
+  Health: 30000  # 10x3000
+  Damage: 1250   # 5x250
   BossBar:
     Enabled: true
     Title: '&c<&skull> Bearach - <mob.hp{round=0}> <&skull>'
@@ -318,11 +155,14 @@ bearach_champion_of_wilds_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
-    PreventSunburn: true
-    PreventJockeyMounts: true
-    PreventTransformation: true
     KnockbackResistance: 0.8
     Despawn: CHUNK
+  Equipment:
+    - honeycomb_block HEAD
+    - leather_chestplate{color=brown} CHEST
+    - leather_leggings{color=brown} LEGS
+    - leather_boots{color=brown} FEET
+    - diamond_axe HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -331,17 +171,25 @@ bearach_champion_of_wilds_blood:
     - skill{s=BeeSwarm_blood} @target ~onTimer:25
     - skill{s=Whirlwind_blood} @self ~onTimer:30
   Drops:
-    - bearach_blood
+    - bearach_blood_drop
 
 lightning_wolf_blood:
-  Type: WOLF
+  Type: ZOMBIE
+  Disguise: WOLF
   Display: '&bLightning Wolf &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
-  Health: 5000  # 10x500
+  Health: 4000  # 10x400
   Damage: 0
   Options:
     MovementSpeed: 0
     ShowHealth: true
     PreventOtherDrops: true
     Despawn: REMOVE
+  Equipment:
+    - soul_lantern HEAD
+    - leather_chestplate{color=blue} CHEST
+    - leather_leggings{color=blue} LEGS
+    - leather_boots{color=blue} FEET
   Skills:
     - skill{s=ShootLightning_blood} @target ~onTimer:10
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
