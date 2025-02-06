@@ -351,7 +351,7 @@ tonicdmg_inf:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '&7Grants §c+10%⚔&7 Damage For 5m'
+    - '&7Grants §c+50⚔&7 Damage For 5m'
     - '&7Cooldown: 15m'
     - '&aRequired Level: &6 50'
   Options:
@@ -365,7 +365,7 @@ tonicdmg_hell:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '&7Grants §c+15%⚔&7 Damage For 5m'
+    - '&7Grants §c+100⚔&7 Damage For 10m'
     - '&7Cooldown: 15m'
     - '&aRequired Level: &6 50'
   Options:
@@ -379,10 +379,569 @@ tonicdmg_blood:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '&7Grants §c+20%⚔&7 Damage For 5m'
+    - '&7Grants §c+150⚔&7 Damage For 15m'
     - '&7Cooldown: 15m'
     - '&aRequired Level: &6 50'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
+tonichp_inf:
+  Id: raw_beef
+  Display: '&9[ I ]&a Basic Health Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+5❤&7 Health For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonichp_hell:
+  Id: raw_beef
+  Display: '&5[ II ]&a Great Health Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+10❤&7 Health For 10m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonichp_blood:
+  Id: raw_beef
+  Display: '&6[ III ]&a Excellent Health Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+15❤&7 Health For 15m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicexp_inf:
+  Id: raw_beef
+  Display: '&9[ I ]&a Basic Experience Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants +0.001% Experience Per Mob For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicexp_hell:
+  Id: raw_beef
+  Display: '&5[ II ]&a Great Experience Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants +0.002% Experience Per Mob For 10m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicexp_blood:
+  Id: raw_beef
+  Display: '&6[ III ]&a Excellent Experience Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants +0.003% Experience Per Mob For 15m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicms_inf:
+  Id: raw_beef
+  Display: '&9[ I ]&a Basic Movement Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §b+0.05👟&7 Movement Per Mob For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicms_hell:
+  Id: raw_beef
+  Display: '&5[ II ]&a Great Movement Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §b+0.1👟&7 Movement Per Mob For 10m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicms_blood:
+  Id: raw_beef
+  Display: '&6[ III ]&a Excellent Movement Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §b+0.15👟&7 Movement Per Mob For 15m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonictotem_inf:
+  Id: raw_beef
+  Display: '&9[ I ]&a Basic Totem Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants Totem Effect vs Mobs For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonictotem_hell:
+  Id: raw_beef
+  Display: '&5[ II ]&a Great Totem Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants Totem Effect vs Mobs For 10m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonictotem_blood:
+  Id: raw_beef
+  Display: '&6[ III ]&a Excellent Totem Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants Totem Effect vs Mobs For 15m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicnight_inf:
+  Id: raw_beef
+  Display: '&9[ I ]&a Basic Night Vision Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants Night Vision For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicnight_hell:
+  Id: raw_beef
+  Display: '&5[ II ]&a Great Night Vision Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants Night Vision For 10m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicnight_blood:
+  Id: raw_beef
+  Display: '&6[ III ]&a Excellent Night Vision Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants Night Vision For 15m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicluck_inf:
+  Id: raw_beef
+  Display: '&9[ I ]&a Basic Luck Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants +1&a🍀&7 Luck For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicluck_hell:
+  Id: raw_beef
+  Display: '&5[ II ]&a Great Luck Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants +2a🍀&7 Luck For 10m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+tonicluck_blood:
+  Id: raw_beef
+  Display: '&6[ III ]&a Excellent Luck Tonic'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants +3&a🍀&7 Luck For 15m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# PHYSISC PHYSISC PHYSISC PHYSISC# PHYSISC PHYSISC PHYSISC PHYSISC
+# PHYSISC PHYSISC PHYSISC PHYSISC# PHYSISC PHYSISC PHYSISC PHYSISC
+# PHYSISC PHYSISC PHYSISC PHYSISC# PHYSISC PHYSISC PHYSISC PHYSISC
+phycisdmg_inf:
+  Id: raw_chicken
+  Display: '&9[ I ]&a Basic Damage Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+10%⚔&7 Damage For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycisdmg_hell:
+  Id: raw_chicken
+  Display: '&5[ II ]&a Great Damage Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+15%⚔&7 Damage For 10m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycisdmg_blood:
+  Id: raw_chicken
+  Display: '&6[ III ]&a Excellent Damage Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+20%⚔&7 Damage For 15m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+phycishp_inf:
+  Id: raw_chicken
+  Display: '&9[ I ]&a Basic Health Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+5%❤&7 Health For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycishp_hell:
+  Id: raw_chicken
+  Display: '&5[ II ]&a Great Health Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+10%❤&7 Health For 10m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycishp_blood:
+  Id: raw_chicken
+  Display: '&6[ III ]&a Excellent Health Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §c+15%❤&7 Health For 15m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+phycisexp_inf:
+  Id: raw_chicken
+  Display: '&9[ I ]&a Basic Experience Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants +5% Experience For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycisexp_hell:
+  Id: raw_chicken
+  Display: '&5[ II ]&a Great Experience Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants +10% Experience For 10m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycisexp_blood:
+  Id: raw_chicken
+  Display: '&6[ III ]&a Excellent Experience Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants +15% Experience For 15m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+phycisms_inf:
+  Id: raw_chicken
+  Display: '&9[ I ]&a Basic Movement Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §b+5%👟&7 Movement Speed For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycisms_hell:
+  Id: raw_chicken
+  Display: '&5[ II ]&a Great Movement Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §b+10%👟&7 Movement Speed For 10m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycisms_blood:
+  Id: raw_chicken
+  Display: '&6[ III ]&a Excellent Movement Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants §b+15%👟&7 Movement Speed For 15m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+phycismagnes_inf:
+  Id: raw_chicken
+  Display: '&9[ I ]&a Basic Magnet Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants Magnet Effect For Items For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycismagnes_hell:
+  Id: raw_chicken
+  Display: '&5[ II ]&a Great Magnet Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants Magnet Effect For Items For 10m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycismagnes_blood:
+  Id: raw_chicken
+  Display: '&6[ III ]&a Excellent Magnet Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants Magnet Effect For Items For 15m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
+phycissteal_inf:
+  Id: raw_chicken
+  Display: '&9[ I ]&a Basic Lifesteal Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants 1% Lifesteal Effect For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycissteal_hell:
+  Id: raw_chicken
+  Display: '&5[ II ]&a Great Lifesteal Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants 3% Lifesteal Effect For 10m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycissteal_blood:
+  Id: raw_chicken
+  Display: '&6[ III ]&a Excellent Lifesteal Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants 5% Lifesteal Effect For 15m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+phycisluck_inf:
+  Id: raw_chicken
+  Display: '&9[ I ]&a Basic Luck Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants +5%a🍀&7 Luck For 5m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycisluck_hell:
+  Id: raw_chicken
+  Display: '&5[ II ]&a Great Luck Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants +10%a🍀&7 Luck For 10m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+phycisluck_blood:
+  Id: raw_chicken
+  Display: '&6[ III ]&a Excellent Luck Phycis'
+  Group: alchemy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Grants +15%a🍀&7 Luck For 15m'
+    - '&7Cooldown: 15m'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
