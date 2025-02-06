@@ -1,0 +1,46 @@
+SpawnDemons:
+  Cooldown: 10
+  Skills:
+    - summon{mob=shadow_gazer;amount=10;noise=5} @Self
+    - summon{mob=shade_crawler;amount=10;noise=5} @Self
+
+HealingPulse:
+  Cooldown: 5
+  Skills:
+    - heal{a=100} @self
+    - effect:particles{p=HEART;amount=10} @self
+
+
+FireballAttack:
+  Cooldown: 8
+  Skills:
+  - projectile{onTick=FireTick;onHit=FireHit;v=8;i=FIRE_CHARGE;hR=1;vR=1} @target
+
+FireTick:
+  Skills:
+  - effect:particles{p=FLAME;amount=10} @origin
+
+FireHit:
+  Skills:
+  - damage{a=120} @target
+  - ignite{ticks=60} @target
+
+BiteAttack:
+  Cooldown: 2
+  Skills:
+  - damage{a=160} @target
+  - effect:particles{p=BLOCK_CRACK;material=REDSTONE_BLOCK;amount=10} @target
+
+
+NauseaAttack:
+  Cooldown: 5  # 5 sekund cooldownu
+  Skills:
+    - potion{type=CONFUSION;duration=100;level=1} @target
+    - effect:particles{p=SPELL_MOB;color=GREEN;amount=10} @target # Efekt wizualny
+
+
+
+
+
+
+

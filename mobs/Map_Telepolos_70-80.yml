@@ -22,7 +22,199 @@ shade_crawler:
     - leather_leggings{color=black} LEGS
     - leather_boots{color=black} FEET
   Drops:
-    - telopolos_normal
+    - telepolos_normal
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+
+shadow_gazer:
+  Type: BABY_ZOMBIE
+  Display: '&lShadow Gazer [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 500
+  Damage: 100
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.30'
+  Faction: telepolos
+  Group: telepolos
+  Equipment:
+    - leather_helmet{color=black} HEAD
+    - leather_chestplate{color=black} CHEST
+    - leather_leggings{color=black} LEGS
+    - leather_boots{color=black} FEET
+  Drops:
+    - telepolos_normal
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+soul_collector:
+  Type: ZOMBIE
+  Disguise: Skeleton
+  Display: '&5&l Soul Collector&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 5000
+  Damage: 200
+  Armor: 0
+  Options:
+    FollowRange: 20
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.2'
+    KnockbackResistance: 0.9
+  Faction: telepolos
+  Group: telepolos
+  Equipment:
+    - skeleton_skull HEAD
+    - leather_chestplate{color=black} CHEST
+    - leather_leggings{color=black} LEGS
+    - leather_boots{color=black} FEET
+    - diamond_hoe HAND
+    - lantern OFFHAND
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SpawnDemons} @PlayersInRadius{r=15} ~onDamaged ?incombat
+  Drops:
+    - soul_collector_telepolos
+
+traitorous_imperial_lancer:
+  Type: ZOMBIE
+  Display: '&lTraitorous Imperial Lancer [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 1200
+  Damage: 100
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.35'
+  Faction: telepolos
+  Group: telepolos
+  Equipment:
+    - leather_helmet{color=black} HEAD
+    - leather_chestplate{color=purple} CHEST
+    - leather_leggings{color=blue} LEGS
+    - leather_boots{color=black} FEET
+    - shield OFFHAND
+  Drops:
+    - telepolos_normal
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=HealingPulse} ~onTimer:10
+
+
+traitorous_imperial_swordsman:
+  Type: ZOMBIE
+  Display: '&lTraitorous Imperial Swordsman [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 700
+  Damage: 120
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.35'
+  Faction: telepolos
+  Group: telepolos
+  Equipment:
+    - leather_helmet{color=black} HEAD
+    - leather_chestplate{color=black} CHEST
+    - leather_leggings{color=red} LEGS
+    - leather_boots{color=black} FEET
+    - iron_sword HAND
+  Drops:
+    - telepolos_normal
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+
+adamant_lava_hound:
+  Type: zombie
+  Display: '&e&l Adamant Lava Hound &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 1400
+  Damage: 0
+  Options:
+    FollowRange: 20
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.32'
+  Faction: telepolos
+  Group: telepolos
+  Equipment:
+    - leather_helmet{color=white} HEAD
+    - leather_chestplate{color=brown} CHEST
+    - leather_leggings{color=brown} LEGS
+    - leather_boots{color=brown} FEET
+  Drops:
+    -elite_telepolos
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=FireballAttack} @target ~onTimer:8 >0 0.7
+    - skill{s=BiteAttack} @target ~onAttack
+
+
+elite_imperial_swordsman:
+  Type: zombie
+  Display: '&e&l Elite Imperial Swordsman &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 1600
+  Damage: 150
+  Options:
+    FollowRange: 20
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.32'
+  Faction: telepolos
+  Group: telepolos
+  Equipment:
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+    - iron_sword HAND
+    - shield OFFHAND
+  Drops:
+    -elite_telepolos
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=NauseaAttack} @target ~onAttack
