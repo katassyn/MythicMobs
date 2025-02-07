@@ -1,0 +1,314 @@
+# Mission 1 Mobs - Hell versions (3x HP, 2x DMG from inf)
+electrified_ferocity_hell:
+  Type: ZOMBIE
+  Disguise: BLAZE
+  Display: '&lElectrified Ferocity &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1800  # 3x600
+  Damage: 400   # 2x200
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - lightning_rod HAND
+    - leather_chestplate{color=yellow} CHEST
+    - leather_leggings{color=yellow} LEGS
+    - leather_boots{color=yellow} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=LightningBolt_hell} @target ~onTimer:10
+    - skill{s=TeleportToPlayer_hell} @target ~onTimer:15
+  Drops:
+    - electrified_ferocity_hell_drop
+    - q_hell_mob_crafting
+
+charged_drone_hell:
+  Type: ZOMBIE
+  Display: '&lCharged Drone &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1200  # 3x400
+  Damage: 200   # 2x100
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.4
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - leather_helmet{color=cyan} HEAD
+    - leather_chestplate{color=cyan} CHEST
+    - leather_leggings{color=cyan} LEGS
+    - leather_boots{color=cyan} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - charged_drone_hell_drop
+    - q_hell_mob_crafting
+
+big_heap_of_ice_hell:
+  Type: ZOMBIE
+  Display: '&e&lBig Heap of Ice &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 6000  # 3x2000
+  Damage: 600   # 2x300
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+  Equipment:
+    - leather_helmet{color=white} HEAD
+    - leather_chestplate{color=white} CHEST
+    - leather_leggings{color=white} LEGS
+    - leather_boots{color=white} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummonIceHeaps_hell} @self ~onDeath
+  Drops:
+    - big_heap_hell_drop
+    - q_hell_elite_crafting
+
+bloodthirsty_frostwolf_hell:
+  Type: ZOMBIE
+  Display: '&e&lBloodthirsty Frostwolf &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 4500  # 3x1500
+  Damage: 400   # 2x200
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.35
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - chain HEAD
+    - leather_chestplate{color=gray} CHEST
+    - leather_leggings{color=gray} LEGS
+    - leather_boots{color=gray} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummonDrones_hell} @self ~onTimer:20
+  Drops:
+    - frostwolf_hell_drop
+    - q_hell_elite_crafting
+
+shocking_forocity_hell:
+  Type: ZOMBIE
+  Disguise: BLAZE
+  Display: '&5&lShocking Forocity &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 9000  # 3x3000
+  Damage: 500   # 2x250
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Equipment:
+    - lightning_rod HAND
+    - leather_helmet{color=purple} HEAD
+    - leather_chestplate{color=purple} CHEST
+    - leather_leggings{color=purple} LEGS
+    - leather_boots{color=purple} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=LightningZone_hell} @target ~onTimer:15
+    - skill{s=TeleportStrike_hell} @target ~onTimer:20
+  Drops:
+    - shocking_forocity_hell_drop
+    - q_hell_elite_crafting
+
+# Mission 2 Mobs
+pale_pillager_hell:
+  Type: ZOMBIE
+  Display: '&lPale Pillager &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 2400  # 3x800
+  Damage: 400   # 2x200
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.35
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_sword HAND
+    - leather_helmet{color=white} HEAD
+    - leather_chestplate{color=white} CHEST
+    - leather_leggings{color=white} LEGS
+    - leather_boots{color=white} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=DashToPlayer_hell} @target ~onTimer:12
+  Drops:
+    - pale_pillager_hell_drop
+    - q_hell_mob_crafting
+
+simple_troll_hell:
+  Type: ZOMBIE
+  Display: '&lSimple Troll &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 4500  # 3x1500
+  Damage: 300   # 2x150
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - cobblestone HAND
+    - leather_helmet{color=gray} HEAD
+    - leather_chestplate{color=gray} CHEST
+    - leather_leggings{color=gray} LEGS
+    - leather_boots{color=gray} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=ThrowStunningStone_hell} @target ~onTimer:15
+  Drops:
+    - simple_troll_hell_drop
+    - q_hell_mob_crafting
+
+frost_magician_hell:
+  Type: ZOMBIE
+  Display: '&e&lFrost Magician &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1800  # 3x600
+  Damage: 600   # 2x300
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - stick HAND
+    - leather_helmet{color=aqua} HEAD
+    - leather_chestplate{color=aqua} CHEST
+    - leather_leggings{color=aqua} LEGS
+    - leather_boots{color=aqua} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=FrostBolt_hell} @target ~onTimer:8
+    - skill{s=IceStorm_hell} @target ~onTimer:15
+  Drops:
+    - frost_magician_hell_drop
+    - q_hell_elite_crafting
+
+frost_bringer_hell:
+  Type: ZOMBIE
+  Display: '&e&lFrost Bringer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 6000  # 3x2000
+  Damage: 500   # 2x250
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.7
+  Equipment:
+    - netherite_sword HAND
+    - leather_helmet{color=white} HEAD
+    - netherite_chestplate CHEST
+    - netherite_leggings LEGS
+    - netherite_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - frost_bringer_hell_drop
+    - q_hell_elite_crafting
+
+pale_enforcer_hell:
+  Type: ZOMBIE
+  Display: '&5&lPale Enforcer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 9000  # 3x3000
+  Damage: 400   # 2x200
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Equipment:
+    - netherite_sword HAND
+    - netherite_helmet HEAD
+    - netherite_chestplate CHEST
+    - netherite_leggings LEGS
+    - netherite_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=DashToPlayer_hell} @target ~onTimer:12
+    - skill{s=SummonPillagers_hell} @self ~onTimer:30 ?health<50%
+  Drops:
+    - pale_enforcer_hell_drop
+    - q_hell_elite_crafting
+
+# Mission 3 Boss
+sigrismarr_priest_of_fjalnir_hell:
+  Type: ZOMBIE
+  Display: '&4<&skull> &lSigrismarr, Twisted Priest of Fjalnir &r&4<&skull>'
+  Health: 15000  # 3x5000
+  Damage: 0      # Uses skills for damage
+  BossBar:
+    Enabled: true
+    Title: '&c<&skull> Sigrismarr - <mob.hp{round=0}> <&skull>'
+    Color: PURPLE
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 30
+    MovementSpeed: 0
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 1.0
+    Despawn: CHUNK
+  Equipment:
+    - stick HAND
+    - leather_helmet{color=aqua} HEAD
+    - leather_chestplate{color=aqua} CHEST
+    - leather_leggings{color=aqua} LEGS
+    - leather_boots{color=aqua} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=TripleIceBolt_hell} @target ~onTimer:10
+    - skill{s=HomingIceSphere_hell} @target ~onTimer:15
+    - skill{s=ImmunityPhase_hell} @self ~onTimer:1 ?health<66%
+    - skill{s=ImmunityPhase_hell} @self ~onTimer:1 ?health<33%
+  Drops:
+    - sigrismarr_inf_drop

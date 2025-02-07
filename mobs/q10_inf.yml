@@ -1,0 +1,320 @@
+# Mission 1 Mobs
+scheming_gorgon_inf:
+  Type: ZOMBIE
+  Display: '&e&lScheming Gorgon &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 800  # Like other elite mobs
+  Damage: 200  # Higher damage
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - leather_helmet{color=green} HEAD
+    - leather_chestplate{color=green} CHEST
+    - leather_leggings{color=green} LEGS
+    - leather_boots{color=green} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=PetrifyingGaze} @target ~onTimer:15
+    - skill{s=VenomSpit} @target ~onTimer:10
+  Drops:
+    - scheming_gorgon_inf_drop
+    - q_inf_elite_crafting
+
+poisonous_jitterjelly_inf:
+  Type: ZOMBIE
+  Disguise: SLIME
+  Display: '&e&lPoisonous Jitterjelly &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1000  # Elite mob
+  Damage: 150   # Standard damage
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.15  # Very slow
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=ShockAttack} @target ~onTimer:10
+    - skill{s=DeathExplosion} @self ~onDeath
+  Drops:
+    - poisonous_jitterjelly_inf_drop
+    - q_inf_elite_crafting
+
+anderworld_jitterjelly_inf:
+  Type: ZOMBIE
+  Disguise: SLIME
+  Display: '&lAnderworld Jitterjelly &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 600   # Regular mob
+  Damage: 100   # Lower damage
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.15  # Very slow
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=ShockAttack} @target ~onTimer:12
+    - skill{s=SmallDeathExplosion} @self ~onDeath
+  Drops:
+    - anderworld_jitterjelly_inf_drop
+    - q_inf_mob_crafting
+
+combat_ready_zorlobb_inf:
+  Type: ZOMBIE
+  Display: '&lCombat-Ready Zorlobb &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1200  # High HP
+  Damage: 100   # Low damage
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_sword HAND
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=PowerfulStrike} @target ~onTimer:15
+  Drops:
+    - combat_ready_zorlobb_inf_drop
+    - q_inf_mob_crafting
+
+melas_the_swift_footed_inf:
+  Type: ZOMBIE
+  Display: '&5&lMelas the Swift-Footed &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 2000  # Mini-boss HP
+  Damage: 150   # Medium damage
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Equipment:
+    - iron_sword HAND
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=StunStrike} @target ~onTimer:15
+    - skill{s=LeapAttack} @target ~onTimer:10
+  Drops:
+    - melas_inf_drop
+    - q_inf_elite_crafting
+
+# Mission 2 Mobs
+anderworld_jabbax_inf:
+  Type: ZOMBIE
+  Display: '&lAnderworld Jabbax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 400   # Very low HP
+  Damage: 100   # Low damage
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - leather_helmet{color=brown} HEAD
+    - leather_chestplate{color=brown} CHEST
+    - leather_leggings{color=brown} LEGS
+    - leather_boots{color=brown} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - anderworld_jabbax_inf_drop
+    - q_inf_mob_crafting
+
+patrolling_jabbax_inf:
+  Type: ZOMBIE
+  Display: '&e&lPatrolling Jabbax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1200  # Elite mob HP
+  Damage: 150   # Medium damage
+  Mount: COW
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_sword HAND
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummonJabbax} @self ~onTimer:15 ?incombat
+  Drops:
+    - patrolling_jabbax_inf_drop
+    - q_inf_elite_crafting
+
+armed_khaross_inf:
+  Type: ZOMBIE
+  Display: '&lArmed Khaross &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1000  # High HP
+  Damage: 150   # Medium damage
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.2  # Slow
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - bow HAND
+    - leather_helmet{color=red} HEAD
+    - leather_chestplate{color=red} CHEST
+    - leather_leggings{color=red} LEGS
+    - leather_boots{color=red} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=FlamingShot} @target ~onTimer:8
+  Drops:
+    - armed_khaross_inf_drop
+    - q_inf_mob_crafting
+
+mordacious_khaross_inf:
+  Type: ZOMBIE
+  Display: '&lMordacious Khaross &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1000  # High HP
+  Damage: 150   # Medium damage
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2  # Slow
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_sword HAND
+    - leather_helmet{color=red} HEAD
+    - leather_chestplate{color=red} CHEST
+    - leather_leggings{color=red} LEGS
+    - leather_boots{color=red} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=BurningStrike} @target ~onTimer:8
+  Drops:
+    - mordacious_khaross_inf_drop
+    - q_inf_mob_crafting
+
+akheilos_inf:
+  Type: ZOMBIE
+  Display: '&5&lAkheilos &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 2000  # Mini-boss HP
+  Damage: 200   # High damage
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Equipment:
+    - bow HAND
+    - leather_helmet{color=red} HEAD
+    - leather_chestplate{color=red} CHEST
+    - leather_leggings{color=red} LEGS
+    - leather_boots{color=red} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=PowerfulFlamingShot} @target ~onTimer:10
+  Drops:
+    - akheilos_inf_drop
+    - q_inf_elite_crafting
+
+# Mission 3 Boss
+parallel_world_gorga_inf:
+  Type: ZOMBIE
+  Display: '&4<&skull> &lGorga &r&4<&skull>'
+  Health: 5000  # Boss HP
+  Damage: 200   # Base damage
+  BossBar:
+    Enabled: true
+    Title: '&c<&skull> Gorga - <mob.hp{round=0}> <&skull>'
+    Color: BLUE
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 30
+    MovementSpeed: 0  # Cannot move
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 1.0
+    Despawn: CHUNK
+  Equipment:
+    - bow HAND
+    - leather_helmet{color=purple} HEAD
+    - leather_chestplate{color=purple} CHEST
+    - leather_leggings{color=purple} LEGS
+    - leather_boots{color=purple} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummonSnakes} @target ~onTimer:15
+    - skill{s=ScatteredShot} @target ~onTimer:10
+    - skill{s=MeleeAttack} @target ~onAttack
+    - skill{s=SummonReinforcements} @self ~onTimer:1 ?health<50%
+  Drops:
+    - gorga_inf_drop
+
+snake_minion_inf:
+  Type: ZOMBIE
+  Disguise: SILVERFISH
+  Display: '&lVenomous Snake &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
+  Health: 100
+  Damage: 100
+  Options:
+    MovementSpeed: 0.4
+    ShowHealth: true
+    PreventOtherDrops: true
+    Despawn: REMOVE
+  Skills:
+    - skill{s=SnakeAttack} @target ~onAttack
+    - skill{s=SnakeExplosion} @self ~onDeath
+  Drops: []

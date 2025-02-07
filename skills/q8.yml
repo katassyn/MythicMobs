@@ -1,0 +1,375 @@
+# Mission 1 Skills
+LightningBolt:
+  Cooldown: 10
+  Skills:
+    - effect:particles{p=WAX_OFF;amount=20} @target
+    - lightning @target
+    - damage{a=150} @target
+
+TeleportToPlayer:
+  Cooldown: 15
+  Skills:
+    - effect:particles{p=PORTAL;amount=20} @self
+    - teleport @target
+    - effect:particles{p=PORTAL;amount=20} @self
+
+SummonIceHeaps:
+  Skills:
+    - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
+    - summon{mob=big_heap_of_ice_inf;amount=4;radius=3;noise=2} @self ~onDeath
+
+SummonSmallIceHeaps:
+  Skills:
+    - summon{mob=big_heap_of_ice_inf;amount=2;radius=2;noise=1} @self ~onDeath
+
+SummonDrones:
+  Cooldown: 20
+  Skills:
+    - message{m="&bFrostwolf calls for reinforcements!"} @PlayersInRadius{r=20}
+    - summon{mob=charged_drone_inf;amount=2;radius=3} @self
+
+LightningZone:
+  Cooldown: 15
+  Skills:
+    - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
+    - effect:particles{p=WAX_OFF;amount=50;radius=5} @target
+    - damage{a=100} @PlayersInRadius{r=5}
+    - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=5}
+
+TeleportStrike:
+  Cooldown: 20
+  Skills:
+    - effect:particles{p=PORTAL;amount=20} @self
+    - teleport @target
+    - damage{a=200} @target
+    - lightning @target
+
+# Mission 2 Skills
+DashToPlayer:
+  Cooldown: 12
+  Skills:
+    - effect:particles{p=CLOUD;amount=20} @self
+    - dash{velocity=2;distance=10} @target
+    - damage{a=150} @target
+
+ThrowStunningStone:
+  Cooldown: 15
+  Skills:
+    - projectile{onTick=Stone-Tick;onHit=Stone-Hit;v=8;i=CLAY_BALL;hR=1;vR=1} @target
+
+Stone-Tick:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=5} @origin
+
+Stone-Hit:
+  Skills:
+    - damage{a=100} @target
+    - potion{type=SLOW;duration=60;level=3} @target
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=20} @target
+
+FrostBolt:
+  Cooldown: 8
+  Skills:
+    - projectile{onTick=Frost-Tick;onHit=Frost-Hit;v=10;i=SNOWBALL;hR=1;vR=1} @target
+
+Frost-Tick:
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=5} @origin
+
+Frost-Hit:
+  Skills:
+    - damage{a=200} @target
+    - potion{type=SLOW;duration=40;level=1} @target
+
+IceStorm:
+  Cooldown: 15
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
+    - damage{a=150} @PlayersInRadius{r=5}
+    - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=5}
+
+SummonPillagers:
+  Cooldown: 30
+  Skills:
+    - message{m="&bEnforcer calls for backup!"} @PlayersInRadius{r=20}
+    - summon{mob=pale_pillager_inf;amount=3;radius=3} @self
+
+# Mission 3 Boss Skills
+TripleIceBolt:
+  Cooldown: 10
+  Skills:
+    - message{m="&bSigrismarr launches frozen projectiles!"} @PlayersInRadius{r=30}
+    - projectile{onTick=Ice-Tick;onHit=Ice-Hit;v=8;i=SNOWBALL;hR=1;vR=1;amount=3} @target
+
+Ice-Tick:
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=5} @origin
+
+Ice-Hit:
+  Skills:
+    - damage{a=150} @target
+    - potion{type=SLOW;duration=40;level=1} @target
+
+HomingIceSphere:
+  Cooldown: 15
+  Skills:
+    - message{m="&bA sphere of pure frost manifests!"} @PlayersInRadius{r=30}
+    - projectile{onTick=Sphere-Tick;onHit=Sphere-Hit;v=5;i=SNOWBALL;hR=1;vR=1;sF=true} @target
+
+Sphere-Tick:
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=10} @origin
+
+Sphere-Hit:
+  Skills:
+    - damage{a=300} @target
+    - potion{type=SLOW;duration=60;level=2} @target
+
+ImmunityPhase:
+  Conditions:
+    - offgcd
+  Skills:
+    - message{m="&bSigrismarr channels ancient frost magic!"} @PlayersInRadius{r=30}
+    - potion{type=DAMAGE_RESISTANCE;duration=200;level=4} @self
+    - summon{mob=frost_magician_inf;amount=5;radius=5} @self
+    - summon{mob=frost_bringer_inf;amount=5;radius=5} @self
+    - GCD{ticks=1200} # 1 minute cooldown
+
+# Mission 1 Skills - Hell version (2x damage)
+LightningBolt_hell:
+  Cooldown: 10
+  Skills:
+    - effect:particles{p=WAX_OFF;amount=20} @target
+    - lightning @target
+    - damage{a=300} @target  # 2x150
+
+TeleportToPlayer_hell:
+  Cooldown: 15
+  Skills:
+    - effect:particles{p=PORTAL;amount=20} @self
+    - teleport @target
+    - effect:particles{p=PORTAL;amount=20} @self
+
+SummonIceHeaps_hell:
+  Skills:
+    - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
+    - summon{mob=big_heap_of_ice_hell;amount=4;radius=3;noise=2} @self ~onDeath
+
+SummonSmallIceHeaps_hell:
+  Skills:
+    - summon{mob=big_heap_of_ice_hell;amount=2;radius=2;noise=1} @self ~onDeath
+
+SummonDrones_hell:
+  Cooldown: 20
+  Skills:
+    - message{m="&bFrostwolf calls for reinforcements!"} @PlayersInRadius{r=20}
+    - summon{mob=charged_drone_hell;amount=2;radius=3} @self
+
+LightningZone_hell:
+  Cooldown: 15
+  Skills:
+    - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
+    - effect:particles{p=WAX_OFF;amount=50;radius=5} @target
+    - damage{a=200} @PlayersInRadius{r=5}  # 2x100
+    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
+
+TeleportStrike_hell:
+  Cooldown: 20
+  Skills:
+    - effect:particles{p=PORTAL;amount=20} @self
+    - teleport @target
+    - damage{a=400} @target  # 2x200
+    - lightning @target
+
+# Mission 2 Skills
+DashToPlayer_hell:
+  Cooldown: 12
+  Skills:
+    - effect:particles{p=CLOUD;amount=20} @self
+    - dash{velocity=2;distance=10} @target
+    - damage{a=300} @target  # 2x150
+
+ThrowStunningStone_hell:
+  Cooldown: 15
+  Skills:
+    - projectile{onTick=Stone-Tick-Hell;onHit=Stone-Hit-Hell;v=8;i=CLAY_BALL;hR=1;vR=1} @target
+
+Stone-Hit-Hell:
+  Skills:
+    - damage{a=200} @target  # 2x100
+    - potion{type=SLOW;duration=80;level=4} @target
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=20} @target
+
+FrostBolt_hell:
+  Cooldown: 8
+  Skills:
+    - projectile{onTick=Frost-Tick-Hell;onHit=Frost-Hit-Hell;v=10;i=SNOWBALL;hR=1;vR=1} @target
+
+Frost-Hit-Hell:
+  Skills:
+    - damage{a=400} @target  # 2x200
+    - potion{type=SLOW;duration=60;level=2} @target
+
+IceStorm_hell:
+  Cooldown: 15
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
+    - damage{a=300} @PlayersInRadius{r=5}  # 2x150
+    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
+
+SummonPillagers_hell:
+  Cooldown: 30
+  Skills:
+    - message{m="&bEnforcer calls for backup!"} @PlayersInRadius{r=20}
+    - summon{mob=pale_pillager_hell;amount=3;radius=3} @self
+
+# Mission 3 Boss Skills
+TripleIceBolt_hell:
+  Cooldown: 10
+  Skills:
+    - message{m="&bSigrismarr launches frozen projectiles!"} @PlayersInRadius{r=30}
+    - projectile{onTick=Ice-Tick-Hell;onHit=Ice-Hit-Hell;v=8;i=SNOWBALL;hR=1;vR=1;amount=3} @target
+
+Ice-Hit-Hell:
+  Skills:
+    - damage{a=300} @target  # 2x150
+    - potion{type=SLOW;duration=60;level=2} @target
+
+HomingIceSphere_hell:
+  Cooldown: 15
+  Skills:
+    - message{m="&bA sphere of pure frost manifests!"} @PlayersInRadius{r=30}
+    - projectile{onTick=Sphere-Tick-Hell;onHit=Sphere-Hit-Hell;v=5;i=SNOWBALL;hR=1;vR=1;sF=true} @target
+
+Sphere-Hit-Hell:
+  Skills:
+    - damage{a=600} @target  # 2x300
+    - potion{type=SLOW;duration=80;level=3} @target
+
+ImmunityPhase_hell:
+  Conditions:
+    - offgcd
+  Skills:
+    - message{m="&bSigrismarr channels ancient frost magic!"} @PlayersInRadius{r=30}
+    - potion{type=DAMAGE_RESISTANCE;duration=200;level=4} @self
+    - summon{mob=frost_magician_hell;amount=5;radius=5} @self
+    - summon{mob=frost_bringer_hell;amount=5;radius=5} @self
+    - GCD{ticks=1200}
+
+LightningBolt_blood:
+  Cooldown: 10
+  Skills:
+    - effect:particles{p=WAX_OFF;amount=20} @target
+    - lightning @target
+    - damage{a=750} @target
+
+TeleportToPlayer_blood:
+  Cooldown: 15
+  Skills:
+    - effect:particles{p=PORTAL;amount=20} @self
+    - teleport @target
+    - effect:particles{p=PORTAL;amount=20} @self
+
+SummonIceHeaps_blood:
+  Skills:
+    - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
+    - summon{mob=big_heap_of_ice_blood;amount=4;radius=3;noise=2} @self ~onDeath
+
+SummonSmallIceHeaps_blood:
+  Skills:
+    - summon{mob=big_heap_of_ice_blood;amount=2;radius=2;noise=1} @self ~onDeath
+
+SummonDrones_blood:
+  Cooldown: 20
+  Skills:
+    - message{m="&bFrostwolf calls for reinforcements!"} @PlayersInRadius{r=20}
+    - summon{mob=charged_drone_blood;amount=2;radius=3} @self
+
+LightningZone_blood:
+  Cooldown: 15
+  Skills:
+    - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
+    - effect:particles{p=WAX_OFF;amount=50;radius=5} @target
+    - damage{a=500} @PlayersInRadius{r=5}
+    - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5}
+
+TeleportStrike_blood:
+  Cooldown: 20
+  Skills:
+    - effect:particles{p=PORTAL;amount=20} @self
+    - teleport @target
+    - damage{a=1000} @target
+    - lightning @target
+
+DashToPlayer_blood:
+  Cooldown: 12
+  Skills:
+    - effect:particles{p=CLOUD;amount=20} @self
+    - dash{velocity=2;distance=10} @target
+    - damage{a=750} @target
+
+ThrowStunningStone_blood:
+  Cooldown: 15
+  Skills:
+    - projectile{onTick=Stone-Tick-Blood;onHit=Stone-Hit-Blood;v=8;i=CLAY_BALL;hR=1;vR=1} @target
+
+Stone-Hit-Blood:
+  Skills:
+    - damage{a=500} @target
+    - potion{type=SLOW;duration=100;level=5} @target
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=20} @target
+
+FrostBolt_blood:
+  Cooldown: 8
+  Skills:
+    - projectile{onTick=Frost-Tick-Blood;onHit=Frost-Hit-Blood;v=10;i=SNOWBALL;hR=1;vR=1} @target
+
+Frost-Hit-Blood:
+  Skills:
+    - damage{a=1000} @target
+    - potion{type=SLOW;duration=80;level=3} @target
+
+IceStorm_blood:
+  Cooldown: 15
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
+    - damage{a=750} @PlayersInRadius{r=5}
+    - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5}
+
+SummonPillagers_blood:
+  Cooldown: 30
+  Skills:
+    - message{m="&bEnforcer calls for backup!"} @PlayersInRadius{r=20}
+    - summon{mob=pale_pillager_blood;amount=3;radius=3} @self
+
+TripleIceBolt_blood:
+  Cooldown: 10
+  Skills:
+    - message{m="&bSigrismarr launches frozen projectiles!"} @PlayersInRadius{r=30}
+    - projectile{onTick=Ice-Tick-Blood;onHit=Ice-Hit-Blood;v=8;i=SNOWBALL;hR=1;vR=1;amount=3} @target
+
+Ice-Hit-Blood:
+  Skills:
+    - damage{a=750} @target
+    - potion{type=SLOW;duration=80;level=3} @target
+
+HomingIceSphere_blood:
+  Cooldown: 15
+  Skills:
+    - message{m="&bA sphere of pure frost manifests!"} @PlayersInRadius{r=30}
+    - projectile{onTick=Sphere-Tick-Blood;onHit=Sphere-Hit-Blood;v=5;i=SNOWBALL;hR=1;vR=1;sF=true} @target
+
+Sphere-Hit-Blood:
+  Skills:
+    - damage{a=1500} @target
+    - potion{type=SLOW;duration=100;level=4} @target
+
+ImmunityPhase_blood:
+  Conditions:
+    - offgcd
+  Skills:
+    - message{m="&bSigrismarr channels ancient frost magic!"} @PlayersInRadius{r=30}
+    - potion{type=DAMAGE_RESISTANCE;duration=200;level=4} @self
+    - summon{mob=frost_magician_blood;amount=5;radius=5} @self
+    - summon{mob=frost_bringer_blood;amount=5;radius=5} @self
+    - GCD{ticks=1200}
