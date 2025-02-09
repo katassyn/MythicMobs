@@ -1,0 +1,119 @@
+twisted_roots:
+  Type: ZOMBIE
+  Display: '&e&l Twisted Roots&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 1800
+  Damage: 180
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.25'
+  Faction: twisted_roots
+  Group: twisted_roots
+  Equipment:
+    - twisted_helm HEAD
+    - twisted_chest CHEST
+    - twisted_legs LEGS
+    - twisted_boots FEET
+    - root_staff HAND
+  Drops:
+    - twisted_roots
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - potion{t=SLOW;d=100;l=2} @target ~onTimer:100
+    - skill{s=RootGrasp} @target ~onTimer:150
+
+leechbeast:
+  Type: SLIME
+  Display: '&l Parasitic Leechbeast [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 800
+  Damage: 80
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.2'
+    Size: 2
+  Faction: twisted_roots
+  Group: twisted_roots
+  Equipment:
+  Drops:
+    - leechbeast_drop
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+orbax:
+  Type: SLIME
+  Display: '&l Heinous Orbax [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 1200
+  Damage: 150
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.25'
+    Size: 4
+  Faction: twisted_roots
+  Group: twisted_roots
+  Equipment:
+  Drops:
+    - leechbeast_drop
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SpawnLeechbeasts} @self ~onDeath
+
+thunder_beech:
+  Type: ZOMBIE
+  Display: '&5&l Thunder Beech&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 4500
+  Damage: 300
+  Armor: 0
+  Options:
+    FollowRange: 10
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.4'
+    KnockbackResistance: 0.9
+  Faction: twisted_roots
+  Group: twisted_roots
+  Equipment:
+    - ancient_bark HEAD
+    - ancient_bark_plate CHEST
+    - ancient_bark_legs LEGS
+    - thunder_staff HAND
+    - shield OFFHAND
+  Drops:
+    - thunder_beech
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - potion{t=CONFUSION;d=100;l=1} @PIR{r=8} ~onTimer:200
+    - potion{t=SLOW;d=100;l=2} @PIR{r=8} ~onTimer:200
+    - skill{s=ThunderStrike} @PIR{r=8} ~onTimer:300
