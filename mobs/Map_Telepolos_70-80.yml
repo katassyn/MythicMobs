@@ -116,6 +116,7 @@ traitorous_imperial_lancer:
     - leather_leggings{color=blue} LEGS
     - leather_boots{color=black} FEET
     - shield OFFHAND
+    - iron_shovel HAND
   Drops:
     - telepolos_normal
   Skills:
@@ -158,7 +159,7 @@ traitorous_imperial_swordsman:
 adamant_lava_hound:
   Type: zombie
   Disguise: wolf
-  Display: '&e&l Adamant Lava Hound &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Display: '&e&l Adamant Lava Hound&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 1400
   Damage: 0
   Options:
@@ -190,7 +191,7 @@ adamant_lava_hound:
 
 elite_imperial_swordsman:
   Type: zombie
-  Display: '&e&l Elite Imperial Swordsman &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Display: '&e&l Elite Imperial Swordsman&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 1600
   Damage: 150
   Options:

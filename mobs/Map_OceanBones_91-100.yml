@@ -1,0 +1,158 @@
+mean_souls:
+  Type: ZOMBIE
+  Display: '&lMean Souls  [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 500
+  Damage: 80
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.2'
+  Faction: oceanbones
+  Group: oceanbones
+  Equipment:
+    - leather_helmet{color=purple} HEAD
+    - leather_chestplate{color=purple} CHEST
+    - leather_leggings{color=purple} LEGS
+    - leather_boots{color=purple} FEET
+    - diamont_hoe HAND
+  Drops:
+    - oceanbones_drop
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+
+cold_skeleton_warrior:
+  Type: SKELETON
+  Display: '&lCold Skeleton Warrior   [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 2500
+  Damage: 150
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.2'
+  Faction: oceanbones
+  Group: oceanbones
+  Equipment:
+    - iron_helmet HEAD
+    - iron_sword HAND
+    - shield OFFHAND
+  Drops:
+    - oceanbones_drop
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+
+cold_skeleton_archer:
+  Type: SKELETON
+  Display: '&lCold Skeleton Archer  [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 500
+  Damage: 250
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.2'
+  Faction: oceanbones
+  Group: oceanbones
+  Equipment:
+    - leather_leggings LEGS
+    - leather_boots FEET
+    - bow HAND
+  Drops:
+    - oceanbones_drop
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+
+cold_death_knight:
+  Type: SKELETON
+  Display: '&e&l Cold Death Knight&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 1800
+  Damage: 0
+  Options:
+    FollowRange: 15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.25'
+    AttackSpeed: '0.3'
+  Faction: oceanbones
+  Group: oceanbones
+  Equipment:
+    - iron_helm HEAD
+    - iron_chest CHEST
+    - iron_legs LEGS
+    - iron_boots FEET
+    - iron_sword HAND
+  Drops:
+    - cold_death_knight
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=LongRange} @target ~onAttack
+    - skill{s=PosthumousAttack} @target ~onDeath
+
+
+death_knight_of_the_watch:
+  Type: SKELETON
+  Display: '&5&l Death Knight of the Watch&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Health: 4500
+  Damage: 300
+  Options:
+    FollowRange: 10
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.4'
+    KnockbackResistance: 0.9
+  Faction: oceanbones
+  Group: oceanbones
+  Equipment:
+    - diamond_helm HEAD
+    - diamond_chest CHEST
+    - diamond_legs LEGS
+    - diamond_boots FEET
+    - diamond_sword HAND
+  Drops:
+    - death_knight_of_the_watch
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=PosthumousAttack} @target ~onDeath
+    - skill{s=PowerfulAttack} @target ~onAttack
+    - skill{s=LongRange} @target ~onAttack
+
+
