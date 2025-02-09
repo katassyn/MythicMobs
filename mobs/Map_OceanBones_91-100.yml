@@ -21,7 +21,7 @@ mean_souls:
     - leather_chestplate{color=purple} CHEST
     - leather_leggings{color=purple} LEGS
     - leather_boots{color=purple} FEET
-    - diamont_hoe HAND
+    - diamond_hoe HAND
   Drops:
     - oceanbones_drop
   Skills:
@@ -125,7 +125,7 @@ death_knight_of_the_watch:
   Type: SKELETON
   Display: '&5&l Death Knight of the Watch&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 4500
-  Damage: 300
+  Damage: 100
   Options:
     FollowRange: 10
     ShowHealth: true
@@ -136,7 +136,7 @@ death_knight_of_the_watch:
     PreventSunburn: true
     PreventJockeyMounts: true
     PreventTransformation: true
-    MovementSpeed: '0.4'
+    MovementSpeed: '0.35'
     KnockbackResistance: 0.9
   Faction: oceanbones
   Group: oceanbones

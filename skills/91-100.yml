@@ -2,7 +2,7 @@ PosthumousAttack:
   Skills:
     - effect:sound{s=entity.wither.death;v=2;p=1} @self
     - effect:particles{particle=explosion_large;amount=5} @self
-    - damage{amount=250;radius=5} @LivingEntitiesInRadius{r=5}
+    - damage{amount=200;radius=5} @LivingEntitiesInRadius{r=5}
 
 
 PowerfulAttack:
