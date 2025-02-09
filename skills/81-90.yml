@@ -1,0 +1,17 @@
+RootGrasp:
+  Skills:
+    - effect:particles{particle=item_crack;material=oak_sapling;amount=20;speed=0.2;hS=0.5;vS=0.5} @target
+    - potion{type=SLOW;duration=60;level=2} @target
+    - damage{amount=100} @target
+
+SpawnLeechbeasts:
+  Skills:
+    - message{m="<mob.name> splits into multiple Leechbeasts!"} @PIR{r=30}
+    - summon{type=leechbeast;level=1;amount=10;radius=3} @self
+    - effect:particles{particle=slime;amount=50;speed=0.2;hS=1;vS=1} @self
+
+ThunderStrike:
+  Skills:
+    - effect:lightning @target
+    - damage{amount=150;ignorearmor=true} @PIR{r=3}
+    - effect:particles{particle=electric_spark;amount=30;speed=0.2;hS=1;vS=1} @PIR{r=3}

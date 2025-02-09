@@ -1,0 +1,325 @@
+agile_satyr_warrior_hell:
+  Type: ZOMBIE
+  Display: '&lAgile Satyr Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 2400  # 3x800
+  Damage: 300   # 2x150
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.35
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_sword HAND
+    - leather_helmet{color=brown} HEAD
+    - leather_chestplate{color=brown} CHEST
+    - leather_leggings{color=brown} LEGS
+    - leather_boots{color=brown} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - agile_satyr_hell_drop
+    - q_hell_mob_crafting
+
+perfidious_satyr_archer_hell:
+  Type: SKELETON
+  Display: '&lPerfidious Satyr Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1800  # 3x600
+  Damage: 400   # 2x200
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - bow HAND
+    - leather_helmet{color=brown} HEAD
+    - leather_chestplate{color=brown} CHEST
+    - leather_leggings{color=brown} LEGS
+    - leather_boots{color=brown} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - satyr_archer_hell_drop
+    - q_hell_mob_crafting
+
+cohort_swordsman_hell:
+  Type: ZOMBIE
+  Display: '&e&lCohort Swordsman &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 3600  # 3x1200
+  Damage: 400   # 2x200
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_sword HAND
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=HealingPulse_hell} @self ~onTimer:5
+  Drops:
+    - cohort_swordsman_hell_drop
+    - q_hell_elite_crafting
+
+stone_golem_hell:
+  Type: ZOMBIE
+  Display: '&e&lStone Golem &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 6000  # 3x2000
+  Damage: 500   # 2x250
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.15
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+  Equipment:
+    - stone HEAD
+    - stone CHEST
+    - stone LEGS
+    - stone FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=ThrowBoulder_hell} @target ~onTimer:10
+  Drops:
+    - stone_golem_hell_drop
+    - q_hell_elite_crafting
+
+asterion_hell:
+  Type: ZOMBIE
+  Disguise: VINDICATOR
+  Display: '&5&lAsterion &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 9000  # 3x3000
+  Damage: 600   # 2x300
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Equipment:
+    - iron_axe HAND
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=ChargeAttack_hell} @target ~onTimer:12
+    - skill{s=GroundSlam_hell} @PlayersInRadius{r=5} ~onTimer:15
+  Drops:
+    - asterion_hell_drop
+    - q_hell_elite_crafting
+
+jabbax_hell:
+  Type: ZOMBIE
+  Display: '&lJabbax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1500  # 3x500
+  Damage: 200   # 2x100
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - leather_helmet{color=brown} HEAD
+    - leather_chestplate{color=brown} CHEST
+    - leather_leggings{color=brown} LEGS
+    - leather_boots{color=brown} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - jabbax_hell_drop
+    - q_hell_mob_crafting
+
+zorlobb_warrior_hell:
+  Type: ZOMBIE
+  Display: '&e&lZorlobb Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 4500  # 3x1500
+  Damage: 500   # 2x250
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_sword HAND
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
+    - iron_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=StunningBlow_hell} @target ~onTimer:12
+  Drops:
+    - zorlobb_warrior_hell_drop
+    - q_hell_elite_crafting
+
+gorgon_acolyte_hell:
+  Type: ZOMBIE
+  Display: '&lGorgon Acolyte &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1800  # 3x600
+  Damage: 400   # 2x200
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - stick HAND
+    - leather_helmet{color=purple} HEAD
+    - leather_chestplate{color=purple} CHEST
+    - leather_leggings{color=purple} LEGS
+    - leather_boots{color=purple} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=PoisonBolt_hell} @target ~onTimer:8
+    - skill{s=Petrify_hell} @target ~onTimer:15
+  Drops:
+    - gorgon_acolyte_hell_drop
+    - q_hell_mob_crafting
+
+minotaur_hell:
+  Type: ZOMBIE
+  Disguise: VINDICATOR
+  Display: '&e&lMinotaur &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 6000  # 3x2000
+  Damage: 500   # 2x250
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+  Equipment:
+    - iron_axe HAND
+    - leather_helmet{color=brown} HEAD
+    - leather_chestplate{color=brown} CHEST
+    - leather_leggings{color=brown} LEGS
+    - leather_boots{color=brown} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=ChargeAttack_hell} @target ~onTimer:12
+    - skill{s=GroundPound_hell} @PlayersInRadius{r=5} ~onTimer:15
+  Drops:
+    - minotaur_hell_drop
+    - q_hell_elite_crafting
+
+ebicarus_hell:
+  Type: ZOMBIE
+  Display: '&5&lEbicarus &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 9000  # 3x3000
+  Damage: 600   # 2x300
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Equipment:
+    - netherite_sword HAND
+    - netherite_helmet HEAD
+    - netherite_chestplate CHEST
+    - netherite_leggings LEGS
+    - netherite_boots FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=PowerfulStrike_hell} @target ~onTimer:10
+  Drops:
+    - ebicarus_hell_drop
+    - q_hell_elite_crafting
+
+medusa_hell:
+  Type: ZOMBIE
+  Display: '&4<&skull> &lM`Edusa &r&4<&skull>'
+  Health: 15000  # 3x5000
+  Damage: 400    # 2x200
+  BossBar:
+    Enabled: true
+    Title: '&c<&skull> M`Edusa - <mob.hp{round=0}> <&skull>'
+    Color: PURPLE
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 30
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.8
+    Despawn: CHUNK
+  Equipment:
+    - bow HAND
+    - leather_helmet{color=green} HEAD
+    - leather_chestplate{color=green} CHEST
+    - leather_leggings{color=green} LEGS
+    - leather_boots{color=green} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=PetrifyingGaze_hell} @PlayersInRadius{r=10} ~onTimer:15
+    - skill{s=AcidSpit_hell} @target ~onTimer:10
+    - skill{s=SummonSnakes_hell} @target ~onTimer:20
+  Drops:
+    - medusa_hell_drop
+
+snake_minion_hell:
+  Type: ZOMBIE
+  Disguise: SILVERFISH
+  Display: '&lPoisonous Snake &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
+  Health: 300  # 3x100
+  Damage: 300  # 2x150
+  Options:
+    MovementSpeed: 0.4
+    ShowHealth: true
+    PreventOtherDrops: true
+    Despawn: REMOVE
+  Skills:
+    - potion{type=POISON;duration=80;level=3} @target ~onAttack
+    - skill{s=SnakeExplosion_hell} @self ~onDeath
+  Drops: []

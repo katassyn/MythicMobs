@@ -1,0 +1,61 @@
+twisted_helm:
+  Id: leather_helmet
+  Display: '1'
+  Group: Mobs
+  Options:
+    Color: 51,102,0
+    Unbreakable: true
+
+twisted_chest:
+  Id: leather_chestplate
+  Display: '1'
+  Group: Mobs
+  Options:
+    Color: 51,102,0
+    Unbreakable: true
+
+twisted_legs:
+  Id: leather_leggings
+  Display: '1'
+  Group: Mobs
+  Options:
+    Color: 51,102,0
+    Unbreakable: true
+
+twisted_boots:
+  Id: leather_boots
+  Display: '1'
+  Group: Mobs
+  Options:
+    Color: 51,102,0
+    Unbreakable: true
+
+root_staff:
+  Id: stick
+  Group: Mobs
+  Enchantments:
+    - KNOCKBACK:3
+
+ancient_bark:
+  Id: brown_wool
+  Group: Mobs
+
+ancient_bark_plate:
+  Id: leather_chestplate
+  Group: Mobs
+  Options:
+    Color: 102,51,0
+    Unbreakable: true
+
+ancient_bark_legs:
+  Id: leather_leggings
+  Group: Mobs
+  Options:
+    Color: 102,51,0
+    Unbreakable: true
+
+thunder_staff:
+  Id: blaze_rod
+  Group: Mobs
+  Enchantments:
+    - KNOCKBACK:5
