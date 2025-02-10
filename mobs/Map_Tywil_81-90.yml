@@ -31,7 +31,8 @@ twisted_roots:
     - skill{s=RootGrasp} @target ~onTimer:150
 
 leechbeast:
-  Type: SLIME
+  Type: Zombie
+  Disguise: silverfish
   Display: '&l Parasitic Leechbeast [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 800
   Damage: 80
