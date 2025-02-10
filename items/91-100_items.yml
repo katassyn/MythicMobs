@@ -110,8 +110,8 @@ ring_of_mortal_decay:
   Group: shadow_knight
   Lore:
     - ''
-    - '§7Damage: §c+85 ⚔'
-    - '§7Health: §c-15 ❤'
+    - '§7Damage: §c+185 ⚔'
+    - '§7Health: §c-19 ❤'
     - '&lRarity:&r &e&lUnique'
   Options:
     HideFlags: true
@@ -121,8 +121,8 @@ ring_of_mortal_decay:
     - ATTRIBUTES
   Attributes:
     All:
-      Damage: 85 ADD
-      Health: -15 ADD
+      Damage: 185 ADD
+      Health: -19 ADD
 
 band_of_shadow_knights:
   Id: hopper_minecart
