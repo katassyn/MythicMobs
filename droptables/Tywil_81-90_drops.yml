@@ -1,0 +1,38 @@
+leechbeast_drop:
+  Drops:
+    - leechbeast_drop_items 1
+
+leechbeast_drop_items:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - ips 1 0.01
+
+twisted_roots:
+  Drops:
+    - twisted_roots_items 1
+
+twisted_roots_items:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - ips 1 0.1
+    - corrupted_roots_helmet 1 0.025
+    - twisted_bark_chestplate 1 0.025
+    - woodland_wraith_blade 1 0.025
+
+thunder_beech:
+  Drops:
+    -thunder_beech_items 1
+
+thunder_beech_items:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - ips 1 0.2
+    - corrupted_roots_helmet 1 0.05
+    - twisted_bark_chestplate 1 0.05
+    - woodland_wraith_blade 1 0.05
+    - ancient_forest_belt 1 0.02
+    - corrupted_heartwood_ring 1 0.02
+    - twisted_vine_ornament 1 0.0075

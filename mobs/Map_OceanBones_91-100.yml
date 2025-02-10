@@ -107,9 +107,9 @@ cold_death_knight:
   Faction: oceanbones
   Group: oceanbones
   Equipment:
-    - iron_helm HEAD
-    - iron_chest CHEST
-    - iron_legs LEGS
+    - iron_helmet HEAD
+    - iron_chestplate CHEST
+    - iron_leggings LEGS
     - iron_boots FEET
     - iron_sword HAND
   Drops:
@@ -141,9 +141,9 @@ death_knight_of_the_watch:
   Faction: oceanbones
   Group: oceanbones
   Equipment:
-    - diamond_helm HEAD
-    - diamond_chest CHEST
-    - diamond_legs LEGS
+    - diamond_helmet HEAD
+    - diamond_chestplate CHEST
+    - diamond_leggings LEGS
     - diamond_boots FEET
     - diamond_sword HAND
   Drops:
