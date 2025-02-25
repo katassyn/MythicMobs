@@ -21,6 +21,7 @@ cold_death_knight_items:
 
 death_knight_of_the_watch:
   Drops:
+    - Throphy_of_the_long_forgotten_bone_dragon 1 0.1
     - death_knight_of_the_watch_items 1
 
 death_knight_of_the_watch_items:
