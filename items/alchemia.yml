@@ -3,7 +3,7 @@
 #BASIC POTIONS BASIC POTIONS BASIC POTIONS
 
 potion5hp:
-  Id: raw_mutton
+  Id: mutton
   Display: '&aSmall Healing Potion'
   Group: alchemy
   Enchantments:
@@ -16,7 +16,7 @@ potion5hp:
     HideAttributes: true
     Unbreakable: true
 potion10hp:
-  Id: raw_mutton
+  Id: mutton
   Display: '&aMedium Healing Potion'
   Group: alchemy
   Enchantments:
@@ -29,7 +29,7 @@ potion10hp:
     HideAttributes: true
     Unbreakable: true
 potion15hp:
-  Id: raw_mutton
+  Id: mutton
   Display: '&aLarge Healing Potion'
   Group: alchemy
   Enchantments:
@@ -47,7 +47,7 @@ potion15hp:
 #POTIONY POTIONY #POTIONY POTIONY
 #( NIE STAKUJA SIE , PO DANYM CZASIE PRZESTAJA DZIALAC! )
 potionheal_inf:
-  Id: raw_mutton
+  Id: mutton
   Display: '&9[ I ]&a Small Healing Potion'
   Group: alchemy
   Enchantments:
@@ -61,7 +61,7 @@ potionheal_inf:
     HideAttributes: true
     Unbreakable: true
 potionlasting_inf:
-  Id: raw_mutton
+  Id: mutton
   Display: '&9[ I ]&a Small Lasting Healing Potion'
   Group: alchemy
   Enchantments:
@@ -75,7 +75,7 @@ potionlasting_inf:
     HideAttributes: true
     Unbreakable: true
 potionheal_hell:
-  Id: raw_mutton
+  Id: mutton
   Display: '&5[ II ]&a Medium Healing Potion'
   Group: alchemy
   Enchantments:
@@ -83,13 +83,13 @@ potionheal_hell:
   Lore:
     - '&7Heals:&c 75%❤'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 potionlasting_hell:
-  Id: raw_mutton
+  Id: mutton
   Display: '&5[ II ]&a Medium Lasting Healing Potion'
   Group: alchemy
   Enchantments:
@@ -97,13 +97,13 @@ potionlasting_hell:
   Lore:
     - '&7Heals:&c 15%❤/s&7 For 5s'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 potionheal_blood:
-  Id: raw_mutton
+  Id: mutton
   Display: '&6[ III ]&a Large Healing Potion'
   Group: alchemy
   Enchantments:
@@ -111,13 +111,13 @@ potionheal_blood:
   Lore:
     - '&7Heals:&c 100%❤'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 potionlasting_blood:
-  Id: raw_mutton
+  Id: mutton
   Display: '&6[ III ]&a Large Lasting Healing Potion'
   Group: alchemy
   Enchantments:
@@ -125,13 +125,13 @@ potionlasting_blood:
   Lore:
     - '&7Heals:&c 20%❤/s&7 For 5s'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 potionimmun_inf:
-  Id: raw_mutton
+  Id: mutton
   Display: '&9[ I ]&a Small Immunity Potion'
   Group: alchemy
   Enchantments:
@@ -145,7 +145,7 @@ potionimmun_inf:
     HideAttributes: true
     Unbreakable: true
 potionimmun_hell:
-  Id: raw_mutton
+  Id: mutton
   Display: '&5[ II ]&a Medium Immunity Potion'
   Group: alchemy
   Enchantments:
@@ -153,13 +153,13 @@ potionimmun_hell:
   Lore:
     - '&7Grants Immunity for 2s (Only Mobs)'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 potionimmun_blood:
-  Id: raw_mutton
+  Id: mutton
   Display: '&6[ III ]&a Large Immunity Potion'
   Group: alchemy
   Enchantments:
@@ -167,13 +167,13 @@ potionimmun_blood:
   Lore:
     - '&7Grants Immunity for 3s (Only Mobs)'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 potionms_inf:
-  Id: raw_mutton
+  Id: mutton
   Display: '&9[ I ]&a Small Movement Potion'
   Group: alchemy
   Enchantments:
@@ -187,7 +187,7 @@ potionms_inf:
     HideAttributes: true
     Unbreakable: true
 potionms_hell:
-  Id: raw_mutton
+  Id: mutton
   Display: '&5[ II ]&a Medium Movement Potion'
   Group: alchemy
   Enchantments:
@@ -195,13 +195,13 @@ potionms_hell:
   Lore:
     - '&7Grants §b+50%👟&7 Movement Speed for 3s'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 potionms_blood:
-  Id: raw_mutton
+  Id: mutton
   Display: '&6[ III ]&a Large Movement Potion'
   Group: alchemy
   Enchantments:
@@ -209,13 +209,13 @@ potionms_blood:
   Lore:
     - '&7Grants §b+100%👟&7 Movement Speed for 3s'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 potiononeluck_inf:
-  Id: raw_mutton
+  Id: mutton
   Display: '&9[ I ]&a Small One Mob Luck Potion'
   Group: alchemy
   Enchantments:
@@ -229,7 +229,7 @@ potiononeluck_inf:
     HideAttributes: true
     Unbreakable: true
 potionnoneluck_hell:
-  Id: raw_mutton
+  Id: mutton
   Display: '&5[ II ]&a Medium One Mob Luck Potion'
   Group: alchemy
   Enchantments:
@@ -237,13 +237,13 @@ potionnoneluck_hell:
   Lore:
     - '&7Grants 20x&a🍀&7 More Luck For 1 Mob Lasts 5s'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 potionnoneluck_blood:
-  Id: raw_mutton
+  Id: mutton
   Display: '&6[ III ]&a Large One Mob Luck Potion'
   Group: alchemy
   Enchantments:
@@ -251,13 +251,13 @@ potionnoneluck_blood:
   Lore:
     - '&7Grants 30x&a🍀&7 More Luck For 1 Mob Lasts 5s'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 potionabsorption_inf:
-  Id: raw_mutton
+  Id: mutton
   Display: '&9[ I ]&a Small Absorption Potion'
   Group: alchemy
   Enchantments:
@@ -271,7 +271,7 @@ potionabsorption_inf:
     HideAttributes: true
     Unbreakable: true
 potionabsorption_hell:
-  Id: raw_mutton
+  Id: mutton
   Display: '&5[ II ]&a Medium Absorption Potion'
   Group: alchemy
   Enchantments:
@@ -279,13 +279,13 @@ potionabsorption_hell:
   Lore:
     - '&7Gives &e20❤ &7Absorption For 10s'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 potionabsorption_blood:
-  Id: raw_mutton
+  Id: mutton
   Display: '&6[ III ]&a Large Absorption Potion'
   Group: alchemy
   Enchantments:
@@ -293,13 +293,13 @@ potionabsorption_blood:
   Lore:
     - '&7Gives &e30❤&7 Absorption For 10s'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 potionbersek_inf:
-  Id: raw_mutton
+  Id: mutton
   Display: '&9[ I ]&a Small Berserk Potion'
   Group: alchemy
   Enchantments:
@@ -313,7 +313,7 @@ potionbersek_inf:
     HideAttributes: true
     Unbreakable: true
 potionabersek_hell:
-  Id: raw_mutton
+  Id: mutton
   Display: '&5[ II ]&a Medium Berserk Potion'
   Group: alchemy
   Enchantments:
@@ -321,13 +321,13 @@ potionabersek_hell:
   Lore:
     - '&7Grants §c+75%⚔&7 Damage And §c-75%❤&7 Health For 5s'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 potionbersek_blood:
-  Id: raw_mutton
+  Id: mutton
   Display: '&6[ III ]&a Large Berserk Potion'
   Group: alchemy
   Enchantments:
@@ -335,7 +335,7 @@ potionbersek_blood:
   Lore:
     - '&7Grants §c+90%⚔&7 Damage And §c-90%❤&7 Health For 5s'
     - '&7Cooldown: 30s'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -367,7 +367,7 @@ tonicdmg_hell:
   Lore:
     - '&7Grants §c+100⚔&7 Damage For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -381,7 +381,7 @@ tonicdmg_blood:
   Lore:
     - '&7Grants §c+150⚔&7 Damage For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -409,7 +409,7 @@ tonichp_hell:
   Lore:
     - '&7Grants §c+10❤&7 Health For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -423,7 +423,7 @@ tonichp_blood:
   Lore:
     - '&7Grants §c+15❤&7 Health For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -451,7 +451,7 @@ tonicexp_hell:
   Lore:
     - '&7Grants +0.002% Experience Per Mob For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -465,7 +465,7 @@ tonicexp_blood:
   Lore:
     - '&7Grants +0.003% Experience Per Mob For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -477,7 +477,7 @@ tonicms_inf:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '&7Grants §b+0.05👟&7 Movement Per Mob For 5m'
+    - '&7Grants §b+0.05👟&7 Movement For 5m'
     - '&7Cooldown: 15m'
     - '&aRequired Level: &6 50'
   Options:
@@ -491,9 +491,9 @@ tonicms_hell:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '&7Grants §b+0.1👟&7 Movement Per Mob For 10m'
+    - '&7Grants §b+0.1👟&7 Movement For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -505,9 +505,9 @@ tonicms_blood:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '&7Grants §b+0.15👟&7 Movement Per Mob For 15m'
+    - '&7Grants §b+0.15👟&7 Movement For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -535,7 +535,7 @@ tonictotem_hell:
   Lore:
     - '&7Grants Totem Effect vs Mobs For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -549,7 +549,7 @@ tonictotem_blood:
   Lore:
     - '&7Grants Totem Effect vs Mobs For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -577,7 +577,7 @@ tonicnight_hell:
   Lore:
     - '&7Grants Night Vision For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -591,7 +591,7 @@ tonicnight_blood:
   Lore:
     - '&7Grants Night Vision For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -619,7 +619,7 @@ tonicluck_hell:
   Lore:
     - '&7Grants +2a🍀&7 Luck For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -633,7 +633,7 @@ tonicluck_blood:
   Lore:
     - '&7Grants +3&a🍀&7 Luck For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -665,7 +665,7 @@ phycisdmg_hell:
   Lore:
     - '&7Grants §c+15%⚔&7 Damage For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -679,7 +679,7 @@ phycisdmg_blood:
   Lore:
     - '&7Grants §c+20%⚔&7 Damage For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -708,7 +708,7 @@ phycishp_hell:
   Lore:
     - '&7Grants §c+10%❤&7 Health For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -722,7 +722,7 @@ phycishp_blood:
   Lore:
     - '&7Grants §c+15%❤&7 Health For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -751,7 +751,7 @@ phycisexp_hell:
   Lore:
     - '&7Grants +10% Experience For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -765,7 +765,7 @@ phycisexp_blood:
   Lore:
     - '&7Grants +15% Experience For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -794,7 +794,7 @@ phycisms_hell:
   Lore:
     - '&7Grants §b+10%👟&7 Movement Speed For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -808,7 +808,7 @@ phycisms_blood:
   Lore:
     - '&7Grants §b+15%👟&7 Movement Speed For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -837,7 +837,7 @@ phycismagnes_hell:
   Lore:
     - '&7Grants Magnet Effect For Items For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -851,7 +851,7 @@ phycismagnes_blood:
   Lore:
     - '&7Grants Magnet Effect For Items For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -881,7 +881,7 @@ phycissteal_hell:
   Lore:
     - '&7Grants 3% Lifesteal Effect For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -895,7 +895,7 @@ phycissteal_blood:
   Lore:
     - '&7Grants 5% Lifesteal Effect For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -924,7 +924,7 @@ phycisluck_hell:
   Lore:
     - '&7Grants +10%a🍀&7 Luck For 10m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 65'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -938,7 +938,7 @@ phycisluck_blood:
   Lore:
     - '&7Grants +15%a🍀&7 Luck For 15m'
     - '&7Cooldown: 15m'
-    - '&aRequired Level: &6 50'
+    - '&aRequired Level: &6 80'
   Options:
     HideFlags: true
     HideAttributes: true
