@@ -1,0 +1,431 @@
+# INF INF INF
+# INF INF INF
+# INF INF INF
+anderworld_jitterjelly_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - anderworld_jitterjelly_inf_drop_item_drops 1
+anderworld_jitterjelly_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_infernal 1 0.01
+    - rookie_jacket_infernal 1 0.01
+    - abyssal_treasure_gloves_infernal 1 0.01
+    - ring_of_renewal_infernal 1 0.0005
+
+anderworld_jabbax_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - anderworld_jabbax_inf_drop_item_drops 1
+anderworld_jabbax_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_infernal 1 0.01
+    - rookie_jacket_infernal 1 0.01
+    - abyssal_treasure_gloves_infernal 1 0.01
+    - ring_of_renewal_infernal 1 0.0005
+
+combat_ready_zorlobb_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - combat_ready_zorlobb_inf_drop_item_drops 1
+combat_ready_zorlobb_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_infernal 1 0.01
+    - rookie_jacket_infernal 1 0.01
+    - abyssal_treasure_gloves_infernal 1 0.01
+    - ring_of_renewal_infernal 1 0.0005
+
+armed_khaross_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - armed_khaross_inf_drop_item_drops 1
+armed_khaross_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_infernal 1 0.01
+    - rookie_jacket_infernal 1 0.01
+    - abyssal_treasure_gloves_infernal 1 0.01
+    - ring_of_renewal_infernal 1 0.0005
+
+mordacious_khaross_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - mordacious_khaross_inf_drop_item_drops 1
+mordacious_khaross_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_infernal 1 0.01
+    - rookie_jacket_infernal 1 0.01
+    - abyssal_treasure_gloves_infernal 1 0.01
+    - ring_of_renewal_infernal 1 0.0005
+
+scheming_gorgon_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - scheming_gorgon_inf_drop_item_drops 1
+scheming_gorgon_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_infernal 1 0.25
+    - rookie_jacket_infernal 1 0.25
+    - abyssal_treasure_gloves_infernal 1 0.05
+    - ring_of_renewal_infernal 1 0.01
+
+poisonous_jitterjelly_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - poisonous_jitterjelly_inf_drop_item_drops 1
+poisonous_jitterjelly_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_infernal 1 0.25
+    - rookie_jacket_infernal 1 0.25
+    - abyssal_treasure_gloves_infernal 1 0.05
+    - ring_of_renewal_infernal 1 0.01
+
+patrolling_jabbax_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - patrolling_jabbax_inf_drop_item_drops 1
+patrolling_jabbax_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_infernal 1 0.25
+    - rookie_jacket_infernal 1 0.25
+    - abyssal_treasure_gloves_infernal 1 0.05
+    - ring_of_renewal_infernal 1 0.01
+
+melas_inf_drop:
+  Drops:
+    - ips 1 0.5
+    - melas_inf_drop_item_drops 1
+melas_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - charming_belt_infernal 1 0.5
+    - rookie_jacket_infernal 1 0.5
+    - abyssal_treasure_gloves_infernal 1 0.1
+    - ring_of_renewal_infernal 1 0.04
+
+akheilos_inf_drop:
+  Drops:
+    - ips 1 0.5
+    - akheilos_inf_drop_item_drops 1
+akheilos_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - charming_belt_infernal 1 0.5
+    - rookie_jacket_infernal 1 0.5
+    - abyssal_treasure_gloves_infernal 1 0.1
+    - ring_of_renewal_infernal 1 0.04
+
+gorga_inf_drop:
+  Drops:
+    - gorga_frag_I 1 0.05
+    - ips 1 1
+    - gorga_inf_drop_item_drops 1
+gorga_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - charming_belt_infernal 1 1
+    - rookie_jacket_infernal 1 1
+    - abyssal_treasure_gloves_infernal 1 0.25
+    - ring_of_renewal_infernal 1 0.1
+
+# HELL HELL HELL
+# HELL HELL HELL
+# HELL HELL HELL
+anderworld_jitterjelly_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - anderworld_jitterjelly_hell_drop_item_drops 1
+anderworld_jitterjelly_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_hell 1 0.01
+    - rookie_jacket_hell 1 0.01
+    - abyssal_treasure_gloves_hell 1 0.02
+    - ring_of_renewal_hell 1 0.001
+
+anderworld_jabbax_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - anderworld_jabbax_hell_drop_item_drops 1
+anderworld_jabbax_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_hell 1 0.01
+    - rookie_jacket_hell 1 0.01
+    - abyssal_treasure_gloves_hell 1 0.02
+    - ring_of_renewal_hell 1 0.001
+
+combat_ready_zorlobb_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - combat_ready_zorlobb_hell_drop_item_drops 1
+combat_ready_zorlobb_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_hell 1 0.01
+    - rookie_jacket_hell 1 0.01
+    - abyssal_treasure_gloves_hell 1 0.02
+    - ring_of_renewal_hell 1 0.001
+
+armed_khaross_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - armed_khaross_hell_drop_item_drops 1
+armed_khaross_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_hell 1 0.01
+    - rookie_jacket_hell 1 0.01
+    - abyssal_treasure_gloves_hell 1 0.02
+    - ring_of_renewal_hell 1 0.001
+
+mordacious_khaross_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - mordacious_khaross_hell_drop_item_drops 1
+mordacious_khaross_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_hell 1 0.01
+    - rookie_jacket_hell 1 0.01
+    - abyssal_treasure_gloves_hell 1 0.02
+    - ring_of_renewal_hell 1 0.001
+
+scheming_gorgon_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - scheming_gorgon_hell_drop_item_drops 1
+scheming_gorgon_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_hell 1 0.025
+    - rookie_jacket_hell 1 0.025
+    - abyssal_treasure_gloves_hell 1 0.1
+    - ring_of_renewal_hell 1 0.02
+
+poisonous_jitterjelly_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - poisonous_jitterjelly_hell_drop_item_drops 1
+poisonous_jitterjelly_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_hell 1 0.025
+    - rookie_jacket_hell 1 0.025
+    - abyssal_treasure_gloves_hell 1 0.1
+    - ring_of_renewal_hell 1 0.02
+
+patrolling_jabbax_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - patrolling_jabbax_hell_drop_item_drops 1
+patrolling_jabbax_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_hell 1 0.025
+    - rookie_jacket_hell 1 0.025
+    - abyssal_treasure_gloves_hell 1 0.1
+    - ring_of_renewal_hell 1 0.02
+
+melas_hell_drop:
+  Drops:
+    - ips 2 0.5
+    - melas_hell_drop_item_drops 1
+melas_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - ring_of_renewal_hell 1 0.05
+    - abyssal_treasure_shield_hell 1 0.0125
+
+akheilos_hell_drop:
+  Drops:
+    - ips 2 0.5
+    - akheilos_hell_drop_item_drops 1
+akheilos_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - ring_of_renewal_hell 1 0.05
+    - abyssal_treasure_shield_hell 1 0.0125
+
+gorga_hell_drop:
+  Drops:
+    - gorga_frag_II 1 0.05
+    - ips 2 1
+    - gorga_hell_drop_item_drops 1
+gorga_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - ring_of_renewal_hell 1 0.125
+    - abyssal_treasure_shield_hell 1 0.025
+
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+anderworld_jitterjelly_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - anderworld_jitterjelly_blood_drop_item_drops 1
+anderworld_jitterjelly_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_blood 1 0.01
+    - rookie_jacket_blood 1 0.01
+    - abyssal_treasure_gloves_blood 1 0.03
+    - ring_of_renewal_blood 1 0.005
+
+anderworld_jabbax_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - anderworld_jabbax_blood_drop_item_drops 1
+anderworld_jabbax_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_blood 1 0.01
+    - rookie_jacket_blood 1 0.01
+    - abyssal_treasure_gloves_blood 1 0.03
+    - ring_of_renewal_blood 1 0.005
+
+combat_ready_zorlobb_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - combat_ready_zorlobb_blood_drop_item_drops 1
+combat_ready_zorlobb_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_blood 1 0.01
+    - rookie_jacket_blood 1 0.01
+    - abyssal_treasure_gloves_blood 1 0.03
+    - ring_of_renewal_blood 1 0.005
+
+armed_khaross_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - armed_khaross_blood_drop_item_drops 1
+armed_khaross_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_blood 1 0.01
+    - rookie_jacket_blood 1 0.01
+    - abyssal_treasure_gloves_blood 1 0.03
+    - ring_of_renewal_blood 1 0.005
+
+mordacious_khaross_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - mordacious_khaross_blood_drop_item_drops 1
+mordacious_khaross_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_blood 1 0.01
+    - rookie_jacket_blood 1 0.01
+    - abyssal_treasure_gloves_blood 1 0.03
+    - ring_of_renewal_blood 1 0.005
+
+scheming_gorgon_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - scheming_gorgon_blood_drop_item_drops 1
+scheming_gorgon_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_blood 1 0.25
+    - rookie_jacket_blood 1 0.025
+    - abyssal_treasure_gloves_blood 1 0.2
+    - ring_of_renewal_blood 1 0.03
+
+poisonous_jitterjelly_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - poisonous_jitterjelly_blood_drop_item_drops 1
+poisonous_jitterjelly_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_blood 1 0.25
+    - rookie_jacket_blood 1 0.025
+    - abyssal_treasure_gloves_blood 1 0.2
+    - ring_of_renewal_blood 1 0.03
+
+patrolling_jabbax_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - patrolling_jabbax_blood_drop_item_drops 1
+patrolling_jabbax_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - charming_belt_blood 1 0.25
+    - rookie_jacket_blood 1 0.025
+    - abyssal_treasure_gloves_blood 1 0.2
+    - ring_of_renewal_blood 1 0.03
+
+melas_blood_drop:
+  Drops:
+    - ips 3 0.5
+    - melas_blood_drop_item_drops 1
+melas_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - ring_of_renewal_blood 1 0.06
+    - abyssal_treasure_shield_blood 1 0.025
+    - abyssal_treasure_helmet_blood 1 0.001
+
+akheilos_blood_drop:
+  Drops:
+    - ips 3 0.5
+    - akheilos_blood_drop_item_drops 1
+akheilos_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - ring_of_renewal_blood 1 0.06
+    - abyssal_treasure_shield_blood 1 0.025
+    - abyssal_treasure_helmet_blood 1 0.001
+
+gorga_blood_drop:
+  Drops:
+    - gorga_frag_III 1 0.05
+    - ips 3 1
+    - gorga_blood_drop_item_drops 1
+gorga_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - ring_of_renewal_blood 1 0.15
+    - abyssal_treasure_shield_blood 1 0.05
+    - abyssal_treasure_helmet_blood 1 0.01
