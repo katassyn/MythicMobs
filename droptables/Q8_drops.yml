@@ -1,0 +1,438 @@
+# INF INF INF
+# INF INF INF
+# INF INF INF
+electrified_ferocity_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - electrified_ferocity_inf_drop_item_drops 1
+electrified_ferocity_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_infernal 1 0.01
+    - frozen_mud_boots_infernal 1 0.01
+    - unity_of_the_alliance_infernal 1 0.01
+    - fjalnirs_ring_of_frost_infernal 1 0.0005
+
+charged_drone_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - charged_drone_inf_drop_item_drops 1
+charged_drone_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_infernal 1 0.01
+    - frozen_mud_boots_infernal 1 0.01
+    - unity_of_the_alliance_infernal 1 0.01
+    - fjalnirs_ring_of_frost_infernal 1 0.0005
+
+big_heap_of_ice_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - big_heap_of_ice_inf_drop_item_drops 1
+big_heap_of_ice_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_infernal 1 0.25
+    - frozen_mud_boots_infernal 1 0.25
+    - unity_of_the_alliance_infernal 1 0.05
+    - fjalnirs_ring_of_frost_infernal 1 0.01
+
+frostwolf_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - frostwolf_inf_drop_item_drops 1
+frostwolf_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_infernal 1 0.25
+    - frozen_mud_boots_infernal 1 0.25
+    - unity_of_the_alliance_infernal 1 0.05
+    - fjalnirs_ring_of_frost_infernal 1 0.01
+
+shocking_forocity_inf_drop:
+  Drops:
+    - ips 1 0.5
+    - shocking_forocity_inf_drop_item_drops 1
+shocking_forocity_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - frost_axe_infernal 1 0.5
+    - frozen_mud_boots_infernal 1 0.5
+    - unity_of_the_alliance_infernal 1 0.1
+    - fjalnirs_ring_of_frost_infernal 1 0.04
+
+# Mission 2 Mobs
+pale_pillager_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - pale_pillager_inf_drop_item_drops 1
+pale_pillager_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_infernal 1 0.01
+    - frozen_mud_boots_infernal 1 0.01
+    - unity_of_the_alliance_infernal 1 0.01
+    - fjalnirs_ring_of_frost_infernal 1 0.0005
+
+simple_troll_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - simple_troll_inf_drop_item_drops 1
+simple_troll_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_infernal 1 0.01
+    - frozen_mud_boots_infernal 1 0.01
+    - unity_of_the_alliance_infernal 1 0.01
+    - fjalnirs_ring_of_frost_infernal 1 0.0005
+
+frost_magician_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - frost_magician_inf_drop_item_drops 1
+frost_magician_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_infernal 1 0.25
+    - frozen_mud_boots_infernal 1 0.25
+    - unity_of_the_alliance_infernal 1 0.05
+    - fjalnirs_ring_of_frost_infernal 1 0.01
+
+frost_bringer_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - frost_bringer_inf_drop_item_drops 1
+frost_bringer_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_infernal 1 0.25
+    - frozen_mud_boots_infernal 1 0.25
+    - unity_of_the_alliance_infernal 1 0.05
+    - fjalnirs_ring_of_frost_infernal 1 0.01
+
+pale_enforcer_inf_drop:
+  Drops:
+    - ips 1 0.5
+    - pale_enforcer_inf_drop_item_drops 1
+pale_enforcer_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - frost_axe_infernal 1 0.5
+    - frozen_mud_boots_infernal 1 0.5
+    - unity_of_the_alliance_infernal 1 0.1
+    - fjalnirs_ring_of_frost_infernal 1 0.04
+
+# Mission 3 Boss
+sigrismarr_inf_drop:
+  Drops:
+    - sigrismar_frag_I 1 0.05
+    - ips 1 1
+    - sigrismarr_inf_drop_item_drops 1
+sigrismarr_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - frost_axe_infernal 1 1
+    - frozen_mud_boots_infernal 1 1
+    - unity_of_the_alliance_infernal 1 0.25
+    - fjalnirs_ring_of_frost_infernal 1 0.1
+
+# HELL HELL HELL
+# HELL HELL HELL
+# HELL HELL HELL
+
+electrified_ferocity_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - electrified_ferocity_hell_drop_item_drops 1
+electrified_ferocity_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_hell 1 0.01
+    - frozen_mud_boots_hell 1 0.01
+    - unity_of_the_alliance_hell 1 0.02
+    - fjalnirs_ring_of_frost_hell 1 0.001
+
+charged_drone_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - charged_drone_hell_drop_item_drops 1
+charged_drone_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_hell 1 0.01
+    - frozen_mud_boots_hell 1 0.01
+    - unity_of_the_alliance_hell 1 0.02
+    - fjalnirs_ring_of_frost_hell 1 0.001
+
+big_heap_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - big_heap_hell_drop_item_drops 1
+big_heap_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_hell 1 0.025
+    - frozen_mud_boots_hell 1 0.025
+    - unity_of_the_alliance_hell 1 0.1
+    - fjalnirs_ring_of_frost_hell 1 0.02
+
+frostwolf_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - frostwolf_hell_drop_item_drops 1
+frostwolf_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_hell 1 0.025
+    - frozen_mud_boots_hell 1 0.025
+    - unity_of_the_alliance_hell 1 0.1
+    - fjalnirs_ring_of_frost_hell 1 0.02
+
+shocking_forocity_hell_drop:
+  Drops:
+    - ips 2 0.5
+    - shocking_forocity_hell_drop_item_drops 1
+shocking_forocity_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - fjalnirs_ring_of_frost_hell 1 0.05
+    - sigrismarrs_eternal_ward_hell 1 0.0125
+
+# Mission 2 Mobs
+pale_pillager_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - pale_pillager_hell_drop_item_drops 1
+pale_pillager_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_hell 1 0.01
+    - frozen_mud_boots_hell 1 0.01
+    - unity_of_the_alliance_hell 1 0.02
+    - fjalnirs_ring_of_frost_hell 1 0.001
+
+simple_troll_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - simple_troll_hell_drop_item_drops 1
+simple_troll_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_hell 1 0.01
+    - frozen_mud_boots_hell 1 0.01
+    - unity_of_the_alliance_hell 1 0.02
+    - fjalnirs_ring_of_frost_hell 1 0.001
+
+frost_magician_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - frost_magician_hell_drop_item_drops 1
+frost_magician_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_hell 1 0.025
+    - frozen_mud_boots_hell 1 0.025
+    - unity_of_the_alliance_hell 1 0.1
+    - fjalnirs_ring_of_frost_hell 1 0.02
+
+frost_bringer_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - frost_bringer_hell_drop_item_drops 1
+frost_bringer_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_hell 1 0.025
+    - frozen_mud_boots_hell 1 0.025
+    - unity_of_the_alliance_hell 1 0.1
+    - fjalnirs_ring_of_frost_hell 1 0.02
+
+pale_enforcer_hell_drop:
+  Drops:
+    - ips 2 0.5
+    - pale_enforcer_hell_drop_item_drops 1
+pale_enforcer_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - fjalnirs_ring_of_frost_hell 1 0.05
+    - sigrismarrs_eternal_ward_hell 1 0.0125
+
+# Mission 3 Boss
+sigrismarr_hell_drop:
+  Drops:
+    - sigrismar_frag_II 1 0.05
+    - ips 2 1
+    - sigrismarr_hell_drop_item_drops 1
+sigrismarr_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - fjalnirs_ring_of_frost_hell 1 0.125
+    - sigrismarrs_eternal_ward_hell 1 0.025
+
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+electrified_ferocity_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - electrified_ferocity_blood_drop_item_drops 1
+electrified_ferocity_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_blood 1 0.01
+    - frozen_mud_boots_blood 1 0.01
+    - unity_of_the_alliance_blood 1 0.03
+    - fjalnirs_ring_of_frost_blood 1 0.005
+
+charged_drone_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - charged_drone_blood_drop_item_drops 1
+charged_drone_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_blood 1 0.01
+    - frozen_mud_boots_blood 1 0.01
+    - unity_of_the_alliance_blood 1 0.03
+    - fjalnirs_ring_of_frost_blood 1 0.005
+
+big_heap_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - big_heap_blood_drop_item_drops 1
+big_heap_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_blood 1 0.25
+    - frozen_mud_boots_blood 1 0.025
+    - unity_of_the_alliance_blood 1 0.2
+    - fjalnirs_ring_of_frost_blood 1 0.03
+
+frostwolf_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - frostwolf_blood_drop_item_drops 1
+frostwolf_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_blood 1 0.25
+    - frozen_mud_boots_blood 1 0.025
+    - unity_of_the_alliance_blood 1 0.2
+    - fjalnirs_ring_of_frost_blood 1 0.03
+
+shocking_forocity_blood_drop:
+  Drops:
+    - ips 3 0.5
+    - shocking_forocity_blood_drop_item_drops 1
+shocking_forocity_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - fjalnirs_ring_of_frost_blood 1 0.06
+    - sigrismarrs_eternal_ward_blood 1 0.025
+    - sigrismarrs_eternal_grasp_blood 1 0.001
+
+# Mission 2 Mobs
+pale_pillager_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - pale_pillager_blood_drop_item_drops 1
+pale_pillager_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_blood 1 0.01
+    - frozen_mud_boots_blood 1 0.01
+    - unity_of_the_alliance_blood 1 0.03
+    - fjalnirs_ring_of_frost_blood 1 0.005
+
+simple_troll_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - simple_troll_blood_drop_item_drops 1
+simple_troll_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_blood 1 0.01
+    - frozen_mud_boots_blood 1 0.01
+    - unity_of_the_alliance_blood 1 0.03
+    - fjalnirs_ring_of_frost_blood 1 0.005
+
+frost_magician_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - frost_magician_blood_drop_item_drops 1
+frost_magician_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_blood 1 0.25
+    - frozen_mud_boots_blood 1 0.025
+    - unity_of_the_alliance_blood 1 0.2
+    - fjalnirs_ring_of_frost_blood 1 0.03
+
+frost_bringer_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - frost_bringer_blood_drop_item_drops 1
+frost_bringer_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - frost_axe_blood 1 0.25
+    - frozen_mud_boots_blood 1 0.025
+    - unity_of_the_alliance_blood 1 0.2
+    - fjalnirs_ring_of_frost_blood 1 0.03
+
+pale_enforcer_blood_drop:
+  Drops:
+    - ips 3 0.5
+    - pale_enforcer_blood_drop_item_drops 1
+pale_enforcer_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - fjalnirs_ring_of_frost_blood 1 0.06
+    - sigrismarrs_eternal_ward_blood 1 0.025
+    - sigrismarrs_eternal_grasp_blood 1 0.001
+
+# Mission 3 Boss
+sigrismarr_blood_drop:
+  Drops:
+    - sigrismar_frag_III 1 0.05
+    - ips 3 1
+    - sigrismarr_blood_drop_item_drops 1
+sigrismarr_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - fjalnirs_ring_of_frost_blood 1 0.15
+    - sigrismarrs_eternal_ward_blood 1 0.05
+    - sigrismarrs_eternal_grasp_blood 1 0.01

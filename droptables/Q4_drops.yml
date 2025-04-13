@@ -1,0 +1,241 @@
+# INF INF INF
+# INF INF INF
+# INF INF INF
+sanguine_clan_raging_guardian_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - sanguine_clan_raging_guardian_inf_drop_item_drops 1
+sanguine_clan_raging_guardian_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - honey_charm_infernal 1 0.01
+    - beekeeper_hat_infernal 1 0.01
+    - strike_of_the_untouchables_infernal 1 0.01
+    - artayas_cape_of_life_infernal 1 0.0005
+
+raging_hunting_hound_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - raging_hunting_hound_inf_drop_item_drops 1
+raging_hunting_hound_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - honey_charm_infernal 1 0.01
+    - beekeeper_hat_infernal 1 0.01
+    - strike_of_the_untouchables_infernal 1 0.01
+    - artayas_cape_of_life_infernal 1 0.0005
+
+sanguine_clan_raging_snooper_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - sanguine_clan_raging_snooper_inf_drop_item_drops 1
+sanguine_clan_raging_snooper_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - honey_charm_infernal 1 0.25
+    - beekeeper_hat_infernal 1 0.25
+    - strike_of_the_untouchables_infernal 1 0.05
+    - artayas_cape_of_life_infernal 1 0.01
+
+sanguine_hunter_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - sanguine_hunter_inf_drop_item_drops 1
+sanguine_hunter_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - honey_charm_infernal 1 0.25
+    - beekeeper_hat_infernal 1 0.25
+    - strike_of_the_untouchables_infernal 1 0.05
+    - artayas_cape_of_life_infernal 1 0.01
+
+ancient_stag_inf_drop:
+  Drops:
+    - ips 1 0.5
+    - ancient_stag_inf_drop_item_drops 1
+ancient_stag_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - honey_charm_infernal 1 0.5
+    - beekeeper_hat_infernal 1 0.5
+    - strike_of_the_untouchables_infernal 1 0.1
+    - artayas_cape_of_life_infernal 1 0.04
+
+bearach_inf_drop:
+  Drops:
+    - bearach_frag_I 1 0.05
+    - ips 1 1
+    - bearach_inf_drop_item_drops 1
+bearach_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - honey_charm_infernal 1 1
+    - beekeeper_hat_infernal 1 1
+    - strike_of_the_untouchables_infernal 1 0.25
+    - artayas_cape_of_life_infernal 1 0.1
+
+# HELL HELL HELL
+# HELL HELL HELL
+# HELL HELL HELL
+sanguine_clan_raging_guardian_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - sanguine_clan_raging_guardian_hell_drop_item_drops 1
+sanguine_clan_raging_guardian_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - honey_charm_hell 1 0.01
+    - beekeeper_hat_hell 1 0.01
+    - strike_of_the_untouchables_hell 1 0.02
+    - artayas_cape_of_life_hell 1 0.001
+
+raging_hunting_hound_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - raging_hunting_hound_hell_drop_item_drops 1
+raging_hunting_hound_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - honey_charm_hell 1 0.01
+    - beekeeper_hat_hell 1 0.01
+    - strike_of_the_untouchables_hell 1 0.02
+    - artayas_cape_of_life_hell 1 0.001
+
+sanguine_clan_raging_snooper_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - sanguine_clan_raging_snooper_hell_drop_item_drops 1
+sanguine_clan_raging_snooper_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - honey_charm_hell 1 0.025
+    - beekeeper_hat_hell 1 0.025
+    - strike_of_the_untouchables_hell 1 0.1
+    - artayas_cape_of_life_hell 1 0.02
+
+sanguine_hunter_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - sanguine_hunter_hell_drop_item_drops 1
+sanguine_hunter_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - honey_charm_hell 1 0.025
+    - beekeeper_hat_hell 1 0.025
+    - strike_of_the_untouchables_hell 1 0.1
+    - artayas_cape_of_life_hell 1 0.02
+
+ancient_stag_hell_drop:
+  Drops:
+    - ips 2 0.5
+    - ancient_stag_hell_drop_item_drops 1
+ancient_stag_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - artayas_cape_of_life_hell 1 0.05
+    - artayas_wild_care_hell 1 0.0125
+
+bearach_hell_drop:
+  Drops:
+    - bearach_frag_II 1 0.05
+    - ips 2 1
+    - bearach_hell_drop_item_drops 1
+bearach_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - artayas_cape_of_life_hell 1 0.125
+    - artayas_wild_care_hell 1 0.025
+
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+sanguine_clan_raging_guardian_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - sanguine_clan_raging_guardian_blood_drop_item_drops 1
+sanguine_clan_raging_guardian_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - honey_charm_blood 1 0.01
+    - beekeeper_hat_blood 1 0.01
+    - strike_of_the_untouchables_blood 1 0.03
+    - artayas_cape_of_life_blood 1 0.005
+
+raging_hunting_hound_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - raging_hunting_hound_blood_drop_item_drops 1
+raging_hunting_hound_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - honey_charm_blood 1 0.01
+    - beekeeper_hat_blood 1 0.01
+    - strike_of_the_untouchables_blood 1 0.03
+    - artayas_cape_of_life_blood 1 0.005
+
+sanguine_clan_raging_snooper_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - sanguine_clan_raging_snooper_blood_drop_item_drops 1
+sanguine_clan_raging_snooper_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - honey_charm_blood 1 0.25
+    - beekeeper_hat_blood 1 0.025
+    - strike_of_the_untouchables_blood 1 0.2
+    - artayas_cape_of_life_blood 1 0.03
+
+sanguine_hunter_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - sanguine_hunter_blood_drop_item_drops 1
+sanguine_hunter_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - honey_charm_blood 1 0.25
+    - beekeeper_hat_blood 1 0.025
+    - strike_of_the_untouchables_blood 1 0.2
+    - artayas_cape_of_life_blood 1 0.03
+
+ancient_stag_blood_drop:
+  Drops:
+    - ips 3 0.5
+    - ancient_stag_blood_drop_item_drops 1
+ancient_stag_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - artayas_cape_of_life_blood 1 0.06
+    - artayas_wild_care_blood 1 0.025
+    - bearachs_tormentor_blood 1 0.001
+    - bearachs_instinct_blood 1 0.001
+
+bearach_blood_drop:
+  Drops:
+    - bearach_frag_III 1 0.05
+    - ips 3 1
+    - bearach_blood_drop_item_drops 1
+bearach_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - artayas_cape_of_life_blood 1 0.15
+    - artayas_wild_care_blood 1 0.05
+    - bearachs_tormentor_blood 1 0.01
+    - bearachs_instinct_blood 1 0.01

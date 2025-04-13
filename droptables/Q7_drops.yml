@@ -1,0 +1,441 @@
+# INF INF INF
+# INF INF INF
+# INF INF INF
+bone_warder_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - bone_warder_inf_drop_item_drops 1
+bone_warder_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_infernal 1 0.01
+    - fire_shroud_of_sun_infernal 1 0.01
+    - resolve_of_the_alliance_infernal 1 0.01
+    - fyrgons_fire_belt_infernal 1 0.0005
+
+b1000_combat_mechanoid_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - b1000_combat_mechanoid_inf_drop_item_drops 1
+b1000_combat_mechanoid_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_infernal 1 0.01
+    - fire_shroud_of_sun_infernal 1 0.01
+    - resolve_of_the_alliance_infernal 1 0.01
+    - fyrgons_fire_belt_infernal 1 0.0005
+
+thundering_cyclops_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - thundering_cyclops_inf_drop_item_drops 1
+thundering_cyclops_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_infernal 1 0.25
+    - fire_shroud_of_sun_infernal 1 0.25
+    - resolve_of_the_alliance_infernal 1 0.05
+    - fyrgons_fire_belt_infernal 1 0.01
+
+dark_sentinel_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - dark_sentinel_inf_drop_item_drops 1
+dark_sentinel_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_infernal 1 0.25
+    - fire_shroud_of_sun_infernal 1 0.25
+    - resolve_of_the_alliance_infernal 1 0.05
+    - fyrgons_fire_belt_infernal 1 0.01
+
+gate_guard_inf_drop:
+  Drops:
+    - ips 1 0.5
+    - gate_guard_inf_drop_item_drops 1
+gate_guard_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - blazing_shield_infernal 1 0.5
+    - fire_shroud_of_sun_infernal 1 0.5
+    - resolve_of_the_alliance_infernal 1 0.1
+    - fyrgons_fire_belt_infernal 1 0.04
+
+# Mission 2 Mobs
+razorclaw_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - razorclaw_inf_drop_item_drops 1
+razorclaw_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_infernal 1 0.01
+    - fire_shroud_of_sun_infernal 1 0.01
+    - resolve_of_the_alliance_infernal 1 0.01
+    - fyrgons_fire_belt_infernal 1 0.0005
+
+flamescale_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - flamescale_inf_drop_item_drops 1
+flamescale_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_infernal 1 0.01
+    - fire_shroud_of_sun_infernal 1 0.01
+    - resolve_of_the_alliance_infernal 1 0.01
+    - fyrgons_fire_belt_infernal 1 0.0005
+
+fireclaw_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - fireclaw_inf_drop_item_drops 1
+fireclaw_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_infernal 1 0.25
+    - fire_shroud_of_sun_infernal 1 0.25
+    - resolve_of_the_alliance_infernal 1 0.05
+    - fyrgons_fire_belt_infernal 1 0.01
+
+flamespawn_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - flamespawn_inf_drop_item_drops 1
+flamespawn_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_infernal 1 0.01
+    - fire_shroud_of_sun_infernal 1 0.01
+    - resolve_of_the_alliance_infernal 1 0.01
+    - fyrgons_fire_belt_infernal 1 0.0005
+
+commander_inf_drop:
+  Drops:
+    - ips 1 0.5
+    - commander_inf_drop_item_drops 1
+commander_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - blazing_shield_infernal 1 0.5
+    - fire_shroud_of_sun_infernal 1 0.5
+    - resolve_of_the_alliance_infernal 1 0.1
+    - fyrgons_fire_belt_infernal 1 0.04
+
+# Mission 3 Boss
+herald_inf_drop:
+  Drops:
+    - heralds_frag_I 1 0.05
+    - ips 1 1
+    - herald_inf_drop_item_drops 1
+herald_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - blazing_shield_infernal 1 1
+    - fire_shroud_of_sun_infernal 1 1
+    - resolve_of_the_alliance_infernal 1 0.25
+    - fyrgons_fire_belt_infernal 1 0.1
+
+# HELL HELL HELL
+# HELL HELL HELL
+# HELL HELL HELL
+
+bone_warder_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - bone_warder_hell_drop_item_drops 1
+bone_warder_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_hell 1 0.01
+    - fire_shroud_of_sun_hell 1 0.01
+    - resolve_of_the_alliance_hell 1 0.02
+    - fyrgons_fire_belt_hell 1 0.001
+
+b1000_combat_mechanoid_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - b1000_combat_mechanoid_hell_drop_item_drops 1
+b1000_combat_mechanoid_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_hell 1 0.01
+    - fire_shroud_of_sun_hell 1 0.01
+    - resolve_of_the_alliance_hell 1 0.02
+    - fyrgons_fire_belt_hell 1 0.001
+
+thundering_cyclops_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - thundering_cyclops_hell_drop_item_drops 1
+thundering_cyclops_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_hell 1 0.025
+    - fire_shroud_of_sun_hell 1 0.025
+    - resolve_of_the_alliance_hell 1 0.1
+    - fyrgons_fire_belt_hell 1 0.02
+
+dark_sentinel_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - dark_sentinel_hell_drop_item_drops 1
+dark_sentinel_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_hell 1 0.025
+    - fire_shroud_of_sun_hell 1 0.025
+    - resolve_of_the_alliance_hell 1 0.1
+    - fyrgons_fire_belt_hell 1 0.02
+
+gate_guard_hell_drop:
+  Drops:
+    - ips 2 0.5
+    - gate_guard_hell_drop_item_drops 1
+gate_guard_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - fyrgons_fire_belt_hell 1 0.05
+    - the_heralds_burning_thunder_hell 1 0.0125
+
+# Mission 2 Mobs
+razorclaw_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - razorclaw_hell_drop_item_drops 1
+razorclaw_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_hell 1 0.01
+    - fire_shroud_of_sun_hell 1 0.01
+    - resolve_of_the_alliance_hell 1 0.02
+    - fyrgons_fire_belt_hell 1 0.001
+
+flamescale_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - flamescale_hell_drop_item_drops 1
+flamescale_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_hell 1 0.01
+    - fire_shroud_of_sun_hell 1 0.01
+    - resolve_of_the_alliance_hell 1 0.02
+    - fyrgons_fire_belt_hell 1 0.001
+
+fireclaw_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - fireclaw_hell_drop_item_drops 1
+fireclaw_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_hell 1 0.025
+    - fire_shroud_of_sun_hell 1 0.025
+    - resolve_of_the_alliance_hell 1 0.1
+    - fyrgons_fire_belt_hell 1 0.02
+
+flamespawn_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - flamespawn_hell_drop_item_drops 1
+flamespawn_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_hell 1 0.01
+    - fire_shroud_of_sun_hell 1 0.01
+    - resolve_of_the_alliance_hell 1 0.02
+    - fyrgons_fire_belt_hell 1 0.001
+
+commander_hell_drop:
+  Drops:
+    - ips 2 0.5
+    - commander_hell_drop_item_drops 1
+commander_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - fyrgons_fire_belt_hell 1 0.05
+    - the_heralds_burning_thunder_hell 1 0.0125
+
+# Mission 3 Boss
+herald_hell_drop:
+  Drops:
+    - heralds_frag_II 1 0.05
+    - ips 2 1
+    - herald_hell_drop_item_drops 1
+herald_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - fyrgons_fire_belt_hell 1 0.125
+    - the_heralds_burning_thunder_hell 1 0.025
+
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+bone_warder_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - bone_warder_blood_drop_item_drops 1
+bone_warder_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_blood 1 0.01
+    - fire_shroud_of_sun_blood 1 0.01
+    - resolve_of_the_alliance_blood 1 0.03
+    - fyrgons_fire_belt_blood 1 0.005
+
+b1000_combat_mechanoid_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - b1000_combat_mechanoid_blood_drop_item_drops 1
+b1000_combat_mechanoid_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_blood 1 0.01
+    - fire_shroud_of_sun_blood 1 0.01
+    - resolve_of_the_alliance_blood 1 0.03
+    - fyrgons_fire_belt_blood 1 0.005
+
+thundering_cyclops_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - thundering_cyclops_blood_drop_item_drops 1
+thundering_cyclops_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_blood 1 0.25
+    - fire_shroud_of_sun_blood 1 0.025
+    - resolve_of_the_alliance_blood 1 0.2
+    - fyrgons_fire_belt_blood 1 0.03
+
+dark_sentinel_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - dark_sentinel_blood_drop_item_drops 1
+dark_sentinel_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_blood 1 0.25
+    - fire_shroud_of_sun_blood 1 0.025
+    - resolve_of_the_alliance_blood 1 0.2
+    - fyrgons_fire_belt_blood 1 0.03
+
+gate_guard_blood_drop:
+  Drops:
+    - ips 3 0.5
+    - gate_guard_blood_drop_item_drops 1
+gate_guard_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - fyrgons_fire_belt_blood 1 0.06
+    - the_heralds_burning_thunder_blood 1 0.025
+    - the_heralds_blazing_onslaught_blood 1 0.001
+    - unbreakable_magma_blood 1 0.001
+
+# Mission 2 Mobs
+razorclaw_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - razorclaw_blood_drop_item_drops 1
+razorclaw_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_blood 1 0.01
+    - fire_shroud_of_sun_blood 1 0.01
+    - resolve_of_the_alliance_blood 1 0.03
+    - fyrgons_fire_belt_blood 1 0.005
+
+flamescale_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - flamescale_blood_drop_item_drops 1
+flamescale_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_blood 1 0.01
+    - fire_shroud_of_sun_blood 1 0.01
+    - resolve_of_the_alliance_blood 1 0.03
+    - fyrgons_fire_belt_blood 1 0.005
+
+fireclaw_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - fireclaw_blood_drop_item_drops 1
+fireclaw_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_blood 1 0.25
+    - fire_shroud_of_sun_blood 1 0.025
+    - resolve_of_the_alliance_blood 1 0.2
+    - fyrgons_fire_belt_blood 1 0.03
+
+flamespawn_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - flamespawn_blood_drop_item_drops 1
+flamespawn_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - blazing_shield_blood 1 0.01
+    - fire_shroud_of_sun_blood 1 0.01
+    - resolve_of_the_alliance_blood 1 0.03
+    - fyrgons_fire_belt_blood 1 0.005
+
+commander_blood_drop:
+  Drops:
+    - ips 3 0.5
+    - commander_blood_drop_item_drops 1
+commander_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - fyrgons_fire_belt_blood 1 0.06
+    - the_heralds_burning_thunder_blood 1 0.025
+    - the_heralds_blazing_onslaught_blood 1 0.001
+    - unbreakable_magma_blood 1 0.001
+
+# Mission 3 Boss
+herald_blood_drop:
+  Drops:
+    - heralds_frag_III 1 0.05
+    - ips 3 1
+    - herald_blood_drop_item_drops 1
+herald_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - fyrgons_fire_belt_blood 1 0.15
+    - the_heralds_burning_thunder_blood 1 0.05
+    - the_heralds_blazing_onslaught_blood 1 0.01
+    - unbreakable_magma_blood 1 0.01

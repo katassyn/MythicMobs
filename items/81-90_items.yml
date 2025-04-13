@@ -1,0 +1,121 @@
+corrupted_roots_helmet:
+  Id: diamond_helmet
+  Display: '&l&5✯&r &5Corrupted Roots Helmet'
+  Group: 81-90
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:65
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 65 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+twisted_bark_chestplate:
+  Id: diamond_chestplate
+  Display: '&l&5✯&r &5Twisted Bark Chestplate'
+  Group: 81-90
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:65
+    - THORNS:30
+  Lore:
+    - ''
+    - '&7Protection:&9 65 🛡'
+    - '&7Thorns:&2 30 🌵'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=25;p=false;force=true;hasIcon=false} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+woodland_wraith_blade:
+  Id: diamond_sword
+  Display: '&l&5✯&r &5Woodland Wraith Blade'
+  Group: 81-90
+  Lore:
+    - ''
+    - '§7Damage: §c333 ⚔'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 333 ADD
+
+ancient_forest_belt:
+  Id: minecart
+  Display: '&6⚜ &6Ancient Forest Belt'
+  Group: 81-90
+  Lore:
+    - ''
+    - '§7Health: §c+8 ❤'
+    - '§7Movement Speed: §b+0.01 👟'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 8 ADD
+      MovementSpeed: 0.01 ADD
+
+corrupted_heartwood_ring:
+  Id: hopper_minecart
+  Display: '&6⚜ &6Corrupted Heartwood Ring'
+  Group: 81-90
+  Lore:
+    - ''
+    - '§7Damage: §c+75 ⚔'
+    - '§7Attack Speed: §a+0.05 ⚡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 75 ADD
+      AttackSpeed: 0.05 ADD
+
+twisted_vine_ornament:
+  Id: furnace_minecart
+  Display: '&e❇ &eTwisted Vine Ornament'
+  Group: 81-90
+  Lore:
+    - ''
+    - '§7Damage: §c+50 ⚔'
+    - '§7Health: §c+5 ❤'
+    - '&lRarity:&r &e&lUnique'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 50 ADD
+      Health: 5 ADD

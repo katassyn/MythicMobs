@@ -1,0 +1,392 @@
+# INF INF INF
+# INF INF INF
+# INF INF INF
+furious_maggot_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - furious_maggot_inf_drop_item_drops 1
+furious_maggot_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_infernal 1 0.01
+    - void_axe_infernal 1 0.01
+    - duty_of_the_untouchables_infernal 1 0.01
+    - khalys_dark_gaze_infernal 1 0.0005
+
+furious_flagrancy_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - furious_flagrancy_inf_drop_item_drops 1
+furious_flagrancy_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_infernal 1 0.01
+    - void_axe_infernal 1 0.01
+    - duty_of_the_untouchables_infernal 1 0.01
+    - khalys_dark_gaze_infernal 1 0.0005
+
+living_andermagic_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - living_andermagic_inf_drop_item_drops 1
+living_andermagic_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_infernal 1 0.01
+    - void_axe_infernal 1 0.01
+    - duty_of_the_untouchables_infernal 1 0.01
+    - khalys_dark_gaze_infernal 1 0.0005
+
+andermagic_guardian_inf_drop:
+  Drops:
+    - ips 1 0.01
+    - andermagic_guardian_inf_drop_item_drops 1
+andermagic_guardian_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_infernal 1 0.01
+    - void_axe_infernal 1 0.01
+    - duty_of_the_untouchables_infernal 1 0.01
+    - khalys_dark_gaze_infernal 1 0.0005
+
+furious_andermagic_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - furious_andermagic_inf_drop_item_drops 1
+furious_andermagic_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_infernal 1 0.25
+    - void_axe_infernal 1 0.25
+    - duty_of_the_untouchables_infernal 1 0.05
+    - khalys_dark_gaze_infernal 1 0.01
+
+wailing_ghost_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - wailing_ghost_inf_drop_item_drops 1
+wailing_ghost_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_infernal 1 0.25
+    - void_axe_infernal 1 0.25
+    - duty_of_the_untouchables_infernal 1 0.05
+    - khalys_dark_gaze_infernal 1 0.01
+
+andermagic_scoropitl_inf_drop:
+  Drops:
+    - ips 1 0.25
+    - andermagic_scoropitl_inf_drop_item_drops 1
+andermagic_scoropitl_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_infernal 1 0.25
+    - void_axe_infernal 1 0.25
+    - duty_of_the_untouchables_infernal 1 0.05
+    - khalys_dark_gaze_infernal 1 0.01
+
+old_jabbax_shaman_inf_drop:
+  Drops:
+    - ips 1 0.5
+    - old_jabbax_shaman_inf_drop_item_drops 1
+old_jabbax_shaman_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - andermagic_neckel_infernal 1 0.5
+    - void_axe_infernal 1 0.5
+    - duty_of_the_untouchables_infernal 1 0.1
+    - khalys_dark_gaze_infernal 1 0.04
+
+wandering_experiment_inf_drop:
+  Drops:
+    - ips 1 0.5
+    - wandering_experiment_inf_drop_item_drops 1
+wandering_experiment_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - andermagic_neckel_infernal 1 0.5
+    - void_axe_infernal 1 0.5
+    - duty_of_the_untouchables_infernal 1 0.1
+    - khalys_dark_gaze_infernal 1 0.04
+
+khalys_inf_drop:
+  Drops:
+    - khalys_frag_I 1 0.05
+    - ips 1 1
+    - khalys_inf_drop_item_drops 1
+khalys_inf_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - andermagic_neckel_infernal 1 1
+    - void_axe_infernal 1 1
+    - duty_of_the_untouchables_infernal 1 0.25
+    - khalys_dark_gaze_infernal 1 0.1
+
+# HELL HELL HELL
+# HELL HELL HELL
+# HELL HELL HELL
+furious_maggot_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - furious_maggot_hell_drop_item_drops 1
+furious_maggot_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_hell 1 0.01
+    - void_axe_hell 1 0.01
+    - duty_of_the_untouchables_hell 1 0.02
+    - khalys_dark_gaze_hell 1 0.001
+
+furious_flagrancy_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - furious_flagrancy_hell_drop_item_drops 1
+furious_flagrancy_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_hell 1 0.01
+    - void_axe_hell 1 0.01
+    - duty_of_the_untouchables_hell 1 0.02
+    - khalys_dark_gaze_hell 1 0.001
+
+living_andermagic_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - living_andermagic_hell_drop_item_drops 1
+living_andermagic_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_hell 1 0.01
+    - void_axe_hell 1 0.01
+    - duty_of_the_untouchables_hell 1 0.02
+    - khalys_dark_gaze_hell 1 0.001
+
+andermagic_guardian_hell_drop:
+  Drops:
+    - ips 2 0.01
+    - andermagic_guardian_hell_drop_item_drops 1
+andermagic_guardian_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_hell 1 0.01
+    - void_axe_hell 1 0.01
+    - duty_of_the_untouchables_hell 1 0.02
+    - khalys_dark_gaze_hell 1 0.001
+
+furious_andermagic_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - furious_andermagic_hell_drop_item_drops 1
+furious_andermagic_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_hell 1 0.025
+    - void_axe_hell 1 0.025
+    - duty_of_the_untouchables_hell 1 0.1
+    - khalys_dark_gaze_hell 1 0.02
+
+wailing_ghost_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - wailing_ghost_hell_drop_item_drops 1
+wailing_ghost_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_hell 1 0.025
+    - void_axe_hell 1 0.025
+    - duty_of_the_untouchables_hell 1 0.1
+    - khalys_dark_gaze_hell 1 0.02
+
+andermagic_scoropitl_hell_drop:
+  Drops:
+    - ips 2 0.25
+    - andermagic_scoropitl_hell_drop_item_drops 1
+andermagic_scoropitl_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_hell 1 0.025
+    - void_axe_hell 1 0.025
+    - duty_of_the_untouchables_hell 1 0.1
+    - khalys_dark_gaze_hell 1 0.02
+
+old_jabbax_shaman_hell_drop:
+  Drops:
+    - ips 2 0.5
+    - old_jabbax_shaman_hell_drop_item_drops 1
+old_jabbax_shaman_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - khalys_dark_gaze_hell 1 0.05
+    - khalys_dark_scheme_hell 1 0.0125
+
+wandering_experiment_hell_drop:
+  Drops:
+    - ips 2 0.5
+    - wandering_experiment_hell_drop_item_drops 1
+wandering_experiment_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - khalys_dark_gaze_hell 1 0.05
+    - khalys_dark_scheme_hell 1 0.0125
+
+khalys_hell_drop:
+  Drops:
+    - khalys_frag_II 1 0.05
+    - ips 2 1
+    - khalys_hell_drop_item_drops 1
+khalys_hell_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - khalys_dark_gaze_hell 1 0.125
+    - khalys_dark_scheme_hell 1 0.025
+
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+# BLOOD BLOOD BLOOD
+furious_maggot_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - furious_maggot_blood_drop_item_drops 1
+furious_maggot_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_blood 1 0.01
+    - void_axe_blood 1 0.01
+    - duty_of_the_untouchables_blood 1 0.03
+    - khalys_dark_gaze_blood 1 0.005
+
+furious_flagrancy_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - furious_flagrancy_blood_drop_item_drops 1
+furious_flagrancy_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_blood 1 0.01
+    - void_axe_blood 1 0.01
+    - duty_of_the_untouchables_blood 1 0.03
+    - khalys_dark_gaze_blood 1 0.005
+
+living_andermagic_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - living_andermagic_blood_drop_item_drops 1
+living_andermagic_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_blood 1 0.01
+    - void_axe_blood 1 0.01
+    - duty_of_the_untouchables_blood 1 0.03
+    - khalys_dark_gaze_blood 1 0.005
+
+andermagic_guardian_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - andermagic_guardian_blood_drop_item_drops 1
+andermagic_guardian_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_blood 1 0.01
+    - void_axe_blood 1 0.01
+    - duty_of_the_untouchables_blood 1 0.03
+    - khalys_dark_gaze_blood 1 0.005
+
+furious_andermagic_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - furious_andermagic_blood_drop_item_drops 1
+furious_andermagic_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_blood 1 0.25
+    - void_axe_blood 1 0.025
+    - duty_of_the_untouchables_blood 1 0.2
+    - khalys_dark_gaze_blood 1 0.03
+
+wailing_ghost_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - wailing_ghost_blood_drop_item_drops 1
+wailing_ghost_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_blood 1 0.25
+    - void_axe_blood 1 0.025
+    - duty_of_the_untouchables_blood 1 0.2
+    - khalys_dark_gaze_blood 1 0.03
+
+andermagic_scoropitl_blood_drop:
+  Drops:
+    - ips 3 0.01
+    - andermagic_scoropitl_blood_drop_item_drops 1
+andermagic_scoropitl_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - andermagic_neckel_blood 1 0.25
+    - void_axe_blood 1 0.025
+    - duty_of_the_untouchables_blood 1 0.2
+    - khalys_dark_gaze_blood 1 0.03
+
+old_jabbax_shaman_blood_drop:
+  Drops:
+    - ips 3 0.5
+    - old_jabbax_shaman_blood_drop_item_drops 1
+old_jabbax_shaman_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - khalys_dark_gaze_blood 1 0.06
+    - khalys_dark_scheme_blood 1 0.025
+    - balor_ring_of_chaos_blood 1 0.001
+
+wandering_experiment_blood_drop:
+  Drops:
+    - ips 3 0.5
+    - wandering_experiment_blood_drop_item_drops 1
+wandering_experiment_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - khalys_dark_gaze_blood 1 0.06
+    - khalys_dark_scheme_blood 1 0.025
+    - balor_ring_of_chaos_blood 1 0.001
+
+khalys_blood_drop:
+  Drops:
+    - khalys_frag_III 1 0.05
+    - ips 3 1
+    - khalys_blood_drop_item_drops 1
+khalys_blood_drop_item_drops:
+  MinItems: 0
+  MaxItems: 3
+  Drops:
+    - khalys_dark_gaze_blood 1 0.15
+    - khalys_dark_scheme_blood 1 0.05
+    - balor_ring_of_chaos_blood 1 0.01
