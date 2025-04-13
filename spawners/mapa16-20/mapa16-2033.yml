@@ -24,5 +24,6 @@ mapa16-2033:
   ShowFlames: false
   Conditions: []
   SpawnConditions: []
-  CooldownTimer: 1
+  CooldownTimer: 10
   SpawnerGroup: 16-20
+  ActiveMobs: 2

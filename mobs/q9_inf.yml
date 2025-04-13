@@ -4,6 +4,8 @@ agile_satyr_warrior_inf:
   Display: '&lAgile Satyr Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 800  # Similar to other basic melee mobs
   Damage: 150
+  Faction: q9_inf
+  Group: q9_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.35  # Faster than average
@@ -22,7 +24,7 @@ agile_satyr_warrior_inf:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - agile_satyr_inf_drop
+    - agile_satyr_warrior_inf_drop
     - q_inf_mob_crafting
 
 perfidious_satyr_archer_inf:
@@ -30,6 +32,8 @@ perfidious_satyr_archer_inf:
   Display: '&lPerfidious Satyr Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 600  # Low HP like other archers
   Damage: 200  # Decent damage since ranged
+  Faction: q9_inf
+  Group: q9_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -48,7 +52,7 @@ perfidious_satyr_archer_inf:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - satyr_archer_inf_drop
+    - perfidious_satyr_archer_inf_drop
     - q_inf_mob_crafting
 
 cohort_swordsman_inf:
@@ -56,6 +60,8 @@ cohort_swordsman_inf:
   Display: '&e&lCohort Swordsman &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1200  # Elite mob HP
   Damage: 200   # Good damage
+  Faction: q9_inf
+  Group: q9_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.3
@@ -83,6 +89,8 @@ stone_golem_inf:
   Display: '&e&lStone Golem &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2000  # High HP elite
   Damage: 250   # High damage
+  Faction: q9_inf
+  Group: q9_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.15  # Very slow
@@ -111,6 +119,8 @@ asterion_inf:
   Display: '&5&lAsterion &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000  # Mini-boss HP
   Damage: 300   # High damage
+  Faction: q9_inf
+  Group: q9_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -142,6 +152,8 @@ jabbax_inf:
   Display: '&lJabbax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 500  # Very low HP
   Damage: 100  # Low damage
+  Faction: q9_inf
+  Group: q9_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.25
@@ -167,6 +179,8 @@ zorlobb_warrior_inf:
   Display: '&e&lZorlobb Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1500  # High HP elite
   Damage: 250   # High damage
+  Faction: q9_inf
+  Group: q9_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.2  # Slow
@@ -194,6 +208,8 @@ gorgon_acolyte_inf:
   Display: '&lGorgon Acolyte &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 600  # Low HP
   Damage: 200  # Good damage
+  Faction: q9_inf
+  Group: q9_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -223,6 +239,8 @@ minotaur_inf:
   Display: '&e&lMinotaur &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2000  # Elite mob HP
   Damage: 250   # Good damage
+  Faction: q9_inf
+  Group: q9_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -251,6 +269,8 @@ ebicarus_inf:
   Display: '&5&lEbicarus &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000  # Mini-boss HP
   Damage: 300   # High damage
+  Faction: q9_inf
+  Group: q9_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.2  # Slow
@@ -281,6 +301,8 @@ medusa_inf:
   Display: '&4<&skull> &lM`Edusa &r&4<&skull>'
   Health: 5000  # Boss HP
   Damage: 200   # Base damage
+  Faction: q9_inf
+  Group: q9_inf
   BossBar:
     Enabled: true
     Title: '&c<&skull> M`Edusa - <mob.hp{round=0}> <&skull>'
@@ -317,6 +339,8 @@ snake_minion_inf:
   Display: '&lPoisonous Snake &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
   Health: 100
   Damage: 150
+  Faction: q9_inf
+  Group: q9_inf
   Options:
     MovementSpeed: 0.4
     ShowHealth: true

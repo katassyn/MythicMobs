@@ -6,9 +6,10 @@ ThrowBoulder:
     - projectile{onTick=Boulder-Tick;onHit=Boulder-Hit;v=8;i=CLAY_BALL;hR=1;vR=1} @target
     - effect:particles{p=BLOCK_CRACK;material=STONE;amount=20} @origin
 
+# Fix for Boulder-Tick
 Boulder-Tick:
   Skills:
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=5} @origin
+    - effect:particles{p=BLOCK_DUST;material=STONE;amount=5} @origin
 
 Boulder-Hit:
   Skills:

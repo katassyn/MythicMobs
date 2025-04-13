@@ -26,3 +26,4 @@ q2_hell26:
   SpawnConditions: []
   SpawnerGroup: q2_hell
   CooldownTimer: 1
+  ActiveMobs: 1

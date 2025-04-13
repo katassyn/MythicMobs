@@ -89,3 +89,21 @@ SummonFlamecultServants_blood:
   Skills:
     - message{m="&d<mob.name>&f: Arise, my servants!"}
     - summon{mob=flamecult_servant_blood;amount=8;radius=3;noise=2} @self
+
+CatapultProjectile:
+  Cooldown: 15
+  Skills:
+    - potion{type=SLOW;duration=60;level=2} @self
+    - message{m="&d<mob.name>&f: Take this!"} @PlayersInRadius{r=30}
+    - delay 10
+    - projectile{onTick=Catapult-Tick;onHit=Catapult-Hit;v=7;i=FIRE_CHARGE;hR=1;vR=1;hnp=true} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
+
+Catapult-Tick:
+  Skills:
+    - effect:particles{p=LAVA;amount=10;speed=0;hS=0.1;vS=0.1} @origin
+
+Catapult-Hit:
+  Skills:
+    - damage{a=200;ignoreArmor=false} @target
+    - effect:particles{p=EXPLOSION_LARGE;amount=1;speed=0} @target
+    - potion{type=SLOW;duration=60;level=1} @target

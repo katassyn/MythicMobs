@@ -84,7 +84,7 @@ satyrs_horn:
     Unbreakable: true
 
 gorgons_poison:
-  Id: scute
+  Id: light_blue_dye
   Display: '&2Gorgon`s Poison'
   Group: Quest
   Enchantments:

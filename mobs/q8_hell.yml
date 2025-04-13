@@ -4,7 +4,9 @@ electrified_ferocity_hell:
   Disguise: BLAZE
   Display: '&lElectrified Ferocity &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1800  # 3x600
-  Damage: 400   # 2x200
+  Damage: 400   # 2x200'
+  Faction: q8_hell
+  Group: q8_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -32,6 +34,8 @@ charged_drone_hell:
   Display: '&lCharged Drone &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1200  # 3x400
   Damage: 200   # 2x100
+  Faction: q8_hell
+  Group: q8_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.4
@@ -57,6 +61,8 @@ big_heap_of_ice_hell:
   Display: '&e&lBig Heap of Ice &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000  # 3x2000
   Damage: 600   # 2x300
+  Faction: q8_hell
+  Group: q8_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.15
@@ -84,6 +90,8 @@ bloodthirsty_frostwolf_hell:
   Display: '&e&lBloodthirsty Frostwolf &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 4500  # 3x1500
   Damage: 400   # 2x200
+  Faction: q8_hell
+  Group: q8_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.35
@@ -111,6 +119,8 @@ shocking_forocity_hell:
   Display: '&5&lShocking Forocity &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 9000  # 3x3000
   Damage: 500   # 2x250
+  Faction: q8_hell
+  Group: q8_hell
   Options:
     FollowRange: 25
     MovementSpeed: 0.3
@@ -142,6 +152,8 @@ pale_pillager_hell:
   Display: '&lPale Pillager &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2400  # 3x800
   Damage: 400   # 2x200
+  Faction: q8_hell
+  Group: q8_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.35
@@ -169,6 +181,8 @@ simple_troll_hell:
   Display: '&lSimple Troll &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 4500  # 3x1500
   Damage: 300   # 2x150
+  Faction: q8_hell
+  Group: q8_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -196,6 +210,8 @@ frost_magician_hell:
   Display: '&e&lFrost Magician &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1800  # 3x600
   Damage: 600   # 2x300
+  Faction: q8_hell
+  Group: q8_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.2
@@ -224,6 +240,8 @@ frost_bringer_hell:
   Display: '&e&lFrost Bringer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000  # 3x2000
   Damage: 500   # 2x250
+  Faction: q8_hell
+  Group: q8_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -251,6 +269,8 @@ pale_enforcer_hell:
   Display: '&5&lPale Enforcer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 9000  # 3x3000
   Damage: 400   # 2x200
+  Faction: q8_hell
+  Group: q8_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -271,7 +291,7 @@ pale_enforcer_hell:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=DashToPlayer_hell} @target ~onTimer:12
-    - skill{s=SummonPillagers_hell} @self ~onTimer:30 ?health<50%
+    - skill{s=SummonPillagers_hell} @self ~onTimer:30 ?Health.Below{r=0.5}
   Drops:
     - pale_enforcer_hell_drop
     - q_hell_elite_crafting
@@ -282,6 +302,8 @@ sigrismarr_priest_of_fjalnir_hell:
   Display: '&4<&skull> &lSigrismarr, Twisted Priest of Fjalnir &r&4<&skull>'
   Health: 15000  # 3x5000
   Damage: 0      # Uses skills for damage
+  Faction: q8_hell
+  Group: q8_hell
   BossBar:
     Enabled: true
     Title: '&c<&skull> Sigrismarr - <mob.hp{round=0}> <&skull>'
@@ -308,7 +330,7 @@ sigrismarr_priest_of_fjalnir_hell:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=TripleIceBolt_hell} @target ~onTimer:10
     - skill{s=HomingIceSphere_hell} @target ~onTimer:15
-    - skill{s=ImmunityPhase_hell} @self ~onTimer:1 ?health<66%
-    - skill{s=ImmunityPhase_hell} @self ~onTimer:1 ?health<33%
+    - skill{s=ImmunityPhase_hell} @self ~onTimer:1 ?Health.Below{r=0.66}
+    - skill{s=ImmunityPhase_hell} @self ~onTimer:1 ?Health.Below{r=0.33}
   Drops:
-    - sigrismarr_inf_drop
+    - sigrismarr_hell_drop

@@ -25,3 +25,5 @@ mapa16-2045:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: 16-20
+  CooldownTimer: 1
+  ActiveMobs: 1

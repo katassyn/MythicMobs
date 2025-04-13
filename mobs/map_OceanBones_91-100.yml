@@ -154,5 +154,3 @@ death_knight_of_the_watch:
     - skill{s=PosthumousAttack} @target ~onDeath
     - skill{s=PowerfulAttack} @target ~onAttack
     - skill{s=LongRange} @target ~onAttack
-
-

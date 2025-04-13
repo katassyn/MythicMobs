@@ -26,4 +26,4 @@ mapa6-10#3:
   Conditions: []
   SpawnConditions: []
   ActiveMobs: 1
-  CooldownTimer: 6
+  CooldownTimer: 1

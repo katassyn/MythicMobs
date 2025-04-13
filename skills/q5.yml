@@ -52,8 +52,7 @@ DamageAura_inf:
 RunFromPlayer_inf:
   Cooldown: 5
   Skills:
-    - runfromtarget{speed=2;maxdistance=20} @self
-
+    - throw{velocity=-2;velocityY=0.5} @self
 # Mission 3 Boss Skills
 SummonCopy_inf:
   Cooldown: 45
@@ -136,8 +135,7 @@ DamageAura_hell:
 RunFromPlayer_hell:
   Cooldown: 5
   Skills:
-    - runfromtarget{speed=2;maxdistance=20} @self
-
+    - throw{velocity=-2;velocityY=0.5} @self
 # Mission 3 Boss Skills
 SummonCopy_hell:
   Cooldown: 45
@@ -216,8 +214,7 @@ DamageAura_blood:
 RunFromPlayer_blood:
   Cooldown: 5
   Skills:
-    - runfromtarget{speed=2;maxdistance=20} @self
-
+    - throw{velocity=-2;velocityY=0.5} @self
 # Mission 3 Boss Skills
 SummonCopy_blood:
   Cooldown: 45

@@ -25,5 +25,5 @@ mapa61-70#128:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: 61-70
-  CooldownTimer: 1
+  CooldownTimer: 2
   ActiveMobs: 1

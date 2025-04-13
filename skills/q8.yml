@@ -49,7 +49,7 @@ DashToPlayer:
   Cooldown: 12
   Skills:
     - effect:particles{p=CLOUD;amount=20} @self
-    - dash{velocity=2;distance=10} @target
+    - teleport @target
     - damage{a=150} @target
 
 ThrowStunningStone:
@@ -186,7 +186,7 @@ DashToPlayer_hell:
   Cooldown: 12
   Skills:
     - effect:particles{p=CLOUD;amount=20} @self
-    - dash{velocity=2;distance=10} @target
+    - teleport @target
     - damage{a=300} @target  # 2x150
 
 ThrowStunningStone_hell:
@@ -305,7 +305,7 @@ DashToPlayer_blood:
   Cooldown: 12
   Skills:
     - effect:particles{p=CLOUD;amount=20} @self
-    - dash{velocity=2;distance=10} @target
+    - teleport @target
     - damage{a=750} @target
 
 ThrowStunningStone_blood:

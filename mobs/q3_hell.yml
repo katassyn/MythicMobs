@@ -3,6 +3,8 @@ cursed_farmer_hell:
   Display: '&lCursed Farmer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1500   # 3x500
   Damage: 200    # 2x100
+  Faction: q3_hell
+  Group: q3_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -30,6 +32,8 @@ cursed_farmer_hell:
 cursed_troll_hell:
   Type: ZOMBIE
   Disguise: RAVAGER
+  Faction: q3_hell
+  Group: q3_hell
   Display: '&e&lCursed Troll &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000   # 3x1000
   Damage: 300    # 2x150
@@ -64,6 +68,8 @@ cursed_archer_hell:
   Display: '&lCursed Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1200   # 3x400
   Damage: 240    # 2x120
+  Faction: q3_hell
+  Group: q3_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -93,6 +99,8 @@ parallel_world_evil_miller_hell:
   Display: '&5&lParallel World Evil Miller &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000   # 3x2000
   Damage: 300    # 2x150
+  Faction: q3_hell
+  Group: q3_hell
   Options:
     FollowRange: 25
     MovementSpeed: 0.2
@@ -127,6 +135,8 @@ slain_assassin_hell:
   Display: '&e&lSlain Assassin &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1800   # 3x600
   Damage: 400    # 2x200
+  Faction: q3_hell
+  Group: q3_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.4
@@ -156,6 +166,8 @@ slain_warrior_hell:
   Display: '&lSlain Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2400   # 3x800
   Damage: 260    # 2x130
+  Faction: q3_hell
+  Group: q3_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -185,6 +197,8 @@ slain_archer_hell:
   Display: '&lSlain Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1500   # 3x500
   Damage: 300    # 2x150
+  Faction: q3_hell
+  Group: q3_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.2
@@ -214,6 +228,8 @@ the_bloody_arrow_hell:
   Display: '&5&lThe Bloody Arrow &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 4500   # 3x1500
   Damage: 360    # 2x180
+  Faction: q3_hell
+  Group: q3_hell
   Options:
     FollowRange: 25
     MovementSpeed: 0.3
@@ -246,6 +262,8 @@ undead_parallel_world_king_heredur_hell:
   Display: '&4<&skull> &lUndead King Heredur &r&4<&skull>'
   Health: 9000   # 3x3000
   Damage: 400    # 2x200
+  Faction: q3_hell
+  Group: q3_hell
   BossBar:
     Enabled: true
     Title: '&c<&skull> King Heredur - <mob.hp{round=0}> <&skull>'

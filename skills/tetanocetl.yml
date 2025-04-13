@@ -7,7 +7,7 @@ applyBlindness:
 
 ResurrectToltecWarrior:
   Skills:
-    - summon{mob=ObstinateToltecWarrior;amount=1} @Self
+    - summon{type=ZOMBIE;displayname="Obstinate Toltec Warrior";amount=1} @Self
 
 PoisonSpit:
   Cooldown: 15
@@ -15,7 +15,7 @@ PoisonSpit:
     - projectile{onTick=PoisonSpit-Tick;onHit=PoisonSpit-Hit;v=4;i=1;hR=1;vR=1;hnp=true}
 PoisonSpit-Tick:
   Skills:
-    - effect:particles{p=poison;amount=15;speed=0;hS=0.2;vS=0.2} @origin
+    - effect:particles{p=VILLAGER_ANGRY;amount=15;speed=0;hS=0.2;vS=0.2} @origin
 PoisonSpit-Hit:
   Skills:
     - potion{t=POISON;d=100;level=2} @target
@@ -23,4 +23,4 @@ PoisonSpit-Hit:
 
 LeaveAcid:
   Skills:
-    - summon{mob=AcidPool;amount=1} @Self
+    - summon{type=MAGMA_CUBE;size=1;displayname="Acid Pool";amount=1} @Self

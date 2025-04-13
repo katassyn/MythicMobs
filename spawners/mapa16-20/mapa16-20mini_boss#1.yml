@@ -25,4 +25,4 @@ mapa16-20mini_boss#1:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: 16-20mini_boss
-  CooldownTimer: 8
+  CooldownTimer: 1

@@ -4,6 +4,8 @@ sanguine_clan_raging_guardian_inf:
   Display: '&lSanguine Clan`s Raging Guardian &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 400
   Damage: 100
+  Faction: q4_inf
+  Group: q4_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.3
@@ -34,6 +36,8 @@ raging_hunting_hound_inf:
   Display: '&lRaging Hunting-Hound &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 300
   Damage: 80
+  Faction: q4_inf
+  Group: q4_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.4
@@ -42,6 +46,9 @@ raging_hunting_hound_inf:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
   Equipment:
     - bone HEAD
     - leather_chestplate{color=gray} CHEST
@@ -59,6 +66,8 @@ sanguine_clan_raging_snooper_inf:
   Display: '&e&lSanguine Clan`s Raging Snooper &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 600
   Damage: 120
+  Faction: q4_inf
+  Group: q4_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -85,6 +94,8 @@ sanguine_clan_raging_hunter_inf:
   Display: '&e&lSanguine Clan`s Raging Hunter &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 800
   Damage: 150
+  Faction: q4_inf
+  Group: q4_inf
   Options:
     FollowRange: 25
     MovementSpeed: 0.3
@@ -112,6 +123,8 @@ parallel_world_ancient_stag_inf:
   Display: '&5&lParallel World Ancient Stag &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2000
   Damage: 200
+  Faction: q4_inf
+  Group: q4_inf
   Options:
     FollowRange: 30
     MovementSpeed: 0.35
@@ -137,11 +150,202 @@ parallel_world_ancient_stag_inf:
     - ancient_stag_inf_drop
     - q_inf_elite_crafting
 
+# Mission 2 Mobs
+eternal_satyr_warrior_inf:
+  Type: ZOMBIE
+  Display: '&lEternal Satyr Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 800  # Basic mob
+  Damage: 200
+  Faction: q4_inf
+  Group: q4_inf
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.35
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - eternal_warrior_inf_drop
+    - q_inf_mob_crafting
+
+eternal_root_creature_inf:
+  Type: ZOMBIE
+  Display: '&e&lEternal Root Creature &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1200  # Elite mob with high HP
+  Damage: 150
+  Faction: q4_inf
+  Group: q4_inf
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - potion{type=SLOW;duration=60;level=2} @target ~onAttack
+  Drops:
+    - eternal_root_inf_drop
+    - q_inf_elite_crafting
+
+eternal_hunter_inf:
+  Type: SKELETON
+  Display: '&e&lEternal Hunter &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1000  # Elite archer
+  Damage: 250
+  Faction: q4_inf
+  Group: q4_inf
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummonEternalHounds_inf} ~onTimer:30
+  Equipment:
+    - bow HAND
+  Drops:
+    - eternal_hunter_inf_drop
+    - q_inf_elite_crafting
+
+eternal_hunting_hound_inf:
+  Type: ZOMBIE
+  Disguise: WOLF
+  Display: '&lEternal Hunting-Hound &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 400  # Fast but weak mob
+  Damage: 100
+  Faction: q4_inf
+  Group: q4_inf
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.4
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - eternal_hound_inf_drop
+    - q_inf_mob_crafting
+
+ulgar_the_master_butcher_phase1_inf:
+  Type: ZOMBIE
+  Disguise: PIGLIN
+  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 2000  # Mini-boss phase 1
+  Damage: 300
+  Faction: q4_inf
+  Group: q4_inf
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=TransformPhase2_inf} @self ~onDeath
+  Drops: []
+
+ulgar_the_master_butcher_phase2_inf:
+  Type: ZOMBIE
+  Disguise: PIGLIN_BRUTE
+  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 2500  # Mini-boss phase 2
+  Damage: 350
+  Faction: q4_inf
+  Group: q4_inf
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.35
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    KnockbackResistance: 0.6
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=TransformPhase3_inf} @self ~onDeath
+  Drops: []
+
+ulgar_the_master_butcher_phase3_inf:
+  Type: ZOMBIE
+  Disguise: PIGLIN_BRUTE
+  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 3000  # Mini-boss phase 3
+  Damage: 400
+  Faction: q4_inf
+  Group: q4_inf
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.4
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    KnockbackResistance: 0.7
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=DeathExplosion_inf} @self ~onDeath
+  Drops:
+    - ulgar_inf_drop
+    - q_inf_elite_crafting
+
 bearach_champion_of_wilds_inf:
   Type: ZOMBIE
   Display: '&4<&skull> &lBearach, Champion of the Wilds &r&4<&skull>'
   Health: 3000
   Damage: 250
+  Faction: q4_inf
+  Group: q4_inf
   BossBar:
     Enabled: true
     Title: '&c<&skull> Bearach - <mob.hp{round=0}> <&skull>'
@@ -166,10 +370,10 @@ bearach_champion_of_wilds_inf:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=LightningStrike} @PlayersInRadius{r=30} ~onTimer:20
-    - skill{s=SummonLightningWolves} @self ~onTimer:40
-    - skill{s=BeeSwarm} @target ~onTimer:25
-    - skill{s=Whirlwind} @self ~onTimer:30
+    - skill{s=LightningStrike_inf} @PlayersInRadius{r=30} ~onTimer:20
+    - skill{s=SummonLightningWolves_inf} @self ~onTimer:40
+    - skill{s=BeeSwarm_inf} @target ~onTimer:25
+    - skill{s=Whirlwind_inf} @self ~onTimer:30
   Drops:
     - bearach_inf_drop
 
@@ -179,6 +383,8 @@ lightning_wolf_inf:
   Display: '&bLightning Wolf &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
   Health: 400
   Damage: 0
+  Faction: q4_inf
+  Group: q4_inf
   Options:
     MovementSpeed: 0
     ShowHealth: true
@@ -190,6 +396,6 @@ lightning_wolf_inf:
     - leather_leggings{color=blue} LEGS
     - leather_boots{color=blue} FEET
   Skills:
-    - skill{s=ShootLightning} @target ~onTimer:10
+    - skill{s=ShootLightning_inf} @target ~onTimer:10
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

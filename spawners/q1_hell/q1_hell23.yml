@@ -25,4 +25,5 @@ q1_hell23:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: q1_hell
-  CooldownTimer: 1
+  CooldownTimer: 3
+  ActiveMobs: 1

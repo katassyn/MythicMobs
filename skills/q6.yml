@@ -59,9 +59,8 @@ DeathDash:
   Skills:
     - effect:particles{p=SMOKE_LARGE;amount=50} @self
     - delay 30
-    - dash{velocity=2;distance=20} @Target
+    - teleport @Target
     - damage{a=500} @Target
-
 HealingPulse:
   Cooldown: 15
   Skills:
@@ -154,9 +153,8 @@ DeathDash_hell:
   Skills:
     - effect:particles{p=SMOKE_LARGE;amount=50} @self
     - delay 30
-    - dash{velocity=2;distance=20} @Target
-    - damage{a=1000} @Target  # 2x500
-
+    - teleport @Target
+    - damage{a=1000} @Target
 HealingPulse_hell:
   Cooldown: 15
   Skills:
@@ -249,9 +247,8 @@ DeathDash_blood:
   Skills:
     - effect:particles{p=SMOKE_LARGE;amount=50} @self
     - delay 30
-    - dash{velocity=2;distance=20} @Target
-    - damage{a=2500} @Target  # 5x500
-
+    - teleport @Target
+    - damage{a=2500} @Target
 HealingPulse_blood:
   Cooldown: 15
   Skills:

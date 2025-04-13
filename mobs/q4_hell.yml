@@ -4,6 +4,8 @@ sanguine_clan_raging_guardian_hell:
   Display: '&lSanguine Clan`s Raging Guardian &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1200  # 3x400
   Damage: 200   # 2x100
+  Faction: q4_hell
+  Group: q4_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.3
@@ -34,6 +36,8 @@ raging_hunting_hound_hell:
   Display: '&lRaging Hunting-Hound &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 900   # 3x300
   Damage: 160   # 2x80
+  Faction: q4_hell
+  Group: q4_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.4
@@ -42,6 +46,9 @@ raging_hunting_hound_hell:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
   Equipment:
     - bone HEAD
     - leather_chestplate{color=gray} CHEST
@@ -59,6 +66,8 @@ sanguine_clan_raging_snooper_hell:
   Display: '&e&lSanguine Clan`s Raging Snooper &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1800  # 3x600
   Damage: 240   # 2x120
+  Faction: q4_hell
+  Group: q4_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -85,6 +94,8 @@ sanguine_clan_raging_hunter_hell:
   Display: '&e&lSanguine Clan`s Raging Hunter &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2400  # 3x800
   Damage: 300   # 2x150
+  Faction: q4_hell
+  Group: q4_hell
   Options:
     FollowRange: 25
     MovementSpeed: 0.3
@@ -112,6 +123,8 @@ parallel_world_ancient_stag_hell:
   Display: '&5&lParallel World Ancient Stag &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000  # 3x2000
   Damage: 400   # 2x200
+  Faction: q4_hell
+  Group: q4_hell
   Options:
     FollowRange: 30
     MovementSpeed: 0.35
@@ -137,11 +150,202 @@ parallel_world_ancient_stag_hell:
     - ancient_stag_hell_drop
     - q_hell_elite_crafting
 
+# Mission 2 Mobs
+eternal_satyr_warrior_hell:
+  Type: ZOMBIE
+  Display: '&lEternal Satyr Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 2400  # 3x800
+  Damage: 400   # 2x200
+  Faction: q4_hell
+  Group: q4_hell
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.35
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - eternal_warrior_hell_drop
+    - q_hell_mob_crafting
+
+eternal_root_creature_hell:
+  Type: ZOMBIE
+  Display: '&e&lEternal Root Creature &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 3600  # 3x1200
+  Damage: 300   # 2x150
+  Faction: q4_hell
+  Group: q4_hell
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - potion{type=SLOW;duration=60;level=2} @target ~onAttack
+  Drops:
+    - eternal_root_hell_drop
+    - q_hell_elite_crafting
+
+eternal_hunter_hell:
+  Type: SKELETON
+  Display: '&e&lEternal Hunter &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 3000  # 3x1000
+  Damage: 500   # 2x250
+  Faction: q4_hell
+  Group: q4_hell
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummonEternalHounds_hell} ~onTimer:30
+  Equipment:
+    - bow HAND
+  Drops:
+    - eternal_hunter_hell_drop
+    - q_hell_elite_crafting
+
+eternal_hunting_hound_hell:
+  Type: ZOMBIE
+  Disguise: WOLF
+  Display: '&lEternal Hunting-Hound &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1200  # 3x400
+  Damage: 200   # 2x100
+  Faction: q4_hell
+  Group: q4_hell
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.4
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - eternal_hound_hell_drop
+    - q_hell_mob_crafting
+
+ulgar_the_master_butcher_phase1_hell:
+  Type: ZOMBIE
+  Disguise: PIGLIN
+  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 6000  # 3x2000
+  Damage: 600   # 2x300
+  Faction: q4_hell
+  Group: q4_hell
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=TransformPhase2_hell} @self ~onDeath
+  Drops: []
+
+ulgar_the_master_butcher_phase2_hell:
+  Type: ZOMBIE
+  Disguise: PIGLIN_BRUTE
+  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 7500  # 3x2500
+  Damage: 700   # 2x350
+  Faction: q4_hell
+  Group: q4_hell
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.35
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    KnockbackResistance: 0.6
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=TransformPhase3_hell} @self ~onDeath
+  Drops: []
+
+ulgar_the_master_butcher_phase3_hell:
+  Type: ZOMBIE
+  Disguise: PIGLIN_BRUTE
+  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 9000  # 3x3000
+  Damage: 800   # 2x400
+  Faction: q4_hell
+  Group: q4_hell
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.4
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    KnockbackResistance: 0.7
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=DeathExplosion_hell} @self ~onDeath
+  Drops:
+    - ulgar_hell_drop
+    - q_hell_elite_crafting
+
 bearach_champion_of_wilds_hell:
   Type: ZOMBIE
   Display: '&4<&skull> &lBearach, Champion of the Wilds &r&4<&skull>'
   Health: 9000  # 3x3000
   Damage: 500   # 2x250
+  Faction: q4_hell
+  Group: q4_hell
   BossBar:
     Enabled: true
     Title: '&c<&skull> Bearach - <mob.hp{round=0}> <&skull>'
@@ -179,6 +383,8 @@ lightning_wolf_hell:
   Display: '&bLightning Wolf &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
   Health: 1200  # 3x400
   Damage: 0
+  Faction: q4_hell
+  Group: q4_hell
   Options:
     MovementSpeed: 0
     ShowHealth: true

@@ -4,6 +4,8 @@ scheming_gorgon_blood:
   Display: '&e&lScheming Gorgon &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 8000  # 10x800
   Damage: 1000  # 5x200
+  Faction: q10_blood
+  Group: q10_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -32,6 +34,8 @@ poisonous_jitterjelly_blood:
   Display: '&e&lPoisonous Jitterjelly &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 10000  # 10x1000
   Damage: 750    # 5x150
+  Faction: q10_blood
+  Group: q10_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.15
@@ -55,6 +59,8 @@ anderworld_jitterjelly_blood:
   Display: '&lAnderworld Jitterjelly &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000  # 10x600
   Damage: 500   # 5x100
+  Faction: q10_blood
+  Group: q10_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.15
@@ -77,6 +83,8 @@ combat_ready_zorlobb_blood:
   Display: '&lCombat-Ready Zorlobb &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 12000  # 10x1200
   Damage: 500    # 5x100
+  Faction: q10_blood
+  Group: q10_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -104,6 +112,8 @@ melas_the_swift_footed_blood:
   Display: '&5&lMelas the Swift-Footed &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 20000  # 10x2000
   Damage: 750    # 5x150
+  Faction: q10_blood
+  Group: q10_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -135,6 +145,8 @@ anderworld_jabbax_blood:
   Display: '&lAnderworld Jabbax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 4000  # 10x400
   Damage: 500   # 5x100
+  Faction: q10_blood
+  Group: q10_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.25
@@ -160,6 +172,8 @@ patrolling_jabbax_blood:
   Display: '&e&lPatrolling Jabbax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 12000  # 10x1200
   Damage: 750    # 5x150
+  Faction: q10_blood
+  Group: q10_blood
   Mount: COW
   Options:
     FollowRange: 20
@@ -188,6 +202,8 @@ armed_khaross_blood:
   Display: '&lArmed Khaross &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 10000  # 10x1000
   Damage: 750    # 5x150
+  Faction: q10_blood
+  Group: q10_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.2
@@ -215,6 +231,8 @@ mordacious_khaross_blood:
   Display: '&lMordacious Khaross &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 10000  # 10x1000
   Damage: 750    # 5x150
+  Faction: q10_blood
+  Group: q10_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -242,6 +260,8 @@ akheilos_blood:
   Display: '&5&lAkheilos &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 20000  # 10x2000
   Damage: 1000   # 5x200
+  Faction: q10_blood
+  Group: q10_blood
   Options:
     FollowRange: 25
     MovementSpeed: 0.25
@@ -272,6 +292,8 @@ parallel_world_gorga_blood:
   Display: '&4<&skull> &lGorga &r&4<&skull>'
   Health: 50000  # 10x5000
   Damage: 1000   # 5x200
+  Faction: q10_blood
+  Group: q10_blood
   BossBar:
     Enabled: true
     Title: '&c<&skull> Gorga - <mob.hp{round=0}> <&skull>'
@@ -309,6 +331,8 @@ snake_minion_blood:
   Display: '&lVenomous Snake &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
   Health: 1000  # 10x100
   Damage: 500   # 5x100
+  Faction: q10_blood
+  Group: q10_blood
   Options:
     MovementSpeed: 0.4
     ShowHealth: true

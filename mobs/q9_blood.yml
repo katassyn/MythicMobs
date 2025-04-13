@@ -3,6 +3,8 @@ agile_satyr_warrior_blood:
   Display: '&lAgile Satyr Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 8000  # 10x800
   Damage: 750   # 5x150
+  Faction: q9_blood
+  Group: q9_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.35
@@ -21,7 +23,7 @@ agile_satyr_warrior_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - agile_satyr_blood_drop
+    - agile_satyr_warrior_blood_drop
     - q_blood_mob_crafting
 
 perfidious_satyr_archer_blood:
@@ -29,6 +31,8 @@ perfidious_satyr_archer_blood:
   Display: '&lPerfidious Satyr Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000  # 10x600
   Damage: 1000  # 5x200
+  Faction: q9_blood
+  Group: q9_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -47,7 +51,7 @@ perfidious_satyr_archer_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - satyr_archer_blood_drop
+    - perfidious_satyr_archer_blood_drop
     - q_blood_mob_crafting
 
 cohort_swordsman_blood:
@@ -55,6 +59,8 @@ cohort_swordsman_blood:
   Display: '&e&lCohort Swordsman &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 12000  # 10x1200
   Damage: 1000   # 5x200
+  Faction: q9_blood
+  Group: q9_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.3
@@ -82,6 +88,8 @@ stone_golem_blood:
   Display: '&e&lStone Golem &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 20000  # 10x2000
   Damage: 1250   # 5x250
+  Faction: q9_blood
+  Group: q9_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.15
@@ -110,6 +118,8 @@ asterion_blood:
   Display: '&5&lAsterion &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 30000  # 10x3000
   Damage: 1500   # 5x300
+  Faction: q9_blood
+  Group: q9_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -140,6 +150,8 @@ jabbax_blood:
   Display: '&lJabbax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 5000  # 10x500
   Damage: 500   # 5x100
+  Faction: q9_blood
+  Group: q9_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.25
@@ -165,6 +177,8 @@ zorlobb_warrior_blood:
   Display: '&e&lZorlobb Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 15000  # 10x1500
   Damage: 1250   # 5x250
+  Faction: q9_blood
+  Group: q9_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -192,6 +206,8 @@ gorgon_acolyte_blood:
   Display: '&lGorgon Acolyte &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000  # 10x600
   Damage: 1000  # 5x200
+  Faction: q9_blood
+  Group: q9_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -221,6 +237,8 @@ minotaur_blood:
   Display: '&e&lMinotaur &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 20000  # 10x2000
   Damage: 1250   # 5x250
+  Faction: q9_blood
+  Group: q9_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -249,6 +267,8 @@ ebicarus_blood:
   Display: '&5&lEbicarus &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 30000  # 10x3000
   Damage: 1500   # 5x300
+  Faction: q9_blood
+  Group: q9_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.2
@@ -278,6 +298,8 @@ medusa_blood:
   Display: '&4<&skull> &lM`Edusa &r&4<&skull>'
   Health: 50000  # 10x5000
   Damage: 1000   # 5x200
+  Faction: q9_blood
+  Group: q9_blood
   BossBar:
     Enabled: true
     Title: '&c<&skull> M`Edusa - <mob.hp{round=0}> <&skull>'
@@ -314,6 +336,8 @@ snake_minion_blood:
   Display: '&lPoisonous Snake &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
   Health: 1000  # 10x100
   Damage: 750   # 5x150
+  Faction: q9_blood
+  Group: q9_blood
   Options:
     MovementSpeed: 0.4
     ShowHealth: true

@@ -26,3 +26,4 @@ q2_inf50:
   SpawnConditions: []
   SpawnerGroup: q2_inf
   CooldownTimer: 1
+  ActiveMobs: 1

@@ -25,4 +25,4 @@ mapa26-30#30:
   ShowFlames: false
   Conditions: []
   SpawnConditions: []
-  CooldownTimer: 10
+  CooldownTimer: 1

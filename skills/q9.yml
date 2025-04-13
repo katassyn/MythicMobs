@@ -23,7 +23,7 @@ ChargeAttack:
   Cooldown: 12
   Skills:
     - effect:particles{p=CLOUD;amount=20} @self
-    - dash{velocity=2;distance=10} @target
+    - jump{velocity=2;height=0.5;heim=0} @target
     - damage{a=200} @target
 
 GroundSlam:
@@ -129,8 +129,8 @@ ChargeAttack_hell:
   Cooldown: 12
   Skills:
     - effect:particles{p=CLOUD;amount=20} @self
-    - dash{velocity=2;distance=10} @target
-    - damage{a=400} @target  # 2x200
+    - jump{velocity=2;height=0.5;heim=0} @target
+    - damage{a=400} @target
 
 GroundSlam_hell:
   Cooldown: 15
@@ -227,8 +227,8 @@ ChargeAttack_blood:
   Cooldown: 12
   Skills:
     - effect:particles{p=CLOUD;amount=20} @self
-    - dash{velocity=2;distance=10} @target
-    - damage{a=1000} @target  # 5x200
+    - jump{velocity=2;height=0.5;heim=0} @target
+    - damage{a=1000} @target
 
 GroundSlam_blood:
   Cooldown: 15

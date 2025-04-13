@@ -3,6 +3,8 @@ cursed_farmer_blood:
   Display: '&lCursed Farmer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 5000   # 10x500
   Damage: 500    # 5x100
+  Faction: q3_blood
+  Group: q3_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -33,6 +35,8 @@ cursed_troll_blood:
   Display: '&e&lCursed Troll &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 10000  # 10x1000
   Damage: 750    # 5x150
+  Faction: q3_blood
+  Group: q3_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -64,6 +68,8 @@ cursed_archer_blood:
   Display: '&lCursed Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 4000   # 10x400
   Damage: 600    # 5x120
+  Faction: q3_blood
+  Group: q3_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -93,6 +99,8 @@ parallel_world_evil_miller_blood:
   Display: '&5&lParallel World Evil Miller &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 20000  # 10x2000
   Damage: 750    # 5x150
+  Faction: q3_blood
+  Group: q3_blood
   Options:
     FollowRange: 25
     MovementSpeed: 0.2
@@ -127,6 +135,8 @@ slain_assassin_blood:
   Display: '&e&lSlain Assassin &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000   # 10x600
   Damage: 1000   # 5x200
+  Faction: q3_blood
+  Group: q3_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.4
@@ -156,6 +166,8 @@ slain_warrior_blood:
   Display: '&lSlain Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 8000   # 10x800
   Damage: 650    # 5x130
+  Faction: q3_blood
+  Group: q3_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -185,6 +197,8 @@ slain_archer_blood:
   Display: '&lSlain Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 5000   # 10x500
   Damage: 750    # 5x150
+  Faction: q3_blood
+  Group: q3_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.2
@@ -214,6 +228,8 @@ the_bloody_arrow_blood:
   Display: '&5&lThe Bloody Arrow &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 15000  # 10x1500
   Damage: 900    # 5x180
+  Faction: q3_blood
+  Group: q3_blood
   Options:
     FollowRange: 25
     MovementSpeed: 0.3
@@ -246,6 +262,8 @@ undead_parallel_world_king_heredur_blood:
   Display: '&4<&skull> &lUndead King Heredur &r&4<&skull>'
   Health: 60000  # 10x3000
   Damage: 1000   # 5x200
+  Faction: q3_blood
+  Group: q3_blood
   BossBar:
     Enabled: true
     Title: '&c<&skull> King Heredur - <mob.hp{round=0}> <&skull>'

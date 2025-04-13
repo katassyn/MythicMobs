@@ -4,6 +4,8 @@ sanguine_clan_raging_guardian_blood:
   Display: '&lSanguine Clan`s Raging Guardian &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 4000  # 10x400
   Damage: 500   # 5x100
+  Faction: q4_blood
+  Group: q4_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.3
@@ -34,6 +36,8 @@ raging_hunting_hound_blood:
   Display: '&lRaging Hunting-Hound &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000  # 10x300
   Damage: 400   # 5x80
+  Faction: q4_blood
+  Group: q4_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.4
@@ -42,6 +46,9 @@ raging_hunting_hound_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
   Equipment:
     - bone HEAD
     - leather_chestplate{color=gray} CHEST
@@ -59,6 +66,8 @@ sanguine_clan_raging_snooper_blood:
   Display: '&e&lSanguine Clan`s Raging Snooper &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000  # 10x600
   Damage: 600   # 5x120
+  Faction: q4_blood
+  Group: q4_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -85,6 +94,8 @@ sanguine_clan_raging_hunter_blood:
   Display: '&e&lSanguine Clan`s Raging Hunter &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 8000  # 10x800
   Damage: 750   # 5x150
+  Faction: q4_blood
+  Group: q4_blood
   Options:
     FollowRange: 25
     MovementSpeed: 0.3
@@ -112,6 +123,8 @@ parallel_world_ancient_stag_blood:
   Display: '&5&lParallel World Ancient Stag &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 20000  # 10x2000
   Damage: 1000   # 5x200
+  Faction: q4_blood
+  Group: q4_blood
   Options:
     FollowRange: 30
     MovementSpeed: 0.35
@@ -137,11 +150,202 @@ parallel_world_ancient_stag_blood:
     - ancient_stag_blood_drop
     - q_blood_elite_crafting
 
+# Mission 2 Mobs
+eternal_satyr_warrior_blood:
+  Type: ZOMBIE
+  Display: '&lEternal Satyr Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 8000  # 10x800
+  Damage: 1000  # 5x200
+  Faction: q4_blood
+  Group: q4_blood
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.35
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - eternal_warrior_blood_drop
+    - q_blood_mob_crafting
+
+eternal_root_creature_blood:
+  Type: ZOMBIE
+  Display: '&e&lEternal Root Creature &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 12000  # 10x1200
+  Damage: 750    # 5x150
+  Faction: q4_blood
+  Group: q4_blood
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.2
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - potion{type=SLOW;duration=60;level=2} @target ~onAttack
+  Drops:
+    - eternal_root_blood_drop
+    - q_blood_elite_crafting
+
+eternal_hunter_blood:
+  Type: SKELETON
+  Display: '&e&lEternal Hunter &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 10000  # 10x1000
+  Damage: 1250   # 5x250
+  Faction: q4_blood
+  Group: q4_blood
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SummonEternalHounds_blood} ~onTimer:30
+  Equipment:
+    - bow HAND
+  Drops:
+    - eternal_hunter_blood_drop
+    - q_blood_elite_crafting
+
+eternal_hunting_hound_blood:
+  Type: ZOMBIE
+  Disguise: WOLF
+  Display: '&lEternal Hunting-Hound &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 4000  # 10x400
+  Damage: 500   # 5x100
+  Faction: q4_blood
+  Group: q4_blood
+  Options:
+    FollowRange: 20
+    MovementSpeed: 0.4
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - eternal_hound_blood_drop
+    - q_blood_mob_crafting
+
+ulgar_the_master_butcher_phase1_blood:
+  Type: ZOMBIE
+  Disguise: PIGLIN
+  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 20000  # 10x2000
+  Damage: 1500   # 5x300
+  Faction: q4_blood
+  Group: q4_blood
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.3
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    KnockbackResistance: 0.5
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=TransformPhase2_blood} @self ~onDeath
+  Drops: []
+
+ulgar_the_master_butcher_phase2_blood:
+  Type: ZOMBIE
+  Disguise: PIGLIN_BRUTE
+  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 25000  # 10x2500
+  Damage: 1750   # 5x350
+  Faction: q4_blood
+  Group: q4_blood
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.35
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    KnockbackResistance: 0.6
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=TransformPhase3_blood} @self ~onDeath
+  Drops: []
+
+ulgar_the_master_butcher_phase3_blood:
+  Type: ZOMBIE
+  Disguise: PIGLIN_BRUTE
+  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 30000  # 10x3000
+  Damage: 2000   # 5x400
+  Faction: q4_blood
+  Group: q4_blood
+  Options:
+    FollowRange: 25
+    MovementSpeed: 0.4
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    KnockbackResistance: 0.7
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=DeathExplosion_blood} @self ~onDeath
+  Drops:
+    - ulgar_blood_drop
+    - q_blood_elite_crafting
+
 bearach_champion_of_wilds_blood:
   Type: ZOMBIE
   Display: '&4<&skull> &lBearach, Champion of the Wilds &r&4<&skull>'
   Health: 30000  # 10x3000
   Damage: 1250   # 5x250
+  Faction: q4_blood
+  Group: q4_blood
   BossBar:
     Enabled: true
     Title: '&c<&skull> Bearach - <mob.hp{round=0}> <&skull>'
@@ -178,6 +382,8 @@ lightning_wolf_blood:
   Disguise: WOLF
   Display: '&bLightning Wolf &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
   Health: 4000  # 10x400
+  Faction: q4_blood
+  Group: q4_blood
   Damage: 0
   Options:
     MovementSpeed: 0

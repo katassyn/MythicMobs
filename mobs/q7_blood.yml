@@ -4,6 +4,8 @@ bone_warder_blood:
   Display: '&lBone Warder &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 8000  # 10x800
   Damage: 750   # 5x150
+  Faction: q7_blood
+  Group: q7_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -30,6 +32,8 @@ b1000_combat_mechanoid_blood:
   Display: '&lB-1000 Combat Mechanoid &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 12000  # 10x1200
   Damage: 500    # 5x100
+  Faction: q7_blood
+  Group: q7_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.15
@@ -48,7 +52,7 @@ b1000_combat_mechanoid_blood:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=FlameAttack_blood} @target ~onTimer:15
   Drops:
-    - mechanoid_blood_drop
+    - b1000_combat_mechanoid_blood_drop
     - q_blood_mob_crafting
 
 thundering_cyclops_blood:
@@ -56,6 +60,8 @@ thundering_cyclops_blood:
   Display: '&e&lThundering Cyclops &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 15000  # 10x1500
   Damage: 1000   # 5x200
+  Faction: q7_blood
+  Group: q7_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -69,7 +75,7 @@ thundering_cyclops_blood:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=ThunderStrike_blood} @target ~onTimer:12
   Drops:
-    - cyclops_blood_drop
+    - thundering_cyclops_blood_drop
     - q_blood_elite_crafting
 
 dark_sentinel_blood:
@@ -77,6 +83,8 @@ dark_sentinel_blood:
   Display: '&e&lDark Sentinel &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 18000  # 10x1800
   Damage: 1250   # 5x250
+  Faction: q7_blood
+  Group: q7_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -96,7 +104,7 @@ dark_sentinel_blood:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=DeathExplosion_blood} @self ~onDeath
   Drops:
-    - sentinel_blood_drop
+    - dark_sentinel_blood_drop
     - q_blood_elite_crafting
 
 iron_creeper_gate_guard_blood:
@@ -104,6 +112,8 @@ iron_creeper_gate_guard_blood:
   Display: '&5&lIron Creeper Gate Guard &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 30000  # 10x3000
   Damage: 1000   # 5x200
+  Faction: q7_blood
+  Group: q7_blood
   Options:
     FollowRange: 25
     MovementSpeed: 0.15
@@ -133,6 +143,8 @@ wild_razorclaw_blood:
   Display: '&lWild Razorclaw &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000   # 10x600
   Damage: 1250   # 5x250
+  Faction: q7_blood
+  Group: q7_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.4
@@ -155,6 +167,8 @@ flamescale_defender_blood:
   Display: '&lFlamescale Defender &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 8000   # 10x800
   Damage: 750    # 5x150
+  Faction: q7_blood
+  Group: q7_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.25
@@ -181,6 +195,8 @@ fireclaw_mercenary_blood:
   Display: '&e&lFireclaw Mercenary &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 12000  # 10x1200
   Damage: 1000   # 5x200
+  Faction: q7_blood
+  Group: q7_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -208,6 +224,8 @@ angry_flamespawn_blood:
   Display: '&lAngry Flamespawn &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 4000   # 10x400
   Damage: 500    # 5x100
+  Faction: q7_blood
+  Group: q7_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.3
@@ -228,6 +246,8 @@ commander_embersword_blood:
   Display: '&5&lCommander Embersword &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 30000  # 10x3000
   Damage: 1250   # 5x250
+  Faction: q7_blood
+  Group: q7_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.2
@@ -259,6 +279,8 @@ herald_of_anderworld_blood:
   Display: '&4<&skull> &lHerald of the Anderworld &r&4<&skull>'
   Health: 50000  # 10x5000
   Damage: 0      # Uses skills for damage
+  Faction: q7_blood
+  Group: q7_blood
   BossBar:
     Enabled: true
     Title: '&c<&skull> Herald of the Anderworld - <mob.hp{round=0}> <&skull>'

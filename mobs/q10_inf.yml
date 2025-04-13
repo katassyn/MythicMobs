@@ -4,6 +4,8 @@ scheming_gorgon_inf:
   Display: '&e&lScheming Gorgon &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 800  # Like other elite mobs
   Damage: 200  # Higher damage
+  Faction: q10_inf
+  Group: q10_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -32,6 +34,8 @@ poisonous_jitterjelly_inf:
   Display: '&e&lPoisonous Jitterjelly &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1000  # Elite mob
   Damage: 150   # Standard damage
+  Faction: q10_inf
+  Group: q10_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.15  # Very slow
@@ -55,6 +59,8 @@ anderworld_jitterjelly_inf:
   Display: '&lAnderworld Jitterjelly &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 600   # Regular mob
   Damage: 100   # Lower damage
+  Faction: q10_inf
+  Group: q10_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.15  # Very slow
@@ -77,6 +83,8 @@ combat_ready_zorlobb_inf:
   Display: '&lCombat-Ready Zorlobb &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1200  # High HP
   Damage: 100   # Low damage
+  Faction: q10_inf
+  Group: q10_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -104,6 +112,8 @@ melas_the_swift_footed_inf:
   Display: '&5&lMelas the Swift-Footed &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2000  # Mini-boss HP
   Damage: 150   # Medium damage
+  Faction: q10_inf
+  Group: q10_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -135,6 +145,8 @@ anderworld_jabbax_inf:
   Display: '&lAnderworld Jabbax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 400   # Very low HP
   Damage: 100   # Low damage
+  Faction: q10_inf
+  Group: q10_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.25
@@ -160,6 +172,8 @@ patrolling_jabbax_inf:
   Display: '&e&lPatrolling Jabbax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1200  # Elite mob HP
   Damage: 150   # Medium damage
+  Faction: q10_inf
+  Group: q10_inf
   Mount: COW
   Options:
     FollowRange: 20
@@ -188,6 +202,8 @@ armed_khaross_inf:
   Display: '&lArmed Khaross &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1000  # High HP
   Damage: 150   # Medium damage
+  Faction: q10_inf
+  Group: q10_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.2  # Slow
@@ -215,6 +231,8 @@ mordacious_khaross_inf:
   Display: '&lMordacious Khaross &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1000  # High HP
   Damage: 150   # Medium damage
+  Faction: q10_inf
+  Group: q10_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.2  # Slow
@@ -242,6 +260,8 @@ akheilos_inf:
   Display: '&5&lAkheilos &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2000  # Mini-boss HP
   Damage: 200   # High damage
+  Faction: q10_inf
+  Group: q10_inf
   Options:
     FollowRange: 25
     MovementSpeed: 0.25
@@ -272,6 +292,8 @@ parallel_world_gorga_inf:
   Display: '&4<&skull> &lGorga &r&4<&skull>'
   Health: 5000  # Boss HP
   Damage: 200   # Base damage
+  Faction: q10_inf
+  Group: q10_inf
   BossBar:
     Enabled: true
     Title: '&c<&skull> Gorga - <mob.hp{round=0}> <&skull>'
@@ -309,6 +331,8 @@ snake_minion_inf:
   Display: '&lVenomous Snake &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
   Health: 100
   Damage: 100
+  Faction: q10_inf
+  Group: q10_inf
   Options:
     MovementSpeed: 0.4
     ShowHealth: true

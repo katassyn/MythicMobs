@@ -617,7 +617,7 @@ tonicluck_hell:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '&7Grants +2a🍀&7 Luck For 10m'
+    - '&7Grants +2&a🍀&7 Luck For 10m'
     - '&7Cooldown: 15m'
     - '&aRequired Level: &6 65'
   Options:
@@ -908,7 +908,7 @@ phycisluck_inf:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '&7Grants +5%a🍀&7 Luck For 5m'
+    - '&7Grants +5%&a🍀&7 Luck For 5m'
     - '&7Cooldown: 15m'
     - '&aRequired Level: &6 50'
   Options:
@@ -922,7 +922,7 @@ phycisluck_hell:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '&7Grants +10%a🍀&7 Luck For 10m'
+    - '&7Grants +10%&a🍀&7 Luck For 10m'
     - '&7Cooldown: 15m'
     - '&aRequired Level: &6 65'
   Options:
@@ -936,7 +936,7 @@ phycisluck_blood:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '&7Grants +15%a🍀&7 Luck For 15m'
+    - '&7Grants +15%&a🍀&7 Luck For 15m'
     - '&7Cooldown: 15m'
     - '&aRequired Level: &6 80'
   Options:

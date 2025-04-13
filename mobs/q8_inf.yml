@@ -5,6 +5,8 @@ electrified_ferocity_inf:
   Display: '&lElectrified Ferocity &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 600  # Like flamecult archer
   Damage: 200
+  Faction: q8_inf
+  Group: q8_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -32,6 +34,8 @@ charged_drone_inf:
   Display: '&lCharged Drone &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 400  # Low HP
   Damage: 100  # Low damage
+  Faction: q8_inf
+  Group: q8_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.4  # Fast
@@ -57,6 +61,8 @@ big_heap_of_ice_inf:
   Display: '&e&lBig Heap of Ice &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2000  # High HP
   Damage: 300   # High damage
+  Faction: q8_inf
+  Group: q8_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.15  # Very slow
@@ -84,6 +90,8 @@ bloodthirsty_frostwolf_inf:
   Display: '&e&lBloodthirsty Frostwolf &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1500
   Damage: 200
+  Faction: q8_inf
+  Group: q8_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.35
@@ -111,6 +119,8 @@ shocking_forocity_inf:
   Display: '&5&lShocking Forocity &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000
   Damage: 250
+  Faction: q8_inf
+  Group: q8_inf
   Options:
     FollowRange: 25
     MovementSpeed: 0.3
@@ -142,6 +152,8 @@ pale_pillager_inf:
   Display: '&lPale Pillager &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 800
   Damage: 200
+  Faction: q8_inf
+  Group: q8_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.35  # Fast
@@ -169,6 +181,8 @@ simple_troll_inf:
   Display: '&lSimple Troll &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1500
   Damage: 150
+  Faction: q8_inf
+  Group: q8_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.2  # Slow
@@ -196,6 +210,8 @@ frost_magician_inf:
   Display: '&e&lFrost Magician &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 600   # Very low HP
   Damage: 300   # High damage
+  Faction: q8_inf
+  Group: q8_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.2  # Slow
@@ -224,6 +240,8 @@ frost_bringer_inf:
   Display: '&e&lFrost Bringer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2000  # High HP
   Damage: 250   # High damage
+  Faction: q8_inf
+  Group: q8_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.2  # Slow
@@ -251,6 +269,8 @@ pale_enforcer_inf:
   Display: '&5&lPale Enforcer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000
   Damage: 200
+  Faction: q8_inf
+  Group: q8_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -271,7 +291,7 @@ pale_enforcer_inf:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=DashToPlayer} @target ~onTimer:12
-    - skill{s=SummonPillagers} @self ~onTimer:30 ?health<50%
+    - skill{s=SummonPillagers} @self ~onTimer:30 ?Health.Below{r=0.5}
   Drops:
     - pale_enforcer_inf_drop
     - q_inf_elite_crafting
@@ -282,6 +302,8 @@ sigrismarr_priest_of_fjalnir_inf:
   Display: '&4<&skull> &lSigrismarr, Twisted Priest of Fjalnir &r&4<&skull>'
   Health: 5000
   Damage: 0  # Only uses skills for damage
+  Faction: q8_inf
+  Group: q8_inf
   BossBar:
     Enabled: true
     Title: '&c<&skull> Sigrismarr - <mob.hp{round=0}> <&skull>'
@@ -308,7 +330,7 @@ sigrismarr_priest_of_fjalnir_inf:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=TripleIceBolt} @target ~onTimer:10
     - skill{s=HomingIceSphere} @target ~onTimer:15
-    - skill{s=ImmunityPhase} @self ~onTimer:1 ?health<66%
-    - skill{s=ImmunityPhase} @self ~onTimer:1 ?health<33%
+    - skill{s=ImmunityPhase} @self ~onTimer:1 ?Health.Below{r=0.66}
+    - skill{s=ImmunityPhase} @self ~onTimer:1 ?Health.Below{r=0.33}
   Drops:
     - sigrismarr_inf_drop

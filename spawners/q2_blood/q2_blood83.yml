@@ -26,3 +26,4 @@ q2_blood83:
   SpawnConditions: []
   SpawnerGroup: q2_blood
   CooldownTimer: 1
+  ActiveMobs: 1

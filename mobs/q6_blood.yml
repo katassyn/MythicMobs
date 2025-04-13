@@ -4,6 +4,8 @@ fallen_warrior_blood:
   Display: '&lFallen Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 8000  # 10x800
   Damage: 750   # 5x150
+  Faction: q6_blood
+  Group: q6_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -31,6 +33,8 @@ fallen_archer_blood:
   Display: '&lFallen Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000  # 10x600
   Damage: 1000  # 5x200
+  Faction: q6_blood
+  Group: q6_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.2
@@ -57,6 +61,8 @@ death_knight_blood:
   Display: '&e&lDeath Knight &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 12000  # 10x1200
   Damage: 1250   # 5x250
+  Faction: q6_blood
+  Group: q6_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -84,6 +90,8 @@ mortis_death_knight_blood:
   Display: '&5&lMortis Death Knight &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 30000  # 10x3000
   Damage: 1500   # 5x300
+  Faction: q6_blood
+  Group: q6_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -105,7 +113,7 @@ mortis_death_knight_blood:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=DeathExplosion_blood} @self ~onDeath
   Drops:
-    - mortis_knight_blood_drop
+    - mortis_death_knight_blood_drop
     - q_blood_elite_crafting
 
 # Mission 2 Mobs
@@ -114,6 +122,8 @@ elite_skeleton_archer_blood:
   Display: '&lElite Skeleton Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 8000  # 10x800
   Damage: 1250  # 5x250
+  Faction: q6_blood
+  Group: q6_blood
   Options:
     FollowRange: 25
     MovementSpeed: 0.3
@@ -132,7 +142,7 @@ elite_skeleton_archer_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - elite_archer_blood_drop
+    - elite_skeleton_archer_blood_drop
     - q_blood_mob_crafting
 
 death_archer_blood:
@@ -140,6 +150,8 @@ death_archer_blood:
   Display: '&e&lDeath Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 10000  # 10x1000
   Damage: 1500   # 5x300
+  Faction: q6_blood
+  Group: q6_blood
   Options:
     FollowRange: 25
     MovementSpeed: 0.25
@@ -167,6 +179,8 @@ raging_soul_blood:
   Display: '&lRaging Soul &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 5000  # 10x500
   Damage: 500   # 5x100
+  Faction: q6_blood
+  Group: q6_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -192,6 +206,8 @@ elite_skeleton_warrior_blood:
   Display: '&lElite Skeleton Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 10000  # 10x1000
   Damage: 1000   # 5x200
+  Faction: q6_blood
+  Group: q6_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -211,7 +227,7 @@ elite_skeleton_warrior_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - elite_warrior_blood_drop
+    - elite_skeleton_warrior_blood_drop
     - q_blood_mob_crafting
 
 murot_high_priest_blood:
@@ -219,6 +235,8 @@ murot_high_priest_blood:
   Display: '&5&lMurot, High Priest of Mortis &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 30000  # 10x3000
   Damage: 1000   # 5x200
+  Faction: q6_blood
+  Group: q6_blood
   Options:
     FollowRange: 25
     MovementSpeed: 0.15
@@ -249,6 +267,8 @@ skeledragon_phase1_blood:
   Display: '&4<&skull> &lSkeledragon &r&4<&skull>'
   Health: 50000  # 10x5000
   Damage: 1500   # 5x300
+  Faction: q6_blood
+  Group: q6_blood
   BossBar:
     Enabled: true
     Title: '&c<&skull> Skeledragon - Phase 1 <&skull>'
@@ -276,6 +296,8 @@ skeledragon_phase2_blood:
   Display: '&4<&skull> &lMortis & Skeledragon &r&4<&skull>'
   Health: 70000  # 10x7000
   Damage: 2000   # 5x400
+  Faction: q6_blood
+  Group: q6_blood
   BossBar:
     Enabled: true
     Title: '&c<&skull> Mortis & Skeledragon - Phase 2 <&skull>'
@@ -304,6 +326,8 @@ mortis_phase3_blood:
   Display: '&4<&skull> &lMortis, Unchained God of Death &r&4<&skull>'
   Health: 100000  # 10x10000
   Damage: 2500    # 5x500
+  Faction: q6_blood
+  Group: q6_blood
   BossBar:
     Enabled: true
     Title: '&c<&skull> Mortis - Final Phase <&skull>'
@@ -333,4 +357,4 @@ mortis_phase3_blood:
     - skill{s=HealingPulse_blood} @self ~onTimer:15
     - skill{s=HealingPulse_blood} @self ~onTimer:15
     - skill{s=DeathZone_blood} @target ~onTimer:25
-    - skill{s=SummonDragon_blood} @self ~onTimer:60 ?health<30%
+    - skill{s=SummonDragon_blood} @self ~onTimer:60 ?Health.Below{r=0.3}

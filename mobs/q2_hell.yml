@@ -3,6 +3,8 @@ gremlin_marauder_hell:
   Display: '&lGremlin Marauder &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 300  # x3 Zdrowie
   Damage: 60   # x2 Obrażenia
+  Faction: q2_hell
+  Group: q2_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.3
@@ -31,6 +33,8 @@ death_witch_hell:
   Display: '&lDeath Witch    &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 600  # x3 Zdrowie
   Damage: 80   # x2 Obrażenia
+  Faction: q2_hell
+  Group: q2_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -57,6 +61,8 @@ poisonous_spider_hell:
   Display: '&lPoisonous Spider &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 450  # x3 Zdrowie
   Damage: 50   # x2 Obrażenia
+  Faction: q2_hell
+  Group: q2_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.35
@@ -80,6 +86,8 @@ corrupted_root_creature_hell:
   Display: '&e&lCorrupted Root Creature &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000  # x3 Zdrowie
   Damage: 100   # x2 Obrażenia
+  Faction: q2_hell
+  Group: q2_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.15
@@ -110,6 +118,8 @@ xerib_the_hunchback_hell:
   Display: '&5&lXerib the Hunchback &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000  # x3 Zdrowie
   Damage: 120   # x2 Obrażenia
+  Faction: q2_hell
+  Group: q2_hell
   Options:
     FollowRange: 25
     MovementSpeed: 0.2
@@ -137,6 +147,8 @@ archus_the_mad_hell:
   Display: '&5&lArchus the Mad &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 9000  # x3 Zdrowie
   Damage: 160   # x2 Obrażenia
+  Faction: q2_hell
+  Group: q2_hell
   Options:
     FollowRange: 25
     MovementSpeed: 0.45
@@ -164,6 +176,8 @@ arachna_scourge_of_duria_hell:
   Display: '&4<&skull> &lArachna, Scourge of Duria &r&4<&skull>'
   Health: 15000  # x3 Zdrowie
   Damage: 200    # x2 Obrażenia
+  Faction: q2_hell
+  Group: q2_hell
   BossBar:
     Enabled: true
     Title: '&c<&skull> Arachna - &c<mob.hp{round=0}> <&skull>'

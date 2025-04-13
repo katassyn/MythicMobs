@@ -4,6 +4,8 @@ bone_warder_inf:
   Display: '&lBone Warder &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 800
   Damage: 150
+  Faction: q7_inf
+  Group: q7_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -30,6 +32,8 @@ b1000_combat_mechanoid_inf:
   Display: '&lB-1000 Combat Mechanoid &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1200
   Damage: 100
+  Faction: q7_inf
+  Group: q7_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.15
@@ -48,7 +52,7 @@ b1000_combat_mechanoid_inf:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=FlameAttack} @target ~onTimer:15
   Drops:
-    - mechanoid_inf_drop
+    - b1000_combat_mechanoid_inf_drop
     - q_inf_mob_crafting
 
 thundering_cyclops_inf:
@@ -56,6 +60,8 @@ thundering_cyclops_inf:
   Display: '&e&lThundering Cyclops &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1500
   Damage: 200
+  Faction: q7_inf
+  Group: q7_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -69,7 +75,7 @@ thundering_cyclops_inf:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=ThunderStrike} @target ~onTimer:12
   Drops:
-    - cyclops_inf_drop
+    - thundering_cyclops_inf_drop
     - q_inf_elite_crafting
 
 dark_sentinel_inf:
@@ -77,6 +83,8 @@ dark_sentinel_inf:
   Display: '&e&lDark Sentinel &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1800
   Damage: 250
+  Faction: q7_inf
+  Group: q7_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -96,7 +104,7 @@ dark_sentinel_inf:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=DeathExplosion} @self ~onDeath
   Drops:
-    - sentinel_inf_drop
+    - dark_sentinel_inf_drop
     - q_inf_elite_crafting
 
 iron_creeper_gate_guard_inf:
@@ -104,6 +112,8 @@ iron_creeper_gate_guard_inf:
   Display: '&5&lIron Creeper Gate Guard &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000
   Damage: 200
+  Faction: q7_inf
+  Group: q7_inf
   Options:
     FollowRange: 25
     MovementSpeed: 0.15
@@ -133,6 +143,8 @@ wild_razorclaw_inf:
   Display: '&lWild Razorclaw &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 600
   Damage: 250
+  Faction: q7_inf
+  Group: q7_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.4
@@ -155,6 +167,8 @@ flamescale_defender_inf:
   Display: '&lFlamescale Defender &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 800
   Damage: 150
+  Faction: q7_inf
+  Group: q7_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.25
@@ -181,6 +195,8 @@ fireclaw_mercenary_inf:
   Display: '&e&lFireclaw Mercenary &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1200
   Damage: 200
+  Faction: q7_inf
+  Group: q7_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -208,6 +224,8 @@ angry_flamespawn_inf:
   Display: '&lAngry Flamespawn &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 400
   Damage: 100
+  Faction: q7_inf
+  Group: q7_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.3
@@ -228,6 +246,8 @@ commander_embersword_inf:
   Display: '&5&lCommander Embersword &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000
   Damage: 250
+  Faction: q7_inf
+  Group: q7_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.2
@@ -259,6 +279,8 @@ herald_of_anderworld_inf:
   Display: '&4<&skull> &lHerald of the Anderworld &r&4<&skull>'
   Health: 5000
   Damage: 0
+  Faction: q7_inf
+  Group: q7_inf
   BossBar:
     Enabled: true
     Title: '&c<&skull> Herald of the Anderworld - <mob.hp{round=0}> <&skull>'

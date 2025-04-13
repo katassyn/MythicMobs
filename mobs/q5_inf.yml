@@ -4,6 +4,8 @@ furious_maggot_inf:
   Display: '&lFurious Maggot &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 200
   Damage: 50
+  Faction: q5_inf
+  Group: q5_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.15
@@ -13,23 +15,26 @@ furious_maggot_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - magma_block HEAD
-    - leather_chestplate{color=silver} CHEST
-    - leather_leggings{color=silver} LEGS
-    - leather_boots{color=silver} FEET
+  - magma_block HEAD
+  - leather_chestplate{color=silver} CHEST
+  - leather_leggings{color=silver} LEGS
+  - leather_boots{color=silver} FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - furious_maggot_inf_drop
-    - q_inf_mob_crafting
+  - furious_maggot_inf_drop
+  - q_inf_mob_crafting
 
 furious_flagrancy_inf:
   Type: ZOMBIE
   Disguise: MAGMA_CUBE
-  Display: '&lFurious Flagrancy &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&lFurious Flagrancy &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]
+    &4<&heart>'
   Health: 800
   Damage: 120
+  Faction: q5_inf
+  Group: q5_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.1
@@ -39,23 +44,26 @@ furious_flagrancy_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - fire_coral_block HEAD
-    - leather_chestplate{color=orange} CHEST
-    - leather_leggings{color=orange} LEGS
-    - leather_boots{color=orange} FEET
+  - fire_coral_block HEAD
+  - leather_chestplate{color=orange} CHEST
+  - leather_leggings{color=orange} LEGS
+  - leather_boots{color=orange} FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - furious_flagrancy_inf_drop
-    - q_inf_mob_crafting
+  - furious_flagrancy_inf_drop
+  - q_inf_mob_crafting
 
 furious_andermagic_inf:
   Type: ZOMBIE
   Disguise: BLAZE
-  Display: '&e&lFurious Andermagic &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&e&lFurious Andermagic &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]
+    &4<&heart>'
   Health: 600
   Damage: 150
+  Faction: q5_inf
+  Group: q5_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -65,25 +73,28 @@ furious_andermagic_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - shroomlight HEAD
-    - leather_chestplate{color=yellow} CHEST
-    - leather_leggings{color=yellow} LEGS
-    - leather_boots{color=yellow} FEET
-    - blaze_rod HAND
+  - shroomlight HEAD
+  - leather_chestplate{color=yellow} CHEST
+  - leather_leggings{color=yellow} LEGS
+  - leather_boots{color=yellow} FEET
+  - blaze_rod HAND
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=FireballAttack} @target ~onTimer:10
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=FireballAttack_inf} @target ~onTimer:10
   Drops:
-    - furious_andermagic_inf_drop
-    - q_inf_elite_crafting
+  - furious_andermagic_inf_drop
+  - q_inf_elite_crafting
 
 parallel_world_old_jabbax_shaman_inf:
   Type: ZOMBIE
   Disguise: MUSHROOM_COW
-  Display: '&5&lParallel World Old Jabbax Shaman &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lParallel World Old Jabbax Shaman &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]
+    &4<&heart>'
   Health: 2000
   Damage: 180
+  Faction: q5_inf
+  Group: q5_inf
   Options:
     FollowRange: 25
     MovementSpeed: 0.25
@@ -95,25 +106,28 @@ parallel_world_old_jabbax_shaman_inf:
     KnockbackResistance: 0.5
     Despawn: CHUNK
   Equipment:
-    - red_mushroom_block HEAD
-    - leather_chestplate{color=purple} CHEST
-    - leather_leggings{color=purple} LEGS
-    - leather_boots{color=purple} FEET
-    - totem_of_undying HAND
+  - red_mushroom_block HEAD
+  - leather_chestplate{color=purple} CHEST
+  - leather_leggings{color=purple} LEGS
+  - leather_boots{color=purple} FEET
+  - totem_of_undying HAND
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=SummonMaggots} ~onTimer:30
-    - skill{s=MeteorStrike} @target ~onTimer:15
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=SummonMaggots_inf} ~onTimer:30
+  - skill{s=MeteorStrike_inf} @target ~onTimer:15
   Drops:
-    - old_jabbax_shaman_inf_drop
-    - q_inf_elite_crafting
+  - old_jabbax_shaman_inf_drop
+  - q_inf_elite_crafting
 
 andermagic_guardian_inf:
   Type: ZOMBIE
-  Display: '&lAndermagic Guardian &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&lAndermagic Guardian &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]
+    &4<&heart>'
   Health: 600
   Damage: 150
+  Faction: q5_inf
+  Group: q5_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -123,24 +137,27 @@ andermagic_guardian_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - chain_helmet HEAD
-    - chainmail_chestplate CHEST
-    - chainmail_leggings LEGS
-    - chainmail_boots FEET
-    - iron_sword HAND
+  - chainmail_helmet HEAD
+  - chainmail_chestplate CHEST
+  - chainmail_leggings LEGS
+  - chainmail_boots FEET
+  - iron_sword HAND
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - andermagic_guardian_inf_drop
-    - q_inf_mob_crafting
+  - andermagic_guardian_inf_drop
+  - q_inf_mob_crafting
 
 living_andermagic_inf:
   Type: ZOMBIE
   Disguise: BLAZE
-  Display: '&lLiving Andermagic &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&lLiving Andermagic &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]
+    &4<&heart>'
   Health: 400
   Damage: 140
+  Faction: q5_inf
+  Group: q5_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -150,25 +167,28 @@ living_andermagic_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - glowstone HEAD
-    - leather_chestplate{color=gold} CHEST
-    - leather_leggings{color=gold} LEGS
-    - leather_boots{color=gold} FEET
-    - blaze_rod HAND
+  - glowstone HEAD
+  - leather_chestplate{color=gold} CHEST
+  - leather_leggings{color=gold} LEGS
+  - leather_boots{color=gold} FEET
+  - blaze_rod HAND
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=FireballAttack} @target ~onTimer:8
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=FireballAttack_inf} @target ~onTimer:8
   Drops:
-    - living_andermagic_inf_drop
-    - q_inf_mob_crafting
+  - living_andermagic_inf_drop
+  - q_inf_mob_crafting
 
 wailing_andermagic_ghost_inf:
   Type: ZOMBIE
   Disguise: VEX
-  Display: '&e&lWailing Andermagic Ghost &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&e&lWailing Andermagic Ghost &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]
+    &4<&heart>'
   Health: 800
   Damage: 100
+  Faction: q5_inf
+  Group: q5_inf
   Options:
     FollowRange: 15
     MovementSpeed: 0.15
@@ -178,25 +198,28 @@ wailing_andermagic_ghost_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - soul_lantern HEAD
-    - leather_chestplate{color=white} CHEST
-    - leather_leggings{color=white} LEGS
-    - leather_boots{color=white} FEET
+  - soul_lantern HEAD
+  - leather_chestplate{color=white} CHEST
+  - leather_leggings{color=white} LEGS
+  - leather_boots{color=white} FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=SlowAura} @PlayersInRadius{r=5} ~onTimer:5
-    - skill{s=DamageAura} @PlayersInRadius{r=5} ~onTimer:10
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=SlowAura_inf} @PlayersInRadius{r=5} ~onTimer:5
+  - skill{s=DamageAura_inf} @PlayersInRadius{r=5} ~onTimer:10
   Drops:
-    - wailing_ghost_inf_drop
-    - q_inf_elite_crafting
+  - wailing_ghost_inf_drop
+  - q_inf_elite_crafting
 
 andermagic_scoropitl_inf:
   Type: ZOMBIE
   Disguise: SPIDER
-  Display: '&e&lAndermagic Scoropitl &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&e&lAndermagic Scoropitl &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]
+    &4<&heart>'
   Health: 1200
   Damage: 150
+  Faction: q5_inf
+  Group: q5_inf
   Options:
     FollowRange: 20
     MovementSpeed: 0.2
@@ -206,25 +229,28 @@ andermagic_scoropitl_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - spider_eye HEAD
-    - leather_chestplate{color=purple} CHEST
-    - leather_leggings{color=purple} LEGS
-    - leather_boots{color=purple} FEET
+  - spider_eye HEAD
+  - leather_chestplate{color=purple} CHEST
+  - leather_leggings{color=purple} LEGS
+  - leather_boots{color=purple} FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - potion{type=POISON;duration=100;level=2} @target ~onAttack
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - potion{type=POISON;duration=100;level=2} @target ~onAttack
   Drops:
-    - andermagic_scoropitl_inf_drop
-    - q_inf_elite_crafting
+  - andermagic_scoropitl_inf_drop
+  - q_inf_elite_crafting
 
 wandering_experiment_inf:
   Type: ZOMBIE
-  Display: '&5&lWandering Experiment &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lWandering Experiment &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]
+    &4<&heart>'
   Health: 2000
-  Damage: 0  # No direct damage
+  Damage: 0 # No direct damage
+  Faction: q5_inf
+  Group: q5_inf
   Options:
-    FollowRange: 20
+    FollowRange: 2000
     MovementSpeed: 0.4
     ShowHealth: true
     AlwaysShowName: true
@@ -233,18 +259,20 @@ wandering_experiment_inf:
     PreventRandomEquipment: true
     Despawn: CHUNK
   Equipment:
-    - dragon_breath HEAD
-    - leather_chestplate{color=green} CHEST
-    - leather_leggings{color=green} LEGS
-    - leather_boots{color=green} FEET
+  - dragon_breath HEAD
+  - leather_chestplate{color=green} CHEST
+  - leather_leggings{color=green} LEGS
+  - leather_boots{color=green} FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=RunFromPlayer} @target ~onTimer:5
-    - potion{type=POISON;duration=60;level=2} @PlayersInRadius{r=3} ~onTimer:10
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=RunFromPlayer_inf} @target ~onTimer:5
+  - potion{type=POISON;duration=60;level=2} @PlayersInRadius{r=3} ~onTimer:10
   Drops:
-    - wandering_experiment_inf_drop
-    - q_inf_elite_crafting
+  - wandering_experiment_inf_drop
+  - q_inf_elite_crafting
+  AIGoalSelectors:
+  - 0 patrol -3499,-60,15;-3499,-61,15;-3499,-61,15;-3499,-61,15;-3499,-61,15;-3501,-60,14;-3520,-60,28;-3538,-60,54;-3634,-60,59;-3625,-60,119;-3564,-60,174;-3535,-60,132;-3503,-60,133;-3503,-60,198;
 
 khalys_leader_of_cultists_inf:
   Type: ZOMBIE
@@ -252,6 +280,8 @@ khalys_leader_of_cultists_inf:
   Display: '&4<&skull> &lKhalys, Leader of the Cultists &r&4<&skull>'
   Health: 3000
   Damage: 200
+  Faction: q5_inf
+  Group: q5_inf
   BossBar:
     Enabled: true
     Title: '&c<&skull> Khalys - <mob.hp{round=0}> <&skull>'
@@ -268,38 +298,40 @@ khalys_leader_of_cultists_inf:
     KnockbackResistance: 0.8
     Despawn: CHUNK
   Equipment:
-    - wither_rose HEAD
-    - leather_chestplate{color=black} CHEST
-    - leather_leggings{color=black} LEGS
-    - leather_boots{color=black} FEET
-    - brewing_stand HAND
+  - wither_rose HEAD
+  - leather_chestplate{color=black} CHEST
+  - leather_leggings{color=black} LEGS
+  - leather_boots{color=black} FEET
+  - brewing_stand HAND
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=SummonCopy} ~onTimer:45
-    - skill{s=MagicMissile} @target ~onTimer:10
-    - skill{s=Teleport} @self ~onTimer:30
-    - skill{s=DeathBeam} @PlayersInRadius{r=30} ~onTimer:20
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=SummonCopy_inf} ~onTimer:45
+  - skill{s=MagicMissile_inf} @target ~onTimer:10
+  - skill{s=Teleport_inf} @self ~onTimer:30
+  - skill{s=DeathBeam_inf} @PlayersInRadius{r=30} ~onTimer:20
   Drops:
-    - khalys_inf_drop
+  - khalys_inf_drop
 
 khalys_clone_inf:
   Type: ZOMBIE
   Disguise: WITCH
   Display: '&4Khalys Clone &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
-  Health: 300  # 10% of original
-  Damage: 100  # 50% of original
+  Health: 300 # 10% of original
+  Damage: 100 # 50% of original
+  Faction: q5_inf
+  Group: q5_inf
   Options:
     MovementSpeed: 0.3
     ShowHealth: true
     PreventOtherDrops: true
     Despawn: REMOVE
   Equipment:
-    - dead_bush HEAD
-    - leather_chestplate{color=black} CHEST
-    - leather_leggings{color=black} LEGS
-    - leather_boots{color=black} FEET
+  - dead_bush HEAD
+  - leather_chestplate{color=black} CHEST
+  - leather_leggings{color=black} LEGS
+  - leather_boots{color=black} FEET
   Skills:
-    - skill{s=MagicMissile} @target ~onTimer:10
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=MagicMissile} @target ~onTimer:10
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

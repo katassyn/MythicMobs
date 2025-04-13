@@ -3,6 +3,8 @@ gremlin_marauder_blood:
   Display: '&lGremlin Marauder &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1000  # x10 Zdrowie
   Damage: 150   # x5 Obrażenia
+  Faction: q2_blood
+  Group: q2_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.3
@@ -30,7 +32,9 @@ death_witch_blood:
   Disguise: WITCH
   Display: '&lDeath Witch    &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2000  # x10 Zdrowie
-  Damage: 200   # x5 Obrażenia
+  Damage: 200
+  Faction: q2_blood
+  Group: q2_blood  # x5 Obrażenia
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -57,6 +61,8 @@ poisonous_spider_blood:
   Display: '&lPoisonous Spider &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1500  # x10 Zdrowie
   Damage: 125   # x5 Obrażenia
+  Faction: q2_blood
+  Group: q2_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.35
@@ -81,6 +87,8 @@ corrupted_root_creature_blood:
   Display: '&e&lCorrupted Root Creature &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 10000  # x10 Zdrowie
   Damage: 250    # x5 Obrażenia
+  Faction: q2_blood
+  Group: q2_blood
   Options:
     FollowRange: 20
     MovementSpeed: 0.15
@@ -109,11 +117,8 @@ xerib_the_hunchback_blood:
   Display: '&5&lXerib the Hunchback &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 20000  # x10 Zdrowie
   Damage: 300    # x5 Obrażenia
-  BossBar:
-    Enabled: true
-    Title: '&5Xerib the Hunchback &7- &c<mob.hp{round=0}>'
-    Color: RED
-    Style: SEGMENTED_12
+  Faction: q2_blood
+  Group: q2_blood
   Options:
     FollowRange: 25
     MovementSpeed: 0.2
@@ -141,6 +146,8 @@ archus_the_mad_blood:
   Display: '&5&lArchus the Mad &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 30000  # x10 Zdrowie
   Damage: 400    # x5 Obrażenia
+  Faction: q2_blood
+  Group: q2_blood
   Options:
     FollowRange: 25
     MovementSpeed: 0.45
@@ -167,7 +174,9 @@ arachna_scourge_of_duria_blood:
   Disguise: SPIDER
   Display: '&4<&skull> &lArachna, Scourge of Duria&r &4<&skull>'
   Health: 50000  # x10 Zdrowie
-  Damage: 500    # x5 Obrażenia
+  Damage: 500
+  Faction: q2_blood
+  Group: q2_blood # x5 Obrażenia
   BossBar:
     Enabled: true
     Title: '&c<&skull> Arachna - &c<mob.hp{round=0}> <&skull>'

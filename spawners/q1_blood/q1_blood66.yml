@@ -26,3 +26,4 @@ q1_blood66:
   SpawnConditions: []
   SpawnerGroup: q1_blood
   CooldownTimer: 1
+  ActiveMobs: 1

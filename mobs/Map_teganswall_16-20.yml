@@ -50,7 +50,6 @@ soulless_dragon_archer:
   Faction: Teganswall
   Group: Teganswall
   Equipment:
-    - HEAD
     - iron_chestplate CHEST
     - iron_leggings LEGS
     - iron_boots FEET

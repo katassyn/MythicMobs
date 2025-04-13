@@ -26,3 +26,4 @@ mapa46-50mini_boss#1:
   SpawnConditions: []
   SpawnerGroup: 46-50mini_boss
   CooldownTimer: 1
+  ActiveMobs: 1

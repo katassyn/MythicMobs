@@ -25,3 +25,4 @@ mapa1-5:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: 1-5
+  CooldownTimer: 1

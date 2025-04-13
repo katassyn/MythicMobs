@@ -3,6 +3,8 @@ agile_satyr_warrior_hell:
   Display: '&lAgile Satyr Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2400  # 3x800
   Damage: 300   # 2x150
+  Faction: q9_hell
+  Group: q9_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.35
@@ -21,7 +23,7 @@ agile_satyr_warrior_hell:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - agile_satyr_hell_drop
+    - agile_satyr_warrior_hell_drop
     - q_hell_mob_crafting
 
 perfidious_satyr_archer_hell:
@@ -29,6 +31,8 @@ perfidious_satyr_archer_hell:
   Display: '&lPerfidious Satyr Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1800  # 3x600
   Damage: 400   # 2x200
+  Faction: q9_hell
+  Group: q9_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -47,7 +51,7 @@ perfidious_satyr_archer_hell:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - satyr_archer_hell_drop
+    - perfidious_satyr_archer_hell_drop
     - q_hell_mob_crafting
 
 cohort_swordsman_hell:
@@ -55,6 +59,8 @@ cohort_swordsman_hell:
   Display: '&e&lCohort Swordsman &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3600  # 3x1200
   Damage: 400   # 2x200
+  Faction: q9_hell
+  Group: q9_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.3
@@ -82,6 +88,8 @@ stone_golem_hell:
   Display: '&e&lStone Golem &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000  # 3x2000
   Damage: 500   # 2x250
+  Faction: q9_hell
+  Group: q9_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.15
@@ -110,6 +118,8 @@ asterion_hell:
   Display: '&5&lAsterion &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 9000  # 3x3000
   Damage: 600   # 2x300
+  Faction: q9_hell
+  Group: q9_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -140,6 +150,8 @@ jabbax_hell:
   Display: '&lJabbax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1500  # 3x500
   Damage: 200   # 2x100
+  Faction: q9_hell
+  Group: q9_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.25
@@ -165,6 +177,8 @@ zorlobb_warrior_hell:
   Display: '&e&lZorlobb Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 4500  # 3x1500
   Damage: 500   # 2x250
+  Faction: q9_hell
+  Group: q9_hell
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
@@ -192,6 +206,8 @@ gorgon_acolyte_hell:
   Display: '&lGorgon Acolyte &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1800  # 3x600
   Damage: 400   # 2x200
+  Faction: q9_hell
+  Group: q9_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
@@ -221,6 +237,8 @@ minotaur_hell:
   Display: '&e&lMinotaur &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000  # 3x2000
   Damage: 500   # 2x250
+  Faction: q9_hell
+  Group: q9_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
@@ -249,6 +267,8 @@ ebicarus_hell:
   Display: '&5&lEbicarus &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 9000  # 3x3000
   Damage: 600   # 2x300
+  Faction: q9_hell
+  Group: q9_hell
   Options:
     FollowRange: 20
     MovementSpeed: 0.2
@@ -278,6 +298,8 @@ medusa_hell:
   Display: '&4<&skull> &lM`Edusa &r&4<&skull>'
   Health: 15000  # 3x5000
   Damage: 400    # 2x200
+  Faction: q9_hell
+  Group: q9_hell
   BossBar:
     Enabled: true
     Title: '&c<&skull> M`Edusa - <mob.hp{round=0}> <&skull>'
@@ -314,6 +336,8 @@ snake_minion_hell:
   Display: '&lPoisonous Snake &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
   Health: 300  # 3x100
   Damage: 300  # 2x150
+  Faction: q9_hell
+  Group: q9_hell
   Options:
     MovementSpeed: 0.4
     ShowHealth: true
