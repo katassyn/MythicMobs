@@ -16,6 +16,17 @@ for q in range(1, 11):
         if os.path.exists(path):
             files.setdefault(q, {})[diff] = path
 
+# Files for non-Q maps (expowiska)
+exp_files = {}
+for fname in os.listdir(mobs_dir):
+    if not fname.endswith('.yml') or fname.startswith('test'):
+        continue
+    if re.match(r'q\d+_', fname):
+        continue
+    rng = re.search(r'(\d+-\d+)', fname)
+    rng_key = rng.group(1) if rng else 'other'
+    exp_files.setdefault(rng_key, []).append(os.path.join(mobs_dir, fname))
+
 # Rarity detection
 
 def get_rarity(display):
@@ -206,3 +217,42 @@ for q in range(1, 11):
 
 with open('mob_skills.md', 'w') as f:
     f.write('\n'.join(skills_lines))
+
+
+# Generate stats for expowiska (non-Q maps)
+exp_data = defaultdict(list)
+for rng, paths in exp_files.items():
+    for path in paths:
+        with open(path, 'r') as f:
+            data = yaml.safe_load(f) or {}
+        for mob_id, info in data.items():
+            display = info.get('Display', '')
+            rarity = get_rarity(display)
+            clean = clean_name(display)
+            entry = {
+                'name': clean,
+                'type': info.get('Type', ''),
+                'health': info.get('Health', ''),
+                'damage': info.get('Damage', ''),
+                'rarity': rarity,
+            }
+            exp_data[rng].append(entry)
+    exp_data[rng].sort(key=lambda m: rarity_order.index(m['rarity']))
+
+def range_sort_key(rng):
+    m = re.match(r'(\d+)', rng)
+    return int(m.group(1)) if m else 0
+
+exp_lines = []
+exp_lines.append('# Statystyki mobów z expowisk\n')
+exp_lines.append('Plik automatycznie wygenerowany z konfiguracji MythicMobs.\n')
+for rng in sorted(exp_data.keys(), key=range_sort_key):
+    exp_lines.append(f'\n## Poziom {rng}\n')
+    exp_lines.append('| Nazwa | Typ | HP | DMG | Rzadkość |')
+    exp_lines.append('|-------|-----|----|-----|----------|')
+    for m in exp_data[rng]:
+        name = m['name'].replace('|', '\\|') if m['name'] else ''
+        exp_lines.append(f"| {name} | {m['type']} | {m['health']} | {m['damage']} | {m['rarity']} |")
+
+with open('mob_stats_exp.md', 'w') as f:
+    f.write('\n'.join(exp_lines))
