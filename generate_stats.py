@@ -218,6 +218,7 @@ for q in range(1, 11):
 with open('mob_skills.md', 'w') as f:
     f.write('\n'.join(skills_lines))
 
+
 # Generate stats for expowiska (non-Q maps)
 exp_data = defaultdict(list)
 for rng, paths in exp_files.items():
