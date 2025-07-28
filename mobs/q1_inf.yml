@@ -50,6 +50,7 @@ flamecult_archer_inf:
     - iron_chestplate CHEST
     - iron_leggings LEGS
     - iron_boots FEET
+    - bow_100dmg HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

@@ -1,154 +1,40 @@
-GOD_SWORD:
+SkeletonKingSword:
   Id: DIAMOND_SWORD
-  Display:  '⚜ &3Greatsword of the Dil'
-  Group: GOD
+  Display: '&3Greatsword of the Skeleton King'
+  Lore:
+  - '&6A powerful sword used by'
+  - '&6the King of Skeletons.'
+  Enchantments:
+  - DAMAGE_ALL:5
+  - KNOCKBACK:2
+  - FIRE_ASPECT:2
   Attributes:
     MainHand:
-      Damage: 9999 ADD
-      Luck: 9999 ADD
-  Skills:
-    - potion{t=ABSORPTION;d=40;level=50} @self ~onTimer:20
-  Options:
-    Unbreakable: true
-
-Test:
-  Id: stone_sword
-  Display: '&l&a⬧&r &aTest'
+      Health: 10
+      MovementSpeed: 0.1
+KingsCrown:
+  Id: GOLDEN_HELMET
+  Display: '&dCrown of the King'
+  Lore:
+  - '&6A kingly crowl that grants'
+  - '&6the wearer unwavering power!'
   Enchantments:
-    - DAMAGE_ALL:3
-  Group: GOD
-  Lore:
-    - ''
-    - '§7Damage: §c10 ⚔'
-    - '§7Luck: §a+5 ☘'
-    - '§7Speed: §b+3 👟'
-    - '§7Health: §c+20 ❤'
-    - '§7Attack Speed: §e+1.2 ⚡'
-    - '§lRarity:§r §aImproved'
-  Attributes:
-    MainHand:
-      Damage: 10-15 ADD
-
-
-
-test2:
-  Id: diamond_leggings
-  Display: 'test'
-  Group: GOD
-  Enchantments:
-  Lore:
-    - ''
-    - '&7Protection:&9 (wartosc) 🛡'
-    - '&7Projectile Protection:&a (wartosc) 🏹'
-    - '&7Fire Protection:&c (wartosc) 🔥'
-    - '&7Thorns:&2 (wartosc) 🌵'
-    - '&lRarity:&r test'
-  Options:
-    HideFlags: true #dodaj to do opcji kazdego przedmiotu
-    HideAttributes: true
-    Unbreakable: true
+  - PROTECTION_ENVIRONMENTAL:2
+  - PROTECTION_PROJECTILE:2
+  - PROTECTION_FIRE:2
+  - PROTECTION_EXPLOSIONS:2
   Hide:
-    - ATTRIBUTES
+  - ATTRIBUTES
+  - ENCHANTS
   Attributes:
-    Legs:
-      Damage: 100 ADD
-  Skills:
-    - potion{t=ABSORPTION;d=400;level=111;p=false} @self ~onTimer:200
-
-test3:
-  Id: diamond_boots
-  Display: 'test'
-  Group: GOD
-  Enchantments:
+    Head:
+      Health: 10
+      KnockbackResistance: 10
+BanditTunic:
+  Id: LEATHER_CHESTPLATE
+  Display: '&aBandit Tunic'
   Lore:
-    - ''
-    - '&7Protection:&9 (wartosc) 🛡'
-    - '&7Projectile Protection:&a (wartosc) 🏹'
-    - '&7Fire Protection:&c (wartosc) 🔥'
-    - '&7Thorns:&2 (wartosc) 🌵'
-    - '&lRarity:&r test'
-  Attributes:
-    feets:
-      Damage: 100 ADD
-  Skills:
-    - potion{t=ABSORPTION;d=400;level=111;p=false} @self ~onTimer:200
-
-test_gloves:
-  Id: LEATHER_HORSE_ARMOR
-  Display: 'test gloves'
-  Group: test
-  Lore:
-    - ''
-    - '§7Damage: §c+70 ⚔'
-    - '§7Health: §c+10 ❤'
-    - '&lRarity:&r &6Legendary'
+  - '&6A leather tunic taken from'
+  - '&6the corpse of a bandit.'
   Options:
-    HideFlags: true
-    HideAttributes: true
-    Unbreakable: true
-  Hide:
-    - ATTRIBUTES
-  Attributes:
-    All:
-      Damage: 70 ADD
-      Health: 10 ADD
-
-test_shield:
-  Id: IRON_DOOR
-  Display: 'test shield'
-  Group: test
-  Lore:
-    - ''
-    - '§7Damage: §c+70 ⚔'
-    - '§7Health: §c+10 ❤'
-    - '&lRarity:&r &6Legendary'
-  Options:
-    HideFlags: true
-    HideAttributes: true
-    Unbreakable: true
-  Hide:
-    - ATTRIBUTES
-  Attributes:
-    All:
-      Damage: 70 ADD
-      Health: 10 ADD
-
-test_soul:
-  Id: DRAGON_BREATH
-  Display: 'test soul'
-  Group: test
-  Lore:
-    - ''
-    - '§7Damage: §c+70 ⚔'
-    - '§7Health: §c+10 ❤'
-    - '&lRarity:&r &6Legendary'
-  Options:
-    HideFlags: true
-    HideAttributes: true
-    Unbreakable: true
-  Hide:
-    - ATTRIBUTES
-  Attributes:
-    All:
-      Damage: 70 ADD
-      Health: 10 ADD
-
-test_belt:
-  Id: MINECART
-  Display: 'test belt'
-  Group: test
-  Lore:
-    - ''
-    - '§7Damage: §c+70 ⚔'
-    - '§7Health: §c+10 ❤'
-    - '&lRarity:&r &6Legendary'
-  Options:
-    HideFlags: true
-    HideAttributes: true
-    Unbreakable: true
-  Hide:
-    - ATTRIBUTES
-  Attributes:
-    All:
-      Damage: 70 ADD
-      Health: 10 ADD
+    Color: 255,40,40

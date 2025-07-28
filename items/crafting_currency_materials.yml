@@ -1,3 +1,16 @@
+GOD_SWORD:
+  Id: DIAMOND_SWORD
+  Display:  '⚜ &3Greatsword of the Dil'
+  Group: GOD
+  Attributes:
+    MainHand:
+      Damage: 9999 ADD
+      Luck: 9999 ADD
+  Skills:
+    - potion{t=ABSORPTION;d=40;level=50} @self ~onTimer:20
+  Options:
+    Unbreakable: true
+
 #CRAFTING CRAFTING CRAFTING
 #CRAFTING CRAFTING CRAFTING
 #CRAFTING CRAFTING CRAFTING

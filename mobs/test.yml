@@ -1,7 +1,7 @@
 TANK:
   Type: Zombie
   Display: '&lTank&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
-  Health: 1000
+  Health: 10000
   Armor: 0
   Damage: 5
   Equipment:
@@ -20,10 +20,3 @@ TANK:
     PreventJockeyMounts: true
     PreventTransformation: true
     MovementSpeed: '0.2'
-  DamageModifiers:
-    ICE: 2
-  Drops:
-    - andermant 3 1
-    - draken 1 1
-    - clover 1 1
-

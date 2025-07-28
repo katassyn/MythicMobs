@@ -113,7 +113,7 @@ sanguine_clan_raging_hunter_blood:
     - leather_chestplate{color=dark_red} CHEST
     - leather_leggings{color=dark_red} LEGS
     - leather_boots{color=dark_red} FEET
-    - bow HAND
+    - bow_100dmg HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -145,7 +145,7 @@ parallel_world_ancient_stag_blood:
     - leather_chestplate{color=brown} CHEST
     - leather_leggings{color=brown} LEGS
     - leather_boots{color=brown} FEET
-    - bow HAND
+    - bow_100dmg HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -230,7 +230,7 @@ eternal_hunter_blood:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=SummonEternalHounds_blood} ~onTimer:30
   Equipment:
-    - bow HAND
+    - bow_100dmg HAND
   Drops:
     - sanguine_clan_raging_snooper_blood_drop
     - q_blood_elite_crafting

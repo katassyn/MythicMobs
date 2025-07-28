@@ -88,7 +88,7 @@ cursed_archer_inf:
     - cursed_archer_inf_drop
     - q_inf_mob_crafting
   Equipment:
-    - bow HAND
+    - bow_100dmg HAND
     - leather_helmet{color=brown} HEAD
     - leather_chestplate{color=brown} CHEST
     - leather_leggings{color=brown} LEGS
@@ -217,11 +217,11 @@ slain_archer_inf:
     - slain_archer_inf_drop
     - q_inf_mob_crafting
   Equipment:
-    - bow HAND
-    - leather_helmet{color=dark_gray} HEAD
-    - leather_chestplate{color=dark_gray} CHEST
-    - leather_leggings{color=dark_gray} LEGS
-    - leather_boots{color=dark_gray} FEET
+    - bow_100dmg HAND
+    - leather_helmet{color=gray} HEAD
+    - leather_chestplate{color=gray} CHEST
+    - leather_leggings{color=gray} LEGS
+    - leather_boots{color=gray} FEET
 
 the_bloody_arrow_inf:
   Type: SKELETON
@@ -251,7 +251,7 @@ the_bloody_arrow_inf:
     - the_bloody_arrow_inf_drop
     - q_inf_elite_crafting
   Equipment:
-    - bow HAND
+    - bow_100dmg HAND
     - wither_skeleton_skull HEAD
     - leather_chestplate{color=red} CHEST
     - leather_leggings{color=red} LEGS

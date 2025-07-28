@@ -1,0 +1,11 @@
+bow_100dmg:
+  Id: BOW
+  Display: "&6Łuk Śmierci"
+  Enchantments:
+    - ARROW_DAMAGE:198
+    - DURABILITY:10
+  Lore:
+    - "&c+100 obrażeń przez moc zaklęcia"
+  Options:
+    Unbreakable: true
+
