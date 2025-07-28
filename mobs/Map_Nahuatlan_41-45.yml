@@ -21,6 +21,7 @@ temple_mummy:
     - stone_sword HAND
   Drops:
     - mummy
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -49,6 +50,7 @@ furious_fiend:
     - diamond_chestplate CHEST
   Drops:
     - mummy
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -79,6 +81,7 @@ crushing_monster:
     - IRON_SHOVEL HAND
   Drops:
     - crushing
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -113,6 +116,7 @@ protector_life_death:
     - diamond_sword OFFHAND
   Drops:
     - protector
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

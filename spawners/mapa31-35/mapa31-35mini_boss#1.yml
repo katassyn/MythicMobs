@@ -24,4 +24,4 @@ mapa31-35mini_boss#1:
   ShowFlames: false
   Conditions: []
   SpawnConditions: []
-  CooldownTimer: 1
+  CooldownTimer: 6

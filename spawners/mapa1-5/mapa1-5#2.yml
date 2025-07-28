@@ -25,5 +25,5 @@ mapa1-5#2:
   ShowFlames: false
   Conditions: []
   SpawnConditions: []
-  CooldownTimer: 1
-  ActiveMobs: 1
+  CooldownTimer: 2
+  ActiveMobs: 5

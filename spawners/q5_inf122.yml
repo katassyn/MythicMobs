@@ -25,4 +25,4 @@ q5_inf122:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: q5_inf
-  CooldownTimer: 82
+  CooldownTimer: 2

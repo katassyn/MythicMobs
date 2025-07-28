@@ -25,5 +25,5 @@ mapa70-80mini_boss#1:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: 70-80mini_boss
-  CooldownTimer: 1
+  CooldownTimer: 8
   ActiveMobs: 1

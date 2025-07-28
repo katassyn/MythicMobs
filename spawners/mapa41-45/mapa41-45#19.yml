@@ -25,4 +25,4 @@ mapa41-45#19:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: 41-45
-  CooldownTimer: 1
+  CooldownTimer: 3

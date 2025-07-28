@@ -25,5 +25,5 @@ q1_inf13:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: q1_inf
-  CooldownTimer: 2
+  CooldownTimer: 1
   ActiveMobs: 3

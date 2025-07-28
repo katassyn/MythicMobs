@@ -10,6 +10,7 @@ fallen_warrior_inf:
     FollowRange: 15
     MovementSpeed: 0.2
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -39,6 +40,7 @@ fallen_archer_inf:
     FollowRange: 20
     MovementSpeed: 0.2
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -65,6 +67,7 @@ death_knight_inf:
   Group: q6_inf
   Options:
     FollowRange: 15
+    PreventSunburn: true
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
@@ -97,6 +100,7 @@ mortis_death_knight_inf:
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -132,6 +136,7 @@ elite_skeleton_archer_inf:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Equipment:
     - bow HAND
     - iron_helmet HEAD
@@ -155,6 +160,7 @@ death_archer_inf:
   Options:
     FollowRange: 25
     MovementSpeed: 0.25
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -189,6 +195,7 @@ raging_soul_inf:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Equipment:
     - leather_helmet{color=black} HEAD
     - leather_chestplate{color=black} CHEST
@@ -212,6 +219,7 @@ elite_skeleton_warrior_inf:
     FollowRange: 15
     MovementSpeed: 0.2
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -244,6 +252,7 @@ murot_high_priest_inf:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
     Despawn: CHUNK
@@ -263,7 +272,8 @@ murot_high_priest_inf:
 
 # Mission 3 Boss Phases
 skeledragon_phase1_inf:
-  Type: HORSE
+  Type: Zombie
+  Disguise: Horse
   Display: '&4<&skull> &lSkeledragon &r&4<&skull>'
   Health: 5000
   Damage: 300
@@ -279,6 +289,7 @@ skeledragon_phase1_inf:
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -292,7 +303,8 @@ skeledragon_phase1_inf:
   Drops: []
 
 skeledragon_phase2_inf:
-  Type: HORSE
+  Type: Zombie
+  Disguise: Horse
   Display: '&4<&skull> &lMortis & Skeledragon &r&4<&skull>'
   Health: 7000
   Damage: 400
@@ -310,6 +322,7 @@ skeledragon_phase2_inf:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.8
     Despawn: CHUNK
@@ -340,6 +353,7 @@ mortis_phase3_inf:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.8
     Despawn: CHUNK
@@ -356,6 +370,6 @@ mortis_phase3_inf:
     - skill{s=DeathDash} @target ~onTimer:10
     - skill{s=HealingPulse} @self ~onTimer:15
     - skill{s=DeathZone} @target ~onTimer:25
-    - skill{s=SummonDragon} @self ~onTimer:60 ?Health.Below{r=0.3}
+    - skill{s=SummonDragon} @self ~onTimer:60 ?health{r=0.0to0.3}
   Drops:
     - mortis_inf_drop

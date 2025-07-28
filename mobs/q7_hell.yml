@@ -14,6 +14,7 @@ bone_warder_hell:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Equipment:
     - iron_sword HAND
     - iron_helmet HEAD
@@ -37,6 +38,7 @@ b1000_combat_mechanoid_hell:
   Options:
     FollowRange: 15
     MovementSpeed: 0.15
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -66,6 +68,7 @@ thundering_cyclops_hell:
     FollowRange: 20
     MovementSpeed: 0.25
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -92,6 +95,7 @@ dark_sentinel_hell:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
   Equipment:
     - netherite_sword HAND
@@ -118,6 +122,7 @@ iron_creeper_gate_guard_hell:
     FollowRange: 25
     MovementSpeed: 0.15
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -153,6 +158,7 @@ wild_razorclaw_hell:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Equipment:
     - stone_sword HAND
   Skills:
@@ -173,6 +179,7 @@ flamescale_defender_hell:
     FollowRange: 15
     MovementSpeed: 0.25
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -202,6 +209,7 @@ fireclaw_mercenary_hell:
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -234,6 +242,7 @@ angry_flamespawn_hell:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -257,6 +266,7 @@ commander_embersword_hell:
     PreventOtherDrops: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
+    PreventSunburn: true
     Despawn: CHUNK
   Equipment:
     - diamond_sword HAND
@@ -292,6 +302,7 @@ herald_of_anderworld_hell:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.8

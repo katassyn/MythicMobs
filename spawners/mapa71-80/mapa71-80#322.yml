@@ -25,5 +25,5 @@ mapa71-80#322:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: mapa71-80#2
-  CooldownTimer: 1
+  CooldownTimer: 5
   ActiveMobs: 2

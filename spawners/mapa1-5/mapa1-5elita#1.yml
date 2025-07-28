@@ -25,5 +25,5 @@ mapa1-5elita#1:
   ShowFlames: false
   Conditions: []
   SpawnConditions: []
-  CooldownTimer: 1
+  CooldownTimer: 116
   ActiveMobs: 1

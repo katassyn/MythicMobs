@@ -12,6 +12,7 @@ bone_warder_inf:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -39,6 +40,7 @@ b1000_combat_mechanoid_inf:
     MovementSpeed: 0.15
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -65,6 +67,7 @@ thundering_cyclops_inf:
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -91,6 +94,7 @@ dark_sentinel_inf:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -117,6 +121,7 @@ iron_creeper_gate_guard_inf:
   Options:
     FollowRange: 25
     MovementSpeed: 0.15
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -149,6 +154,7 @@ wild_razorclaw_inf:
     FollowRange: 20
     MovementSpeed: 0.4
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -175,6 +181,7 @@ flamescale_defender_inf:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -201,6 +208,7 @@ fireclaw_mercenary_inf:
     FollowRange: 20
     MovementSpeed: 0.3
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -230,6 +238,7 @@ angry_flamespawn_inf:
     FollowRange: 15
     MovementSpeed: 0.3
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -253,6 +262,7 @@ commander_embersword_inf:
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -294,6 +304,7 @@ herald_of_anderworld_inf:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
     KnockbackResistance: 0.8
     Despawn: CHUNK
   Equipment:

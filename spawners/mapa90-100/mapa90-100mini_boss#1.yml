@@ -25,4 +25,4 @@ mapa90-100mini_boss#1:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: mapa90-100mini_boss
-  CooldownTimer: 1
+  CooldownTimer: 3

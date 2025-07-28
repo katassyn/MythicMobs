@@ -25,5 +25,5 @@ mapa6-10elita#1:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: 6-10elita
-  CooldownTimer: 1
+  CooldownTimer: 2
   ActiveMobs: 1

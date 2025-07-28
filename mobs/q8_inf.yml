@@ -13,6 +13,7 @@ electrified_ferocity_inf:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -43,6 +44,7 @@ charged_drone_inf:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
   Equipment:
     - leather_helmet{color=cyan} HEAD
@@ -69,6 +71,7 @@ big_heap_of_ice_inf:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
@@ -82,7 +85,7 @@ big_heap_of_ice_inf:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=SummonIceHeaps} @self ~onDeath
   Drops:
-    - big_heap_inf_drop
+    - big_heap_of_ice_inf_drop
     - q_inf_elite_crafting
 
 bloodthirsty_frostwolf_inf:
@@ -95,6 +98,7 @@ bloodthirsty_frostwolf_inf:
   Options:
     FollowRange: 20
     MovementSpeed: 0.35
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -123,6 +127,7 @@ shocking_forocity_inf:
   Group: q8_inf
   Options:
     FollowRange: 25
+    PreventSunburn: true
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
@@ -160,6 +165,7 @@ pale_pillager_inf:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -191,6 +197,7 @@ simple_troll_inf:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Equipment:
     - cobblestone HAND
     - leather_helmet{color=gray} HEAD
@@ -220,6 +227,7 @@ frost_magician_inf:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Equipment:
     - stick HAND
     - leather_helmet{color=aqua} HEAD
@@ -246,6 +254,7 @@ frost_bringer_inf:
     FollowRange: 15
     MovementSpeed: 0.2  # Slow
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -278,6 +287,7 @@ pale_enforcer_inf:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
     Despawn: CHUNK
@@ -291,7 +301,7 @@ pale_enforcer_inf:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=DashToPlayer} @target ~onTimer:12
-    - skill{s=SummonPillagers} @self ~onTimer:30 ?Health.Below{r=0.5}
+    - skill{s=SummonPillagers} @self ~onTimer:30 ?health{r=0.0to0.5}
   Drops:
     - pale_enforcer_inf_drop
     - q_inf_elite_crafting
@@ -317,20 +327,21 @@ sigrismarr_priest_of_fjalnir_inf:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
     KnockbackResistance: 1.0
     Despawn: CHUNK
   Equipment:
     - stick HAND
-    - leather_helmet{color=aqua} HEAD
-    - leather_chestplate{color=aqua} CHEST
-    - leather_leggings{color=aqua} LEGS
-    - leather_boots{color=aqua} FEET
+    - leather_helmet{color=blue} HEAD
+    - leather_chestplate{color=blue} CHEST
+    - leather_leggings{color=blue} LEGS
+    - leather_boots{color=blue} FEET
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=TripleIceBolt} @target ~onTimer:10
     - skill{s=HomingIceSphere} @target ~onTimer:15
-    - skill{s=ImmunityPhase} @self ~onTimer:1 ?Health.Below{r=0.66}
-    - skill{s=ImmunityPhase} @self ~onTimer:1 ?Health.Below{r=0.33}
+    - skill{s=ImmunityPhase} @self ~onTimer:1 ?health{h=<3300}
+    - skill{s=ImmunityPhase} @self ~onTimer:1 ?health{h=<1650}
   Drops:
     - sigrismarr_inf_drop

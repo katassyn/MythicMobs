@@ -44,24 +44,44 @@ SummonEternalHounds_inf:
     - summon{mob=eternal_hunting_hound_inf;amount=2;radius=3;noise=2} @self
 
 # Mission 3 Boss Skills
+BearachRotation_inf:
+  Skills:
+    - skill{s=LightningStrike_inf} @self
+    - delay 100       # 5s przerwy
+    - skill{s=SummonLightningWolves_inf} @self
+    - delay 120       # 6s przerwy
+    - skill{s=BeeSwarm_inf} @self
+    - delay 100       # 5s przerwy
+    - skill{s=Whirlwind_inf} @self
+    - delay 150       # 7.5s przerwy
+    - skill{s=BearachRotation_inf} @self
+
 LightningStrike_inf:
   Cooldown: 20
   Skills:
-    - message{m="&cBearach calls upon the storm!"} @PlayersInRadius{r=30}
+    - message{m="&cBearach calls upon the storm in 5 seconds!"} @PlayersInRadius{r=30}
+    - effect:particles{p=END_ROD;amount=20;radius=8} @PlayersInRadius{r=8}
+    - delay 100
+    - message{m="&cLightning strikes now!"} @PlayersInRadius{r=30}
     - lightning @PlayersInRadius{r=8}
-    - damage{a=200} @PlayersInRadius{r=8}
+    - damage{a=150} @PlayersInRadius{r=8}
+    - effect:particles{p=SMOKE_LARGE;amount=10;radius=8} @PlayersInRadius{r=8}
 
 SummonLightningWolves_inf:
-  Cooldown: 40
+  Cooldown: 60
   Skills:
-    - message{m="&cBearach summons lightning wolves!"} @PlayersInRadius{r=30}
+    - message{m="&cBearach summons lightning wolves in 3 seconds!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SPELL;amount=30;radius=3} @self
+    - delay 60
     - summon{mob=lightning_wolf_inf;amount=2;radius=3;noise=2} @self
 
 BeeSwarm_inf:
-  Cooldown: 25
+  Cooldown: 40
   Skills:
-    - message{m="&cBearach unleashes a swarm of bees!"} @PlayersInRadius{r=30}
-    - projectile{onTick=BeeSwarm-Tick;onHit=BeeSwarm-Hit;v=8;i=BEE_NEST;hR=1;vR=1;amount=3} @target
+    - message{m="&cBearach unleashes a swarm of bees in 4 seconds!"} @PlayersInRadius{r=30}
+    - effect:particles{p=VILLAGER_ANGRY;amount=25;radius=3} @target
+    - delay 80
+    - projectile{onTick=BeeSwarm-Tick;onHit=BeeSwarm-Hit;v=8;i=BEE_NEST;hR=1;vR=1;amount=5} @target
 
 BeeSwarm-Tick:
   Skills:
@@ -69,18 +89,18 @@ BeeSwarm-Tick:
 
 BeeSwarm-Hit:
   Skills:
-    - damage{a=400} @target
+    - damage{a=200} @target
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @target
 
 Whirlwind_inf:
-  Cooldown: 30
+  Cooldown: 50
   Skills:
-    - message{m="&cBearach spins with tremendous force!"} @PlayersInRadius{r=30}
-    - delay 20
-    - damage{a=250} @PlayersInRadius{r=6}
-    - potion{type=CONFUSION;duration=100;level=1} @PlayersInRadius{r=6}
-    - effect:particles{p=CLOUD;amount=50;radius=6} @self
-
+    - message{m="&cBearach spins with tremendous force in 2 seconds!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SWEEP_ATTACK;amount=30;radius=6} @self
+    - delay 40
+    - damage{a=200} @PlayersInRadius{r=6}
+    - potion{type=CONFUSION;duration=80;level=1} @PlayersInRadius{r=6}
+    - effect:particles{p=CLOUD;amount=60;radius=6} @self
 # Additional mobs needed for boss fight
 
 
@@ -145,24 +165,44 @@ SummonEternalHounds_hell:
     - summon{mob=eternal_hunting_hound_hell;amount=2;radius=3;noise=2} @self
 
 # Mission 3 Boss Skills
-LightningStrike_hell:
-  Cooldown: 20
+BearachRotation_hell:
   Skills:
-    - message{m="&cBearach calls upon the storm!"} @PlayersInRadius{r=30}
+    - skill{s=LightningStrike_hell} @self
+    - delay 80
+    - skill{s=SummonLightningWolves_hell} @self
+    - delay 90
+    - skill{s=BeeSwarm_hell} @self
+    - delay 80
+    - skill{s=Whirlwind_hell} @self
+    - delay 120
+    - skill{s=BearachRotation_hell} @self
+
+LightningStrike_hell:
+  Cooldown: 15
+  Skills:
+    - message{m="&cBearach calls upon the storm in 4 seconds!"} @PlayersInRadius{r=30}
+    - effect:particles{p=END_ROD;amount=30;radius=8} @PlayersInRadius{r=8}
+    - delay 80
+    - message{m="&cLightning strikes now!"} @PlayersInRadius{r=30}
     - lightning @PlayersInRadius{r=8}
-    - damage{a=400} @PlayersInRadius{r=8}  # 2x200
+    - damage{a=300} @PlayersInRadius{r=8}
+    - effect:particles{p=SMOKE_LARGE;amount=15;radius=8} @PlayersInRadius{r=8}
 
 SummonLightningWolves_hell:
-  Cooldown: 40
+  Cooldown: 50
   Skills:
-    - message{m="&cBearach summons lightning wolves!"} @PlayersInRadius{r=30}
-    - summon{mob=lightning_wolf_hell;amount=2;radius=3;noise=2} @self
+    - message{m="&cBearach summons lightning wolves in 2 seconds!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SPELL;amount=40;radius=3} @self
+    - delay 40
+    - summon{mob=lightning_wolf_hell;amount=3;radius=3;noise=2} @self
 
 BeeSwarm_hell:
-  Cooldown: 25
+  Cooldown: 35
   Skills:
-    - message{m="&cBearach unleashes a swarm of bees!"} @PlayersInRadius{r=30}
-    - projectile{onTick=BeeSwarm-Tick-Hell;onHit=BeeSwarm-Hit-Hell;v=8;i=BEE_NEST;hR=1;vR=1;amount=3} @target
+    - message{m="&cBearach unleashes a swarm of bees in 3 seconds!"} @PlayersInRadius{r=30}
+    - effect:particles{p=VILLAGER_ANGRY;amount=30;radius=3} @target
+    - delay 60
+    - projectile{onTick=BeeSwarm-Tick-Hell;onHit=BeeSwarm-Hit-Hell;v=8;i=BEE_NEST;hR=1;vR=1;amount=7} @target
 
 BeeSwarm-Tick-Hell:
   Skills:
@@ -170,17 +210,19 @@ BeeSwarm-Tick-Hell:
 
 BeeSwarm-Hit-Hell:
   Skills:
-    - damage{a=800} @target  # 2x400
+    - damage{a=350} @target
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @target
 
 Whirlwind_hell:
-  Cooldown: 30
+  Cooldown: 40
   Skills:
-    - message{m="&cBearach spins with tremendous force!"} @PlayersInRadius{r=30}
-    - delay 20
-    - damage{a=500} @PlayersInRadius{r=6}  # 2x250
-    - potion{type=CONFUSION;duration=100;level=1} @PlayersInRadius{r=6}
-    - effect:particles{p=CLOUD;amount=50;radius=6} @self
+    - message{m="&cBearach spins with tremendous force in 3 seconds!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SWEEP_ATTACK;amount=40;radius=6} @self
+    - delay 60
+    - damage{a=350} @PlayersInRadius{r=6}
+    - potion{type=CONFUSION;duration=80;level=1} @PlayersInRadius{r=6}
+    - effect:particles{p=CLOUD;amount=70;radius=6} @self
+
 
 # Additional mobs needed for boss fight
 
@@ -245,24 +287,44 @@ SummonEternalHounds_blood:
     - summon{mob=eternal_hunting_hound_blood;amount=2;radius=3;noise=2} @self
 
 # Mission 3 Boss Skills
-LightningStrike_blood:
-  Cooldown: 20
+BearachRotation_blood:
   Skills:
-    - message{m='&cBearach calls upon the storm!'} @PlayersInRadius{r=30}
+    - skill{s=LightningStrike_blood} @self
+    - delay 60
+    - skill{s=SummonLightningWolves_blood} @self
+    - delay 80
+    - skill{s=BeeSwarm_blood} @self
+    - delay 60
+    - skill{s=Whirlwind_blood} @self
+    - delay 100
+    - skill{s=BearachRotation_blood} @self
+
+LightningStrike_blood:
+  Cooldown: 10
+  Skills:
+    - message{m="&cBearach calls upon the storm in 3 seconds!"} @PlayersInRadius{r=30}
+    - effect:particles{p=END_ROD;amount=40;radius=8} @PlayersInRadius{r=8}
+    - delay 60
+    - message{m="&cLightning strikes now!"} @PlayersInRadius{r=30}
     - lightning @PlayersInRadius{r=8}
-    - damage{a=1000} @PlayersInRadius{r=8}  # 5x200
+    - damage{a=500} @PlayersInRadius{r=8}
+    - effect:particles{p=SMOKE_LARGE;amount=20;radius=8} @PlayersInRadius{r=8}
 
 SummonLightningWolves_blood:
   Cooldown: 40
   Skills:
-    - message{m='&cBearach summons lightning wolves!'} @PlayersInRadius{r=30}
-    - summon{mob=lightning_wolf_blood;amount=2;radius=3;noise=2} @self
+    - message{m="&cBearach summons lightning wolves in 1 second!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SPELL;amount=50;radius=3} @self
+    - delay 20
+    - summon{mob=lightning_wolf_blood;amount=4;radius=3;noise=2} @self
 
 BeeSwarm_blood:
-  Cooldown: 25
+  Cooldown: 30
   Skills:
-    - message{m='&cBearach unleashes a swarm of bees!'} @PlayersInRadius{r=30}
-    - projectile{onTick=BeeSwarm-Tick-Blood;onHit=BeeSwarm-Hit-Blood;v=8;i=BEE_NEST;hR=1;vR=1;amount=3} @target
+    - message{m="&cBearach unleashes a swarm of bees in 2 seconds!"} @PlayersInRadius{r=30}
+    - effect:particles{p=VILLAGER_ANGRY;amount=35;radius=3} @target
+    - delay 40
+    - projectile{onTick=BeeSwarm-Tick-Blood;onHit=BeeSwarm-Hit-Blood;v=8;i=BEE_NEST;hR=1;vR=1;amount=10} @target
 
 BeeSwarm-Tick-Blood:
   Skills:
@@ -270,17 +332,18 @@ BeeSwarm-Tick-Blood:
 
 BeeSwarm-Hit-Blood:
   Skills:
-    - damage{a=2000} @target  # 5x400
+    - damage{a=600} @target
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @target
 
 Whirlwind_blood:
   Cooldown: 30
   Skills:
-    - message{m='&cBearach spins with tremendous force!'} @PlayersInRadius{r=30}
-    - delay 20
-    - damage{a=1250} @PlayersInRadius{r=6}  # 5x250
-    - potion{type=CONFUSION;duration=100;level=1} @PlayersInRadius{r=6}
-    - effect:particles{p=CLOUD;amount=50;radius=6} @self
+    - message{m="&cBearach spins with tremendous force in 2 seconds!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SWEEP_ATTACK;amount=50;radius=6} @self
+    - delay 40
+    - damage{a=400} @PlayersInRadius{r=6}
+    - potion{type=CONFUSION;duration=80;level=1} @PlayersInRadius{r=6}
+    - effect:particles{p=CLOUD;amount=80;radius=6} @self
 
 # Additional mobs needed for boss fight
 

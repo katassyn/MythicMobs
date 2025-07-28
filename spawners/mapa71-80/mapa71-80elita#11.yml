@@ -25,5 +25,5 @@ mapa71-80elita#11:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: 71-80elita
-  CooldownTimer: 1
+  CooldownTimer: 9
   ActiveMobs: 2

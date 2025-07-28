@@ -429,6 +429,7 @@ medusa_blood_drop:
     - medusa_frag_III 1 0.05
     - ips 3 1
     - medusa_blood_drop_item_drops 1
+    - q9_soul 1 0.01
 medusa_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 3

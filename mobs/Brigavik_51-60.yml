@@ -99,7 +99,7 @@ ShadowNorseman:
   Faction: brigavik
   Group: brigavik
   Equipment:
-    - ice_block HEAD
+    - ice HEAD
     - leather_chestplate{color=blue} CHEST
     - iron_axe HAND
     - iron_axe OFFHAND

@@ -10,6 +10,7 @@ furious_maggot_hell:
     FollowRange: 15
     MovementSpeed: 0.15
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -39,6 +40,7 @@ furious_flagrancy_hell:
     FollowRange: 15
     MovementSpeed: 0.1
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -68,6 +70,7 @@ furious_andermagic_hell:
     FollowRange: 20
     MovementSpeed: 0.3
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -100,6 +103,7 @@ parallel_world_old_jabbax_shaman_hell:
     MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -132,6 +136,7 @@ andermagic_guardian_hell:
     FollowRange: 20
     MovementSpeed: 0.3
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -161,6 +166,7 @@ living_andermagic_hell:
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -193,6 +199,7 @@ wailing_andermagic_ghost_hell:
     FollowRange: 15
     MovementSpeed: 0.15
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -225,6 +232,7 @@ andermagic_scoropitl_hell:
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -255,6 +263,7 @@ wandering_experiment_hell:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
     Despawn: CHUNK
@@ -293,6 +302,7 @@ khalys_leader_of_cultists_hell:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.8
@@ -326,6 +336,7 @@ khalys_clone_hell:
     ShowHealth: true
     PreventOtherDrops: true
     Despawn: REMOVE
+    PreventSunburn: true
   Equipment:
   - dead_bush HEAD
   - leather_chestplate{color=black} CHEST

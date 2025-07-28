@@ -22,7 +22,7 @@ shade_crawler:
     - leather_leggings{color=black} LEGS
     - leather_boots{color=black} FEET
   Drops:
-    - telepolos_normal
+    - telopolos_normal
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -52,7 +52,7 @@ shadow_gazer:
     - leather_leggings{color=black} LEGS
     - leather_boots{color=black} FEET
   Drops:
-    - telepolos_normal
+    - telopolos_normal
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -118,7 +118,7 @@ traitorous_imperial_lancer:
     - shield OFFHAND
     - iron_shovel HAND
   Drops:
-    - telepolos_normal
+    - telopolos_normal
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -150,7 +150,7 @@ traitorous_imperial_swordsman:
     - leather_boots{color=black} FEET
     - iron_sword HAND
   Drops:
-    - telepolos_normal
+    - telopolos_normal
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

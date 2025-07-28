@@ -25,4 +25,4 @@ mapa26-30elita#1:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: 26-30elita
-  CooldownTimer: 1
+  CooldownTimer: 6

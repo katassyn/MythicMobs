@@ -26,6 +26,7 @@ _arisen_warrior:
     - SHIELD OFFHAND
   Drops:
     - arisen
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -57,6 +58,7 @@ _arisen_archer:
     - bow HAND
   Drops:
     - arisen
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -86,6 +88,7 @@ _nefertari_snooper:
     - snooper_pants LEGS
   Drops:
     - nefertari_snooper
+    - normal_mobs_drops
   Skills:
     - skill{s=bolt} @target ~onTimer:100
     - skill{s=Summon6-10} @self 0.1
@@ -117,6 +120,7 @@ _nefertari_priest:
     - priest_pants LEGS
   Drops:
     - nefertari_priest
+    - normal_mobs_drops
   Skills:
     - skill{s=Summon6-10#2} @self 0.1
     - skill{s=bolt} @target ~onTimer:100

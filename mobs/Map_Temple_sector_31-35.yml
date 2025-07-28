@@ -22,6 +22,7 @@ gorgon_soldier:
     - TRIDENT HAND
   Drops:
     - gorgon
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -48,6 +49,7 @@ jellyfish:
     - prismarine_crystals HAND
   Drops:
     - gorgon
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -77,6 +79,7 @@ gorgon_heretic:
     - TRIDENT HAND
   Drops:
     - gorgon_heretic
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -107,6 +110,7 @@ high_priest_baran:
     - iron_sword HAND
   Drops:
     - high_priest_baran
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

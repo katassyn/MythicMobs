@@ -25,4 +25,4 @@ mapa1-5mini_boss:
   Conditions: []
   SpawnConditions: []
   ActiveMobs: 1
-  CooldownTimer: 33
+  CooldownTimer: 1

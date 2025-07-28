@@ -152,6 +152,7 @@ arachna_blood_drop:
     - arachna_frag_III 1 0.05
     - ips 3 1
     - arachna_blood_drop_item_drops 1
+    - q2_soul 1 0.01
 arachna_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 3

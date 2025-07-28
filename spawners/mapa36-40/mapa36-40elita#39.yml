@@ -25,4 +25,4 @@ mapa36-40elita#39:
   ShowFlames: false
   Conditions: []
   SpawnConditions: []
-  CooldownTimer: 1
+  CooldownTimer: 4

@@ -12,6 +12,7 @@ agile_satyr_warrior_inf:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -37,6 +38,7 @@ perfidious_satyr_archer_inf:
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -63,6 +65,7 @@ cohort_swordsman_inf:
   Faction: q9_inf
   Group: q9_inf
   Options:
+    PreventSunburn: true
     FollowRange: 15
     MovementSpeed: 0.3
     ShowHealth: true
@@ -100,6 +103,7 @@ stone_golem_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
+    PreventSunburn: true
   Equipment:
     - stone HEAD
     - stone CHEST
@@ -126,6 +130,7 @@ asterion_inf:
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -161,6 +166,7 @@ jabbax_inf:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
   Equipment:
     - leather_helmet{color=brown} HEAD
@@ -184,6 +190,7 @@ zorlobb_warrior_inf:
   Options:
     FollowRange: 15
     MovementSpeed: 0.2  # Slow
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -216,6 +223,7 @@ gorgon_acolyte_inf:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -245,6 +253,7 @@ minotaur_inf:
     FollowRange: 20
     MovementSpeed: 0.3
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -276,6 +285,7 @@ ebicarus_inf:
     MovementSpeed: 0.2  # Slow
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -311,6 +321,7 @@ medusa_inf:
   Options:
     FollowRange: 30
     MovementSpeed: 0.25
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -344,6 +355,7 @@ snake_minion_inf:
   Options:
     MovementSpeed: 0.4
     ShowHealth: true
+    PreventSunburn: true
     PreventOtherDrops: true
     Despawn: REMOVE
   Skills:

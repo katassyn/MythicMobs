@@ -26,4 +26,4 @@ mapa11-15elita#1:
   SpawnConditions: []
   ActiveMobs: 1
   SpawnerGroup: 11-15elita
-  CooldownTimer: 1
+  CooldownTimer: 2

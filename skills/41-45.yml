@@ -21,6 +21,6 @@ RainHit:
 
 LifeDeathAura:
   Skills:
-    - damage{a=100;r=5} @EnemiesInRadius{r=5}
+    - damage{a=100;r=5} @EntitiesInRadius{r=5}
     - effect:particles{p=totem;amount=30;hS=1;vS=1} @Self
     - sound{s=entity.zombie.attack_iron_door;v=1;p=1} @Self

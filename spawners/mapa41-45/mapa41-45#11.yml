@@ -26,3 +26,4 @@ mapa41-45#11:
   SpawnConditions: []
   SpawnerGroup: 41-45
   CooldownTimer: 1
+  ActiveMobs: 2

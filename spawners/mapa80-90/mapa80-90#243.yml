@@ -25,3 +25,4 @@ mapa80-90#243:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: 80-90
+  CooldownTimer: 7

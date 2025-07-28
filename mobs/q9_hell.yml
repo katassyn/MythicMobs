@@ -12,6 +12,7 @@ agile_satyr_warrior_hell:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
   Equipment:
     - iron_sword HAND
@@ -40,6 +41,7 @@ perfidious_satyr_archer_hell:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
   Equipment:
     - bow HAND
@@ -69,6 +71,7 @@ cohort_swordsman_hell:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Equipment:
     - iron_sword HAND
     - iron_helmet HEAD
@@ -92,6 +95,7 @@ stone_golem_hell:
   Group: q9_hell
   Options:
     FollowRange: 15
+    PreventSunburn: true
     MovementSpeed: 0.15
     ShowHealth: true
     AlwaysShowName: true
@@ -124,6 +128,7 @@ asterion_hell:
     FollowRange: 20
     MovementSpeed: 0.3
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -156,6 +161,7 @@ jabbax_hell:
     FollowRange: 15
     MovementSpeed: 0.25
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -185,6 +191,7 @@ zorlobb_warrior_hell:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -211,6 +218,7 @@ gorgon_acolyte_hell:
   Options:
     FollowRange: 20
     MovementSpeed: 0.25
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -246,6 +254,7 @@ minotaur_hell:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
   Equipment:
     - iron_axe HAND
@@ -272,6 +281,7 @@ ebicarus_hell:
   Options:
     FollowRange: 20
     MovementSpeed: 0.2
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -307,6 +317,7 @@ medusa_hell:
     Style: SEGMENTED_12
   Options:
     FollowRange: 30
+    PreventSunburn: true
     MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
@@ -339,6 +350,7 @@ snake_minion_hell:
   Faction: q9_hell
   Group: q9_hell
   Options:
+    PreventSunburn: true
     MovementSpeed: 0.4
     ShowHealth: true
     PreventOtherDrops: true

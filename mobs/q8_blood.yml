@@ -12,6 +12,7 @@ electrified_ferocity_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -41,6 +42,7 @@ charged_drone_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -70,6 +72,7 @@ big_heap_of_ice_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
     KnockbackResistance: 0.5
   Equipment:
     - leather_helmet{color=white} HEAD
@@ -96,6 +99,7 @@ bloodthirsty_frostwolf_blood:
     MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -122,6 +126,7 @@ shocking_forocity_blood:
   Group: q8_blood
   Options:
     FollowRange: 25
+    PreventSunburn: true
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
@@ -156,6 +161,7 @@ pale_pillager_blood:
     FollowRange: 20
     MovementSpeed: 0.35
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -185,6 +191,7 @@ simple_troll_blood:
     FollowRange: 15
     MovementSpeed: 0.2
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -218,6 +225,7 @@ frost_magician_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Equipment:
     - stick HAND
     - leather_helmet{color=aqua} HEAD
@@ -247,6 +255,7 @@ frost_bringer_blood:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.7
   Equipment:
@@ -273,6 +282,7 @@ pale_enforcer_blood:
     FollowRange: 20
     MovementSpeed: 0.3
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -289,7 +299,7 @@ pale_enforcer_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=DashToPlayer_blood} @target ~onTimer:12
-    - skill{s=SummonPillagers_blood} @self ~onTimer:30 ?Health.Below{r=0.5}
+    - skill{s=SummonPillagers_blood} @self ~onTimer:30 ?health{r=0.0to0.5}
   Drops:
     - pale_enforcer_blood_drop
     - q_blood_elite_crafting
@@ -308,6 +318,7 @@ sigrismarr_priest_of_fjalnir_blood:
     Style: SEGMENTED_12
   Options:
     FollowRange: 30
+    PreventSunburn: true
     MovementSpeed: 0
     ShowHealth: true
     AlwaysShowName: true
@@ -318,16 +329,16 @@ sigrismarr_priest_of_fjalnir_blood:
     Despawn: CHUNK
   Equipment:
     - stick HAND
-    - leather_helmet{color=aqua} HEAD
-    - leather_chestplate{color=aqua} CHEST
-    - leather_leggings{color=aqua} LEGS
-    - leather_boots{color=aqua} FEET
+    - leather_helmet{color=blue} HEAD
+    - leather_chestplate{color=blue} CHEST
+    - leather_leggings{color=blue} LEGS
+    - leather_boots{color=blue} FEET
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=TripleIceBolt_blood} @target ~onTimer:10
     - skill{s=HomingIceSphere_blood} @target ~onTimer:15
-    - skill{s=ImmunityPhase_blood} @self ~onTimer:1 ?Health.Below{r=0.66}
-    - skill{s=ImmunityPhase_blood} @self ~onTimer:1 ?Health.Below{r=0.33}
+    - skill{s=ImmunityPhase} @self ~onTimer:1 ?health{h=<33000}
+    - skill{s=ImmunityPhase} @self ~onTimer:1 ?health{h=<16500}
   Drops:
     - sigrismarr_blood_drop

@@ -13,6 +13,7 @@ bone_warder_blood:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
   Equipment:
     - iron_sword HAND
@@ -41,6 +42,7 @@ b1000_combat_mechanoid_blood:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
   Equipment:
     - iron_helmet HEAD
@@ -68,6 +70,7 @@ thundering_cyclops_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Skills:
@@ -91,6 +94,7 @@ dark_sentinel_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -123,6 +127,7 @@ iron_creeper_gate_guard_blood:
     PreventOtherDrops: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
+    PreventSunburn: true
     Despawn: CHUNK
   Equipment:
     - iron_helmet HEAD
@@ -152,6 +157,7 @@ wild_razorclaw_blood:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
   Equipment:
     - stone_sword HAND
@@ -175,6 +181,7 @@ flamescale_defender_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -204,6 +211,7 @@ fireclaw_mercenary_blood:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
   Equipment:
     - iron_sword HAND
@@ -234,6 +242,7 @@ angry_flamespawn_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -254,6 +263,7 @@ commander_embersword_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
@@ -293,6 +303,7 @@ herald_of_anderworld_blood:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.8
     Despawn: CHUNK

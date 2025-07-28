@@ -1564,6 +1564,32 @@ andermant:
     HideAttributes: true
     Unbreakable: true
 
+lockpick:
+  Id: green_dye
+  Display: '§8&lLockpick'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Used to unlock mysterious chests'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+lockpick25:
+  Id: green_dye
+  Display: '§8&lLockpick x25'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Used to unlock chests'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
 gold_1k:
   Id: gold_nugget
   Display: '§eGold Coin`s - 1k $'
@@ -1571,7 +1597,7 @@ gold_1k:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '§o&7Basic trading currency'
+    - '§o&7Basic trading currency (Right click to get $)'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -1584,7 +1610,7 @@ gold_10k:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '§o&7Basic trading currency'
+    - '§o&7Basic trading currency (Right click to get $)'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -1597,7 +1623,7 @@ gold_100k:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '§o&7Basic trading currency'
+    - '§o&7Basic trading currency (Right click to get $)'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -1610,7 +1636,7 @@ gold_1kk:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '§o&7Basic trading currency'
+    - '§o&7Basic trading currency (Right click to get $)'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -1623,7 +1649,7 @@ gold_10kk:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '§o&7Basic trading currency'
+    - '§o&7Basic trading currency (Right click to get $)'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -1636,7 +1662,7 @@ gold_100kk:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '§o&7Basic trading currency'
+    - '§o&7Basic trading currency (Right click to get $)'
   Options:
     HideFlags: true
     HideAttributes: true
@@ -1649,124 +1675,242 @@ gold_1kkk:
   Enchantments:
     - DURABILITY:10
   Lore:
-    - '§o&7Basic trading currency'
+    - '§o&7Basic trading currency (Right click to get $)'
   Options:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
 
+exp_1k:
+  Id: oak_sign
+  Display: '§aExp Package - 1k'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get EXP'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
 
-# DO NPC DO NPC DO NPC
-# DO NPC DO NPC DO NPC
-# DO NPC DO NPC DO NPC
+exp_10k:
+  Id: oak_sign
+  Display: '§aExp Package - 10k'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get EXP'
+    - '&aRequired Level: &6 20'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
 
-sell_button:
-  Id: red_wool
-  Display: '§cSell'
-  Group: button
+exp_100k:
+  Id: oak_sign
+  Display: '§aExp Package - 100k'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get EXP'
+    - '&aRequired Level: &6 40'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
 
-craft_button:
-  Id: lime_wool
-  Display: '§2Craft'
-  Group: button
+exp_1p:
+  Id: oak_sign
+  Display: '§aExp Package - 1%'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get EXP'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
 
-buy_button:
-  Id: yellow_wool
-  Display: '§eBuy'
-  Group: button
+exp_5p:
+  Id: oak_sign
+  Display: '§aExp Package - 5%'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get EXP'
+    - '&aRequired Level: &6 50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
 
-background:
-  Id: white_stained_glass_pane
+exp_boost_10:
+  Id: oak_sign
+  Display: '§aExp Boost for 6h - +10%'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get EXP boost'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+exp_boost_50:
+  Id: oak_sign
+  Display: '§aExp Boost for 6h - +50%'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get EXP boost'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+premium_1d:
+  Id: bamboo_sign
+  Display: '§6Premium Package - 1d'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get Premium membership'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+premium_3d:
+  Id: bamboo_sign
+  Display: '§6Premium Package - 3d'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get Premium membership'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+premium_7d:
+  Id: bamboo_sign
+  Display: '§6Premium Package - 7d'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get Premium membership'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+premium_30d:
+  Id: bamboo_sign
+  Display: '§6Premium Package - 30d'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get Premium membership'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+deluxe_1d:
+  Id: dark_oak_sign
+  Display: '§4Deluxe Package - 1d'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get Deluxe membership'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+deluxe_3d:
+  Id: dark_oak_sign
+  Display: '§4Deluxe Package - 3d'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get Deluxe membership'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+deluxe_7d:
+  Id: dark_oak_sign
+  Display: '§4Deluxe Package - 7d'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get Deluxe membership'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+deluxe_30d:
+  Id: dark_oak_sign
+  Display: '§4Deluxe Package - 30d'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get Deluxe membership'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+storage:
+  Id: potato
+  Display: '§3Storage Page'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get one storage page'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+class_reset:
+  Id: potato
+  Display: 'Class Reset'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to reset your class'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+glass_crafting:
+  Id: black_stained_glass_pane
   Display: ' '
-  Group: button
-
-
-q1_button:
-  Id: nether_bricks
-  Display: '&eQ1'
-  Group: button
-
-q2_button:
-  Id: stripped_jungle_wood
-  Display: '&eQ2'
-  Group: button
-
-q3_button:
-  Id: gray_concrete
-  Display: '&eQ3'
-  Group: button
-
-q4_button:
-  Id: honey_block
-  Display: '&eQ4'
-  Group: button
-
-q5_button:
-  Id: crying_obsidian
-  Display: '&eQ5'
-  Group: button
-
-q6_button:
-  Id: blackstone
-  Display: '&eQ6'
-  Group: button
-
-q7_button:
-  Id: magma_block
-  Display: '&eQ7'
-  Group: button
-
-q8_button:
-  Id: snow_block
-  Display: '&eQ8'
-  Group: button
-
-q9_button:
-  Id: prismarine
-  Display: '&eQ9'
-  Group: button
-
-q10_button:
-  Id: dried_kelp_block
-  Display: '&eQ10'
-  Group: button
-
-q_infernal_button:
-  Id: light_blue_wool
-  Display: '&9Infernal'
-  Group: button
-
-q_hell_button:
-  Id: blue_wool
-  Display: '&1Hell'
-  Group: button
-
-q_blood_button:
-  Id: orange_wool
-  Display: '&6Bloodshed'
-  Group: button
-
-q+1_button:
-  Id: oak_button
-  Display: '&e+1'
-  Group: button
-
-q+2_button:
-  Id: oak_button
-  Display: '&e+2'
-  Group: button
-
-q+3_button:
-  Id: oak_button
-  Display: '&e+3'
-  Group: button
-
-q+4_button:
-  Id: oak_button
-  Display: '&e+4'
-  Group: button
-
-
-# ALCHEMIA ALCHEMIA ALCHEMIA ALCHEMIA ALCHEMIA ALCHEMIA
-# ALCHEMIA ALCHEMIA ALCHEMIA ALCHEMIA ALCHEMIA ALCHEMIA
-# ALCHEMIA ALCHEMIA ALCHEMIA ALCHEMIA ALCHEMIA ALCHEMIA
+  Group: Quest
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true

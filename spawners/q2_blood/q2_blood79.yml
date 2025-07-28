@@ -25,4 +25,4 @@ q2_blood79:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: q2_blood
-  CooldownTimer: 3
+  CooldownTimer: 1

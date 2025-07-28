@@ -23,6 +23,7 @@ _Undead_Villager_:
     - leather_boots FEET
   Drops:
     - undead_villager_drops
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -53,6 +54,7 @@ _Undead_Knight_:
     - iron_sword HAND
   Drops:
     - undead_knight_drops
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

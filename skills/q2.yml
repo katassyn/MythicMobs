@@ -186,7 +186,7 @@ ThrowStone_inf:
     - damage{a=150} @target
     - potion{type=SLOW;duration=100;level=3} @target
     - potion{type=CONFUSION;duration=100;level=1} @target
-    - effect:particles{p=BLOCK_BREAK;material=COBBLESTONE;amount=30} @target
+    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=30} @target
 
 # Throw Stone for Archus the Mad (Hell)
 ThrowStone_hell:
@@ -195,7 +195,7 @@ ThrowStone_hell:
     - damage{a=300} @target
     - potion{type=SLOW;duration=120;level=4} @target
     - potion{type=CONFUSION;duration=120;level=1} @target
-    - effect:particles{p=BLOCK_BREAK;material=COBBLESTONE;amount=40} @target
+    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=40} @target
 
 # Throw Stone for Archus the Mad (Blood)
 ThrowStone_blood:
@@ -204,7 +204,7 @@ ThrowStone_blood:
     - damage{a=750} @target
     - potion{type=SLOW;duration=140;level=5} @target
     - potion{type=CONFUSION;duration=140;level=2} @target
-    - effect:particles{p=BLOCK_BREAK;material=COBBLESTONE;amount=50} @target
+    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=50} @target
 
 # Web Shot for Arachna (Infernal)
 WebShot_inf:

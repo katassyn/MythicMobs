@@ -1,7 +1,6 @@
 oceanbones_drop:
   Drops:
     - oceanbones_drop_items 1
-
 oceanbones_drop_items:
   MinItems: 0
   MaxItems: 1

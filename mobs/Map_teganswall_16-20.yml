@@ -17,13 +17,13 @@ soulless_dragon_warrior:
   Faction: Teganswall
   Group: Teganswall
   Equipment:
-    - HEAD
     - iron_chestplate CHEST
     - iron_leggings LEGS
     - iron_boots FEET
     - soul_sword HAND
   Drops:
     - soulless
+    - normal_mobs_drops
   DamageModifiers:
     - FIRE -1
     - FIRE_TICK -1
@@ -56,6 +56,7 @@ soulless_dragon_archer:
     - soul_bow HAND
   Drops:
     - soulless
+    - normal_mobs_drops
   DamageModifiers:
     - FIRE -1
     - FIRE_TICK -1
@@ -89,6 +90,7 @@ dragon_berserk_thug:
     - stone_sword HAND
   Drops:
     - dragons
+    - normal_mobs_drops
   DamageModifiers:
     - FIRE -1
     - FIRE_TICK -1
@@ -120,6 +122,7 @@ dragon_brood_militarist:
     - golden_axe HAND
   Drops:
     - dragons
+    - normal_mobs_drops
   DamageModifiers:
     - FIRE -1
     - FIRE_TICK -1
@@ -150,7 +153,7 @@ commander_emberwing:
   Faction: Teganswall
   Group: Teganswall
   Equipment:
-    - blaze_skull HEAD
+    - Netherrack HEAD
     - golden_chestplate CHEST
     - golden_boots FEET
     - golden_leggings LEGS
@@ -162,6 +165,7 @@ commander_emberwing:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
     - commander
+    - normal_mobs_drops
   DamageModifiers:
     - FIRE -1
     - FIRE_TICK -1

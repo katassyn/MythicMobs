@@ -54,11 +54,11 @@ elite_skeleton_archer_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
-    - dark_exile_helm_infernal 1 0.25
-    - dark_exile_chestplate_infernal 1 0.25
-    - dark_exile_leggings_infernal 1 0.25
-    - dark_exile_boots_infernal 1 0.25
-    - dark_exile_scythe_infernal 1 0.05
+    - dark_exile_helm_infernal 1 0.01
+    - dark_exile_chestplate_infernal 1 0.01
+    - dark_exile_leggings_infernal 1 0.01
+    - dark_exile_boots_infernal 1 0.01
+    - dark_exile_scythe_infernal 1 0.01
     - mortis_ring_of_death_infernal 1 0.01
 
 elite_skeleton_warrior_inf_drop:
@@ -69,11 +69,11 @@ elite_skeleton_warrior_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
-    - dark_exile_helm_infernal 1 0.25
-    - dark_exile_chestplate_infernal 1 0.25
-    - dark_exile_leggings_infernal 1 0.25
-    - dark_exile_boots_infernal 1 0.25
-    - dark_exile_scythe_infernal 1 0.05
+    - dark_exile_helm_infernal 1 0.01
+    - dark_exile_chestplate_infernal 1 0.01
+    - dark_exile_leggings_infernal 1 0.01
+    - dark_exile_boots_infernal 1 0.01
+    - dark_exile_scythe_infernal 1 0.01
     - mortis_ring_of_death_infernal 1 0.01
 
 death_knight_inf_drop:
@@ -84,11 +84,11 @@ death_knight_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
-    - dark_exile_helm_infernal 1 0.25
-    - dark_exile_chestplate_infernal 1 0.25
-    - dark_exile_leggings_infernal 1 0.25
-    - dark_exile_boots_infernal 1 0.25
-    - dark_exile_scythe_infernal 1 0.05
+    - dark_exile_helm_infernal 1 0.01
+    - dark_exile_chestplate_infernal 1 0.01
+    - dark_exile_leggings_infernal 1 0.01
+    - dark_exile_boots_infernal 1 0.01
+    - dark_exile_scythe_infernal 1 0.01
     - mortis_ring_of_death_infernal 1 0.01
 
 death_archer_inf_drop:
@@ -99,11 +99,11 @@ death_archer_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
-    - dark_exile_helm_infernal 1 0.25
-    - dark_exile_chestplate_infernal 1 0.25
-    - dark_exile_leggings_infernal 1 0.25
-    - dark_exile_boots_infernal 1 0.25
-    - dark_exile_scythe_infernal 1 0.05
+    - dark_exile_helm_infernal 1 0.01
+    - dark_exile_chestplate_infernal 1 0.01
+    - dark_exile_leggings_infernal 1 0.01
+    - dark_exile_boots_infernal 1 0.01
+    - dark_exile_scythe_infernal 1 0.01
     - mortis_ring_of_death_infernal 1 0.01
 
 mortis_death_knight_inf_drop:
@@ -114,11 +114,11 @@ mortis_death_knight_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
-    - dark_exile_helm_infernal 1 0.5
-    - dark_exile_chestplate_infernal 1 0.5
-    - dark_exile_leggings_infernal 1 0.5
-    - dark_exile_boots_infernal 1 0.5
-    - dark_exile_scythe_infernal 1 0.1
+    - dark_exile_helm_infernal 1 0.04
+    - dark_exile_chestplate_infernal 1 0.04
+    - dark_exile_leggings_infernal 1 0.04
+    - dark_exile_boots_infernal 1 0.04
+    - dark_exile_scythe_infernal 1 0.04
     - mortis_ring_of_death_infernal 1 0.04
 
 murot_priest_inf_drop:
@@ -129,11 +129,11 @@ murot_priest_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
-    - dark_exile_helm_infernal 1 0.5
-    - dark_exile_chestplate_infernal 1 0.5
-    - dark_exile_leggings_infernal 1 0.5
-    - dark_exile_boots_infernal 1 0.5
-    - dark_exile_scythe_infernal 1 0.1
+    - dark_exile_helm_infernal 1 0.04
+    - dark_exile_chestplate_infernal 1 0.04
+    - dark_exile_leggings_infernal 1 0.04
+    - dark_exile_boots_infernal 1 0.04
+    - dark_exile_scythe_infernal 1 0.04
     - mortis_ring_of_death_infernal 1 0.04
 
 mortis_inf_drop:
@@ -145,11 +145,11 @@ mortis_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 3
   Drops:
-    - dark_exile_helm_infernal 1 1
-    - dark_exile_chestplate_infernal 1 1
-    - dark_exile_leggings_infernal 1 1
-    - dark_exile_boots_infernal 1 1
-    - dark_exile_scythe_infernal 1 0.25
+    - dark_exile_helm_infernal 1 0.1
+    - dark_exile_chestplate_infernal 1 0.1
+    - dark_exile_leggings_infernal 1 0.1
+    - dark_exile_boots_infernal 1 0.1
+    - dark_exile_scythe_infernal 1 0.1
     - mortis_ring_of_death_infernal 1 0.1
 
 # HELL HELL HELL
@@ -268,7 +268,11 @@ mortis_death_knight_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
-    - dark_exile_scythe_hell 1 0.06
+    - dark_exile_helm_hell 1 0.05
+    - dark_exile_chestplate_hell 1 0.05
+    - dark_exile_leggings_hell 1 0.05
+    - dark_exile_boots_hell 1 0.05
+    - dark_exile_scythe_hell 1 0.05
     - mortis_ring_of_death_hell 1 0.05
     - seal_of_death_hell 1 0.0125
 
@@ -280,7 +284,11 @@ murot_priest_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
-    - dark_exile_scythe_hell 1 0.06
+    - dark_exile_helm_hell 1 0.05
+    - dark_exile_chestplate_hell 1 0.05
+    - dark_exile_leggings_hell 1 0.05
+    - dark_exile_boots_hell 1 0.05
+    - dark_exile_scythe_hell 1 0.05
     - mortis_ring_of_death_hell 1 0.05
     - seal_of_death_hell 1 0.0125
 
@@ -293,6 +301,11 @@ mortis_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 3
   Drops:
+    - dark_exile_helm_hell 1 0.125
+    - dark_exile_chestplate_hell 1 0.125
+    - dark_exile_leggings_hell 1 0.125
+    - dark_exile_boots_hell 1 0.125
+    - dark_exile_scythe_hell 1 0.125
     - dark_exile_scythe_hell 1 0.125
     - mortis_ring_of_death_hell 1 0.125
     - seal_of_death_hell 1 0.025
@@ -383,11 +396,11 @@ death_knight_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
-    - dark_exile_helm_blood 1 0.25
-    - dark_exile_chestplate_blood 1 0.025
-    - dark_exile_leggings_blood 1 0.025
-    - dark_exile_boots_blood 1 0.025
-    - dark_exile_scythe_blood 1 0.075
+    - dark_exile_helm_blood 1 0.05
+    - dark_exile_chestplate_blood 1 0.05
+    - dark_exile_leggings_blood 1 0.05
+    - dark_exile_boots_blood 1 0.05
+    - dark_exile_scythe_blood 1 0.05
     - mortis_ring_of_death_blood 1 0.03
 
 death_archer_blood_drop:
@@ -398,10 +411,10 @@ death_archer_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
-    - dark_exile_helm_blood 1 0.25
-    - dark_exile_chestplate_blood 1 0.025
-    - dark_exile_leggings_blood 1 0.025
-    - dark_exile_boots_blood 1 0.025
+    - dark_exile_helm_blood 1 0.075
+    - dark_exile_chestplate_blood 1 0.075
+    - dark_exile_leggings_blood 1 0.075
+    - dark_exile_boots_blood 1 0.075
     - dark_exile_scythe_blood 1 0.075
     - mortis_ring_of_death_blood 1 0.03
 
@@ -413,7 +426,11 @@ mortis_death_knight_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
-    - dark_exile_scythe_blood 1 0.08
+    - dark_exile_helm_blood 1 0.075
+    - dark_exile_chestplate_blood 1 0.075
+    - dark_exile_leggings_blood 1 0.075
+    - dark_exile_boots_blood 1 0.075
+    - dark_exile_scythe_blood 1 0.075
     - mortis_ring_of_death_blood 1 0.06
     - seal_of_death_blood 1 0.025
     - armor_of_unchained_death_god_blood 1 0.001
@@ -427,7 +444,11 @@ murot_priest_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
-    - dark_exile_scythe_blood 1 0.08
+    - dark_exile_helm_blood 1 0.075
+    - dark_exile_chestplate_blood 1 0.075
+    - dark_exile_leggings_blood 1 0.075
+    - dark_exile_boots_blood 1 0.075
+    - dark_exile_scythe_blood 1 0.075
     - mortis_ring_of_death_blood 1 0.06
     - seal_of_death_blood 1 0.025
     - armor_of_unchained_death_god_blood 1 0.001
@@ -438,10 +459,15 @@ mortis_blood_drop:
     - mortis_frag_III 1 0.05
     - ips 3 1
     - mortis_blood_drop_item_drops 1
+    - q6_soul 1 0.01
 mortis_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 3
   Drops:
+    - dark_exile_helm_blood 1 0.15
+    - dark_exile_chestplate_blood 1 0.15
+    - dark_exile_leggings_blood 1 0.15
+    - dark_exile_boots_blood 1 0.15
     - dark_exile_scythe_blood 1 0.15
     - mortis_ring_of_death_blood 1 0.15
     - seal_of_death_blood 1 0.05

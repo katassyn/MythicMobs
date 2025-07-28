@@ -22,6 +22,7 @@ serpent_fighter:
     - iron_sword HAND
   Drops:
     - serpent_fighter
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -50,6 +51,7 @@ serpent_spitter:
     - bow HAND
   Drops:
     - serpent_spitter
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -77,6 +79,7 @@ scarab_knephre:
   Group: 46-50
   Drops:
     - scarab_knephre
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

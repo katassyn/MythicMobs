@@ -24,6 +24,7 @@ longhelm_evil_guard:
     - stone_axe HAND
   Drops:
     - saw
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -50,6 +51,7 @@ walking_saw:
     - stonecutter HEAD
   Drops:
     - saw
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -80,6 +82,7 @@ technik_engineer:
     - IRON_SHOVEL HAND
   Drops:
     - technik
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -109,6 +112,7 @@ t_1000:
     - diamond_boots FEET
   Drops:
     - technik
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -139,6 +143,7 @@ high_priest_danzo:
     - high_priest_sword HAND
   Drops:
     - high_priest_danzo
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

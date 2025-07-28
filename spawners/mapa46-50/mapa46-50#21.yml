@@ -25,3 +25,4 @@ mapa46-50#21:
   ShowFlames: false
   Conditions: []
   SpawnConditions: []
+  CooldownTimer: 3

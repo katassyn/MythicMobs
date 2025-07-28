@@ -20,6 +20,7 @@ bog_beast:
   Group: Slifmoor
   Drops:
     - bog_beast
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -49,6 +50,7 @@ black_furred_berserk:
     - TRIDENT HAND
   Drops:
     - black_fur
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -86,6 +88,7 @@ black_furred_piercer:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
     - black_fur
+    - normal_mobs_drops
 
 black_furred_mauler:
   Type: ZOMBIE
@@ -112,6 +115,7 @@ black_furred_mauler:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
     - black_fur
+    - normal_mobs_drops
 
 talking_sekeleton:
   Type: ZOMBIE
@@ -145,3 +149,4 @@ talking_sekeleton:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
     - talking
+    - normal_mobs_drops

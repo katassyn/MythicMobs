@@ -22,4 +22,8 @@ TANK:
     MovementSpeed: '0.2'
   DamageModifiers:
     ICE: 2
+  Drops:
+    - andermant 3 1
+    - draken 1 1
+    - clover 1 1
 

@@ -10,6 +10,7 @@ agile_satyr_warrior_blood:
     MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -37,6 +38,7 @@ perfidious_satyr_archer_blood:
     FollowRange: 20
     MovementSpeed: 0.3
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -63,6 +65,7 @@ cohort_swordsman_blood:
   Group: q9_blood
   Options:
     FollowRange: 15
+    PreventSunburn: true
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
@@ -98,6 +101,7 @@ stone_golem_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
     KnockbackResistance: 0.5
   Equipment:
     - stone HEAD
@@ -126,6 +130,7 @@ asterion_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
@@ -155,6 +160,7 @@ jabbax_blood:
   Options:
     FollowRange: 15
     MovementSpeed: 0.25
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -185,6 +191,7 @@ zorlobb_warrior_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -210,6 +217,7 @@ gorgon_acolyte_blood:
   Group: q9_blood
   Options:
     FollowRange: 20
+    PreventSunburn: true
     MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
@@ -242,6 +250,7 @@ minotaur_blood:
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -274,6 +283,7 @@ ebicarus_blood:
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -312,6 +322,7 @@ medusa_blood:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.8
     Despawn: CHUNK
@@ -339,6 +350,7 @@ snake_minion_blood:
   Faction: q9_blood
   Group: q9_blood
   Options:
+    PreventSunburn: true
     MovementSpeed: 0.4
     ShowHealth: true
     PreventOtherDrops: true

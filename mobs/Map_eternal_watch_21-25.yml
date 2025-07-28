@@ -23,6 +23,7 @@ norse_gnome:
     - gnome_pickaxe HAND
   Drops:
     - norse_gnome
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -47,11 +48,10 @@ frost_wolf_agitator:
   Equipment:
     - chainmail_helmet HEAD
     - chainmail_chestplate CHEST
-    -  LEGS
-    -  FEET
     - agitator_sword HAND
   Drops:
     - norse_gnome
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -77,14 +77,9 @@ frost_catcher:
     MovementSpeed: '0.15'
   Faction: eternal_watch
   Group: eternal_watch
-  Equipment:
-    -  HEAD
-    -  CHEST
-    -  LEGS
-    -  FEET
-    -  HAND
   Drops:
     - frost_catcher
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -124,3 +119,4 @@ frost_paw:
     - skill{s=Summon21-25#2} @self ~onDamaged
   Drops:
     - frost_paw
+    - normal_mobs_drops

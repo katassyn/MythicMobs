@@ -11,6 +11,7 @@ fallen_warrior_blood:
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -39,6 +40,7 @@ fallen_archer_blood:
     FollowRange: 20
     MovementSpeed: 0.2
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -68,6 +70,7 @@ death_knight_blood:
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -96,6 +99,7 @@ mortis_death_knight_blood:
     FollowRange: 15
     MovementSpeed: 0.2
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -128,6 +132,7 @@ elite_skeleton_archer_blood:
     FollowRange: 25
     MovementSpeed: 0.3
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -154,6 +159,7 @@ death_archer_blood:
   Group: q6_blood
   Options:
     FollowRange: 25
+    PreventSunburn: true
     MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
@@ -187,6 +193,7 @@ raging_soul_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -212,6 +219,7 @@ elite_skeleton_warrior_blood:
     FollowRange: 15
     MovementSpeed: 0.2
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -245,6 +253,7 @@ murot_high_priest_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
     KnockbackResistance: 0.5
     Despawn: CHUNK
   Equipment:
@@ -263,7 +272,8 @@ murot_high_priest_blood:
 
 # Mission 3 Boss Phases
 skeledragon_phase1_blood:
-  Type: HORSE
+  Type: Zombie
+  Disguise: Horse
   Display: '&4<&skull> &lSkeledragon &r&4<&skull>'
   Health: 50000  # 10x5000
   Damage: 1500   # 5x300
@@ -282,6 +292,7 @@ skeledragon_phase1_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
     KnockbackResistance: 0.8
     Despawn: CHUNK
   Skills:
@@ -292,7 +303,8 @@ skeledragon_phase1_blood:
   Drops: []
 
 skeledragon_phase2_blood:
-  Type: HORSE
+  Type: Zombie
+  Disguise: Horse
   Display: '&4<&skull> &lMortis & Skeledragon &r&4<&skull>'
   Health: 70000  # 10x7000
   Damage: 2000   # 5x400
@@ -308,6 +320,7 @@ skeledragon_phase2_blood:
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -337,6 +350,7 @@ mortis_phase3_blood:
     FollowRange: 40
     MovementSpeed: 0.3
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -357,4 +371,6 @@ mortis_phase3_blood:
     - skill{s=HealingPulse_blood} @self ~onTimer:15
     - skill{s=HealingPulse_blood} @self ~onTimer:15
     - skill{s=DeathZone_blood} @target ~onTimer:25
-    - skill{s=SummonDragon_blood} @self ~onTimer:60 ?Health.Below{r=0.3}
+    - skill{s=SummonDragon_blood} @self ~onTimer:60 ?health{r=0.0to0.3}
+  Drops:
+    - mortis_blood_drop

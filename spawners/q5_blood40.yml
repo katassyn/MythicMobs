@@ -25,5 +25,5 @@ q5_blood40:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: q5_blood
-  CooldownTimer: 102
+  CooldownTimer: 1
   ActiveMobs: 1

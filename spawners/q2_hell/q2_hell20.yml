@@ -25,4 +25,4 @@ q2_hell20:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: q2_hell
-  CooldownTimer: 3
+  CooldownTimer: 1

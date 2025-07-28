@@ -12,6 +12,7 @@ furious_maggot_inf:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -41,6 +42,7 @@ furious_flagrancy_inf:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -67,6 +69,7 @@ furious_andermagic_inf:
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -103,6 +106,7 @@ parallel_world_old_jabbax_shaman_inf:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
     KnockbackResistance: 0.5
     Despawn: CHUNK
   Equipment:
@@ -132,6 +136,7 @@ andermagic_guardian_inf:
     FollowRange: 20
     MovementSpeed: 0.3
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -164,6 +169,7 @@ living_andermagic_inf:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -192,6 +198,7 @@ wailing_andermagic_ghost_inf:
   Options:
     FollowRange: 15
     MovementSpeed: 0.15
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -226,6 +233,7 @@ andermagic_scoropitl_inf:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -254,6 +262,7 @@ wandering_experiment_inf:
     MovementSpeed: 0.4
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -292,6 +301,7 @@ khalys_leader_of_cultists_inf:
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -323,6 +333,7 @@ khalys_clone_inf:
   Group: q5_inf
   Options:
     MovementSpeed: 0.3
+    PreventSunburn: true
     ShowHealth: true
     PreventOtherDrops: true
     Despawn: REMOVE
@@ -332,6 +343,6 @@ khalys_clone_inf:
   - leather_leggings{color=black} LEGS
   - leather_boots{color=black} FEET
   Skills:
-  - skill{s=MagicMissile} @target ~onTimer:10
+  - skill{s=MagicMissile_inf} @target ~onTimer:10
   - setname{name="<caster.name>";delay=2} @self ~onDamaged
   - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

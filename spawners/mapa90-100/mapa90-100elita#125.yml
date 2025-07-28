@@ -25,3 +25,4 @@ mapa90-100elita#125:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: 90-100elita
+  CooldownTimer: 1

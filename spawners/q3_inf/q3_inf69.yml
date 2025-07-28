@@ -25,4 +25,4 @@ q3_inf69:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: q3_inf
-  CooldownTimer: 1
+  CooldownTimer: 2

@@ -369,7 +369,7 @@ ImmunityPhase_blood:
     - offgcd
   Skills:
     - message{m="&bSigrismarr channels ancient frost magic!"} @PlayersInRadius{r=30}
-    - potion{type=DAMAGE_RESISTANCE;duration=200;level=4} @self
+    - potion{type=DAMAGE_RESISTANCE;duration=200;level=255} @self
     - summon{mob=frost_magician_blood;amount=5;radius=5} @self
     - summon{mob=frost_bringer_blood;amount=5;radius=5} @self
     - GCD{ticks=1200}

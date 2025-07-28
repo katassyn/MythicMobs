@@ -12,6 +12,7 @@ fallen_warrior_hell:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -42,6 +43,7 @@ fallen_archer_hell:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
   Equipment:
     - bow HAND
@@ -68,6 +70,7 @@ death_knight_hell:
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -96,6 +99,7 @@ mortis_death_knight_hell:
     FollowRange: 15
     MovementSpeed: 0.2
     ShowHealth: true
+    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -126,6 +130,7 @@ elite_skeleton_archer_hell:
   Group: q6_hell
   Options:
     FollowRange: 25
+    PreventSunburn: true
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
@@ -158,6 +163,7 @@ death_archer_hell:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -184,6 +190,7 @@ raging_soul_hell:
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -213,6 +220,7 @@ elite_skeleton_warrior_hell:
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -242,6 +250,7 @@ murot_high_priest_hell:
     MovementSpeed: 0.15
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -263,7 +272,8 @@ murot_high_priest_hell:
 
 # Mission 3 Boss Phases
 skeledragon_phase1_hell:
-  Type: HORSE
+  Type: Zombie
+  Disguise: Horse
   Display: '&4<&skull> &lSkeledragon &r&4<&skull>'
   Health: 15000  # 3x5000
   Damage: 600    # 2x300
@@ -282,6 +292,7 @@ skeledragon_phase1_hell:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
     KnockbackResistance: 0.8
     Despawn: CHUNK
   Skills:
@@ -292,7 +303,8 @@ skeledragon_phase1_hell:
   Drops: []
 
 skeledragon_phase2_hell:
-  Type: HORSE
+  Type: Zombie
+  Disguise: Horse
   Display: '&4<&skull> &lMortis & Skeledragon &r&4<&skull>'
   Health: 21000  # 3x7000
   Damage: 800    # 2x400
@@ -308,6 +320,7 @@ skeledragon_phase2_hell:
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -336,6 +349,7 @@ mortis_phase3_hell:
   Options:
     FollowRange: 40
     MovementSpeed: 0.3
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -356,4 +370,6 @@ mortis_phase3_hell:
     - skill{s=DeathDash_hell} @target ~onTimer:10
     - skill{s=HealingPulse_hell} @self ~onTimer:15
     - skill{s=DeathZone_hell} @target ~onTimer:25
-    - skill{s=SummonDragon_hell} @self ~onTimer:60 ?Health.Below{r=0.3}
+    - skill{s=SummonDragon_hell} @self ~onTimer:60 ?health{r=0.0to0.3}
+  Drops:
+    - mortis_hell_drop

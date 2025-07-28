@@ -12,6 +12,7 @@ furious_maggot_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -40,6 +41,7 @@ furious_flagrancy_blood:
     MovementSpeed: 0.1
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -70,6 +72,7 @@ furious_andermagic_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -102,6 +105,7 @@ parallel_world_old_jabbax_shaman_blood:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
     Despawn: CHUNK
@@ -134,6 +138,7 @@ andermagic_guardian_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -163,6 +168,7 @@ living_andermagic_blood:
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -195,6 +201,7 @@ wailing_andermagic_ghost_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -222,6 +229,7 @@ andermagic_scoropitl_blood:
   Group: q5_blood
   Options:
     FollowRange: 20
+    PreventSunburn: true
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
@@ -257,6 +265,7 @@ wandering_experiment_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
     Despawn: CHUNK
   Equipment:
   - dragon_breath HEAD
@@ -292,6 +301,7 @@ khalys_leader_of_cultists_blood:
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -324,6 +334,7 @@ khalys_clone_blood:
   Options:
     MovementSpeed: 0.3
     ShowHealth: true
+    PreventSunburn: true
     PreventOtherDrops: true
     Despawn: REMOVE
   Equipment:

@@ -25,4 +25,4 @@ q3_inf86:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: q3_inf
-  CooldownTimer: 3
+  CooldownTimer: 1

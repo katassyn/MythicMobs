@@ -25,5 +25,5 @@ q4inf142:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: q4_inf
-  CooldownTimer: 3
+  CooldownTimer: 2
   ActiveMobs: 1

@@ -16,5 +16,5 @@ SatyrLeap:
 SatyrSmash:
   Skills:
     - damage{d=20}
-    - knockback{strength=2} @Target
+    - velocity{x=0;y=2;z=0} @Target
     - potion{t=CONFUSION;d=100;level=1} @Target

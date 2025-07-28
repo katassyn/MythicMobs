@@ -13,6 +13,7 @@ electrified_ferocity_hell:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -43,6 +44,7 @@ charged_drone_hell:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
   Equipment:
     - leather_helmet{color=cyan} HEAD
@@ -69,6 +71,7 @@ big_heap_of_ice_hell:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
@@ -95,6 +98,7 @@ bloodthirsty_frostwolf_hell:
   Options:
     FollowRange: 20
     MovementSpeed: 0.35
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -124,6 +128,7 @@ shocking_forocity_hell:
   Options:
     FollowRange: 25
     MovementSpeed: 0.3
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -156,6 +161,7 @@ pale_pillager_hell:
   Group: q8_hell
   Options:
     FollowRange: 20
+    PreventSunburn: true
     MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
@@ -185,6 +191,7 @@ simple_troll_hell:
   Group: q8_hell
   Options:
     FollowRange: 15
+    PreventSunburn: true
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
@@ -214,6 +221,7 @@ frost_magician_hell:
   Group: q8_hell
   Options:
     FollowRange: 20
+    PreventSunburn: true
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
@@ -244,6 +252,7 @@ frost_bringer_hell:
   Group: q8_hell
   Options:
     FollowRange: 15
+    PreventSunburn: true
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
@@ -279,6 +288,7 @@ pale_enforcer_hell:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
     KnockbackResistance: 0.5
     Despawn: CHUNK
   Equipment:
@@ -291,7 +301,7 @@ pale_enforcer_hell:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=DashToPlayer_hell} @target ~onTimer:12
-    - skill{s=SummonPillagers_hell} @self ~onTimer:30 ?Health.Below{r=0.5}
+    - skill{s=SummonPillagers_hell} @self ~onTimer:30 ?health{r=0.0to0.5}
   Drops:
     - pale_enforcer_hell_drop
     - q_hell_elite_crafting
@@ -314,6 +324,7 @@ sigrismarr_priest_of_fjalnir_hell:
     MovementSpeed: 0
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -321,16 +332,16 @@ sigrismarr_priest_of_fjalnir_hell:
     Despawn: CHUNK
   Equipment:
     - stick HAND
-    - leather_helmet{color=aqua} HEAD
-    - leather_chestplate{color=aqua} CHEST
-    - leather_leggings{color=aqua} LEGS
-    - leather_boots{color=aqua} FEET
+    - leather_helmet{color=blue} HEAD
+    - leather_chestplate{color=blue} CHEST
+    - leather_leggings{color=blue} LEGS
+    - leather_boots{color=blue} FEET
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=TripleIceBolt_hell} @target ~onTimer:10
     - skill{s=HomingIceSphere_hell} @target ~onTimer:15
-    - skill{s=ImmunityPhase_hell} @self ~onTimer:1 ?Health.Below{r=0.66}
-    - skill{s=ImmunityPhase_hell} @self ~onTimer:1 ?Health.Below{r=0.33}
+    - skill{s=ImmunityPhase} @self ~onTimer:1 ?health{h=<9900}
+    - skill{s=ImmunityPhase} @self ~onTimer:1 ?health{h=<4950}
   Drops:
     - sigrismarr_hell_drop

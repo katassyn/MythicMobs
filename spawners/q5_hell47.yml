@@ -25,5 +25,5 @@ q5_hell47:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: q5_hell
-  CooldownTimer: 30
+  CooldownTimer: 2
   ActiveMobs: 3

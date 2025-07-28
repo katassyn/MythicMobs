@@ -27,7 +27,7 @@ sanguine_clan_raging_guardian_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - sanguine_guardian_blood_drop
+    - sanguine_clan_raging_guardian_blood_drop
     - q_blood_mob_crafting
 
 raging_hunting_hound_blood:
@@ -58,7 +58,7 @@ raging_hunting_hound_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - hunting_hound_blood_drop
+    - sanguine_clan_raging_guardian_blood_drop
     - q_blood_mob_crafting
 
 sanguine_clan_raging_snooper_blood:
@@ -76,6 +76,9 @@ sanguine_clan_raging_snooper_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
   Equipment:
     - crimson_fungus HEAD
     - leather_chestplate{color=red} CHEST
@@ -86,7 +89,7 @@ sanguine_clan_raging_snooper_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - sanguine_snooper_blood_drop
+    - sanguine_clan_raging_snooper_blood_drop
     - q_blood_elite_crafting
 
 sanguine_clan_raging_hunter_blood:
@@ -104,6 +107,7 @@ sanguine_clan_raging_hunter_blood:
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Equipment:
     - target HEAD
     - leather_chestplate{color=dark_red} CHEST
@@ -115,7 +119,7 @@ sanguine_clan_raging_hunter_blood:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=SummonHounds_blood} ~onTimer:30
   Drops:
-    - sanguine_hunter_blood_drop
+    - sanguine_clan_raging_snooper_blood_drop
     - q_blood_elite_crafting
 
 parallel_world_ancient_stag_blood:
@@ -134,6 +138,7 @@ parallel_world_ancient_stag_blood:
     PreventOtherDrops: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
+    PreventSunburn: true
     Despawn: CHUNK
   Equipment:
     - warped_fungus HEAD
@@ -173,7 +178,7 @@ eternal_satyr_warrior_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - eternal_warrior_blood_drop
+    - sanguine_clan_raging_guardian_blood_drop
     - q_blood_mob_crafting
 
 eternal_root_creature_blood:
@@ -199,7 +204,7 @@ eternal_root_creature_blood:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - potion{type=SLOW;duration=60;level=2} @target ~onAttack
   Drops:
-    - eternal_root_blood_drop
+    - sanguine_clan_raging_snooper_blood_drop
     - q_blood_elite_crafting
 
 eternal_hunter_blood:
@@ -227,7 +232,7 @@ eternal_hunter_blood:
   Equipment:
     - bow HAND
   Drops:
-    - eternal_hunter_blood_drop
+    - sanguine_clan_raging_snooper_blood_drop
     - q_blood_elite_crafting
 
 eternal_hunting_hound_blood:
@@ -253,7 +258,7 @@ eternal_hunting_hound_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:
-    - eternal_hound_blood_drop
+    - sanguine_clan_raging_guardian_blood_drop
     - q_blood_mob_crafting
 
 ulgar_the_master_butcher_phase1_blood:
@@ -336,7 +341,7 @@ ulgar_the_master_butcher_phase3_blood:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=DeathExplosion_blood} @self ~onDeath
   Drops:
-    - ulgar_blood_drop
+    - ancient_stag_blood_drop
     - q_blood_elite_crafting
 
 bearach_champion_of_wilds_blood:
@@ -360,6 +365,7 @@ bearach_champion_of_wilds_blood:
     PreventOtherDrops: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.8
+    PreventSunburn: true
     Despawn: CHUNK
   Equipment:
     - honeycomb_block HEAD
@@ -370,10 +376,7 @@ bearach_champion_of_wilds_blood:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=LightningStrike_blood} @PlayersInRadius{r=30} ~onTimer:20
-    - skill{s=SummonLightningWolves_blood} @self ~onTimer:40
-    - skill{s=BeeSwarm_blood} @target ~onTimer:25
-    - skill{s=Whirlwind_blood} @self ~onTimer:30
+    - skill{s=BearachRotation_blood} @self ~onSpawn
   Drops:
     - bearach_blood_drop
 
@@ -390,6 +393,7 @@ lightning_wolf_blood:
     ShowHealth: true
     PreventOtherDrops: true
     Despawn: REMOVE
+    PreventSunburn: true
   Equipment:
     - soul_lantern HEAD
     - leather_chestplate{color=blue} CHEST

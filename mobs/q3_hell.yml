@@ -291,7 +291,7 @@ undead_parallel_world_king_heredur_hell:
   Drops:
     - king_heredur_hell_drop
   Equipment:
-    - golden_crown HEAD
+    - gold_helmet HEAD
     - diamond_chestplate CHEST
     - diamond_leggings LEGS
     - diamond_boots FEET

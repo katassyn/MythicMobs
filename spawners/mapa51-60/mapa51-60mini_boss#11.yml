@@ -25,4 +25,4 @@ mapa51-60mini_boss#11:
   Conditions: []
   SpawnConditions: []
   SpawnerGroup: 51-60mini_boss
-  CooldownTimer: 1
+  CooldownTimer: 3

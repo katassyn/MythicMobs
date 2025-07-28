@@ -26,3 +26,4 @@ q3_inf9:
   SpawnConditions: []
   SpawnerGroup: q3_inf
   CooldownTimer: 1
+  ActiveMobs: 1

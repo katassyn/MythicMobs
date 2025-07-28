@@ -11,6 +11,7 @@ scheming_gorgon_blood:
     MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -39,6 +40,7 @@ poisonous_jitterjelly_blood:
   Options:
     FollowRange: 15
     MovementSpeed: 0.15
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -68,6 +70,7 @@ anderworld_jitterjelly_blood:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
@@ -91,6 +94,7 @@ combat_ready_zorlobb_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
@@ -120,6 +124,7 @@ melas_the_swift_footed_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
+    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
@@ -149,6 +154,7 @@ anderworld_jabbax_blood:
   Group: q10_blood
   Options:
     FollowRange: 15
+    PreventSunburn: true
     MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
@@ -178,6 +184,7 @@ patrolling_jabbax_blood:
   Options:
     FollowRange: 20
     MovementSpeed: 0.3
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -209,6 +216,7 @@ armed_khaross_blood:
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -238,6 +246,7 @@ mordacious_khaross_blood:
     MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -267,6 +276,7 @@ akheilos_blood:
     MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -302,6 +312,7 @@ parallel_world_gorga_blood:
   Options:
     FollowRange: 30
     MovementSpeed: 0
+    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -321,7 +332,7 @@ parallel_world_gorga_blood:
     - skill{s=SummonSnakes_blood} @target ~onTimer:15
     - skill{s=ScatteredShot_blood} @target ~onTimer:10
     - skill{s=MeleeAttack_blood} @target ~onAttack
-    - skill{s=SummonReinforcements_blood} @self ~onTimer:1 ?health<50%
+    - skill{s=SummonReinforcements_blood} @self ?health{r=0.0to0.5}
   Drops:
     - gorga_blood_drop
 
@@ -334,6 +345,7 @@ snake_minion_blood:
   Faction: q10_blood
   Group: q10_blood
   Options:
+    PreventSunburn: true
     MovementSpeed: 0.4
     ShowHealth: true
     PreventOtherDrops: true

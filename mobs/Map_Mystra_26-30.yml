@@ -24,6 +24,7 @@ horned_satyr_warrior:
     - STONE_SWORD OFFHAND
   Drops:
     - satyr
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -53,6 +54,7 @@ horned_satyr_archer:
     - satyr_bow HAND
   Drops:
     - satyr
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -80,6 +82,7 @@ drunken_cyclops:
     - wooden_axe HAND
   Drops:
     - cyclops
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -112,6 +115,7 @@ horned_satyr_general:
     - iron_sword HAND
   Drops:
     - satyr_general
+    - normal_mobs_drops
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
