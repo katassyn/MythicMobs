@@ -1,6 +1,9 @@
 fire:
   Cooldown: 10
   Skills:
+    - effect:particles{p=flame;amount=15;hS=0.5;vS=0.5} @Self
+    - sound{s=entity.blaze.shoot;v=1;p=1} @Self
+    - delay 20
     - projectile{onTick=fire-Tick;onHit=fire-Hit;v=3;i=1;hR=1;vR=1;hnp=true}
 fire-Tick:
   Skills:
@@ -13,11 +16,17 @@ fire-Hit:
 fireball:
   cooldown: 5
   Skills:
+    - effect:particles{p=flame;amount=20;hS=0.4;vS=0.4} @Self
+    - sound{s=entity.ghast.shoot;v=1;p=1} @Self
+    - delay 20
     - shootfireball{y=1;v=4} @target
 
 fire#2:
   Cooldown: 7
   Skills:
+    - effect:particles{p=flame;amount=30;hS=0.5;vS=0.5} @Self
+    - sound{s=entity.blaze.shoot;v=1;p=1} @Self
+    - delay 20
     - projectile{onTick=fire-Tick;onHit=fire-Hit;v=7;i=1;hR=1.5;vR=1.5;hnp=true}
   fire-Tick:
     Skills:

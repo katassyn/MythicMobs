@@ -77,7 +77,7 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Mob | Skill | DMG | Cooldown |
 |-----|-------|-----|----------|
 | Arachna, Scourge of Duria | WebShot_hell | 200 | 8 |
-|  | VenomSpit_hell | 300 | 12 |
+|  | VenomSpit_hell | 300 | 10 |
 |  | FallingPoisonSphere_hell | 0 | 12 |
 |  | SummonPoisonousSpiders_hell | None | 22 |
 | Xerib the Hunchback | SummoningSphereXerib_hell | None | 18 |
@@ -136,7 +136,7 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |-----|-------|-----|----------|
 | Undead King Heredur | FrostExplosion_hell | 400 | 15 |
 |  | SummonUndead_hell | None | 25 |
-|  | DeathBeam_hell | 1000 | 20 |
+|  | DeathBeam_hell | 0 | 20 |
 | Parallel World Evil Miller | SummonVillagers_hell | None | 30 |
 |  | IceBall_hell | 300 | 8 |
 |  | FrostExplosion_hell | 400 | 15 |
@@ -155,7 +155,7 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |-----|-------|-----|----------|
 | Undead King Heredur | FrostExplosion_blood | 1000 | 15 |
 |  | SummonUndead_blood | None | 25 |
-|  | DeathBeam_blood | 2500 | 20 |
+|  | DeathBeam_blood | 0 | 20 |
 | Parallel World Evil Miller | SummonVillagers_blood | None | 30 |
 |  | IceBall_blood | 750 | 8 |
 |  | FrostExplosion_blood | 1000 | 15 |
@@ -206,13 +206,13 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |  | PowerShot_hell | 400 | 15 |
 | Ulgar the Master Butcher | TransformPhase2_hell | None | None |
 |  | TransformPhase3_hell | None | None |
-|  | DeathExplosion_hell | 600 | 1 |
+|  | DeathExplosion_hell | 400 | 1 |
 | Ulgar the Master Butcher | TransformPhase2_hell | None | None |
 |  | TransformPhase3_hell | None | None |
-|  | DeathExplosion_hell | 600 | 1 |
+|  | DeathExplosion_hell | 400 | 1 |
 | Ulgar the Master Butcher | TransformPhase2_hell | None | None |
 |  | TransformPhase3_hell | None | None |
-|  | DeathExplosion_hell | 600 | 1 |
+|  | DeathExplosion_hell | 400 | 1 |
 | Sanguine Clan`s Raging Snooper | - | - | - |
 | Sanguine Clan`s Raging Hunter | SummonHounds_hell | None | 30 |
 | Eternal Root Creature | - | - | - |
@@ -232,13 +232,13 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |  | PowerShot_blood | 1000 | 15 |
 | Ulgar the Master Butcher | TransformPhase2_blood | None | None |
 |  | TransformPhase3_blood | None | None |
-|  | DeathExplosion_blood | 1500 | 1 |
+|  | DeathExplosion_blood | 1000 | 1 |
 | Ulgar the Master Butcher | TransformPhase2_blood | None | None |
 |  | TransformPhase3_blood | None | None |
-|  | DeathExplosion_blood | 1500 | 1 |
+|  | DeathExplosion_blood | 1000 | 1 |
 | Ulgar the Master Butcher | TransformPhase2_blood | None | None |
 |  | TransformPhase3_blood | None | None |
-|  | DeathExplosion_blood | 1500 | 1 |
+|  | DeathExplosion_blood | 1000 | 1 |
 | Sanguine Clan`s Raging Snooper | - | - | - |
 | Sanguine Clan`s Raging Hunter | SummonHounds_blood | None | 30 |
 | Eternal Root Creature | - | - | - |
@@ -280,9 +280,9 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Khalys, Leader of the Cultists | SummonCopy_hell | None | 45 |
 |  | MagicMissile_hell | 400 | 10 |
 |  | Teleport_hell | None | 30 |
-|  | DeathBeam_hell | 1000 | 20 |
+|  | DeathBeam_hell | 0 | 20 |
 | Parallel World Old Jabbax Shaman | SummonMaggots_hell | None | 30 |
-|  | MeteorStrike_hell | 600 | 15 |
+|  | MeteorStrike_hell | 500 | 15 |
 | Wandering Experiment | RunFromPlayer_hell | None | 5 |
 | Furious Andermagic | FireballAttack_hell | 300 | 10 |
 | Wailing Andermagic Ghost | SlowAura_hell | None | 5 |
@@ -301,9 +301,9 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Khalys, Leader of the Cultists | SummonCopy_blood | None | 45 |
 |  | MagicMissile_blood | 1000 | 10 |
 |  | Teleport_blood | None | 30 |
-|  | DeathBeam_blood | 2500 | 20 |
+|  | DeathBeam_blood | 0 | 20 |
 | Parallel World Old Jabbax Shaman | SummonMaggots_blood | None | 30 |
-|  | MeteorStrike_blood | 1500 | 15 |
+|  | MeteorStrike_blood | 1250 | 15 |
 | Wandering Experiment | RunFromPlayer_blood | None | 5 |
 | Furious Andermagic | FireballAttack_blood | 750 | 10 |
 | Wailing Andermagic Ghost | SlowAura_blood | None | 5 |
@@ -332,10 +332,10 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |  | HealingPulse | None | 15 |
 |  | DeathZone | 99999 | 25 |
 |  | SummonDragon | None | 60 |
-| Mortis Death Knight | DeathExplosion | 300 | 1 |
+| Mortis Death Knight | DeathExplosion | 200 | 1 |
 | Murot, High Priest of Mortis | MeteorStrike | 300 | 15 |
 |  | HomingOrb | 150 | 10 |
-| Death Knight | DeathExplosion | 300 | 1 |
+| Death Knight | DeathExplosion | 200 | 1 |
 | Death Archer | WitheringShot | 200 | 10 |
 | Fallen Warrior | - | - | - |
 | Fallen Archer | - | - | - |
@@ -357,10 +357,10 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |  | HealingPulse_hell | None | 15 |
 |  | DeathZone_hell | 99999 | 25 |
 |  | SummonDragon_hell | None | 60 |
-| Mortis Death Knight | DeathExplosion_hell | 600 | 1 |
-| Murot, High Priest of Mortis | MeteorStrike_hell | 600 | 15 |
+| Mortis Death Knight | DeathExplosion_hell | 400 | 1 |
+| Murot, High Priest of Mortis | MeteorStrike_hell | 500 | 15 |
 |  | HomingOrb_hell | 300 | 10 |
-| Death Knight | DeathExplosion_hell | 600 | 1 |
+| Death Knight | DeathExplosion_hell | 400 | 1 |
 | Death Archer | WitheringShot_hell | 400 | 10 |
 | Fallen Warrior | - | - | - |
 | Fallen Archer | - | - | - |
@@ -383,10 +383,10 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |  | HealingPulse_blood | None | 15 |
 |  | DeathZone_blood | 99999 | 25 |
 |  | SummonDragon_blood | None | 60 |
-| Mortis Death Knight | DeathExplosion_blood | 1500 | 1 |
-| Murot, High Priest of Mortis | MeteorStrike_blood | 1500 | 15 |
+| Mortis Death Knight | DeathExplosion_blood | 1000 | 1 |
+| Murot, High Priest of Mortis | MeteorStrike_blood | 1250 | 15 |
 |  | HomingOrb_blood | 750 | 10 |
-| Death Knight | DeathExplosion_blood | 1500 | 1 |
+| Death Knight | DeathExplosion_blood | 1000 | 1 |
 | Death Archer | WitheringShot_blood | 1000 | 10 |
 | Fallen Warrior | - | - | - |
 | Fallen Archer | - | - | - |
@@ -407,8 +407,8 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Iron Creeper Gate Guard | LaserBeam | 100 | 10 |
 | Commander Embersword | SummonFlamespawns | None | 30 |
 |  | 60 |  |  |
-| Thundering Cyclops | ThunderStrike | 200 | 12 |
-| Dark Sentinel | DeathExplosion | 300 | 1 |
+| Thundering Cyclops | ThunderStrike | 150 | None |
+| Dark Sentinel | DeathExplosion | 200 | 1 |
 | Fireclaw Mercenary | 60 |  |  |
 | Bone Warder | - | - | - |
 | B-1000 Combat Mechanoid | FlameAttack | 150 | 15 |
@@ -421,13 +421,13 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Mob | Skill | DMG | Cooldown |
 |-----|-------|-----|----------|
 | Herald of the Anderworld | FlameStrike_hell | 400 | 5 |
-|  | MeteorShower_hell | 600 | 15 |
+|  | MeteorShower_hell | 500 | 15 |
 |  | SummonFlamespawnsLarge_hell | None | 30 |
 | Iron Creeper Gate Guard | LaserBeam_hell | 200 | 10 |
 | Commander Embersword | SummonFlamespawns_hell | None | 30 |
 |  | 80 |  |  |
 | Thundering Cyclops | ThunderStrike_hell | 400 | 12 |
-| Dark Sentinel | DeathExplosion_hell | 600 | 1 |
+| Dark Sentinel | DeathExplosion_hell | 400 | 1 |
 | Fireclaw Mercenary | 80 |  |  |
 | Bone Warder | - | - | - |
 | B-1000 Combat Mechanoid | FlameAttack_hell | 300 | 15 |
@@ -440,13 +440,13 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Mob | Skill | DMG | Cooldown |
 |-----|-------|-----|----------|
 | Herald of the Anderworld | FlameStrike_blood | 1000 | 5 |
-|  | MeteorShower_blood | 1500 | 15 |
+|  | MeteorShower_blood | 1250 | 15 |
 |  | SummonFlamespawnsLarge_blood | None | 30 |
 | Iron Creeper Gate Guard | LaserBeam_blood | 500 | 10 |
 | Commander Embersword | SummonFlamespawns_blood | None | 30 |
 |  | 100 |  |  |
 | Thundering Cyclops | ThunderStrike_blood | 1000 | 12 |
-| Dark Sentinel | DeathExplosion_blood | 1500 | 1 |
+| Dark Sentinel | DeathExplosion_blood | 1000 | 1 |
 | Fireclaw Mercenary | 100 |  |  |
 | Bone Warder | - | - | - |
 | B-1000 Combat Mechanoid | FlameAttack_blood | 750 | 15 |
@@ -470,11 +470,12 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Pale Enforcer | DashToPlayer | 150 | 12 |
 |  | SummonPillagers | None | 30 |
 | Big Heap of Ice | SummonIceHeaps | None | None |
+| Heap of Ice | - | - | - |
 | Bloodthirsty Frostwolf | SummonDrones | None | 20 |
 | Frost Magician | FrostBolt | 200 | 8 |
 |  | IceStorm | 150 | 15 |
 | Frost Bringer | - | - | - |
-| Electrified Ferocity | LightningBolt | 150 | 10 |
+| Electrified Ferocity | LightningBolt | 50 | 10 |
 |  | TeleportToPlayer | None | 15 |
 | Charged Drone | - | - | - |
 | Pale Pillager | DashToPlayer | 150 | 12 |
@@ -493,11 +494,12 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Pale Enforcer | DashToPlayer_hell | 300 | 12 |
 |  | SummonPillagers_hell | None | 30 |
 | Big Heap of Ice | SummonIceHeaps_hell | None | None |
+| Heap of Ice | - | - | - |
 | Bloodthirsty Frostwolf | SummonDrones_hell | None | 20 |
 | Frost Magician | FrostBolt_hell | 400 | 8 |
 |  | IceStorm_hell | 300 | 15 |
 | Frost Bringer | - | - | - |
-| Electrified Ferocity | LightningBolt_hell | 300 | 10 |
+| Electrified Ferocity | LightningBolt_hell | 100 | 10 |
 |  | TeleportToPlayer_hell | None | 15 |
 | Charged Drone | - | - | - |
 | Pale Pillager | DashToPlayer_hell | 300 | 12 |
@@ -516,11 +518,12 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Pale Enforcer | DashToPlayer_blood | 750 | 12 |
 |  | SummonPillagers_blood | None | 30 |
 | Big Heap of Ice | SummonIceHeaps_blood | None | None |
+| Heap of Ice | - | - | - |
 | Bloodthirsty Frostwolf | SummonDrones_blood | None | 20 |
 | Frost Magician | FrostBolt_blood | 1000 | 8 |
 |  | IceStorm_blood | 750 | 15 |
 | Frost Bringer | - | - | - |
-| Electrified Ferocity | LightningBolt_blood | 750 | 10 |
+| Electrified Ferocity | LightningBolt_blood | 450 | 10 |
 |  | TeleportToPlayer_blood | None | 15 |
 | Charged Drone | - | - | - |
 | Pale Pillager | DashToPlayer_blood | 750 | 12 |
@@ -535,10 +538,10 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |-----|-------|-----|----------|
 | M`Edusa | PetrifyingGaze | None | 15 |
 |  | AcidSpit | 200 | 10 |
-|  | SummonSnakes | None | 20 |
+|  | SummonSnakes | None | 15 |
 | Asterion | ChargeAttack | 200 | 12 |
 |  | GroundSlam | 150 | 15 |
-| Ebicarus | PowerfulStrike | 300 | 10 |
+| Ebicarus | PowerfulStrike | 50 | 15 |
 | Cohort Swordsman | HealingPulse | None | 15 |
 | Stone Golem | ThrowBoulder | 200 | 10 |
 | Zorlobb Warrior | StunningBlow | 150 | 12 |
@@ -557,10 +560,10 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |-----|-------|-----|----------|
 | M`Edusa | PetrifyingGaze_hell | None | 15 |
 |  | AcidSpit_hell | 400 | 10 |
-|  | SummonSnakes_hell | None | 20 |
+|  | SummonSnakes_hell | None | 15 |
 | Asterion | ChargeAttack_hell | 400 | 12 |
 |  | GroundSlam_hell | 300 | 15 |
-| Ebicarus | PowerfulStrike_hell | 600 | 10 |
+| Ebicarus | PowerfulStrike_hell | 400 | 15 |
 | Cohort Swordsman | HealingPulse_hell | None | 15 |
 | Stone Golem | ThrowBoulder_hell | 400 | 10 |
 | Zorlobb Warrior | StunningBlow_hell | 300 | 12 |
@@ -579,10 +582,10 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |-----|-------|-----|----------|
 | M`Edusa | PetrifyingGaze_blood | None | 15 |
 |  | AcidSpit_blood | 1000 | 10 |
-|  | SummonSnakes_blood | None | 20 |
+|  | SummonSnakes_blood | None | 15 |
 | Asterion | ChargeAttack_blood | 1000 | 12 |
 |  | GroundSlam_blood | 750 | 15 |
-| Ebicarus | PowerfulStrike_blood | 1500 | 10 |
+| Ebicarus | PowerfulStrike_blood | 1000 | 15 |
 | Cohort Swordsman | HealingPulse_blood | None | 15 |
 | Stone Golem | ThrowBoulder_blood | 1000 | 10 |
 | Zorlobb Warrior | StunningBlow_blood | 750 | 12 |
@@ -602,24 +605,24 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 
 | Mob | Skill | DMG | Cooldown |
 |-----|-------|-----|----------|
-| Gorga | SummonSnakes | None | 20 |
+| Gorga | SummonSnakes | None | 15 |
 |  | ScatteredShot | 150 | 10 |
-|  | MeleeAttack | 200 | None |
+|  | MeleeAttack | 100 | None |
 |  | SummonReinforcements | None | None |
-| Melas the Swift-Footed | StunStrike | 150 | 15 |
-|  | LeapAttack | 150 | 10 |
-| Akheilos | PowerfulFlamingShot | 200 | 10 |
+| Melas the Swift-Footed | StunStrike | 45 | 15 |
+|  | LeapAttack | 70 | 10 |
+| Akheilos | PowerfulFlamingShot | 100 | 10 |
 | Scheming Gorgon | PetrifyingGaze | None | 15 |
-|  | VenomSpit | 150 | 10 |
-| Poisonous Jitterjelly | ShockAttack | 150 | 10 |
-|  | DeathExplosion | 300 | 1 |
+|  | VenomSpit | 50 | 10 |
+| Poisonous Jitterjelly | ShockAttack | 50 | 10 |
+|  | DeathExplosion | 200 | 1 |
 | Patrolling Jabbax | SummonJabbax | None | 15 |
-| Anderworld Jitterjelly | ShockAttack | 150 | 10 |
+| Anderworld Jitterjelly | ShockAttack | 50 | 10 |
 |  | SmallDeathExplosion | 100 | None |
-| Combat-Ready Zorlobb | PowerfulStrike | 300 | 10 |
+| Combat-Ready Zorlobb | PowerfulStrike | 50 | 15 |
 | Anderworld Jabbax | - | - | - |
-| Armed Khaross | FlamingShot | 150 | 8 |
-| Mordacious Khaross | BurningStrike | 150 | 8 |
+| Armed Khaross | FlamingShot | 50 | 8 |
+| Mordacious Khaross | BurningStrike | 50 | 8 |
 | Venomous Snake | SnakeAttack | 100 | None |
 |  | SnakeExplosion | 150 | None |
 
@@ -627,7 +630,7 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 
 | Mob | Skill | DMG | Cooldown |
 |-----|-------|-----|----------|
-| Gorga | SummonSnakes_hell | None | 20 |
+| Gorga | SummonSnakes_hell | None | 15 |
 |  | ScatteredShot_hell | 300 | 10 |
 |  | MeleeAttack_hell | 400 | None |
 |  | SummonReinforcements_hell | None | None |
@@ -635,13 +638,13 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |  | LeapAttack_hell | 300 | 10 |
 | Akheilos | PowerfulFlamingShot_hell | 400 | 10 |
 | Scheming Gorgon | PetrifyingGaze_hell | None | 15 |
-|  | VenomSpit_hell | 300 | 12 |
+|  | VenomSpit_hell | 300 | 10 |
 | Poisonous Jitterjelly | ShockAttack_hell | 300 | 10 |
-|  | DeathExplosion_hell | 600 | 1 |
+|  | DeathExplosion_hell | 400 | 1 |
 | Patrolling Jabbax | SummonJabbax_hell | None | 15 |
 | Anderworld Jitterjelly | ShockAttack_hell | 300 | 10 |
 |  | SmallDeathExplosion_hell | 200 | None |
-| Combat-Ready Zorlobb | PowerfulStrike_hell | 600 | 10 |
+| Combat-Ready Zorlobb | PowerfulStrike_hell | 400 | 15 |
 | Anderworld Jabbax | - | - | - |
 | Armed Khaross | FlamingShot_hell | 300 | 8 |
 | Mordacious Khaross | BurningStrike_hell | 300 | 8 |
@@ -652,7 +655,7 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 
 | Mob | Skill | DMG | Cooldown |
 |-----|-------|-----|----------|
-| Gorga | SummonSnakes_blood | None | 20 |
+| Gorga | SummonSnakes_blood | None | 15 |
 |  | ScatteredShot_blood | 750 | 10 |
 |  | MeleeAttack_blood | 1000 | None |
 |  | SummonReinforcements_blood | None | None |
@@ -662,11 +665,11 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Scheming Gorgon | PetrifyingGaze_blood | None | 15 |
 |  | VenomSpit_blood | 750 | 10 |
 | Poisonous Jitterjelly | ShockAttack_blood | 750 | 10 |
-|  | DeathExplosion_blood | 1500 | 1 |
+|  | DeathExplosion_blood | 1000 | 1 |
 | Patrolling Jabbax | SummonJabbax_blood | None | 15 |
 | Anderworld Jitterjelly | ShockAttack_blood | 750 | 10 |
 |  | SmallDeathExplosion_blood | 500 | None |
-| Combat-Ready Zorlobb | PowerfulStrike_blood | 1500 | 10 |
+| Combat-Ready Zorlobb | PowerfulStrike_blood | 1000 | 15 |
 | Anderworld Jabbax | - | - | - |
 | Armed Khaross | FlamingShot_blood | 750 | 8 |
 | Mordacious Khaross | BurningStrike_blood | 750 | 8 |

@@ -20,6 +20,7 @@ PowerfulProjectile:
   Cooldown: 10
   Skills:
     - potion{type=SLOW;duration=60;level=10} @self
+    - effect:particles{p=FLAME;amount=30;hS=1;vS=1} @self
     - delay 5
     - projectile{onTick=Projectile-Tick;onHit=Projectile-Hit;v=5;i=FIRE_CHARGE;hR=1;vR=1;hnp=true} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
     # Efekt SLOW wygaśnie po 3 sekundach
@@ -37,6 +38,7 @@ ExplosiveFireball:
   Cooldown: 15
   Skills:
     - potion{type=SLOW;duration=60;level=10} @self
+    - effect:particles{p=SMOKE_NORMAL;amount=30;hS=1;vS=1} @self
     - delay 5
     - projectile{onTick=Fireball-Tick;onHit=Fireball-Hit;v=4;i=FIRE_CHARGE;hR=1;vR=1;hnp=true} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
     # Efekt SLOW wygaśnie po 3 sekundach
@@ -56,9 +58,13 @@ TeleportToPlayer:
   Cooldown: 15
   Skills:
     - potion{type=SLOW;duration=40;level=10} @self
-    - teleport @self @PlayersInRadius{r=30;limit=1;sort=NEAREST}
-    - ignite{ticks=250} @Target
-    - message{m="&d<mob.name>&f: Burn!"}
+    - target{t=PlayersInRadius{r=30;limit=1;sort=NEAREST}}
+    - message{m="&d<mob.name>&f: Burn!"} @target
+    - effect:particles{p=SMOKE_NORMAL;amount=40;hS=1;vS=1} @target
+    - sound{s=entity.enderman.teleport;v=1;p=1} @target
+    - delay 10
+    - teleport @self @target
+    - ignite{ticks=250} @target
     # Efekt SLOW wygaśnie po 2 sekundach
 
 BurningShotElite:
@@ -67,6 +73,8 @@ BurningShotElite:
     - offgcd
   Skills:
     - message{m="&d<mob.name>&f: You will be nothing but ashes!"}
+    - effect:particles{p=CRIT;amount=40;hS=1;vS=1} @self
+    - sound{s=entity.blaze.shoot;v=1;p=0.5} @self
     - delay 20
     - shoot{type=ARROW;velocity=30;damage=300} @Target
     - ignite{ticks=250} @Target
@@ -95,6 +103,7 @@ CatapultProjectile:
   Skills:
     - potion{type=SLOW;duration=60;level=2} @self
     - message{m="&d<mob.name>&f: Take this!"} @PlayersInRadius{r=30}
+    - effect:particles{p=LAVA;amount=20;hS=1;vS=1} @self
     - delay 10
     - projectile{onTick=Catapult-Tick;onHit=Catapult-Hit;v=7;i=FIRE_CHARGE;hR=1;vR=1;hnp=true} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
 

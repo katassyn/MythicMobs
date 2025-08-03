@@ -350,6 +350,7 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Shocking Forocity | ZOMBIE | 3000 | 250 | Mini Boss |
 | Pale Enforcer | ZOMBIE | 3000 | 200 | Mini Boss |
 | Big Heap of Ice | ZOMBIE | 2000 | 300 | Elite |
+| Heap of Ice | ZOMBIE | 500 | 100 | Elite |
 | Bloodthirsty Frostwolf | ZOMBIE | 1500 | 200 | Elite |
 | Frost Magician | ZOMBIE | 600 | 300 | Elite |
 | Frost Bringer | ZOMBIE | 2000 | 250 | Elite |
@@ -366,6 +367,7 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Shocking Forocity | ZOMBIE | 9000 | 500 | Mini Boss |
 | Pale Enforcer | ZOMBIE | 9000 | 400 | Mini Boss |
 | Big Heap of Ice | ZOMBIE | 6000 | 600 | Elite |
+| Heap of Ice | ZOMBIE | 1500 | 200 | Elite |
 | Bloodthirsty Frostwolf | ZOMBIE | 4500 | 400 | Elite |
 | Frost Magician | ZOMBIE | 1800 | 600 | Elite |
 | Frost Bringer | ZOMBIE | 6000 | 500 | Elite |
@@ -382,6 +384,7 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Shocking Forocity | ZOMBIE | 30000 | 1250 | Mini Boss |
 | Pale Enforcer | ZOMBIE | 30000 | 1000 | Mini Boss |
 | Big Heap of Ice | ZOMBIE | 20000 | 1500 | Elite |
+| Heap of Ice | ZOMBIE | 5000 | 500 | Elite |
 | Bloodthirsty Frostwolf | ZOMBIE | 15000 | 1000 | Elite |
 | Frost Magician | ZOMBIE | 6000 | 1500 | Elite |
 | Frost Bringer | ZOMBIE | 20000 | 1250 | Elite |

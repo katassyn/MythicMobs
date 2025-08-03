@@ -6,5 +6,8 @@ SummonLunkyDemons:
 ShadowNorseman_Dash:
   Cooldown: 15
   Skills:
+    - effect:particles{p=smoke_large;amount=20;hS=0.5;vS=0.5} @Self
+    - sound{s=entity.enderman.teleport;v=1;p=1} @Self
+    - delay 20
     - leap{v=1;y=0.5} @target
     - damage{a=100} @target ~onHit

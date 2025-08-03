@@ -2,16 +2,21 @@ PosthumousAttack:
   Skills:
     - effect:sound{s=entity.wither.death;v=2;p=1} @self
     - effect:particles{particle=explosion_large;amount=5} @self
+    - delay 20
     - damage{amount=250;radius=5} @LivingEntitiesInRadius{r=5}
 
 
 PowerfulAttack:
   Skills:
+    - effect:particles{particle=flame;amount=20;hS=1;vS=1} @self
+    - sound{s=entity.ender_dragon.growl;v=1.5;p=1} @self
     - delay 100
     - damage{amount=250;radius=5} @LivingEntitiesInRadius{r=5}
 
 
 LongRange:
   Skills:
-    - damage{amount=190;radius=3} @LivingEntitiesInRadius{r=3}
     - effect:particles{particle=sweep_attack;amount=10} @self
+    - sound{s=entity.player.attack.crit;v=1;p=1} @self
+    - delay 20
+    - damage{amount=190;radius=3} @LivingEntitiesInRadius{r=3}

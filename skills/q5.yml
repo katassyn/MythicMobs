@@ -46,8 +46,9 @@ SlowAura_inf:
 DamageAura_inf:
   Cooldown: 10
   Skills:
-    - damage{a=50} @PlayersInRadius{r=5}
     - effect:particles{p=SPELL_WITCH;amount=30;radius=5} @self
+    - delay 20
+    - damage{a=50} @PlayersInRadius{r=5}
 
 RunFromPlayer_inf:
   Cooldown: 5
@@ -129,8 +130,9 @@ SlowAura_hell:
 DamageAura_hell:
   Cooldown: 10
   Skills:
-    - damage{a=100} @PlayersInRadius{r=5} # 2x50
     - effect:particles{p=SPELL_WITCH;amount=30;radius=5} @self
+    - delay 20
+    - damage{a=100} @PlayersInRadius{r=5} # 2x50
 
 RunFromPlayer_hell:
   Cooldown: 5
@@ -208,8 +210,9 @@ SlowAura_blood:
 DamageAura_blood:
   Cooldown: 10
   Skills:
-    - damage{a=250} @PlayersInRadius{r=5} # 5x50
     - effect:particles{p=SPELL_WITCH;amount=30;radius=5} @self
+    - delay 20
+    - damage{a=250} @PlayersInRadius{r=5} # 5x50
 
 RunFromPlayer_blood:
   Cooldown: 5

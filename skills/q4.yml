@@ -16,7 +16,11 @@ SummonHoundPack_inf:
 PowerShot_inf:
   Cooldown: 15
   Skills:
+    - message{m="&c<mob.name>&f prepares a powerful shot!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SMOKE_LARGE;amount=10;radius=1} @self
+    - delay 20
     - shoot{type=ARROW;velocity=30;damage=200} @Target
+
 
 # Mission 2 Skills
 TransformPhase2_inf:
@@ -107,6 +111,9 @@ Whirlwind_inf:
 ShootLightning_inf:
   Cooldown: 10
   Skills:
+    - message{m="&c<mob.name>&f gathers lightning energy!"} @PlayersInRadius{r=30}
+    - effect:particles{p=END_ROD;amount=10;radius=1} @self
+    - delay 20
     - projectile{onTick=Lightning-Tick;onHit=Lightning-Hit;v=10;i=NETHER_STAR;hR=1;vR=1} @target
 
 Lightning-Tick:
@@ -137,6 +144,9 @@ SummonHoundPack_hell:
 PowerShot_hell:
   Cooldown: 15
   Skills:
+    - message{m="&c<mob.name>&f prepares a powerful shot!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SMOKE_LARGE;amount=10;radius=1} @self
+    - delay 20
     - shoot{type=ARROW;velocity=30;damage=400} @Target  # 2x200
 
 # Mission 2 Skills
@@ -229,6 +239,9 @@ Whirlwind_hell:
 ShootLightning_hell:
   Cooldown: 10
   Skills:
+    - message{m="&c<mob.name>&f gathers lightning energy!"} @PlayersInRadius{r=30}
+    - effect:particles{p=END_ROD;amount=10;radius=1} @self
+    - delay 20
     - projectile{onTick=Lightning-Tick-Hell;onHit=Lightning-Hit-Hell;v=10;i=NETHER_STAR;hR=1;vR=1} @target
 
 Lightning-Tick-Hell:
@@ -259,6 +272,9 @@ SummonHoundPack_blood:
 PowerShot_blood:
   Cooldown: 15
   Skills:
+    - message{m="&c<mob.name>&f prepares a powerful shot!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SMOKE_LARGE;amount=10;radius=1} @self
+    - delay 20
     - shoot{type=ARROW;velocity=30;damage=1000} @Target  # 5x200
 
 # Mission 2 Skills
@@ -351,6 +367,9 @@ Whirlwind_blood:
 ShootLightning_blood:
   Cooldown: 10
   Skills:
+    - message{m="&c<mob.name>&f gathers lightning energy!"} @PlayersInRadius{r=30}
+    - effect:particles{p=END_ROD;amount=10;radius=1} @self
+    - delay 20
     - projectile{onTick=Lightning-Tick-Blood;onHit=Lightning-Hit-Blood;v=10;i=NETHER_STAR;hR=1;vR=1} @target
 
 Lightning-Tick-Blood:
@@ -379,4 +398,7 @@ SummonHoundPack:
 PowerShot:
   Cooldown: 15
   Skills:
+    - message{m="&c<mob.name>&f prepares a powerful shot!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SMOKE_LARGE;amount=10;radius=1} @self
+    - delay 20
     - shoot{type=ARROW;velocity=30;damage=200} @Target

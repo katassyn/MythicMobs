@@ -1,6 +1,9 @@
 SpawnDemons:
   Cooldown: 10
   Skills:
+    - effect:particles{p=portal;amount=30;hS=1;vS=1} @Self
+    - sound{s=entity.enderman.teleport;v=1;p=1} @Self
+    - delay 20
     - summon{mob=shadow_gazer;amount=10;noise=5} @Self
     - summon{mob=shade_crawler;amount=10;noise=5} @Self
 
@@ -14,6 +17,9 @@ HealingPulse:
 FireballAttack:
   Cooldown: 8
   Skills:
+  - effect:particles{p=FLAME;amount=15;hS=0.5;vS=0.5} @Self
+  - sound{s=entity.blaze.shoot;v=1;p=1} @Self
+  - delay 20
   - projectile{onTick=FireTick;onHit=FireHit;v=8;i=FIRE_CHARGE;hR=1;vR=1} @target
 
 FireTick:
@@ -28,6 +34,9 @@ FireHit:
 BiteAttack:
   Cooldown: 2
   Skills:
+  - effect:particles{p=BLOCK_CRACK;material=REDSTONE_BLOCK;amount=10} @Self
+  - sound{s=entity.generic.eat;v=1;p=1} @Self
+  - delay 10
   - damage{a=160} @target
   - effect:particles{p=BLOCK_CRACK;material=REDSTONE_BLOCK;amount=10} @target
 
@@ -35,6 +44,9 @@ BiteAttack:
 NauseaAttack:
   Cooldown: 5  # 5 sekund cooldownu
   Skills:
+    - effect:particles{p=SPELL_MOB;color=GREEN;amount=15;hS=0.5;vS=0.5} @Self
+    - sound{s=entity.witch.prepare_potion;v=1;p=1} @Self
+    - delay 20
     - potion{type=CONFUSION;duration=100;level=1} @target
     - effect:particles{p=SPELL_MOB;color=GREEN;amount=10} @target # Efekt wizualny
 
