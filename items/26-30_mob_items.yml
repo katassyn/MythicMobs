@@ -27,7 +27,7 @@ satyr_bow:
   Display: "2"
   Group: Mobs
   Enchantments:
-    - ARROW_DAMAGE:125
+    - ARROW_DAMAGE:50
 
 cyclops_legs:
   Id: leather_leggings

@@ -1906,6 +1906,19 @@ storage:
     HideAttributes: true
     Unbreakable: true
 
+event_attrie:
+  Id: potato
+  Display: '§3Event Attrie'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to get Event attrie for 30d'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
 class_reset:
   Id: potato
   Display: 'Class Reset'

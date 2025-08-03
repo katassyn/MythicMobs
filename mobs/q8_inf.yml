@@ -88,6 +88,34 @@ big_heap_of_ice_inf:
     - big_heap_of_ice_inf_drop
     - q_inf_elite_crafting
 
+heap_of_ice_inf:
+  Type: ZOMBIE
+  Display: '&e&lHeap of Ice &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 500  # High HP
+  Damage: 100   # High damage
+  Faction: q8_inf
+  Group: q8_inf
+  Options:
+    FollowRange: 15
+    MovementSpeed: 0.15  # Very slow
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventSunburn: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    KnockbackResistance: 0.5
+  Equipment:
+    - leather_helmet{color=white} HEAD
+    - leather_chestplate{color=white} CHEST
+    - leather_leggings{color=white} LEGS
+    - leather_boots{color=white} FEET
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - q_inf_elite_crafting
+
 bloodthirsty_frostwolf_inf:
   Type: ZOMBIE
   Display: '&e&lBloodthirsty Frostwolf &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'

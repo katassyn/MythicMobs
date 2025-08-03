@@ -4,7 +4,7 @@ LightningBolt:
   Skills:
     - effect:particles{p=WAX_OFF;amount=20} @target
     - lightning @target
-    - damage{a=150} @target
+    - damage{a=50} @target
 
 TeleportToPlayer:
   Cooldown: 15
@@ -16,7 +16,7 @@ TeleportToPlayer:
 SummonIceHeaps:
   Skills:
     - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
-    - summon{mob=big_heap_of_ice_inf;amount=4;radius=3;noise=2} @self ~onDeath
+    - summon{mob=heap_of_ice_inf;amount=4;radius=3;noise=2} @self ~onDeath
 
 SummonSmallIceHeaps:
   Skills:
@@ -141,7 +141,7 @@ LightningBolt_hell:
   Skills:
     - effect:particles{p=WAX_OFF;amount=20} @target
     - lightning @target
-    - damage{a=300} @target  # 2x150
+    - damage{a=100} @target  # 2x150
 
 TeleportToPlayer_hell:
   Cooldown: 15
@@ -153,7 +153,7 @@ TeleportToPlayer_hell:
 SummonIceHeaps_hell:
   Skills:
     - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
-    - summon{mob=big_heap_of_ice_hell;amount=4;radius=3;noise=2} @self ~onDeath
+    - summon{mob=heap_of_ice_hell;amount=4;radius=3;noise=2} @self ~onDeath
 
 SummonSmallIceHeaps_hell:
   Skills:
@@ -261,7 +261,7 @@ LightningBolt_blood:
   Skills:
     - effect:particles{p=WAX_OFF;amount=20} @target
     - lightning @target
-    - damage{a=750} @target
+    - damage{a=450} @target
 
 TeleportToPlayer_blood:
   Cooldown: 15
@@ -273,7 +273,7 @@ TeleportToPlayer_blood:
 SummonIceHeaps_blood:
   Skills:
     - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
-    - summon{mob=big_heap_of_ice_blood;amount=4;radius=3;noise=2} @self ~onDeath
+    - summon{mob=heap_of_ice_blood;amount=4;radius=3;noise=2} @self ~onDeath
 
 SummonSmallIceHeaps_blood:
   Skills:

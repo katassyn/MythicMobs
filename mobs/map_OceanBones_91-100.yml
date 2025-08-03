@@ -79,7 +79,7 @@ cold_skeleton_archer:
   Equipment:
     - leather_leggings LEGS
     - leather_boots FEET
-    - bow HAND
+    - toltac_bow HAND
   Drops:
     - oceanbones_drop
   Skills:
