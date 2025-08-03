@@ -4,17 +4,26 @@ KnockupSkill:
 
 SatyrRoar:
   Skills:
+    - effect:particles{p=angry_villager;amount=20;hS=1;vS=1} @Self
+    - sound{s=entity.evoker.prepare_attack;v=1;p=0.8} @Self
+    - delay 20
     - damage{d=10} @LivingEntitiesInRadius{r=5}
     - potion{t=SLOW;d=200;level=2} @LivingEntitiesInRadius{r=5}
     - potion{t=WEAKNESS;d=200;level=2} @LivingEntitiesInRadius{r=5}
 SatyrLeap:
   Skills:
-    - leap{v=1.5} @self
+    - effect:particles{p=cloud;amount=15;hS=0.5;vS=0.5} @Self
+    - sound{s=entity.horse.jump;v=1;p=1} @Self
+    - delay 10
+    - leap{v=1.5} @Self
     - damage{d=50} @LivingEntitiesInRadius{r=3}
     - potion{t=BLINDNESS;d=100;level=1} @LivingEntitiesInRadius{r=3}
 
 SatyrSmash:
   Skills:
+    - effect:particles{p=block_crack;material=STONE;amount=20;hS=1;vS=0.5} @Self
+    - sound{s=entity.zombie.attack_iron_door;v=1;p=1} @Self
+    - delay 20
     - damage{d=20}
     - velocity{x=0;y=2;z=0} @Target
     - potion{t=CONFUSION;d=100;level=1} @Target

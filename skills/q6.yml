@@ -11,6 +11,9 @@ DeathExplosion:
 WitheringShot:
   Cooldown: 10
   Skills:
+    - message{m="&6<mob.name>&f draws a withering arrow!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SMOKE_LARGE;amount=10;radius=1} @self
+    - delay 20
     - shoot{type=ARROW;velocity=30;damage=200} @Target
     - potion{type=WITHER;duration=60;level=1} @Target
 
@@ -26,6 +29,9 @@ MeteorStrike:
 HomingOrb:
   Cooldown: 10
   Skills:
+    - message{m="&5<mob.name>&f forms a homing orb!"} @PlayersInRadius{r=30}
+    - effect:particles{p=DRAGON_BREATH;amount=20;radius=1} @self
+    - delay 20
     - projectile{onTick=Orb-Tick;onHit=Orb-Hit;v=8;i=DRAGON_BREATH;hR=1;vR=1;sF=true} @target
 
 Orb-Tick:
@@ -125,6 +131,9 @@ DeathExplosion_hell:
 WitheringShot_hell:
   Cooldown: 10
   Skills:
+    - message{m="&6<mob.name>&f draws a withering arrow!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SMOKE_LARGE;amount=10;radius=1} @self
+    - delay 20
     - shoot{type=ARROW;velocity=30;damage=400} @Target  # 2x200
     - potion{type=WITHER;duration=80;level=2} @Target
 
@@ -140,6 +149,9 @@ MeteorStrike_hell:
 HomingOrb_hell:
   Cooldown: 10
   Skills:
+    - message{m="&5<mob.name>&f forms a homing orb!"} @PlayersInRadius{r=30}
+    - effect:particles{p=DRAGON_BREATH;amount=20;radius=1} @self
+    - delay 20
     - projectile{onTick=Orb-Tick-Hell;onHit=Orb-Hit-Hell;v=8;i=DRAGON_BREATH;hR=1;vR=1;sF=true} @target
 
 Orb-Hit-Hell:
@@ -235,6 +247,9 @@ DeathExplosion_blood:
 WitheringShot_blood:
   Cooldown: 10
   Skills:
+    - message{m="&6<mob.name>&f draws a withering arrow!"} @PlayersInRadius{r=30}
+    - effect:particles{p=SMOKE_LARGE;amount=10;radius=1} @self
+    - delay 20
     - shoot{type=ARROW;velocity=30;damage=1000} @Target  # 5x200
     - potion{type=WITHER;duration=100;level=3} @Target
 
@@ -250,6 +265,9 @@ MeteorStrike_blood:
 HomingOrb_blood:
   Cooldown: 10
   Skills:
+    - message{m="&5<mob.name>&f forms a homing orb!"} @PlayersInRadius{r=30}
+    - effect:particles{p=DRAGON_BREATH;amount=20;radius=1} @self
+    - delay 20
     - projectile{onTick=Orb-Tick-Blood;onHit=Orb-Hit-Blood;v=8;i=DRAGON_BREATH;hR=1;vR=1;sF=true} @target
 
 Orb-Hit-Blood:

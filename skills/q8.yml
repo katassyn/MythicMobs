@@ -33,6 +33,7 @@ LightningZone:
   Skills:
     - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
     - effect:particles{p=WAX_OFF;amount=50;radius=5} @target
+    - delay 40
     - damage{a=100} @PlayersInRadius{r=5}
     - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=5}
 
@@ -85,6 +86,7 @@ IceStorm:
   Cooldown: 15
   Skills:
     - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
+    - delay 40
     - damage{a=150} @PlayersInRadius{r=5}
     - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=5}
 
@@ -170,6 +172,7 @@ LightningZone_hell:
   Skills:
     - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
     - effect:particles{p=WAX_OFF;amount=50;radius=5} @target
+    - delay 40
     - damage{a=200} @PlayersInRadius{r=5}  # 2x100
     - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
 
@@ -214,6 +217,7 @@ IceStorm_hell:
   Cooldown: 15
   Skills:
     - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
+    - delay 40
     - damage{a=300} @PlayersInRadius{r=5}  # 2x150
     - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
 
@@ -290,6 +294,7 @@ LightningZone_blood:
   Skills:
     - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
     - effect:particles{p=WAX_OFF;amount=50;radius=5} @target
+    - delay 40
     - damage{a=500} @PlayersInRadius{r=5}
     - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5}
 
@@ -333,6 +338,7 @@ IceStorm_blood:
   Cooldown: 15
   Skills:
     - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
+    - delay 40
     - damage{a=750} @PlayersInRadius{r=5}
     - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5}
 

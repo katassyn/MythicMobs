@@ -6,6 +6,9 @@ Summon11-15:
 arrow:
   Cooldown: 5
   Skills:
+    - effect:particles{p=end_rod;amount=15;hS=0.5;vS=0.5} @Self
+    - sound{s=entity.arrow.shoot;v=0.8;p=1.2} @Self
+    - delay 20
     - projectile{onTick=arrow-Tick;onHit=arrow-Hit;v=7;i=1;hR=1;vR=1;hnp=true}
 arrow-Tick:
   Skills:

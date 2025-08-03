@@ -2,17 +2,19 @@
 FlameAttack:
   Cooldown: 15
   Skills:
-    - effect:particles{p=FLAME;amount=20} @target
-    - damage{a=150} @target
-    - ignite{ticks=60} @target
+    - effect:particles{p=FLAME;amount=20} @targetlocation
+    - delay 20
+    - damage{a=150} @PlayersInRadius{r=2} @targetlocation
+    - ignite{ticks=60} @PlayersInRadius{r=2} @targetlocation
 
 ThunderStrike:
   Cooldown: 12
   Skills:
-    - effect:particles{p=WAX_OFF;amount=30} @target
-    - damage{a=200} @target
-    - potion{type=LEVITATION;duration=40;level=1} @target
-    - potion{type=CONFUSION;duration=60;level=1} @target
+    - effect:particles{p=WAX_OFF;amount=30} @targetlocation
+    - delay 20
+    - damage{a=200} @PlayersInRadius{r=2} @targetlocation
+    - potion{type=LEVITATION;duration=40;level=1} @PlayersInRadius{r=2} @targetlocation
+    - potion{type=CONFUSION;duration=60;level=1} @PlayersInRadius{r=2} @targetlocation
 
 DeathExplosion:
   Cooldown: 1
@@ -26,6 +28,7 @@ LaserBeam:
   Cooldown: 10
   Skills:
     - effect:particles{p=END_ROD;amount=50} @Forward{f=10}
+    - delay 20
     - damage{a=100} @Forward{f=10}
 
 # Mission 2 Skills
@@ -40,20 +43,20 @@ FlameStrike:
   Cooldown: 5
   Skills:
     - message{m="&cThe Herald prepares to strike!"} @PlayersInRadius{r=20}
-    - delay 10
-    - damage{a=200} @target
-    - ignite{ticks=60} @target
-    - effect:particles{p=FLAME;amount=30} @target
+    - effect:particles{p=FLAME;amount=30} @targetlocation
+    - delay 20
+    - damage{a=200} @PlayersInRadius{r=2} @targetlocation
+    - ignite{ticks=60} @PlayersInRadius{r=2} @targetlocation
 
 PoweredFlameStrike:
   Cooldown: 10
   Skills:
     - message{m="&cThe Herald channels dark flames!"} @PlayersInRadius{r=20}
-    - delay 10
-    - damage{a=600} @target
-    - ignite{ticks=100} @target
-    - potion{type=SLOW;duration=60;level=2} @target
-    - effect:particles{p=FLAME;amount=50} @target
+    - effect:particles{p=FLAME;amount=50} @targetlocation
+    - delay 20
+    - damage{a=600} @PlayersInRadius{r=2} @targetlocation
+    - ignite{ticks=100} @PlayersInRadius{r=2} @targetlocation
+    - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=2} @targetlocation
 
 MeteorShower:
   Cooldown: 15
@@ -81,17 +84,19 @@ SummonFlamespawnsLarge:
 FlameAttack_hell:
   Cooldown: 15
   Skills:
-    - effect:particles{p=FLAME;amount=20} @target
-    - damage{a=300} @target  # 2x150
-    - ignite{ticks=80} @target
+    - effect:particles{p=FLAME;amount=20} @targetlocation
+    - delay 20
+    - damage{a=300} @PlayersInRadius{r=2} @targetlocation  # 2x150
+    - ignite{ticks=80} @PlayersInRadius{r=2} @targetlocation
 
 ThunderStrike_hell:
   Cooldown: 12
   Skills:
-    - effect:particles{p=WAX_OFF;amount=30} @target
-    - damage{a=400} @target  # 2x200
-    - potion{type=LEVITATION;duration=60;level=2} @target
-    - potion{type=CONFUSION;duration=80;level=1} @target
+    - effect:particles{p=WAX_OFF;amount=30} @targetlocation
+    - delay 20
+    - damage{a=400} @PlayersInRadius{r=2} @targetlocation  # 2x200
+    - potion{type=LEVITATION;duration=60;level=2} @PlayersInRadius{r=2} @targetlocation
+    - potion{type=CONFUSION;duration=80;level=1} @PlayersInRadius{r=2} @targetlocation
 
 DeathExplosion_hell:
   Cooldown: 1
@@ -105,6 +110,7 @@ LaserBeam_hell:
   Cooldown: 10
   Skills:
     - effect:particles{p=END_ROD;amount=50} @Forward{f=10}
+    - delay 20
     - damage{a=200} @Forward{f=10}  # 2x100
 
 # Mission 2 Skills
@@ -119,20 +125,20 @@ FlameStrike_hell:
   Cooldown: 5
   Skills:
     - message{m="&cThe Herald prepares to strike!"} @PlayersInRadius{r=20}
-    - delay 10
-    - damage{a=400} @target  # 2x200
-    - ignite{ticks=80} @target
-    - effect:particles{p=FLAME;amount=30} @target
+    - effect:particles{p=FLAME;amount=30} @targetlocation
+    - delay 20
+    - damage{a=400} @PlayersInRadius{r=2} @targetlocation  # 2x200
+    - ignite{ticks=80} @PlayersInRadius{r=2} @targetlocation
 
 PoweredFlameStrike_hell:
   Cooldown: 10
   Skills:
     - message{m="&cThe Herald channels dark flames!"} @PlayersInRadius{r=20}
-    - delay 10
-    - damage{a=1200} @target  # 2x600
-    - ignite{ticks=120} @target
-    - potion{type=SLOW;duration=80;level=3} @target
-    - effect:particles{p=FLAME;amount=50} @target
+    - effect:particles{p=FLAME;amount=50} @targetlocation
+    - delay 20
+    - damage{a=1200} @PlayersInRadius{r=2} @targetlocation  # 2x600
+    - ignite{ticks=120} @PlayersInRadius{r=2} @targetlocation
+    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=2} @targetlocation
 
 MeteorShower_hell:
   Cooldown: 15
@@ -160,17 +166,19 @@ SummonFlamespawnsLarge_hell:
 FlameAttack_blood:
   Cooldown: 15
   Skills:
-    - effect:particles{p=FLAME;amount=20} @target
-    - damage{a=750} @target  # 5x150
-    - ignite{ticks=100} @target
+    - effect:particles{p=FLAME;amount=20} @targetlocation
+    - delay 20
+    - damage{a=750} @PlayersInRadius{r=2} @targetlocation  # 5x150
+    - ignite{ticks=100} @PlayersInRadius{r=2} @targetlocation
 
 ThunderStrike_blood:
   Cooldown: 12
   Skills:
-    - effect:particles{p=WAX_OFF;amount=30} @target
-    - damage{a=1000} @target  # 5x200
-    - potion{type=LEVITATION;duration=80;level=3} @target
-    - potion{type=CONFUSION;duration=100;level=2} @target
+    - effect:particles{p=WAX_OFF;amount=30} @targetlocation
+    - delay 20
+    - damage{a=1000} @PlayersInRadius{r=2} @targetlocation  # 5x200
+    - potion{type=LEVITATION;duration=80;level=3} @PlayersInRadius{r=2} @targetlocation
+    - potion{type=CONFUSION;duration=100;level=2} @PlayersInRadius{r=2} @targetlocation
 
 DeathExplosion_blood:
   Cooldown: 1
@@ -184,6 +192,7 @@ LaserBeam_blood:
   Cooldown: 10
   Skills:
     - effect:particles{p=END_ROD;amount=50} @Forward{f=10}
+    - delay 20
     - damage{a=500} @Forward{f=10}  # 5x100
 
 # Mission 2 Skills
@@ -198,20 +207,20 @@ FlameStrike_blood:
   Cooldown: 5
   Skills:
     - message{m="&cThe Herald prepares to strike!"} @PlayersInRadius{r=20}
-    - delay 10
-    - damage{a=1000} @target  # 5x200
-    - ignite{ticks=100} @target
-    - effect:particles{p=FLAME;amount=30} @target
+    - effect:particles{p=FLAME;amount=30} @targetlocation
+    - delay 20
+    - damage{a=1000} @PlayersInRadius{r=2} @targetlocation  # 5x200
+    - ignite{ticks=100} @PlayersInRadius{r=2} @targetlocation
 
 PoweredFlameStrike_blood:
   Cooldown: 10
   Skills:
     - message{m="&cThe Herald channels dark flames!"} @PlayersInRadius{r=20}
-    - delay 10
-    - damage{a=3000} @target  # 5x600
-    - ignite{ticks=140} @target
-    - potion{type=SLOW;duration=100;level=4} @target
-    - effect:particles{p=FLAME;amount=50} @target
+    - effect:particles{p=FLAME;amount=50} @targetlocation
+    - delay 20
+    - damage{a=3000} @PlayersInRadius{r=2} @targetlocation  # 5x600
+    - ignite{ticks=140} @PlayersInRadius{r=2} @targetlocation
+    - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=2} @targetlocation
 
 MeteorShower_blood:
   Cooldown: 15

@@ -1,5 +1,8 @@
 ShamanBlindnessBall:
   Skills:
+    - effect:particles{p=soul_fire_flame;amount=10;hS=0.4;vS=0.4} @Self
+    - sound{s=entity.wither.shoot;v=1;p=1} @Self
+    - delay 20
     - projectile{onHit=applyBlindness;v=5} @target
 applyBlindness:
   Skills:
@@ -12,6 +15,9 @@ ResurrectToltecWarrior:
 PoisonSpit:
   Cooldown: 15
   Skills:
+    - effect:particles{p=VILLAGER_ANGRY;amount=15;hS=0.5;vS=0.5} @Self
+    - sound{s=entity.llama.spit;v=1;p=1} @Self
+    - delay 20
     - projectile{onTick=PoisonSpit-Tick;onHit=PoisonSpit-Hit;v=4;i=1;hR=1;vR=1;hnp=true}
 PoisonSpit-Tick:
   Skills:

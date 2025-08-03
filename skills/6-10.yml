@@ -23,6 +23,9 @@ Summon6-10:
 bolt:
   Cooldown: 5
   Skills:
+    - effect:particles{p=dragon_breath;amount=15;hS=0.5;vS=0.5} @Self
+    - sound{s=entity.evoker.prepare_summon;v=1;p=1} @Self
+    - delay 20
     - projectile{onTick=Bolt-Tick;onHit=Bolt-Hit;v=6;i=1;hR=1;vR=1;hnp=true}
 Bolt-Tick:
     Skills:

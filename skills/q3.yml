@@ -41,6 +41,7 @@ FrostExplosion:
   Cooldown: 15
   Skills:
     - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
+    - delay 40
     - damage{a=200} @PlayersInRadius{r=5}
     - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=5}
 
@@ -117,6 +118,7 @@ FrostExplosion_hell:
   Cooldown: 15
   Skills:
     - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
+    - delay 40
     - damage{a=400} @PlayersInRadius{r=5}
     - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
 
@@ -189,6 +191,7 @@ FrostExplosion_blood:
   Cooldown: 15
   Skills:
     - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
+    - delay 40
     - damage{a=1000} @PlayersInRadius{r=5}
     - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5}
 

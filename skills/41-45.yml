@@ -7,6 +7,9 @@ Summon41-45:
 
 RainOfDestruction:
   Skills:
+    - effect:particles{p=smoke_large;amount=20;hS=1;vS=1} @Self
+    - sound{s=entity.blaze.shoot;v=1;p=1} @Self
+    - delay 20
     - projectile{onTick=RainTick;onHit=RainHit;v=0.5;i=10;hR=10;vR=5;hnp=true;dir=[0,1,0]} @PlayersInRadius{r=15}
 
 RainTick:
@@ -21,6 +24,7 @@ RainHit:
 
 LifeDeathAura:
   Skills:
-    - damage{a=100;r=5} @EntitiesInRadius{r=5}
     - effect:particles{p=totem;amount=30;hS=1;vS=1} @Self
     - sound{s=entity.zombie.attack_iron_door;v=1;p=1} @Self
+    - delay 20
+    - damage{a=100;r=5} @EntitiesInRadius{r=5}

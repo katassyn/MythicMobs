@@ -30,6 +30,7 @@ GroundSlam:
   Cooldown: 15
   Skills:
     - effect:particles{p=EXPLOSION_LARGE;amount=10;radius=5} @self
+    - delay 40
     - damage{a=150} @PlayersInRadius{r=5}
     - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=5}
 
@@ -65,6 +66,7 @@ GroundPound:
   Cooldown: 15
   Skills:
     - effect:particles{p=EXPLOSION_LARGE;amount=10;radius=5} @self
+    - delay 40
     - damage{a=100} @PlayersInRadius{r=5}
     - potion{type=SLOW;duration=40;level=2} @PlayersInRadius{r=5}
 
@@ -136,6 +138,7 @@ GroundSlam_hell:
   Cooldown: 15
   Skills:
     - effect:particles{p=EXPLOSION_LARGE;amount=10;radius=5} @self
+    - delay 40
     - damage{a=300} @PlayersInRadius{r=5}  # 2x150
     - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
 
@@ -167,6 +170,7 @@ GroundPound_hell:
   Cooldown: 15
   Skills:
     - effect:particles{p=EXPLOSION_LARGE;amount=10;radius=5} @self
+    - delay 40
     - damage{a=200} @PlayersInRadius{r=5}  # 2x100
     - potion{type=SLOW;duration=60;level=3} @PlayersInRadius{r=5}
 
@@ -234,6 +238,7 @@ GroundSlam_blood:
   Cooldown: 15
   Skills:
     - effect:particles{p=EXPLOSION_LARGE;amount=10;radius=5} @self
+    - delay 40
     - damage{a=750} @PlayersInRadius{r=5}  # 5x150
     - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5}
 
@@ -265,6 +270,7 @@ GroundPound_blood:
   Cooldown: 15
   Skills:
     - effect:particles{p=EXPLOSION_LARGE;amount=10;radius=5} @self
+    - delay 40
     - damage{a=500} @PlayersInRadius{r=5}  # 5x100
     - potion{type=SLOW;duration=80;level=4} @PlayersInRadius{r=5}
 

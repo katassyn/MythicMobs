@@ -1,9 +1,16 @@
 Summon21-25:
   Cooldown: 10
   Skills:
+    - effect:particles{p=portal;amount=20;hS=0.5;vS=0.5} @Self
+    - sound{s=entity.evoker.prepare_summon;v=1;p=1} @Self
+    - delay 20
     - summon{mob=norse_gnome;amount=1;noise=5} @Self
 
 Summon21-25#2:
   Cooldown: 10
   Skills:
+    - effect:particles{p=portal;amount=20;hS=0.5;vS=0.5} @Self
+    - sound{s=entity.evoker.prepare_summon;v=1;p=1} @Self
+    - delay 20
     - summon{mob=norse_gnome;amount=3;noise=5} @Self
+

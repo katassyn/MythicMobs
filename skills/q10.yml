@@ -21,40 +21,47 @@ Venom-Hit:
 ShockAttack:
   Cooldown: 10
   Skills:
-    - damage{a=50} @target
-    - effect:particles{p=WAX_OFF;amount=20} @target
-    - potion{type=SLOW;duration=40;level=2} @target
+    - effect:particles{p=WAX_OFF;amount=20} @targetlocation
+    - delay 20
+    - damage{a=50} @PlayersInRadius{r=2} @targetlocation
+    - potion{type=SLOW;duration=40;level=2} @PlayersInRadius{r=2} @targetlocation
 
 DeathExplosion:
   Skills:
-    - damage{a=50} @PlayersInRadius{r=5}
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - delay 20
+    - damage{a=50} @PlayersInRadius{r=5}
     - potion{type=SLOW;duration=40;level=2} @PlayersInRadius{r=5}
 
 SmallDeathExplosion:
   Skills:
-    - damage{a=100} @PlayersInRadius{r=3}
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - delay 20
+    - damage{a=100} @PlayersInRadius{r=3}
 
 PowerfulStrike:
   Cooldown: 15
   Skills:
-    - damage{a=50} @target
-    - effect:particles{p=CRIT;amount=20} @target
+    - effect:particles{p=CRIT;amount=20} @targetlocation
+    - delay 20
+    - damage{a=50} @PlayersInRadius{r=2} @targetlocation
 
 StunStrike:
   Cooldown: 15
   Skills:
-    - damage{a=45} @target
-    - potion{type=SLOW;duration=60;level=5} @target
-    - effect:particles{p=CRIT;amount=20} @target
+    - effect:particles{p=CRIT;amount=20} @targetlocation
+    - delay 20
+    - damage{a=45} @PlayersInRadius{r=2} @targetlocation
+    - potion{type=SLOW;duration=60;level=5} @PlayersInRadius{r=2} @targetlocation
 
 LeapAttack:
   Cooldown: 10
   Skills:
-    - effect:particles{p=CLOUD;amount=20} @self
+    - effect:particles{p=CLOUD;amount=20} @targetlocation
+    - delay 20
     - jump{velocity=1;height=1} @target
-    - damage{a=70} @target
+    - delay 10
+    - damage{a=70} @PlayersInRadius{r=2} @targetlocation
 
 # Mission 2 Skills
 SummonJabbax:
@@ -66,20 +73,24 @@ SummonJabbax:
 FlamingShot:
   Cooldown: 8
   Skills:
-    - shoot{type=ARROW;velocity=20;damage=50} @target
-    - skill{s=DoTEffect} @target
+    - effect:particles{p=CRIT;amount=10} @self
+    - delay 20
+    - projectile{onTick=FlamingShot-Tick;onHit=FlamingShot-Hit;v=20;i=ARROW;hR=1;vR=1} @target
 
 BurningStrike:
   Cooldown: 8
   Skills:
-    - damage{a=50} @target
-    - skill{s=DoTEffect} @target
+    - effect:particles{p=CRIT;amount=10} @targetlocation
+    - delay 20
+    - damage{a=50} @PlayersInRadius{r=1} @targetlocation
+    - skill{s=DoTEffect} @PlayersInRadius{r=1} @targetlocation
 
 PowerfulFlamingShot:
   Cooldown: 10
   Skills:
-    - shoot{type=ARROW;velocity=25;damage=100} @target
-    - skill{s=DoTEffect} @target
+    - effect:particles{p=CRIT;amount=10} @self
+    - delay 20
+    - projectile{onTick=PowerfulFlamingShot-Tick;onHit=PowerfulFlamingShot-Hit;v=25;i=ARROW;hR=1;vR=1} @target
 
 DoTEffect:
   Skills:  # Damage over Time effect
@@ -87,6 +98,24 @@ DoTEffect:
     - damage{a=50} @target
     - delay 20
     - damage{a=50} @target
+
+FlamingShot-Tick:
+  Skills:
+    - effect:particles{p=CRIT;amount=5} @origin
+
+FlamingShot-Hit:
+  Skills:
+    - damage{a=50} @target
+    - skill{s=DoTEffect} @target
+
+PowerfulFlamingShot-Tick:
+  Skills:
+    - effect:particles{p=CRIT;amount=5} @origin
+
+PowerfulFlamingShot-Hit:
+  Skills:
+    - damage{a=100} @target
+    - skill{s=DoTEffect} @target
 
 # Mission 3 Boss Skills
 SummonSnakes:
@@ -98,11 +127,23 @@ SummonSnakes:
 ScatteredShot:
   Cooldown: 10
   Skills:
-    - shoot{type=ARROW;velocity=20;damage=150;spread=12;amount=5} @target
+    - effect:particles{p=CRIT;amount=10} @self
+    - delay 20
+    - projectile{onTick=ScatteredShot-Tick;onHit=ScatteredShot-Hit;v=20;i=ARROW;hR=1;vR=1;spread=12;amount=5} @target
 
 MeleeAttack:
   Skills:
-    - damage{a=100} @target
+    - effect:particles{p=SWEEP_ATTACK;amount=1} @targetlocation
+    - delay 10
+    - damage{a=100} @PlayersInRadius{r=1} @targetlocation
+
+ScatteredShot-Tick:
+  Skills:
+    - effect:particles{p=CRIT;amount=5} @origin
+
+ScatteredShot-Hit:
+  Skills:
+    - damage{a=150} @target
 
 SummonReinforcements:
   Conditions:
@@ -116,14 +157,17 @@ SummonReinforcements:
 
 SnakeAttack:
   Skills:
-    - damage{a=100} @target
-    - potion{type=SLOW;duration=40;level=2} @target
+    - effect:particles{p=WAX_OFF;amount=10} @targetlocation
+    - delay 20
+    - damage{a=100} @PlayersInRadius{r=1} @targetlocation
+    - potion{type=SLOW;duration=40;level=2} @PlayersInRadius{r=1} @targetlocation
 
 SnakeExplosion:
   Skills:
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - delay 20
     - damage{a=150} @PlayersInRadius{r=3}
     - potion{type=SLOW;duration=40;level=2} @PlayersInRadius{r=3}
-    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
 # Mission 1 Skills - Hell version (2x damage)
 PetrifyingGaze_hell:
   Cooldown: 15
@@ -144,40 +188,47 @@ Venom-Hit-Hell:
 ShockAttack_hell:
   Cooldown: 10
   Skills:
-    - damage{a=300} @target  # 2x150
-    - effect:particles{p=WAX_OFF;amount=20} @target
-    - potion{type=SLOW;duration=60;level=3} @target
+    - effect:particles{p=WAX_OFF;amount=20} @targetlocation
+    - delay 20
+    - damage{a=300} @PlayersInRadius{r=2} @targetlocation  # 2x150
+    - potion{type=SLOW;duration=60;level=3} @PlayersInRadius{r=2} @targetlocation
 
 DeathExplosion_hell:
   Skills:
-    - damage{a=400} @PlayersInRadius{r=5}  # 2x200
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - delay 20
+    - damage{a=400} @PlayersInRadius{r=5}  # 2x200
     - potion{type=SLOW;duration=60;level=3} @PlayersInRadius{r=5}
 
 SmallDeathExplosion_hell:
   Skills:
-    - damage{a=200} @PlayersInRadius{r=3}  # 2x100
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - delay 20
+    - damage{a=200} @PlayersInRadius{r=3}  # 2x100
 
 PowerfulStrike_hell:
   Cooldown: 15
   Skills:
-    - damage{a=400} @target  # 2x200
-    - effect:particles{p=CRIT;amount=20} @target
+    - effect:particles{p=CRIT;amount=20} @targetlocation
+    - delay 20
+    - damage{a=400} @PlayersInRadius{r=2} @targetlocation  # 2x200
 
 StunStrike_hell:
   Cooldown: 15
   Skills:
-    - damage{a=300} @target  # 2x150
-    - potion{type=SLOW;duration=80;level=6} @target
-    - effect:particles{p=CRIT;amount=20} @target
+    - effect:particles{p=CRIT;amount=20} @targetlocation
+    - delay 20
+    - damage{a=300} @PlayersInRadius{r=2} @targetlocation  # 2x150
+    - potion{type=SLOW;duration=80;level=6} @PlayersInRadius{r=2} @targetlocation
 
 LeapAttack_hell:
   Cooldown: 10
   Skills:
-    - effect:particles{p=CLOUD;amount=20} @self
+    - effect:particles{p=CLOUD;amount=20} @targetlocation
+    - delay 20
     - jump{velocity=1;height=1} @target
-    - damage{a=300} @target  # 2x150
+    - delay 10
+    - damage{a=300} @PlayersInRadius{r=2} @targetlocation  # 2x150
 
 # Mission 2 Skills
 SummonJabbax_hell:
@@ -189,20 +240,24 @@ SummonJabbax_hell:
 FlamingShot_hell:
   Cooldown: 8
   Skills:
-    - shoot{type=ARROW;velocity=20;damage=300} @target  # 2x150
-    - skill{s=DoTEffect_hell} @target
+    - effect:particles{p=CRIT;amount=10} @self
+    - delay 20
+    - projectile{onTick=FlamingShot_hell-Tick;onHit=FlamingShot_hell-Hit;v=20;i=ARROW;hR=1;vR=1} @target
 
 BurningStrike_hell:
   Cooldown: 8
   Skills:
-    - damage{a=300} @target  # 2x150
-    - skill{s=DoTEffect_hell} @target
+    - effect:particles{p=CRIT;amount=10} @targetlocation
+    - delay 20
+    - damage{a=300} @PlayersInRadius{r=1} @targetlocation  # 2x150
+    - skill{s=DoTEffect_hell} @PlayersInRadius{r=1} @targetlocation
 
 PowerfulFlamingShot_hell:
   Cooldown: 10
   Skills:
-    - shoot{type=ARROW;velocity=25;damage=400} @target  # 2x200
-    - skill{s=DoTEffect_hell} @target
+    - effect:particles{p=CRIT;amount=10} @self
+    - delay 20
+    - projectile{onTick=PowerfulFlamingShot_hell-Tick;onHit=PowerfulFlamingShot_hell-Hit;v=25;i=ARROW;hR=1;vR=1} @target
 
 DoTEffect_hell:
   Skills:
@@ -210,6 +265,24 @@ DoTEffect_hell:
     - damage{a=100} @target  # 2x50
     - delay 20
     - damage{a=100} @target  # 2x50
+
+FlamingShot_hell-Tick:
+  Skills:
+    - effect:particles{p=CRIT;amount=5} @origin
+
+FlamingShot_hell-Hit:
+  Skills:
+    - damage{a=300} @target  # 2x150
+    - skill{s=DoTEffect_hell} @target
+
+PowerfulFlamingShot_hell-Tick:
+  Skills:
+    - effect:particles{p=CRIT;amount=5} @origin
+
+PowerfulFlamingShot_hell-Hit:
+  Skills:
+    - damage{a=400} @target  # 2x200
+    - skill{s=DoTEffect_hell} @target
 
 # Mission 3 Boss Skills
 SummonSnakes_hell:
@@ -221,11 +294,23 @@ SummonSnakes_hell:
 ScatteredShot_hell:
   Cooldown: 10
   Skills:
-    - shoot{type=ARROW;velocity=20;damage=300;spread=12;amount=5}  # 2x150
+    - effect:particles{p=CRIT;amount=10} @self
+    - delay 20
+    - projectile{onTick=ScatteredShot_hell-Tick;onHit=ScatteredShot_hell-Hit;v=20;i=ARROW;hR=1;vR=1;spread=12;amount=5}
 
 MeleeAttack_hell:
   Skills:
-    - damage{a=400} @target  # 2x200
+    - effect:particles{p=SWEEP_ATTACK;amount=1} @targetlocation
+    - delay 10
+    - damage{a=400} @PlayersInRadius{r=1} @targetlocation  # 2x200
+
+ScatteredShot_hell-Tick:
+  Skills:
+    - effect:particles{p=CRIT;amount=5} @origin
+
+ScatteredShot_hell-Hit:
+  Skills:
+    - damage{a=300} @target  # 2x150
 
 SummonReinforcements_hell:
   Conditions:
@@ -239,14 +324,17 @@ SummonReinforcements_hell:
 
 SnakeAttack_hell:
   Skills:
-    - damage{a=200} @target  # 2x100
-    - potion{type=SLOW;duration=60;level=3} @target
+    - effect:particles{p=WAX_OFF;amount=10} @targetlocation
+    - delay 20
+    - damage{a=200} @PlayersInRadius{r=1} @targetlocation  # 2x100
+    - potion{type=SLOW;duration=60;level=3} @PlayersInRadius{r=1} @targetlocation
 
 SnakeExplosion_hell:
   Skills:
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - delay 20
     - damage{a=300} @PlayersInRadius{r=3}  # 2x150
     - potion{type=SLOW;duration=60;level=3} @PlayersInRadius{r=3}
-    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
 
 # Mission 1 Skills - Blood version (5x damage)
 PetrifyingGaze_blood:
@@ -268,40 +356,47 @@ Venom-Hit-Blood:
 ShockAttack_blood:
   Cooldown: 10
   Skills:
-    - damage{a=750} @target # 5x150
-    - effect:particles{p=WAX_OFF;amount=20} @target
-    - potion{type=SLOW;duration=80;level=3} @target
+    - effect:particles{p=WAX_OFF;amount=20} @targetlocation
+    - delay 20
+    - damage{a=750} @PlayersInRadius{r=2} @targetlocation # 5x150
+    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=2} @targetlocation
 
 DeathExplosion_blood:
   Skills:
-    - damage{a=1000} @PlayersInRadius{r=5} # 5x200
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - delay 20
+    - damage{a=1000} @PlayersInRadius{r=5} # 5x200
     - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
 
 SmallDeathExplosion_blood:
   Skills:
-    - damage{a=500} @PlayersInRadius{r=3} # 5x100
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - delay 20
+    - damage{a=500} @PlayersInRadius{r=3} # 5x100
 
 PowerfulStrike_blood:
   Cooldown: 15
   Skills:
-    - damage{a=1000} @target # 5x200
-    - effect:particles{p=CRIT;amount=20} @target
+    - effect:particles{p=CRIT;amount=20} @targetlocation
+    - delay 20
+    - damage{a=1000} @PlayersInRadius{r=2} @targetlocation # 5x200
 
 StunStrike_blood:
   Cooldown: 15
   Skills:
-    - damage{a=750} @target # 5x150
-    - potion{type=SLOW;duration=100;level=6} @target
-    - effect:particles{p=CRIT;amount=20} @target
+    - effect:particles{p=CRIT;amount=20} @targetlocation
+    - delay 20
+    - damage{a=750} @PlayersInRadius{r=2} @targetlocation # 5x150
+    - potion{type=SLOW;duration=100;level=6} @PlayersInRadius{r=2} @targetlocation
 
 LeapAttack_blood:
   Cooldown: 10
   Skills:
-    - effect:particles{p=CLOUD;amount=20} @self
+    - effect:particles{p=CLOUD;amount=20} @targetlocation
+    - delay 20
     - jump{velocity=1;height=1} @target
-    - damage{a=750} @target # 5x150
+    - delay 10
+    - damage{a=750} @PlayersInRadius{r=2} @targetlocation # 5x150
 
 # Mission 2 Skills
 SummonJabbax_blood:
@@ -313,20 +408,24 @@ SummonJabbax_blood:
 FlamingShot_blood:
   Cooldown: 8
   Skills:
-    - shoot{type=ARROW;velocity=20;damage=750} @target # 5x150
-    - skill{s=DoTEffect_blood} @target
+    - effect:particles{p=CRIT;amount=10} @self
+    - delay 20
+    - projectile{onTick=FlamingShot_blood-Tick;onHit=FlamingShot_blood-Hit;v=20;i=ARROW;hR=1;vR=1} @target
 
 BurningStrike_blood:
   Cooldown: 8
   Skills:
-    - damage{a=750} @target # 5x150
-    - skill{s=DoTEffect_blood} @target
+    - effect:particles{p=CRIT;amount=10} @targetlocation
+    - delay 20
+    - damage{a=750} @PlayersInRadius{r=1} @targetlocation # 5x150
+    - skill{s=DoTEffect_blood} @PlayersInRadius{r=1} @targetlocation
 
 PowerfulFlamingShot_blood:
   Cooldown: 10
   Skills:
-    - shoot{type=ARROW;velocity=25;damage=1000} @target # 5x200
-    - skill{s=DoTEffect_blood} @target
+    - effect:particles{p=CRIT;amount=10} @self
+    - delay 20
+    - projectile{onTick=PowerfulFlamingShot_blood-Tick;onHit=PowerfulFlamingShot_blood-Hit;v=25;i=ARROW;hR=1;vR=1} @target
 
 DoTEffect_blood:
   Skills:
@@ -334,6 +433,24 @@ DoTEffect_blood:
     - damage{a=250} @target # 5x50
     - delay 20
     - damage{a=250} @target # 5x50
+
+FlamingShot_blood-Tick:
+  Skills:
+    - effect:particles{p=CRIT;amount=5} @origin
+
+FlamingShot_blood-Hit:
+  Skills:
+    - damage{a=750} @target # 5x150
+    - skill{s=DoTEffect_blood} @target
+
+PowerfulFlamingShot_blood-Tick:
+  Skills:
+    - effect:particles{p=CRIT;amount=5} @origin
+
+PowerfulFlamingShot_blood-Hit:
+  Skills:
+    - damage{a=1000} @target # 5x200
+    - skill{s=DoTEffect_blood} @target
 
 # Mission 3 Boss Skills
 SummonSnakes_blood:
@@ -345,11 +462,23 @@ SummonSnakes_blood:
 ScatteredShot_blood:
   Cooldown: 10
   Skills:
-    - shoot{type=ARROW;velocity=20;damage=750;spread=12;amount=5} # 5x150
+    - effect:particles{p=CRIT;amount=10} @self
+    - delay 20
+    - projectile{onTick=ScatteredShot_blood-Tick;onHit=ScatteredShot_blood-Hit;v=20;i=ARROW;hR=1;vR=1;spread=12;amount=5} @target
 
 MeleeAttack_blood:
   Skills:
-    - damage{a=1000} @target # 5x200
+    - effect:particles{p=SWEEP_ATTACK;amount=1} @targetlocation
+    - delay 10
+    - damage{a=1000} @PlayersInRadius{r=1} @targetlocation # 5x200
+
+ScatteredShot_blood-Tick:
+  Skills:
+    - effect:particles{p=CRIT;amount=5} @origin
+
+ScatteredShot_blood-Hit:
+  Skills:
+    - damage{a=750} @target # 5x150
 
 SummonReinforcements_blood:
   Conditions:
@@ -363,11 +492,14 @@ SummonReinforcements_blood:
 
 SnakeAttack_blood:
   Skills:
-    - damage{a=500} @target # 5x100
-    - potion{type=SLOW;duration=80;level=3} @target
+    - effect:particles{p=WAX_OFF;amount=10} @targetlocation
+    - delay 20
+    - damage{a=500} @PlayersInRadius{r=1} @targetlocation # 5x100
+    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=1} @targetlocation
 
 SnakeExplosion_blood:
   Skills:
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - delay 20
     - damage{a=750} @PlayersInRadius{r=3} # 5x150
     - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=3}
-    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
