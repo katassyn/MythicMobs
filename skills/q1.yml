@@ -1,118 +1,164 @@
+# =========================
+# Q1 CORE / SHARED PIECES
+# =========================
+
+Projectile-Tick:
+  Skills:
+    - effect:particles{p=FLAME;amount=2;hS=0.05;vS=0.05;y=0.2} @origin
+    - effect:particles{p=SMOKE_NORMAL;amount=1;hS=0.03;vS=0.03;y=0.2} @origin
+
+Projectile-Hit:
+  Skills:
+    - effect:particles{p=EXPLOSION_NORMAL;amount=8;hS=0.25;vS=0.25} @origin
+    - sound{s=entity.generic.explode;v=0.9;p=1.1} @origin
+    - damage{a=100} @PlayersInRadius{r=1.8}
+    - ignite{ticks=60} @PlayersInRadius{r=1.8}
+
+Fireball-Tick:
+  Skills:
+    - effect:particles{p=LAVA;amount=2;hS=0.04;vS=0.04} @origin
+    - effect:particles{p=SMOKE_LARGE;amount=1;hS=0.02;vS=0.02} @origin
+
+Fireball-Hit:
+  Skills:
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
+    - sound{s=entity.blaze.shoot;v=1.1;p=0.7} @origin
+    - damage{a=300} @PlayersInRadius{r=2.5}
+    - potion{type=BURN;duration=80;level=1} @PlayersInRadius{r=2.5}
+    - knockback{strength=0.8} @PlayersInRadius{r=2.5}
+
+Catapult-Tick:
+  Skills:
+    - effect:particles{p=CRIT;amount=2;hS=0.05;vS=0.05} @origin
+
+Catapult-Hit:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=30;hS=0.4;vS=0.3} @origin
+    - sound{s=block.stone.break;v=1.0;p=1.0} @origin
+    - damage{a=200} @PlayersInRadius{r=2.0}
+    - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=2.0}
+    - knockback{strength=0.7} @PlayersInRadius{r=2.0}
+
+# =========================
+# Q1 — FLAME CULT / BOSSES
+# =========================
+
 SummonServants:
   Cooldown: 30
   Skills:
-    - summon{mob=flamecult_servant_inf;amount=2;radius=3;noise=3} @self
-    - summon{mob=flamecult_archer_inf;amount=1;radius=3;noise=3} @self
+    - message{m="&6<mob.name>&f summons help!"} @PlayersInRadius{r=40}
+    - sound{s=entity.evoker.prepare_summon;v=1.2;p=1.0} @self
+    - effect:particles{p=FLAME;amount=80;hS=1.2;vS=0.4;y=0.1} @self
+    - delay 20
+    - summon{mob=flamecult_servant_inf;amount=2;radius=4;noise=2} @ring{radius=4;points=6}
+    - summon{mob=flamecult_archer_inf;amount=1;radius=5;noise=2} @ring{radius=5;points=4}
+    - GCD{ticks=80}
 
 SummonServants_hell:
   Cooldown: 30
   Skills:
-    - summon{mob=flamecult_servant_hell;amount=2;radius=3;noise=3} @self
-    - summon{mob=flamecult_archer_hell;amount=2;radius=3;noise=3} @self
+    - message{m="&6<mob.name>&f calls more zealots!"} @PlayersInRadius{r=40}
+    - sound{s=entity.evoker.prepare_summon;v=1.2;p=1.0} @self
+    - effect:particles{p=SOUL_FIRE_FLAME;amount=90;hS=1.2;vS=0.4;y=0.1} @self
+    - delay 20
+    - summon{mob=flamecult_servant_hell;amount=2;radius=4;noise=2} @ring{radius=4;points=6}
+    - summon{mob=flamecult_archer_hell;amount=2;radius=5;noise=2} @ring{radius=5;points=6}
+    - GCD{ticks=80}
 
 SummonServants_blood:
-  Cooldown: 30
+  Cooldown: 35
   Skills:
-    - summon{mob=flamecult_servant_blood;amount=4;radius=3;noise=3} @self
-    - summon{mob=flamecult_archer_blood;amount=2;radius=3;noise=3} @self
+    - message{m="&4<mob.name>&f tears open a rift!"} @PlayersInRadius{r=40}
+    - sound{s=entity.zombie_villager.converted;v=1.2;p=0.7} @self
+    - effect:particles{p=ASH;amount=120;hS=1.4;vS=0.5;y=0.1} @self
+    - delay 25
+    - summon{mob=flamecult_servant_blood;amount=3;radius=4;noise=2} @ring{radius=4;points=8}
+    - summon{mob=flamecult_archer_blood;amount=2;radius=6;noise=2} @ring{radius=6;points=6}
+    - GCD{ticks=100}
+
+SummonFlamecultServants:
+  Cooldown: 28
+  Skills:
+    - message{m="&cFlamecult reinforcements incoming!"} @PlayersInRadius{r=40}
+    - sound{s=entity.blaze.ambient;v=1.0;p=0.9} @self
+    - effect:particles{p=FLAME;amount=70;hS=1.1;vS=0.3} @self
+    - delay 16
+    - summon{mob=flamecult_servant_inf;amount=2;radius=3;noise=2} @ring{radius=3;points=6}
+    - GCD{ticks=70}
+
+SummonFlamecultServants_hell:
+  Cooldown: 28
+  Skills:
+    - message{m="&cMore cultists join the fray!"} @PlayersInRadius{r=40}
+    - sound{s=entity.blaze.ambient;v=1.0;p=0.9} @self
+    - effect:particles{p=SOUL_FIRE_FLAME;amount=80;hS=1.1;vS=0.3} @self
+    - delay 16
+    - summon{mob=flamecult_servant_hell;amount=3;radius=3;noise=2} @ring{radius=3;points=6}
+    - GCD{ticks=70}
+
+SummonFlamecultServants_blood:
+  Cooldown: 32
+  Skills:
+    - message{m="&4Bloodbound cultists appear!"} @PlayersInRadius{r=40}
+    - sound{s=entity.blaze.ambient;v=1.0;p=0.8} @self
+    - effect:particles{p=ASH;amount=100;hS=1.1;vS=0.3} @self
+    - delay 18
+    - summon{mob=flamecult_servant_blood;amount=3;radius=4;noise=2} @ring{radius=4;points=8}
+    - GCD{ticks=80}
 
 PowerfulProjectile:
   Cooldown: 10
   Skills:
-    - potion{type=SLOW;duration=60;level=10} @self
-    - effect:particles{p=FLAME;amount=30;hS=1;vS=1} @self
-    - delay 5
-    - projectile{onTick=Projectile-Tick;onHit=Projectile-Hit;v=5;i=FIRE_CHARGE;hR=1;vR=1;hnp=true} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
-    # Efekt SLOW wygaśnie po 3 sekundach
-
-Projectile-Tick:
-  Skills:
-    - effect:particles{p=FLAME;amount=10;speed=0;hS=0.2;vS=0.2} @origin
-
-Projectile-Hit:
-  Skills:
-    - damage{a=100} @target
-    - effect:particles{p=EXPLOSION_LARGE;amount=1;speed=1} @target
+    - sound{s=entity.blaze.shoot;v=1.0;p=0.6} @self
+    - effect:particles{p=FLAME;amount=40;hS=0.6;vS=0.2;y=1} @self
+    - potion{type=SLOW;duration=20;level=1} @self
+    - delay 8
+    - projectile{onTick=Projectile-Tick;onHit=Projectile-Hit;v=27;g=0.02;hs=true;i=3;hnp=true;oh=TRUE;ot=TRUE;hR=1.2;vR=1.2} @PlayersInRadius{r=28;limit=1;sort=NEAREST}
+    - GCD{ticks=40}
 
 ExplosiveFireball:
-  Cooldown: 15
+  Cooldown: 16
   Skills:
-    - potion{type=SLOW;duration=60;level=10} @self
-    - effect:particles{p=SMOKE_NORMAL;amount=30;hS=1;vS=1} @self
-    - delay 5
-    - projectile{onTick=Fireball-Tick;onHit=Fireball-Hit;v=4;i=FIRE_CHARGE;hR=1;vR=1;hnp=true} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
-    # Efekt SLOW wygaśnie po 3 sekundach
-
-Fireball-Tick:
-  Skills:
-    - effect:particles{p=FLAME;amount=20;speed=0;hS=0.2;vS=0.2} @origin
-
-Fireball-Hit:
-  Skills:
-    - damage{a=300} @target
-    - effect:particles{p=EXPLOSION_LARGE;amount=1;speed=1} @origin
-    - explosion{power=2;fire=false} @origin
-    - velocity{v=2;h=2} @EntitiesInRadius{r=5}
+    - message{m="&6<mob.name>&f is charging a fireball!"} @PlayersInRadius{r=24}
+    - sound{s=entity.ghast.charge;v=1.0;p=1.2} @self
+    - effect:particles{p=SMOKE_NORMAL;amount=50;hS=0.7;vS=0.25;y=1} @self
+    - potion{type=SLOW;duration=25;level=2} @self
+    - delay 12
+    - projectile{onTick=Fireball-Tick;onHit=Fireball-Hit;v=22;g=0;hs=false;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.3;vR=1.3} @PlayersInRadius{r=28;limit=1;sort=NEAREST}
+    - GCD{ticks=60}
 
 TeleportToPlayer:
-  Cooldown: 15
+  Cooldown: 18
+  Conditions:
+    - targetwithin{d=24} true
   Skills:
-    - potion{type=SLOW;duration=40;level=10} @self
-    - target{t=PlayersInRadius{r=30;limit=1;sort=NEAREST}}
-    - message{m="&d<mob.name>&f: Burn!"} @target
-    - effect:particles{p=SMOKE_NORMAL;amount=40;hS=1;vS=1} @target
-    - sound{s=entity.enderman.teleport;v=1;p=1} @target
-    - delay 10
-    - teleport @self @target
-    - ignite{ticks=250} @target
-    # Efekt SLOW wygaśnie po 2 sekundach
+    - message{m="&7&m&m&m&m &e<mob.name> vanishes..."} @PlayersInRadius{r=30}
+    - sound{s=entity.enderman.teleport;v=0.9;p=0.7} @self
+    - effect:particles{p=PORTAL;amount=70;hS=0.7;vS=0.5} @self
+    - delay 6
+    - teleportto{t=target} @PlayersInRadius{r=24;limit=1;sort=NEAREST}
+    - sound{s=entity.enderman.teleport;v=0.9;p=1.3} @self
+    - effect:particles{p=PORTAL;amount=60;hS=0.6;vS=0.4} @self
+    - stun{d=10} @self
+    - GCD{ticks=50}
 
 BurningShotElite:
-  Cooldown: 30
+  Cooldown: 8
   Conditions:
-    - offgcd
+    - lineofsight true
   Skills:
-    - message{m="&d<mob.name>&f: You will be nothing but ashes!"}
-    - effect:particles{p=CRIT;amount=40;hS=1;vS=1} @self
-    - sound{s=entity.blaze.shoot;v=1;p=0.5} @self
-    - delay 20
-    - shoot{type=ARROW;velocity=30;damage=300} @Target
-    - ignite{ticks=250} @Target
-    - GCD{ticks=160}
-
-SummonFlamecultServants:
-  Cooldown: 60
-  Skills:
-    - message{m="&d<mob.name>&f: Arise, my servants!"}
-    - summon{mob=flamecult_servant_inf;amount=4;radius=3;noise=2} @self
-
-SummonFlamecultServants_hell:
-  Cooldown: 60
-  Skills:
-    - message{m="&d<mob.name>&f: Arise, my servants!"}
-    - summon{mob=flamecult_servant_hell;amount=6;radius=3;noise=2} @self
-
-SummonFlamecultServants_blood:
-  Cooldown: 60
-  Skills:
-    - message{m="&d<mob.name>&f: Arise, my servants!"}
-    - summon{mob=flamecult_servant_blood;amount=8;radius=3;noise=2} @self
+    - sound{s=entity.skeleton.shoot;v=0.8;p=0.9} @self
+    - effect:particles{p=CRIT;amount=10;hS=0.3;vS=0.2;y=1} @self
+    - delay 4
+    - projectile{onTick=Projectile-Tick;onHit=Projectile-Hit;v=35;g=0.01;hs=false;i=1;hnp=true;oh=TRUE;ot=TRUE;hR=1.1;vR=1.1} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
+    - GCD{ticks=30}
 
 CatapultProjectile:
   Cooldown: 15
   Skills:
-    - potion{type=SLOW;duration=60;level=2} @self
     - message{m="&d<mob.name>&f: Take this!"} @PlayersInRadius{r=30}
-    - effect:particles{p=LAVA;amount=20;hS=1;vS=1} @self
+    - sound{s=entity.blaze.shoot;v=1.0;p=0.8} @self
+    - effect:particles{p=LAVA;amount=25;hS=0.6;vS=0.2;y=1} @self
     - delay 10
-    - projectile{onTick=Catapult-Tick;onHit=Catapult-Hit;v=7;i=FIRE_CHARGE;hR=1;vR=1;hnp=true} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
-
-Catapult-Tick:
-  Skills:
-    - effect:particles{p=LAVA;amount=10;speed=0;hS=0.1;vS=0.1} @origin
-
-Catapult-Hit:
-  Skills:
-    - damage{a=200;ignoreArmor=false} @target
-    - effect:particles{p=EXPLOSION_LARGE;amount=1;speed=0} @target
-    - potion{type=SLOW;duration=60;level=1} @target
+    - projectile{onTick=Catapult-Tick;onHit=Catapult-Hit;v=24;g=0.05;hs=false;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.2;vR=1.2} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
+    - GCD{ticks=50}

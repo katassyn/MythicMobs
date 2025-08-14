@@ -1,298 +1,438 @@
-# -----------------------------------------
-# Umiejętności
-# -----------------------------------------
+# =========================
+# Q2 CORE / SHARED PIECES
+# =========================
 
-# Magic Projectile for Death Witch (Infernal)
+AoE-Telegraph-Small:
+  Skills:
+    - effect:particles{p=CRIT;amount=12;hS=0.9;vS=0.02} @targetlocation
+    - effect:particles{p=SPELL_INSTANT;amount=6;hS=0.6;vS=0.02} @targetlocation
+
+# =========================
+# Death Witch
+# =========================
+
+Q2-ProjectileHit-40:
+  Skills:
+    - effect:particles{p=EXPLOSION_NORMAL;amount=6;hS=0.18;vS=0.18} @origin
+    - sound{s=entity.witch.celebrate;v=0.9;p=1.0} @origin
+    - damage{a=40} @PlayersInRadius{r=1.2}
+
+Q2-ProjectileHit-80:
+  Skills:
+    - effect:particles{p=EXPLOSION_NORMAL;amount=8;hS=0.2;vS=0.2} @origin
+    - sound{s=entity.witch.celebrate;v=1.0;p=0.95} @origin
+    - damage{a=80} @PlayersInRadius{r=1.2}
+
+Q2-ProjectileHit-200:
+  Skills:
+    - effect:particles{p=EXPLOSION_NORMAL;amount=10;hS=0.24;vS=0.24} @origin
+    - sound{s=entity.witch.celebrate;v=1.1;p=0.9} @origin
+    - damage{a=200} @PlayersInRadius{r=1.3}
+
 MagicProjectile_inf:
-  Cooldown: 5
+  Cooldown: 6
   Skills:
-    - effect:particles{p=SPELL_WITCH;amount=20;speed=1} @targetlocation
-    - delay 20
-    - damage{a=40} @PlayersInRadius{r=1} @targetlocation
+    - message{m="&5Death Witch&f traces dark energy..."} @PlayersInRadius{r=40}
+    - sound{s=entity.witch.celebrate;v=1.0;p=0.7} @self
+    - effect:particles{p=SPELL_WITCH;amount=30;hS=0.8;vS=0.25;y=1} @self
+    - delay 10
+    - projectile{onTick=Projectile-Tick;onHit=Q2-ProjectileHit-40;v=28;g=0;hs=false;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.2;vR=1.2} @PlayersInRadius{r=28;limit=1;sort=NEAREST}
+    - GCD{ticks=40}
 
-# Summon Sphere for Death Witch (Infernal)
 SummonSphere_inf:
-  Cooldown: 15
+  Cooldown: 18
   Skills:
-    - summon{mob=gremlin_marauder_inf;amount=1;radius=0;noise=0} @target
-    - effect:particles{p=POOF;amount=30;speed=1} @target
+    - message{m="&5Death Witch&f conjures a soul sphere!"} @PlayersInRadius{r=40}
+    - sound{s=entity.illusioner.prepare_mirror;v=1.0;p=1.2} @self
+    - effect:particles{p=ENCHANT;amount=80;hS=0.9;vS=0.4;y=1} @self
+    - delay 18
+    - summon{mob=witch_soul_sphere_inf;amount=1;radius=2;noise=0} @self
+    - GCD{ticks=80}
 
-# Magic Projectile for Death Witch (Hell)
 MagicProjectile_hell:
-  Cooldown: 4
+  Cooldown: 6
   Skills:
-    - effect:particles{p=SPELL_WITCH;amount=20;speed=1} @targetlocation
-    - delay 20
-    - damage{a=80} @PlayersInRadius{r=1} @targetlocation
+    - message{m="&5Death Witch&f channels a curse!"} @PlayersInRadius{r=40}
+    - sound{s=entity.witch.ambient;v=1.0;p=0.9} @self
+    - effect:particles{p=SOUL;amount=30;hS=0.7;vS=0.25;y=1} @self
+    - delay 10
+    - projectile{onTick=Projectile-Tick;onHit=Q2-ProjectileHit-80;v=30;g=0;hs=false;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.2;vR=1.2} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
+    - GCD{ticks=40}
 
-# Summon Sphere for Death Witch (Hell)
 SummonSphere_hell:
+  Cooldown: 18
+  Skills:
+    - message{m="&5Death Witch&f summons a torment sphere!"} @PlayersInRadius{r=40}
+    - sound{s=entity.illusioner.prepare_blindness;v=1.0;p=1.0} @self
+    - effect:particles{p=SOUL;amount=90;hS=0.9;vS=0.4;y=1} @self
+    - delay 18
+    - summon{mob=witch_soul_sphere_hell;amount=1;radius=2;noise=0} @self
+    - GCD{ticks=80}
+
+MagicProjectile_blood:
+  Cooldown: 7
+  Skills:
+    - message{m="&4Blood Witch&f weaves a lethal bolt!"} @PlayersInRadius{r=40}
+    - sound{s=entity.witch.celebrate;v=1.0;p=0.6} @self
+    - effect:particles{p=ASH;amount=35;hS=0.9;vS=0.3;y=1} @self
+    - delay 12
+    - projectile{onTick=Projectile-Tick;onHit=Q2-ProjectileHit-200;v=30;g=0;hs=false;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.3;vR=1.3} @PlayersInRadius{r=32;limit=1;sort=NEAREST}
+    - GCD{ticks=45}
+
+SummonSphere_blood:
+  Cooldown: 20
+  Skills:
+    - message{m="&4A blood sphere takes form!"} @PlayersInRadius{r=40}
+    - sound{s=entity.illusioner.prepare_mirror;v=1.0;p=0.8} @self
+    - effect:particles{p=ASH;amount=100;hS=1.0;vS=0.45;y=1} @self
+    - delay 20
+    - summon{mob=witch_soul_sphere_blood;amount=1;radius=2;noise=0} @self
+    - GCD{ticks=90}
+
+# =========================
+# Corrupted Root Creature — chasing vines
+# =========================
+
+Q2-CatapultHit-100:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=ROOTED_DIRT;amount=20;hS=0.35;vS=0.25} @origin
+    - sound{s=block.rooted_dirt.break;v=1.0;p=1.0} @origin
+    - damage{a=100} @PlayersInRadius{r=1.4}
+    - potion{type=SLOW;duration=100;level=2} @PlayersInRadius{r=1.4}
+
+Q2-CatapultHit-200:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=MOSS_BLOCK;amount=22;hS=0.35;vS=0.25} @origin
+    - sound{s=block.rooted_dirt.break;v=1.0;p=1.0} @origin
+    - damage{a=200} @PlayersInRadius{r=1.5}
+    - potion{type=SLOW;duration=120;level=3} @PlayersInRadius{r=1.5}
+
+Q2-CatapultHit-500:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=MUD;amount=26;hS=0.4;vS=0.3} @origin
+    - sound{s=block.rooted_dirt.break;v=1.0;p=0.9} @origin
+    - damage{a=500} @PlayersInRadius{r=1.6}
+    - potion{type=SLOW;duration=140;level=4} @PlayersInRadius{r=1.6}
+
+VineChase_inf:
   Cooldown: 12
   Skills:
-    - summon{mob=gremlin_marauder_hell;amount=1;radius=0;noise=0} @target
-    - effect:particles{p=POOF;amount=30;speed=1} @target
+    - message{m="&2Roots creep along the ground!"} @PlayersInRadius{r=40}
+    - effect:particles{p=HAPPY_VILLAGER;amount=10;hS=0.6;vS=0.02} @target
+    - delay 12
+    - projectile{onTick=Catapult-Tick;onHit=Q2-CatapultHit-100;v=20;g=0.05;hs=false;i=3;hnp=true;oh=TRUE;ot=TRUE;hR=1.2;vR=1.2} @PlayersInRadius{r=25;limit=1;sort=NEAREST}
+    - GCD{ticks=50}
 
-# Magic Projectile for Death Witch (Blood)
-MagicProjectile_blood:
-  Cooldown: 3
-  Skills:
-    - effect:particles{p=SPELL_WITCH;amount=20;speed=1} @targetlocation
-    - delay 20
-    - damage{a=200} @PlayersInRadius{r=1} @targetlocation
-
-# Summon Sphere for Death Witch (Blood)
-SummonSphere_blood:
-  Cooldown: 10
-  Skills:
-    - summon{mob=gremlin_marauder_blood;amount=1;radius=0;noise=0} @target
-    - effect:particles{p=POOF;amount=30;speed=1} @target
-
-# Vine Chase for Corrupted Root Creature (Infernal)
-VineChase_inf:
-  Cooldown: 15
-  Skills:
-    - message{m="&6Corrupted Root Creature unleashes vines!"}
-    - effect:particles{p=BLOCK_CRACK;material=VINE;amount=5;hS=0.5;vS=0.5} @targetlocation
-    - delay 20
-    - damage{a=100} @PlayersInRadius{r=1} @targetlocation
-    - potion{type=SLOW;duration=100;level=2} @PlayersInRadius{r=1} @targetlocation
-
-# Vine Chase for Corrupted Root Creature (Hell)
 VineChase_hell:
   Cooldown: 12
   Skills:
-    - message{m="&6Corrupted Root Creature unleashes vines!"}
-    - effect:particles{p=BLOCK_CRACK;material=VINE;amount=7;hS=0.5;vS=0.5} @targetlocation
-    - delay 20
-    - damage{a=200} @PlayersInRadius{r=1} @targetlocation
-    - potion{type=SLOW;duration=120;level=3} @PlayersInRadius{r=1} @targetlocation
+    - message{m="&2Vines surge forward!"} @PlayersInRadius{r=40}
+    - delay 10
+    - projectile{onTick=Catapult-Tick;onHit=Q2-CatapultHit-200;v=22;g=0.05;hs=false;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.2;vR=1.2} @PlayersInRadius{r=26;limit=1;sort=NEAREST}
+    - GCD{ticks=50}
 
-# Vine Chase for Corrupted Root Creature (Blood)
 VineChase_blood:
-  Cooldown: 10
+  Cooldown: 12
   Skills:
-    - message{m="&6Corrupted Root Creature unleashes vines!"}
-    - effect:particles{p=BLOCK_CRACK;material=VINE;amount=10;hS=0.5;vS=0.5} @targetlocation
-    - delay 20
-    - damage{a=500} @PlayersInRadius{r=1} @targetlocation
-    - potion{type=SLOW;duration=140;level=4} @PlayersInRadius{r=1} @targetlocation
+    - message{m="&2The ground cracks with thorny roots!"} @PlayersInRadius{r=40}
+    - delay 10
+    - projectile{onTick=Catapult-Tick;onHit=Q2-CatapultHit-500;v=24;g=0.05;hs=false;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.25;vR=1.25} @PlayersInRadius{r=28;limit=1;sort=NEAREST}
+    - GCD{ticks=50}
 
-# Summoning Sphere for Xerib (Infernal)
+# =========================
+# Xerib the Hunchback — summoning spheres + poison shots
+# =========================
+
 SummoningSphereXerib_inf:
   Cooldown: 20
   Skills:
-    - message{m="&5Xerib shouts: &d'Come forth, my minions!'"}
-    - summon{mob=gremlin_marauder_inf;amount=4;radius=3;noise=2} @target
-    - effect:particles{p=POOF;amount=30;speed=1} @target
+    - message{m="&dXerib&f shapes a floating orb!"} @PlayersInRadius{r=40}
+    - sound{s=entity.illusioner.prepare_mirror;v=1.0;p=1.2} @self
+    - effect:particles{p=ENCHANT;amount=70;hS=0.8;vS=0.3} @self
+    - delay 16
+    - summon{mob=xerib_orb_inf;amount=1;radius=1;noise=0} @self
+    - GCD{ticks=70}
 
-# Poison Magic Projectile for Xerib (Infernal)
 PoisonMagicProjectile_inf:
-  Cooldown: 10
+  Cooldown: 8
   Skills:
-    - message{m="&5Xerib hisses: &d'Taste my venom!'"}
-    - effect:particles{p=SPELL_WITCH;amount=20;speed=1} @targetlocation
-    - delay 20
-    - damage{a=60} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=20} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=20} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=20} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=20} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=20} @PlayersInRadius{r=1} @targetlocation
+    - sound{s=entity.witch.throw;v=0.8;p=1.1} @self
+    - effect:particles{p=SPELL_MOB;amount=25;hS=0.6;vS=0.2;color=#00ff00} @self
+    - delay 8
+    - projectile{onTick=Projectile-Tick;onHit=Q2-PoisonHit-Inf;v=26;g=0;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.2;vR=1.2} @PlayersInRadius{r=26;limit=1;sort=NEAREST}
+    - GCD{ticks=40}
 
-# Falling Poison Sphere for Xerib (Infernal)
+Q2-PoisonHit-Inf:
+  Skills:
+    - callskill{skill=AoE-Telegraph-Small} @origin
+    - delay 6
+    - damage{a=60} @PlayersInRadius{r=1.1} @origin
+    - delay 20
+    - damage{a=20} @PlayersInRadius{r=1.1} @origin
+    - delay 20
+    - damage{a=20} @PlayersInRadius{r=1.1} @origin
+    - delay 20
+    - damage{a=20} @PlayersInRadius{r=1.1} @origin
+    - delay 20
+    - damage{a=20} @PlayersInRadius{r=1.1} @origin
+    - delay 20
+    - damage{a=20} @PlayersInRadius{r=1.1} @origin
+
 FallingPoisonSphere_inf:
-  Cooldown: 15
+  Cooldown: 16
   Skills:
-    - message{m="&5Xerib cackles: &d'Feel the wrath from above!'"}
-    - effect:particles{p=SUSPENDED;amount=50;speed=1} @location
-    - delay 20
-    - damage{a=<caster.mhp>*0.1} @PlayersInRadius{r=5}
-    - potion{type=POISON;duration=80;level=2} @PlayersInRadius{r=5}
+    - message{m="&aToxic orb forming above you!"} @target
+    - effect:particles{p=SPELL_MOB;amount=20;hS=0.4;vS=0.1;color=#00ff00} @targetlocation
+    - delay 18
+    - damage{a=<caster.mhp>*0.1} @PlayersInRadius{r=5} @targetlocation
+    - potion{type=POISON;duration=140;level=1} @PlayersInRadius{r=5} @targetlocation
+    - sound{s=block.bubble_column.upwards_ambient;v=0.8;p=1.4} @targetlocation
 
-# Summoning Sphere for Xerib (Hell)
 SummoningSphereXerib_hell:
-  Cooldown: 18
+  Cooldown: 20
   Skills:
-    - message{m="&5Xerib shouts: &d'Come forth, my minions!'"}
-    - summon{mob=gremlin_marauder_hell;amount=4;radius=3;noise=2} @target
-    - effect:particles{p=POOF;amount=30;speed=1} @target
+    - message{m="&dXerib&f shapes a volatile orb!"} @PlayersInRadius{r=40}
+    - sound{s=entity.illusioner.prepare_blindness;v=1.0;p=1.0} @self
+    - effect:particles{p=SOUL;amount=80;hS=0.8;vS=0.3} @self
+    - delay 14
+    - summon{mob=xerib_orb_hell;amount=1;radius=1;noise=0} @self
+    - GCD{ticks=70}
 
-# Poison Magic Projectile for Xerib (Hell)
 PoisonMagicProjectile_hell:
   Cooldown: 8
   Skills:
-    - message{m="&5Xerib hisses: &d'Taste my venom!'"}
-    - effect:particles{p=SPELL_WITCH;amount=20;speed=1} @targetlocation
-    - delay 20
-    - damage{a=120} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=40} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=40} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=40} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=40} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=40} @PlayersInRadius{r=1} @targetlocation
+    - sound{s=entity.witch.throw;v=0.8;p=1.0} @self
+    - effect:particles{p=SOUL;amount=22;hS=0.5;vS=0.2} @self
+    - delay 8
+    - projectile{onTick=Projectile-Tick;onHit=Q2-PoisonHit-Hell;v=28;g=0;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.2;vR=1.2} @PlayersInRadius{r=28;limit=1;sort=NEAREST}
+    - GCD{ticks=40}
 
-# Falling Poison Sphere for Xerib (Hell)
+Q2-PoisonHit-Hell:
+  Skills:
+    - callskill{skill=AoE-Telegraph-Small} @origin
+    - delay 6
+    - damage{a=120} @PlayersInRadius{r=1.1} @origin
+    - delay 20
+    - damage{a=40} @PlayersInRadius{r=1.1} @origin
+    - delay 20
+    - damage{a=40} @PlayersInRadius{r=1.1} @origin
+    - delay 20
+    - damage{a=40} @PlayersInRadius{r=1.1} @origin
+    - delay 20
+    - damage{a=40} @PlayersInRadius{r=1.1} @origin
+    - delay 20
+    - damage{a=40} @PlayersInRadius{r=1.1} @origin
+
 FallingPoisonSphere_hell:
-  Cooldown: 12
+  Cooldown: 16
   Skills:
-    - message{m="&5Xerib cackles: &d'Feel the wrath from above!'"}
-    - effect:particles{p=SUSPENDED;amount=70;speed=1} @location
-    - delay 20
-    - damage{a=<caster.mhp>*0.1} @PlayersInRadius{r=5}
-    - potion{type=POISON;duration=100;level=3} @PlayersInRadius{r=5}
+    - message{m="&aToxic orb forming!"} @PlayersInRadius{r=40}
+    - effect:particles{p=SOUL;amount=20;hS=0.4;vS=0.1} @targetlocation
+    - delay 16
+    - damage{a=<caster.mhp>*0.1} @PlayersInRadius{r=5} @targetlocation
+    - potion{type=POISON;duration=160;level=1} @PlayersInRadius{r=5} @targetlocation
+    - sound{s=block.bubble_column.upwards_ambient;v=0.9;p=1.3} @targetlocation
 
-# Summoning Sphere for Xerib (Blood)
 SummoningSphereXerib_blood:
-  Cooldown: 15
+  Cooldown: 22
   Skills:
-    - message{m="&5Xerib shouts: &d'Come forth, my minions!'"}
-    - summon{mob=gremlin_marauder_blood;amount=4;radius=3;noise=2} @target
-    - effect:particles{p=POOF;amount=30;speed=1} @target
+    - message{m="&4Xerib&f calls a blood orb!"} @PlayersInRadius{r=40}
+    - sound{s=entity.illusioner.prepare_mirror;v=1.0;p=0.8} @self
+    - effect:particles{p=ASH;amount=90;hS=0.8;vS=0.35} @self
+    - delay 16
+    - summon{mob=xerib_orb_blood;amount=1;radius=1;noise=0} @self
+    - GCD{ticks=80}
 
-# Poison Magic Projectile for Xerib (Blood)
 PoisonMagicProjectile_blood:
-  Cooldown: 6
+  Cooldown: 9
   Skills:
-    - message{m="&5Xerib hisses: &d'Taste my venom!'"}
-    - effect:particles{p=SPELL_WITCH;amount=20;speed=1} @targetlocation
-    - delay 20
-    - damage{a=300} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=100} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=100} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=100} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=100} @PlayersInRadius{r=1} @targetlocation
-    - delay 20
-    - damage{a=100} @PlayersInRadius{r=1} @targetlocation
+    - sound{s=entity.witch.throw;v=0.9;p=0.9} @self
+    - effect:particles{p=ASH;amount=26;hS=0.6;vS=0.25} @self
+    - delay 10
+    - projectile{onTick=Projectile-Tick;onHit=Q2-PoisonHit-Blood;v=28;g=0;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.25;vR=1.25} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
+    - GCD{ticks=45}
 
-# Falling Poison Sphere for Xerib (Blood)
+Q2-PoisonHit-Blood:
+  Skills:
+    - callskill{skill=AoE-Telegraph-Small} @origin
+    - delay 6
+    - damage{a=300} @PlayersInRadius{r=1.2} @origin
+    - delay 20
+    - damage{a=100} @PlayersInRadius{r=1.2} @origin
+    - delay 20
+    - damage{a=100} @PlayersInRadius{r=1.2} @origin
+    - delay 20
+    - damage{a=100} @PlayersInRadius{r=1.2} @origin
+    - delay 20
+    - damage{a=100} @PlayersInRadius{r=1.2} @origin
+    - delay 20
+    - damage{a=100} @PlayersInRadius{r=1.2} @origin
+
 FallingPoisonSphere_blood:
-  Cooldown: 10
+  Cooldown: 18
   Skills:
-    - message{m="&5Xerib cackles: &d'Feel the wrath from above!'"}
-    - effect:particles{p=SUSPENDED;amount=100;speed=1} @location
-    - delay 20
-    - damage{a=<caster.mhp>*0.1} @PlayersInRadius{r=5}
-    - potion{type=POISON;duration=120;level=4} @PlayersInRadius{r=5}
+    - message{m="&aToxic orb overhead! Move!"} @target
+    - effect:particles{p=ASH;amount=26;hS=0.5;vS=0.12} @targetlocation
+    - delay 18
+    - damage{a=<caster.mhp>*0.1} @PlayersInRadius{r=5} @targetlocation
+    - potion{type=POISON;duration=180;level=1} @PlayersInRadius{r=5} @targetlocation
+    - sound{s=block.bubble_column.upwards_ambient;v=1.0;p=1.2} @targetlocation
 
-# Throw Stone for Archus the Mad (Infernal)
+# =========================
+# Archus the Mad — throw stones
+# =========================
+
+Q2-StoneHit-150:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=24;hS=0.3;vS=0.2} @origin
+    - sound{s=entity.player.attack.knockback;v=0.8;p=0.9} @origin
+    - damage{a=150} @PlayersInRadius{r=1.2}
+    - potion{type=SLOW;duration=100;level=3} @PlayersInRadius{r=1.2}
+    - potion{type=CONFUSION;duration=100;level=1} @PlayersInRadius{r=1.2}
+
+Q2-StoneHit-300:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=28;hS=0.3;vS=0.2} @origin
+    - sound{s=entity.player.attack.knockback;v=0.9;p=1.0} @origin
+    - damage{a=300} @PlayersInRadius{r=1.2}
+    - potion{type=SLOW;duration=120;level=4} @PlayersInRadius{r=1.2}
+    - potion{type=CONFUSION;duration=120;level=1} @PlayersInRadius{r=1.2}
+
+Q2-StoneHit-750:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=30;hS=0.3;vS=0.2} @origin
+    - sound{s=entity.player.attack.knockback;v=1.0;p=1.1} @origin
+    - damage{a=750} @PlayersInRadius{r=1.3}
+    - potion{type=SLOW;duration=140;level=5} @PlayersInRadius{r=1.3}
+    - potion{type=CONFUSION;duration=140;level=2} @PlayersInRadius{r=1.3}
+
 ThrowStone_inf:
   Cooldown: 12
   Skills:
-    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=30} @targetlocation
-    - delay 20
-    - damage{a=150} @PlayersInRadius{r=1} @targetlocation
-    - potion{type=SLOW;duration=100;level=3} @PlayersInRadius{r=1} @targetlocation
-    - potion{type=CONFUSION;duration=100;level=1} @PlayersInRadius{r=1} @targetlocation
+    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=24;hS=0.3;vS=0.2} @self
+    - delay 12
+    - projectile{onTick=Catapult-Tick;onHit=Q2-StoneHit-150;v=24;g=0.06;hs=false;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.2;vR=1.2} @PlayersInRadius{r=28;limit=1;sort=NEAREST}
+    - GCD{ticks=50}
 
-# Throw Stone for Archus the Mad (Hell)
 ThrowStone_hell:
-  Cooldown: 10
-  Skills:
-    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=40} @targetlocation
-    - delay 20
-    - damage{a=300} @PlayersInRadius{r=1} @targetlocation
-    - potion{type=SLOW;duration=120;level=4} @PlayersInRadius{r=1} @targetlocation
-    - potion{type=CONFUSION;duration=120;level=1} @PlayersInRadius{r=1} @targetlocation
-
-# Throw Stone for Archus the Mad (Blood)
-ThrowStone_blood:
-  Cooldown: 8
-  Skills:
-    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=50} @targetlocation
-    - delay 20
-    - damage{a=750} @PlayersInRadius{r=1} @targetlocation
-    - potion{type=SLOW;duration=140;level=5} @PlayersInRadius{r=1} @targetlocation
-    - potion{type=CONFUSION;duration=140;level=2} @PlayersInRadius{r=1} @targetlocation
-
-# Web Shot for Arachna (Infernal)
-WebShot_inf:
-  Cooldown: 10
-  Skills:
-    - message{m="&cArachna shoots webs at you!"} @PlayersInRadius{r=30}
-    - potion{type=SLOW;duration=100;level=3} @target
-    - damage{a=100} @target
-    - effect:particles{p=BLOCK_CRACK;material=COBWEB;amount=20} @target
-
-# Venom Spit for Arachna (Infernal)
-VenomSpit_inf:
-  Cooldown: 15
-  Skills:
-    - message{m="&cArachna spits venom!"} @PlayersInRadius{r=30}
-    - potion{type=POISON;duration=120;level=2} @target
-    - damage{a=150} @target
-    - effect:particles{p=SPELL_INSTANT;amount=30;speed=1} @target
-
-# Summon Poisonous Spiders for Arachna (Infernal)
-SummonPoisonousSpiders_inf:
-  Cooldown: 25
-  Skills:
-    - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=30}
-    - summon{mob=poisonous_spider_inf;amount=10;radius=10;noise=5} @self
-
-# Falling Poison Sphere for Arachna (Infernal)
-# Web Shot for Arachna (Hell)
-WebShot_hell:
-  Cooldown: 8
-  Skills:
-    - message{m="&cArachna shoots webs at you!"} @PlayersInRadius{r=35}
-    - potion{type=SLOW;duration=120;level=4} @target
-    - damage{a=200} @target
-    - effect:particles{p=BLOCK_CRACK;material=COBWEB;amount=25} @target
-
-# Venom Spit for Arachna (Hell)
-VenomSpit_hell:
   Cooldown: 12
   Skills:
-    - message{m="&cArachna spits venom!"} @PlayersInRadius{r=35}
-    - potion{type=POISON;duration=140;level=3} @target
-    - damage{a=300} @target
-    - effect:particles{p=SPELL_INSTANT;amount=40;speed=1} @target
+    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=28;hS=0.3;vS=0.2} @self
+    - delay 10
+    - projectile{onTick=Catapult-Tick;onHit=Q2-StoneHit-300;v=26;g=0.06;hs=false;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.2;vR=1.2} @PlayersInRadius{r=28;limit=1;sort=NEAREST}
+    - GCD{ticks=50}
 
-# Summon Poisonous Spiders for Arachna (Hell)
-SummonPoisonousSpiders_hell:
-  Cooldown: 22
+ThrowStone_blood:
+  Cooldown: 12
   Skills:
-    - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=35}
-    - summon{mob=poisonous_spider_hell;amount=12;radius=12;noise=6} @self
+    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=30;hS=0.3;vS=0.2} @self
+    - delay 10
+    - projectile{onTick=Catapult-Tick;onHit=Q2-StoneHit-750;v=27;g=0.06;hs=false;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.25;vR=1.25} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
+    - GCD{ticks=50}
 
-# Falling Poison Sphere for Arachna (Hell)
-# Web Shot for Arachna (Blood)
+# =========================
+# Arachna — webs, venom, spider adds
+# =========================
+
+Q2-WebHit-100:
+  Skills:
+    - effect:particles{p=FALLING_HONEY;amount=18;hS=0.4;vS=0.1} @origin
+    - damage{a=100} @PlayersInRadius{r=1.2}
+    - potion{type=SLOW;duration=100;level=3} @PlayersInRadius{r=1.2}
+
+Q2-WebHit-200:
+  Skills:
+    - effect:particles{p=FALLING_HONEY;amount=20;hS=0.4;vS=0.1} @origin
+    - damage{a=200} @PlayersInRadius{r=1.2}
+    - potion{type=SLOW;duration=120;level=4} @PlayersInRadius{r=1.2}
+
+Q2-WebHit-500:
+  Skills:
+    - effect:particles{p=FALLING_HONEY;amount=22;hS=0.4;vS=0.1} @origin
+    - damage{a=500} @PlayersInRadius{r=1.3}
+    - potion{type=SLOW;duration=140;level=5} @PlayersInRadius{r=1.3}
+
+WebShot_inf:
+  Cooldown: 9
+  Skills:
+    - message{m="&cArachna weaves a web!"} @PlayersInRadius{r=40}
+    - sound{s=entity.spider.ambient;v=0.9;p=1.1} @self
+    - delay 8
+    - projectile{onTick=Web-Tick;onHit=Q2-WebHit-100;v=26;g=0;hs=false;i=1;hnp=true;oh=TRUE;ot=TRUE;hR=1.1;vR=1.1} @PlayersInRadius{r=26;limit=1;sort=NEAREST}
+    - GCD{ticks=40}
+
+WebShot_hell:
+  Cooldown: 9
+  Skills:
+    - message{m="&cArachna shoots sticky silk!"} @PlayersInRadius{r=40}
+    - delay 8
+    - projectile{onTick=Web-Tick;onHit=Q2-WebHit-200;v=28;g=0;hs=false;i=1;hnp=true;oh=TRUE;ot=TRUE;hR=1.1;vR=1.1} @PlayersInRadius{r=28;limit=1;sort=NEAREST}
+    - GCD{ticks=40}
+
 WebShot_blood:
-  Cooldown: 6
-  Skills:
-    - message{m="&cArachna shoots webs at you!"} @PlayersInRadius{r=40}
-    - potion{type=SLOW;duration=140;level=5} @target
-    - damage{a=500} @target
-    - effect:particles{p=BLOCK_CRACK;material=COBWEB;amount=30} @target
-
-# Venom Spit for Arachna (Blood)
-VenomSpit_blood:
   Cooldown: 10
   Skills:
-    - message{m="&cArachna spits venom!"} @PlayersInRadius{r=40}
-    - potion{type=POISON;duration=160;level=4} @target
-    - damage{a=750} @target
-    - effect:particles{p=SPELL_INSTANT;amount=50;speed=1} @target
+    - message{m="&cSilk incoming—sidestep!"} @PlayersInRadius{r=40}
+    - delay 8
+    - projectile{onTick=Web-Tick;onHit=Q2-WebHit-500;v=30;g=0;hs=false;i=1;hnp=true;oh=TRUE;ot=TRUE;hR=1.15;vR=1.15} @PlayersInRadius{r=30;limit=1;sort=NEAREST}
+    - GCD{ticks=45}
 
-# Summon Poisonous Spiders for Arachna (Blood)
-SummonPoisonousSpiders_blood:
+Web-Tick:
+  Skills:
+    - effect:particles{p=ITEM_SNOWBALL;amount=3;hS=0.04;vS=0.04} @origin
+
+VenomSpit_inf:
+  Cooldown: 11
+  Skills:
+    - message{m="&cArachna spits venom!"} @PlayersInRadius{r=40}
+    - callskill{skill=AoE-Telegraph-Small} @targetlocation
+    - delay 14
+    - potion{type=POISON;duration=120;level=1} @target
+    - damage{a=150} @target
+    - effect:particles{p=SPELL_INSTANT;amount=30;hS=0.4;vS=0.2} @target
+
+VenomSpit_hell:
+  Cooldown: 11
+  Skills:
+    - message{m="&cArachna spits venom!"} @PlayersInRadius{r=40}
+    - callskill{skill=AoE-Telegraph-Small} @targetlocation
+    - delay 12
+    - potion{type=POISON;duration=140;level=1} @target
+    - damage{a=300} @target
+    - effect:particles{p=SPELL_INSTANT;amount=34;hS=0.4;vS=0.2} @target
+
+VenomSpit_blood:
+  Cooldown: 12
+  Skills:
+    - message{m="&cArachna spits venom!"} @PlayersInRadius{r=40}
+    - callskill{skill=AoE-Telegraph-Small} @targetlocation
+    - delay 12
+    - potion{type=POISON;duration=160;level=1} @target
+    - damage{a=750} @target
+    - effect:particles{p=SPELL_INSTANT;amount=38;hS=0.4;vS=0.2} @target
+
+SummonPoisonousSpiders_inf:
   Cooldown: 18
   Skills:
     - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=40}
-    - summon{mob=poisonous_spider_blood;amount=15;radius=15;noise=7} @self
+    - sound{s=entity.spider.ambient;v=1.0;p=0.8} @self
+    - effect:particles{p=SPIT;amount=40;hS=1.2;vS=0.4} @self
+    - delay 20
+    - summon{mob=poisonous_spider_inf;amount=8;radius=10;noise=4} @ring{radius=10;points=8}
+    - GCD{ticks=90}
 
-# Falling Poison Sphere for Arachna (Blood)
+SummonPoisonousSpiders_hell:
+  Cooldown: 18
+  Skills:
+    - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=40}
+    - delay 18
+    - summon{mob=poisonous_spider_hell;amount=10;radius=12;noise=5} @ring{radius=12;points=10}
+    - GCD{ticks=100}
+
+SummonPoisonousSpiders_blood:
+  Cooldown: 20
+  Skills:
+    - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=40}
+    - delay 18
+    - summon{mob=poisonous_spider_blood;amount=12;radius=14;noise=6} @ring{radius=14;points=12}
+    - GCD{ticks=110}
