@@ -24,7 +24,7 @@ scheming_gorgon_inf:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=PetrifyingGaze} @target ~onTimer:15
-    - skill{s=VenomSpit} @target ~onTimer:10
+    - skill{s=AcidSpit} @target ~onTimer:10
   Drops:
     - scheming_gorgon_inf_drop
     - q_inf_elite_crafting
@@ -49,7 +49,7 @@ poisonous_jitterjelly_inf:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=ShockAttack} @target ~onTimer:10
+    - skill{s=ZapBolt} @target ~onTimer:10
     - skill{s=DeathExplosion} @self ~onDeath
   Drops:
     - poisonous_jitterjelly_inf_drop
@@ -75,7 +75,7 @@ anderworld_jitterjelly_inf:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=ShockAttack} @target ~onTimer:12
+    - skill{s=ZapBolt} @target ~onTimer:12
     - skill{s=SmallDeathExplosion} @self ~onDeath
   Drops:
     - anderworld_jitterjelly_inf_drop

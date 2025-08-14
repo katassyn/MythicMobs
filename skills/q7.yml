@@ -1,245 +1,360 @@
-# Mission 1 Skills
-FlameAttack:
-  Cooldown: 15
-  Skills:
-    - effect:particles{p=FLAME;amount=20} @targetlocation
-    - delay 20
-    - damage{a=150} @PlayersInRadius{r=2} @targetlocation
-    - ignite{ticks=60} @PlayersInRadius{r=2} @targetlocation
+# Mission 1 Skills (improved)
 
-ThunderStrike:
+FlameAttack:
   Cooldown: 12
   Skills:
-    - effect:particles{p=WAX_OFF;amount=30} @targetlocation
+    - sound{s=entity.blaze.shoot;v=1;p=0.8} @self
+    - effect:particles{p=SMOKE_LARGE;amount=25;hS=2.5;vS=0.1;speed=0.01} @targetlocation
+    - effect:particles{p=FLAME;amount=80;hS=2.3;vS=0.1;speed=0.01} @targetlocation
     - delay 20
-    - damage{a=200} @PlayersInRadius{r=2} @targetlocation
-    - potion{type=LEVITATION;duration=40;level=1} @PlayersInRadius{r=2} @targetlocation
-    - potion{type=CONFUSION;duration=60;level=1} @PlayersInRadius{r=2} @targetlocation
+    - damage{a=180} @PlayersInRadius{r=2.5} @targetlocation
+    - ignite{ticks=80} @PlayersInRadius{r=2.5} @targetlocation
+    - knockback{strength=0.8} @PlayersInRadius{r=2.5} @targetlocation
+    - sound{s=entity.generic.explode;v=1.2;p=1} @targetlocation
+
+ThunderStrike:
+  Cooldown: 10
+  Skills:
+    - sound{s=block.bell.use;v=1.2;p=0.5} @self
+    - effect:particles{p=CRIT_MAGIC;amount=60;hS=2.5;vS=0.2;speed=0.1} @targetlocation
+    - lightning{action=STRIKE} @targetlocation
+    - delay 20
+    - damage{a=240} @PlayersInRadius{r=2.5} @targetlocation
+    - potion{type=LEVITATION;duration=50;level=1} @PlayersInRadius{r=2.5} @targetlocation
+    - potion{type=SLOW;duration=80;level=1} @PlayersInRadius{r=2.5} @targetlocation
+    - sound{s=entity.lightning_bolt.thunder;v=2;p=1} @targetlocation
 
 DeathExplosion:
   Cooldown: 1
   Skills:
-    - message{m="&cDark energy builds up..."} @PlayersInRadius{r=5}
-    - delay 40
-    - damage{a=300} @PlayersInRadius{r=3}
-    - effect:particles{p=EXPLOSION_LARGE;amount=20} @self
+    - message{m="&4&l! &cEnergy surges... &7(Back away)"} @PlayersInRadius{r=8}
+    - effect:particles{p=SMOKE_NORMAL;amount=80;hS=1.8;vS=0.3;speed=0.02;y=0.2} @self
+    - sound{s=entity.wither.ambient;v=1.2;p=0.6} @self
+    - delay 50
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - sound{s=entity.generic.explode;v=1.5;p=1} @self
+    - damage{a=350} @PlayersInRadius{r=3.2}
+    - potion{type=WEAKNESS;duration=80;level=1} @PlayersInRadius{r=3.2}
 
 LaserBeam:
-  Cooldown: 10
+  Cooldown: 8
   Skills:
-    - effect:particles{p=END_ROD;amount=50} @Forward{f=10}
-    - delay 20
-    - damage{a=100} @Forward{f=10}
+    - message{m="&b&l» &fCharging the laser!"} @PlayersInRadius{r=15}
+    - sound{s=block.beacon.activate;v=0.8;p=1.2} @self
+    - delay 10
+    - effect:particles{p=END_ROD;amount=20} @Forward{f=2}
+    - damage{a=90} @PlayersInRadius{r=1.5} @Forward{f=2}
+    - delay 1
+    - effect:particles{p=END_ROD;amount=20} @Forward{f=4}
+    - damage{a=90} @PlayersInRadius{r=1.5} @Forward{f=4}
+    - delay 1
+    - effect:particles{p=END_ROD;amount=20} @Forward{f=6}
+    - damage{a=90} @PlayersInRadius{r=1.5} @Forward{f=6}
+    - delay 1
+    - effect:particles{p=END_ROD;amount=20} @Forward{f=8}
+    - damage{a=90} @PlayersInRadius{r=1.5} @Forward{f=8}
+    - delay 1
+    - effect:particles{p=END_ROD;amount=30} @Forward{f=10}
+    - sound{s=block.beacon.power_select;v=1.2;p=1.6} @self
+    - damage{a=90} @PlayersInRadius{r=1.5} @Forward{f=10}
 
-# Mission 2 Skills
 SummonFlamespawns:
-  Cooldown: 30
+  Cooldown: 28
   Skills:
-    - message{m="&cCommander Embersword summons reinforcements!"} @PlayersInRadius{r=20}
-    - summon{mob=angry_flamespawn_inf;amount=2;radius=3} @self
+    - message{m="&cThe commander calls for reinforcements!"} @PlayersInRadius{r=30}
+    - sound{s=block.portal.trigger;v=1.2;p=0.6} @self
+    - effect:particles{p=PORTAL;amount=60;hS=1;vS=1;speed=0.2} @self
+    - summon{mob=angry_flamespawn_inf;amount=3;radius=3} @self
 
-# Mission 3 Boss Skills
 FlameStrike:
-  Cooldown: 5
+  Cooldown: 6
   Skills:
-    - message{m="&cThe Herald prepares to strike!"} @PlayersInRadius{r=20}
-    - effect:particles{p=FLAME;amount=30} @targetlocation
-    - delay 20
-    - damage{a=200} @PlayersInRadius{r=2} @targetlocation
-    - ignite{ticks=60} @PlayersInRadius{r=2} @targetlocation
+    - message{m="&c&l! &7Flame strike incoming"} @PlayersInRadius{r=20}
+    - sound{s=entity.blaze.shoot;v=1;p=0.7} @self
+    - effect:particles{p=ASH;amount=40;hS=2.4;vS=0.1} @targetlocation
+    - effect:particles{p=FLAME;amount=100;hS=2.2;vS=0.1} @targetlocation
+    - delay 15
+    - damage{a=220} @PlayersInRadius{r=2.4} @targetlocation
+    - ignite{ticks=80} @PlayersInRadius{r=2.4} @targetlocation
+    - knockback{strength=1.0} @PlayersInRadius{r=2.4} @targetlocation
 
 PoweredFlameStrike:
-  Cooldown: 10
+  Cooldown: 12
   Skills:
-    - message{m="&cThe Herald channels dark flames!"} @PlayersInRadius{r=20}
-    - effect:particles{p=FLAME;amount=50} @targetlocation
-    - delay 20
-    - damage{a=600} @PlayersInRadius{r=2} @targetlocation
-    - ignite{ticks=100} @PlayersInRadius{r=2} @targetlocation
-    - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=2} @targetlocation
+    - message{m="&6&l!! &cChanneling a hellish blow!"} @PlayersInRadius{r=25}
+    - sound{s=block.enchantment_table.use;v=1.2;p=0.8} @self
+    - effect:particles{p=SOUL_FIRE_FLAME;amount=120;hS=3.0;vS=0.2} @targetlocation
+    - delay 25
+    - damage{a=320} @PlayersInRadius{r=3.0} @targetlocation
+    - ignite{ticks=140} @PlayersInRadius{r=3.0} @targetlocation
+    - potion{type=SLOW;duration=60;level=1} @PlayersInRadius{r=3.0} @targetlocation
+    - sound{s=entity.blaze.burn;v=1.4;p=1} @targetlocation
 
 MeteorShower:
-  Cooldown: 15
+  Cooldown: 16
   Skills:
-    - message{m="&cMeteors rain from above!"} @PlayersInRadius{r=30}
-    - projectile{onTick=Meteor-Tick;onHit=Meteor-Hit;v=8;i=MAGMA_BLOCK;hR=1;vR=1;amount=5} @target
+    - message{m="&4&l☄ &7Calling down a meteor shower!"} @PlayersInRadius{r=30}
+    - sound{s=entity.ghast.shoot;v=1.2;p=0.7} @self
+    - projectile{onHit=Meteor-Hit;onTick=Meteor-Tick;v=18;g=1.0;hR=1.2;vR=1.2;amount=6;spread=6;y=3} @targetlocation
 
 Meteor-Tick:
   Skills:
-    - effect:particles{p=FLAME;amount=10} @origin
+    - effect:particles{p=FLAME;amount=6;hS=0.2;vS=0.2;speed=0.01} @origin
 
 Meteor-Hit:
   Skills:
-    - damage{a=300} @PlayersInRadius{r=3}
+    - damage{a=320} @PlayersInRadius{r=3}
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
-    - ignite{ticks=60} @PlayersInRadius{r=3}
+    - ignite{ticks=80} @PlayersInRadius{r=3}
+    - knockback{strength=1.2} @PlayersInRadius{r=3}
+    - sound{s=entity.generic.explode;v=1.5;p=1} @origin
 
 SummonFlamespawnsLarge:
-  Cooldown: 30
+  Cooldown: 28
   Skills:
-    - message{m="&cThe Herald summons its minions!"} @PlayersInRadius{r=30}
+    - message{m="&cThe herald summons its minions!"} @PlayersInRadius{r=30}
+    - sound{s=block.portal.trigger;v=1.2;p=0.6} @self
+    - effect:particles{p=PORTAL;amount=100;hS=1;vS=1;speed=0.2} @self
     - summon{mob=angry_flamespawn_inf;amount=5;radius=5} @self
 
-# Mission 1 Skills - Hell version (2x damage)
+# Mission 1 Skills - Hell version (stronger, flashier)
+
 FlameAttack_hell:
-  Cooldown: 15
+  Cooldown: 10
   Skills:
-    - effect:particles{p=FLAME;amount=20} @targetlocation
+    - sound{s=entity.blaze.shoot;v=1;p=0.8} @self
+    - effect:particles{p=SMOKE_LARGE;amount=35;hS=3.0;vS=0.1;speed=0.01} @targetlocation
+    - effect:particles{p=FLAME;amount=120;hS=2.8;vS=0.1;speed=0.01} @targetlocation
     - delay 20
-    - damage{a=300} @PlayersInRadius{r=2} @targetlocation  # 2x150
-    - ignite{ticks=80} @PlayersInRadius{r=2} @targetlocation
+    - damage{a=360} @PlayersInRadius{r=3.0} @targetlocation
+    - ignite{ticks=120} @PlayersInRadius{r=3.0} @targetlocation
+    - knockback{strength=0.9} @PlayersInRadius{r=3.0} @targetlocation
+    - sound{s=entity.generic.explode;v=1.2;p=1} @targetlocation
+    - potion{type=WEAKNESS;duration=60;level=1} @PlayersInRadius{r=3.0} @targetlocation
 
 ThunderStrike_hell:
-  Cooldown: 12
+  Cooldown: 9
   Skills:
-    - effect:particles{p=WAX_OFF;amount=30} @targetlocation
+    - sound{s=block.bell.use;v=1.2;p=0.5} @self
+    - effect:particles{p=CRIT_MAGIC;amount=80;hS=3.0;vS=0.2;speed=0.1} @targetlocation
+    - lightning{action=STRIKE} @targetlocation
     - delay 20
-    - damage{a=400} @PlayersInRadius{r=2} @targetlocation  # 2x200
-    - potion{type=LEVITATION;duration=60;level=2} @PlayersInRadius{r=2} @targetlocation
-    - potion{type=CONFUSION;duration=80;level=1} @PlayersInRadius{r=2} @targetlocation
+    - damage{a=480} @PlayersInRadius{r=3.0} @targetlocation
+    - potion{type=LEVITATION;duration=60;level=1} @PlayersInRadius{r=3.0} @targetlocation
+    - potion{type=SLOW;duration=100;level=1} @PlayersInRadius{r=3.0} @targetlocation
+    - sound{s=entity.lightning_bolt.thunder;v=2;p=1} @targetlocation
 
 DeathExplosion_hell:
   Cooldown: 1
   Skills:
-    - message{m="&cDark energy builds up..."} @PlayersInRadius{r=5}
-    - delay 40
-    - damage{a=600} @PlayersInRadius{r=3}  # 2x300
-    - effect:particles{p=EXPLOSION_LARGE;amount=20} @self
+    - message{m="&4&l! &cEnergy surges... &7(Back away)"} @PlayersInRadius{r=8}
+    - effect:particles{p=SMOKE_NORMAL;amount=100;hS=1.8;vS=0.3;speed=0.02;y=0.2} @self
+    - sound{s=entity.wither.ambient;v=1.2;p=0.6} @self
+    - delay 45
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - sound{s=entity.generic.explode;v=1.5;p=1} @self
+    - damage{a=700} @PlayersInRadius{r=3.5}
+    - potion{type=WEAKNESS;duration=80;level=1} @PlayersInRadius{r=3.5}
 
 LaserBeam_hell:
-  Cooldown: 10
+  Cooldown: 7
   Skills:
-    - effect:particles{p=END_ROD;amount=50} @Forward{f=10}
-    - delay 20
-    - damage{a=200} @Forward{f=10}  # 2x100
+    - message{m="&b&l» &fCharging the laser!"} @PlayersInRadius{r=15}
+    - sound{s=block.beacon.activate;v=0.8;p=1.2} @self
+    - delay 10
+    - effect:particles{p=END_ROD;amount=25} @Forward{f=2}
+    - damage{a=130} @PlayersInRadius{r=1.5} @Forward{f=2}
+    - delay 1
+    - effect:particles{p=END_ROD;amount=25} @Forward{f=4}
+    - damage{a=130} @PlayersInRadius{r=1.5} @Forward{f=4}
+    - delay 1
+    - effect:particles{p=END_ROD;amount=25} @Forward{f=6}
+    - damage{a=130} @PlayersInRadius{r=1.5} @Forward{f=6}
+    - delay 1
+    - effect:particles{p=END_ROD;amount=25} @Forward{f=8}
+    - damage{a=130} @PlayersInRadius{r=1.5} @Forward{f=8}
+    - delay 1
+    - effect:particles{p=END_ROD;amount=35} @Forward{f=10}
+    - sound{s=block.beacon.power_select;v=1.2;p=1.6} @self
+    - damage{a=130} @PlayersInRadius{r=1.5} @Forward{f=10}
 
-# Mission 2 Skills
 SummonFlamespawns_hell:
-  Cooldown: 30
+  Cooldown: 26
   Skills:
-    - message{m="&cCommander Embersword summons reinforcements!"} @PlayersInRadius{r=20}
-    - summon{mob=angry_flamespawn_hell;amount=2;radius=3} @self
+    - message{m="&c&lHell opens its gates!"} @PlayersInRadius{r=30}
+    - sound{s=block.portal.trigger;v=1.2;p=0.6} @self
+    - effect:particles{p=PORTAL;amount=60;hS=1;vS=1;speed=0.2} @self
+    - summon{mob=angry_flamespawn_hell;amount=3;radius=4} @self
 
-# Mission 3 Boss Skills
 FlameStrike_hell:
   Cooldown: 5
   Skills:
-    - message{m="&cThe Herald prepares to strike!"} @PlayersInRadius{r=20}
-    - effect:particles{p=FLAME;amount=30} @targetlocation
-    - delay 20
-    - damage{a=400} @PlayersInRadius{r=2} @targetlocation  # 2x200
-    - ignite{ticks=80} @PlayersInRadius{r=2} @targetlocation
+    - message{m="&c&l! &7Flame strike incoming"} @PlayersInRadius{r=20}
+    - sound{s=entity.blaze.shoot;v=1;p=0.7} @self
+    - effect:particles{p=ASH;amount=50;hS=2.8;vS=0.1} @targetlocation
+    - effect:particles{p=FLAME;amount=120;hS=2.6;vS=0.1} @targetlocation
+    - delay 15
+    - damage{a=440} @PlayersInRadius{r=2.8} @targetlocation
+    - ignite{ticks=120} @PlayersInRadius{r=2.8} @targetlocation
+    - knockback{strength=1.1} @PlayersInRadius{r=2.8} @targetlocation
 
 PoweredFlameStrike_hell:
   Cooldown: 10
   Skills:
-    - message{m="&cThe Herald channels dark flames!"} @PlayersInRadius{r=20}
-    - effect:particles{p=FLAME;amount=50} @targetlocation
-    - delay 20
-    - damage{a=1200} @PlayersInRadius{r=2} @targetlocation  # 2x600
-    - ignite{ticks=120} @PlayersInRadius{r=2} @targetlocation
-    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=2} @targetlocation
+    - message{m="&6&l!! &cChanneling a hellish blow!"} @PlayersInRadius{r=25}
+    - sound{s=block.enchantment_table.use;v=1.2;p=0.8} @self
+    - effect:particles{p=SOUL_FIRE_FLAME;amount=140;hS=3.2;vS=0.2} @targetlocation
+    - delay 25
+    - damage{a=640} @PlayersInRadius{r=3.2} @targetlocation
+    - ignite{ticks=140} @PlayersInRadius{r=3.2} @targetlocation
+    - potion{type=SLOW;duration=60;level=1} @PlayersInRadius{r=3.2} @targetlocation
+    - sound{s=entity.blaze.burn;v=1.4;p=1} @targetlocation
 
 MeteorShower_hell:
-  Cooldown: 15
+  Cooldown: 14
   Skills:
-    - message{m="&cMeteors rain from above!"} @PlayersInRadius{r=30}
-    - projectile{onTick=Meteor-Tick-Hell;onHit=Meteor-Hit-Hell;v=8;i=MAGMA_BLOCK;hR=1;vR=1;amount=5} @target
+    - message{m="&4&l☄ &7Calling down a meteor shower!"} @PlayersInRadius{r=30}
+    - sound{s=entity.ghast.shoot;v=1.2;p=0.7} @self
+    - projectile{onHit=Meteor-Hit-Hell;onTick=Meteor-Tick-Hell;v=20;g=1.05;hR=1.2;vR=1.2;amount=8;spread=6;y=3} @targetlocation
 
 Meteor-Tick-Hell:
   Skills:
-    - effect:particles{p=FLAME;amount=10} @origin
+    - effect:particles{p=SOUL_FIRE_FLAME;amount=6;hS=0.2;vS=0.2;speed=0.01} @origin
 
 Meteor-Hit-Hell:
   Skills:
-    - damage{a=600} @PlayersInRadius{r=3}  # 2x300
+    - damage{a=650} @PlayersInRadius{r=3.4}
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
-    - ignite{ticks=80} @PlayersInRadius{r=3}
+    - ignite{ticks=120} @PlayersInRadius{r=3.4}
+    - knockback{strength=1.2} @PlayersInRadius{r=3.4}
+    - sound{s=entity.generic.explode;v=1.5;p=1} @origin
+    - potion{type=SLOW;duration=80;level=1} @PlayersInRadius{r=3.4}
 
 SummonFlamespawnsLarge_hell:
-  Cooldown: 30
+  Cooldown: 28
   Skills:
-    - message{m="&cThe Herald summons its minions!"} @PlayersInRadius{r=30}
-    - summon{mob=angry_flamespawn_hell;amount=5;radius=5} @self
+    - message{m="&cThe herald sends a legion of fire!"} @PlayersInRadius{r=30}
+    - sound{s=block.portal.trigger;v=1.2;p=0.6} @self
+    - effect:particles{p=PORTAL;amount=120;hS=1;vS=1;speed=0.2} @self
+    - summon{mob=angry_flamespawn_hell;amount=6;radius=5} @self
 
-# Mission 1 Skills - Blood version (5x damage)
+# Mission 1 Skills - Blood version (brutal)
+
 FlameAttack_blood:
-  Cooldown: 15
+  Cooldown: 8
   Skills:
-    - effect:particles{p=FLAME;amount=20} @targetlocation
+    - sound{s=entity.blaze.shoot;v=1;p=0.8} @self
+    - effect:particles{p=SMOKE_LARGE;amount=45;hS=3.4;vS=0.1;speed=0.01} @targetlocation
+    - effect:particles{p=FLAME;amount=130;hS=3.2;vS=0.1;speed=0.01} @targetlocation
     - delay 20
-    - damage{a=750} @PlayersInRadius{r=2} @targetlocation  # 5x150
-    - ignite{ticks=100} @PlayersInRadius{r=2} @targetlocation
+    - damage{a=600} @PlayersInRadius{r=3.4} @targetlocation
+    - ignite{ticks=160} @PlayersInRadius{r=3.4} @targetlocation
+    - knockback{strength=1.0} @PlayersInRadius{r=3.4} @targetlocation
+    - sound{s=entity.generic.explode;v=1.2;p=1} @targetlocation
+    - potion{type=BLINDNESS;duration=40;level=1} @PlayersInRadius{r=3.4} @targetlocation
 
 ThunderStrike_blood:
-  Cooldown: 12
+  Cooldown: 8
   Skills:
-    - effect:particles{p=WAX_OFF;amount=30} @targetlocation
+    - sound{s=block.bell.use;v=1.2;p=0.5} @self
+    - effect:particles{p=CRIT_MAGIC;amount=90;hS=3.4;vS=0.2;speed=0.1} @targetlocation
+    - lightning{action=STRIKE} @targetlocation
     - delay 20
-    - damage{a=1000} @PlayersInRadius{r=2} @targetlocation  # 5x200
-    - potion{type=LEVITATION;duration=80;level=3} @PlayersInRadius{r=2} @targetlocation
-    - potion{type=CONFUSION;duration=100;level=2} @PlayersInRadius{r=2} @targetlocation
+    - damage{a=800} @PlayersInRadius{r=3.4} @targetlocation
+    - potion{type=LEVITATION;duration=70;level=1} @PlayersInRadius{r=3.4} @targetlocation
+    - potion{type=SLOW;duration=120;level=1} @PlayersInRadius{r=3.4} @targetlocation
+    - sound{s=entity.lightning_bolt.thunder;v=2;p=1} @targetlocation
 
 DeathExplosion_blood:
   Cooldown: 1
   Skills:
-    - message{m="&cDark energy builds up..."} @PlayersInRadius{r=5}
+    - message{m="&4&l! &cEnergy surges... &7(Back away)"} @PlayersInRadius{r=8}
+    - effect:particles{p=SMOKE_NORMAL;amount=120;hS=1.8;vS=0.3;speed=0.02;y=0.2} @self
+    - sound{s=entity.wither.ambient;v=1.2;p=0.6} @self
     - delay 40
-    - damage{a=1500} @PlayersInRadius{r=3}  # 5x300
-    - effect:particles{p=EXPLOSION_LARGE;amount=20} @self
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - sound{s=entity.generic.explode;v=1.5;p=1} @self
+    - damage{a=1200} @PlayersInRadius{r=3.8}
+    - potion{type=WEAKNESS;duration=100;level=1} @PlayersInRadius{r=3.8}
 
 LaserBeam_blood:
-  Cooldown: 10
+  Cooldown: 6
   Skills:
-    - effect:particles{p=END_ROD;amount=50} @Forward{f=10}
-    - delay 20
-    - damage{a=500} @Forward{f=10}  # 5x100
+    - message{m="&b&l» &fCharging the laser!"} @PlayersInRadius{r=15}
+    - sound{s=block.beacon.activate;v=0.8;p=1.2} @self
+    - delay 10
+    - effect:particles{p=END_ROD;amount=30} @Forward{f=2}
+    - damage{a=180} @PlayersInRadius{r=1.5} @Forward{f=2}
+    - delay 1
+    - effect:particles{p=END_ROD;amount=30} @Forward{f=4}
+    - damage{a=180} @PlayersInRadius{r=1.5} @Forward{f=4}
+    - delay 1
+    - effect:particles{p=END_ROD;amount=30} @Forward{f=6}
+    - damage{a=180} @PlayersInRadius{r=1.5} @Forward{f=6}
+    - delay 1
+    - effect:particles{p=END_ROD;amount=30} @Forward{f=8}
+    - damage{a=180} @PlayersInRadius{r=1.5} @Forward{f=8}
+    - delay 1
+    - effect:particles{p=END_ROD;amount=40} @Forward{f=10}
+    - sound{s=block.beacon.power_select;v=1.2;p=1.6} @self
+    - damage{a=180} @PlayersInRadius{r=1.5} @Forward{f=10}
 
-# Mission 2 Skills
 SummonFlamespawns_blood:
-  Cooldown: 30
+  Cooldown: 24
   Skills:
-    - message{m="&cCommander Embersword summons reinforcements!"} @PlayersInRadius{r=20}
-    - summon{mob=angry_flamespawn_blood;amount=2;radius=3} @self
+    - message{m="&4&lBLOOD CALLS! &7Servants arise."} @PlayersInRadius{r=30}
+    - sound{s=block.portal.trigger;v=1.2;p=0.6} @self
+    - effect:particles{p=PORTAL;amount=80;hS=1;vS=1;speed=0.2} @self
+    - summon{mob=angry_flamespawn_blood;amount=4;radius=4} @self
 
-# Mission 3 Boss Skills
 FlameStrike_blood:
   Cooldown: 5
   Skills:
-    - message{m="&cThe Herald prepares to strike!"} @PlayersInRadius{r=20}
-    - effect:particles{p=FLAME;amount=30} @targetlocation
-    - delay 20
-    - damage{a=1000} @PlayersInRadius{r=2} @targetlocation  # 5x200
-    - ignite{ticks=100} @PlayersInRadius{r=2} @targetlocation
+    - message{m="&c&l! &7Flame strike incoming"} @PlayersInRadius{r=20}
+    - sound{s=entity.blaze.shoot;v=1;p=0.7} @self
+    - effect:particles{p=ASH;amount=60;hS=3.2;vS=0.1} @targetlocation
+    - effect:particles{p=FLAME;amount=140;hS=3.0;vS=0.1} @targetlocation
+    - delay 15
+    - damage{a=750} @PlayersInRadius{r=3.2} @targetlocation
+    - ignite{ticks=160} @PlayersInRadius{r=3.2} @targetlocation
+    - knockback{strength=1.2} @PlayersInRadius{r=3.2} @targetlocation
 
 PoweredFlameStrike_blood:
-  Cooldown: 10
+  Cooldown: 9
   Skills:
-    - message{m="&cThe Herald channels dark flames!"} @PlayersInRadius{r=20}
-    - effect:particles{p=FLAME;amount=50} @targetlocation
-    - delay 20
-    - damage{a=3000} @PlayersInRadius{r=2} @targetlocation  # 5x600
-    - ignite{ticks=140} @PlayersInRadius{r=2} @targetlocation
-    - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=2} @targetlocation
+    - message{m="&6&l!! &cChanneling a hellish blow!"} @PlayersInRadius{r=25}
+    - sound{s=block.enchantment_table.use;v=1.2;p=0.8} @self
+    - effect:particles{p=SOUL_FIRE_FLAME;amount=160;hS=3.6;vS=0.2} @targetlocation
+    - delay 25
+    - damage{a=950} @PlayersInRadius{r=3.6} @targetlocation
+    - ignite{ticks=160} @PlayersInRadius{r=3.6} @targetlocation
+    - potion{type=SLOW;duration=80;level=2} @PlayersInRadius{r=3.6} @targetlocation
+    - sound{s=entity.blaze.burn;v=1.4;p=1} @targetlocation
 
 MeteorShower_blood:
-  Cooldown: 15
+  Cooldown: 12
   Skills:
-    - message{m="&cMeteors rain from above!"} @PlayersInRadius{r=30}
-    - projectile{onTick=Meteor-Tick-Blood;onHit=Meteor-Hit-Blood;v=8;i=MAGMA_BLOCK;hR=1;vR=1;amount=5} @target
+    - message{m="&4&l☄ &7Calling down a meteor shower!"} @PlayersInRadius{r=30}
+    - sound{s=entity.ghast.shoot;v=1.2;p=0.7} @self
+    - projectile{onHit=Meteor-Hit-Blood;onTick=Meteor-Tick-Blood;v=22;g=1.1;hR=1.2;vR=1.2;amount=10;spread=6;y=3} @targetlocation
 
 Meteor-Tick-Blood:
   Skills:
-    - effect:particles{p=FLAME;amount=10} @origin
+    - effect:particles{p=CAMPFIRE_COSY_SMOKE;amount=6;hS=0.2;vS=0.2;speed=0.01} @origin
 
 Meteor-Hit-Blood:
   Skills:
-    - damage{a=1500} @PlayersInRadius{r=3}  # 5x300
+    - damage{a=1500} @PlayersInRadius{r=3.8}
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
-    - ignite{ticks=100} @PlayersInRadius{r=3}
+    - ignite{ticks=160} @PlayersInRadius{r=3.8}
+    - knockback{strength=1.2} @PlayersInRadius{r=3.8}
+    - sound{s=entity.generic.explode;v=1.5;p=1} @origin
+    - potion{type=SLOW;duration=120;level=2} @PlayersInRadius{r=3.8}
 
 SummonFlamespawnsLarge_blood:
-  Cooldown: 30
+  Cooldown: 26
   Skills:
-    - message{m="&cThe Herald summons its minions!"} @PlayersInRadius{r=30}
-    - summon{mob=angry_flamespawn_blood;amount=5;radius=5} @self
+    - message{m="&4&lThe Blood Herald summons a horde!"} @PlayersInRadius{r=30}
+    - sound{s=block.portal.trigger;v=1.2;p=0.6} @self
+    - effect:particles{p=PORTAL;amount=120;hS=1;vS=1;speed=0.2} @self
+    - summon{mob=angry_flamespawn_blood;amount=6;radius=5} @self

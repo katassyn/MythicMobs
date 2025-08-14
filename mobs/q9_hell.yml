@@ -23,6 +23,7 @@ agile_satyr_warrior_hell:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SatyrWarCry_hell} @self ~onTimer:25 0.4
   Drops:
     - agile_satyr_warrior_hell_drop
     - q_hell_mob_crafting
@@ -52,6 +53,7 @@ perfidious_satyr_archer_hell:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SatyrWarCry_hell} @self ~onTimer:25 0.4
   Drops:
     - perfidious_satyr_archer_hell_drop
     - q_hell_mob_crafting
@@ -112,6 +114,7 @@ stone_golem_hell:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=ThrowBoulder_hell} @target ~onTimer:10
+    - skill{s=StoneShatter_hell} @self ~onTimer:16 0.5
   Drops:
     - stone_golem_hell_drop
     - q_hell_elite_crafting

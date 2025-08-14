@@ -4,27 +4,101 @@ PetrifyingGaze:
     - potion{type=SLOW;duration=60;level=10} @target
     - effect:particles{p=BLOCK_CRACK;material=STONE;amount=30} @target
 
-VenomSpit:
+AcidSpit:
+  Cooldown: 8
+  Skills:
+    - projectile{onTick=AcidSpit-Tick;onHit=AcidSpit-Hit;v=12;i=DRAGON_BREATH;hR=0.5;vR=0.5;g=0.04} @target
+
+AcidSpit-Tick:
+  Skills:
+    - effect:particles{p=SPELL_MOB;amount=3} @origin
+
+AcidSpit-Hit:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=SLIME_BLOCK;amount=30;hS=0.4;vS=0.1} @origin
+    - damage{a=40} @target
+    - potion{type=POISON;duration=100;level=1} @target
+    - damage{a=30} @PlayersInRadius{r=2} @origin
+    - potion{type=POISON;duration=60;level=1} @PlayersInRadius{r=2} @origin
+
+AcidSpit_hell:
+  Cooldown: 8
+  Skills:
+    - projectile{onTick=AcidSpit-Tick;onHit=AcidSpit-Hit_hell;v=12;i=DRAGON_BREATH;hR=0.5;vR=0.5;g=0.04} @target
+
+AcidSpit-Hit_hell:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=SLIME_BLOCK;amount=40;hS=0.4;vS=0.1} @origin
+    - damage{a=80} @target
+    - potion{type=POISON;duration=120;level=1} @target
+    - damage{a=60} @PlayersInRadius{r=2} @origin
+
+AcidSpit_blood:
+  Cooldown: 8
+  Skills:
+    - projectile{onTick=AcidSpit-Tick;onHit=AcidSpit-Hit_blood;v=12;i=DRAGON_BREATH;hR=0.5;vR=0.5;g=0.04} @target
+
+AcidSpit-Hit_blood:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=SLIME_BLOCK;amount=60;hS=0.4;vS=0.1} @origin
+    - damage{a=200} @target
+    - potion{type=POISON;duration=140;level=2} @target
+    - damage{a=150} @PlayersInRadius{r=2} @origin
+
+ZapBolt:
   Cooldown: 10
   Skills:
-    - projectile{onTick=Venom-Tick;onHit=Venom-Hit;v=8;i=DRAGON_BREATH;hR=1;vR=1} @target
+    - projectile{onTick=ZapBolt-Tick;onHit=ZapBolt-Hit;v=16;i=TRIDENT;hR=0.5;vR=0.5} @target
 
-Venom-Tick:
+ZapBolt-Tick:
   Skills:
-    - effect:particles{p=SPELL_MOB;amount=5} @origin
+    - effect:particles{p=ELECTRIC_SPARK;amount=2} @origin
 
-Venom-Hit:
+ZapBolt-Hit:
   Skills:
+    - effect:lightning @target
     - damage{a=50} @target
-    - potion{type=POISON;duration=60;level=2} @target
+    - potion{type=SLOW;duration=40;level=1} @target
+    - skill{s=ZapBolt-Chain} @PlayersInRadius{r=6;limit=2;sort=NEAREST;ignoreself=true}
 
-ShockAttack:
+ZapBolt-Chain:
+  Skills:
+    - effect:lightning @target
+    - damage{a=25} @target
+
+ZapBolt_hell:
   Cooldown: 10
   Skills:
-    - effect:particles{p=WAX_OFF;amount=20} @targetlocation
-    - delay 20
-    - damage{a=50} @PlayersInRadius{r=2} @targetlocation
-    - potion{type=SLOW;duration=40;level=2} @PlayersInRadius{r=2} @targetlocation
+    - projectile{onTick=ZapBolt-Tick;onHit=ZapBolt-Hit_hell;v=16;i=TRIDENT;hR=0.5;vR=0.5} @target
+
+ZapBolt-Hit_hell:
+  Skills:
+    - effect:lightning @target
+    - damage{a=100} @target
+    - potion{type=SLOW;duration=50;level=1} @target
+    - skill{s=ZapBolt-Chain_hell} @PlayersInRadius{r=6;limit=2;sort=NEAREST;ignoreself=true}
+
+ZapBolt-Chain_hell:
+  Skills:
+    - effect:lightning @target
+    - damage{a=50} @target
+
+ZapBolt_blood:
+  Cooldown: 10
+  Skills:
+    - projectile{onTick=ZapBolt-Tick;onHit=ZapBolt-Hit_blood;v=16;i=TRIDENT;hR=0.5;vR=0.5} @target
+
+ZapBolt-Hit_blood:
+  Skills:
+    - effect:lightning @target
+    - damage{a=250} @target
+    - potion{type=SLOW;duration=60;level=2} @target
+    - skill{s=ZapBolt-Chain_blood} @PlayersInRadius{r=6;limit=3;sort=NEAREST;ignoreself=true}
+
+ZapBolt-Chain_blood:
+  Skills:
+    - effect:lightning @target
+    - damage{a=125} @target
 
 DeathExplosion:
   Skills:
@@ -40,24 +114,24 @@ SmallDeathExplosion:
     - damage{a=100} @PlayersInRadius{r=3}
 
 PowerfulStrike:
-  Cooldown: 8
+  Cooldown: 15
   Conditions:
+    - distance{d=..3}
     - lineofsight
-    - distance{d=..2}
   Skills:
-    - effect:particles{p=SWEEP_ATTACK;amount=1} @self
-    - damage{a=45} @target
-    - throw{v=5;vy=0.2} @target
+    - effect:particles{p=CRIT;amount=20} @self
+    - delay 10
+    - damage{a=50} @PlayersInRadius{r=2} @self
 StunStrike:
-  Cooldown: 10
+  Cooldown: 15
   Conditions:
-    - distance{d=..2}
+    - distance{d=..3}
+    - lineofsight
   Skills:
-    - damage{a=18} @target
-    - delay 6
-    - damage{a=18} @target
-    - delay 6
-    - damage{a=18} @target
+    - effect:particles{p=CRIT;amount=20} @self
+    - delay 10
+    - damage{a=45} @PlayersInRadius{r=2} @self
+    - potion{type=SLOW;duration=60;level=5} @PlayersInRadius{r=2} @self
 
 LeapAttack:
   Cooldown: 6
@@ -140,10 +214,13 @@ ScatteredShot:
     - projectile{onTick=ScatteredShot-Tick;onHit=ScatteredShot-Hit;v=20;i=ARROW;hR=1;vR=1;spread=12;amount=5} @target
 
 MeleeAttack:
+  Cooldown: 6
+  Conditions:
+    - distance{d=..2}
   Skills:
-    - effect:particles{p=SWEEP_ATTACK;amount=1} @targetlocation
-    - delay 10
-    - damage{a=100} @PlayersInRadius{r=1} @targetlocation
+    - effect:particles{p=SWEEP_ATTACK;amount=1} @self
+    - delay 5
+    - damage{a=100} @target
 
 ScatteredShot-Tick:
   Skills:
@@ -183,24 +260,6 @@ PetrifyingGaze_hell:
     - potion{type=SLOW;duration=80;level=10} @target
     - effect:particles{p=BLOCK_CRACK;material=STONE;amount=30} @target
 
-VenomSpit_hell:
-  Cooldown: 10
-  Skills:
-    - projectile{onTick=Venom-Tick-Hell;onHit=Venom-Hit-Hell;v=8;i=DRAGON_BREATH;hR=1;vR=1} @target
-
-Venom-Hit-Hell:
-  Skills:
-    - damage{a=300} @target  # 2x150
-    - potion{type=POISON;duration=80;level=3} @target
-
-ShockAttack_hell:
-  Cooldown: 10
-  Skills:
-    - effect:particles{p=WAX_OFF;amount=20} @targetlocation
-    - delay 20
-    - damage{a=300} @PlayersInRadius{r=2} @targetlocation  # 2x150
-    - potion{type=SLOW;duration=60;level=3} @PlayersInRadius{r=2} @targetlocation
-
 DeathExplosion_hell:
   Skills:
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
@@ -215,24 +274,24 @@ SmallDeathExplosion_hell:
     - damage{a=200} @PlayersInRadius{r=3}  # 2x100
 
 PowerfulStrike_hell:
-  Cooldown: 8
+  Cooldown: 15
   Conditions:
+    - distance{d=..3}
     - lineofsight
-    - distance{d=..2}
   Skills:
-    - effect:particles{p=SWEEP_ATTACK;amount=1} @self
-    - damage{a=90} @target
-    - throw{v=5;vy=0.25} @target
+    - effect:particles{p=CRIT;amount=20} @self
+    - delay 10
+    - damage{a=100} @PlayersInRadius{r=2} @self
 StunStrike_hell:
-  Cooldown: 10
+  Cooldown: 15
   Conditions:
-    - distance{d=..2}
+    - distance{d=..3}
+    - lineofsight
   Skills:
-    - damage{a=36} @target
-    - delay 6
-    - damage{a=36} @target
-    - delay 6
-    - damage{a=36} @target
+    - effect:particles{p=CRIT;amount=20} @self
+    - delay 10
+    - damage{a=90} @PlayersInRadius{r=2} @self
+    - potion{type=SLOW;duration=60;level=5} @PlayersInRadius{r=2} @self
 
 LeapAttack_hell:
   Cooldown: 6
@@ -315,10 +374,13 @@ ScatteredShot_hell:
     - projectile{onTick=ScatteredShot_hell-Tick;onHit=ScatteredShot_hell-Hit;v=20;i=ARROW;hR=1;vR=1;spread=12;amount=5}
 
 MeleeAttack_hell:
+  Cooldown: 6
+  Conditions:
+    - distance{d=..2}
   Skills:
-    - effect:particles{p=SWEEP_ATTACK;amount=1} @targetlocation
-    - delay 10
-    - damage{a=400} @PlayersInRadius{r=1} @targetlocation  # 2x200
+    - effect:particles{p=SWEEP_ATTACK;amount=1} @self
+    - delay 5
+    - damage{a=200} @target
 
 ScatteredShot_hell-Tick:
   Skills:
@@ -359,24 +421,6 @@ PetrifyingGaze_blood:
     - potion{type=SLOW;duration=100;level=10} @target
     - effect:particles{p=BLOCK_CRACK;material=STONE;amount=30} @target
 
-VenomSpit_blood:
-  Cooldown: 10
-  Skills:
-    - projectile{onTick=Venom-Tick;onHit=Venom-Hit-Blood;v=8;i=DRAGON_BREATH;hR=1;vR=1} @target
-
-Venom-Hit-Blood:
-  Skills:
-    - damage{a=750} @target # 5x150
-    - potion{type=POISON;duration=100;level=3} @target
-
-ShockAttack_blood:
-  Cooldown: 10
-  Skills:
-    - effect:particles{p=WAX_OFF;amount=20} @targetlocation
-    - delay 20
-    - damage{a=750} @PlayersInRadius{r=2} @targetlocation # 5x150
-    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=2} @targetlocation
-
 DeathExplosion_blood:
   Skills:
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
@@ -391,26 +435,25 @@ SmallDeathExplosion_blood:
     - damage{a=500} @PlayersInRadius{r=3} # 5x100
 
 PowerfulStrike_blood:
-  Cooldown: 8
+  Cooldown: 15
   Conditions:
+    - distance{d=..3}
     - lineofsight
-    - distance{d=..2}
   Skills:
-    - effect:particles{p=SWEEP_ATTACK;amount=1} @self
-    - damage{a=225} @target
-    - throw{v=6;vy=0.3} @target
-
+    - effect:particles{p=CRIT;amount=20} @self
+    - delay 10
+    - damage{a=250} @PlayersInRadius{r=2} @self
 
 StunStrike_blood:
-  Cooldown: 10
+  Cooldown: 15
   Conditions:
-    - distance{d=..2}
+    - distance{d=..3}
+    - lineofsight
   Skills:
-    - damage{a=90} @target
-    - delay 6
-    - damage{a=90} @target
-    - delay 6
-    - damage{a=90} @target
+    - effect:particles{p=CRIT;amount=20} @self
+    - delay 10
+    - damage{a=225} @PlayersInRadius{r=2} @self
+    - potion{type=SLOW;duration=60;level=5} @PlayersInRadius{r=2} @self
 
 LeapAttack_blood:
   Cooldown: 6
@@ -493,10 +536,13 @@ ScatteredShot_blood:
     - projectile{onTick=ScatteredShot_blood-Tick;onHit=ScatteredShot_blood-Hit;v=20;i=ARROW;hR=1;vR=1;spread=12;amount=5} @target
 
 MeleeAttack_blood:
+  Cooldown: 6
+  Conditions:
+    - distance{d=..2}
   Skills:
-    - effect:particles{p=SWEEP_ATTACK;amount=1} @targetlocation
-    - delay 10
-    - damage{a=1000} @PlayersInRadius{r=1} @targetlocation # 5x200
+    - effect:particles{p=SWEEP_ATTACK;amount=1} @self
+    - delay 5
+    - damage{a=500} @target
 
 ScatteredShot_blood-Tick:
   Skills:
