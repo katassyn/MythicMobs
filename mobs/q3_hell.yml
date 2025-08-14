@@ -1,8 +1,8 @@
 cursed_farmer_hell:
   Type: ZOMBIE
   Display: '&lCursed Farmer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 1500   # 3x500
-  Damage: 200    # 2x100
+  Health: 1500
+  Damage: 200
   Faction: q3_hell
   Group: q3_hell
   Options:
@@ -260,8 +260,8 @@ the_bloody_arrow_hell:
 undead_parallel_world_king_heredur_hell:
   Type: ZOMBIE
   Display: '&4<&skull> &lUndead King Heredur &r&4<&skull>'
-  Health: 9000   # 3x3000
-  Damage: 400    # 2x200
+  Health: 9000
+  Damage: 400
   Faction: q3_hell
   Group: q3_hell
   BossBar:

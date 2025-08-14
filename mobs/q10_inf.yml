@@ -106,7 +106,7 @@ combat_ready_zorlobb_inf:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=PowerfulStrike} @target ~onTimer:15
+    - skill{s=PowerfulStrike} @self ~onAttack
   Drops:
     - combat_ready_zorlobb_inf_drop
     - q_inf_mob_crafting
@@ -138,8 +138,8 @@ melas_the_swift_footed_inf:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=StunStrike} @target ~onTimer:15
-    - skill{s=LeapAttack} @target ~onTimer:10
+    - skill{s=StunStrike} @self ~onAttack
+    - skill{s=LeapAttack} @self ~onTimer:80 ?incombat
   Drops:
     - melas_inf_drop
     - q_inf_elite_crafting

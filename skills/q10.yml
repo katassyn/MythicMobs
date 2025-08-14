@@ -40,28 +40,36 @@ SmallDeathExplosion:
     - damage{a=100} @PlayersInRadius{r=3}
 
 PowerfulStrike:
-  Cooldown: 15
+  Cooldown: 8
+  Conditions:
+    - lineofsight
+    - distance{d=..2}
   Skills:
-    - effect:particles{p=CRIT;amount=20} @targetlocation
-    - delay 20
-    - damage{a=50} @PlayersInRadius{r=2} @targetlocation
-
+    - effect:particles{p=SWEEP_ATTACK;amount=1} @self
+    - damage{a=45} @target
+    - throw{v=5;vy=0.2} @target
 StunStrike:
-  Cooldown: 15
+  Cooldown: 10
+  Conditions:
+    - distance{d=..2}
   Skills:
-    - effect:particles{p=CRIT;amount=20} @targetlocation
-    - delay 20
-    - damage{a=45} @PlayersInRadius{r=2} @targetlocation
-    - potion{type=SLOW;duration=60;level=5} @PlayersInRadius{r=2} @targetlocation
+    - damage{a=18} @target
+    - delay 6
+    - damage{a=18} @target
+    - delay 6
+    - damage{a=18} @target
 
 LeapAttack:
-  Cooldown: 10
+  Cooldown: 6
+  Conditions:
+    - lineofsight
+    - distance{d=3to12}
   Skills:
-    - effect:particles{p=CLOUD;amount=20} @targetlocation
-    - delay 20
-    - jump{velocity=1;height=1} @target
-    - delay 10
-    - damage{a=70} @PlayersInRadius{r=2} @targetlocation
+    - leap{velocity=1.4} @self                # krab skacze do celu
+    - delay 12                                 # ~0.6 s na unik
+    - effect:particles{p=BLOCK_CRACK;material=SAND;amount=40;hS=0.4;vS=0.1} @self
+    - damage{a=60} @PlayersInRadius{r=2} @self
+    - potion{type=SLOW;duration=20;level=2} @PlayersInRadius{r=2} @self
 
 # Mission 2 Skills
 SummonJabbax:
@@ -207,28 +215,36 @@ SmallDeathExplosion_hell:
     - damage{a=200} @PlayersInRadius{r=3}  # 2x100
 
 PowerfulStrike_hell:
-  Cooldown: 15
+  Cooldown: 8
+  Conditions:
+    - lineofsight
+    - distance{d=..2}
   Skills:
-    - effect:particles{p=CRIT;amount=20} @targetlocation
-    - delay 20
-    - damage{a=400} @PlayersInRadius{r=2} @targetlocation  # 2x200
-
+    - effect:particles{p=SWEEP_ATTACK;amount=1} @self
+    - damage{a=90} @target
+    - throw{v=5;vy=0.25} @target
 StunStrike_hell:
-  Cooldown: 15
+  Cooldown: 10
+  Conditions:
+    - distance{d=..2}
   Skills:
-    - effect:particles{p=CRIT;amount=20} @targetlocation
-    - delay 20
-    - damage{a=300} @PlayersInRadius{r=2} @targetlocation  # 2x150
-    - potion{type=SLOW;duration=80;level=6} @PlayersInRadius{r=2} @targetlocation
+    - damage{a=36} @target
+    - delay 6
+    - damage{a=36} @target
+    - delay 6
+    - damage{a=36} @target
 
 LeapAttack_hell:
-  Cooldown: 10
+  Cooldown: 6
+  Conditions:
+    - lineofsight
+    - distance{d=3to12}
   Skills:
-    - effect:particles{p=CLOUD;amount=20} @targetlocation
-    - delay 20
-    - jump{velocity=1;height=1} @target
-    - delay 10
-    - damage{a=300} @PlayersInRadius{r=2} @targetlocation  # 2x150
+    - leap{velocity=1.5} @self
+    - delay 12
+    - effect:particles{p=BLOCK_CRACK;material=SAND;amount=50;hS=0.4;vS=0.1} @self
+    - damage{a=120} @PlayersInRadius{r=2} @self
+    - potion{type=SLOW;duration=25;level=2} @PlayersInRadius{r=2} @self
 
 # Mission 2 Skills
 SummonJabbax_hell:
@@ -375,28 +391,38 @@ SmallDeathExplosion_blood:
     - damage{a=500} @PlayersInRadius{r=3} # 5x100
 
 PowerfulStrike_blood:
-  Cooldown: 15
+  Cooldown: 8
+  Conditions:
+    - lineofsight
+    - distance{d=..2}
   Skills:
-    - effect:particles{p=CRIT;amount=20} @targetlocation
-    - delay 20
-    - damage{a=1000} @PlayersInRadius{r=2} @targetlocation # 5x200
+    - effect:particles{p=SWEEP_ATTACK;amount=1} @self
+    - damage{a=225} @target
+    - throw{v=6;vy=0.3} @target
+
 
 StunStrike_blood:
-  Cooldown: 15
+  Cooldown: 10
+  Conditions:
+    - distance{d=..2}
   Skills:
-    - effect:particles{p=CRIT;amount=20} @targetlocation
-    - delay 20
-    - damage{a=750} @PlayersInRadius{r=2} @targetlocation # 5x150
-    - potion{type=SLOW;duration=100;level=6} @PlayersInRadius{r=2} @targetlocation
+    - damage{a=90} @target
+    - delay 6
+    - damage{a=90} @target
+    - delay 6
+    - damage{a=90} @target
 
 LeapAttack_blood:
-  Cooldown: 10
+  Cooldown: 6
+  Conditions:
+    - lineofsight
+    - distance{d=3to12}
   Skills:
-    - effect:particles{p=CLOUD;amount=20} @targetlocation
-    - delay 20
-    - jump{velocity=1;height=1} @target
-    - delay 10
-    - damage{a=750} @PlayersInRadius{r=2} @targetlocation # 5x150
+    - leap{velocity=1.6} @self
+    - delay 12
+    - effect:particles{p=BLOCK_CRACK;material=SAND;amount=70;hS=0.4;vS=0.1} @self
+    - damage{a=300} @PlayersInRadius{r=2} @self
+    - potion{type=SLOW;duration=30;level=2} @PlayersInRadius{r=2} @self
 
 # Mission 2 Skills
 SummonJabbax_blood:

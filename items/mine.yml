@@ -1,0 +1,794 @@
+# Black Ore (Coal-based)
+Hematite:
+  Id: COAL_ORE
+  Display: '&8Hematite'
+  Group: mine
+  Lore:
+    - '&7A common black ore with metallic luster and reddish streaks.'
+    - '&eCoal-based mineral'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+BlackSpinel:
+  Id: COAL_ORE
+  Display: '&8Black Spinel'
+  Group: mine
+  Lore:
+    - '&7An uncommon black crystal with exceptional hardness and luster.'
+    - '&eCoal-based gemstone'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+BlackDiamond:
+  Id: COAL_ORE
+  Display: '&8&lBlack Diamond'
+  Group: mine
+  Lore:
+    - '&7A rare and precious black diamond formed under extreme pressure.'
+    - '&eHighest quality coal gem'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Metallic Ore (Iron-based)
+Magnetite:
+  Id: IRON_ORE
+  Display: '&7Magnetite'
+  Group: mine
+  Lore:
+    - '&7A common metallic ore with magnetic properties.'
+    - '&eIron-based mineral'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+Silver:
+  Id: IRON_ORE
+  Display: '&f&lSilver'
+  Group: mine
+  Lore:
+    - '&7An uncommon precious metal with lustrous white appearance.'
+    - '&eIron-based metal'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+Osmium:
+  Id: IRON_ORE
+  Display: '&7&lOsmium'
+  Group: mine
+  Lore:
+    - '&7A rare and dense bluish-white metal, one of the heaviest natural elements.'
+    - '&ePremium iron metal'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Azure Ore (Lapis-based)
+Azurite:
+  Id: LAPIS_ORE
+  Display: '&9Azurite'
+  Group: mine
+  Lore:
+    - '&7A common deep blue mineral with intense azure color.'
+    - '&eLapis-based mineral'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+Tanzanite:
+  Id: LAPIS_ORE
+  Display: '&9&lTanzanite'
+  Group: mine
+  Lore:
+    - '&7An uncommon blue-purple gemstone known for its trichroic properties.'
+    - '&eLapis-based gem'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+BlueSapphire:
+  Id: LAPIS_ORE
+  Display: '&1&lBlue Sapphire'
+  Group: mine
+  Lore:
+    - '&7A rare and precious blue gemstone, second only to diamond in hardness.'
+    - '&ePremium lapis gem'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Crimson Ore (Redstone-based)
+Carnelian:
+  Id: REDSTONE_ORE
+  Display: '&cCarnelian'
+  Group: mine
+  Lore:
+    - '&7A common reddish-orange mineral with translucent properties.'
+    - '&eRedstone-based mineral'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+RedSpinel:
+  Id: REDSTONE_ORE
+  Display: '&c&lRed Spinel'
+  Group: mine
+  Lore:
+    - '&7An uncommon vibrant red gemstone often mistaken for ruby.'
+    - '&eRedstone-based gem'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+PigeonBloodRuby:
+  Id: REDSTONE_ORE
+  Display: '&4&lPigeon Blood Ruby'
+  Group: mine
+  Lore:
+    - '&7A rare and precious deep red gemstone with the coveted "pigeon blood" color.'
+    - '&ePremium redstone gem'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Golden Ore (Gold-based)
+Pyrite:
+  Id: GOLD_ORE
+  Display: '&ePyrite'
+  Group: mine
+  Lore:
+    - '&7A common brassy-yellow mineral often called "Fool`s Gold".'
+    - '&eGold-based mineral'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+YellowTopaz:
+  Id: GOLD_ORE
+  Display: '&e&lYellow Topaz'
+  Group: mine
+  Lore:
+    - '&7An uncommon golden-yellow gemstone with excellent clarity.'
+    - '&eGold-based gem'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+YellowSapphire:
+  Id: GOLD_ORE
+  Display: '&6&lYellow Sapphire'
+  Group: mine
+  Lore:
+    - '&7A rare and precious golden gemstone, prized for its brilliance and hardness.'
+    - '&ePremium gold gem'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Verdant Ore (Emerald-based)
+Malachite:
+  Id: EMERALD_ORE
+  Display: '&aMalachite'
+  Group: mine
+  Lore:
+    - '&7A common green mineral with distinctive banded patterns.'
+    - '&eEmerald-based mineral'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+Peridot:
+  Id: EMERALD_ORE
+  Display: '&a&lPeridot'
+  Group: mine
+  Lore:
+    - '&7An uncommon olive-green gemstone formed in volcanic environments.'
+    - '&eEmerald-based gem'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+TropicheEmerald:
+  Id: EMERALD_ORE
+  Display: '&2&lTropiche Emerald'
+  Group: mine
+  Lore:
+    - '&7A rare and precious deep green gemstone with exceptional clarity and color.'
+    - '&ePremium emerald'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Prismatic Ore (Diamond-based)
+Danburite:
+  Id: DIAMOND_ORE
+  Display: '&fDanburite'
+  Group: mine
+  Lore:
+    - '&7A common colorless crystal with diamond-like brilliance.'
+    - '&eDiamond-based mineral'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+Goshenite:
+  Id: DIAMOND_ORE
+  Display: '&f&lGoshenite'
+  Group: mine
+  Lore:
+    - '&7An uncommon colorless beryl with exceptional clarity.'
+    - '&eDiamond-based gemstone'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+Cerussite:
+  Id: DIAMOND_ORE
+  Display: '&f&l&nCerussite'
+  Group: mine
+  Lore:
+    - '&7A rare and precious crystal with the highest refractive index.'
+    - '&eSupreme diamond gemstone'
+  Enchantments:
+    - DURABILITY:10
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Mine Currency
+Crystal:
+  Id: BRICK
+  Display: '&d&lCrystal'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Mine currency'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Mining Tools
+WoodenPickaxe:
+  Id: WOODEN_PICKAXE
+  MaxDurability: 2500
+  Display: '&6Wooden Pickaxe'
+  Group: mine
+  Lore:
+    - ''
+    - '&7A basic wooden mining tool.'
+    - '&7Durability: 2500 / 2500'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+  CanBreak:
+    - coal_ore
+    - iron_ore
+    - lapis_ore
+    - redstone_ore
+    - gold_ore
+    - emerald_ore
+    - diamond_ore
+    - amethyst_block
+    - moss_block
+    - bone_block
+
+StonePickaxe:
+  Id: STONE_PICKAXE
+  MaxDurability: 5000
+  Display: '&8Stone Pickaxe'
+  Group: mine
+  Lore:
+    - ''
+    - '&7A sturdy stone mining tool.'
+    - '&7Durability: 5000 / 5000'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+  CanBreak:
+    - coal_ore
+    - iron_ore
+    - lapis_ore
+    - redstone_ore
+    - gold_ore
+    - emerald_ore
+    - diamond_ore
+    - amethyst_block
+    - moss_block
+    - bone_block
+
+IronPickaxe:
+  Id: IRON_PICKAXE
+  MaxDurability: 20000
+  Display: '&fIron Pickaxe'
+  Group: mine
+  Lore:
+    - ''
+    - '&7A durable iron mining tool.'
+    - '&7Durability: 20000 / 20000'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+  CanBreak:
+    - coal_ore
+    - iron_ore
+    - lapis_ore
+    - redstone_ore
+    - gold_ore
+    - emerald_ore
+    - diamond_ore
+    - amethyst_block
+    - moss_block
+    - bone_block
+
+GoldenPickaxe:
+  Id: GOLDEN_PICKAXE
+  MaxDurability: 10000
+  Display: '&eGolden Pickaxe'
+  Group: mine
+  Lore:
+    - ''
+    - '&7A fast but fragile golden mining tool.'
+    - '&7Durability: 10000 / 10000'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+  CanBreak:
+    - coal_ore
+    - iron_ore
+    - lapis_ore
+    - redstone_ore
+    - gold_ore
+    - emerald_ore
+    - diamond_ore
+    - amethyst_block
+    - moss_block
+    - bone_block
+
+DiamondPickaxe:
+  Id: DIAMOND_PICKAXE
+  MaxDurability: 50000
+  Display: '&bDiamond Pickaxe'
+  Group: mine
+  Lore:
+    - ''
+    - '&7A premium diamond mining tool.'
+    - '&7Durability: 50000 / 50000'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+  CanBreak:
+    - coal_ore
+    - iron_ore
+    - lapis_ore
+    - redstone_ore
+    - gold_ore
+    - emerald_ore
+    - diamond_ore
+    - amethyst_block
+    - moss_block
+    - bone_block
+
+NetheritePickaxe:
+  Id: NETHERITE_PICKAXE
+  MaxDurability: 100000
+  Display: '&4Netherite Pickaxe'
+  Group: mine
+  Lore:
+    - ''
+    - '&7The ultimate netherite mining tool.'
+    - '&7Durability: 100000 / 100000'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+  CanBreak:
+    - coal_ore
+    - iron_ore
+    - lapis_ore
+    - redstone_ore
+    - gold_ore
+    - emerald_ore
+    - diamond_ore
+    - amethyst_block
+    - moss_block
+    - bone_block
+
+premium_mine_voucher:
+  Id: potato
+  Display: '§3Premium Mine Voucher'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Used to enter Premium Mine'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
+#GEMY
+Ruby_I:
+  Id: cooked_mutton
+  Display: '&9[ I ] Ruby'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+1% Damage'
+    - '&b🛡 Armor Socket: &a+20 Damage'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Ruby_II:
+  Id: cooked_mutton
+  Display: '&5[ II ] Ruby'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+2% Damage'
+    - '&b🛡 Armor Socket: &a+30 Damage'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Ruby_III:
+  Id: cooked_mutton
+  Display: '&6[ III ] Ruby'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+3% Damage'
+    - '&b🛡 Armor Socket: &a+40 Damage'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Amethyst_I:
+  Id: cooked_beef
+  Display: '&9[ I ] Amethyst'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+1% Max Health'
+    - '&b🛡 Armor Socket: &a+5 Health'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Amethyst_II:
+  Id: cooked_beef
+  Display: '&5[ II ] Amethyst'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+2% Max Health'
+    - '&b🛡 Armor Socket: &a+10 Health'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Amethyst_III:
+  Id: cooked_beef
+  Display: '&6[ III ] Amethyst'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+3% Max Health'
+    - '&b🛡 Armor Socket: &a+15 Health'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Cyianite_I:
+  Id: porkchop
+  Display: '&9[ I ] Cyianite'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+1% Damage Reduction'
+    - '&b🛡 Armor Socket: &a+2 Armor'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Cyianite_II:
+  Id: porkchop
+  Display: '&5[ II ] Cyianite'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+2% Damage Reduction'
+    - '&b🛡 Armor Socket: &a+3 Armor'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Cyianite_III:
+  Id: porkchop
+  Display: '&6[ III ] Cyianite'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+3% Damage Reduction'
+    - '&b🛡 Armor Socket: &a+4 Armor'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Zircon_I:
+  Id: cooked_chicken
+  Display: '&9[ I ] Zircon'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+0.25 Attack Speed'
+    - '&b🛡 Armor Socket: &a+5% Attack Speed'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Zircon_II:
+  Id: cooked_chicken
+  Display: '&5[ II ] Zircon'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+0.5 Attack Speed'
+    - '&b🛡 Armor Socket: &a+10% Attack Speed'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Zircon_III:
+  Id: cooked_chicken
+  Display: '&6[ III ] Zircon'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+0.75 Attack Speed'
+    - '&b🛡 Armor Socket: &a+15% Attack Speed'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Diamond_I:
+  Id: rabbit
+  Display: '&9[ I ] Diamond'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+3% Armor Penetration'
+    - '&b🛡 Armor Socket: &a+1 Armor Penetration'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Diamond_II:
+  Id: rabbit
+  Display: '&5[ II ] Diamond'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+4% Armor Penetration'
+    - '&b🛡 Armor Socket: &a+2 Armor Penetration'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Diamond_III:
+  Id: rabbit
+  Display: '&6[ III ] Diamond'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+5% Armor Penetration'
+    - '&b🛡 Armor Socket: &a+3 Armor Penetration'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Rhodolite_I:
+  Id: cooked_rabbit
+  Display: '&9[ I ] Rhodolite'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+0.05 Move Speed'
+    - '&b🛡 Armor Socket: &a+1% Move Speed'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Rhodolite_II:
+  Id: cooked_rabbit
+  Display: '&5[ II ] Rhodolite'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+0.1 Move Speed'
+    - '&b🛡 Armor Socket: &a+2% Move Speed'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Rhodolite_III:
+  Id: cooked_rabbit
+  Display: '&6[ III ] Rhodolite'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+0.15 Move Speed'
+    - '&b🛡 Armor Socket: &a+3% Move Speed'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Onyx_I:
+  Id: cod
+  Display: '&9[ I ] Onyx'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+1% Luck'
+    - '&b🛡 Armor Socket: &a+1 Luck'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Onyx_II:
+  Id: cod
+  Display: '&5[ II ] Onyx'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+2% Luck'
+    - '&b🛡 Armor Socket: &a+2 Luck'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+Onyx_III:
+  Id: cod
+  Display: '&6[ III ] Onyx'
+  Lore:
+    - '&6⚔ Weapon Socket: &a+3% Luck'
+    - '&b🛡 Armor Socket: &a+3 Luck'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Gems
+
+shiny_dust:
+  Id: glow_ink_sac
+  Display: '§5Shiny Dust'
+  Group: Crafting
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o§7Used to upgrade gems'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+miner_elixir:
+  Id: raw_beef
+  Display: '&5Miner Elixir'
+  Group: mine
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Refresh Mining Stamin'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true

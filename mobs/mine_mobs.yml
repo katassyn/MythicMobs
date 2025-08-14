@@ -1,0 +1,66 @@
+cursed_miner_mine:
+  Type: ZOMBIE
+  Display: '&lCursed Miner &r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 1500
+  Damage: 200
+  Options:
+    FollowRange: 18
+    MovementSpeed: 0.22
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - mine_mobs_drops
+  Equipment:
+    - iron_helmet HEAD
+    - leather_chestplate{color=gray} CHEST
+    - leather_leggings{color=gray} LEGS
+    - leather_boots{color=gray} FEET
+    - iron_pickaxe HAND
+
+
+deepmine_overseer_kragg:
+  Type: WITHER_SKELETON
+  Display: '&4<&skull> &lOverseer Kragg &r&4<&skull>'
+  Health: 9000
+  Damage: 400
+  BossBar:
+    Enabled: true
+    Title: '&c<&skull> Overseer Kragg - <mob.hp{round=0}> <&skull>'
+    Color: PURPLE
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 30
+    MovementSpeed: 0.25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    KnockbackResistance: 0.9
+    Despawn: CHUNK
+  Skills:
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=CaveIn_mine} @PlayersInRadius{r=25} ~onTimer:18
+    - skill{s=SummonCursedMiners_mine} @self ~onTimer:28
+    - skill{s=SeismicSlam_mine} @target ~onTimer:20
+  Drops:
+    - mine_boss_drops
+  Equipment:
+    - iron_helmet HEAD
+    - diamond_chestplate CHEST
+    - diamond_leggings LEGS
+    - diamond_boots FEET
+    - diamond_pickaxe HAND

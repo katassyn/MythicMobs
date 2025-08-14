@@ -106,7 +106,7 @@ combat_ready_zorlobb_blood:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=PowerfulStrike_blood} @target ~onTimer:15
+    - skill{s=PowerfulStrike_blood} @self ~onAttack
   Drops:
     - combat_ready_zorlobb_blood_drop
     - q_blood_mob_crafting
@@ -138,8 +138,8 @@ melas_the_swift_footed_blood:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=StunStrike_blood} @target ~onTimer:15
-    - skill{s=LeapAttack_blood} @target ~onTimer:10
+    - skill{s=StunStrike_blood} @self ~onAttack
+    - skill{s=LeapAttack_blood} @self ~onTimer:80 ?incombat
   Drops:
     - melas_blood_drop
     - q_blood_elite_crafting

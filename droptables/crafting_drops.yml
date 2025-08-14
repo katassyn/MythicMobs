@@ -6,8 +6,6 @@ q_inf_mob_crafting_item_drops:
   MaxItems: 2
   Drops:
     - mob_soul_I 1 0.05
-    - ore_I 1 0.025
-    - leaf_I 1 0.025
     - alga_I 1 0.025
     - andermant 1-3 0.025
     - lockpick 1-3 0.025
@@ -19,8 +17,6 @@ q_hell_mob_crafting_item_drops:
   MaxItems: 2
   Drops:
     - mob_soul_II 1 0.05
-    - ore_II 1 0.025
-    - leaf_II 1 0.025
     - alga_II 1 0.025
     - andermant 3-5 0.025
     - lockpick 1-3 0.025
@@ -32,8 +28,6 @@ q_blood_mob_crafting_item_drops:
   MaxItems: 2
   Drops:
     - mob_soul_III 1 0.05
-    - ore_III 1 0.025
-    - leaf_III 1 0.025
     - alga_III 1 0.025
     - andermant 5-10 0.025
     - lockpick 1-3 0.025
@@ -46,10 +40,6 @@ q_inf_elite_crafting_item_drops:
   Drops:
     - mob_soul_I 1 0.05
     - elite_heart_I 1 0.1
-    - ore_I 1 0.025
-    - leaf_I 1 0.025
-    - blood_I 1 0.05
-    - bone_I 1 0.05
     - alga_I 1 0.025
     - pearl_I 1 0.05
     - andermant 1-3 0.025
@@ -63,10 +53,6 @@ q_hell_elite_crafting_item_drops:
   Drops:
     - mob_soul_II 1 0.05
     - elite_heart_II 1 0.1
-    - ore_II 1 0.025
-    - leaf_II 1 0.025
-    - blood_II 1 0.05
-    - bone_II 1 0.05
     - alga_II 1 0.025
     - pearl_II 1 0.05
     - andermant 3-5 0.025
@@ -80,10 +66,6 @@ q_blood_elite_crafting_item_drops:
   Drops:
     - mob_soul_I 1 0.05
     - elite_heart_I 1 0.1
-    - ore_I 1 0.025
-    - leaf_I 1 0.025
-    - blood_I 1 0.05
-    - bone_I 1 0.05
     - alga_I 1 0.025
     - pearl_I 1 0.05
     - andermant 1-3 0.025
@@ -98,3 +80,64 @@ normal_mobs_item_drops:
   Drops:
     - andermant 1-2 0.025
     - lockpick 1-2 0.025
+
+mine_mobs_drops:
+  Drops:
+    - mine_mobs_item_drops 1
+mine_mobs_item_drops:
+  MinItems: 1
+  MaxItems: 5
+  Drops:
+    - andermant 1-2 0.025
+    - lockpick 1-2 0.025
+    - bone_I 1-3 0.25
+    - bone_II 1-3 0.25
+    - bone_III 1-3 0.25
+    - blood_I 1-3 0.1
+    - blood_II 1-3 0.1
+    - blood_III 1-3 0.1
+
+mine_boss_drops:
+  Drops:
+    - mine_boss_item_drops 1
+    - mine_boss_ore_drops 1
+    - Crystal 16-64 1
+mine_boss_item_drops:
+  MinItems: 5
+  MaxItems: 10
+  Drops:
+    - bone_I 10-30 0.25
+    - bone_II 10-30 0.25
+    - bone_III 10-30 0.25
+    - blood_I 10-50 0.4
+    - blood_II 10-50 0.4
+    - blood_III 10-50 0.4
+    - ore_I 5-25 0.2
+    - ore_II 5-25 0.2
+    - ore_III 5-25 0.2
+    - ingredient_jewel_I 1 0.01
+mine_boss_ore_drops:
+  MinItems: 7
+  MaxItems: 21
+  Drops:
+    - Hematite 1-3 1
+    - BlackSpinel 1-2 1
+    - BlackDiamond 1 1
+    - Magnetite 1-3 1
+    - Silver 1-2 1
+    - Osmium 1 1
+    - Azurite 1-3 1
+    - Tanzanite 1-2 1
+    - BlueSapphire 1 1
+    - Carnelian 1-3 1
+    - RedSpinel 1-2 1
+    - PigeonBloodRuby 1 1
+    - Pyrite 1-3 1
+    - YellowTopaz 1-2 1
+    - YellowSapphire 1 1
+    - Malachite 1-3 1
+    - Peridot 1-2 1
+    - TropicheEmerald 1 1
+    - Danburite 1-3 1
+    - Goshenite 1-2 1
+    - Cerussite 1 1
