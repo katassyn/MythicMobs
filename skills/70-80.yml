@@ -17,28 +17,28 @@ HealingPulse:
 FireballAttack:
   Cooldown: 8
   Skills:
-  - effect:particles{p=FLAME;amount=15;hS=0.5;vS=0.5} @Self
-  - sound{s=entity.blaze.shoot;v=1;p=1} @Self
-  - delay 20
-  - projectile{onTick=FireTick;onHit=FireHit;v=8;i=FIRE_CHARGE;hR=1;vR=1} @target
+    - effect:particles{p=FLAME;amount=15;hS=0.5;vS=0.5} @Self
+    - sound{s=entity.blaze.shoot;v=1;p=1} @Self
+    - delay 20
+    - projectile{onTick=FireTick;onHit=FireHit;v=8;i=FIRE_CHARGE;hR=1;vR=1} @target
 
 FireTick:
   Skills:
-  - effect:particles{p=FLAME;amount=10} @origin
+    - effect:particles{p=FLAME;amount=10} @origin
 
 FireHit:
   Skills:
-  - damage{a=120} @target
-  - ignite{ticks=60} @target
+    - damage{a=120} @target
+    - ignite{ticks=60} @target
 
 BiteAttack:
   Cooldown: 2
   Skills:
-  - effect:particles{p=BLOCK_CRACK;material=REDSTONE_BLOCK;amount=10} @Self
-  - sound{s=entity.generic.eat;v=1;p=1} @Self
-  - delay 10
-  - damage{a=160} @target
-  - effect:particles{p=BLOCK_CRACK;material=REDSTONE_BLOCK;amount=10} @target
+    - effect:particles{p=BLOCK_CRACK;material=REDSTONE_BLOCK;amount=10} @Self
+    - sound{s=entity.generic.eat;v=1;p=1} @Self
+    - delay 10
+    - damage{a=160} @target
+    - effect:particles{p=BLOCK_CRACK;material=REDSTONE_BLOCK;amount=10} @target
 
 
 NauseaAttack:
@@ -50,9 +50,32 @@ NauseaAttack:
     - potion{type=CONFUSION;duration=100;level=1} @target
     - effect:particles{p=SPELL_MOB;color=GREEN;amount=10} @target # Efekt wizualny
 
+ShadeCrawler_Ambush:
+  Cooldown: 10
+  Conditions:
+    - targetwithin{d=12}
+  Skills:
+    - effect:particles{p=smoke;amount=30;hS=0.6;vS=0.4} @self
+    - sound{s=entity.enderman.teleport;v=0.8;p=1.2} @self
+    - delay 8
+    - teleport{spreadh=1;spreadv=0.1} @BackstabTarget
+    - potion{type=GLOWING;duration=30;level=1} @self
 
+ShadowGazer_Glare:
+  Cooldown: 14
+  Conditions:
+    - lineofsight{}
+    - targetwithin{d=18}
+  Skills:
+    - message{m="&8&lShadow Gazer&r fixes its stare on you..."} @target
+    - effect:particles{p=witch;amount=25;hS=0.4;vS=0.2} @target
+    - delay 16
+    - potion{type=SLOW;duration=40;level=1} @target ?targetwithin{d=3}
 
-
-
-
-
+SoulCollector_SoulChain:
+  Cooldown: 18
+  Skills:
+    - effect:particles{p=soul;amount=60;hS=1.2;vS=0.2} @self
+    - sound{s=entity.wither.ambient;v=0.9;p=0.6} @self
+    - delay 16
+    - pull{v=0.7} @PlayersInRadius{r=6}

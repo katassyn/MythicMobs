@@ -24,6 +24,7 @@ gorgon_soldier:
     - gorgon
     - normal_mobs_drops
   Skills:
+    - skill{s=GorgonGaze} @self ~onTimer:200
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
 jellyfish:
@@ -51,6 +52,7 @@ jellyfish:
     - gorgon
     - normal_mobs_drops
   Skills:
+    - skill{s=JellyfishPulse} @self ~onTimer:200
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - damage{d=300} @LivingEntitiesInRadius{r=10;f=enemy} ~onDeath
@@ -81,6 +83,7 @@ gorgon_heretic:
     - gorgon_heretic
     - normal_mobs_drops
   Skills:
+    - skill{s=GorgonGaze} @self ~onTimer:160
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
 
@@ -112,5 +115,6 @@ high_priest_baran:
     - high_priest_baran
     - normal_mobs_drops
   Skills:
+    - skill{s=TempleShockwave} @self ~onTimer:180
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat

@@ -1,0 +1,23 @@
+SawRush:
+  Cooldown: 8
+  Skills:
+    - effect:particles{p=crit;amount=10;hS=0.4;vS=0.1} @Self
+    - sound{s=entity.minecart.inside;v=0.9;p=1.2} @Self
+    - delay 6
+    - leap{v=1.3} @Self
+
+EngineerSmoke:
+  Cooldown: 14
+  Skills:
+    - effect:particles{p=campfire_cosy_smoke;amount=24;hS=1;vS=0.6} @Self
+    - sound{s=block.fire.extinguish;v=1;p=1} @Self
+    - delay 6
+    - potion{t=BLINDNESS;d=30;level=1} @PlayersInRadius{r=4}
+
+DanzoWard:
+  Cooldown: 16
+  Skills:
+    - effect:particles{p=totem;amount=16;hS=0.7;vS=0.3} @Self
+    - sound{s=block.enchantment_table.use;v=1;p=1.2} @Self
+    - delay 10
+    - effect:particles{p=spell;amount=40;hS=1.2;vS=0.3;speed=0.01} @Self

@@ -1,15 +1,20 @@
 Summon41-45:
   Cooldown: 30
   Skills:
+    - effect:particles{p=portal;amount=26;hS=0.8;vS=0.8} @Self
+    - sound{s=entity.evoker.prepare_summon;v=1;p=1} @Self
+    - delay 16
     - summon{mob=temple_mummy;amount=5;noise=5} @Self
-    - delay 20
+    - delay 10
     - summon{mob=temple_mummy;amount=5;noise=5} @Self
 
 RainOfDestruction:
+  Cooldown: 16
   Skills:
     - effect:particles{p=smoke_large;amount=20;hS=1;vS=1} @Self
     - sound{s=entity.blaze.shoot;v=1;p=1} @Self
-    - delay 20
+    - message{m="&c&l>> &r&7A rain of fire is coming! Move!";a=true} @PlayersInRadius{r=18}
+    - delay 16
     - projectile{onTick=RainTick;onHit=RainHit;v=0.5;i=10;hR=10;vR=5;hnp=true;dir=[0,1,0]} @PlayersInRadius{r=15}
 
 RainTick:
@@ -23,8 +28,10 @@ RainHit:
     - sound{s=entity.generic.explode;v=1;p=1} @origin
 
 LifeDeathAura:
+  Cooldown: 18
   Skills:
     - effect:particles{p=totem;amount=30;hS=1;vS=1} @Self
     - sound{s=entity.zombie.attack_iron_door;v=1;p=1} @Self
-    - delay 20
+    - message{m="&5&l>> &r&7Dark pulse charging!";a=true} @PlayersInRadius{r=10}
+    - delay 14
     - damage{a=100;r=5} @EntitiesInRadius{r=5}
