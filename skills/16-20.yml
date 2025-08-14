@@ -1,38 +1,34 @@
 fire:
   Cooldown: 10
   Skills:
-    - effect:particles{p=flame;amount=15;hS=0.5;vS=0.5} @Self
+    - effect:particles{p=flame;amount=15;hS=0.45;vS=0.45} @Self
     - sound{s=entity.blaze.shoot;v=1;p=1} @Self
-    - delay 20
-    - projectile{onTick=fire-Tick;onHit=fire-Hit;v=3;i=1;hR=1;vR=1;hnp=true}
+    - delay 10
+    - projectile{onTick=fire-Tick;onHit=fire-Hit;v=3;i=1;hR=1;vR=1;hnp=true;mr=60} @target
+
 fire-Tick:
   Skills:
     - effect:particles{p=flame;amount=20;speed=0.05;hS=0.1;vS=0.1} @origin
+
 fire-Hit:
   Skills:
     - damage{a=2,pkb=true}
     - ignite{t=50}
 
 fireball:
-  cooldown: 5
-  Skills:
-    - effect:particles{p=flame;amount=20;hS=0.4;vS=0.4} @Self
-    - sound{s=entity.ghast.shoot;v=1;p=1} @Self
-    - delay 20
-    - shootfireball{y=1;v=4} @target
-
-fire#2:
   Cooldown: 7
   Skills:
-    - effect:particles{p=flame;amount=30;hS=0.5;vS=0.5} @Self
+    - effect:particles{p=flame;amount=30;hS=0.6;vS=0.6} @Self
     - sound{s=entity.blaze.shoot;v=1;p=1} @Self
-    - delay 20
-    - projectile{onTick=fire-Tick;onHit=fire-Hit;v=7;i=1;hR=1.5;vR=1.5;hnp=true}
-  fire-Tick:
-    Skills:
-      - effect:particles{p=flame;amount=20;speed=0.35;hS=0.1;vS=0.1} @origin
-  fire-Hit:
-    Skills:
-      - damage{a=6,pkb=true}
-      - ignite{t=100}
+    - delay 10
+    - projectile{onTick=fireball-Tick;onHit=fireball-Hit;v=7;i=1;hR=1.5;vR=1.5;hnp=true;mr=80} @target
 
+fireball-Tick:
+  Skills:
+    - effect:particles{p=flame;amount=20;speed=0.35;hS=0.1;vS=0.1} @origin
+
+fireball-Hit:
+  Skills:
+    - damage{a=6,pkb=true}
+    - ignite{t=100}
+    - sound{s=entity.generic.burn;v=0.8;p=1.2} @origin

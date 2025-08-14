@@ -53,6 +53,7 @@ walking_saw:
     - saw
     - normal_mobs_drops
   Skills:
+    - skill{s=SawRush} @self ~onTimer:160
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
 
@@ -84,6 +85,7 @@ technik_engineer:
     - technik
     - normal_mobs_drops
   Skills:
+    - skill{s=EngineerSmoke} @self ~onTimer:200
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
 
@@ -145,6 +147,6 @@ high_priest_danzo:
     - high_priest_danzo
     - normal_mobs_drops
   Skills:
+    - skill{s=DanzoWard} @self ~onTimer:250
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-

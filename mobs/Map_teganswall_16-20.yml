@@ -160,7 +160,7 @@ commander_emberwing:
     - commander_sword HAND
     - commander_sword OFFHAND
   Skills:
-    - skill{s=fire#2} @target ~onTimer:100
+    - skill{s=fireball} @target ~onTimer:100
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
   Drops:

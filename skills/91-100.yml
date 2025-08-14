@@ -1,22 +1,54 @@
 PosthumousAttack:
+  Cooldown: 999 # death skill – typically called on-death in mob file
   Skills:
     - effect:sound{s=entity.wither.death;v=2;p=1} @self
     - effect:particles{particle=explosion_large;amount=5} @self
+    - message{m="&7(&c!&7) &fCorpse is about to explode!"} @PIR{r=14}
     - delay 20
     - damage{amount=250;radius=5} @LivingEntitiesInRadius{r=5}
 
-
 PowerfulAttack:
+  Cooldown: 14
   Skills:
-    - effect:particles{particle=flame;amount=20;hS=1;vS=1} @self
+    - message{m="&4&lSlam incoming! &7(1.5s)"} @PIR{r=20}
+    - effect:particles{particle=flame;amount=26;hS=1;vS=0.4} @self
     - sound{s=entity.ender_dragon.growl;v=1.5;p=1} @self
-    - delay 100
+    - delay 30
+    - effect:particles{particle=block_crack;material=packed_ice;amount=60;hS=1.2;vS=0.2} @self
+    - delay 70
+    # keep original damage + radius the same
     - damage{amount=250;radius=5} @LivingEntitiesInRadius{r=5}
 
-
 LongRange:
+  Cooldown: 10
+  Conditions:
+    - lineofsight{}
   Skills:
     - effect:particles{particle=sweep_attack;amount=10} @self
     - sound{s=entity.player.attack.crit;v=1;p=1} @self
-    - delay 20
+    - delay 10
+    - projectile{onTick=LongRange-Tick;onHit=LongRange-Hit;v=12;i=1;hR=1;vR=1;g=0.01;hnp=true} @Forward{f=22}
+
+LongRange-Tick:
+  Skills:
+    - effect:particles{p=sweep_attack;amount=6;hS=0.1;vS=0.1} @origin
+
+LongRange-Hit:
+  # keep original damage + radius the same
+  Skills:
     - damage{amount=190;radius=3} @LivingEntitiesInRadius{r=3}
+
+ColdSkeletonArcher_Volley:
+  Cooldown: 16
+  Skills:
+    - message{m="&bVolley! &7Take cover!"} @PIR{r=20}
+    - delay 20
+    - projectile{type=ARROW;amount=6;spread=10;v=3;g=0.05} @target
+
+DeathKnight_Taunt:
+  Cooldown: 18
+  Skills:
+    - effect:particles{p=angry_villager;amount=12;hS=0.6;vS=0.3} @self
+    - sound{s=entity.zombie_villager.converted;v=1;p=0.6} @self
+    - delay 10
+    - pull{v=0.7} @PlayersInRadius{r=6}

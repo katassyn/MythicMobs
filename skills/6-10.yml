@@ -1,35 +1,35 @@
-Summon6-10#2:
-  Cooldown: 30
-  Skills:
-    #  - message{m="<caster.name><&co> Arise, my minions!"} @PlayersInRadius{r=40}
-    #  - delay 20
-    #  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
-    #  - delay 20
-    - summon{mob=_arisen_archer;amount=1;noise=5} @Self
-    - delay 20
-    - summon{mob=_arisen_warrior;amount=1;noise=5} @Self
-
 Summon6-10:
   Cooldown: 15
   Skills:
-    #  - message{m="<caster.name><&co> Arise, my minions!"} @PlayersInRadius{r=40}
-    #  - delay 20
-    #  - summon{mob=SkeletalMinion;amount=2;noise=5} @Self
-    #  - delay 20
+    - effect:particles{p=portal;amount=20;hS=0.7;vS=0.7} @Self
+    - sound{s=entity.evoker.prepare_summon;v=1;p=1} @Self
+    - delay 15
     - summon{mob=_arisen_archer;amount=1;noise=5} @Self
+
+Summon6-10#2:
+  Cooldown: 30
+  Skills:
+    - effect:particles{p=portal;amount=30;hS=0.8;vS=0.8} @Self
+    - sound{s=entity.wither.ambient;v=0.6;p=1.2} @Self
     - delay 20
-    - summon{mob=_arisen_warrior;amount=2;noise=5} @Self
+    - summon{mob=_arisen_archer;amount=1;noise=5} @Self
+    - delay 10
+    - summon{mob=_arisen_warrior;amount=1;noise=5} @Self
 
 bolt:
   Cooldown: 5
   Skills:
     - effect:particles{p=dragon_breath;amount=15;hS=0.5;vS=0.5} @Self
-    - sound{s=entity.evoker.prepare_summon;v=1;p=1} @Self
-    - delay 20
-    - projectile{onTick=Bolt-Tick;onHit=Bolt-Hit;v=6;i=1;hR=1;vR=1;hnp=true}
+    - sound{s=entity.evoker.cast_spell;v=0.9;p=1.1} @Self
+    - delay 8
+    - projectile{onTick=Bolt-Tick;onHit=Bolt-Hit;v=6;i=1;hR=1;vR=1;hnp=true;mr=60} @target
+
 Bolt-Tick:
-    Skills:
-      - effect:particles{p=dragon_breath;amount=20;speed=0;hS=0.2;vS=0.2} @origin
+  Skills:
+    - effect:particles{p=dragon_breath;amount=18;speed=0;hS=0.2;vS=0.2} @origin
+
 Bolt-Hit:
   Skills:
     - damage{a=8}
+    - effect:particles{p=poof;amount=8} @origin
+    - sound{s=entity.firework_rocket.blast;v=0.6;p=1.8} @origin

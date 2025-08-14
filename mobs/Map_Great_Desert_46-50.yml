@@ -24,6 +24,8 @@ serpent_fighter:
     - serpent_fighter
     - normal_mobs_drops
   Skills:
+    - skill{s=SandBurst} @self ~onTimer:200
+    - skill{s=SerpentFeint} @self ~onTimer:160
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
 
@@ -53,6 +55,7 @@ serpent_spitter:
     - serpent_spitter
     - normal_mobs_drops
   Skills:
+    - skill{s=SandBurst} @self ~onTimer:200
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - potion{t=POISON;d=100;l=10} @target
@@ -81,5 +84,6 @@ scarab_knephre:
     - scarab_knephre
     - normal_mobs_drops
   Skills:
+    - skill{s=ScarabGuard} @self ~onTimer:250
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
