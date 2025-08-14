@@ -206,13 +206,14 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |  | PowerShot_hell | 400 | 15 |
 | Ulgar the Master Butcher | TransformPhase2_hell | None | None |
 |  | TransformPhase3_hell | None | None |
-|  | DeathExplosion_hell | 500 | 1 |
+|  | DeathExplosion_hell | 700 | 1 |
 | Ulgar the Master Butcher | TransformPhase2_hell | None | None |
 |  | TransformPhase3_hell | None | None |
-|  | DeathExplosion_hell | 500 | 1 |
+|  | DeathExplosion_hell | 700 | 1 |
 | Ulgar the Master Butcher | TransformPhase2_hell | None | None |
 |  | TransformPhase3_hell | None | None |
-|  | DeathExplosion_hell | 500 | 1 |
+|  | DeathExplosion_hell | 700 | 1 |
+
 | Sanguine Clan`s Raging Snooper | - | - | - |
 | Sanguine Clan`s Raging Hunter | SummonHounds_hell | None | 30 |
 | Eternal Root Creature | - | - | - |
@@ -303,7 +304,7 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |  | Teleport_blood | None | 30 |
 |  | DeathBeam_blood | 2500 | 20 |
 | Parallel World Old Jabbax Shaman | SummonMaggots_blood | None | 30 |
-|  | MeteorStrike_blood | 1600 | 15 |
+|  | MeteorStrike_blood | 1500 | 15 |
 | Wandering Experiment | RunFromPlayer_blood | None | 5 |
 | Furious Andermagic | FireballAttack_blood | 750 | 10 |
 | Wailing Andermagic Ghost | SlowAura_blood | None | 5 |
@@ -332,19 +333,20 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |  | ScytheWhirlwind | 140 | 16 |
 | Mortis, Unchained God of Death | ScytheWhirlwind | 140 | 16 |
 |  | DeathDash | 220 | 12 |
-|  | HealingPulse | None | 20 |
+|  | HealingPulse | None | 5 |
 |  | DeathZone | 99999 | 25 |
 |  | SummonDragon | None | None |
 |  | DeathZone | 99999 | 25 |
-| Mortis Death Knight | DeathExplosion | 220 | 1 |
+| Mortis Death Knight | DeathExplosion | 350 | 1 |
 |  | ScytheWhirlwind | 140 | 16 |
 |  | DeathDash | 220 | 12 |
-|  | HealingPulse | None | 20 |
+|  | HealingPulse | None | 5 |
 | Murot, High Priest of Mortis | MeteorStrike | 320 | 15 |
 |  | HomingOrb | 170 | 10 |
 |  | MeteorStrike | 320 | 15 |
-|  | HealingPulse | None | 20 |
-| Death Knight | DeathExplosion | 220 | 1 |
+|  | HealingPulse | None | 5 |
+| Death Knight | DeathExplosion | 350 | 1 |
+
 |  | ScytheWhirlwind | 140 | 16 |
 | Death Archer | WitheringShot | 220 | 10 |
 |  | HomingOrb | 170 | 10 |
@@ -352,7 +354,6 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Fallen Archer | WitheringShot | 220 | 10 |
 | Elite Skeleton Archer | WitheringShot | 220 | 10 |
 |  | HomingOrb | 170 | 10 |
-| Raging Soul | DeathExplosion | 220 | 1 |
 | Elite Skeleton Warrior | DeathDash | 220 | 12 |
 |  | ScytheWhirlwind | 140 | 16 |
 
@@ -370,19 +371,20 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |  | ScytheWhirlwind_hell | 260 | 16 |
 | Mortis, Unchained God of Death | ScytheWhirlwind_hell | 260 | 16 |
 |  | DeathDash_hell | 480 | 12 |
-|  | HealingPulse_hell | None | 20 |
+|  | HealingPulse_hell | None | 6 |
 |  | DeathZone_hell | 99999 | 25 |
 |  | SummonDragon_hell | None | None |
 |  | DeathZone_hell | 99999 | 25 |
-| Mortis Death Knight | DeathExplosion_hell | 500 | 1 |
+| Mortis Death Knight | DeathExplosion_hell | 700 | 1 |
 |  | ScytheWhirlwind_hell | 260 | 16 |
 |  | DeathDash_hell | 480 | 12 |
-|  | HealingPulse_hell | None | 20 |
+|  | HealingPulse_hell | None | 6 |
 | Murot, High Priest of Mortis | MeteorStrike_hell | 650 | 15 |
 |  | HomingOrb_hell | 300 | 10 |
 |  | MeteorStrike_hell | 650 | 15 |
-|  | HealingPulse_hell | None | 20 |
-| Death Knight | DeathExplosion_hell | 500 | 1 |
+|  | HealingPulse_hell | None | 6 |
+| Death Knight | DeathExplosion_hell | 700 | 1 |
+
 |  | ScytheWhirlwind_hell | 260 | 16 |
 | Death Archer | WitheringShot_hell | 450 | 10 |
 |  | HomingOrb_hell | 300 | 10 |
@@ -390,7 +392,8 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Fallen Archer | WitheringShot_hell | 450 | 10 |
 | Elite Skeleton Archer | WitheringShot_hell | 450 | 10 |
 |  | HomingOrb_hell | 300 | 10 |
-| Raging Soul | DeathExplosion_hell | 500 | 1 |
+| Raging Soul | DeathExplosion_hell | 700 | 1 |
+
 | Elite Skeleton Warrior | DeathDash_hell | 480 | 12 |
 |  | ScytheWhirlwind_hell | 260 | 16 |
 
@@ -408,18 +411,20 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 |  | ScytheWhirlwind_blood | 420 | 16 |
 | Mortis, Unchained God of Death | ScytheWhirlwind_blood | 420 | 16 |
 |  | DeathDash_blood | 1000 | 12 |
-|  | HealingPulse_blood | None | 20 |
+|  | HealingPulse_blood | None | 6 |
+
 |  | DeathZone_blood | 99999 | 25 |
 |  | SummonDragon_blood | None | None |
 |  | DeathZone_blood | 99999 | 25 |
 | Mortis Death Knight | DeathExplosion_blood | 1200 | 1 |
 |  | ScytheWhirlwind_blood | 420 | 16 |
 |  | DeathDash_blood | 1000 | 12 |
-|  | HealingPulse_blood | None | 20 |
-| Murot, High Priest of Mortis | MeteorStrike_blood | 1600 | 15 |
+|  | HealingPulse_blood | None | 6 |
+| Murot, High Priest of Mortis | MeteorStrike_blood | 1500 | 15 |
 |  | HomingOrb_blood | 900 | 10 |
-|  | MeteorStrike_blood | 1600 | 15 |
-|  | HealingPulse_blood | None | 20 |
+|  | MeteorStrike_blood | 1500 | 15 |
+|  | HealingPulse_blood | None | 6 |
+
 | Death Knight | DeathExplosion_blood | 1200 | 1 |
 |  | ScytheWhirlwind_blood | 420 | 16 |
 | Death Archer | WitheringShot_blood | 1100 | 10 |
@@ -445,8 +450,9 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Iron Creeper Gate Guard | LaserBeam | 90 | 8 |
 | Commander Embersword | SummonFlamespawns | None | 28 |
 |  | 60 |  |  |
-| Thundering Cyclops | ThunderStrike | 240 | 10 |
-| Dark Sentinel | DeathExplosion | 220 | 1 |
+| Thundering Cyclops | ThunderStrike | 150 | None |
+| Dark Sentinel | DeathExplosion | 350 | 1 |
+
 | Fireclaw Mercenary | 60 |  |  |
 | Bone Warder | - | - | - |
 | B-1000 Combat Mechanoid | FlameAttack | 180 | 12 |
@@ -459,13 +465,15 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Mob | Skill | DMG | Cooldown |
 |-----|-------|-----|----------|
 | Herald of the Anderworld | FlameStrike_hell | 440 | 5 |
-|  | MeteorShower_hell | 500 | 14 |
+|  | MeteorShower_hell | 650 | 14 |
+
 |  | SummonFlamespawnsLarge_hell | None | 28 |
 | Iron Creeper Gate Guard | LaserBeam_hell | 130 | 7 |
 | Commander Embersword | SummonFlamespawns_hell | None | 26 |
 |  | 80 |  |  |
 | Thundering Cyclops | ThunderStrike_hell | 480 | 9 |
-| Dark Sentinel | DeathExplosion_hell | 500 | 1 |
+| Dark Sentinel | DeathExplosion_hell | 700 | 1 |
+
 | Fireclaw Mercenary | 80 |  |  |
 | Bone Warder | - | - | - |
 | B-1000 Combat Mechanoid | FlameAttack_hell | 360 | 10 |
@@ -478,7 +486,8 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Mob | Skill | DMG | Cooldown |
 |-----|-------|-----|----------|
 | Herald of the Anderworld | FlameStrike_blood | 750 | 5 |
-|  | MeteorShower_blood | 1250 | 12 |
+|  | MeteorShower_blood | 1500 | 12 |
+
 |  | SummonFlamespawnsLarge_blood | None | 26 |
 | Iron Creeper Gate Guard | LaserBeam_blood | 180 | 6 |
 | Commander Embersword | SummonFlamespawns_blood | None | 24 |
@@ -580,17 +589,19 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Asterion | ChargeAttack | 200 | 11 |
 |  | GroundSlam | 150 | 14 |
 | Ebicarus | PowerfulStrike | 50 | 15 |
-| Cohort Swordsman | HealingPulse | None | 20 |
+| Cohort Swordsman | HealingPulse | None | 5 |
+
 | Stone Golem | ThrowBoulder | 200 | 10 |
 |  | StoneShatter | 150 | None |
 | Zorlobb Warrior | StunningBlow | 150 | 11 |
 | Minotaur | ChargeAttack | 200 | 11 |
-|  | GroundPound |  |  |
+|  | GroundSlam | 150 | 14 |
 | Agile Satyr Warrior | SatyrWarCry | None | None |
 | Perfidious Satyr Archer | SatyrWarCry | None | None |
 | Jabbax | - | - | - |
 | Gorgon Acolyte | PoisonBolt | 100 | 8 |
-|  | Petrify |  |  |
+|  | PetrifyingGaze | None | 15 |
+
 | Poisonous Snake | SnakeExplosion | 150 | None |
 
 ### Poziom trudności: hell
@@ -603,12 +614,14 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Asterion | ChargeAttack_hell | 400 | 11 |
 |  | GroundSlam_hell | 200 | 14 |
 | Ebicarus | PowerfulStrike_hell | 100 | 15 |
-| Cohort Swordsman | HealingPulse_hell | None | 20 |
+| Cohort Swordsman | HealingPulse_hell | None | 6 |
+
 | Stone Golem | ThrowBoulder_hell | 400 | 10 |
 |  | StoneShatter_hell | 300 | None |
 | Zorlobb Warrior | StunningBlow_hell | 300 | 11 |
 | Minotaur | ChargeAttack_hell | 400 | 11 |
-|  | GroundPound_hell |  |  |
+|  | GroundSlam_hell | 200 | 14 |
+
 | Agile Satyr Warrior | SatyrWarCry_hell | None | None |
 | Perfidious Satyr Archer | SatyrWarCry_hell | None | None |
 | Jabbax | - | - | - |
@@ -626,12 +639,14 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Asterion | ChargeAttack_blood | 600 | 10 |
 |  | GroundSlam_blood | 300 | 14 |
 | Ebicarus | PowerfulStrike_blood | 250 | 15 |
-| Cohort Swordsman | HealingPulse_blood | None | 20 |
+| Cohort Swordsman | HealingPulse_blood | None | 6 |
+
 | Stone Golem | ThrowBoulder_blood | 1000 | 10 |
 |  | StoneShatter_blood | 450 | None |
 | Zorlobb Warrior | StunningBlow_blood | 450 | 11 |
 | Minotaur | ChargeAttack_blood | 600 | 10 |
-|  | GroundPound_blood |  |  |
+|  | GroundSlam_blood | 300 | 14 |
+
 | Agile Satyr Warrior | SatyrWarCry_blood | None | None |
 | Perfidious Satyr Archer | SatyrWarCry_blood | None | None |
 | Jabbax | - | - | - |
@@ -656,7 +671,8 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Scheming Gorgon | PetrifyingGaze | None | 15 |
 |  | AcidSpit | 40 | 8 |
 | Poisonous Jitterjelly | ZapBolt | 50 | 10 |
-|  | DeathExplosion | 220 | 1 |
+|  | DeathExplosion | 350 | 1 |
+
 | Patrolling Jabbax | SummonJabbax | None | 15 |
 | Anderworld Jitterjelly | ZapBolt | 50 | 10 |
 |  | SmallDeathExplosion | 100 | None |
@@ -681,7 +697,8 @@ Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 | Scheming Gorgon | PetrifyingGaze_hell | None | 15 |
 |  | AcidSpit_hell | 80 | 8 |
 | Poisonous Jitterjelly | ZapBolt_hell | 100 | 10 |
-|  | DeathExplosion_hell | 500 | 1 |
+|  | DeathExplosion_hell | 700 | 1 |
+
 | Patrolling Jabbax | SummonJabbax_hell | None | 15 |
 | Anderworld Jitterjelly | ZapBolt_hell | 100 | 10 |
 |  | SmallDeathExplosion_hell | 200 | None |

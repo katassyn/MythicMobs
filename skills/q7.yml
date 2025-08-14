@@ -9,7 +9,6 @@ FlameAttack:
     - delay 20
     - damage{a=180} @PlayersInRadius{r=2.5} @targetlocation
     - ignite{ticks=80} @PlayersInRadius{r=2.5} @targetlocation
-    - knockback{strength=0.8} @PlayersInRadius{r=2.5} @targetlocation
     - sound{s=entity.generic.explode;v=1.2;p=1} @targetlocation
 
 ThunderStrike:
@@ -76,7 +75,7 @@ FlameStrike:
     - delay 15
     - damage{a=220} @PlayersInRadius{r=2.4} @targetlocation
     - ignite{ticks=80} @PlayersInRadius{r=2.4} @targetlocation
-    - knockback{strength=1.0} @PlayersInRadius{r=2.4} @targetlocation
+
 
 PoweredFlameStrike:
   Cooldown: 12
@@ -106,7 +105,7 @@ Meteor-Hit:
     - damage{a=320} @PlayersInRadius{r=3}
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
     - ignite{ticks=80} @PlayersInRadius{r=3}
-    - knockback{strength=1.2} @PlayersInRadius{r=3}
+
     - sound{s=entity.generic.explode;v=1.5;p=1} @origin
 
 SummonFlamespawnsLarge:
@@ -128,7 +127,7 @@ FlameAttack_hell:
     - delay 20
     - damage{a=360} @PlayersInRadius{r=3.0} @targetlocation
     - ignite{ticks=120} @PlayersInRadius{r=3.0} @targetlocation
-    - knockback{strength=0.9} @PlayersInRadius{r=3.0} @targetlocation
+
     - sound{s=entity.generic.explode;v=1.2;p=1} @targetlocation
     - potion{type=WEAKNESS;duration=60;level=1} @PlayersInRadius{r=3.0} @targetlocation
 
@@ -196,7 +195,7 @@ FlameStrike_hell:
     - delay 15
     - damage{a=440} @PlayersInRadius{r=2.8} @targetlocation
     - ignite{ticks=120} @PlayersInRadius{r=2.8} @targetlocation
-    - knockback{strength=1.1} @PlayersInRadius{r=2.8} @targetlocation
+
 
 PoweredFlameStrike_hell:
   Cooldown: 10
@@ -226,7 +225,7 @@ Meteor-Hit-Hell:
     - damage{a=650} @PlayersInRadius{r=3.4}
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
     - ignite{ticks=120} @PlayersInRadius{r=3.4}
-    - knockback{strength=1.2} @PlayersInRadius{r=3.4}
+
     - sound{s=entity.generic.explode;v=1.5;p=1} @origin
     - potion{type=SLOW;duration=80;level=1} @PlayersInRadius{r=3.4}
 
@@ -249,7 +248,7 @@ FlameAttack_blood:
     - delay 20
     - damage{a=600} @PlayersInRadius{r=3.4} @targetlocation
     - ignite{ticks=160} @PlayersInRadius{r=3.4} @targetlocation
-    - knockback{strength=1.0} @PlayersInRadius{r=3.4} @targetlocation
+
     - sound{s=entity.generic.explode;v=1.2;p=1} @targetlocation
     - potion{type=BLINDNESS;duration=40;level=1} @PlayersInRadius{r=3.4} @targetlocation
 
@@ -317,7 +316,7 @@ FlameStrike_blood:
     - delay 15
     - damage{a=750} @PlayersInRadius{r=3.2} @targetlocation
     - ignite{ticks=160} @PlayersInRadius{r=3.2} @targetlocation
-    - knockback{strength=1.2} @PlayersInRadius{r=3.2} @targetlocation
+
 
 PoweredFlameStrike_blood:
   Cooldown: 9
@@ -347,7 +346,7 @@ Meteor-Hit-Blood:
     - damage{a=1500} @PlayersInRadius{r=3.8}
     - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
     - ignite{ticks=160} @PlayersInRadius{r=3.8}
-    - knockback{strength=1.2} @PlayersInRadius{r=3.8}
+
     - sound{s=entity.generic.explode;v=1.5;p=1} @origin
     - potion{type=SLOW;duration=120;level=2} @PlayersInRadius{r=3.8}
 

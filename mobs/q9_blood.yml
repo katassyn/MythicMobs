@@ -269,7 +269,7 @@ minotaur_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=ChargeAttack_blood} @target ~onTimer:12
-    - skill{s=GroundPound_blood} @PlayersInRadius{r=5} ~onTimer:15
+    - skill{s=GroundSlam_blood} @PlayersInRadius{r=5} ~onTimer:15
   Drops:
     - minotaur_blood_drop
     - q_blood_elite_crafting

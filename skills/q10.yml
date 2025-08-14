@@ -116,7 +116,7 @@ SmallDeathExplosion:
 PowerfulStrike:
   Cooldown: 15
   Conditions:
-    - distance{d=..3}
+    - distance{d=0to3}
     - lineofsight
   Skills:
     - effect:particles{p=CRIT;amount=20} @self
@@ -125,7 +125,8 @@ PowerfulStrike:
 StunStrike:
   Cooldown: 15
   Conditions:
-    - distance{d=..3}
+    - distance{d=0to3}
+
     - lineofsight
   Skills:
     - effect:particles{p=CRIT;amount=20} @self
@@ -216,7 +217,8 @@ ScatteredShot:
 MeleeAttack:
   Cooldown: 6
   Conditions:
-    - distance{d=..2}
+    - distance{d=0to2}
+
   Skills:
     - effect:particles{p=SWEEP_ATTACK;amount=1} @self
     - delay 5
@@ -276,7 +278,8 @@ SmallDeathExplosion_hell:
 PowerfulStrike_hell:
   Cooldown: 15
   Conditions:
-    - distance{d=..3}
+    - distance{d=0to3}
+
     - lineofsight
   Skills:
     - effect:particles{p=CRIT;amount=20} @self
@@ -285,7 +288,8 @@ PowerfulStrike_hell:
 StunStrike_hell:
   Cooldown: 15
   Conditions:
-    - distance{d=..3}
+    - distance{d=0to3}
+
     - lineofsight
   Skills:
     - effect:particles{p=CRIT;amount=20} @self
@@ -376,7 +380,8 @@ ScatteredShot_hell:
 MeleeAttack_hell:
   Cooldown: 6
   Conditions:
-    - distance{d=..2}
+    - distance{d=0to2}
+
   Skills:
     - effect:particles{p=SWEEP_ATTACK;amount=1} @self
     - delay 5
@@ -437,7 +442,8 @@ SmallDeathExplosion_blood:
 PowerfulStrike_blood:
   Cooldown: 15
   Conditions:
-    - distance{d=..3}
+    - distance{d=0to3}
+
     - lineofsight
   Skills:
     - effect:particles{p=CRIT;amount=20} @self
@@ -447,7 +453,8 @@ PowerfulStrike_blood:
 StunStrike_blood:
   Cooldown: 15
   Conditions:
-    - distance{d=..3}
+    - distance{d=0to3}
+
     - lineofsight
   Skills:
     - effect:particles{p=CRIT;amount=20} @self
@@ -538,7 +545,8 @@ ScatteredShot_blood:
 MeleeAttack_blood:
   Cooldown: 6
   Conditions:
-    - distance{d=..2}
+    - distance{d=0to2}
+
   Skills:
     - effect:particles{p=SWEEP_ATTACK;amount=1} @self
     - delay 5

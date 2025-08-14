@@ -209,31 +209,37 @@ PetrifyingGaze:
   Cooldown: 16
   Skills:
     - skill{s=FX_Serpent_Telegraph}
-    - effect:cone{p=BLOCK_CRACK;material=STONE;angle=35;range=10;points=50;amount=1} @self
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=4;points=40;amount=1;y=0.1} @self 
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=7;points=60;amount=1;y=0.1} @self
     - sound{s=entity.warden.sonic_boom;v=0.5;p=1.8} @self
-    - potion{type=SLOW;duration=40;level=6} @PlayersInCone{angle=35;range=10}
+    - potion{type=SLOW;duration=40;level=6} @PlayersInRadius{r=10}
     - delay 10
-    - stun{d=30} @PlayersInCone{angle=35;range=10}
+    - stun{d=30} @PlayersInRadius{r=10}
+
 
 Petrify_hell:
   Cooldown: 15
   Skills:
     - skill{s=FX_Serpent_Telegraph}
-    - effect:cone{p=BLOCK_CRACK;material=STONE;angle=40;range=11;points=60;amount=1} @self
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=4.5;points=50;amount=1;y=0.1} @self 
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=8;points=70;amount=1;y=0.1} @self
     - sound{s=entity.warden.sonic_boom;v=0.6;p=1.8} @self
-    - potion{type=SLOW;duration=60;level=8} @PlayersInCone{angle=40;range=11}
+    - potion{type=SLOW;duration=60;level=8} @PlayersInRadius{r=11}
     - delay 12
-    - stun{d=40} @PlayersInCone{angle=40;range=11}
+    - stun{d=40} @PlayersInRadius{r=11}
+
 
 Petrify_blood:
   Cooldown: 14
   Skills:
     - skill{s=FX_Serpent_Telegraph}
-    - effect:cone{p=BLOCK_CRACK;material=STONE;angle=45;range=12;points=70;amount=1} @self
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=5;points=60;amount=1;y=0.1} @self 
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=9;points=80;amount=1;y=0.1} @self
     - sound{s=entity.warden.sonic_boom;v=0.7;p=1.8} @self
-    - potion{type=SLOW;duration=80;level=10} @PlayersInCone{angle=45;range=12}
+    - potion{type=SLOW;duration=80;level=10} @PlayersInRadius{r=12}
     - delay 14
-    - stun{d=60} @PlayersInCone{angle=45;range=12}
+    - stun{d=60} @PlayersInRadius{r=12}
+
 
 # === SUMMON SNAKES (spirala + efekty) ===
 SummonSnakes:
@@ -241,24 +247,30 @@ SummonSnakes:
   Skills:
     - message{m="&a&lSssss... &7Węże pełzną spod ziemi!"} @PlayersInRadius{r=20}
     - sound{s=entity.witch.celebrate;v=0.8;p=1.6} @self
-    - effect:spiral{p=SLIME;radius=3.5;turns=3;height=2;points=80} @self
-    - summon{mob=poisonous_snake_inf;amount=3;radius=3} @self
+    - effect:particlering{p=SLIME;r=3.5;points=80;amount=1;y=0.1} @self 
+    - effect:particlering{p=SLIME;r=2;points=40;amount=1;y=0.3} @self
+    - summon{mob=snake_minion_inf;amount=3;radius=3} @self
+
 
 SummonSnakes_hell:
   Cooldown: 20
   Skills:
     - message{m="&a&lSssss... &7Gniazdo jadu budzi się!"} @PlayersInRadius{r=20}
     - sound{s=entity.witch.celebrate;v=0.9;p=1.6} @self
-    - effect:spiral{p=SLIME;radius=4;turns=3;height=2;points=90} @self
-    - summon{mob=poisonous_snake_hell;amount=4;radius=3} @self
+    - effect:particlering{p=SLIME;r=4;points=90;amount=1;y=0.1} @self 
+    - effect:particlering{p=SLIME;r=2.5;points=45;amount=1;y=0.3} @self
+    - summon{mob=snake_minion_hell;amount=4;radius=3} @self
+
 
 SummonSnakes_blood:
   Cooldown: 20
   Skills:
     - message{m="&a&lSssss... &7Legowisko węży otwiera się!"} @PlayersInRadius{r=20}
     - sound{s=entity.witch.celebrate;v=1;p=1.6} @self
-    - effect:spiral{p=SLIME;radius=4.5;turns=3;height=2;points=100} @self
-    - summon{mob=poisonous_snake_blood;amount=5;radius=3} @self
+    - effect:particlering{p=SLIME;r=4.5;points=100;amount=1;y=0.1} @self 
+    - effect:particlering{p=SLIME;r=3;points=50;amount=1;y=0.3} @self
+    - summon{mob=snake_minion_blood;amount=5;radius=3} @self
+
 
 # === SNAKE EXPLOSION (czytelny radius + wspólne FX) ===
 SnakeExplosion:
