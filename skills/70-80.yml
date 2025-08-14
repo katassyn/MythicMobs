@@ -58,7 +58,7 @@ ShadeCrawler_Ambush:
     - effect:particles{p=smoke;amount=30;hS=0.6;vS=0.4} @self
     - sound{s=entity.enderman.teleport;v=0.8;p=1.2} @self
     - delay 8
-    - teleport{spreadh=1;spreadv=0.1} @BackstabTarget
+    - teleport{spreadh=1;spreadv=0.1} @target
     - potion{type=GLOWING;duration=30;level=1} @self
 
 ShadowGazer_Glare:

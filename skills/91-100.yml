@@ -43,7 +43,7 @@ ColdSkeletonArcher_Volley:
   Skills:
     - message{m="&bVolley! &7Take cover!"} @PIR{r=20}
     - delay 20
-    - projectile{type=ARROW;amount=6;spread=10;v=3;g=0.05} @target
+    - projectile{i=ARROW;amount=6;spread=10;v=3;g=0.05} @target
 
 DeathKnight_Taunt:
   Cooldown: 18
