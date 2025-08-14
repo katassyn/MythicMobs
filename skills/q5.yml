@@ -1,253 +1,284 @@
-# Mission 1 Skills
+# Q5 — Old Jabbax Shaman / Khalys (Inferno, Hell, Blood)
+
+# =========================
+# Q5 — INFERNO
+# =========================
 FireballAttack_inf:
-  Cooldown: 10
+  Cooldown: 8
   Skills:
-    - projectile{onTick=Fireball-Tick-Inf;onHit=Fireball-Hit-Inf;v=8;i=FIRE_CHARGE;hR=1;vR=1} @target
+    - sound{s=entity.blaze.shoot;v=1.2;p=1.0} @self
+    - projectile{onTick=Fireball-Tick-Inf;onHit=Fireball-Hit-Inf;v=9;i=FIRE_CHARGE;hR=1;vR=1} @target
 
 Fireball-Tick-Inf:
   Skills:
-    - effect:particles{p=FLAME;amount=10} @origin
+    - effect:particles{p=flame;amount=12;speed=0.01} @origin
 
 Fireball-Hit-Inf:
   Skills:
+    - effect:particles{p=explosion_large;amount=1} @origin
     - damage{a=150} @target
-    - ignite{ticks=60} @target
+    - ignite{ticks=70} @target
 
 SummonMaggots_inf:
-  Cooldown: 30
+  Cooldown: 28
   Skills:
-    - message{m="&5Old Jabbax Shaman summons maggots!"} @PlayersInRadius{r=30}
+    - message{m="&5Old Jabbax Shaman summons maggots!"} @PlayersInRadius{r=28}
     - summon{mob=furious_maggot_inf;amount=6;radius=5;noise=3} @self
 
 MeteorStrike_inf:
-  Cooldown: 15
+  Cooldown: 14
   Skills:
-    - message{m="&5Old Jabbax Shaman calls down a meteor!"} @PlayersInRadius{r=30}
-    - projectile{onTick=Meteor-Tick-Inf;onHit=Meteor-Hit-Inf;v=5;i=MAGMA_BLOCK;hR=1;vR=1} @target
+    - message{m="&6A meteor is called down — watch your feet!"} @PlayersInRadius{r=30}
+    - projectile{onTick=Meteor-Tick-Inf;onHit=Meteor-Hit-Inf;v=6;i=MAGMA_BLOCK;hR=1;vR=1;g=0.04} @NearestPlayer{r=28}
 
 Meteor-Tick-Inf:
   Skills:
-    - effect:particles{p=FLAME;amount=20} @origin
-    - effect:particles{p=LAVA;amount=5} @origin
+    - effect:particles{p=flame;amount=24} @origin
+    - effect:particles{p=lava;amount=8} @origin
 
 Meteor-Hit-Inf:
   Skills:
+    - effect:particles{p=explosion_large;amount=1} @origin
     - damage{a=250} @PlayersInRadius{r=3}
-    - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
     - ignite{ticks=100} @PlayersInRadius{r=3}
 
-# Mission 2 Skills
 SlowAura_inf:
   Cooldown: 5
   Skills:
-    - potion{type=SLOW;duration=40;level=2} @PlayersInRadius{r=5}
-    - effect:particles{p=SPELL_MOB;color=GRAY;amount=20;radius=5} @self
+    - effect:particles{p=spell_mob;color=GRAY;amount=24;radius=5} @self
+    - potion{type=SLOW;duration=50;level=2} @PlayersInRadius{r=5}
 
 DamageAura_inf:
   Cooldown: 10
   Skills:
-    - effect:particles{p=SPELL_WITCH;amount=30;radius=5} @self
+    - effect:particles{p=spell_witch;amount=30;radius=5} @self
     - delay 20
     - damage{a=50} @PlayersInRadius{r=5}
 
 RunFromPlayer_inf:
   Cooldown: 5
   Skills:
-    - throw{velocity=-2;velocityY=0.5} @self
-# Mission 3 Boss Skills
+    - throw{velocity=-2.4;velocityY=0.5} @self
+
 SummonCopy_inf:
-  Cooldown: 45
+  Cooldown: 42
   Skills:
-    - message{m="&4Khalys creates a copy of herself!"} @PlayersInRadius{r=30}
+    - message{m="&4Khalys creates a copy!"} @PlayersInRadius{r=30}
     - summon{mob=khalys_clone_inf;amount=1;radius=3} @self
 
 MagicMissile_inf:
-  Cooldown: 10
+  Cooldown: 9
   Skills:
-    - message{m="&4Khalys launches a magical attack!"} @PlayersInRadius{r=30}
-    - projectile{onTick=Magic-Tick-Inf;onHit=Magic-Hit-Inf;v=10;i=DRAGON_BREATH;hR=1;vR=1;amount=3} @target
+    - message{m="&4Khalys launches arcane missiles!"} @PlayersInRadius{r=26}
+    - projectile{onTick=Magic-Tick-Inf;onHit=Magic-Hit-Inf;v=11;i=DRAGON_BREATH;hR=1;vR=1;amount=3;spread=14} @NearestPlayer{r=30}
 
 Magic-Tick-Inf:
   Skills:
-    - effect:particles{p=SPELL_WITCH;amount=5} @origin
+    - effect:particles{p=spell_witch;amount=6} @origin
 
 Magic-Hit-Inf:
   Skills:
     - damage{a=200} @target
-    - effect:particles{p=SPELL;amount=20} @target
+    - effect:particles{p=spell;amount=24} @target
 
 Teleport_inf:
-  Cooldown: 30
+  Cooldown: 26
   Skills:
-    - message{m="&4Khalys teleports!"} @PlayersInRadius{r=30}
-    - effect:particles{p=PORTAL;amount=50} @self
+    - effect:particles{p=portal;amount=60} @self
+    - delay 5
     - teleport{randomy=false;randomize=8} @self
-    - effect:particles{p=PORTAL;amount=50} @self
+    - effect:particles{p=portal;amount=60} @self
 
 DeathBeam_inf:
   Cooldown: 20
   Skills:
-    - message{m="&4Khalys channels deadly energy!"} @PlayersInRadius{r=30}
-    - effect:particles{p=END_ROD;amount=100;radius=8} @self
-    - damage{a=<target.hp>*0.15} @PlayersInRadius{r=8} #15% max HP damage
+    - message{m="&5Khalys channels deadly energy — LOS!"} @PlayersInRadius{r=30}
+    - effect:particles{p=end_rod;amount=100;radius=8} @self
+    - delay 18
+    - damage{a=<target.hp>*0.15} @PlayersInRadius{r=8}
     - potion{type=WEAKNESS;duration=60;level=1} @PlayersInRadius{r=8}
-# Mission 1 Skills
+
+# =========================
+# Q5 — HELL
+# =========================
 FireballAttack_hell:
-  Cooldown: 10
+  Cooldown: 7
   Skills:
-    - projectile{onTick=Fireball-Tick-Hell;onHit=Fireball-Hit-Hell;v=8;i=FIRE_CHARGE;hR=1;vR=1} @target
+    - projectile{onTick=Fireball-Tick-Hell;onHit=Fireball-Hit-Hell;v=9.5;i=FIRE_CHARGE;hR=1;vR=1} @target
+
+Fireball-Tick-Hell:
+  Skills:
+    - effect:particles{p=flame;amount=14} @origin
 
 Fireball-Hit-Hell:
   Skills:
-    - damage{a=300} @target # 2x150
-    - ignite{ticks=60} @target
+    - damage{a=300} @target
+    - ignite{ticks=90} @target
 
 SummonMaggots_hell:
-  Cooldown: 30
+  Cooldown: 26
   Skills:
-    - message{m="&5Old Jabbax Shaman summons maggots!"} @PlayersInRadius{r=30}
-    - summon{mob=furious_maggot_hell;amount=6;radius=5;noise=3} @self
+    - summon{mob=furious_maggot_hell;amount=7;radius=5;noise=3} @self
 
 MeteorStrike_hell:
-  Cooldown: 15
+  Cooldown: 12
   Skills:
-    - message{m="&5Old Jabbax Shaman calls down a meteor!"} @PlayersInRadius{r=30}
-    - projectile{onTick=Meteor-Tick-Hell;onHit=Meteor-Hit-Hell;v=5;i=MAGMA_BLOCK;hR=1;vR=1} @target
+    - projectile{onTick=Meteor-Tick-Hell;onHit=Meteor-Hit-Hell;v=6.5;i=MAGMA_BLOCK;hR=1;vR=1;g=0.04} @NearestPlayer{r=30}
+
+Meteor-Tick-Hell:
+  Skills:
+    - effect:particles{p=flame;amount=28} @origin
+    - effect:particles{p=lava;amount=10} @origin
 
 Meteor-Hit-Hell:
   Skills:
-    - damage{a=500} @PlayersInRadius{r=3} # 2x250
-    - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
-    - ignite{ticks=100} @PlayersInRadius{r=3}
+    - damage{a=500} @PlayersInRadius{r=3.2}
+    - effect:particles{p=explosion_large;amount=1} @origin
+    - ignite{ticks=120} @PlayersInRadius{r=3.2}
 
-# Mission 2 Skills
 SlowAura_hell:
   Cooldown: 5
   Skills:
-    - potion{type=SLOW;duration=40;level=2} @PlayersInRadius{r=5}
-    - effect:particles{p=SPELL_MOB;color=GRAY;amount=20;radius=5} @self
+    - effect:particles{p=spell_mob;color=GRAY;amount=28;radius=5} @self
+    - potion{type=SLOW;duration=70;level=2} @PlayersInRadius{r=5}
 
 DamageAura_hell:
-  Cooldown: 10
+  Cooldown: 9
   Skills:
-    - effect:particles{p=SPELL_WITCH;amount=30;radius=5} @self
+    - effect:particles{p=spell_witch;amount=36;radius=5} @self
     - delay 20
-    - damage{a=100} @PlayersInRadius{r=5} # 2x50
+    - damage{a=100} @PlayersInRadius{r=5}
 
 RunFromPlayer_hell:
   Cooldown: 5
   Skills:
-    - throw{velocity=-2;velocityY=0.5} @self
-# Mission 3 Boss Skills
+    - throw{velocity=-2.6;velocityY=0.6} @self
+
 SummonCopy_hell:
-  Cooldown: 45
+  Cooldown: 38
   Skills:
-    - message{m="&4Khalys creates a copy of herself!"} @PlayersInRadius{r=30}
     - summon{mob=khalys_clone_hell;amount=1;radius=3} @self
 
 MagicMissile_hell:
-  Cooldown: 10
+  Cooldown: 8
   Skills:
-    - message{m="&4Khalys launches a magical attack!"} @PlayersInRadius{r=30}
-    - projectile{onTick=Magic-Tick-Hell;onHit=Magic-Hit-Hell;v=10;i=DRAGON_BREATH;hR=1;vR=1;amount=3} @target
+    - projectile{onTick=Magic-Tick-Hell;onHit=Magic-Hit-Hell;v=11.5;i=DRAGON_BREATH;hR=1;vR=1;amount=4;spread=16} @NearestPlayer{r=32}
+
+Magic-Tick-Hell:
+  Skills:
+    - effect:particles{p=spell_witch;amount=7} @origin
 
 Magic-Hit-Hell:
   Skills:
-    - damage{a=400} @target # 2x200
-    - effect:particles{p=SPELL;amount=20} @target
+    - damage{a=400} @target
+    - effect:particles{p=spell;amount=28} @target
 
 Teleport_hell:
-  Cooldown: 30
+  Cooldown: 24
   Skills:
-    - message{m="&4Khalys teleports!"} @PlayersInRadius{r=30}
-    - effect:particles{p=PORTAL;amount=50} @self
-    - teleport{randomy=false;randomize=8} @self
-    - effect:particles{p=PORTAL;amount=50} @self
+    - effect:particles{p=portal;amount=70} @self
+    - delay 5
+    - teleport{randomy=false;randomize=9} @self
+    - effect:particles{p=portal;amount=70} @self
 
 DeathBeam_hell:
-  Cooldown: 20
+  Cooldown: 18
   Skills:
-    - message{m="&4Khalys channels deadly energy!"} @PlayersInRadius{r=30}
-    - effect:particles{p=END_ROD;amount=100;radius=8} @self
-    - damage{a=<target.hp>*0.20} @PlayersInRadius{r=8} # Increased to 20% max HP
+    - effect:particles{p=end_rod;amount=120;radius=8} @self
+    - delay 16
+    - damage{a=<target.hp>*0.20} @PlayersInRadius{r=8}
     - potion{type=WEAKNESS;duration=80;level=2} @PlayersInRadius{r=8}
-# Mission 1 Skills
+
+# =========================
+# Q5 — BLOOD
+# =========================
 FireballAttack_blood:
-  Cooldown: 10
+  Cooldown: 6
   Skills:
-    - projectile{onTick=Fireball-Tick-Blood;onHit=Fireball-Hit-Blood;v=8;i=FIRE_CHARGE;hR=1;vR=1} @target
+    - projectile{onTick=Fireball-Tick-Blood;onHit=Fireball-Hit-Blood;v=10;i=FIRE_CHARGE;hR=1;vR=1;amount=2;spread=10} @target
+
+Fireball-Tick-Blood:
+  Skills:
+    - effect:particles{p=flame;amount=16} @origin
 
 Fireball-Hit-Blood:
   Skills:
-    - damage{a=750} @target # 5x150
-    - ignite{ticks=60} @target
+    - damage{a=750} @target
+    - ignite{ticks=100} @target
 
 SummonMaggots_blood:
-  Cooldown: 30
+  Cooldown: 24
   Skills:
-    - message{m="&5Old Jabbax Shaman summons maggots!"} @PlayersInRadius{r=30}
-    - summon{mob=furious_maggot_blood;amount=6;radius=5;noise=3} @self
+    - summon{mob=furious_maggot_blood;amount=8;radius=5;noise=3} @self
 
 MeteorStrike_blood:
-  Cooldown: 15
+  Cooldown: 10
   Skills:
-    - message{m="&5Old Jabbax Shaman calls down a meteor!"} @PlayersInRadius{r=30}
-    - projectile{onTick=Meteor-Tick-Blood;onHit=Meteor-Hit-Blood;v=5;i=MAGMA_BLOCK;hR=1;vR=1} @target
+    - message{m="&cMeteor barrage!"} @PlayersInRadius{r=30}
+    - projectile{onTick=Meteor-Tick-Blood;onHit=Meteor-Hit-Blood;v=7;i=MAGMA_BLOCK;hR=1;vR=1;g=0.04;amount=2;spread=10} @NearestPlayer{r=34}
+
+Meteor-Tick-Blood:
+  Skills:
+    - effect:particles{p=flame;amount=30} @origin
+    - effect:particles{p=lava;amount=12} @origin
 
 Meteor-Hit-Blood:
   Skills:
-    - damage{a=1250} @PlayersInRadius{r=3} # 5x250
-    - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
-    - ignite{ticks=100} @PlayersInRadius{r=3}
+    - damage{a=1250} @PlayersInRadius{r=3.4}
+    - effect:particles{p=explosion_huge;amount=1} @origin
+    - ignite{ticks=140} @PlayersInRadius{r=3.4}
 
-# Mission 2 Skills
 SlowAura_blood:
   Cooldown: 5
   Skills:
-    - potion{type=SLOW;duration=40;level=3} @PlayersInRadius{r=5}
-    - effect:particles{p=SPELL_MOB;color=GRAY;amount=20;radius=5} @self
+    - effect:particles{p=spell_mob;color=GRAY;amount=32;radius=5} @self
+    - potion{type=SLOW;duration=120;level=2} @PlayersInRadius{r=5}
 
 DamageAura_blood:
-  Cooldown: 10
+  Cooldown: 8
   Skills:
-    - effect:particles{p=SPELL_WITCH;amount=30;radius=5} @self
-    - delay 20
-    - damage{a=250} @PlayersInRadius{r=5} # 5x50
+    - effect:particles{p=spell_witch;amount=40;radius=5} @self
+    - delay 18
+    - damage{a=250} @PlayersInRadius{r=5}
 
 RunFromPlayer_blood:
   Cooldown: 5
   Skills:
-    - throw{velocity=-2;velocityY=0.5} @self
-# Mission 3 Boss Skills
+    - throw{velocity=-2.9;velocityY=0.65} @self
+
 SummonCopy_blood:
-  Cooldown: 45
+  Cooldown: 34
   Skills:
-    - message{m="&4Khalys creates a copy of herself!"} @PlayersInRadius{r=30}
-    - summon{mob=khalys_clone_blood;amount=1;radius=3} @self
+    - summon{mob=khalys_clone_blood;amount=2;radius=3} @self
 
 MagicMissile_blood:
-  Cooldown: 10
+  Cooldown: 7
   Skills:
-    - message{m="&4Khalys launches a magical attack!"} @PlayersInRadius{r=30}
-    - projectile{onTick=Magic-Tick-Blood;onHit=Magic-Hit-Blood;v=10;i=DRAGON_BREATH;hR=1;vR=1;amount=3} @target
+    - projectile{onTick=Magic-Tick-Blood;onHit=Magic-Hit-Blood;v=12;i=DRAGON_BREATH;hR=1;vR=1;amount=5;spread=18} @NearestPlayer{r=36}
+
+Magic-Tick-Blood:
+  Skills:
+    - effect:particles{p=spell_witch;amount=8} @origin
 
 Magic-Hit-Blood:
   Skills:
-    - damage{a=1000} @target # 5x200
-    - effect:particles{p=SPELL;amount=20} @target
+    - damage{a=1000} @target
+    - effect:particles{p=spell;amount=36} @target
 
 Teleport_blood:
-  Cooldown: 30
+  Cooldown: 22
   Skills:
-    - message{m="&4Khalys teleports!"} @PlayersInRadius{r=30}
-    - effect:particles{p=PORTAL;amount=50} @self
-    - teleport{randomy=false;randomize=8} @self
-    - effect:particles{p=PORTAL;amount=50} @self
+    - effect:particles{p=portal;amount=80} @self
+    - delay 5
+    - teleport{randomy=false;randomize=10} @self
+    - effect:particles{p=portal;amount=80} @self
 
 DeathBeam_blood:
-  Cooldown: 20
+  Cooldown: 16
   Skills:
-    - message{m="&4Khalys channels deadly energy!"} @PlayersInRadius{r=30}
-    - effect:particles{p=END_ROD;amount=100;radius=8} @self
-    - damage{a=<target.hp>*0.25} @PlayersInRadius{r=8} # Increased to 25% max HP
-    - potion{type=WEAKNESS;duration=100;level=3} @PlayersInRadius{r=8}
+    - message{m="&4Khalys unleashes pure void!"} @PlayersInRadius{r=34}
+    - effect:particles{p=end_rod;amount=140;radius=8} @self
+    - delay 14
+    - damage{a=<target.hp>*0.25} @PlayersInRadius{r=8}
+    - potion{type=WEAKNESS;duration=120;level=3} @PlayersInRadius{r=8}
+
