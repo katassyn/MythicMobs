@@ -126,6 +126,7 @@ StunStrike:
   Cooldown: 15
   Conditions:
     - distance{d=0to3}
+
     - lineofsight
   Skills:
     - effect:particles{p=CRIT;amount=20} @self
@@ -217,6 +218,7 @@ MeleeAttack:
   Cooldown: 6
   Conditions:
     - distance{d=0to2}
+
   Skills:
     - effect:particles{p=SWEEP_ATTACK;amount=1} @self
     - delay 5
@@ -277,6 +279,7 @@ PowerfulStrike_hell:
   Cooldown: 15
   Conditions:
     - distance{d=0to3}
+
     - lineofsight
   Skills:
     - effect:particles{p=CRIT;amount=20} @self
@@ -286,6 +289,7 @@ StunStrike_hell:
   Cooldown: 15
   Conditions:
     - distance{d=0to3}
+
     - lineofsight
   Skills:
     - effect:particles{p=CRIT;amount=20} @self
@@ -377,6 +381,7 @@ MeleeAttack_hell:
   Cooldown: 6
   Conditions:
     - distance{d=0to2}
+
   Skills:
     - effect:particles{p=SWEEP_ATTACK;amount=1} @self
     - delay 5
@@ -438,6 +443,7 @@ PowerfulStrike_blood:
   Cooldown: 15
   Conditions:
     - distance{d=0to3}
+
     - lineofsight
   Skills:
     - effect:particles{p=CRIT;amount=20} @self
@@ -448,6 +454,7 @@ StunStrike_blood:
   Cooldown: 15
   Conditions:
     - distance{d=0to3}
+
     - lineofsight
   Skills:
     - effect:particles{p=CRIT;amount=20} @self
@@ -539,6 +546,7 @@ MeleeAttack_blood:
   Cooldown: 6
   Conditions:
     - distance{d=0to2}
+
   Skills:
     - effect:particles{p=SWEEP_ATTACK;amount=1} @self
     - delay 5

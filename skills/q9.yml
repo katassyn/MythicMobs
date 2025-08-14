@@ -216,6 +216,7 @@ PetrifyingGaze:
     - delay 10
     - stun{d=30} @PlayersInRadius{r=10}
 
+
 Petrify_hell:
   Cooldown: 15
   Skills:
@@ -226,6 +227,7 @@ Petrify_hell:
     - potion{type=SLOW;duration=60;level=8} @PlayersInRadius{r=11}
     - delay 12
     - stun{d=40} @PlayersInRadius{r=11}
+
 
 Petrify_blood:
   Cooldown: 14
@@ -238,6 +240,7 @@ Petrify_blood:
     - delay 14
     - stun{d=60} @PlayersInRadius{r=12}
 
+
 # === SUMMON SNAKES (spirala + efekty) ===
 SummonSnakes:
   Cooldown: 20
@@ -248,6 +251,7 @@ SummonSnakes:
     - effect:particlering{p=SLIME;r=2;points=40;amount=1;y=0.3} @self
     - summon{mob=snake_minion_inf;amount=3;radius=3} @self
 
+
 SummonSnakes_hell:
   Cooldown: 20
   Skills:
@@ -257,6 +261,7 @@ SummonSnakes_hell:
     - effect:particlering{p=SLIME;r=2.5;points=45;amount=1;y=0.3} @self
     - summon{mob=snake_minion_hell;amount=4;radius=3} @self
 
+
 SummonSnakes_blood:
   Cooldown: 20
   Skills:
@@ -265,6 +270,7 @@ SummonSnakes_blood:
     - effect:particlering{p=SLIME;r=4.5;points=100;amount=1;y=0.1} @self 
     - effect:particlering{p=SLIME;r=3;points=50;amount=1;y=0.3} @self
     - summon{mob=snake_minion_blood;amount=5;radius=3} @self
+
 
 # === SNAKE EXPLOSION (czytelny radius + wspólne FX) ===
 SnakeExplosion:
