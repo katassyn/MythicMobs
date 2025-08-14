@@ -25,7 +25,7 @@ Fireball-Hit:
     - sound{s=entity.blaze.shoot;v=1.1;p=0.7} @origin
     - damage{a=300} @PlayersInRadius{r=2.5}
     - potion{type=BURN;duration=80;level=1} @PlayersInRadius{r=2.5}
-    - knockback{strength=0.8} @PlayersInRadius{r=2.5}
+    - throw{v=0.8} @PlayersInRadius{r=2.5}
 
 Catapult-Tick:
   Skills:
@@ -37,7 +37,7 @@ Catapult-Hit:
     - sound{s=block.stone.break;v=1.0;p=1.0} @origin
     - damage{a=200} @PlayersInRadius{r=2.0}
     - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=2.0}
-    - knockback{strength=0.7} @PlayersInRadius{r=2.0}
+    - throw{v=0.7} @PlayersInRadius{r=2.0}
 
 # =========================
 # Q1 — FLAME CULT / BOSSES
@@ -136,7 +136,7 @@ TeleportToPlayer:
     - sound{s=entity.enderman.teleport;v=0.9;p=0.7} @self
     - effect:particles{p=PORTAL;amount=70;hS=0.7;vS=0.5} @self
     - delay 6
-    - teleportto{t=target} @PlayersInRadius{r=24;limit=1;sort=NEAREST}
+    - teleport{t=target} @PlayersInRadius{r=24;limit=1;sort=NEAREST}
     - sound{s=entity.enderman.teleport;v=0.9;p=1.3} @self
     - effect:particles{p=PORTAL;amount=60;hS=0.6;vS=0.4} @self
     - stun{d=10} @self

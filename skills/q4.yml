@@ -39,7 +39,7 @@ DeathExplosion_inf:
   Skills:
     - effect:particles{p=poof;amount=80;radius=3} @self
     - damage{a=300} @PlayersInRadius{r=3}
-    - knockback{strength=1.2} @PlayersInRadius{r=3}
+    - throw{v=1.2} @PlayersInRadius{r=3}
 
 SummonEternalHounds_inf:
   Cooldown: 35
@@ -97,7 +97,7 @@ Whirlwind_inf:
     - pull{v=0.7} @PlayersInRadius{r=4}
     - delay 10
     - damage{a=200} @PlayersInRadius{r=4}
-    - knockback{strength=1.1} @PlayersInRadius{r=4}
+    - throw{v=1.1} @PlayersInRadius{r=4}
 
 ShootLightning_inf:
   Cooldown: 8
@@ -136,7 +136,7 @@ DeathExplosion_hell:
   Cooldown: 28
   Skills:
     - damage{a=600} @PlayersInRadius{r=3.5}
-    - knockback{strength=1.4} @PlayersInRadius{r=3.5}
+    - throw{v=1.4} @PlayersInRadius{r=3.5}
 
 SummonEternalHounds_hell:
   Cooldown: 30
@@ -185,7 +185,7 @@ Whirlwind_hell:
     - pull{v=0.9} @PlayersInRadius{r=4.2}
     - delay 8
     - damage{a=350} @PlayersInRadius{r=4.2}
-    - knockback{strength=1.5} @PlayersInRadius{r=4.2}
+    - throw{v=1.5} @PlayersInRadius{r=4.2}
 
 ShootLightning_hell:
   Cooldown: 7
@@ -220,7 +220,7 @@ DeathExplosion_blood:
   Cooldown: 26
   Skills:
     - damage{a=1500} @PlayersInRadius{r=4}
-    - knockback{strength=1.8} @PlayersInRadius{r=4}
+    - throw{v=1.8} @PlayersInRadius{r=4}
     - potion{type=WEAKNESS;duration=80;level=2} @PlayersInRadius{r=4}
 
 SummonEternalHounds_blood:
@@ -274,7 +274,7 @@ Whirlwind_blood:
     - pull{v=1.1} @PlayersInRadius{r=4.5}
     - delay 8
     - damage{a=400} @PlayersInRadius{r=4.5}
-    - knockback{strength=2.0} @PlayersInRadius{r=4.5}
+    - throw{v=2.0} @PlayersInRadius{r=4.5}
 
 ShootLightning_blood:
   Cooldown: 6
