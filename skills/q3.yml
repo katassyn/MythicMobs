@@ -18,7 +18,7 @@ Boulder-Hit-Inf:
   Skills:
     - effect:particles{p=explosion_large;amount=1} @origin
     - damage{a=200} @PlayersInRadius{r=2.5}
-    - knockback{strength=1.2} @PlayersInRadius{r=2.5}
+    - throw{v=1.2} @PlayersInRadius{r=2.5}
 
 IceBall_inf:
   Cooldown: 7
@@ -96,7 +96,7 @@ Boulder-Hit-Hell:
   Skills:
     - effect:particles{p=explosion_large;amount=1} @origin
     - damage{a=400} @PlayersInRadius{r=3}
-    - knockback{strength=1.6} @PlayersInRadius{r=3}
+    - throw{v=1.6} @PlayersInRadius{r=3}
     - potion{type=MINING_FATIGUE;duration=60;level=1} @PlayersInRadius{r=3}
 
 IceBall_hell:
@@ -162,7 +162,7 @@ Boulder-Hit-Blood:
   Skills:
     - effect:particles{p=explosion_huge;amount=1} @origin
     - damage{a=1000} @PlayersInRadius{r=3.2}
-    - knockback{strength=2.0} @PlayersInRadius{r=3.2}
+    - throw{v=2.0} @PlayersInRadius{r=3.2}
     - potion{type=HUNGER;duration=120;level=1} @PlayersInRadius{r=3.2}
 
 IceBall_blood:

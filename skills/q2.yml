@@ -46,7 +46,7 @@ SummonSphere_inf:
     - sound{s=entity.illusioner.prepare_mirror;v=1.0;p=1.2} @self
     - effect:particles{p=ENCHANT;amount=80;hS=0.9;vS=0.4;y=1} @self
     - delay 18
-    - summon{mob=witch_soul_sphere_inf;amount=1;radius=2;noise=0} @self
+    - summon{type=WITCH;amount=1;radius=2;noise=0} @self
     - GCD{ticks=80}
 
 MagicProjectile_hell:
@@ -66,7 +66,7 @@ SummonSphere_hell:
     - sound{s=entity.illusioner.prepare_blindness;v=1.0;p=1.0} @self
     - effect:particles{p=SOUL;amount=90;hS=0.9;vS=0.4;y=1} @self
     - delay 18
-    - summon{mob=witch_soul_sphere_hell;amount=1;radius=2;noise=0} @self
+    - summon{type=WITCH;amount=1;radius=2;noise=0} @self
     - GCD{ticks=80}
 
 MagicProjectile_blood:
@@ -86,7 +86,7 @@ SummonSphere_blood:
     - sound{s=entity.illusioner.prepare_mirror;v=1.0;p=0.8} @self
     - effect:particles{p=ASH;amount=100;hS=1.0;vS=0.45;y=1} @self
     - delay 20
-    - summon{mob=witch_soul_sphere_blood;amount=1;radius=2;noise=0} @self
+    - summon{type=WITCH;amount=1;radius=2;noise=0} @self
     - GCD{ticks=90}
 
 # =========================
@@ -150,7 +150,7 @@ SummoningSphereXerib_inf:
     - sound{s=entity.illusioner.prepare_mirror;v=1.0;p=1.2} @self
     - effect:particles{p=ENCHANT;amount=70;hS=0.8;vS=0.3} @self
     - delay 16
-    - summon{mob=xerib_orb_inf;amount=1;radius=1;noise=0} @self
+    - summon{type=SLIME;amount=1;radius=1;noise=0} @self
     - GCD{ticks=70}
 
 PoisonMagicProjectile_inf:
@@ -164,7 +164,7 @@ PoisonMagicProjectile_inf:
 
 Q2-PoisonHit-Inf:
   Skills:
-    - callskill{skill=AoE-Telegraph-Small} @origin
+    - skill{s=AoE-Telegraph-Small} @origin
     - delay 6
     - damage{a=60} @PlayersInRadius{r=1.1} @origin
     - delay 20
@@ -195,7 +195,7 @@ SummoningSphereXerib_hell:
     - sound{s=entity.illusioner.prepare_blindness;v=1.0;p=1.0} @self
     - effect:particles{p=SOUL;amount=80;hS=0.8;vS=0.3} @self
     - delay 14
-    - summon{mob=xerib_orb_hell;amount=1;radius=1;noise=0} @self
+    - summon{type=SLIME;amount=1;radius=1;noise=0} @self
     - GCD{ticks=70}
 
 PoisonMagicProjectile_hell:
@@ -209,7 +209,7 @@ PoisonMagicProjectile_hell:
 
 Q2-PoisonHit-Hell:
   Skills:
-    - callskill{skill=AoE-Telegraph-Small} @origin
+    - skill{s=AoE-Telegraph-Small} @origin
     - delay 6
     - damage{a=120} @PlayersInRadius{r=1.1} @origin
     - delay 20
@@ -240,7 +240,7 @@ SummoningSphereXerib_blood:
     - sound{s=entity.illusioner.prepare_mirror;v=1.0;p=0.8} @self
     - effect:particles{p=ASH;amount=90;hS=0.8;vS=0.35} @self
     - delay 16
-    - summon{mob=xerib_orb_blood;amount=1;radius=1;noise=0} @self
+    - summon{type=SLIME;amount=1;radius=1;noise=0} @self
     - GCD{ticks=80}
 
 PoisonMagicProjectile_blood:
@@ -254,7 +254,7 @@ PoisonMagicProjectile_blood:
 
 Q2-PoisonHit-Blood:
   Skills:
-    - callskill{skill=AoE-Telegraph-Small} @origin
+    - skill{s=AoE-Telegraph-Small} @origin
     - delay 6
     - damage{a=300} @PlayersInRadius{r=1.2} @origin
     - delay 20
@@ -385,7 +385,7 @@ VenomSpit_inf:
   Cooldown: 11
   Skills:
     - message{m="&cArachna spits venom!"} @PlayersInRadius{r=40}
-    - callskill{skill=AoE-Telegraph-Small} @targetlocation
+    - skill{s=AoE-Telegraph-Small} @targetlocation
     - delay 14
     - potion{type=POISON;duration=120;level=1} @target
     - damage{a=150} @target
@@ -395,7 +395,7 @@ VenomSpit_hell:
   Cooldown: 11
   Skills:
     - message{m="&cArachna spits venom!"} @PlayersInRadius{r=40}
-    - callskill{skill=AoE-Telegraph-Small} @targetlocation
+    - skill{s=AoE-Telegraph-Small} @targetlocation
     - delay 12
     - potion{type=POISON;duration=140;level=1} @target
     - damage{a=300} @target
@@ -405,7 +405,7 @@ VenomSpit_blood:
   Cooldown: 12
   Skills:
     - message{m="&cArachna spits venom!"} @PlayersInRadius{r=40}
-    - callskill{skill=AoE-Telegraph-Small} @targetlocation
+    - skill{s=AoE-Telegraph-Small} @targetlocation
     - delay 12
     - potion{type=POISON;duration=160;level=1} @target
     - damage{a=750} @target
