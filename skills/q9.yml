@@ -1,311 +1,357 @@
-# Mission 1 Skills
+#########################
+# WSPÓŁDZIELONE POD-SKILLE FX
+#########################
+
+FX_Serpent_Telegraph:
+  Skills:
+    - sound{s=entity.elder_guardian.curse;v=1.2;p=0.6} @self
+    - effect:particlering{p=SPELL_WITCH;r=3;points=40;amount=1;y=0.2} @self
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=3.4;points=40;amount=1;y=0.1} @self
+
+FX_Poison_Pool_Small:
+  Skills:
+    - effect:particles{p=SLIME;amount=40;hS=0.7;vS=0.05;speed=0.01} @origin
+    - effect:particlering{p=SPELL_MOB;r=2.6;points=36;amount=1;y=0.1} @origin
+    - sound{s=block.brewing_stand.brew;v=0.8;p=1.8} @origin
+    - potion{type=POISON;duration=60;level=1} @PlayersInRadius{r=2.6}
+
+FX_Poison_Pool_Medium:
+  Skills:
+    - effect:particles{p=SLIME;amount=70;hS=1;vS=0.07;speed=0.01} @origin
+    - effect:particlering{p=SPELL_MOB;r=3.2;points=42;amount=1;y=0.1} @origin
+    - sound{s=block.brewing_stand.brew;v=1;p=1.8} @origin
+    - potion{type=POISON;duration=90;level=2} @PlayersInRadius{r=3.2}
+
+FX_Poison_Pool_Large:
+  Skills:
+    - effect:particles{p=SLIME;amount=120;hS=1.3;vS=0.1;speed=0.01} @origin
+    - effect:particlering{p=SPELL_MOB;r=3.8;points=50;amount=1;y=0.1} @origin
+    - sound{s=block.brewing_stand.brew;v=1.1;p=1.8} @origin
+    - potion{type=POISON;duration=120;level=3} @PlayersInRadius{r=3.8}
+
+FX_Ground_Ripples:
+  Skills:
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=2.5;points=30;amount=1;y=0.1} @self
+    - delay 6
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=3.5;points=40;amount=1;y=0.08} @self
+    - delay 6
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=4.5;points=50;amount=1;y=0.06} @self
+
+FX_Shard_Burst:
+  Skills:
+    - sound{s=block.stone.break;v=1.2;p=0.8} @origin
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=60;hS=0.6;vS=0.3;speed=0.01} @origin
+
+#########################
+# ULEPSZONE WERSJE ISTNIEJĄCYCH SKILLI
+#########################
+
+# === HEALING PULSE (ładniejszy telegraph + puls serc) ===
 HealingPulse:
-  Cooldown: 5
+  Cooldown: 6
   Skills:
+    - effect:particlering{p=HEART;r=2.8;points=28;amount=1;y=0.2} @self
+    - sound{s=entity.evoker.prepare_summon;v=0.8;p=1.5} @self
+    - delay 8
     - heal{a=100} @self
-    - effect:particles{p=HEART;amount=10} @self
+    - effect:particles{p=HEART;amount=16;hS=0.5;vS=0.3} @self
 
+HealingPulse_hell:
+  Cooldown: 6
+  Skills:
+    - effect:particlering{p=HEART;r=3.2;points=32;amount=1;y=0.2} @self
+    - sound{s=entity.evoker.prepare_summon;v=0.9;p=1.5} @self
+    - delay 8
+    - heal{a=200} @self
+    - effect:particles{p=HEART;amount=22;hS=0.6;vS=0.35} @self
+
+HealingPulse_blood:
+  Cooldown: 6
+  Skills:
+    - effect:particlering{p=HEART;r=3.6;points=36;amount=1;y=0.2} @self
+    - sound{s=entity.evoker.prepare_summon;v=1;p=1.5} @self
+    - delay 8
+    - heal{a=300} @self
+    - effect:particles{p=HEART;amount=28;hS=0.7;vS=0.4} @self
+
+# === THROW BOULDER (dodatkowe FX, kruszenie przy trafieniu) ===
 ThrowBoulder:
-  Cooldown: 10
+  Cooldown: 9
   Skills:
-    - projectile{onTick=Boulder-Tick;onHit=Boulder-Hit;v=8;i=CLAY_BALL;hR=1;vR=1} @target
+    - sound{s=block.stone.place;v=1;p=0.6} @self
+    - projectile{onTick=Boulder-Tick-VFX;onHit=Boulder-Hit-VFX;v=9;i=CLAY_BALL;hR=1;vR=1} @target
 
-Boulder-Tick:
+ThrowBoulder_hell:
+  Cooldown: 9
   Skills:
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=5} @origin
+    - sound{s=block.stone.place;v=1;p=0.6} @self
+    - projectile{onTick=Boulder-Tick-VFX;onHit=Boulder-Hit-VFX;v=9;i=CLAY_BALL;hR=1;vR=1} @target
 
-Boulder-Hit:
+ThrowBoulder_blood:
+  Cooldown: 8
   Skills:
-    - damage{a=200} @target
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=20} @target
+    - sound{s=block.stone.place;v=1;p=0.6} @self
+    - projectile{onTick=Boulder-Tick-VFX;onHit=Boulder-Hit-VFX;v=10;i=CLAY_BALL;hR=1;vR=1} @target
 
-ChargeAttack:
-  Cooldown: 12
+Boulder-Tick-VFX:
   Skills:
-    - effect:particles{p=CLOUD;amount=20} @self
-    - jump{velocity=2;height=0.5;heim=0} @target
-    - damage{a=200} @target
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=10;hS=0.25;vS=0.1;speed=0.02} @origin
+    - effect:particles{p=CLOUD;amount=1;hS=0;vS=0;speed=0.02} @origin
 
+Boulder-Hit-VFX:
+  Skills:
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @origin
+    - skill{s=FX_Shard_Burst} @origin
+    - damage{a=150} @PlayersInRadius{r=2.8}
+    - potion{type=SLOW;duration=40;level=2} @PlayersInRadius{r=2.8}
+    - sound{s=entity.generic.explode;v=0.9;p=0.8} @origin
+
+# === GROUND SLAM (telegraphed 3-fala) ===
 GroundSlam:
-  Cooldown: 15
+  Cooldown: 14
   Skills:
-    - effect:particles{p=EXPLOSION_LARGE;amount=10;radius=5} @self
-    - delay 40
-    - damage{a=150} @PlayersInRadius{r=5}
-    - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=5}
+    - sound{s=entity.iron_golem.attack;v=1.2;p=0.7} @self
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - skill{s=FX_Ground_Ripples} @self
+    - delay 20
+    - damage{a=150} @PlayersInRadius{r=4.5}
+    - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=4.5}
 
-# Mission 2 Skills
+GroundSlam_hell:
+  Cooldown: 14
+  Skills:
+    - sound{s=entity.iron_golem.attack;v=1.2;p=0.7} @self
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - skill{s=FX_Ground_Ripples} @self
+    - delay 20
+    - damage{a=200} @PlayersInRadius{r=5}
+    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
+
+GroundSlam_blood:
+  Cooldown: 14
+  Skills:
+    - sound{s=entity.iron_golem.attack;v=1.2;p=0.7} @self
+    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - skill{s=FX_Ground_Ripples} @self
+    - delay 20
+    - damage{a=300} @PlayersInRadius{r=5.5}
+    - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5.5}
+
+# === STUNNING BLOW (bardziej czytelny efekt) ===
 StunningBlow:
-  Cooldown: 12
+  Cooldown: 11
   Skills:
+    - effect:particles{p=CRIT;amount=20;hS=0.5;vS=0.5} @target
+    - sound{s=entity.player.attack.crit;v=0.9;p=1.2} @target
     - damage{a=150} @target
-    - potion{type=SLOW;duration=40;level=5} @target
-    - effect:particles{p=CRIT;amount=20} @target
+    - stun{d=40} @target
 
+StunningBlow_hell:
+  Cooldown: 11
+  Skills:
+    - effect:particles{p=CRIT;amount=26;hS=0.5;vS=0.5} @target
+    - sound{s=entity.player.attack.crit;v=1;p=1.2} @target
+    - damage{a=300} @target
+    - stun{d=50} @target
+
+StunningBlow_blood:
+  Cooldown: 11
+  Skills:
+    - effect:particles{p=CRIT;amount=32;hS=0.5;vS=0.5} @target
+    - sound{s=entity.player.attack.crit;v=1.1;p=1.2} @target
+    - damage{a=450} @target
+    - stun{d=60} @target
+
+# === POISON BOLT / ACID SPIT (telegraphed, tworzy kałużę jadu) ===
 PoisonBolt:
   Cooldown: 8
   Skills:
-    - projectile{onTick=Poison-Tick;onHit=Poison-Hit;v=10;i=ARROW;hR=1;vR=1} @target
-
-Poison-Tick:
-  Skills:
-    - effect:particles{p=SPELL_MOB;amount=5} @origin
-
-Poison-Hit:
-  Skills:
-    - damage{a=100} @target
-    - potion{type=POISON;duration=100;level=2} @target
-
-Petrify:
-  Cooldown: 15
-  Skills:
-    - potion{type=SLOW;duration=40;level=10} @target
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=30} @target
-
-GroundPound:
-  Cooldown: 15
-  Skills:
-    - effect:particles{p=EXPLOSION_LARGE;amount=10;radius=5} @self
-    - delay 40
-    - damage{a=100} @PlayersInRadius{r=5}
-    - potion{type=SLOW;duration=40;level=2} @PlayersInRadius{r=5}
-
-PowerfulStrike:
-  Cooldown: 10
-  Skills:
-    - damage{a=300} @target
-    - effect:particles{p=EXPLOSION_LARGE;amount=1} @target
-
-# Mission 3 Boss Skills
-PetrifyingGaze:
-  Cooldown: 15
-  Skills:
-    - message{m="&cMedusa's gaze turns you to stone!"} @PlayersInRadius{r=10}
-    - potion{type=SLOW;duration=60;level=10} @PlayersInRadius{r=10}
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=50} @PlayersInRadius{r=10}
-
-AcidSpit:
-  Cooldown: 10
-  Skills:
-    - projectile{onTick=Acid-Tick;onHit=Acid-Hit;v=8;i=DRAGON_BREATH;hR=1;vR=1} @target
-
-Acid-Tick:
-  Skills:
-    - effect:particles{p=SPELL_WITCH;amount=5} @origin
-
-Acid-Hit:
-  Skills:
-    - damage{a=200} @target
-    - potion{type=POISON;duration=60;level=2} @target
-
-SummonSnakes:
-  Cooldown: 20
-  Skills:
-    - message{m="&cMedusa summons her serpentine minions!"} @PlayersInRadius{r=20}
-    - summon{mob=snake_minion_inf;amount=4;radius=3} @self
-
-SnakeExplosion:
-  Skills:
-    - damage{a=150} @PlayersInRadius{r=3}
-    - potion{type=SLOW;duration=40;level=2} @PlayersInRadius{r=3}
-    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
-
-# Mission 1 Skills
-HealingPulse_hell:
-  Cooldown: 5
-  Skills:
-    - heal{a=200} @self  # 2x healing
-    - effect:particles{p=HEART;amount=10} @self
-
-ThrowBoulder_hell:
-  Cooldown: 10
-  Skills:
-    - projectile{onTick=Boulder-Tick-Hell;onHit=Boulder-Hit-Hell;v=8;i=CLAY_BALL;hR=1;vR=1} @target
-
-Boulder-Hit-Hell:
-  Skills:
-    - damage{a=400} @target  # 2x200
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=20} @target
-
-ChargeAttack_hell:
-  Cooldown: 12
-  Skills:
-    - effect:particles{p=CLOUD;amount=20} @self
-    - jump{velocity=2;height=0.5;heim=0} @target
-    - damage{a=400} @target
-
-GroundSlam_hell:
-  Cooldown: 15
-  Skills:
-    - effect:particles{p=EXPLOSION_LARGE;amount=10;radius=5} @self
-    - delay 40
-    - damage{a=300} @PlayersInRadius{r=5}  # 2x150
-    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
-
-# Mission 2 Skills
-StunningBlow_hell:
-  Cooldown: 12
-  Skills:
-    - damage{a=300} @target  # 2x150
-    - potion{type=SLOW;duration=60;level=6} @target
-    - effect:particles{p=CRIT;amount=20} @target
+    - effect:particlering{p=SPELL_MOB;r=1.6;points=20;amount=1;y=0.1} @self
+    - projectile{onTick=Poison-Tick-VFX;onHit=Poison-Hit-Pool-S;v=10;i=ARROW;hR=1;vR=1} @target
 
 PoisonBolt_hell:
   Cooldown: 8
   Skills:
-    - projectile{onTick=Poison-Tick-Hell;onHit=Poison-Hit-Hell;v=10;i=ARROW;hR=1;vR=1} @target
-
-Poison-Hit-Hell:
-  Skills:
-    - damage{a=200} @target  # 2x100
-    - potion{type=POISON;duration=120;level=3} @target
-
-Petrify_hell:
-  Cooldown: 15
-  Skills:
-    - potion{type=SLOW;duration=60;level=10} @target
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=30} @target
-
-GroundPound_hell:
-  Cooldown: 15
-  Skills:
-    - effect:particles{p=EXPLOSION_LARGE;amount=10;radius=5} @self
-    - delay 40
-    - damage{a=200} @PlayersInRadius{r=5}  # 2x100
-    - potion{type=SLOW;duration=60;level=3} @PlayersInRadius{r=5}
-
-PowerfulStrike_hell:
-  Cooldown: 10
-  Skills:
-    - damage{a=600} @target  # 2x300
-    - effect:particles{p=EXPLOSION_LARGE;amount=1} @target
-
-# Mission 3 Boss Skills
-PetrifyingGaze_hell:
-  Cooldown: 15
-  Skills:
-    - message{m="&cMedusa's gaze turns you to stone!"} @PlayersInRadius{r=10}
-    - potion{type=SLOW;duration=80;level=10} @PlayersInRadius{r=10}
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=50} @PlayersInRadius{r=10}
-
-AcidSpit_hell:
-  Cooldown: 10
-  Skills:
-    - projectile{onTick=Acid-Tick-Hell;onHit=Acid-Hit-Hell;v=8;i=DRAGON_BREATH;hR=1;vR=1} @target
-
-Acid-Hit-Hell:
-  Skills:
-    - damage{a=400} @target  # 2x200
-    - potion{type=POISON;duration=80;level=3} @target
-
-SummonSnakes_hell:
-  Cooldown: 20
-  Skills:
-    - message{m="&cMedusa summons her serpentine minions!"} @PlayersInRadius{r=20}
-    - summon{mob=snake_minion_hell;amount=4;radius=3} @self
-
-SnakeExplosion_hell:
-  Skills:
-    - damage{a=300} @PlayersInRadius{r=3}  # 2x150
-    - potion{type=SLOW;duration=60;level=3} @PlayersInRadius{r=3}
-    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
-
-# Mission 1 Skills - Blood Version (5x damage)
-HealingPulse_blood:
-  Cooldown: 5
-  Skills:
-    - heal{a=500} @self  # 5x healing
-    - effect:particles{p=HEART;amount=10} @self
-
-ThrowBoulder_blood:
-  Cooldown: 10
-  Skills:
-    - projectile{onTick=Boulder-Tick-Blood;onHit=Boulder-Hit-Blood;v=8;i=CLAY_BALL;hR=1;vR=1} @target
-
-Boulder-Hit-Blood:
-  Skills:
-    - damage{a=1000} @target  # 5x200
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=20} @target
-
-ChargeAttack_blood:
-  Cooldown: 12
-  Skills:
-    - effect:particles{p=CLOUD;amount=20} @self
-    - jump{velocity=2;height=0.5;heim=0} @target
-    - damage{a=1000} @target
-
-GroundSlam_blood:
-  Cooldown: 15
-  Skills:
-    - effect:particles{p=EXPLOSION_LARGE;amount=10;radius=5} @self
-    - delay 40
-    - damage{a=750} @PlayersInRadius{r=5}  # 5x150
-    - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5}
-
-# Mission 2 Skills
-StunningBlow_blood:
-  Cooldown: 12
-  Skills:
-    - damage{a=750} @target  # 5x150
-    - potion{type=SLOW;duration=80;level=7} @target
-    - effect:particles{p=CRIT;amount=20} @target
+    - effect:particlering{p=SPELL_MOB;r=1.8;points=22;amount=1;y=0.1} @self
+    - projectile{onTick=Poison-Tick-VFX;onHit=Poison-Hit-Pool-M;v=10;i=ARROW;hR=1;vR=1} @target
 
 PoisonBolt_blood:
   Cooldown: 8
   Skills:
-    - projectile{onTick=Poison-Tick-Blood;onHit=Poison-Hit-Blood;v=10;i=ARROW;hR=1;vR=1} @target
+    - effect:particlering{p=SPELL_MOB;r=2;points=24;amount=1;y=0.1} @self
+    - projectile{onTick=Poison-Tick-VFX;onHit=Poison-Hit-Pool-L;v=11;i=ARROW;hR=1;vR=1} @target
 
-Poison-Hit-Blood:
+Poison-Tick-VFX:
   Skills:
-    - damage{a=500} @target  # 5x100
-    - potion{type=POISON;duration=140;level=4} @target
+    - effect:particles{p=SPELL_WITCH;amount=3;hS=0.05;vS=0.05} @origin
+    - effect:particles{p=SLIME;amount=1;hS=0.03;vS=0.03} @origin
+
+Poison-Hit-Pool-S:
+  Skills:
+    - damage{a=100} @target
+    - sound{s=entity.sniffer.hurt;v=0.7;p=1.6} @origin
+    - skill{s=FX_Poison_Pool_Small} @origin
+
+Poison-Hit-Pool-M:
+  Skills:
+    - damage{a=200} @target
+    - sound{s=entity.sniffer.hurt;v=0.8;p=1.6} @origin
+    - skill{s=FX_Poison_Pool_Medium} @origin
+
+Poison-Hit-Pool-L:
+  Skills:
+    - damage{a=300} @target
+    - sound{s=entity.sniffer.hurt;v=0.9;p=1.6} @origin
+    - skill{s=FX_Poison_Pool_Large} @origin
+
+# === PETRIFYING GAZE (czytelny stożek + narastanie do skamienienia) ===
+PetrifyingGaze:
+  Cooldown: 16
+  Skills:
+    - skill{s=FX_Serpent_Telegraph}
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=4;points=40;amount=1;y=0.1} @self 
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=7;points=60;amount=1;y=0.1} @self
+    - sound{s=entity.warden.sonic_boom;v=0.5;p=1.8} @self
+    - potion{type=SLOW;duration=40;level=6} @PlayersInRadius{r=10}
+    - delay 10
+    - stun{d=30} @PlayersInRadius{r=10}
+
+Petrify_hell:
+  Cooldown: 15
+  Skills:
+    - skill{s=FX_Serpent_Telegraph}
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=4.5;points=50;amount=1;y=0.1} @self 
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=8;points=70;amount=1;y=0.1} @self
+    - sound{s=entity.warden.sonic_boom;v=0.6;p=1.8} @self
+    - potion{type=SLOW;duration=60;level=8} @PlayersInRadius{r=11}
+    - delay 12
+    - stun{d=40} @PlayersInRadius{r=11}
 
 Petrify_blood:
-  Cooldown: 15
+  Cooldown: 14
   Skills:
-    - potion{type=SLOW;duration=80;level=10} @target
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=30} @target
+    - skill{s=FX_Serpent_Telegraph}
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=5;points=60;amount=1;y=0.1} @self 
+    - effect:particlering{p=BLOCK_CRACK;material=STONE;r=9;points=80;amount=1;y=0.1} @self
+    - sound{s=entity.warden.sonic_boom;v=0.7;p=1.8} @self
+    - potion{type=SLOW;duration=80;level=10} @PlayersInRadius{r=12}
+    - delay 14
+    - stun{d=60} @PlayersInRadius{r=12}
 
-GroundPound_blood:
-  Cooldown: 15
+# === SUMMON SNAKES (spirala + efekty) ===
+SummonSnakes:
+  Cooldown: 20
   Skills:
-    - effect:particles{p=EXPLOSION_LARGE;amount=10;radius=5} @self
-    - delay 40
-    - damage{a=500} @PlayersInRadius{r=5}  # 5x100
-    - potion{type=SLOW;duration=80;level=4} @PlayersInRadius{r=5}
+    - message{m="&a&lSssss... &7Węże pełzną spod ziemi!"} @PlayersInRadius{r=20}
+    - sound{s=entity.witch.celebrate;v=0.8;p=1.6} @self
+    - effect:particlering{p=SLIME;r=3.5;points=80;amount=1;y=0.1} @self 
+    - effect:particlering{p=SLIME;r=2;points=40;amount=1;y=0.3} @self
+    - summon{mob=snake_minion_inf;amount=3;radius=3} @self
 
-PowerfulStrike_blood:
-  Cooldown: 10
+SummonSnakes_hell:
+  Cooldown: 20
   Skills:
-    - damage{a=1500} @target  # 5x300
-    - effect:particles{p=EXPLOSION_LARGE;amount=1} @target
-
-# Mission 3 Boss Skills
-PetrifyingGaze_blood:
-  Cooldown: 15
-  Skills:
-    - message{m="&cMedusa's gaze turns you to stone!"} @PlayersInRadius{r=10}
-    - potion{type=SLOW;duration=100;level=10} @PlayersInRadius{r=10}
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=50} @PlayersInRadius{r=10}
-
-AcidSpit_blood:
-  Cooldown: 10
-  Skills:
-    - projectile{onTick=Acid-Tick-Blood;onHit=Acid-Hit-Blood;v=8;i=DRAGON_BREATH;hR=1;vR=1} @target
-
-Acid-Hit-Blood:
-  Skills:
-    - damage{a=1000} @target  # 5x200
-    - potion{type=POISON;duration=100;level=4} @target
+    - message{m="&a&lSssss... &7Gniazdo jadu budzi się!"} @PlayersInRadius{r=20}
+    - sound{s=entity.witch.celebrate;v=0.9;p=1.6} @self
+    - effect:particlering{p=SLIME;r=4;points=90;amount=1;y=0.1} @self 
+    - effect:particlering{p=SLIME;r=2.5;points=45;amount=1;y=0.3} @self
+    - summon{mob=snake_minion_hell;amount=4;radius=3} @self
 
 SummonSnakes_blood:
   Cooldown: 20
   Skills:
-    - message{m="&cMedusa summons her serpentine minions!"} @PlayersInRadius{r=20}
-    - summon{mob=snake_minion_blood;amount=4;radius=3} @self
+    - message{m="&a&lSssss... &7Legowisko węży otwiera się!"} @PlayersInRadius{r=20}
+    - sound{s=entity.witch.celebrate;v=1;p=1.6} @self
+    - effect:particlering{p=SLIME;r=4.5;points=100;amount=1;y=0.1} @self 
+    - effect:particlering{p=SLIME;r=3;points=50;amount=1;y=0.3} @self
+    - summon{mob=snake_minion_blood;amount=5;radius=3} @self
+
+# === SNAKE EXPLOSION (czytelny radius + wspólne FX) ===
+SnakeExplosion:
+  Skills:
+    - effect:particlering{p=SLIME;r=3;points=40;amount=1;y=0.1} @self
+    - sound{s=entity.generic.explode;v=0.7;p=1.4} @self
+    - damage{a=150} @PlayersInRadius{r=3}
+    - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=3}
+
+SnakeExplosion_hell:
+  Skills:
+    - effect:particlering{p=SLIME;r=3.2;points=44;amount=1;y=0.1} @self
+    - sound{s=entity.generic.explode;v=0.8;p=1.4} @self
+    - damage{a=300} @PlayersInRadius{r=3.2}
+    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=3.2}
 
 SnakeExplosion_blood:
   Skills:
-    - damage{a=750} @PlayersInRadius{r=3}  # 5x150
-    - potion{type=SLOW;duration=80;level=4} @PlayersInRadius{r=3}
-    - effect:particles{p=EXPLOSION_LARGE;amount=1} @self
+    - effect:particlering{p=SLIME;r=3.5;points=48;amount=1;y=0.1} @self
+    - sound{s=entity.generic.explode;v=0.9;p=1.4} @self
+    - damage{a=450} @PlayersInRadius{r=3.5}
+    - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=3.5}
+
+# === CHARGE ATTACK (szarża ze smugą) ===
+ChargeAttack:
+  Cooldown: 11
+  Skills:
+    - sound{s=entity.goat.screaming.ambient;v=0.9;p=1.5} @self
+    - effect:particles{p=CLOUD;amount=20;hS=0.6;vS=0.1} @self
+    - leap{velocity=2;height=0.5} @target
+    - effect:particleline{p=SWEEP_ATTACK;ys=0.1;d=3;points=15} @self
+    - damage{a=200} @target
+
+ChargeAttack_hell:
+  Cooldown: 11
+  Skills:
+    - sound{s=entity.goat.screaming.ambient;v=1;p=1.5} @self
+    - effect:particles{p=CLOUD;amount=24;hS=0.6;vS=0.1} @self
+    - leap{velocity=2.2;height=0.5} @target
+    - effect:particleline{p=SWEEP_ATTACK;ys=0.1;d=3.2;points=16} @self
+    - damage{a=400} @target
+
+ChargeAttack_blood:
+  Cooldown: 10
+  Skills:
+    - sound{s=entity.goat.screaming.ambient;v=1.1;p=1.5} @self
+    - effect:particles{p=CLOUD;amount=28;hS=0.6;vS=0.1} @self
+    - leap{velocity=2.4;height=0.5} @target
+    - effect:particleline{p=SWEEP_ATTACK;ys=0.1;d=3.4;points=17} @self
+    - damage{a=600} @target
+
+# === OPCJONALNE DODATKI ===
+SatyrWarCry:
+  Skills:
+    - sound{s=entity.goat.screaming.angry;v=1;p=0.9} @self
+    - effect:particlering{p=VILLAGER_ANGRY;r=2;points=20;amount=1;y=0.2} @self
+    - potion{type=INCREASE_DAMAGE;duration=100;level=1} @self
+
+SatyrWarCry_hell:
+  Skills:
+    - sound{s=entity.goat.screaming.angry;v=1.1;p=0.9} @self
+    - effect:particlering{p=VILLAGER_ANGRY;r=2.3;points=22;amount=1;y=0.2} @self
+    - potion{type=INCREASE_DAMAGE;duration=120;level=2} @self
+
+SatyrWarCry_blood:
+  Skills:
+    - sound{s=entity.goat.screaming.angry;v=1.2;p=0.9} @self
+    - effect:particlering{p=VILLAGER_ANGRY;r=2.6;points=24;amount=1;y=0.2} @self
+    - potion{type=INCREASE_DAMAGE;duration=140;level=3} @self
+
+StoneShatter:
+  Skills:
+    - sound{s=block.stone.break;v=1.2;p=0.8} @self
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=40;hS=0.6;vS=0.2;speed=0.05} @self
+    - damage{a=150} @PlayersInRadius{r=3}
+    - potion{type=SLOW;duration=40;level=1} @PlayersInRadius{r=3}
+
+StoneShatter_hell:
+  Skills:
+    - sound{s=block.stone.break;v=1.3;p=0.8} @self
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=60;hS=0.7;vS=0.25;speed=0.05} @self
+    - damage{a=300} @PlayersInRadius{r=3.2}
+    - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=3.2}
+
+StoneShatter_blood:
+  Skills:
+    - sound{s=block.stone.break;v=1.4;p=0.8} @self
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=80;hS=0.8;vS=0.3;speed=0.05} @self
+    - damage{a=450} @PlayersInRadius{r=3.5}
+    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=3.5}

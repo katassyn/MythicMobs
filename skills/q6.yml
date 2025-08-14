@@ -2,350 +2,505 @@
 DeathExplosion:
   Cooldown: 1
   Skills:
-    - message{m="&cDeath explosion imminent!"} @PlayersInRadius{r=10}
-    - delay 20
-    - damage{a=200} @PlayersInRadius{r=3}
-    - effect:particles{p=EXPLOSION_LARGE;amount=20} @self
+  - message{m="&cA &lDeath Explosion&r is coming! &7(Run!)"} @PlayersInRadius{r=12}
+  - sound{s=entity.wither.spawn;v=1;p=0.8} @self
+  - effect:particles{p=SMOKE_LARGE;amount=30;radius=2;y=0.2} @self
+  - delay 10
+  - effect:particles{p=SMOKE_LARGE;amount=40;radius=3;y=0.2} @self
+  - delay 10
+  - effect:particles{p=SMOKE_LARGE;amount=60;radius=4;y=0.2} @self
+  - delay 10
+  - effect:particles{p=DRAGON_BREATH;amount=80;radius=5;y=0.2} @self
+  - delay 10
+  - damage{a=220} @PlayersInRadius{r=4}
+  - potion{type=WITHER;duration=80;level=1} @PlayersInRadius{r=4}
+  - ignite{ticks=60} @PlayersInRadius{r=4}
+  - effect:particles{p=EXPLOSION_HUGE;amount=1} @self
+  - sound{s=entity.generic.explode;v=1;p=1} @self
+  - summon{mob=raging_soul_inf;amount=2;radius=3} @self
 
-# Mission 2 Skills
 WitheringShot:
   Cooldown: 10
   Skills:
-    - message{m="&6<mob.name>&f draws a withering arrow!"} @PlayersInRadius{r=30}
-    - effect:particles{p=SMOKE_LARGE;amount=10;radius=1} @self
-    - delay 20
-    - shoot{type=ARROW;velocity=30;damage=200} @Target
-    - potion{type=WITHER;duration=60;level=1} @Target
+  - message{m="&6<mob.name>&f draws a bowstring tainted with darkness!"} @PlayersInRadius{r=30}
+  - sound{s=entity.skeleton.shoot;v=1;p=1.2} @self
+  - effect:particles{p=SMOKE_LARGE;amount=12;radius=1} @self
+  - delay 15
+  - shoot{type=ARROW;velocity=30;damage=220;spread=12;amount=3} @Target
+  - potion{type=WITHER;duration=80;level=1} @Target
 
 MeteorStrike:
   Cooldown: 15
   Skills:
-    - message{m="&5Murot calls down a meteor!"} @PlayersInRadius{r=30}
-    - effect:particles{p=FLAME;amount=50} @target
-    - delay 20
-    - damage{a=300} @PlayersInRadius{r=5}
-    - effect:particles{p=EXPLOSION_HUGE;amount=1} @target
+  - message{m="&5<mob.name>&f summons a &dMeteor!"} @PlayersInRadius{r=30}
+  - sound{s=entity.ender_dragon.growl;v=1;p=0.6} @target
+  - effect:particles{p=FLAME;amount=80} @target
+  - effect:particles{p=SMOKE_LARGE;amount=60} @target
+  - delay 40
+  - damage{a=320} @PlayersInRadius{r=5}
+  - ignite{ticks=80} @PlayersInRadius{r=5}
+  - effect:particles{p=EXPLOSION_HUGE;amount=1} @target
+  - sound{s=entity.generic.explode;v=1;p=1} @target
 
 HomingOrb:
   Cooldown: 10
   Skills:
-    - message{m="&5<mob.name>&f forms a homing orb!"} @PlayersInRadius{r=30}
-    - effect:particles{p=DRAGON_BREATH;amount=20;radius=1} @self
-    - delay 20
-    - projectile{onTick=Orb-Tick;onHit=Orb-Hit;v=8;i=DRAGON_BREATH;hR=1;vR=1;sF=true} @target
+  - message{m="&5<mob.name>&f forms a &dNecro Orb&f that &ltracks&f its target!"} @PlayersInRadius{r=30}
+  - effect:particles{p=DRAGON_BREATH;amount=30;radius=1} @self
+  - sound{s=block.beacon.ambient;v=1;p=1} @self
+  - delay 10
+  - projectile{onTick=Orb-Tick;onHit=Orb-Hit;v=8;i=DRAGON_BREATH;hR=1;vR=1;sF=true} @Target
+  - delay 20
+  - projectile{onTick=Orb-Tick;onHit=Orb-Hit;v=8;i=DRAGON_BREATH;hR=1;vR=1;sF=true} @Target
 
 Orb-Tick:
   Skills:
-    - effect:particles{p=SPELL_WITCH;amount=5} @origin
+  - effect:particles{p=SPELL_WITCH;amount=6;hS=0.2;vS=0.2} @origin
+  - sound{s=block.enchantment_table.use;v=0.6;p=2} @origin
 
 Orb-Hit:
   Skills:
-    - damage{a=150} @target
-    - effect:particles{p=SPELL;amount=20} @target
+  - damage{a=170} @target
+  - potion{type=SLOW;duration=60;level=1} @target
+  - potion{type=WEAKNESS;duration=60;level=1} @target
+  - effect:particles{p=SPELL;amount=25} @target
+  - sound{s=entity.witch.celebrate;v=1;p=0.8} @target
 
-# Mission 3 Boss Skills
 DragonBreath:
-  Cooldown: 15
+  Cooldown: 12
   Skills:
-    - message{m="&6Skeledragon inhales deeply, preparing its fiery breath!"} @PlayersInRadius{r=30}
-    - effect:particles{p=SMOKE_LARGE;amount=75;radius=10} @self
-    - delay 40
-    - message{m="&cSkeledragon unleashes its breath!"} @PlayersInRadius{r=30}
-    - effect:particles{p=DRAGON_BREATH;amount=100;radius=10} @Forward{f=20}
-    - damage{a=200} @Forward{f=20;spread=0}
-    - ignite{ticks=60} @Forward{f=20;spread=0}
+  - message{m="&c<&skull>&f Dragon Breath!"} @PlayersInRadius{r=35}
+  - sound{s=entity.ender_dragon.shoot;v=1.2;p=0.8} @self
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=6;y=0.2} @self
+  - damage{a=90} @PlayersInRadius{r=6}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=6;y=0.2} @self
+  - damage{a=90} @PlayersInRadius{r=6}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=6;y=0.2} @self
+  - damage{a=90} @PlayersInRadius{r=6}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=6;y=0.2} @self
+  - damage{a=90} @PlayersInRadius{r=6}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=6;y=0.2} @self
+  - damage{a=90} @PlayersInRadius{r=6}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=6;y=0.2} @self
+  - damage{a=90} @PlayersInRadius{r=6}
+  - delay 5
 
 ScytheWhirlwind:
-  Cooldown: 20
+  Cooldown: 16
   Skills:
-    # Telegraph: warn players before the whirlwind starts so they can dodge
-    - message{m="&6Skeledragon raises its scythe, winds swirling!"} @PlayersInRadius{r=30}
-    - effect:particles{p=CLOUD;amount=100;radius=10} @self
-    - delay 40
-    - message{m="&cWhirling scythe attack incoming!"} @PlayersInRadius{r=30}
-    - effect:particles{p=SPELL_WITCH;amount=100;radius=10} @self
-    - delay 60
-    - damage{a=400} @PlayersInRadius{r=10}
+  - message{m="&7<mob.name>&f whirls its blade!"} @PlayersInRadius{r=25}
+  - sound{s=entity.player.attack.sweep;v=1.2;p=1} @self
+  - effect:particles{p=SWEEP_ATTACK;amount=40;radius=5;y=0.2} @self
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=4;y=0.2} @self
+  - damage{a=140} @PlayersInRadius{r=4}
+  - delay 6
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=4;y=0.2} @self
+  - damage{a=140} @PlayersInRadius{r=4}
+  - delay 6
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=4;y=0.2} @self
+  - damage{a=140} @PlayersInRadius{r=4}
+  - delay 6
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=4;y=0.2} @self
+  - damage{a=140} @PlayersInRadius{r=4}
+  - delay 6
 
 DeathDash:
-  Cooldown: 10
+  Cooldown: 12
   Skills:
-    # Telegraph: make the dash clearly visible and give players time to react
-    - message{m="&6Skeledragon fixates on its prey, ready to dash!"} @PlayersInRadius{r=30}
-    - effect:particles{p=VILLAGER_ANGRY;amount=30;radius=5} @self
-    - delay 20
-    - effect:particles{p=SMOKE_LARGE;amount=50} @self
-    - delay 30
-    - teleport @Target
-    - damage{a=500} @Target
+  - message{m="&8<mob.name>&f vanishes into shadowy snow!"} @PlayersInRadius{r=25}
+  - effect:particles{p=SMOKE_LARGE;amount=40;radius=1} @self
+  - sound{s=entity.enderman.teleport;v=1;p=1} @self
+  - delay 5
+  - teleport @Target
+  - damage{a=220} @PlayersInRadius{r=2}
+  - effect:particles{p=CRIT_MAGIC;amount=40;radius=2} @self
+  - sound{s=entity.player.attack.strong;v=1;p=1} @self
+
 HealingPulse:
-  Cooldown: 15
+  Cooldown: 20
   Skills:
-    - heal{a=500} @self
-    - effect:particles{p=HEART;amount=20} @self
+  - message{m="&a<&sparkles>&f Healing pulse!"} @PlayersInRadius{r=30}
+  - heal{a=600} @self
+  - potion{type=REGENERATION;duration=100;level=1} @self
+  - effect:particles{p=HEART;amount=30} @self
+  - sound{s=entity.experience_orb.pickup;v=1;p=1.8} @self
 
 DeathZone:
   Cooldown: 25
   Skills:
-    # Telegraph: give players a clear warning and longer window to escape the Death Zone
-    - message{m="&6A sinister aura gathers... Skeledragon is creating a death zone! Move away!"} @PlayersInRadius{r=30}
-    - effect:particles{p=REDSTONE;amount=100;radius=10} @target
-    - delay 60
-    - damage{a=99999} @PlayersInRadius{r=3}
-    - effect:particles{p=EXPLOSION_HUGE;amount=10} @target
+  - message{m="&6A dark zone is forming... &cMOVE AWAY!"} @PlayersInRadius{r=35}
+  - effect:particles{p=REDSTONE;amount=120;radius=6;y=0.2} @target
+  - sound{s=block.portal.ambient;v=1;p=0.6} @target
+  - delay 30
+  - effect:particles{p=SOUL;amount=160;radius=5;y=0.2} @target
+  - delay 30
+  - damage{a=99999} @PlayersInRadius{r=4}
+  - effect:particles{p=EXPLOSION_HUGE;amount=1} @target
+  - sound{s=entity.generic.explode;v=1;p=1} @target
 
 SummonDragon:
-  Cooldown: 60
   Skills:
-    - message{m="&cMortis summons Skeledragon!"} @PlayersInRadius{r=30}
-    - summon{mob=skeledragon_phase1_inf;amount=1;radius=5} @self
+  - message{m="&cMortis joins the fight!"} @PlayersInRadius{r=30}
+  - sound{s=entity.ender_dragon.growl;v=1.2;p=0.8} @self
+  - summon{mob=skeledragon_phase2_inf;amount=1;radius=0} @self
 
 SummonPhase2:
   Skills:
-    # Telegraph: announce Mortis' arrival before spawning phase 2 mobs
-    - message{m="&6Mortis whistles for his steed, preparing phase two!"} @PlayersInRadius{r=30}
-    - effect:particles{p=VILLAGER_HAPPY;amount=50;radius=5} @self
-    - delay 40
-    - message{m="&cMortis joins the battle!"} @PlayersInRadius{r=30}
-    - summon{mob=skeledragon_phase2_inf;amount=1;radius=0} @self
-    - summon{mob=death_archer_inf;amount=3;radius=5} @self
-    - summon{mob=elite_skeleton_archer_inf;amount=10;radius=5} @self
-    - summon{mob=elite_skeleton_warrior_inf;amount=10;radius=5} @self
+  - message{m="&5Murot calls for support!"} @PlayersInRadius{r=30}
+  - sound{s=entity.evoker.prepare_summon;v=1.2;p=1} @self
+  - delay 60
+  - summon{mob=skeledragon_phase2_inf;amount=1;radius=0} @self
+  - summon{mob=death_archer_inf;amount=3;radius=5} @self
+  - summon{mob=elite_skeleton_archer_inf;amount=6;radius=6} @self
+  - summon{mob=elite_skeleton_warrior_inf;amount=6;radius=6} @self
 
 SummonPhase3:
   Skills:
-    - message{m="&cMortis breaks free!"} @PlayersInRadius{r=30}
-    - delay 100
-    - summon{mob=mortis_phase3_inf;amount=1;radius=0} @self
+  - message{m="&cMortis breaks free!"} @PlayersInRadius{r=30}
+  - sound{s=entity.wither.spawn;v=1.2;p=0.7} @self
+  - delay 80
+  - summon{mob=mortis_phase3_inf;amount=1;radius=0} @self
 
 # Mission 1 Skills - Hell version (2x damage)
 DeathExplosion_hell:
   Cooldown: 1
   Skills:
-    - message{m="&cDeath explosion imminent!"} @PlayersInRadius{r=10}
-    - delay 20
-    - damage{a=400} @PlayersInRadius{r=3}  # 2x200
-    - effect:particles{p=EXPLOSION_LARGE;amount=20} @self
+  - message{m="&cA &lDeath Explosion&r is coming! &7(Run!)"} @PlayersInRadius{r=12}
+  - sound{s=entity.wither.spawn;v=1;p=0.8} @self
+  - effect:particles{p=SMOKE_LARGE;amount=30;radius=3;y=0.2} @self
+  - delay 10
+  - effect:particles{p=SMOKE_LARGE;amount=40;radius=4;y=0.2} @self
+  - delay 10
+  - effect:particles{p=SMOKE_LARGE;amount=60;radius=5;y=0.2} @self
+  - delay 10
+  - effect:particles{p=DRAGON_BREATH;amount=80;radius=6;y=0.2} @self
+  - delay 10
+  - damage{a=500} @PlayersInRadius{r=5}
+  - potion{type=WITHER;duration=100;level=1} @PlayersInRadius{r=5}
+  - ignite{ticks=60} @PlayersInRadius{r=5}
+  - effect:particles{p=EXPLOSION_HUGE;amount=1} @self
+  - sound{s=entity.generic.explode;v=1;p=1} @self
+  - summon{mob=raging_soul_hell;amount=2;radius=3} @self
 
 # Mission 2 Skills
 WitheringShot_hell:
   Cooldown: 10
   Skills:
-    - message{m="&6<mob.name>&f draws a withering arrow!"} @PlayersInRadius{r=30}
-    - effect:particles{p=SMOKE_LARGE;amount=10;radius=1} @self
-    - delay 20
-    - shoot{type=ARROW;velocity=30;damage=400} @Target  # 2x200
-    - potion{type=WITHER;duration=80;level=2} @Target
+  - message{m="&6<mob.name>&f draws a bowstring tainted with darkness!"} @PlayersInRadius{r=30}
+  - sound{s=entity.skeleton.shoot;v=1;p=1.2} @self
+  - effect:particles{p=SMOKE_LARGE;amount=12;radius=1} @self
+  - delay 15
+  - shoot{type=ARROW;velocity=30;damage=450;spread=12;amount=4} @Target
+  - potion{type=WITHER;duration=100;level=2} @Target
 
 MeteorStrike_hell:
   Cooldown: 15
   Skills:
-    - message{m="&5Murot calls down a meteor!"} @PlayersInRadius{r=30}
-    - effect:particles{p=FLAME;amount=50} @target
-    - delay 20
-    - damage{a=600} @PlayersInRadius{r=5}  # 2x300
-    - effect:particles{p=EXPLOSION_HUGE;amount=1} @target
+  - message{m="&5<mob.name>&f summons a &dMeteor!"} @PlayersInRadius{r=30}
+  - sound{s=entity.ender_dragon.growl;v=1;p=0.6} @target
+  - effect:particles{p=FLAME;amount=80} @target
+  - effect:particles{p=SMOKE_LARGE;amount=60} @target
+  - delay 40
+  - damage{a=650} @PlayersInRadius{r=6}
+  - ignite{ticks=120} @PlayersInRadius{r=6}
+  - effect:particles{p=EXPLOSION_HUGE;amount=1} @target
+  - sound{s=entity.generic.explode;v=1;p=1} @target
 
 HomingOrb_hell:
   Cooldown: 10
   Skills:
-    - message{m="&5<mob.name>&f forms a homing orb!"} @PlayersInRadius{r=30}
-    - effect:particles{p=DRAGON_BREATH;amount=20;radius=1} @self
-    - delay 20
-    - projectile{onTick=Orb-Tick-Hell;onHit=Orb-Hit-Hell;v=8;i=DRAGON_BREATH;hR=1;vR=1;sF=true} @target
+  - message{m="&5<mob.name>&f forms a &dNecro Orb&f that &ltracks&f its target!"} @PlayersInRadius{r=30}
+  - effect:particles{p=DRAGON_BREATH;amount=30;radius=1} @self
+  - sound{s=block.beacon.ambient;v=1;p=1} @self
+  - delay 10
+  - projectile{onTick=Orb-Tick;onHit=Orb-Hit;v=8;i=DRAGON_BREATH;hR=1;vR=1;sF=true} @Target
+  - delay 20
+  - projectile{onTick=Orb-Tick;onHit=Orb-Hit-Hell;v=8;i=DRAGON_BREATH;hR=1;vR=1;sF=true} @Target
 
 Orb-Hit-Hell:
   Skills:
-    - damage{a=300} @target  # 2x150
-    - effect:particles{p=SPELL;amount=20} @target
+  - damage{a=300} @target
+  - effect:particles{p=SPELL;amount=20} @target
 
 # Mission 3 Boss Skills
 DragonBreath_hell:
-  Cooldown: 15
+  Cooldown: 12
   Skills:
-    - message{m="&6Skeledragon inhales deeply, preparing its fiery breath!"} @PlayersInRadius{r=30}
-    - effect:particles{p=SMOKE_LARGE;amount=75;radius=10} @self
-    - delay 40
-    - message{m="&cSkeledragon unleashes its breath!"} @PlayersInRadius{r=30}
-    - effect:particles{p=DRAGON_BREATH;amount=100;radius=10} @Forward{f=20}
-    - damage{a=400} @Forward{f=20;spread=0}  # 2x200
-    - ignite{ticks=80} @Forward{f=20;spread=0}
+  - message{m="&c<&skull>&f Dragon Breath!"} @PlayersInRadius{r=35}
+  - sound{s=entity.ender_dragon.shoot;v=1.2;p=0.8} @self
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=7;y=0.2} @self
+  - damage{a=140} @PlayersInRadius{r=7}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=7;y=0.2} @self
+  - damage{a=140} @PlayersInRadius{r=7}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=7;y=0.2} @self
+  - damage{a=140} @PlayersInRadius{r=7}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=7;y=0.2} @self
+  - damage{a=140} @PlayersInRadius{r=7}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=7;y=0.2} @self
+  - damage{a=140} @PlayersInRadius{r=7}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=7;y=0.2} @self
+  - damage{a=140} @PlayersInRadius{r=7}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=7;y=0.2} @self
+  - damage{a=140} @PlayersInRadius{r=7}
+  - delay 5
 
 ScytheWhirlwind_hell:
-  Cooldown: 20
+  Cooldown: 16
   Skills:
-    # Telegraph: warn players before the whirlwind starts so they can dodge
-    - message{m="&6Skeledragon raises its scythe, winds swirling!"} @PlayersInRadius{r=30}
-    - effect:particles{p=CLOUD;amount=100;radius=10} @self
-    - delay 40
-    - message{m="&cWhirling scythe attack incoming!"} @PlayersInRadius{r=30}
-    - effect:particles{p=SPELL_WITCH;amount=100;radius=10} @self
-    - delay 60
-    - damage{a=800} @PlayersInRadius{r=10}  # 2x400
+  - message{m="&7<mob.name>&f whirls its blade!"} @PlayersInRadius{r=25}
+  - sound{s=entity.player.attack.sweep;v=1.2;p=1} @self
+  - effect:particles{p=SWEEP_ATTACK;amount=40;radius=5;y=0.2} @self
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=4;y=0.2} @self
+  - damage{a=260} @PlayersInRadius{r=4}
+  - delay 6
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=4;y=0.2} @self
+  - damage{a=260} @PlayersInRadius{r=4}
+  - delay 6
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=4;y=0.2} @self
+  - damage{a=260} @PlayersInRadius{r=4}
+  - delay 6
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=4;y=0.2} @self
+  - damage{a=260} @PlayersInRadius{r=4}
+  - delay 6
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=4;y=0.2} @self
+  - damage{a=260} @PlayersInRadius{r=4}
+  - delay 6
 
 DeathDash_hell:
-  Cooldown: 10
+  Cooldown: 12
   Skills:
-    # Telegraph: make the dash clearly visible and give players time to react
-    - message{m="&6Skeledragon fixates on its prey, ready to dash!"} @PlayersInRadius{r=30}
-    - effect:particles{p=VILLAGER_ANGRY;amount=30;radius=5} @self
-    - delay 20
-    - effect:particles{p=SMOKE_LARGE;amount=50} @self
-    - delay 30
-    - teleport @Target
-    - damage{a=1000} @Target
+  - message{m="&8<mob.name>&f vanishes into shadowy snow!"} @PlayersInRadius{r=25}
+  - effect:particles{p=SMOKE_LARGE;amount=40;radius=1} @self
+  - sound{s=entity.enderman.teleport;v=1;p=1} @self
+  - delay 5
+  - teleport @Target
+  - damage{a=480} @PlayersInRadius{r=2}
+  - effect:particles{p=CRIT_MAGIC;amount=40;radius=2} @self
+  - sound{s=entity.player.attack.strong;v=1;p=1} @self
+
 HealingPulse_hell:
-  Cooldown: 15
+  Cooldown: 20
   Skills:
-    - heal{a=1500} @self  # 3x500 (HP scaling)
-    - effect:particles{p=HEART;amount=20} @self
+  - message{m="&a<&sparkles>&f Healing pulse!"} @PlayersInRadius{r=30}
+  - heal{a=1600} @self
+  - potion{type=REGENERATION;duration=140;level=1} @self
+  - effect:particles{p=HEART;amount=30} @self
+  - sound{s=entity.experience_orb.pickup;v=1;p=1.8} @self
 
 DeathZone_hell:
   Cooldown: 25
   Skills:
-    # Telegraph: give players a clear warning and longer window to escape the Death Zone
-    - message{m="&6A sinister aura gathers... Skeledragon is creating a death zone! Move away!"} @PlayersInRadius{r=30}
-    - effect:particles{p=REDSTONE;amount=100;radius=10} @target
-    - delay 60
-    - damage{a=99999} @PlayersInRadius{r=3}
-    - effect:particles{p=EXPLOSION_HUGE;amount=10} @target
+  - message{m="&6A dark zone is forming... &cMOVE AWAY!"} @PlayersInRadius{r=35}
+  - effect:particles{p=REDSTONE;amount=120;radius=7;y=0.2} @target
+  - sound{s=block.portal.ambient;v=1;p=0.6} @target
+  - delay 30
+  - effect:particles{p=SOUL;amount=160;radius=6;y=0.2} @target
+  - delay 30
+  - damage{a=99999} @PlayersInRadius{r=5}
+  - effect:particles{p=EXPLOSION_HUGE;amount=1} @target
+  - sound{s=entity.generic.explode;v=1;p=1} @target
 
 SummonDragon_hell:
-  Cooldown: 60
   Skills:
-    - message{m="&cMortis summons Skeledragon!"} @PlayersInRadius{r=30}
-    - summon{mob=skeledragon_phase1_hell;amount=1;radius=5} @self
+  - message{m="&cMortis joins the fight!"} @PlayersInRadius{r=30}
+  - sound{s=entity.ender_dragon.growl;v=1.2;p=0.8} @self
+  - summon{mob=skeledragon_phase2_hell;amount=1;radius=0} @self
 
 SummonPhase2_hell:
   Skills:
-    # Telegraph: announce Mortis' arrival before spawning phase 2 mobs
-    - message{m="&6Mortis whistles for his steed, preparing phase two!"} @PlayersInRadius{r=30}
-    - effect:particles{p=VILLAGER_HAPPY;amount=50;radius=5} @self
-    - delay 40
-    - message{m="&cMortis joins the battle!"} @PlayersInRadius{r=30}
-    - summon{mob=skeledragon_phase2_hell;amount=1;radius=0} @self
-    - summon{mob=death_archer_hell;amount=3;radius=5} @self
-    - summon{mob=elite_skeleton_archer_hell;amount=10;radius=5} @self
-    - summon{mob=elite_skeleton_warrior_hell;amount=10;radius=5} @self
+  - message{m="&5Murot calls in powerful support!"} @PlayersInRadius{r=30}
+  - sound{s=entity.evoker.prepare_summon;v=1.2;p=0.8} @self
+  - delay 60
+  - summon{mob=skeledragon_phase2_hell;amount=1;radius=0} @self
+  - summon{mob=death_archer_hell;amount=4;radius=5} @self
+  - summon{mob=elite_skeleton_archer_hell;amount=8;radius=6} @self
+  - summon{mob=elite_skeleton_warrior_hell;amount=8;radius=6} @self
 
 SummonPhase3_hell:
   Skills:
-    - message{m="&cMortis breaks free!"} @PlayersInRadius{r=30}
-    - delay 100
-    - summon{mob=mortis_phase3_hell;amount=1;radius=0} @self
+  - message{m="&cMortis unleashes full power!"} @PlayersInRadius{r=30}
+  - sound{s=entity.wither.spawn;v=1.2;p=0.6} @self
+  - delay 80
+  - summon{mob=mortis_phase3_hell;amount=1;radius=0} @self
 
-# Mission 1 Skills - Blood version (5x damage)
 DeathExplosion_blood:
   Cooldown: 1
   Skills:
-    - message{m="&cDeath explosion imminent!"} @PlayersInRadius{r=10}
-    - delay 20
-    - damage{a=1000} @PlayersInRadius{r=3}  # 5x200
-    - effect:particles{p=EXPLOSION_LARGE;amount=20} @self
+  - message{m="&cA &lDeath Explosion&r is coming! &7(Run!)"} @PlayersInRadius{r=12}
+  - sound{s=entity.wither.spawn;v=1;p=0.8} @self
+  - effect:particles{p=SMOKE_LARGE;amount=30;radius=4;y=0.2} @self
+  - delay 10
+  - effect:particles{p=SMOKE_LARGE;amount=40;radius=5;y=0.2} @self
+  - delay 10
+  - effect:particles{p=SMOKE_LARGE;amount=60;radius=6;y=0.2} @self
+  - delay 10
+  - effect:particles{p=DRAGON_BREATH;amount=80;radius=7;y=0.2} @self
+  - delay 10
+  - damage{a=1200} @PlayersInRadius{r=6}
+  - potion{type=WITHER;duration=120;level=1} @PlayersInRadius{r=6}
+  - ignite{ticks=60} @PlayersInRadius{r=6}
+  - effect:particles{p=EXPLOSION_HUGE;amount=1} @self
+  - sound{s=entity.generic.explode;v=1;p=1} @self
+  - summon{mob=raging_soul_blood;amount=2;radius=3} @self
 
-# Mission 2 Skills
 WitheringShot_blood:
   Cooldown: 10
   Skills:
-    - message{m="&6<mob.name>&f draws a withering arrow!"} @PlayersInRadius{r=30}
-    - effect:particles{p=SMOKE_LARGE;amount=10;radius=1} @self
-    - delay 20
-    - shoot{type=ARROW;velocity=30;damage=1000} @Target  # 5x200
-    - potion{type=WITHER;duration=100;level=3} @Target
+  - message{m="&6<mob.name>&f draws a bowstring tainted with darkness!"} @PlayersInRadius{r=30}
+  - sound{s=entity.skeleton.shoot;v=1;p=1.2} @self
+  - effect:particles{p=SMOKE_LARGE;amount=12;radius=1} @self
+  - delay 15
+  - shoot{type=ARROW;velocity=30;damage=1100;spread=12;amount=5} @Target
+  - potion{type=WITHER;duration=120;level=3} @Target
 
 MeteorStrike_blood:
   Cooldown: 15
   Skills:
-    - message{m="&5Murot calls down a meteor!"} @PlayersInRadius{r=30}
-    - effect:particles{p=FLAME;amount=50} @target
-    - delay 20
-    - damage{a=1500} @PlayersInRadius{r=5}  # 5x300
-    - effect:particles{p=EXPLOSION_HUGE;amount=1} @target
+  - message{m="&5<mob.name>&f summons a &dMeteor!"} @PlayersInRadius{r=30}
+  - sound{s=entity.ender_dragon.growl;v=1;p=0.6} @target
+  - effect:particles{p=FLAME;amount=80} @target
+  - effect:particles{p=SMOKE_LARGE;amount=60} @target
+  - delay 40
+  - damage{a=1600} @PlayersInRadius{r=7}
+  - ignite{ticks=160} @PlayersInRadius{r=7}
+  - effect:particles{p=EXPLOSION_HUGE;amount=1} @target
+  - sound{s=entity.generic.explode;v=1;p=1} @target
 
 HomingOrb_blood:
   Cooldown: 10
   Skills:
-    - message{m="&5<mob.name>&f forms a homing orb!"} @PlayersInRadius{r=30}
-    - effect:particles{p=DRAGON_BREATH;amount=20;radius=1} @self
-    - delay 20
-    - projectile{onTick=Orb-Tick-Blood;onHit=Orb-Hit-Blood;v=8;i=DRAGON_BREATH;hR=1;vR=1;sF=true} @target
+  - message{m="&5<mob.name>&f forms a &dNecro Orb&f that &ltracks&f its target!"} @PlayersInRadius{r=30}
+  - effect:particles{p=DRAGON_BREATH;amount=30;radius=1} @self
+  - sound{s=block.beacon.ambient;v=1;p=1} @self
+  - delay 10
+  - projectile{onTick=Orb-Tick;onHit=Orb-Hit;v=8;i=DRAGON_BREATH;hR=1;vR=1;sF=true} @Target
+  - delay 20
+  - projectile{onTick=Orb-Tick;onHit=Orb-Hit-Blood;v=8;i=DRAGON_BREATH;hR=1;vR=1;sF=true} @Target
 
 Orb-Hit-Blood:
   Skills:
-    - damage{a=750} @target  # 5x150
-    - effect:particles{p=SPELL;amount=20} @target
+  - damage{a=900} @target
+  - potion{type=SLOW;duration=100;level=1} @target
+  - potion{type=WEAKNESS;duration=100;level=1} @target
+  - effect:particles{p=SPELL;amount=25} @target
+  - sound{s=entity.witch.celebrate;v=1;p=0.8} @target
 
-# Mission 3 Boss Skills
 DragonBreath_blood:
-  Cooldown: 15
+  Cooldown: 12
   Skills:
-    - message{m="&6Skeledragon inhales deeply, preparing its fiery breath!"} @PlayersInRadius{r=30}
-    - effect:particles{p=SMOKE_LARGE;amount=75;radius=10} @self
-    - delay 40
-    - message{m="&cSkeledragon unleashes its breath!"} @PlayersInRadius{r=30}
-    - effect:particles{p=DRAGON_BREATH;amount=100;radius=10} @Forward{f=20}
-    - damage{a=1000} @Forward{f=20;spread=0}  # 5x200
-    - ignite{ticks=100} @Forward{f=20;spread=0}
+  - message{m="&c<&skull>&f Dragon Breath!"} @PlayersInRadius{r=35}
+  - sound{s=entity.ender_dragon.shoot;v=1.2;p=0.8} @self
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=8;y=0.2} @self
+  - damage{a=220} @PlayersInRadius{r=8}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=8;y=0.2} @self
+  - damage{a=220} @PlayersInRadius{r=8}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=8;y=0.2} @self
+  - damage{a=220} @PlayersInRadius{r=8}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=8;y=0.2} @self
+  - damage{a=220} @PlayersInRadius{r=8}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=8;y=0.2} @self
+  - damage{a=220} @PlayersInRadius{r=8}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=8;y=0.2} @self
+  - damage{a=220} @PlayersInRadius{r=8}
+  - delay 5
+  - effect:particles{p=DRAGON_BREATH;amount=120;radius=8;y=0.2} @self
+  - damage{a=220} @PlayersInRadius{r=8}
+  - delay 5
 
 ScytheWhirlwind_blood:
-  Cooldown: 20
+  Cooldown: 16
   Skills:
-    # Telegraph: warn players before the whirlwind starts so they can dodge
-    - message{m="&6Skeledragon raises its scythe, winds swirling!"} @PlayersInRadius{r=30}
-    - effect:particles{p=CLOUD;amount=100;radius=10} @self
-    - delay 40
-    - message{m="&cWhirling scythe attack incoming!"} @PlayersInRadius{r=30}
-    - effect:particles{p=SPELL_WITCH;amount=100;radius=10} @self
-    - delay 60
-    - damage{a=2000} @PlayersInRadius{r=10}  # 5x400
+  - message{m="&7<mob.name>&f whirls its blade!"} @PlayersInRadius{r=25}
+  - sound{s=entity.player.attack.sweep;v=1.2;p=1} @self
+  - effect:particles{p=SWEEP_ATTACK;amount=40;radius=6;y=0.2} @self
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=5;y=0.2} @self
+  - damage{a=420} @PlayersInRadius{r=5}
+  - delay 6
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=5;y=0.2} @self
+  - damage{a=420} @PlayersInRadius{r=5}
+  - delay 6
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=5;y=0.2} @self
+  - damage{a=420} @PlayersInRadius{r=5}
+  - delay 6
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=5;y=0.2} @self
+  - damage{a=420} @PlayersInRadius{r=5}
+  - delay 6
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=5;y=0.2} @self
+  - damage{a=420} @PlayersInRadius{r=5}
+  - delay 6
+  - effect:particles{p=SWEEP_ATTACK;amount=60;radius=5;y=0.2} @self
+  - damage{a=420} @PlayersInRadius{r=5}
+  - delay 6
 
 DeathDash_blood:
-  Cooldown: 10
+  Cooldown: 12
   Skills:
-    # Telegraph: make the dash clearly visible and give players time to react
-    - message{m="&6Skeledragon fixates on its prey, ready to dash!"} @PlayersInRadius{r=30}
-    - effect:particles{p=VILLAGER_ANGRY;amount=30;radius=5} @self
-    - delay 20
-    - effect:particles{p=SMOKE_LARGE;amount=50} @self
-    - delay 30
-    - teleport @Target
-    - damage{a=2500} @Target
+  - message{m="&8<mob.name>&f vanishes into shadowy snow!"} @PlayersInRadius{r=25}
+  - effect:particles{p=SMOKE_LARGE;amount=40;radius=1} @self
+  - sound{s=entity.enderman.teleport;v=1;p=1} @self
+  - delay 5
+  - teleport @Target
+  - damage{a=1000} @PlayersInRadius{r=2}
+  - effect:particles{p=CRIT_MAGIC;amount=40;radius=2} @self
+  - sound{s=entity.player.attack.strong;v=1;p=1} @self
+
 HealingPulse_blood:
-  Cooldown: 15
+  Cooldown: 20
   Skills:
-    - heal{a=5000} @self  # 10x500 (HP scaling)
-    - effect:particles{p=HEART;amount=20} @self
+  - message{m="&a<&sparkles>&f Healing pulse!"} @PlayersInRadius{r=30}
+  - heal{a=3000} @self
+  - potion{type=REGENERATION;duration=180;level=1} @self
+  - effect:particles{p=HEART;amount=30} @self
+  - sound{s=entity.experience_orb.pickup;v=1;p=1.8} @self
 
 DeathZone_blood:
   Cooldown: 25
   Skills:
-    # Telegraph: give players a clear warning and longer window to escape the Death Zone
-    - message{m="&6A sinister aura gathers... Skeledragon is creating a death zone! Move away!"} @PlayersInRadius{r=30}
-    - effect:particles{p=REDSTONE;amount=100;radius=10} @target
-    - delay 60
-    - damage{a=99999} @PlayersInRadius{r=3}
-    - effect:particles{p=EXPLOSION_HUGE;amount=10} @target
+  - message{m="&6A dark zone is forming... &cMOVE AWAY!"} @PlayersInRadius{r=35}
+  - effect:particles{p=REDSTONE;amount=120;radius=8;y=0.2} @target
+  - sound{s=block.portal.ambient;v=1;p=0.6} @target
+  - delay 30
+  - effect:particles{p=SOUL;amount=160;radius=7;y=0.2} @target
+  - delay 30
+  - damage{a=99999} @PlayersInRadius{r=6}
+  - effect:particles{p=EXPLOSION_HUGE;amount=1} @target
+  - sound{s=entity.generic.explode;v=1;p=1} @target
 
 SummonDragon_blood:
-  Cooldown: 60
   Skills:
-    - message{m="&cMortis summons Skeledragon!"} @PlayersInRadius{r=30}
-    - summon{mob=skeledragon_phase1_blood;amount=1;radius=5} @self
+  - message{m="&cMortis joins the fight!"} @PlayersInRadius{r=30}
+  - sound{s=entity.ender_dragon.growl;v=1.2;p=0.8} @self
+  - summon{mob=skeledragon_phase2_blood;amount=1;radius=0} @self
 
 SummonPhase2_blood:
   Skills:
-    # Telegraph: announce Mortis' arrival before spawning phase 2 mobs
-    - message{m="&6Mortis whistles for his steed, preparing phase two!"} @PlayersInRadius{r=30}
-    - effect:particles{p=VILLAGER_HAPPY;amount=50;radius=5} @self
-    - delay 40
-    - message{m="&cMortis joins the battle!"} @PlayersInRadius{r=30}
-    - summon{mob=skeledragon_phase2_blood;amount=1;radius=0} @self
-    - summon{mob=death_archer_blood;amount=3;radius=5} @self
-    - summon{mob=elite_skeleton_archer_blood;amount=10;radius=5} @self
-    - summon{mob=elite_skeleton_warrior_blood;amount=10;radius=5} @self
+  - message{m="&4Murot erupts in rage – a horde approaches!"} @PlayersInRadius{r=30}
+  - sound{s=entity.evoker.prepare_summon;v=1.3;p=0.6} @self
+  - delay 60
+  - summon{mob=skeledragon_phase2_blood;amount=1;radius=0} @self
+  - summon{mob=death_archer_blood;amount=5;radius=6} @self
+  - summon{mob=elite_skeleton_archer_blood;amount=10;radius=7} @self
+  - summon{mob=elite_skeleton_warrior_blood;amount=10;radius=7} @self
 
 SummonPhase3_blood:
   Skills:
-    - message{m="&cMortis breaks free!"} @PlayersInRadius{r=30}
-    - delay 100
-    - summon{mob=mortis_phase3_blood;amount=1;radius=0} @self
+  - message{m="&4Mortis transforms the battlefield!"} @PlayersInRadius{r=30}
+  - sound{s=entity.wither.spawn;v=1.2;p=0.5} @self
+  - delay 80
+  - summon{mob=mortis_phase3_blood;amount=1;radius=0} @self

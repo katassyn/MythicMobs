@@ -3,6 +3,13 @@
 Plik automatycznie wygenerowany z konfiguracji MythicMobs.
 
 
+## Poziom other
+
+| Nazwa | Typ | HP | DMG | Rzadkość |
+|-------|-----|----|-----|----------|
+| Overseer Kragg | WITHER_SKELETON | 9000 | 400 | Boss |
+| Cursed Miner | ZOMBIE | 1500 | 200 | Normal |
+
 ## Poziom 1-5
 
 | Nazwa | Typ | HP | DMG | Rzadkość |

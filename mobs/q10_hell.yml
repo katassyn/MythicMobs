@@ -24,7 +24,7 @@ scheming_gorgon_hell:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=PetrifyingGaze_hell} @target ~onTimer:15
-    - skill{s=VenomSpit_hell} @target ~onTimer:10
+    - skill{s=AcidSpit_hell} @target ~onTimer:10
   Drops:
     - scheming_gorgon_hell_drop
     - q_hell_elite_crafting
@@ -49,7 +49,7 @@ poisonous_jitterjelly_hell:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=ShockAttack_hell} @target ~onTimer:10
+    - skill{s=ZapBolt_hell} @target ~onTimer:10
     - skill{s=DeathExplosion_hell} @self ~onDeath
   Drops:
     - poisonous_jitterjelly_hell_drop
@@ -75,7 +75,7 @@ anderworld_jitterjelly_hell:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=ShockAttack_hell} @target ~onTimer:12
+    - skill{s=ZapBolt_hell} @target ~onTimer:12
     - skill{s=SmallDeathExplosion_hell} @self ~onDeath
   Drops:
     - anderworld_jitterjelly_hell_drop

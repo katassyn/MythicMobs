@@ -192,7 +192,7 @@ FallingPoisonSphere_blood:
 ThrowStone_inf:
   Cooldown: 12
   Skills:
-    - effect:particles{p=BLOCK_BREAK;material=COBBLESTONE;amount=30} @targetlocation
+    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=30} @targetlocation
     - delay 20
     - damage{a=150} @PlayersInRadius{r=1} @targetlocation
     - potion{type=SLOW;duration=100;level=3} @PlayersInRadius{r=1} @targetlocation
@@ -202,7 +202,7 @@ ThrowStone_inf:
 ThrowStone_hell:
   Cooldown: 10
   Skills:
-    - effect:particles{p=BLOCK_BREAK;material=COBBLESTONE;amount=40} @targetlocation
+    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=40} @targetlocation
     - delay 20
     - damage{a=300} @PlayersInRadius{r=1} @targetlocation
     - potion{type=SLOW;duration=120;level=4} @PlayersInRadius{r=1} @targetlocation
@@ -212,7 +212,7 @@ ThrowStone_hell:
 ThrowStone_blood:
   Cooldown: 8
   Skills:
-    - effect:particles{p=BLOCK_BREAK;material=COBBLESTONE;amount=50} @targetlocation
+    - effect:particles{p=BLOCK_CRACK;material=COBBLESTONE;amount=50} @targetlocation
     - delay 20
     - damage{a=750} @PlayersInRadius{r=1} @targetlocation
     - potion{type=SLOW;duration=140;level=5} @PlayersInRadius{r=1} @targetlocation

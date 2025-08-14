@@ -16,18 +16,19 @@ fallen_warrior_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - iron_sword HAND
-    - shield OFFHAND
-    - iron_helmet HEAD
-    - iron_chestplate CHEST
-    - iron_leggings LEGS
-    - iron_boots FEET
+  - iron_sword HAND
+  - shield OFFHAND
+  - iron_helmet HEAD
+  - iron_chestplate CHEST
+  - iron_leggings LEGS
+  - iron_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DeathDash} @target ~onTimer:80 ?incombat
   Drops:
-    - fallen_warrior_inf_drop
-    - q_inf_mob_crafting
+  - fallen_warrior_inf_drop
+  - q_inf_mob_crafting
 
 fallen_archer_inf:
   Type: SKELETON
@@ -46,17 +47,18 @@ fallen_archer_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - bow HAND
-    - iron_helmet HEAD
-    - leather_chestplate CHEST
-    - leather_leggings LEGS
-    - leather_boots FEET
+  - bow HAND
+  - iron_helmet HEAD
+  - leather_chestplate CHEST
+  - leather_leggings LEGS
+  - leather_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=WitheringShot} @target ~onTimer:110 ?incombat
   Drops:
-    - fallen_archer_inf_drop
-    - q_inf_mob_crafting
+  - fallen_archer_inf_drop
+  - q_inf_mob_crafting
 
 death_knight_inf:
   Type: SKELETON
@@ -75,18 +77,19 @@ death_knight_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - netherite_sword HAND
-    - netherite_helmet HEAD
-    - netherite_chestplate CHEST
-    - netherite_leggings LEGS
-    - netherite_boots FEET
+  - netherite_sword HAND
+  - netherite_helmet HEAD
+  - netherite_chestplate CHEST
+  - netherite_leggings LEGS
+  - netherite_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=DeathExplosion} @self ~onDeath
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DeathExplosion} @self ~onDeath
+  - skill{s=ScytheWhirlwind} @self ~onTimer:140 ?incombat
   Drops:
-    - death_knight_inf_drop
-    - q_inf_elite_crafting
+  - death_knight_inf_drop
+  - q_inf_elite_crafting
 
 mortis_death_knight_inf:
   Type: SKELETON
@@ -107,18 +110,21 @@ mortis_death_knight_inf:
     KnockbackResistance: 0.5
     Despawn: CHUNK
   Equipment:
-    - netherite_sword HAND
-    - netherite_helmet HEAD
-    - netherite_chestplate CHEST
-    - netherite_leggings LEGS
-    - netherite_boots FEET
+  - netherite_sword HAND
+  - netherite_helmet HEAD
+  - netherite_chestplate CHEST
+  - netherite_leggings LEGS
+  - netherite_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=DeathExplosion} @self ~onDeath
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DeathExplosion} @self ~onDeath
+  - skill{s=ScytheWhirlwind} @self ~onTimer:120 ?incombat
+  - skill{s=DeathDash} @target ~onTimer:90 ?incombat
+  - skill{s=HealingPulse} @self ~onTimer:200 ?incombat
   Drops:
-    - mortis_death_knight_inf_drop
-    - q_inf_elite_crafting
+  - mortis_death_knight_inf_drop
+  - q_inf_elite_crafting
 
 # Mission 2 Mobs
 elite_skeleton_archer_inf:
@@ -138,17 +144,19 @@ elite_skeleton_archer_inf:
     PreventRandomEquipment: true
     PreventSunburn: true
   Equipment:
-    - bow HAND
-    - iron_helmet HEAD
-    - iron_chestplate CHEST
-    - iron_leggings LEGS
-    - iron_boots FEET
+  - bow HAND
+  - iron_helmet HEAD
+  - iron_chestplate CHEST
+  - iron_leggings LEGS
+  - iron_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=WitheringShot} @target ~onTimer:90 ?incombat
+  - skill{s=HomingOrb} @target ~onTimer:150 ?incombat
   Drops:
-    - elite_skeleton_archer_inf_drop
-    - q_inf_mob_crafting
+  - elite_skeleton_archer_inf_drop
+  - q_inf_mob_crafting
 
 death_archer_inf:
   Type: SKELETON
@@ -167,18 +175,19 @@ death_archer_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - bow HAND
-    - netherite_helmet HEAD
-    - netherite_chestplate CHEST
-    - netherite_leggings LEGS
-    - netherite_boots FEET
+  - bow HAND
+  - netherite_helmet HEAD
+  - netherite_chestplate CHEST
+  - netherite_leggings LEGS
+  - netherite_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=WitheringShot} @target ~onTimer:10
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=WitheringShot} @target ~onTimer:80 ?incombat
+  - skill{s=HomingOrb} @target ~onTimer:120 ?incombat
   Drops:
-    - death_archer_inf_drop
-    - q_inf_elite_crafting
+  - death_archer_inf_drop
+  - q_inf_elite_crafting
 
 raging_soul_inf:
   Type: SKELETON
@@ -197,16 +206,17 @@ raging_soul_inf:
     PreventRandomEquipment: true
     PreventSunburn: true
   Equipment:
-    - leather_helmet{color=black} HEAD
-    - leather_chestplate{color=black} CHEST
-    - leather_leggings{color=black} LEGS
-    - leather_boots{color=black} FEET
+  - leather_helmet{color=black} HEAD
+  - leather_chestplate{color=black} CHEST
+  - leather_leggings{color=black} LEGS
+  - leather_boots{color=black} FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DeathExplosion} @self ~onDeath
   Drops:
-    - raging_soul_inf_drop
-    - q_inf_mob_crafting
+  - raging_soul_inf_drop
+  - q_inf_mob_crafting
 
 elite_skeleton_warrior_inf:
   Type: SKELETON
@@ -225,18 +235,20 @@ elite_skeleton_warrior_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - iron_sword HAND
-    - shield OFFHAND
-    - iron_helmet HEAD
-    - iron_chestplate CHEST
-    - iron_leggings LEGS
-    - iron_boots FEET
+  - iron_sword HAND
+  - shield OFFHAND
+  - iron_helmet HEAD
+  - iron_chestplate CHEST
+  - iron_leggings LEGS
+  - iron_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DeathDash} @target ~onTimer:70 ?incombat
+  - skill{s=ScytheWhirlwind} @self ~onTimer:120 ?incombat
   Drops:
-    - elite_skeleton_warrior_inf_drop
-    - q_inf_mob_crafting
+  - elite_skeleton_warrior_inf_drop
+  - q_inf_mob_crafting
 
 murot_high_priest_inf:
   Type: SKELETON
@@ -257,18 +269,20 @@ murot_high_priest_inf:
     KnockbackResistance: 0.5
     Despawn: CHUNK
   Equipment:
-    - netherite_helmet HEAD
-    - netherite_chestplate CHEST
-    - netherite_leggings LEGS
-    - netherite_boots FEET
+  - netherite_helmet HEAD
+  - netherite_chestplate CHEST
+  - netherite_leggings LEGS
+  - netherite_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=MeteorStrike} @target ~onTimer:15
-    - skill{s=HomingOrb} @target ~onTimer:10
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=MeteorStrike} @target ~onTimer:15
+  - skill{s=HomingOrb} @target ~onTimer:10
+  - skill{s=MeteorStrike} @target ~onTimer:160 ?incombat
+  - skill{s=HealingPulse} @self ~onTimer:200 ?incombat
   Drops:
-    - murot_priest_inf_drop
-    - q_inf_elite_crafting
+  - murot_priest_inf_drop
+  - q_inf_elite_crafting
 
 # Mission 3 Boss Phases
 skeledragon_phase1_inf:
@@ -296,10 +310,11 @@ skeledragon_phase1_inf:
     KnockbackResistance: 0.8
     Despawn: CHUNK
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=DragonBreath} @target ~onTimer:15
-    - skill{s=SummonPhase2} @self ~onDeath
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DragonBreath} @target ~onTimer:15
+  - skill{s=SummonPhase2} @self ~onDeath
+  - skill{s=DeathZone} @target ~onTimer:300 ?incombat
   Drops: []
 
 skeledragon_phase2_inf:
@@ -327,11 +342,13 @@ skeledragon_phase2_inf:
     KnockbackResistance: 0.8
     Despawn: CHUNK
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=DragonBreath} @target ~onTimer:15
-    - skill{s=ScytheWhirlwind} @self ~onTimer:20
-    - skill{s=SummonPhase3} @self ~onDeath
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DragonBreath} @target ~onTimer:15
+  - skill{s=ScytheWhirlwind} @self ~onTimer:20
+  - skill{s=SummonPhase3} @self ~onDeath
+  - skill{s=DragonBreath} @target ~onTimer:15 ?incombat
+  - skill{s=ScytheWhirlwind} @self ~onTimer:120 ?incombat
   Drops: []
 
 mortis_phase3_inf:
@@ -358,18 +375,19 @@ mortis_phase3_inf:
     KnockbackResistance: 0.8
     Despawn: CHUNK
   Equipment:
-    - netherite_hoe HAND
-    - skeleton_skull HEAD
-    - netherite_chestplate CHEST
-    - netherite_leggings LEGS
-    - netherite_boots FEET
+  - netherite_hoe HAND
+  - skeleton_skull HEAD
+  - netherite_chestplate CHEST
+  - netherite_leggings LEGS
+  - netherite_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=ScytheWhirlwind} @self ~onTimer:20
-    - skill{s=DeathDash} @target ~onTimer:10
-    - skill{s=HealingPulse} @self ~onTimer:15
-    - skill{s=DeathZone} @target ~onTimer:25
-    - skill{s=SummonDragon} @self ~onTimer:60 ?health{r=0.0to0.3}
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=ScytheWhirlwind} @self ~onTimer:20
+  - skill{s=DeathDash} @target ~onTimer:10
+  - skill{s=HealingPulse} @self ~onTimer:15
+  - skill{s=DeathZone} @target ~onTimer:25
+  - skill{s=SummonDragon} @self ~onTimer:60 ?health{r=0.0to0.3}
+  - skill{s=DeathZone} @target ~onTimer:220 ?incombat
   Drops:
-    - mortis_inf_drop
+  - mortis_inf_drop

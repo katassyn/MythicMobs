@@ -1,57 +1,230 @@
-# Mission 1 Skills
+# ===== SHARED FX =====
+FX_Ice_Telegraph_S:
+  Skills:
+    - effect:particlering{p=SNOWFLAKE;r=2.5;points=28;amount=1;y=0.15} @origin
+    - effect:particlering{p=BLOCK_CRACK;material=ICE;r=3;points=36;amount=1;y=0.1} @origin
+    - sound{s=block.amethyst_block.chime;v=0.8;p=1.8} @origin
+
+FX_Ice_Telegraph_M:
+  Skills:
+    - effect:particlering{p=SNOWFLAKE;r=3;points=34;amount=1;y=0.15} @origin
+    - effect:particlering{p=BLOCK_CRACK;material=ICE;r=3.6;points=42;amount=1;y=0.1} @origin
+    - sound{s=block.amethyst_block.chime;v=0.9;p=1.75} @origin
+
+FX_Ice_Shard_Burst:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=ICE;amount=60;hS=0.6;vS=0.35;speed=0.01} @origin
+    - sound{s=block.glass.break;v=0.9;p=1.2} @origin
+
+FX_Electric_Field_Telegraph:
+  Skills:
+    - effect:particlering{p=ELECTRIC_SPARK;r=4.5;points=40;amount=1;y=0.1} @origin
+    - effect:particlering{p=END_ROD;r=5;points=40;amount=1;y=0.12} @origin
+    - sound{s=block.beacon.ambient;v=0.6;p=1.2} @origin
+
+FX_TP_Blink:
+  Skills:
+    - effect:particles{p=PORTAL;amount=25;hS=0.5;vS=0.3} @origin
+    - sound{s=entity.enderman.teleport;v=0.9;p=1.6} @origin
+
+FX_Frost_Ripples:
+  Skills:
+    - effect:particlering{p=SNOWFLAKE;r=2.5;points=26;amount=1;y=0.12} @origin
+    - delay 6
+    - effect:particlering{p=SNOWFLAKE;r=3.5;points=32;amount=1;y=0.12} @origin
+    - delay 6
+    - effect:particlering{p=SNOWFLAKE;r=4.5;points=36;amount=1;y=0.12} @origin
+
+FX_Homing_Orbit:
+  Skills:
+    - effect:particles{p=END_ROD;amount=2;hS=0.08;vS=0.08} @origin
+    - effect:particles{p=SNOWFLAKE;amount=2;hS=0.08;vS=0.08} @origin
+
 LightningBolt:
   Cooldown: 10
   Skills:
-    - effect:particles{p=WAX_OFF;amount=20} @target
+    - effect:particlering{p=ELECTRIC_SPARK;r=2.4;points=24;amount=1;y=0.1} @target
+    - sound{s=entity.lightning_bolt.thunder;v=0.7;p=1.4} @target
     - lightning @target
     - damage{a=50} @target
+
+LightningBolt_hell:
+  Cooldown: 10
+  Skills:
+    - effect:particlering{p=ELECTRIC_SPARK;r=2.6;points=26;amount=1;y=0.1} @target
+    - sound{s=entity.lightning_bolt.thunder;v=0.8;p=1.35} @target
+    - lightning @target
+    - damage{a=100} @target
+
+LightningBolt_blood:
+  Cooldown: 10
+  Skills:
+    - effect:particlering{p=ELECTRIC_SPARK;r=2.8;points=28;amount=1;y=0.1} @target
+    - sound{s=entity.lightning_bolt.thunder;v=0.9;p=1.3} @target
+    - lightning @target
+    - damage{a=450} @target
 
 TeleportToPlayer:
   Cooldown: 15
   Skills:
-    - effect:particles{p=PORTAL;amount=20} @self
+    - skill{s=FX_TP_Blink} @self
     - teleport @target
-    - effect:particles{p=PORTAL;amount=20} @self
+    - skill{s=FX_TP_Blink} @self
+    - effect:particlering{p=SNOWFLAKE;r=1.8;points=20;amount=1;y=0.1} @self
+
+TeleportToPlayer_hell:
+  Cooldown: 15
+  Skills:
+    - skill{s=FX_TP_Blink} @self
+    - teleport @target
+    - skill{s=FX_TP_Blink} @self
+    - effect:particlering{p=SNOWFLAKE;r=2;points=22;amount=1;y=0.1} @self
+
+TeleportToPlayer_blood:
+  Cooldown: 15
+  Skills:
+    - skill{s=FX_TP_Blink} @self
+    - teleport @target
+    - skill{s=FX_TP_Blink} @self
+    - effect:particlering{p=SNOWFLAKE;r=2.2;points=24;amount=1;y=0.1} @self
 
 SummonIceHeaps:
   Skills:
     - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
+    - skill{s=FX_Ice_Telegraph_S} @self
     - summon{mob=heap_of_ice_inf;amount=4;radius=3;noise=2} @self ~onDeath
+
+SummonIceHeaps_hell:
+  Skills:
+    - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
+    - skill{s=FX_Ice_Telegraph_S} @self
+    - summon{mob=heap_of_ice_hell;amount=4;radius=3;noise=2} @self ~onDeath
+
+SummonIceHeaps_blood:
+  Skills:
+    - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
+    - skill{s=FX_Ice_Telegraph_M} @self
+    - summon{mob=heap_of_ice_blood;amount=4;radius=3;noise=2} @self ~onDeath
 
 SummonSmallIceHeaps:
   Skills:
+    - skill{s=FX_Ice_Telegraph_S} @self
     - summon{mob=big_heap_of_ice_inf;amount=2;radius=2;noise=1} @self ~onDeath
+
+SummonSmallIceHeaps_hell:
+  Skills:
+    - skill{s=FX_Ice_Telegraph_S} @self
+    - summon{mob=big_heap_of_ice_hell;amount=2;radius=2;noise=1} @self ~onDeath
+
+SummonSmallIceHeaps_blood:
+  Skills:
+    - skill{s=FX_Ice_Telegraph_M} @self
+    - summon{mob=big_heap_of_ice_blood;amount=2;radius=2;noise=1} @self ~onDeath
 
 SummonDrones:
   Cooldown: 20
   Skills:
     - message{m="&bFrostwolf calls for reinforcements!"} @PlayersInRadius{r=20}
+    - effect:particlering{p=ELECTRIC_SPARK;r=3;points=28;amount=1;y=0.15} @self
+    - sound{s=block.beacon.activate;v=0.9;p=1.2} @self
     - summon{mob=charged_drone_inf;amount=2;radius=3} @self
+
+SummonDrones_hell:
+  Cooldown: 20
+  Skills:
+    - message{m="&bFrostwolf calls for reinforcements!"} @PlayersInRadius{r=20}
+    - effect:particlering{p=ELECTRIC_SPARK;r=3.2;points=30;amount=1;y=0.15} @self
+    - sound{s=block.beacon.activate;v=1;p=1.2} @self
+    - summon{mob=charged_drone_hell;amount=2;radius=3} @self
+
+SummonDrones_blood:
+  Cooldown: 20
+  Skills:
+    - message{m="&bFrostwolf calls for reinforcements!"} @PlayersInRadius{r=20}
+    - effect:particlering{p=ELECTRIC_SPARK;r=3.4;points=32;amount=1;y=0.15} @self
+    - sound{s=block.beacon.activate;v=1.1;p=1.2} @self
+    - summon{mob=charged_drone_blood;amount=2;radius=3} @self
 
 LightningZone:
   Cooldown: 15
   Skills:
     - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
-    - effect:particles{p=WAX_OFF;amount=50;radius=5} @target
+    - skill{s=FX_Electric_Field_Telegraph} @target
     - delay 40
+    - lightning @target
     - damage{a=100} @PlayersInRadius{r=5}
     - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=5}
+
+LightningZone_hell:
+  Cooldown: 15
+  Skills:
+    - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
+    - skill{s=FX_Electric_Field_Telegraph} @target
+    - delay 40
+    - lightning @target
+    - damage{a=200} @PlayersInRadius{r=5}
+    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
+
+LightningZone_blood:
+  Cooldown: 15
+  Skills:
+    - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
+    - skill{s=FX_Electric_Field_Telegraph} @target
+    - delay 40
+    - lightning @target
+    - damage{a=500} @PlayersInRadius{r=5}
+    - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5}
 
 TeleportStrike:
   Cooldown: 20
   Skills:
-    - effect:particles{p=PORTAL;amount=20} @self
+    - effect:particleline{p=END_ROD;ys=0.1;d=5;points=18} @self
+    - skill{s=FX_TP_Blink} @self
     - teleport @target
     - damage{a=200} @target
     - lightning @target
 
-# Mission 2 Skills
+TeleportStrike_hell:
+  Cooldown: 20
+  Skills:
+    - effect:particleline{p=END_ROD;ys=0.1;d=5;points=18} @self
+    - skill{s=FX_TP_Blink} @self
+    - teleport @target
+    - damage{a=500} @target
+    - lightning @target
+
+TeleportStrike_blood:
+  Cooldown: 20
+  Skills:
+    - effect:particleline{p=END_ROD;ys=0.1;d=5;points=18} @self
+    - skill{s=FX_TP_Blink} @self
+    - teleport @target
+    - damage{a=1000} @target
+    - lightning @target
+
 DashToPlayer:
   Cooldown: 12
   Skills:
-    - effect:particles{p=CLOUD;amount=20} @self
+    - effect:particles{p=CLOUD;amount=18;hS=0.6;vS=0.12} @self
+    - effect:particleline{p=SWEEP_ATTACK;ys=0.05;d=3;points=14} @self
     - teleport @target
     - damage{a=150} @target
+
+DashToPlayer_hell:
+  Cooldown: 12
+  Skills:
+    - effect:particles{p=CLOUD;amount=20;hS=0.6;vS=0.12} @self
+    - effect:particleline{p=SWEEP_ATTACK;ys=0.05;d=3;points=16} @self
+    - teleport @target
+    - damage{a=300} @target
+
+DashToPlayer_blood:
+  Cooldown: 12
+  Skills:
+    - effect:particles{p=CLOUD;amount=22;hS=0.6;vS=0.12} @self
+    - effect:particleline{p=SWEEP_ATTACK;ys=0.05;d=3;points=18} @self
+    - teleport @target
+    - damage{a=750} @target
 
 ThrowStunningStone:
   Cooldown: 15
@@ -60,57 +233,193 @@ ThrowStunningStone:
 
 Stone-Tick:
   Skills:
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=5} @origin
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=6;hS=0.1;vS=0.1} @origin
 
 Stone-Hit:
   Skills:
+    - skill{s=FX_Ice_Shard_Burst} @origin
     - damage{a=100} @target
     - potion{type=SLOW;duration=60;level=3} @target
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=20} @target
+
+ThrowStunningStone_hell:
+  Cooldown: 15
+  Skills:
+    - projectile{onTick=Stone-Tick-Hell;onHit=Stone-Hit-Hell;v=8;i=CLAY_BALL;hR=1;vR=1} @target
+
+Stone-Tick-Hell:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=8;hS=0.1;vS=0.1} @origin
+
+Stone-Hit-Hell:
+  Skills:
+    - skill{s=FX_Ice_Shard_Burst} @origin
+    - damage{a=200} @target
+    - potion{type=SLOW;duration=80;level=4} @target
+
+ThrowStunningStone_blood:
+  Cooldown: 15
+  Skills:
+    - projectile{onTick=Stone-Tick-Blood;onHit=Stone-Hit-Blood;v=8;i=CLAY_BALL;hR=1;vR=1} @target
+
+Stone-Tick-Blood:
+  Skills:
+    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=10;hS=0.12;vS=0.12} @origin
+
+Stone-Hit-Blood:
+  Skills:
+    - skill{s=FX_Ice_Shard_Burst} @origin
+    - damage{a=500} @target
+    - potion{type=SLOW;duration=100;level=5} @target
 
 FrostBolt:
   Cooldown: 8
   Skills:
+    - skill{s=FX_Ice_Telegraph_S} @self
     - projectile{onTick=Frost-Tick;onHit=Frost-Hit;v=10;i=SNOWBALL;hR=1;vR=1} @target
 
 Frost-Tick:
   Skills:
-    - effect:particles{p=SNOWFLAKE;amount=5} @origin
+    - effect:particles{p=SNOWFLAKE;amount=6;hS=0.05;vS=0.05} @origin
+    - effect:particles{p=END_ROD;amount=1;hS=0.02;vS=0.02} @origin
 
 Frost-Hit:
   Skills:
+    - skill{s=FX_Ice_Shard_Burst} @origin
     - damage{a=200} @target
     - potion{type=SLOW;duration=40;level=1} @target
+
+FrostBolt_hell:
+  Cooldown: 8
+  Skills:
+    - skill{s=FX_Ice_Telegraph_S} @self
+    - projectile{onTick=Frost-Tick-Hell;onHit=Frost-Hit-Hell;v=10;i=SNOWBALL;hR=1;vR=1} @target
+
+Frost-Tick-Hell:
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=7;hS=0.05;vS=0.05} @origin
+    - effect:particles{p=END_ROD;amount=1;hS=0.02;vS=0.02} @origin
+
+Frost-Hit-Hell:
+  Skills:
+    - skill{s=FX_Ice_Shard_Burst} @origin
+    - damage{a=400} @target
+    - potion{type=SLOW;duration=60;level=2} @target
+
+FrostBolt_blood:
+  Cooldown: 8
+  Skills:
+    - skill{s=FX_Ice_Telegraph_M} @self
+    - projectile{onTick=Frost-Tick-Blood;onHit=Frost-Hit-Blood;v=10;i=SNOWBALL;hR=1;vR=1} @target
+
+Frost-Tick-Blood:
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=8;hS=0.06;vS=0.06} @origin
+    - effect:particles{p=END_ROD;amount=2;hS=0.02;vS=0.02} @origin
+
+Frost-Hit-Blood:
+  Skills:
+    - skill{s=FX_Ice_Shard_Burst} @origin
+    - damage{a=1000} @target
+    - potion{type=SLOW;duration=80;level=3} @target
 
 IceStorm:
   Cooldown: 15
   Skills:
-    - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
+    - skill{s=FX_Frost_Ripples} @target
     - delay 40
+    - sound{s=block.snow.break;v=0.8;p=1.6} @target
     - damage{a=150} @PlayersInRadius{r=5}
     - potion{type=SLOW;duration=60;level=2} @PlayersInRadius{r=5}
+
+IceStorm_hell:
+  Cooldown: 15
+  Skills:
+    - skill{s=FX_Frost_Ripples} @target
+    - delay 40
+    - sound{s=block.snow.break;v=0.9;p=1.55} @target
+    - damage{a=300} @PlayersInRadius{r=5}
+    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
+
+IceStorm_blood:
+  Cooldown: 15
+  Skills:
+    - skill{s=FX_Frost_Ripples} @target
+    - delay 40
+    - sound{s=block.snow.break;v=1;p=1.5} @target
+    - damage{a=750} @PlayersInRadius{r=5}
+    - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5}
 
 SummonPillagers:
   Cooldown: 30
   Skills:
     - message{m="&bEnforcer calls for backup!"} @PlayersInRadius{r=20}
+    - skill{s=FX_Ice_Telegraph_S} @self
     - summon{mob=pale_pillager_inf;amount=3;radius=3} @self
 
-# Mission 3 Boss Skills
+SummonPillagers_hell:
+  Cooldown: 30
+  Skills:
+    - message{m="&bEnforcer calls for backup!"} @PlayersInRadius{r=20}
+    - skill{s=FX_Ice_Telegraph_S} @self
+    - summon{mob=pale_pillager_hell;amount=3;radius=3} @self
+
+SummonPillagers_blood:
+  Cooldown: 30
+  Skills:
+    - message{m="&bEnforcer calls for backup!"} @PlayersInRadius{r=20}
+    - skill{s=FX_Ice_Telegraph_M} @self
+    - summon{mob=pale_pillager_blood;amount=3;radius=3} @self
+
 TripleIceBolt:
   Cooldown: 10
   Skills:
     - message{m="&bSigrismarr launches frozen projectiles!"} @PlayersInRadius{r=30}
+    - effect:particlering{p=SNOWFLAKE;r=2.4;points=22;amount=1;y=0.1} @self
     - projectile{onTick=Ice-Tick;onHit=Ice-Hit;v=8;i=SNOWBALL;hR=1;vR=1;amount=3} @target
 
 Ice-Tick:
   Skills:
-    - effect:particles{p=SNOWFLAKE;amount=5} @origin
+    - effect:particles{p=SNOWFLAKE;amount=5;hS=0.05;vS=0.05} @origin
+    - effect:particles{p=END_ROD;amount=1;hS=0.02;vS=0.02} @origin
 
 Ice-Hit:
   Skills:
     - damage{a=150} @target
     - potion{type=SLOW;duration=40;level=1} @target
+
+TripleIceBolt_hell:
+  Cooldown: 10
+  Skills:
+    - message{m="&bSigrismarr launches frozen projectiles!"} @PlayersInRadius{r=30}
+    - effect:particlering{p=SNOWFLAKE;r=2.6;points=24;amount=1;y=0.1} @self
+    - projectile{onTick=Ice-Tick-Hell;onHit=Ice-Hit-Hell;v=8;i=SNOWBALL;hR=1;vR=1;amount=3} @target
+
+Ice-Tick-Hell:
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=6;hS=0.05;vS=0.05} @origin
+    - effect:particles{p=END_ROD;amount=1;hS=0.02;vS=0.02} @origin
+
+Ice-Hit-Hell:
+  Skills:
+    - damage{a=300} @target
+    - potion{type=SLOW;duration=60;level=2} @target
+
+TripleIceBolt_blood:
+  Cooldown: 10
+  Skills:
+    - message{m="&bSigrismarr launches frozen projectiles!"} @PlayersInRadius{r=30}
+    - effect:particlering{p=SNOWFLAKE;r=2.8;points=26;amount=1;y=0.1} @self
+    - projectile{onTick=Ice-Tick-Blood;onHit=Ice-Hit-Blood;v=8;i=SNOWBALL;hR=1;vR=1;amount=3} @target
+
+Ice-Tick-Blood:
+  Skills:
+    - effect:particles{p=SNOWFLAKE;amount=7;hS=0.06;vS=0.06} @origin
+    - effect:particles{p=END_ROD;amount=2;hS=0.02;vS=0.02} @origin
+
+Ice-Hit-Blood:
+  Skills:
+    - damage{a=750} @target
+    - potion{type=SLOW;duration=80;level=3} @target
 
 HomingIceSphere:
   Cooldown: 15
@@ -120,123 +429,12 @@ HomingIceSphere:
 
 Sphere-Tick:
   Skills:
-    - effect:particles{p=SNOWFLAKE;amount=10} @origin
+    - skill{s=FX_Homing_Orbit} @origin
 
 Sphere-Hit:
   Skills:
+    - skill{s=FX_Ice_Shard_Burst} @origin
     - damage{a=300} @target
-    - potion{type=SLOW;duration=60;level=2} @target
-
-ImmunityPhase:
-  Conditions:
-    - offgcd
-  Skills:
-    - message{m="&bSigrismarr channels ancient frost magic!"} @PlayersInRadius{r=30}
-    - potion{type=DAMAGE_RESISTANCE;duration=200;level=4} @self
-    - summon{mob=frost_magician_inf;amount=5;radius=5} @self
-    - summon{mob=frost_bringer_inf;amount=5;radius=5} @self
-    - GCD{ticks=1200} # 1 minute cooldown
-
-# Mission 1 Skills - Hell version (2x damage)
-LightningBolt_hell:
-  Cooldown: 10
-  Skills:
-    - effect:particles{p=WAX_OFF;amount=20} @target
-    - lightning @target
-    - damage{a=100} @target  # 2x150
-
-TeleportToPlayer_hell:
-  Cooldown: 15
-  Skills:
-    - effect:particles{p=PORTAL;amount=20} @self
-    - teleport @target
-    - effect:particles{p=PORTAL;amount=20} @self
-
-SummonIceHeaps_hell:
-  Skills:
-    - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
-    - summon{mob=heap_of_ice_hell;amount=4;radius=3;noise=2} @self ~onDeath
-
-SummonSmallIceHeaps_hell:
-  Skills:
-    - summon{mob=big_heap_of_ice_hell;amount=2;radius=2;noise=1} @self ~onDeath
-
-SummonDrones_hell:
-  Cooldown: 20
-  Skills:
-    - message{m="&bFrostwolf calls for reinforcements!"} @PlayersInRadius{r=20}
-    - summon{mob=charged_drone_hell;amount=2;radius=3} @self
-
-LightningZone_hell:
-  Cooldown: 15
-  Skills:
-    - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
-    - effect:particles{p=WAX_OFF;amount=50;radius=5} @target
-    - delay 40
-    - damage{a=200} @PlayersInRadius{r=5}  # 2x100
-    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
-
-TeleportStrike_hell:
-  Cooldown: 20
-  Skills:
-    - effect:particles{p=PORTAL;amount=20} @self
-    - teleport @target
-    - damage{a=400} @target  # 2x200
-    - lightning @target
-
-# Mission 2 Skills
-DashToPlayer_hell:
-  Cooldown: 12
-  Skills:
-    - effect:particles{p=CLOUD;amount=20} @self
-    - teleport @target
-    - damage{a=300} @target  # 2x150
-
-ThrowStunningStone_hell:
-  Cooldown: 15
-  Skills:
-    - projectile{onTick=Stone-Tick-Hell;onHit=Stone-Hit-Hell;v=8;i=CLAY_BALL;hR=1;vR=1} @target
-
-Stone-Hit-Hell:
-  Skills:
-    - damage{a=200} @target  # 2x100
-    - potion{type=SLOW;duration=80;level=4} @target
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=20} @target
-
-FrostBolt_hell:
-  Cooldown: 8
-  Skills:
-    - projectile{onTick=Frost-Tick-Hell;onHit=Frost-Hit-Hell;v=10;i=SNOWBALL;hR=1;vR=1} @target
-
-Frost-Hit-Hell:
-  Skills:
-    - damage{a=400} @target  # 2x200
-    - potion{type=SLOW;duration=60;level=2} @target
-
-IceStorm_hell:
-  Cooldown: 15
-  Skills:
-    - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
-    - delay 40
-    - damage{a=300} @PlayersInRadius{r=5}  # 2x150
-    - potion{type=SLOW;duration=80;level=3} @PlayersInRadius{r=5}
-
-SummonPillagers_hell:
-  Cooldown: 30
-  Skills:
-    - message{m="&bEnforcer calls for backup!"} @PlayersInRadius{r=20}
-    - summon{mob=pale_pillager_hell;amount=3;radius=3} @self
-
-# Mission 3 Boss Skills
-TripleIceBolt_hell:
-  Cooldown: 10
-  Skills:
-    - message{m="&bSigrismarr launches frozen projectiles!"} @PlayersInRadius{r=30}
-    - projectile{onTick=Ice-Tick-Hell;onHit=Ice-Hit-Hell;v=8;i=SNOWBALL;hR=1;vR=1;amount=3} @target
-
-Ice-Hit-Hell:
-  Skills:
-    - damage{a=300} @target  # 2x150
     - potion{type=SLOW;duration=60;level=2} @target
 
 HomingIceSphere_hell:
@@ -245,118 +443,14 @@ HomingIceSphere_hell:
     - message{m="&bA sphere of pure frost manifests!"} @PlayersInRadius{r=30}
     - projectile{onTick=Sphere-Tick-Hell;onHit=Sphere-Hit-Hell;v=5;i=SNOWBALL;hR=1;vR=1;sF=true} @target
 
+Sphere-Tick-Hell:
+  Skills:
+    - skill{s=FX_Homing_Orbit} @origin
+
 Sphere-Hit-Hell:
   Skills:
-    - damage{a=600} @target  # 2x300
-    - potion{type=SLOW;duration=80;level=3} @target
-
-ImmunityPhase_hell:
-  Conditions:
-    - offgcd
-  Skills:
-    - message{m="&bSigrismarr channels ancient frost magic!"} @PlayersInRadius{r=30}
-    - potion{type=DAMAGE_RESISTANCE;duration=200;level=4} @self
-    - summon{mob=frost_magician_hell;amount=5;radius=5} @self
-    - summon{mob=frost_bringer_hell;amount=5;radius=5} @self
-    - GCD{ticks=1200}
-
-LightningBolt_blood:
-  Cooldown: 10
-  Skills:
-    - effect:particles{p=WAX_OFF;amount=20} @target
-    - lightning @target
-    - damage{a=450} @target
-
-TeleportToPlayer_blood:
-  Cooldown: 15
-  Skills:
-    - effect:particles{p=PORTAL;amount=20} @self
-    - teleport @target
-    - effect:particles{p=PORTAL;amount=20} @self
-
-SummonIceHeaps_blood:
-  Skills:
-    - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
-    - summon{mob=heap_of_ice_blood;amount=4;radius=3;noise=2} @self ~onDeath
-
-SummonSmallIceHeaps_blood:
-  Skills:
-    - summon{mob=big_heap_of_ice_blood;amount=2;radius=2;noise=1} @self ~onDeath
-
-SummonDrones_blood:
-  Cooldown: 20
-  Skills:
-    - message{m="&bFrostwolf calls for reinforcements!"} @PlayersInRadius{r=20}
-    - summon{mob=charged_drone_blood;amount=2;radius=3} @self
-
-LightningZone_blood:
-  Cooldown: 15
-  Skills:
-    - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
-    - effect:particles{p=WAX_OFF;amount=50;radius=5} @target
-    - delay 40
-    - damage{a=500} @PlayersInRadius{r=5}
-    - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5}
-
-TeleportStrike_blood:
-  Cooldown: 20
-  Skills:
-    - effect:particles{p=PORTAL;amount=20} @self
-    - teleport @target
-    - damage{a=1000} @target
-    - lightning @target
-
-DashToPlayer_blood:
-  Cooldown: 12
-  Skills:
-    - effect:particles{p=CLOUD;amount=20} @self
-    - teleport @target
-    - damage{a=750} @target
-
-ThrowStunningStone_blood:
-  Cooldown: 15
-  Skills:
-    - projectile{onTick=Stone-Tick-Blood;onHit=Stone-Hit-Blood;v=8;i=CLAY_BALL;hR=1;vR=1} @target
-
-Stone-Hit-Blood:
-  Skills:
-    - damage{a=500} @target
-    - potion{type=SLOW;duration=100;level=5} @target
-    - effect:particles{p=BLOCK_CRACK;material=STONE;amount=20} @target
-
-FrostBolt_blood:
-  Cooldown: 8
-  Skills:
-    - projectile{onTick=Frost-Tick-Blood;onHit=Frost-Hit-Blood;v=10;i=SNOWBALL;hR=1;vR=1} @target
-
-Frost-Hit-Blood:
-  Skills:
-    - damage{a=1000} @target
-    - potion{type=SLOW;duration=80;level=3} @target
-
-IceStorm_blood:
-  Cooldown: 15
-  Skills:
-    - effect:particles{p=SNOWFLAKE;amount=50;radius=5} @target
-    - delay 40
-    - damage{a=750} @PlayersInRadius{r=5}
-    - potion{type=SLOW;duration=100;level=4} @PlayersInRadius{r=5}
-
-SummonPillagers_blood:
-  Cooldown: 30
-  Skills:
-    - message{m="&bEnforcer calls for backup!"} @PlayersInRadius{r=20}
-    - summon{mob=pale_pillager_blood;amount=3;radius=3} @self
-
-TripleIceBolt_blood:
-  Cooldown: 10
-  Skills:
-    - message{m="&bSigrismarr launches frozen projectiles!"} @PlayersInRadius{r=30}
-    - projectile{onTick=Ice-Tick-Blood;onHit=Ice-Hit-Blood;v=8;i=SNOWBALL;hR=1;vR=1;amount=3} @target
-
-Ice-Hit-Blood:
-  Skills:
-    - damage{a=750} @target
+    - skill{s=FX_Ice_Shard_Burst} @origin
+    - damage{a=600} @target
     - potion{type=SLOW;duration=80;level=3} @target
 
 HomingIceSphere_blood:
@@ -365,16 +459,44 @@ HomingIceSphere_blood:
     - message{m="&bA sphere of pure frost manifests!"} @PlayersInRadius{r=30}
     - projectile{onTick=Sphere-Tick-Blood;onHit=Sphere-Hit-Blood;v=5;i=SNOWBALL;hR=1;vR=1;sF=true} @target
 
+Sphere-Tick-Blood:
+  Skills:
+    - skill{s=FX_Homing_Orbit} @origin
+
 Sphere-Hit-Blood:
   Skills:
+    - skill{s=FX_Ice_Shard_Burst} @origin
     - damage{a=1500} @target
     - potion{type=SLOW;duration=100;level=4} @target
+
+ImmunityPhase:
+  Conditions:
+    - offgcd
+  Skills:
+    - message{m="&bSigrismarr channels ancient frost magic!"} @PlayersInRadius{r=30}
+    - skill{s=FX_Ice_Telegraph_M} @self
+    - potion{type=DAMAGE_RESISTANCE;duration=200;level=4} @self
+    - summon{mob=frost_magician_inf;amount=5;radius=5} @self
+    - summon{mob=frost_bringer_inf;amount=5;radius=5} @self
+    - GCD{ticks=1200}
+
+ImmunityPhase_hell:
+  Conditions:
+    - offgcd
+  Skills:
+    - message{m="&bSigrismarr channels ancient frost magic!"} @PlayersInRadius{r=30}
+    - skill{s=FX_Ice_Telegraph_M} @self
+    - potion{type=DAMAGE_RESISTANCE;duration=200;level=4} @self
+    - summon{mob=frost_magician_hell;amount=5;radius=5} @self
+    - summon{mob=frost_bringer_hell;amount=5;radius=5} @self
+    - GCD{ticks=1200}
 
 ImmunityPhase_blood:
   Conditions:
     - offgcd
   Skills:
     - message{m="&bSigrismarr channels ancient frost magic!"} @PlayersInRadius{r=30}
+    - skill{s=FX_Ice_Telegraph_M} @self
     - potion{type=DAMAGE_RESISTANCE;duration=200;level=255} @self
     - summon{mob=frost_magician_blood;amount=5;radius=5} @self
     - summon{mob=frost_bringer_blood;amount=5;radius=5} @self

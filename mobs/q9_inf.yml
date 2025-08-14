@@ -24,6 +24,7 @@ agile_satyr_warrior_inf:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SatyrWarCry} @self ~onTimer:25 0.4
   Drops:
     - agile_satyr_warrior_inf_drop
     - q_inf_mob_crafting
@@ -53,6 +54,7 @@ perfidious_satyr_archer_inf:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SatyrWarCry} @self ~onTimer:25 0.4
   Drops:
     - perfidious_satyr_archer_inf_drop
     - q_inf_mob_crafting
@@ -113,6 +115,7 @@ stone_golem_inf:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=ThrowBoulder} @target ~onTimer:10
+    - skill{s=StoneShatter} @self ~onTimer:16 0.5
   Drops:
     - stone_golem_inf_drop
     - q_inf_elite_crafting
@@ -236,7 +239,7 @@ gorgon_acolyte_inf:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=PoisonBolt} @target ~onTimer:8
-    - skill{s=Petrify} @target ~onTimer:15
+    - skill{s=PetrifyingGaze} @target ~onTimer:15
   Drops:
     - gorgon_acolyte_inf_drop
     - q_inf_mob_crafting
@@ -268,7 +271,7 @@ minotaur_inf:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=ChargeAttack} @target ~onTimer:12
-    - skill{s=GroundPound} @PlayersInRadius{r=5} ~onTimer:15
+    - skill{s=GroundSlam} @PlayersInRadius{r=5} ~onTimer:15
   Drops:
     - minotaur_inf_drop
     - q_inf_elite_crafting
