@@ -16,18 +16,19 @@ fallen_warrior_hell:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - iron_sword HAND
-    - shield OFFHAND
-    - iron_helmet HEAD
-    - iron_chestplate CHEST
-    - iron_leggings LEGS
-    - iron_boots FEET
+  - iron_sword HAND
+  - shield OFFHAND
+  - iron_helmet HEAD
+  - iron_chestplate CHEST
+  - iron_leggings LEGS
+  - iron_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DeathDash_hell} @target ~onTimer:80 ?incombat
   Drops:
-    - fallen_warrior_hell_drop
-    - q_hell_mob_crafting
+  - fallen_warrior_hell_drop
+  - q_hell_mob_crafting
 
 fallen_archer_hell:
   Type: SKELETON
@@ -46,17 +47,18 @@ fallen_archer_hell:
     PreventSunburn: true
     PreventRandomEquipment: true
   Equipment:
-    - bow HAND
-    - iron_helmet HEAD
-    - leather_chestplate CHEST
-    - leather_leggings LEGS
-    - leather_boots FEET
+  - bow HAND
+  - iron_helmet HEAD
+  - leather_chestplate CHEST
+  - leather_leggings LEGS
+  - leather_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=WitheringShot_hell} @target ~onTimer:110 ?incombat
   Drops:
-    - fallen_archer_hell_drop
-    - q_hell_mob_crafting
+  - fallen_archer_hell_drop
+  - q_hell_mob_crafting
 
 death_knight_hell:
   Type: SKELETON
@@ -75,18 +77,19 @@ death_knight_hell:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - netherite_sword HAND
-    - netherite_helmet HEAD
-    - netherite_chestplate CHEST
-    - netherite_leggings LEGS
-    - netherite_boots FEET
+  - netherite_sword HAND
+  - netherite_helmet HEAD
+  - netherite_chestplate CHEST
+  - netherite_leggings LEGS
+  - netherite_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=DeathExplosion_hell} @self ~onDeath
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DeathExplosion_hell} @self ~onDeath
+  - skill{s=ScytheWhirlwind_hell} @self ~onTimer:140 ?incombat
   Drops:
-    - death_knight_hell_drop
-    - q_hell_elite_crafting
+  - death_knight_hell_drop
+  - q_hell_elite_crafting
 
 mortis_death_knight_hell:
   Type: SKELETON
@@ -107,18 +110,21 @@ mortis_death_knight_hell:
     KnockbackResistance: 0.5
     Despawn: CHUNK
   Equipment:
-    - netherite_sword HAND
-    - netherite_helmet HEAD
-    - netherite_chestplate CHEST
-    - netherite_leggings LEGS
-    - netherite_boots FEET
+  - netherite_sword HAND
+  - netherite_helmet HEAD
+  - netherite_chestplate CHEST
+  - netherite_leggings LEGS
+  - netherite_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=DeathExplosion_hell} @self ~onDeath
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DeathExplosion_hell} @self ~onDeath
+  - skill{s=ScytheWhirlwind_hell} @self ~onTimer:120 ?incombat
+  - skill{s=DeathDash_hell} @target ~onTimer:90 ?incombat
+  - skill{s=HealingPulse_hell} @self ~onTimer:200 ?incombat
   Drops:
-    - mortis_death_knight_hell_drop
-    - q_hell_elite_crafting
+  - mortis_death_knight_hell_drop
+  - q_hell_elite_crafting
 
 # Mission 2 Mobs
 elite_skeleton_archer_hell:
@@ -138,17 +144,19 @@ elite_skeleton_archer_hell:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - bow HAND
-    - iron_helmet HEAD
-    - iron_chestplate CHEST
-    - iron_leggings LEGS
-    - iron_boots FEET
+  - bow HAND
+  - iron_helmet HEAD
+  - iron_chestplate CHEST
+  - iron_leggings LEGS
+  - iron_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=WitheringShot_hell} @target ~onTimer:90 ?incombat
+  - skill{s=HomingOrb_hell} @target ~onTimer:150 ?incombat
   Drops:
-    - elite_skeleton_archer_hell_drop
-    - q_hell_mob_crafting
+  - elite_skeleton_archer_hell_drop
+  - q_hell_mob_crafting
 
 death_archer_hell:
   Type: SKELETON
@@ -167,18 +175,19 @@ death_archer_hell:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - bow HAND
-    - netherite_helmet HEAD
-    - netherite_chestplate CHEST
-    - netherite_leggings LEGS
-    - netherite_boots FEET
+  - bow HAND
+  - netherite_helmet HEAD
+  - netherite_chestplate CHEST
+  - netherite_leggings LEGS
+  - netherite_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=WitheringShot_hell} @target ~onTimer:10
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=WitheringShot_hell} @target ~onTimer:80 ?incombat
+  - skill{s=HomingOrb_hell} @target ~onTimer:120 ?incombat
   Drops:
-    - death_archer_hell_drop
-    - q_hell_elite_crafting
+  - death_archer_hell_drop
+  - q_hell_elite_crafting
 
 raging_soul_hell:
   Type: SKELETON
@@ -197,16 +206,17 @@ raging_soul_hell:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - leather_helmet{color=black} HEAD
-    - leather_chestplate{color=black} CHEST
-    - leather_leggings{color=black} LEGS
-    - leather_boots{color=black} FEET
+  - leather_helmet{color=black} HEAD
+  - leather_chestplate{color=black} CHEST
+  - leather_leggings{color=black} LEGS
+  - leather_boots{color=black} FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DeathExplosion_hell} @self ~onDeath
   Drops:
-    - raging_soul_hell_drop
-    - q_hell_mob_crafting
+  - raging_soul_hell_drop
+  - q_hell_mob_crafting
 
 elite_skeleton_warrior_hell:
   Type: SKELETON
@@ -219,30 +229,32 @@ elite_skeleton_warrior_hell:
     FollowRange: 15
     MovementSpeed: 0.2
     ShowHealth: true
-    AlwaysShowName: true
     PreventSunburn: true
+    AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - iron_sword HAND
-    - shield OFFHAND
-    - iron_helmet HEAD
-    - iron_chestplate CHEST
-    - iron_leggings LEGS
-    - iron_boots FEET
+  - iron_sword HAND
+  - shield OFFHAND
+  - iron_helmet HEAD
+  - iron_chestplate CHEST
+  - iron_leggings LEGS
+  - iron_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DeathDash_hell} @target ~onTimer:70 ?incombat
+  - skill{s=ScytheWhirlwind_hell} @self ~onTimer:120 ?incombat
   Drops:
-    - elite_skeleton_warrior_hell_drop
-    - q_hell_mob_crafting
+  - elite_skeleton_warrior_hell_drop
+  - q_hell_mob_crafting
 
 murot_high_priest_hell:
   Type: SKELETON
   Display: '&5&lMurot, High Priest of Mortis &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 9000  # 3x3000
-  Damage: 400   # 2x200
+  Health: 9000
+  Damage: 400
   Faction: q6_hell
   Group: q6_hell
   Options:
@@ -250,70 +262,73 @@ murot_high_priest_hell:
     MovementSpeed: 0.15
     ShowHealth: true
     AlwaysShowName: true
-    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.5
     Despawn: CHUNK
   Equipment:
-    - netherite_helmet HEAD
-    - netherite_chestplate CHEST
-    - netherite_leggings LEGS
-    - netherite_boots FEET
+  - netherite_helmet HEAD
+  - netherite_chestplate CHEST
+  - netherite_leggings LEGS
+  - netherite_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=MeteorStrike_hell} @target ~onTimer:15
-    - skill{s=HomingOrb_hell} @target ~onTimer:10
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=MeteorStrike_hell} @target ~onTimer:15
+  - skill{s=HomingOrb_hell} @target ~onTimer:10
+  - skill{s=MeteorStrike_hell} @target ~onTimer:160 ?incombat
+  - skill{s=HealingPulse_hell} @self ~onTimer:200 ?incombat
   Drops:
-    - murot_priest_hell_drop
-    - q_hell_elite_crafting
+  - murot_priest_hell_drop
+  - q_hell_elite_crafting
 
 # Mission 3 Boss Phases
 skeledragon_phase1_hell:
   Type: Zombie
   Disguise: Horse
   Display: '&4<&skull> &lSkeledragon &r&4<&skull>'
-  Health: 15000  # 3x5000
-  Damage: 600    # 2x300
+  Health: 15000
+  Damage: 600
   Faction: q6_hell
   Group: q6_hell
   BossBar:
     Enabled: true
     Title: '&c<&skull> Skeledragon - Phase 1 <&skull>'
-    Color: PURPLE
+    Color: BLUE
     Style: SEGMENTED_12
   Options:
     FollowRange: 40
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
-    PreventSunburn: true
     KnockbackResistance: 0.8
     Despawn: CHUNK
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=DragonBreath_hell} @target ~onTimer:15
-    - skill{s=SummonPhase2_hell} @self ~onDeath
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DragonBreath_hell} @target ~onTimer:15
+  - skill{s=SummonPhase2_hell} @self ~onDeath
+  - skill{s=DeathZone_hell} @target ~onTimer:300 ?incombat
   Drops: []
 
 skeledragon_phase2_hell:
   Type: Zombie
   Disguise: Horse
   Display: '&4<&skull> &lMortis & Skeledragon &r&4<&skull>'
-  Health: 21000  # 3x7000
-  Damage: 800    # 2x400
+  Health: 21000
+  Damage: 800
   Faction: q6_hell
   Group: q6_hell
   BossBar:
     Enabled: true
     Title: '&c<&skull> Mortis & Skeledragon - Phase 2 <&skull>'
-    Color: PURPLE
+    Color: BLUE
     Style: SEGMENTED_12
   Options:
     FollowRange: 40
@@ -327,49 +342,52 @@ skeledragon_phase2_hell:
     KnockbackResistance: 0.8
     Despawn: CHUNK
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=DragonBreath_hell} @target ~onTimer:15
-    - skill{s=ScytheWhirlwind_hell} @self ~onTimer:20
-    - skill{s=SummonPhase3_hell} @self ~onDeath
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=DragonBreath_hell} @target ~onTimer:15
+  - skill{s=ScytheWhirlwind_hell} @self ~onTimer:20
+  - skill{s=SummonPhase3_hell} @self ~onDeath
+  - skill{s=DragonBreath_hell} @target ~onTimer:15 ?incombat
+  - skill{s=ScytheWhirlwind_hell} @self ~onTimer:120 ?incombat
   Drops: []
 
 mortis_phase3_hell:
   Type: SKELETON
   Display: '&4<&skull> &lMortis, Unchained God of Death &r&4<&skull>'
-  Health: 30000  # 3x10000
-  Damage: 1000   # 2x500
+  Health: 30000
+  Damage: 1000
   Faction: q6_hell
   Group: q6_hell
   BossBar:
     Enabled: true
     Title: '&c<&skull> Mortis - Final Phase <&skull>'
-    Color: PURPLE
+    Color: BLUE
     Style: SEGMENTED_12
   Options:
     FollowRange: 40
     MovementSpeed: 0.3
-    PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.8
     Despawn: CHUNK
   Equipment:
-    - netherite_hoe HAND
-    - skeleton_skull HEAD
-    - netherite_chestplate CHEST
-    - netherite_leggings LEGS
-    - netherite_boots FEET
+  - netherite_hoe HAND
+  - skeleton_skull HEAD
+  - netherite_chestplate CHEST
+  - netherite_leggings LEGS
+  - netherite_boots FEET
   Skills:
-    - setname{name="<caster.name>";delay=2} @self ~onDamaged
-    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=ScytheWhirlwind_hell} @self ~onTimer:20
-    - skill{s=DeathDash_hell} @target ~onTimer:10
-    - skill{s=HealingPulse_hell} @self ~onTimer:15
-    - skill{s=DeathZone_hell} @target ~onTimer:25
-    - skill{s=SummonDragon_hell} @self ~onTimer:60 ?health{r=0.0to0.3}
+  - setname{name="<caster.name>";delay=2} @self ~onDamaged
+  - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  - skill{s=ScytheWhirlwind_hell} @self ~onTimer:20
+  - skill{s=DeathDash_hell} @target ~onTimer:10
+  - skill{s=HealingPulse_hell} @self ~onTimer:15
+  - skill{s=DeathZone_hell} @target ~onTimer:25
+  - skill{s=SummonDragon_hell} @self ~onTimer:60 ?health{r=0.0to0.3}
+  - skill{s=DeathZone_hell} @target ~onTimer:220 ?incombat
   Drops:
-    - mortis_hell_drop
+  - mortis_hell_drop

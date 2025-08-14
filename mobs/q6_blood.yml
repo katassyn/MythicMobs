@@ -25,6 +25,7 @@ fallen_warrior_blood:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=DeathDash_blood} @target ~onTimer:80 ?incombat
   Drops:
     - fallen_warrior_blood_drop
     - q_blood_mob_crafting
@@ -40,8 +41,8 @@ fallen_archer_blood:
     FollowRange: 20
     MovementSpeed: 0.2
     ShowHealth: true
-    PreventSunburn: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -54,6 +55,7 @@ fallen_archer_blood:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=WitheringShot_blood} @target ~onTimer:110 ?incombat
   Drops:
     - fallen_archer_blood_drop
     - q_blood_mob_crafting
@@ -62,7 +64,7 @@ death_knight_blood:
   Type: SKELETON
   Display: '&e&lDeath Knight &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 12000  # 10x1200
-  Damage: 1250   # 5x250
+  Damage: 1250  # 5x250
   Faction: q6_blood
   Group: q6_blood
   Options:
@@ -84,6 +86,7 @@ death_knight_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=DeathExplosion_blood} @self ~onDeath
+    - skill{s=ScytheWhirlwind_blood} @self ~onTimer:140 ?incombat
   Drops:
     - death_knight_blood_drop
     - q_blood_elite_crafting
@@ -92,15 +95,15 @@ mortis_death_knight_blood:
   Type: SKELETON
   Display: '&5&lMortis Death Knight &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 30000  # 10x3000
-  Damage: 1500   # 5x300
+  Damage: 1500  # 5x300
   Faction: q6_blood
   Group: q6_blood
   Options:
     FollowRange: 15
     MovementSpeed: 0.2
     ShowHealth: true
-    PreventSunburn: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -116,6 +119,9 @@ mortis_death_knight_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=DeathExplosion_blood} @self ~onDeath
+    - skill{s=ScytheWhirlwind_blood} @self ~onTimer:120 ?incombat
+    - skill{s=DeathDash_blood} @target ~onTimer:90 ?incombat
+    - skill{s=HealingPulse_blood} @self ~onTimer:200 ?incombat
   Drops:
     - mortis_death_knight_blood_drop
     - q_blood_elite_crafting
@@ -132,11 +138,11 @@ elite_skeleton_archer_blood:
     FollowRange: 25
     MovementSpeed: 0.3
     ShowHealth: true
-    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Equipment:
     - bow HAND
     - iron_helmet HEAD
@@ -146,6 +152,8 @@ elite_skeleton_archer_blood:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=WitheringShot_blood} @target ~onTimer:90 ?incombat
+    - skill{s=HomingOrb_blood} @target ~onTimer:150 ?incombat
   Drops:
     - elite_skeleton_archer_blood_drop
     - q_blood_mob_crafting
@@ -154,18 +162,18 @@ death_archer_blood:
   Type: SKELETON
   Display: '&e&lDeath Archer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 10000  # 10x1000
-  Damage: 1500   # 5x300
+  Damage: 1500  # 5x300
   Faction: q6_blood
   Group: q6_blood
   Options:
     FollowRange: 25
-    PreventSunburn: true
     MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Equipment:
     - bow HAND
     - netherite_helmet HEAD
@@ -175,7 +183,8 @@ death_archer_blood:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-    - skill{s=WitheringShot_blood} @target ~onTimer:10
+    - skill{s=WitheringShot_blood} @target ~onTimer:80 ?incombat
+    - skill{s=HomingOrb_blood} @target ~onTimer:120 ?incombat
   Drops:
     - death_archer_blood_drop
     - q_blood_elite_crafting
@@ -193,9 +202,9 @@ raging_soul_blood:
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
-    PreventSunburn: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
+    PreventSunburn: true
   Equipment:
     - leather_helmet{color=black} HEAD
     - leather_chestplate{color=black} CHEST
@@ -204,6 +213,7 @@ raging_soul_blood:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=DeathExplosion_blood} @self ~onDeath
   Drops:
     - raging_soul_blood_drop
     - q_blood_mob_crafting
@@ -212,7 +222,7 @@ elite_skeleton_warrior_blood:
   Type: SKELETON
   Display: '&lElite Skeleton Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 10000  # 10x1000
-  Damage: 1000   # 5x200
+  Damage: 1000  # 5x200
   Faction: q6_blood
   Group: q6_blood
   Options:
@@ -234,6 +244,8 @@ elite_skeleton_warrior_blood:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=DeathDash_blood} @target ~onTimer:70 ?incombat
+    - skill{s=ScytheWhirlwind_blood} @self ~onTimer:120 ?incombat
   Drops:
     - elite_skeleton_warrior_blood_drop
     - q_blood_mob_crafting
@@ -241,8 +253,8 @@ elite_skeleton_warrior_blood:
 murot_high_priest_blood:
   Type: SKELETON
   Display: '&5&lMurot, High Priest of Mortis &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
-  Health: 30000  # 10x3000
-  Damage: 1000   # 5x200
+  Health: 30000
+  Damage: 1000
   Faction: q6_blood
   Group: q6_blood
   Options:
@@ -252,8 +264,8 @@ murot_high_priest_blood:
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
-    PreventRandomEquipment: true
     PreventSunburn: true
+    PreventRandomEquipment: true
     KnockbackResistance: 0.5
     Despawn: CHUNK
   Equipment:
@@ -266,6 +278,8 @@ murot_high_priest_blood:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=MeteorStrike_blood} @target ~onTimer:15
     - skill{s=HomingOrb_blood} @target ~onTimer:10
+    - skill{s=MeteorStrike_blood} @target ~onTimer:160 ?incombat
+    - skill{s=HealingPulse_blood} @self ~onTimer:200 ?incombat
   Drops:
     - murot_priest_blood_drop
     - q_blood_elite_crafting
@@ -275,24 +289,24 @@ skeledragon_phase1_blood:
   Type: Zombie
   Disguise: Horse
   Display: '&4<&skull> &lSkeledragon &r&4<&skull>'
-  Health: 50000  # 10x5000
-  Damage: 1500   # 5x300
+  Health: 50000
+  Damage: 1500
   Faction: q6_blood
   Group: q6_blood
   BossBar:
     Enabled: true
     Title: '&c<&skull> Skeledragon - Phase 1 <&skull>'
-    Color: RED
+    Color: BLUE
     Style: SEGMENTED_12
   Options:
     FollowRange: 40
     MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
+    PreventSunburn: true
     PreventItemPickup: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
-    PreventSunburn: true
     KnockbackResistance: 0.8
     Despawn: CHUNK
   Skills:
@@ -300,20 +314,21 @@ skeledragon_phase1_blood:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=DragonBreath_blood} @target ~onTimer:15
     - skill{s=SummonPhase2_blood} @self ~onDeath
+    - skill{s=DeathZone_blood} @target ~onTimer:300 ?incombat
   Drops: []
 
 skeledragon_phase2_blood:
   Type: Zombie
   Disguise: Horse
   Display: '&4<&skull> &lMortis & Skeledragon &r&4<&skull>'
-  Health: 70000  # 10x7000
-  Damage: 2000   # 5x400
+  Health: 70000
+  Damage: 2000
   Faction: q6_blood
   Group: q6_blood
   BossBar:
     Enabled: true
     Title: '&c<&skull> Mortis & Skeledragon - Phase 2 <&skull>'
-    Color: RED
+    Color: BLUE
     Style: SEGMENTED_12
   Options:
     FollowRange: 40
@@ -332,28 +347,30 @@ skeledragon_phase2_blood:
     - skill{s=DragonBreath_blood} @target ~onTimer:15
     - skill{s=ScytheWhirlwind_blood} @self ~onTimer:20
     - skill{s=SummonPhase3_blood} @self ~onDeath
+    - skill{s=DragonBreath_blood} @target ~onTimer:15 ?incombat
+    - skill{s=ScytheWhirlwind_blood} @self ~onTimer:120 ?incombat
   Drops: []
 
 mortis_phase3_blood:
   Type: SKELETON
   Display: '&4<&skull> &lMortis, Unchained God of Death &r&4<&skull>'
-  Health: 100000  # 10x10000
-  Damage: 2500    # 5x500
+  Health: 100000
+  Damage: 2500
   Faction: q6_blood
   Group: q6_blood
   BossBar:
     Enabled: true
     Title: '&c<&skull> Mortis - Final Phase <&skull>'
-    Color: RED
+    Color: BLUE
     Style: SEGMENTED_12
   Options:
     FollowRange: 40
     MovementSpeed: 0.3
     ShowHealth: true
-    PreventSunburn: true
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
+    PreventSunburn: true
     PreventRandomEquipment: true
     KnockbackResistance: 0.8
     Despawn: CHUNK
@@ -369,8 +386,8 @@ mortis_phase3_blood:
     - skill{s=ScytheWhirlwind_blood} @self ~onTimer:20
     - skill{s=DeathDash_blood} @target ~onTimer:10
     - skill{s=HealingPulse_blood} @self ~onTimer:15
-    - skill{s=HealingPulse_blood} @self ~onTimer:15
     - skill{s=DeathZone_blood} @target ~onTimer:25
     - skill{s=SummonDragon_blood} @self ~onTimer:60 ?health{r=0.0to0.3}
+    - skill{s=DeathZone_blood} @target ~onTimer:220 ?incombat
   Drops:
     - mortis_blood_drop

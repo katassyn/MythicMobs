@@ -23,6 +23,7 @@ agile_satyr_warrior_blood:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SatyrWarCry_blood} @self ~onTimer:25 0.4
   Drops:
     - agile_satyr_warrior_blood_drop
     - q_blood_mob_crafting
@@ -52,6 +53,7 @@ perfidious_satyr_archer_blood:
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+    - skill{s=SatyrWarCry_blood} @self ~onTimer:25 0.4
   Drops:
     - perfidious_satyr_archer_blood_drop
     - q_blood_mob_crafting
@@ -112,6 +114,7 @@ stone_golem_blood:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=ThrowBoulder_blood} @target ~onTimer:10
+    - skill{s=StoneShatter_blood} @self ~onTimer:16 0.5
   Drops:
     - stone_golem_blood_drop
     - q_blood_elite_crafting
