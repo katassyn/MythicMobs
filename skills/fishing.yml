@@ -52,8 +52,9 @@ KRAKEN_InkBomb:
   Skills:
     - effect:particles{p=SQUID_INK;amount=80;hS=1;vS=0.5} @target
     - delay 10
-    - damage{a=900;ia=true} @PlayersNearTarget{r=3}
-    - potion{type=BLINDNESS;d=100;l=1} @PlayersNearTarget{r=6}
+    - damage{a=900;ia=true} @PlayersInRadius{r=3;t=target}
+    - potion{type=BLINDNESS;d=100;l=1} @PlayersInRadius{r=6;t=target}
+
 
 # === FAZA 3 ===
 KRAKEN_EnrageRoar:
