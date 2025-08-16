@@ -7,81 +7,82 @@ KRAKEN_TentacleSlam:
     - damage{a=1200;ia=true} @PlayersInRadius{r=3}
     - throw{v=1.3;vy=0.5} @PlayersInRadius{r=3}
 
-  KRAKEN_TidePull:
-    Cooldown: 16
-    Skills:
-      - effect:particlering{p=WATER_SPLASH;radius=8;points=48;amount=1} @self
-      - sound{s=block.water.ambient;v=1.4;p=1.0} @self
-      - repeat{times=6;interval=5}:
-          - pull{v=1.2} @PlayersInRadius{r=12}
-          - damage{a=250} @PlayersInRadius{r=4}
+KRAKEN_TidePull:
+  Cooldown: 16
+  Skills:
+    - effect:particlering{p=WATER_SPLASH;radius=8;points=48;amount=1} @self
+    - sound{s=block.water.ambient;v=1.4;p=1.0} @self
+    - repeat{times=6;interval=5}:
+        - pull{v=1.2} @PlayersInRadius{r=12}
+        - damage{a=250} @PlayersInRadius{r=4}
 
-  KRAKEN_InkCloud:
-    Cooldown: 20
-    Skills:
-      - effect:particles{p=SQUID_INK;amount=120;hS=4;vS=1.6;speed=0.02} @self
-      - sound{s=entity.squid.squirt;v=1.3;p=1.1} @self
-      - potion{type=BLINDNESS;d=80;l=1} @PlayersInRadius{r=10}
-      - potion{type=SLOW;d=80;l=1} @PlayersInRadius{r=10}
+KRAKEN_InkCloud:
+  Cooldown: 20
+  Skills:
+    - effect:particles{p=SQUID_INK;amount=120;hS=4;vS=1.6;speed=0.02} @self
+    - sound{s=entity.squid.squirt;v=1.3;p=1.1} @self
+    - potion{type=BLINDNESS;d=80;l=1} @PlayersInRadius{r=10}
+    - potion{type=SLOW;d=80;l=1} @PlayersInRadius{r=10}
 
-  KRAKEN_SummonTentacles:
-    Cooldown: 25
-    Skills:
-      - message{m="&3&l>> &bThe deep stirs... tentacles rise!"} @PlayersInRadius{r=30}
-      - summon{type=Kraken_Tentacle;amount=3;radius=6} @self
-      - effect:particlering{p=BUBBLE;radius=6;points=36;amount=1} @self
+KRAKEN_SummonTentacles:
+  Cooldown: 25
+  Skills:
+    - message{m="&3&l>> &bThe deep stirs... tentacles rise!"} @PlayersInRadius{r=30}
+    - summon{type=Kraken_Tentacle;amount=3;radius=6} @self
+    - effect:particlering{p=BUBBLE;radius=6;points=36;amount=1} @self
 
-  # === FAZA 2 ===
-  KRAKEN_Whirlpool:
-    Cooldown: 22
-    Skills:
-      - message{m="&9&l>> &bWhirlpool forms! Keep your footing!"} @PlayersInRadius{r=30}
-      - effect:particlering{p=BUBBLE_COLUMN_UP;radius=5;points=40;amount=1;repeat=10;repeatInterval=6} @self
-      - repeat{times=10;interval=6}:
-          - pull{v=1.4} @PlayersInRadius{r=10}
-          - damage{a=300} @PlayersInRadius{r=3}
+# === FAZA 2 ===
+KRAKEN_Whirlpool:
+  Cooldown: 22
+  Skills:
+    - message{m="&9&l>> &bWhirlpool forms! Keep your footing!"} @PlayersInRadius{r=30}
+    - effect:particlering{p=BUBBLE_COLUMN_UP;radius=5;points=40;amount=1;repeat=10;repeatInterval=6} @self
+    - repeat{times=10;interval=6}:
+        - pull{v=1.4} @PlayersInRadius{r=10}
+        - damage{a=300} @PlayersInRadius{r=3}
 
-  KRAKEN_TsunamiArc:
-    Cooldown: 18
-    Skills:
-      - sound{s=entity.dolphin.splash;v=1.4;p=0.8} @self
-      - projectile{onTick=KRAKEN_Tsunami_Tick;onHit=KRAKEN_Tsunami_Hit;v=22;i=1;hR=1;vR=1;g=0;mr=40;Spread=40;Amount=8} @target
+KRAKEN_TsunamiArc:
+  Cooldown: 18
+  Skills:
+    - sound{s=entity.dolphin.splash;v=1.4;p=0.8} @self
+    - projectile{onTick=KRAKEN_Tsunami_Tick;onHit=KRAKEN_Tsunami_Hit;v=22;i=1;hR=1;vR=1;g=0;mr=40;Spread=40;Amount=8} @target
 
-  KRAKEN_InkBomb:
-    Cooldown: 28
-    Skills:
-      - effect:particles{p=SQUID_INK;amount=80;hS=1;vS=0.5} @target
-      - delay 10
-      - damage{a=900;ia=true} @PlayersNearTarget{r=3}
-      - potion{type=BLINDNESS;d=100;l=1} @PlayersNearTarget{r=6}
+KRAKEN_InkBomb:
+  Cooldown: 28
+  Skills:
+    - effect:particles{p=SQUID_INK;amount=80;hS=1;vS=0.5} @target
+    - delay 10
+    - damage{a=900;ia=true} @PlayersNearTarget{r=3}
+    - potion{type=BLINDNESS;d=100;l=1} @PlayersNearTarget{r=6}
 
-  # === FAZA 3 ===
-  KRAKEN_EnrageRoar:
-    Cooldown: 60
-    Conditions:
-      - health{h=<40}
-    Skills:
-      - message{m="&4&l>> &cKraken enrages!"} @PlayersInRadius{r=40}
-      - sound{s=entity.elder_guardian.curse;v=1.6;p=0.6} @self
-      - potion{type=SPEED;d=400;l=1} @self
-      - potion{type=INCREASE_DAMAGE;d=400;l=1} @self
+# === FAZA 3 ===
+KRAKEN_EnrageRoar:
+  Cooldown: 60
+  Conditions:
+    - health{h=<40}
+  Skills:
+    - message{m="&4&l>> &cKraken enrages!"} @PlayersInRadius{r=40}
+    - sound{s=entity.elder_guardian.curse;v=1.6;p=0.6} @self
+    - potion{type=SPEED;d=400;l=1} @self
+    - potion{type=INCREASE_DAMAGE;d=400;l=1} @self
 
-  # Tarcza zbijana mackami: boss dostaje barierę na 10s; zabicie 3 macki = natychmiast zdejmuje tarczę
-  KRAKEN_AbyssalShield:
-    Cooldown: 50
-    Skills:
-      - message{m="&b&l>> &3Abyssal Shield! Slay the tentacles!"} @PlayersInRadius{r=40}
-      - summon{type=Kraken_Tentacle;amount=3;radius=6} @self
-      - shield{a=1;d=200} @self   # 1 = nieprzepuszczalna (absorbs everything) przez 10s
-      - effect:particles{p=ENCHANT;amount=100;hS=1;vS=1;speed=0.2} @self
-      - delay 200
-      - effect:particles{p=SMOKE;amount=60;hS=1;vS=1;speed=0.1} @self
+# Tarcza zbijana mackami: boss dostaje barierę na 10s; zabicie 3 macki = natychmiast zdejmuje tarczę
+KRAKEN_AbyssalShield:
+  Cooldown: 50
+  Skills:
+    - message{m="&b&l>> &3Abyssal Shield! Slay the tentacles!"} @PlayersInRadius{r=40}
+    - summon{type=Kraken_Tentacle;amount=3;radius=6} @self
+    - shield{a=1;d=200} @self   # 1 = nieprzepuszczalna (absorbs everything) przez 10s
+    - effect:particles{p=ENCHANT;amount=100;hS=1;vS=1;speed=0.2} @self
+    - delay 200
+    - effect:particles{p=SMOKE;amount=60;hS=1;vS=1;speed=0.1} @self
 
-  # Tsunami projectile callbacks
-  KRAKEN_Tsunami_Tick:
-    Skills:
-      - effect:particles{p=SPLASH;amount=8;hS=0.3;vS=0.2;speed=0} @origin
-  KRAKEN_Tsunami_Hit:
-    Skills:
-      - damage{a=1100;ia=true}
-      - throw{v=1.2;vy=0.4}
+# Tsunami projectile callbacks
+KRAKEN_Tsunami_Tick:
+  Skills:
+    - effect:particles{p=SPLASH;amount=8;hS=0.3;vS=0.2;speed=0} @origin
+KRAKEN_Tsunami_Hit:
+  Skills:
+    - damage{a=1100;ia=true}
+    - throw{v=1.2;vy=0.4}
+
