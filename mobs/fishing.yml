@@ -1,0 +1,93 @@
+Kraken_AbyssalTerror:
+  Type: ZOMBIE
+  Display: '&4<&skull> &lKraken, Abyssal Terror &4<&skull>'
+  Health: 90000          # ~70–100k
+  Damage: 2000           # bazowy kontaktowy
+  BossBar:
+    Enabled: true
+    Title: '&c<&skull> Kraken, Abyssal Terror - <mob.hp{round=0}> <&skull>'
+    Range: 50
+    Color: RED
+    Style: SEGMENTED_12
+  Options:
+    FollowRange: 25
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: 0.4
+    KnockbackResistance: 0.9
+    Despawn: CHUNK
+    Silent: false
+  Equipment:
+    - Kraken_Crown:HEAD
+    - Kraken_Chest:CHEST
+    - Kraken_Trident:MAINHAND
+    - Kraken_Offhand:OFFHAND
+  AIGoalSelectors:
+    - clear
+    - meleeattack
+    - randomstroll
+    - lookatplayers
+    - lookaround
+  AITargetSelectors:
+    - clear
+    - players
+  Skills:
+    # Utrzymuj spójny display nawet przy podmianach nazw
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+
+    # Wejście + lekki shake ekranu, dźwięk, splash
+    - sound{s=entity.guardian.attack;v=1.2;p=0.7} @self ~onSpawn
+    - effect:particles{p=DRIPPING_WATER;amount=80;hS=1;vS=1;speed=0.1} @self ~onSpawn
+    - effect:particlering{p=BUBBLE;radius=4;points=32;amount=1} @self ~onSpawn
+
+    # Faza 1 (100%–70%): Slam, Tide Pull, Ink Cloud, Summon Tentacles
+    - skill{s=KRAKEN_TidePull} @PlayersInRadius{r=16} ~onTimer:120 ?incombat
+    - skill{s=KRAKEN_TentacleSlam} @target ~onTimer:90 ?incombat
+    - skill{s=KRAKEN_InkCloud} @PlayersInRadius{r=12} ~onTimer:160 ?incombat
+    - skill{s=KRAKEN_SummonTentacles} @self ~onTimer:180 ?incombat
+
+    # Faza 2 (70%–40%): Whirlpool / Tsunami / Ink Bomb
+    - skill{s=KRAKEN_Whirlpool} @self ~onTimer:180 ?incombat ^health{h=<70}
+    - skill{s=KRAKEN_TsunamiArc} @self ~onTimer:140 ?incombat ^health{h=<70}
+    - skill{s=KRAKEN_InkBomb} @PlayersInRadius{r=20} ~onTimer:200 ?incombat ^health{h=<70}
+
+    # Faza 3 (40%–0%): Enrage + Shield Break (zabij macki by zdjąć tarczę)
+    - skill{s=KRAKEN_EnrageRoar} @self ~onDamaged ^health{h=<40}
+    - skill{s=KRAKEN_AbyssalShield} @self ~onTimer:260 ?incombat ^health{h=<40}
+
+    # Soft anti-kite: okazjonalne przyciągnięcie co 25s, jeśli gracz daleko
+    - skill{s=KRAKEN_TidePull} @PlayersInRadius{r=20} ~onTimer:500 ?incombat
+
+    # OnDeath – FX + drop
+    - sound{s=entity.elder_guardian.curse;v=1.3;p=0.6} @self ~onDeath
+    - effect:particles{p=BUBBLE_COLUMN_UP;amount=200;hS=1;vS=1;speed=0.3} @self ~onDeath
+  Drops:
+    - kraken_drop
+Kraken_Tentacle:
+  Type: SLIME
+  Display: '&3Abyssal Tentacle'
+  Health: 8000
+  Damage: 350
+  Options:
+    Size: 3
+    PreventOtherDrops: true
+    MovementSpeed: 0.38
+    KnockbackResistance: 0.6
+    Despawn: CHUNK
+  AIGoalSelectors:
+    - clear
+    - meleeattack
+    - randomstroll
+  AITargetSelectors:
+    - clear
+    - players
+  Skills:
+    - effect:particles{p=SQUID_INK;amount=10;hS=0.8;vS=0.4} @self ~onDamaged
+    - sound{s=entity.squid.squirt;v=1.2;p=1.2} @self ~onDamaged

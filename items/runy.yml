@@ -1,0 +1,377 @@
+RUNE_URUZ_I:
+  Id: BLADE_POTTERY_SHERD
+  Display: '&9[ I ] &fᚢ Uruz'
+  Lore:
+    - '&7Increased damage: &a+1%&7.'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_URUZ_II:
+  Id: BLADE_POTTERY_SHERD
+  Display: '&5[ II ] &fᚢ Uruz'
+  Lore:
+    - '&7Increased damage: &a+2%&7.'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_URUZ_III:
+  Id: BLADE_POTTERY_SHERD
+  Display: '&6[ III ] &fᚢ Uruz'
+  Lore:
+    - '&7Increased damage: &a+3%&7.'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_ALGIZ_I:
+  Id: SHELTER_POTTERY_SHERD
+  Display: '&9[ I ] &fᛉ Algiz'
+  Lore:
+    - '&7After taking a hit: reduce damage taken by &a8&7 (flat) for &a3s&7.'
+    - '&7Cooldown: &a10s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_ALGIZ_II:
+  Id: SHELTER_POTTERY_SHERD
+  Display: '&5[ II ] &fᛉ Algiz'
+  Lore:
+    - '&7After taking a hit: reduce damage taken by &a12&7 (flat) for &a3s&7.'
+    - '&7Cooldown: &a10s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_ALGIZ_III:
+  Id: SHELTER_POTTERY_SHERD
+  Display: '&6[ III ] &fᛉ Algiz'
+  Lore:
+    - '&7After taking a hit: reduce damage taken by &a16&7 (flat) for &a3s&7.'
+    - '&7Cooldown: &a10s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_SHIELD_I:
+  Id: HEART_POTTERY_SHERD
+  Display: '&9[ I ] &fᛜ Shield'
+  Lore:
+    - '&7Below &a30%&7 HP: gain a &a200&7 barrier for &a5s&7.'
+    - '&7Cooldown: &a45s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_SHIELD_II:
+  Id: HEART_POTTERY_SHERD
+  Display: '&5[ II ] &fᛜ Shield'
+  Lore:
+    - '&7Below &a30%&7 HP: gain a &a280&7 barrier for &a5s&7.'
+    - '&7Cooldown: &a45s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_SHIELD_III:
+  Id: HEART_POTTERY_SHERD
+  Display: '&6[ III ] &fᛜ Shield'
+  Lore:
+    - '&7Below &a30%&7 HP: gain a &a360&7 barrier for &a5s&7.'
+    - '&7Cooldown: &a45s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_THURISAZ_I:
+  Id: SKULL_POTTERY_SHERD
+  Display: '&9[ I ] &fᚦ Thurisaz'
+  Lore:
+    - '&7Reflects &a2%&7 of damage taken back to the attacker.'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_THURISAZ_II:
+  Id: SKULL_POTTERY_SHERD
+  Display: '&5[ II ] &fᚦ Thurisaz'
+  Lore:
+    - '&7Reflects &a3%&7 of damage taken back to the attacker.'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_THURISAZ_III:
+  Id: SKULL_POTTERY_SHERD
+  Display: '&6[ III ] &fᚦ Thurisaz'
+  Lore:
+    - '&7Reflects &a4%&7 of damage taken back to the attacker.'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_WUNJO_I:
+  Id: PRIZE_POTTERY_SHERD
+  Display: '&9[ I ] &fᚹ Wunjo'
+  Lore:
+    - '&7Luck: &a+1&7.'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_WUNJO_II:
+  Id: PRIZE_POTTERY_SHERD
+  Display: '&5[ II ] &fᚹ Wunjo'
+  Lore:
+    - '&7Luck: &a+2&7.'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_WUNJO_III:
+  Id: PRIZE_POTTERY_SHERD
+  Display: '&6[ III ] &fᚹ Wunjo'
+  Lore:
+    - '&7Luck: &a+3&7.'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_LAGUZ_I:
+  Id: ANGLER_POTTERY_SHERD
+  Display: '&9[ I ] &fᛚ Laguz'
+  Lore:
+    - '&7Heals for &a0.3%&7 of damage dealt (internal cooldown &a0.5s&7).'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_LAGUZ_II:
+  Id: ANGLER_POTTERY_SHERD
+  Display: '&5[ II ] &fᛚ Laguz'
+  Lore:
+    - '&7Heals for &a0.6%&7 of damage dealt (internal cooldown &a0.5s&7).'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_LAGUZ_III:
+  Id: ANGLER_POTTERY_SHERD
+  Display: '&6[ III ] &fᛚ Laguz'
+  Lore:
+    - '&7Heals for &a1.0%&7 of damage dealt (internal cooldown &a0.5s&7).'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_GEBO_I:
+  Id: PLENTY_POTTERY_SHERD
+  Display: '&9[ I ] &fᚷ Gebo'
+  Lore:
+    - '&7Overheal becomes a barrier of &a30&7 for &a5s&7 (CD &a15s&7).'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_GEBO_II:
+  Id: PLENTY_POTTERY_SHERD
+  Display: '&5[ II ] &fᚷ Gebo'
+  Lore:
+    - '&7Overheal becomes a barrier of &a60&7 for &a5s&7 (CD &a15s&7).'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_GEBO_III:
+  Id: PLENTY_POTTERY_SHERD
+  Display: '&6[ III ] &fᚷ Gebo'
+  Lore:
+    - '&7Overheal becomes a barrier of &a100&7 for &a5s&7 (CD &a15s&7).'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_EHWAZ_I:
+  Id: EXPLORER_POTTERY_SHERD
+  Display: '&9[ I ] &fᛖ Ehwaz'
+  Lore:
+    - '&7After &a2s&7 of sprinting: your next hit taken within &a3s&7 is reduced by &a20&7 (flat)'
+    - '&7and grants &a+20%&7 knockback resistance (CD &a8s&7).'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_EHWAZ_II:
+  Id: EXPLORER_POTTERY_SHERD
+  Display: '&5[ II ] &fᛖ Ehwaz'
+  Lore:
+    - '&7After &a2s&7 of sprinting: your next hit taken within &a3s&7 is reduced by &a35&7 (flat)'
+    - '&7and grants &a+30%&7 knockback resistance (CD &a8s&7).'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_EHWAZ_III:
+  Id: EXPLORER_POTTERY_SHERD
+  Display: '&6[ III ] &fᛖ Ehwaz'
+  Lore:
+    - '&7After &a2s&7 of sprinting: your next hit taken within &a3s&7 is reduced by &a50&7 (flat)'
+    - '&7and grants &a+40%&7 knockback resistance (CD &a8s&7).'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_BERKANO_I:
+  Id: SHEAF_POTTERY_SHERD
+  Display: '&9[ I ] &fᛒ Berkano'
+  Lore:
+    - '&7When dropping below &a30%&7 HP: cleanse &a1&7 negative effect and'
+    - '&7gain &a+20%&7 debuff resistance for &a3s&7 (CD &a25s&7).'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_BERKANO_II:
+  Id: SHEAF_POTTERY_SHERD
+  Display: '&5[ II ] &fᛒ Berkano'
+  Lore:
+    - '&7When dropping below &a30%&7 HP: cleanse &a1&7 negative effect and'
+    - '&7gain &a+30%&7 debuff resistance for &a3s&7 (CD &a25s&7).'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+RUNE_BERKANO_III:
+  Id: SHEAF_POTTERY_SHERD
+  Display: '&6[ III ] &fᛒ Berkano'
+  Lore:
+    - '&7When dropping below &a30%&7 HP: cleanse &a1&7 negative effect and'
+    - '&7gain &a+40%&7 debuff resistance for &a3s&7 (CD &a25s&7).'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+
+unidentified_treasure_map:
+  Id: paper
+  Display: '&aUnidentified Treasure Map'
+  Lore:
+    - '&8&oThis map might lead to &bhidden treasure&8&o...'
+    - '&8&oDeliver it to the &bPirate King &8&ofor identification.'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: Runes
+

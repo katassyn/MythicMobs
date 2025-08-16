@@ -1,0 +1,20 @@
+Kraken_Crown:
+  Id: TURTLE_HELMET
+  Options:
+    Unbreakable: true
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:4
+Kraken_Chest:
+  Id: NETHERITE_CHESTPLATE
+  Options:
+    Unbreakable: true
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:4
+Kraken_Trident:
+  Id: TRIDENT
+  Options:
+    Unbreakable: true
+  Enchantments:
+    - LOYALTY:3
+Kraken_Offhand:
+  Id: NAUTILUS_SHELL

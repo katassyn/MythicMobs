@@ -213,7 +213,6 @@ raging_soul_hell:
   Skills:
   - setname{name="<caster.name>";delay=2} @self ~onDamaged
   - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
-  - skill{s=DeathExplosion_hell} @self ~onDeath
   Drops:
   - raging_soul_hell_drop
   - q_hell_mob_crafting
