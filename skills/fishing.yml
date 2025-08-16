@@ -55,6 +55,7 @@ KRAKEN_InkBomb:
     - damage{a=900;ia=true} @PlayersInRadius{r=3;t=target}
     - potion{type=BLINDNESS;d=100;l=1} @PlayersInRadius{r=6;t=target}
 
+
 # === FAZA 3 ===
 KRAKEN_EnrageRoar:
   Cooldown: 60
