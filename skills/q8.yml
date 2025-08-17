@@ -90,19 +90,16 @@ TeleportToPlayer_blood:
 
 SummonIceHeaps:
   Skills:
-    - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
     - skill{s=FX_Ice_Telegraph_S} @self
     - summon{mob=heap_of_ice_inf;amount=4;radius=3;noise=2} @self ~onDeath
 
 SummonIceHeaps_hell:
   Skills:
-    - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
     - skill{s=FX_Ice_Telegraph_S} @self
     - summon{mob=heap_of_ice_hell;amount=4;radius=3;noise=2} @self ~onDeath
 
 SummonIceHeaps_blood:
   Skills:
-    - message{m="&bThe ice shatters into smaller pieces!"} @PlayersInRadius{r=20}
     - skill{s=FX_Ice_Telegraph_M} @self
     - summon{mob=heap_of_ice_blood;amount=4;radius=3;noise=2} @self ~onDeath
 
@@ -148,7 +145,6 @@ SummonDrones_blood:
 LightningZone:
   Cooldown: 15
   Skills:
-    - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
     - skill{s=FX_Electric_Field_Telegraph} @target
     - delay 40
     - lightning @target
@@ -158,7 +154,6 @@ LightningZone:
 LightningZone_hell:
   Cooldown: 15
   Skills:
-    - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
     - skill{s=FX_Electric_Field_Telegraph} @target
     - delay 40
     - lightning @target
@@ -168,7 +163,6 @@ LightningZone_hell:
 LightningZone_blood:
   Cooldown: 15
   Skills:
-    - message{m="&bElectric field materializes!"} @PlayersInRadius{r=20}
     - skill{s=FX_Electric_Field_Telegraph} @target
     - delay 40
     - lightning @target
@@ -424,7 +418,6 @@ Ice-Hit-Blood:
 HomingIceSphere:
   Cooldown: 15
   Skills:
-    - message{m="&bA sphere of pure frost manifests!"} @PlayersInRadius{r=30}
     - projectile{onTick=Sphere-Tick;onHit=Sphere-Hit;v=5;i=SNOWBALL;hR=1;vR=1;sF=true} @target
 
 Sphere-Tick:
@@ -440,7 +433,6 @@ Sphere-Hit:
 HomingIceSphere_hell:
   Cooldown: 15
   Skills:
-    - message{m="&bA sphere of pure frost manifests!"} @PlayersInRadius{r=30}
     - projectile{onTick=Sphere-Tick-Hell;onHit=Sphere-Hit-Hell;v=5;i=SNOWBALL;hR=1;vR=1;sF=true} @target
 
 Sphere-Tick-Hell:
@@ -456,7 +448,6 @@ Sphere-Hit-Hell:
 HomingIceSphere_blood:
   Cooldown: 15
   Skills:
-    - message{m="&bA sphere of pure frost manifests!"} @PlayersInRadius{r=30}
     - projectile{onTick=Sphere-Tick-Blood;onHit=Sphere-Hit-Blood;v=5;i=SNOWBALL;hR=1;vR=1;sF=true} @target
 
 Sphere-Tick-Blood:

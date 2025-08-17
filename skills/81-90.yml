@@ -10,7 +10,6 @@ RootGrasp:
 SpawnLeechbeasts:
   Cooldown: 16
   Skills:
-    - message{m="&5<caster.name>&r splits into Leechbeasts!"} @PIR{r=30}
     - effect:particles{particle=slime;amount=60;speed=0.15;hS=1;vS=0.6} @self
     - sound{s=entity.slime.jump;v=1.1;p=0.8} @self
     - delay 30
