@@ -245,7 +245,6 @@ Petrify_blood:
 SummonSnakes:
   Cooldown: 20
   Skills:
-    - message{m="&a&lSssss... &7Snakes slither from the ground!"} @PlayersInRadius{r=20}
     - sound{s=entity.witch.celebrate;v=0.8;p=1.6} @self
     - effect:particlering{p=SLIME;r=3.5;points=80;amount=1;y=0.1} @self 
     - effect:particlering{p=SLIME;r=2;points=40;amount=1;y=0.3} @self
@@ -255,7 +254,6 @@ SummonSnakes:
 SummonSnakes_hell:
   Cooldown: 20
   Skills:
-    - message{m="&a&lSssss... &7A venomous nest awakens!"} @PlayersInRadius{r=20}
     - sound{s=entity.witch.celebrate;v=0.9;p=1.6} @self
     - effect:particlering{p=SLIME;r=4;points=90;amount=1;y=0.1} @self 
     - effect:particlering{p=SLIME;r=2.5;points=45;amount=1;y=0.3} @self
@@ -265,7 +263,6 @@ SummonSnakes_hell:
 SummonSnakes_blood:
   Cooldown: 20
   Skills:
-    - message{m="&a&lSssss... &7The snake lair opens!"} @PlayersInRadius{r=20}
     - sound{s=entity.witch.celebrate;v=1;p=1.6} @self
     - effect:particlering{p=SLIME;r=4.5;points=100;amount=1;y=0.1} @self 
     - effect:particlering{p=SLIME;r=3;points=50;amount=1;y=0.3} @self

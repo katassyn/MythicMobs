@@ -67,7 +67,6 @@ ShadowGazer_Glare:
     - lineofsight{}
     - targetwithin{d=18}
   Skills:
-    - message{m="&8&lShadow Gazer&r fixes its stare on you..."} @target
     - effect:particles{p=witch;amount=25;hS=0.4;vS=0.2} @target
     - delay 16
     - potion{type=SLOW;duration=40;level=1} @target ?targetwithin{d=3}

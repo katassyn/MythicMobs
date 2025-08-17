@@ -117,7 +117,6 @@ Q2-CatapultHit-500:
 VineChase_inf:
   Cooldown: 12
   Skills:
-    - message{m="&2Roots creep along the ground!"} @PlayersInRadius{r=40}
     - effect:particles{p=HAPPY_VILLAGER;amount=10;hS=0.6;vS=0.02} @target
     - delay 12
     - projectile{onTick=Catapult-Tick;onHit=Q2-CatapultHit-100;v=20;g=0.05;hs=false;i=3;hnp=true;oh=TRUE;ot=TRUE;hR=1.2;vR=1.2} @PlayersInRadius{r=25;limit=1;sort=NEAREST}
@@ -126,7 +125,6 @@ VineChase_inf:
 VineChase_hell:
   Cooldown: 12
   Skills:
-    - message{m="&2Vines surge forward!"} @PlayersInRadius{r=40}
     - delay 10
     - projectile{onTick=Catapult-Tick;onHit=Q2-CatapultHit-200;v=22;g=0.05;hs=false;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.2;vR=1.2} @PlayersInRadius{r=26;limit=1;sort=NEAREST}
     - GCD{ticks=50}
@@ -134,7 +132,6 @@ VineChase_hell:
 VineChase_blood:
   Cooldown: 12
   Skills:
-    - message{m="&2The ground cracks with thorny roots!"} @PlayersInRadius{r=40}
     - delay 10
     - projectile{onTick=Catapult-Tick;onHit=Q2-CatapultHit-500;v=24;g=0.05;hs=false;i=2;hnp=true;oh=TRUE;ot=TRUE;hR=1.25;vR=1.25} @PlayersInRadius{r=28;limit=1;sort=NEAREST}
     - GCD{ticks=50}
@@ -181,7 +178,6 @@ Q2-PoisonHit-Inf:
 FallingPoisonSphere_inf:
   Cooldown: 16
   Skills:
-    - message{m="&aToxic orb forming above you!"} @target
     - effect:particles{p=SPELL_MOB;amount=20;hS=0.4;vS=0.1;color=#00ff00} @targetlocation
     - delay 18
     - damage{a=<caster.mhp>*0.1} @PlayersInRadius{r=5} @targetlocation
@@ -226,7 +222,6 @@ Q2-PoisonHit-Hell:
 FallingPoisonSphere_hell:
   Cooldown: 16
   Skills:
-    - message{m="&aToxic orb forming!"} @PlayersInRadius{r=40}
     - effect:particles{p=SOUL;amount=20;hS=0.4;vS=0.1} @targetlocation
     - delay 16
     - damage{a=<caster.mhp>*0.1} @PlayersInRadius{r=5} @targetlocation
@@ -271,7 +266,6 @@ Q2-PoisonHit-Blood:
 FallingPoisonSphere_blood:
   Cooldown: 18
   Skills:
-    - message{m="&aToxic orb overhead! Move!"} @target
     - effect:particles{p=ASH;amount=26;hS=0.5;vS=0.12} @targetlocation
     - delay 18
     - damage{a=<caster.mhp>*0.1} @PlayersInRadius{r=5} @targetlocation
