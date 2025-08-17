@@ -434,5 +434,5 @@ SummonPoisonousSpiders_blood:
   Skills:
     - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=40}
     - delay 18
-    - summon{mob=poisonous_spider_blood;amount=3;radius=14;noise=6} @ring{radius=14;points=12}
+    - summon{mob=poisonous_spider_blood;amount=2;radius=14;noise=6} @ring{radius=14;points=12}
     - GCD{ticks=110}
