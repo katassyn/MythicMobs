@@ -418,7 +418,7 @@ SummonPoisonousSpiders_inf:
     - sound{s=entity.spider.ambient;v=1.0;p=0.8} @self
     - effect:particles{p=SPIT;amount=40;hS=1.2;vS=0.4} @self
     - delay 20
-    - summon{mob=poisonous_spider_inf;amount=8;radius=10;noise=4} @ring{radius=10;points=8}
+    - summon{mob=poisonous_spider_inf;amount=1;radius=10;noise=4} @ring{radius=10;points=8}
     - GCD{ticks=90}
 
 SummonPoisonousSpiders_hell:
@@ -426,7 +426,7 @@ SummonPoisonousSpiders_hell:
   Skills:
     - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=40}
     - delay 18
-    - summon{mob=poisonous_spider_hell;amount=10;radius=12;noise=5} @ring{radius=12;points=10}
+    - summon{mob=poisonous_spider_hell;amount=2;radius=12;noise=5} @ring{radius=12;points=10}
     - GCD{ticks=100}
 
 SummonPoisonousSpiders_blood:
@@ -434,5 +434,5 @@ SummonPoisonousSpiders_blood:
   Skills:
     - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=40}
     - delay 18
-    - summon{mob=poisonous_spider_blood;amount=12;radius=14;noise=6} @ring{radius=14;points=12}
+    - summon{mob=poisonous_spider_blood;amount=3;radius=14;noise=6} @ring{radius=14;points=12}
     - GCD{ticks=110}
