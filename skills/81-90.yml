@@ -22,7 +22,6 @@ ThunderStrike:
     - targetwithin{d=24}
   Skills:
     - effect:particles{particle=electric_spark;amount=24;hS=1;vS=1} @target
-    - message{m="&b⚡ &7You feel static gathering..."} @target
     - sound{s=entity.warden.sonic_charge;v=1;p=1} @target
     - delay 28
     - effect:lightning @target

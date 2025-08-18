@@ -20,7 +20,6 @@ applyBlindness:
 ResurrectToltecWarrior:
   Cooldown: 20
   Skills:
-    - message{m="&2&lShaman&r calls a warrior soul..."} @PIR{r=28}
     - effect:particles{p=totem_of_undying;amount=40;hS=0.7;vS=0.2} @self
     - sound{s=entity.evoker.cast_spell;v=1;p=1} @self
     - delay 30

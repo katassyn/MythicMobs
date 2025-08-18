@@ -69,7 +69,6 @@ SummonCopy_inf:
 MagicMissile_inf:
   Cooldown: 9
   Skills:
-    - message{m="&4Khalys launches arcane missiles!"} @PlayersInRadius{r=26}
     - projectile{onTick=Magic-Tick-Inf;onHit=Magic-Hit-Inf;v=11;i=DRAGON_BREATH;hR=1;vR=1;amount=3;spread=14} @NearestPlayer{r=30}
 
 Magic-Tick-Inf:

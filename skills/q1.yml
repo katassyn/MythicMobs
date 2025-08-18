@@ -46,7 +46,6 @@ Catapult-Hit:
 SummonServants:
   Cooldown: 30
   Skills:
-    - message{m="&6<mob.name>&f summons help!"} @PlayersInRadius{r=40}
     - sound{s=entity.evoker.prepare_summon;v=1.2;p=1.0} @self
     - effect:particles{p=FLAME;amount=80;hS=1.2;vS=0.4;y=0.1} @self
     - delay 20
@@ -57,7 +56,6 @@ SummonServants:
 SummonServants_hell:
   Cooldown: 30
   Skills:
-    - message{m="&6<mob.name>&f calls more zealots!"} @PlayersInRadius{r=40}
     - sound{s=entity.evoker.prepare_summon;v=1.2;p=1.0} @self
     - effect:particles{p=SOUL_FIRE_FLAME;amount=90;hS=1.2;vS=0.4;y=0.1} @self
     - delay 20
@@ -68,7 +66,6 @@ SummonServants_hell:
 SummonServants_blood:
   Cooldown: 35
   Skills:
-    - message{m="&4<mob.name>&f tears open a rift!"} @PlayersInRadius{r=40}
     - sound{s=entity.zombie_villager.converted;v=1.2;p=0.7} @self
     - effect:particles{p=ASH;amount=120;hS=1.4;vS=0.5;y=0.1} @self
     - delay 25
@@ -79,7 +76,6 @@ SummonServants_blood:
 SummonFlamecultServants:
   Cooldown: 28
   Skills:
-    - message{m="&cFlamecult reinforcements incoming!"} @PlayersInRadius{r=40}
     - sound{s=entity.blaze.ambient;v=1.0;p=0.9} @self
     - effect:particles{p=FLAME;amount=70;hS=1.1;vS=0.3} @self
     - delay 16
@@ -89,7 +85,6 @@ SummonFlamecultServants:
 SummonFlamecultServants_hell:
   Cooldown: 28
   Skills:
-    - message{m="&cMore cultists join the fray!"} @PlayersInRadius{r=40}
     - sound{s=entity.blaze.ambient;v=1.0;p=0.9} @self
     - effect:particles{p=SOUL_FIRE_FLAME;amount=80;hS=1.1;vS=0.3} @self
     - delay 16
@@ -99,7 +94,6 @@ SummonFlamecultServants_hell:
 SummonFlamecultServants_blood:
   Cooldown: 32
   Skills:
-    - message{m="&4Bloodbound cultists appear!"} @PlayersInRadius{r=40}
     - sound{s=entity.blaze.ambient;v=1.0;p=0.8} @self
     - effect:particles{p=ASH;amount=100;hS=1.1;vS=0.3} @self
     - delay 18
@@ -132,7 +126,6 @@ TeleportToPlayer:
   Conditions:
     - targetwithin{d=24} true
   Skills:
-    - message{m="&7&m&m&m&m &e<mob.name> vanishes..."} @PlayersInRadius{r=30}
     - sound{s=entity.enderman.teleport;v=0.9;p=0.7} @self
     - effect:particles{p=PORTAL;amount=70;hS=0.7;vS=0.5} @self
     - delay 6

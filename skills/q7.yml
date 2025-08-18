@@ -26,7 +26,6 @@ ThunderStrike:
 DeathExplosion:
   Cooldown: 1
   Skills:
-    - message{m="&4&l! &cEnergy surges... &7(Back away)"} @PlayersInRadius{r=8}
     - effect:particles{p=SMOKE_NORMAL;amount=80;hS=1.8;vS=0.3;speed=0.02;y=0.2} @self
     - sound{s=entity.wither.ambient;v=1.2;p=0.6} @self
     - delay 50
@@ -146,7 +145,6 @@ ThunderStrike_hell:
 DeathExplosion_hell:
   Cooldown: 1
   Skills:
-    - message{m="&4&l! &cEnergy surges... &7(Back away)"} @PlayersInRadius{r=8}
     - effect:particles{p=SMOKE_NORMAL;amount=100;hS=1.8;vS=0.3;speed=0.02;y=0.2} @self
     - sound{s=entity.wither.ambient;v=1.2;p=0.6} @self
     - delay 45
@@ -267,7 +265,6 @@ ThunderStrike_blood:
 DeathExplosion_blood:
   Cooldown: 1
   Skills:
-    - message{m="&4&l! &cEnergy surges... &7(Back away)"} @PlayersInRadius{r=8}
     - effect:particles{p=SMOKE_NORMAL;amount=120;hS=1.8;vS=0.3;speed=0.02;y=0.2} @self
     - sound{s=entity.wither.ambient;v=1.2;p=0.6} @self
     - delay 40

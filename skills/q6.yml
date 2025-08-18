@@ -2,7 +2,6 @@
 DeathExplosion:
   Cooldown: 1
   Skills:
-  - message{m="&cA &lDeath Explosion&r is coming! &7(Run!)"} @PlayersInRadius{r=12}
   - sound{s=entity.wither.spawn;v=1;p=0.8} @self
   - effect:particles{p=SMOKE_LARGE;amount=30;radius=2;y=0.2} @self
   - delay 10
@@ -22,7 +21,6 @@ DeathExplosion:
 WitheringShot:
   Cooldown: 10
   Skills:
-  - message{m="&6<mob.name>&f draws a bowstring tainted with darkness!"} @PlayersInRadius{r=30}
   - sound{s=entity.skeleton.shoot;v=1;p=1.2} @self
   - effect:particles{p=SMOKE_LARGE;amount=12;radius=1} @self
   - delay 15
@@ -45,7 +43,6 @@ MeteorStrike:
 HomingOrb:
   Cooldown: 10
   Skills:
-  - message{m="&5<mob.name>&f forms a &dNecro Orb&f that &ltracks&f its target!"} @PlayersInRadius{r=30}
   - effect:particles{p=DRAGON_BREATH;amount=30;radius=1} @self
   - sound{s=block.beacon.ambient;v=1;p=1} @self
   - delay 10
@@ -93,7 +90,6 @@ DragonBreath:
 ScytheWhirlwind:
   Cooldown: 16
   Skills:
-  - message{m="&7<mob.name>&f whirls its blade!"} @PlayersInRadius{r=25}
   - sound{s=entity.player.attack.sweep;v=1.2;p=1} @self
   - effect:particles{p=SWEEP_ATTACK;amount=40;radius=5;y=0.2} @self
   - effect:particles{p=SWEEP_ATTACK;amount=60;radius=4;y=0.2} @self
@@ -112,7 +108,6 @@ ScytheWhirlwind:
 DeathDash:
   Cooldown: 12
   Skills:
-  - message{m="&8<mob.name>&f vanishes into shadowy snow!"} @PlayersInRadius{r=25}
   - effect:particles{p=SMOKE_LARGE;amount=40;radius=1} @self
   - sound{s=entity.enderman.teleport;v=1;p=1} @self
   - delay 5
@@ -124,7 +119,6 @@ DeathDash:
 HealingPulse:
   Cooldown: 20
   Skills:
-  - message{m="&a<&sparkles>&f Healing pulse!"} @PlayersInRadius{r=30}
   - heal{a=600} @self
   - potion{type=REGENERATION;duration=100;level=1} @self
   - effect:particles{p=HEART;amount=30} @self
@@ -170,7 +164,6 @@ SummonPhase3:
 DeathExplosion_hell:
   Cooldown: 1
   Skills:
-  - message{m="&cA &lDeath Explosion&r is coming! &7(Run!)"} @PlayersInRadius{r=12}
   - sound{s=entity.wither.spawn;v=1;p=0.8} @self
   - effect:particles{p=SMOKE_LARGE;amount=30;radius=3;y=0.2} @self
   - delay 10
@@ -191,7 +184,6 @@ DeathExplosion_hell:
 WitheringShot_hell:
   Cooldown: 10
   Skills:
-  - message{m="&6<mob.name>&f draws a bowstring tainted with darkness!"} @PlayersInRadius{r=30}
   - sound{s=entity.skeleton.shoot;v=1;p=1.2} @self
   - effect:particles{p=SMOKE_LARGE;amount=12;radius=1} @self
   - delay 15
@@ -214,7 +206,6 @@ MeteorStrike_hell:
 HomingOrb_hell:
   Cooldown: 10
   Skills:
-  - message{m="&5<mob.name>&f forms a &dNecro Orb&f that &ltracks&f its target!"} @PlayersInRadius{r=30}
   - effect:particles{p=DRAGON_BREATH;amount=30;radius=1} @self
   - sound{s=block.beacon.ambient;v=1;p=1} @self
   - delay 10
@@ -258,7 +249,6 @@ DragonBreath_hell:
 ScytheWhirlwind_hell:
   Cooldown: 16
   Skills:
-  - message{m="&7<mob.name>&f whirls its blade!"} @PlayersInRadius{r=25}
   - sound{s=entity.player.attack.sweep;v=1.2;p=1} @self
   - effect:particles{p=SWEEP_ATTACK;amount=40;radius=5;y=0.2} @self
   - effect:particles{p=SWEEP_ATTACK;amount=60;radius=4;y=0.2} @self
@@ -280,7 +270,6 @@ ScytheWhirlwind_hell:
 DeathDash_hell:
   Cooldown: 12
   Skills:
-  - message{m="&8<mob.name>&f vanishes into shadowy snow!"} @PlayersInRadius{r=25}
   - effect:particles{p=SMOKE_LARGE;amount=40;radius=1} @self
   - sound{s=entity.enderman.teleport;v=1;p=1} @self
   - delay 5
@@ -292,7 +281,6 @@ DeathDash_hell:
 HealingPulse_hell:
   Cooldown: 20
   Skills:
-  - message{m="&a<&sparkles>&f Healing pulse!"} @PlayersInRadius{r=30}
   - heal{a=1600} @self
   - potion{type=REGENERATION;duration=140;level=1} @self
   - effect:particles{p=HEART;amount=30} @self
@@ -337,7 +325,6 @@ SummonPhase3_hell:
 DeathExplosion_blood:
   Cooldown: 1
   Skills:
-  - message{m="&cA &lDeath Explosion&r is coming! &7(Run!)"} @PlayersInRadius{r=12}
   - sound{s=entity.wither.spawn;v=1;p=0.8} @self
   - effect:particles{p=SMOKE_LARGE;amount=30;radius=4;y=0.2} @self
   - delay 10
@@ -357,7 +344,6 @@ DeathExplosion_blood:
 WitheringShot_blood:
   Cooldown: 10
   Skills:
-  - message{m="&6<mob.name>&f draws a bowstring tainted with darkness!"} @PlayersInRadius{r=30}
   - sound{s=entity.skeleton.shoot;v=1;p=1.2} @self
   - effect:particles{p=SMOKE_LARGE;amount=12;radius=1} @self
   - delay 15
@@ -380,7 +366,6 @@ MeteorStrike_blood:
 HomingOrb_blood:
   Cooldown: 10
   Skills:
-  - message{m="&5<mob.name>&f forms a &dNecro Orb&f that &ltracks&f its target!"} @PlayersInRadius{r=30}
   - effect:particles{p=DRAGON_BREATH;amount=30;radius=1} @self
   - sound{s=block.beacon.ambient;v=1;p=1} @self
   - delay 10
@@ -426,7 +411,6 @@ DragonBreath_blood:
 ScytheWhirlwind_blood:
   Cooldown: 16
   Skills:
-  - message{m="&7<mob.name>&f whirls its blade!"} @PlayersInRadius{r=25}
   - sound{s=entity.player.attack.sweep;v=1.2;p=1} @self
   - effect:particles{p=SWEEP_ATTACK;amount=40;radius=6;y=0.2} @self
   - effect:particles{p=SWEEP_ATTACK;amount=60;radius=5;y=0.2} @self
@@ -451,7 +435,6 @@ ScytheWhirlwind_blood:
 DeathDash_blood:
   Cooldown: 12
   Skills:
-  - message{m="&8<mob.name>&f vanishes into shadowy snow!"} @PlayersInRadius{r=25}
   - effect:particles{p=SMOKE_LARGE;amount=40;radius=1} @self
   - sound{s=entity.enderman.teleport;v=1;p=1} @self
   - delay 5
@@ -463,7 +446,6 @@ DeathDash_blood:
 HealingPulse_blood:
   Cooldown: 20
   Skills:
-  - message{m="&a<&sparkles>&f Healing pulse!"} @PlayersInRadius{r=30}
   - heal{a=3000} @self
   - potion{type=REGENERATION;duration=180;level=1} @self
   - effect:particles{p=HEART;amount=30} @self
