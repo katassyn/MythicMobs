@@ -150,7 +150,6 @@ LeapAttack:
 SummonJabbax:
   Cooldown: 15
   Skills:
-    - message{m="&cJabbax calls for reinforcements!"} @PlayersInRadius{r=20}
     - summon{mob=anderworld_jabbax_inf;amount=10;radius=5} @self
 
 FlamingShot:
@@ -313,7 +312,6 @@ LeapAttack_hell:
 SummonJabbax_hell:
   Cooldown: 15
   Skills:
-    - message{m="&cJabbax calls for reinforcements!"} @PlayersInRadius{r=20}
     - summon{mob=anderworld_jabbax_hell;amount=10;radius=5} @self
 
 FlamingShot_hell:
@@ -478,7 +476,6 @@ LeapAttack_blood:
 SummonJabbax_blood:
   Cooldown: 15
   Skills:
-    - message{m="&cJabbax calls for reinforcements!"} @PlayersInRadius{r=20}
     - summon{mob=anderworld_jabbax_blood;amount=10;radius=5} @self
 
 FlamingShot_blood:

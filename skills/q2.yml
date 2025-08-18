@@ -32,7 +32,6 @@ Q2-ProjectileHit-200:
 MagicProjectile_inf:
   Cooldown: 6
   Skills:
-    - message{m="&5Death Witch&f traces dark energy..."} @PlayersInRadius{r=40}
     - sound{s=entity.witch.celebrate;v=1.0;p=0.7} @self
     - effect:particles{p=SPELL_WITCH;amount=30;hS=0.8;vS=0.25;y=1} @self
     - delay 10
@@ -42,7 +41,6 @@ MagicProjectile_inf:
 SummonSphere_inf:
   Cooldown: 18
   Skills:
-    - message{m="&5Death Witch&f conjures a soul sphere!"} @PlayersInRadius{r=40}
     - sound{s=entity.illusioner.prepare_mirror;v=1.0;p=1.2} @self
     - effect:particles{p=ENCHANT;amount=80;hS=0.9;vS=0.4;y=1} @self
     - delay 18
@@ -52,7 +50,6 @@ SummonSphere_inf:
 MagicProjectile_hell:
   Cooldown: 6
   Skills:
-    - message{m="&5Death Witch&f channels a curse!"} @PlayersInRadius{r=40}
     - sound{s=entity.witch.ambient;v=1.0;p=0.9} @self
     - effect:particles{p=SOUL;amount=30;hS=0.7;vS=0.25;y=1} @self
     - delay 10
@@ -62,7 +59,6 @@ MagicProjectile_hell:
 SummonSphere_hell:
   Cooldown: 18
   Skills:
-    - message{m="&5Death Witch&f summons a torment sphere!"} @PlayersInRadius{r=40}
     - sound{s=entity.illusioner.prepare_blindness;v=1.0;p=1.0} @self
     - effect:particles{p=SOUL;amount=90;hS=0.9;vS=0.4;y=1} @self
     - delay 18
@@ -72,7 +68,6 @@ SummonSphere_hell:
 MagicProjectile_blood:
   Cooldown: 7
   Skills:
-    - message{m="&4Blood Witch&f weaves a lethal bolt!"} @PlayersInRadius{r=40}
     - sound{s=entity.witch.celebrate;v=1.0;p=0.6} @self
     - effect:particles{p=ASH;amount=35;hS=0.9;vS=0.3;y=1} @self
     - delay 12
@@ -82,7 +77,6 @@ MagicProjectile_blood:
 SummonSphere_blood:
   Cooldown: 20
   Skills:
-    - message{m="&4A blood sphere takes form!"} @PlayersInRadius{r=40}
     - sound{s=entity.illusioner.prepare_mirror;v=1.0;p=0.8} @self
     - effect:particles{p=ASH;amount=100;hS=1.0;vS=0.45;y=1} @self
     - delay 20

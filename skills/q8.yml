@@ -121,7 +121,6 @@ SummonSmallIceHeaps_blood:
 SummonDrones:
   Cooldown: 20
   Skills:
-    - message{m="&bFrostwolf calls for reinforcements!"} @PlayersInRadius{r=20}
     - effect:particlering{p=ELECTRIC_SPARK;r=3;points=28;amount=1;y=0.15} @self
     - sound{s=block.beacon.activate;v=0.9;p=1.2} @self
     - summon{mob=charged_drone_inf;amount=2;radius=3} @self
@@ -129,7 +128,6 @@ SummonDrones:
 SummonDrones_hell:
   Cooldown: 20
   Skills:
-    - message{m="&bFrostwolf calls for reinforcements!"} @PlayersInRadius{r=20}
     - effect:particlering{p=ELECTRIC_SPARK;r=3.2;points=30;amount=1;y=0.15} @self
     - sound{s=block.beacon.activate;v=1;p=1.2} @self
     - summon{mob=charged_drone_hell;amount=2;radius=3} @self
@@ -137,7 +135,6 @@ SummonDrones_hell:
 SummonDrones_blood:
   Cooldown: 20
   Skills:
-    - message{m="&bFrostwolf calls for reinforcements!"} @PlayersInRadius{r=20}
     - effect:particlering{p=ELECTRIC_SPARK;r=3.4;points=32;amount=1;y=0.15} @self
     - sound{s=block.beacon.activate;v=1.1;p=1.2} @self
     - summon{mob=charged_drone_blood;amount=2;radius=3} @self
