@@ -1,0 +1,353 @@
+farmer_plant_fiber_I:
+  Id: STRING
+  Display: "&9[ I ] Plant Fiber"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&7&oBasic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_plant_fiber_II:
+  Id: STRING
+  Display: "&5[ II ] Plant Fiber"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&7&oBasic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_plant_fiber_III:
+  Id: STRING
+  Display: "&6[ III ] Plant Fiber"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&7&oBasic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_seed_pouch_I:
+  Id: WHEAT_SEEDS
+  Display: "&9[ I ] Seed Pouch"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&7&oBasic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_seed_pouch_II:
+  Id: WHEAT_SEEDS
+  Display: "&5[ II ] Seed Pouch"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&7&oBasic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_seed_pouch_III:
+  Id: WHEAT_SEEDS
+  Display: "&6[ III ] Seed Pouch"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&7&oBasic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_compost_dust_I:
+  Id: BONE_MEAL
+  Display: "&9[ I ] Compost Dust"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&7&oBasic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_compost_dust_II:
+  Id: BONE_MEAL
+  Display: "&5[ II ] Compost Dust"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&7&oBasic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_compost_dust_III:
+  Id: BONE_MEAL
+  Display: "&6[ III ] Compost Dust"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&7&oBasic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_herb_extract_I:
+  Id: SPIDER_EYE
+  Display: "&9[ I ] Herbal Extract"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&a&oRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_herb_extract_II:
+  Id: SPIDER_EYE
+  Display: "&5[ II ] Herbal Extract"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&a&oRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_herb_extract_III:
+  Id: SPIDER_EYE
+  Display: "&6[ III ] Herbal Extract"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&a&oRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_mushroom_spores_I:
+  Id: BROWN_MUSHROOM
+  Display: "&9[ I ] Mushroom Spores"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&a&oRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_mushroom_spores_II:
+  Id: BROWN_MUSHROOM
+  Display: "&5[ II ] Mushroom Spores"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&a&oRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_mushroom_spores_III:
+  Id: BROWN_MUSHROOM
+  Display: "&6[ III ] Mushroom Spores"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&a&oRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_beeswax_chunk_I:
+  Id: BOOK
+  Display: "&9[ I ] Beeswax Chunk"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&a&oRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_beeswax_chunk_II:
+  Id: BOOK
+  Display: "&5[ II ] Beeswax Chunk"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&a&oRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_beeswax_chunk_III:
+  Id: BOOK
+  Display: "&6[ III ] Beeswax Chunk"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&a&oRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_druidic_essence_I:
+  Id: GLOW_INK_SAC
+  Display: "&9[ I ] Druidic Essence"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&c&oLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_druidic_essence_II:
+  Id: GLOW_INK_SAC
+  Display: "&5[ II ] Druidic Essence"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&c&oLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_druidic_essence_III:
+  Id: GLOW_INK_SAC
+  Display: "&6[ III ] Druidic Essence"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&c&oLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_golden_truffle_I:
+  Id: GOLDEN_CARROT
+  Display: "&9[ I ] Golden Truffle"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&c&oLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_golden_truffle_II:
+  Id: GOLDEN_CARROT
+  Display: "&5[ II ] Golden Truffle"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&c&oLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_golden_truffle_III:
+  Id: GOLDEN_CARROT
+  Display: "&6[ III ] Golden Truffle"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&c&oLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_ancient_grain_I:
+  Id: HAY_BLOCK
+  Display: "&9[ I ] Ancient Grain Sheaf"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&c&oLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_ancient_grain_II:
+  Id: HAY_BLOCK
+  Display: "&5[ II ] Ancient Grain Sheaf"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&c&oLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+farmer_ancient_grain_III:
+  Id: HAY_BLOCK
+  Display: "&6[ III ] Ancient Grain Sheaf"
+  Group: Farming
+  Enchantments:
+    - 'DURABILITY:10'
+  Lore:
+    - '&c&oLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
+

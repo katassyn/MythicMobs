@@ -1,0 +1,402 @@
+# Q1 - GRIMMAG (fire/undead)
+q1_trophy_inf:
+  Id: skeleton_skull
+  Display: '&9[ I ] &cGrimmag Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Doubles gravekeeper bonuses for &c&lFIRE &7& &8&lUNDEAD'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q1_trophy_hell:
+  Id: skeleton_skull
+  Display: '&5[ II ] &cGrimmag Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Triples gravekeeper bonuses for &c&lFIRE &7& &8&lUNDEAD'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q1_trophy_blood:
+  Id: skeleton_skull
+  Display: '&6[ III ] &cGrimmag Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Quadruples gravekeeper bonuses for &c&lFIRE &7& &8&lUNDEAD'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Q2 - ARACHNA (wild/poison)
+q2_trophy_inf:
+  Id: wither_skeleton_skull
+  Display: '&9[ I ] &2Arachna Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Doubles gravekeeper bonuses for &2&lWILD &7& &5&lPOISON'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q2_trophy_hell:
+  Id: wither_skeleton_skull
+  Display: '&5[ II ] &2Arachna Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Triples gravekeeper bonuses for &2&lWILD &7& &5&lPOISON'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q2_trophy_blood:
+  Id: wither_skeleton_skull
+  Display: '&6[ III ] &2Arachna Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Quadruples gravekeeper bonuses for &2&lWILD &7& &5&lPOISON'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Q3 - HEREDUR (undead/water)
+q3_trophy_inf:
+  Id: dragon_head
+  Display: '&9[ I ] &1King Heredur Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Doubles gravekeeper bonuses for &8&lUNDEAD &7& &1&lWATER'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q3_trophy_hell:
+  Id: dragon_head
+  Display: '&5[ II ] &1King Heredur Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Triples gravekeeper bonuses for &8&lUNDEAD &7& &1&lWATER'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q3_trophy_blood:
+  Id: dragon_head
+  Display: '&6[ III ] &1King Heredur Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Quadruples gravekeeper bonuses for &8&lUNDEAD &7& &1&lWATER'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Q4 - BEARACH (wild/poison)
+q4_trophy_inf:
+  Id: player_head
+  Display: '&9[ I ] &2Bearach Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Doubles gravekeeper bonuses for &2&lWILD &7& &5&lPOISON'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+    SkinTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5YzFiNmVjY2RkZGRlOTVjOGI1YjQyMmEzZjIwNjI0Nzg5OTFhMjEwNjJjYjViOTU5Y2IxMGIzNzRiNGZlIn19fQ=="
+
+q4_trophy_hell:
+  Id: player_head
+  Display: '&5[ II ] &2Bearach Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Triples gravekeeper bonuses for &2&lWILD &7& &5&lPOISON'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+    SkinTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5YzFiNmVjY2RkZGRlOTVjOGI1YjQyMmEzZjIwNjI0Nzg5OTFhMjEwNjJjYjViOTU5Y2IxMGIzNzRiNGZlIn19fQ=="
+
+q4_trophy_blood:
+  Id: player_head
+  Display: '&6[ III ] &2Bearach Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Quadruples gravekeeper bonuses for &2&lWILD &7& &5&lPOISON'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+    SkinTexture: "eyJ0ZXh0dXJlcyI6eyJTS0lOIjp7InVybCI6Imh0dHA6Ly90ZXh0dXJlcy5taW5lY3JhZnQubmV0L3RleHR1cmUvYzg5YzFiNmVjY2RkZGRlOTVjOGI1YjQyMmEzZjIwNjI0Nzg5OTFhMjEwNjJjYjViOTU5Y2IxMGIzNzRiNGZlIn19fQ=="
+
+# Q5 - KHALYS (shadow/undead)
+q5_trophy_inf:
+  Id: zombie_head
+  Display: '&9[ I ] &7Khalys Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Doubles gravekeeper bonuses for &7&lSHADOW &7& &8&lUNDEAD'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q5_trophy_hell:
+  Id: zombie_head
+  Display: '&5[ II ] &7Khalys Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Triples gravekeeper bonuses for &7&lSHADOW &7& &8&lUNDEAD'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q5_trophy_blood:
+  Id: zombie_head
+  Display: '&6[ III ] &7Khalys Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Quadruples gravekeeper bonuses for &7&lSHADOW &7& &8&lUNDEAD'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Q6 - MORTIS (undead/shadow)
+q6_trophy_inf:
+  Id: creeper_head
+  Display: '&9[ I ] &8Mortis Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Doubles gravekeeper bonuses for &8&lUNDEAD &7& &7&lSHADOW'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q6_trophy_hell:
+  Id: creeper_head
+  Display: '&5[ II ] &8Mortis Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Triples gravekeeper bonuses for &8&lUNDEAD &7& &7&lSHADOW'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q6_trophy_blood:
+  Id: creeper_head
+  Display: '&6[ III ] &8Mortis Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Quadruples gravekeeper bonuses for &8&lUNDEAD &7& &7&lSHADOW'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Q7 - HERALD (shadow/fire)
+q7_trophy_inf:
+  Id: piglin_head
+  Display: '&9[ I ] &4Herald Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Doubles gravekeeper bonuses for &7&lSHADOW &7& &c&lFIRE'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q7_trophy_hell:
+  Id: piglin_head
+  Display: '&5[ II ] &4Herald Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Triples gravekeeper bonuses for &7&lSHADOW &7& &c&lFIRE'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q7_trophy_blood:
+  Id: piglin_head
+  Display: '&6[ III ] &4Herald Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Quadruples gravekeeper bonuses for &7&lSHADOW &7& &c&lFIRE'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Q8 - SIGRISMARR (water/wild)
+q8_trophy_inf:
+  Id: blaze_rod
+  Display: '&9[ I ] &bSigrismarr Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Doubles gravekeeper bonuses for &1&lWATER &7& &2&lWILD'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q8_trophy_hell:
+  Id: blaze_rod
+  Display: '&5[ II ] &bSigrismarr Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Triples gravekeeper bonuses for &1&lWATER &7& &2&lWILD'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q8_trophy_blood:
+  Id: blaze_rod
+  Display: '&6[ III ] &bSigrismarr Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Quadruples gravekeeper bonuses for &1&lWATER &7& &2&lWILD'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Q9 - MEDUSA (poison/wild)
+q9_trophy_inf:
+  Id: lapis_lazuli
+  Display: '&9[ I ] &aMedusa Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Doubles gravekeeper bonuses for &5&lPOISON &7& &2&lWILD'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q9_trophy_hell:
+  Id: lapis_lazuli
+  Display: '&5[ II ] &aMedusa Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Triples gravekeeper bonuses for &5&lPOISON &7& &2&lWILD'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q9_trophy_blood:
+  Id: lapis_lazuli
+  Display: '&6[ III ] &aMedusa Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Quadruples gravekeeper bonuses for &5&lPOISON &7& &2&lWILD'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+# Q10 - GORGA (poison/water)
+q10_trophy_inf:
+  Id: raw_copper
+  Display: '&9[ I ] &3Gorga Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Doubles gravekeeper bonuses for &5&lPOISON &7& &1&lWATER'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q10_trophy_hell:
+  Id: raw_copper
+  Display: '&5[ II ] &3Gorga Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Triples gravekeeper bonuses for &5&lPOISON &7& &1&lWATER'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+q10_trophy_blood:
+  Id: raw_copper
+  Display: '&6[ III ] &3Gorga Trophy'
+  Group: grave_trophy
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '&7Quadruples gravekeeper bonuses for &5&lPOISON &7& &1&lWATER'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true

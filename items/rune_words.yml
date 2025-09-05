@@ -1,0 +1,137 @@
+word_runic_tether:
+  Id: PAPER
+  Display: '&6&lRunic Word:&r &eRunic Tether'
+  Lore:
+    - '&fAfter &a2 &fhits, &bLeash &fthe target'
+    - '&fto within &a7 blocks &ffor &a3s&f.'
+    - '&fMoving farther snaps them back.'
+    - '&7CD:&b 20s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: words
+
+word_surgical_sever:
+  Id: PAPER
+  Display: '&6&lRunic Word:&r &eSurgical Sever'
+  Lore:
+    - '&fEach hit applies &c-50% healing received'
+    - '&fon target for &a3s&f (refreshes).'
+    - '&7CD:&b 0s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: words
+
+word_blessing_theft:
+  Id: PAPER
+  Display: '&6&lRunic Word:&r &eBlessing Theft'
+  Lore:
+    - '&fOn hit vs a buffed foe, &bSteal'
+    - '&a1 &frandom positive effect for &a5s&f.'
+    - '&fThe target loses that effect.'
+    - '&7CD:&b 22s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: words
+
+word_hunters_mark:
+  Id: PAPER
+  Display: '&6&lRunic Word:&r &eHunter`s Mark'
+  Lore:
+    - '&fAfter &a2 &fhits in &a4s&f, &bReveal'
+    - '&fwith &eGlowing &ffor &a5s&f; remove Invisibility.'
+    - '&7CD:&b 20s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: words
+
+word_rhythmic_displacement:
+  Id: PAPER
+  Display: '&6&lRunic Word:&r &eRhythmic Displacement'
+  Lore:
+    - '&fAfter &a4 &fhits on the same target, &bLock'
+    - '&fa &drandom hotbar slot &ffor &a3s&f.'
+    - '&7CD:&b 28s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: words
+
+word_crosshair_rattle:
+  Id: PAPER
+  Display: '&6&lRunic Word:&r &eCrosshair Rattle'
+  Lore:
+    - '&fAfter &a2 &fhits in &a3s&f, &bDisorient'
+    - '&fwith &5Nausea &ffor &a1s&f.'
+    - '&7CD:&b 12s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: words
+
+word_whiplash_sprint:
+  Id: PAPER
+  Display: '&6&lRunic Word:&r &eWhiplash Sprint'
+  Lore:
+    - '&fHitting a &6sprinting &ffoe: &bDisable'
+    - '&csprint &fand &cjump &ffor &a3s&f.'
+    - '&7CD:&b 14s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: words
+
+word_mischief:
+  Id: PAPER
+  Display: '&6&lRunic Word:&r &eMischief'
+  Lore:
+    - '&fOn hit, &bSwap &fthe victim’s &dheld slot'
+    - '&fwith a random non-empty hotbar slot.'
+    - '&7CD:&b 16s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: words
+
+word_overextension:
+  Id: PAPER
+  Display: '&6&lRunic Word:&r &eOverextension'
+  Lore:
+    - '&fIf the foe strikes back within &a0.3s&f, &bNegate'
+    - '&ftheir hit (&c0 damage&f) and &bKnockback'
+    - '&fby &a~5–7 blocks&f.'
+    - '&7CD:&b 16s'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Enchantments:
+    - DURABILITY:10
+  Group: words

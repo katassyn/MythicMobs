@@ -6,7 +6,6 @@ q_inf_mob_crafting_item_drops:
   MaxItems: 2
   Drops:
     - mob_soul_I 1 0.05
-    - alga_I 1 0.025
     - andermant 1-3 0.025
     - lockpick 1-3 0.025
 q_hell_mob_crafting:
@@ -17,7 +16,6 @@ q_hell_mob_crafting_item_drops:
   MaxItems: 2
   Drops:
     - mob_soul_II 1 0.05
-    - alga_II 1 0.025
     - andermant 3-5 0.025
     - lockpick 1-3 0.025
 q_blood_mob_crafting:
@@ -28,7 +26,6 @@ q_blood_mob_crafting_item_drops:
   MaxItems: 2
   Drops:
     - mob_soul_III 1 0.05
-    - alga_III 1 0.025
     - andermant 5-10 0.025
     - lockpick 1-3 0.025
 q_inf_elite_crafting:
@@ -40,8 +37,6 @@ q_inf_elite_crafting_item_drops:
   Drops:
     - mob_soul_I 1 0.05
     - elite_heart_I 1 0.1
-    - alga_I 1 0.025
-    - pearl_I 1 0.05
     - andermant 1-3 0.025
     - lockpick 1-3 0.025
 q_hell_elite_crafting:
@@ -53,8 +48,6 @@ q_hell_elite_crafting_item_drops:
   Drops:
     - mob_soul_II 1 0.05
     - elite_heart_II 1 0.1
-    - alga_II 1 0.025
-    - pearl_II 1 0.05
     - andermant 3-5 0.025
     - lockpick 1-3 0.025
 q_blood_elite_crafting:
@@ -66,8 +59,6 @@ q_blood_elite_crafting_item_drops:
   Drops:
     - mob_soul_I 1 0.05
     - elite_heart_I 1 0.1
-    - alga_I 1 0.025
-    - pearl_I 1 0.05
     - andermant 1-3 0.025
     - lockpick 1-3 0.025
 

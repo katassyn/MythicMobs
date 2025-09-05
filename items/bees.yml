@@ -1,0 +1,220 @@
+# =========================
+# HONEY BOTTLES (QUALITY) — pełne lore + tag materiału
+# =========================
+honey_quality_basic:
+  Id: honey_bottle
+  Display: '&9[ I ] Honey Bottle'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Applies a new &fQuality&7 to an item.'
+    - '§o&7Roll range: &f-10% &7to &f+10%.'
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+honey_quality_rare:
+  Id: honey_bottle
+  Display: '&5[ II ] Honey Bottle'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Applies a new &fQuality&7 to an item.'
+    - '§o&7Roll range: &f0% &7to &f+20%.'
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+honey_quality_legendary:
+  Id: honey_bottle
+  Display: '&6[ III ] Honey Bottle'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Applies a new &fQuality&7 to an item.'
+    - '§o&7Roll range: &f+10% &7to &f+30%.'
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
+# =========================
+# BEES SET (BREAD ID)
+# =========================
+# QUEENS I / II / III  (multipliers 1 / 1.2 / 1.5, +5% / +10% / +15% rarer honey)
+queen_bee_I:
+  Id: bread
+  Display: '&9[ I ] Queen Bee'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Hive multiplier: &f1.0x'
+    - '§o&7Rarer honey chance: &a+5%'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+queen_bee_II:
+  Id: bread
+  Display: '&5[ II ] Queen Bee'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Hive multiplier: &f1.2x'
+    - '§o&7Rarer honey chance: &a+10%'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+queen_bee_III:
+  Id: bread
+  Display: '&6[ III ] Queen Bee'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Hive multiplier: &f1.5x'
+    - '§o&7Rarer honey chance: &a+15%'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
+# WORKERS I / II / III (base honey production 0.5 / 0.75 / 1)
+worker_bee_I:
+  Id: bread
+  Display: '&9[ I ] Worker Bee'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Base honey production: &f0.50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+worker_bee_II:
+  Id: bread
+  Display: '&5[ II ] Worker Bee'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Base honey production: &f0.75'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+worker_bee_III:
+  Id: bread
+  Display: '&6[ III ] Worker Bee'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Base honey production: &f1.00'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
+# DRONES I / II / III (larvae prod 0.5 / 0.75 / 1; reduces base honey by 1 / 0.75 / 0.5)
+drone_bee_I:
+  Id: bread
+  Display: '&9[ I ] Drone Bee'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Larvae production: &f0.50'
+    - '§o&7Reduces base honey production: &f-1.00'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+drone_bee_II:
+  Id: bread
+  Display: '&5[ II ] Drone Bee'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Larvae production: &f0.75'
+    - '§o&7Reduces base honey production: &f-0.75'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+drone_bee_III:
+  Id: bread
+  Display: '&6[ III ] Drone Bee'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Larvae production: &f1.00'
+    - '§o&7Reduces base honey production: &f-0.50'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+
+# LARVAE I / II / III (COOKIE ID; can turn into any bee)
+larva_I:
+  Id: cookie
+  Display: '&9[ I ] Bee Larva'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Can transform into any type of bee.'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+larva_II:
+  Id: cookie
+  Display: '&5[ II ] Bee Larva'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Can transform into any type of bee.'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+larva_III:
+  Id: cookie
+  Display: '&6[ III ] Bee Larva'
+  Group: bees
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Can transform into any type of bee.'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true

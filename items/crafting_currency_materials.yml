@@ -1940,3 +1940,59 @@ glass_crafting:
     HideFlags: true
     HideAttributes: true
     Unbreakable: true
+
+pota_biola:
+  Id: bowl
+  Display: '§6Biologist Potion'
+  Group: Currency
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Right click to reset Biologist Cooldown'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+#CRAFTING DUNGEON CRYSTALS
+#CRAFTING DUNGEON CRYSTALS
+#CRAFTING DUNGEON CRYSTALS
+
+essence_crystal:
+  Id: quartz
+  Display: '&9Essence Crystal'
+  Group: crafting_dungeon
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+power_crystal:
+  Id: raw_gold
+  Display: '&5Power Crystal'
+  Group: crafting_dungeon
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+primordial_soul_crystal:
+  Id: echo_shard
+  Display: '&6Primordial Soul Crystal'
+  Group: crafting_dungeon
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true

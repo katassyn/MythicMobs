@@ -1,0 +1,63 @@
+#MYTHOLOGICAL DUNGEON KEYS
+#MYTHOLOGICAL DUNGEON KEYS
+#MYTHOLOGICAL DUNGEON KEYS
+
+mythological_key_t1:
+  Id: tripwire_hook
+  Display: '&9[ T1 ] &7Mythological Dungeon Key'
+  Group: keys
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+mythological_key_t2:
+  Id: tripwire_hook
+  Display: '&a[ T2 ] &7Mythological Dungeon Key'
+  Group: keys
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+mythological_key_t3:
+  Id: tripwire_hook
+  Display: '&e[ T3 ] &7Mythological Dungeon Key'
+  Group: keys
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+mythological_key_t4:
+  Id: tripwire_hook
+  Display: '&5[ T4 ] &7Mythological Dungeon Key'
+  Group: keys
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+mythological_key_t5:
+  Id: tripwire_hook
+  Display: '&c[ T5 ] &7Mythological Dungeon Key'
+  Group: keys
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
