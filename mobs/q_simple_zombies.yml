@@ -1,0 +1,449 @@
+q1_inf:
+  Type: ZOMBIE
+  Display: '&7Q1 INF'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q1_inf
+
+q1_hell:
+  Type: ZOMBIE
+  Display: '&7Q1 HELL'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q1_hell
+
+q1_blood:
+  Type: ZOMBIE
+  Display: '&7Q1 BLOOD'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q1_blood
+
+q2_inf:
+  Type: ZOMBIE
+  Display: '&7Q2 INF'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q2_inf
+
+q2_hell:
+  Type: ZOMBIE
+  Display: '&7Q2 HELL'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q2_hell
+
+q2_blood:
+  Type: ZOMBIE
+  Display: '&7Q2 BLOOD'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q2_blood
+
+q3_inf:
+  Type: ZOMBIE
+  Display: '&7Q3 INF'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q3_inf
+
+q3_hell:
+  Type: ZOMBIE
+  Display: '&7Q3 HELL'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q3_hell
+
+q3_blood:
+  Type: ZOMBIE
+  Display: '&7Q3 BLOOD'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q3_blood
+
+q4_inf:
+  Type: ZOMBIE
+  Display: '&7Q4 INF'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q4_inf
+
+q4_hell:
+  Type: ZOMBIE
+  Display: '&7Q4 HELL'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q4_hell
+
+q4_blood:
+  Type: ZOMBIE
+  Display: '&7Q4 BLOOD'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q4_blood
+
+q5_inf:
+  Type: ZOMBIE
+  Display: '&7Q5 INF'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q5_inf
+
+q5_hell:
+  Type: ZOMBIE
+  Display: '&7Q5 HELL'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q5_hell
+
+q5_blood:
+  Type: ZOMBIE
+  Display: '&7Q5 BLOOD'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q5_blood
+
+q6_inf:
+  Type: ZOMBIE
+  Display: '&7Q6 INF'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q6_inf
+
+q6_hell:
+  Type: ZOMBIE
+  Display: '&7Q6 HELL'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q6_hell
+
+q6_blood:
+  Type: ZOMBIE
+  Display: '&7Q6 BLOOD'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q6_blood
+
+q7_inf:
+  Type: ZOMBIE
+  Display: '&7Q7 INF'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q7_inf
+
+q7_hell:
+  Type: ZOMBIE
+  Display: '&7Q7 HELL'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q7_hell
+
+q7_blood:
+  Type: ZOMBIE
+  Display: '&7Q7 BLOOD'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q7_blood
+
+q8_inf:
+  Type: ZOMBIE
+  Display: '&7Q8 INF'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q8_inf
+
+q8_hell:
+  Type: ZOMBIE
+  Display: '&7Q8 HELL'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q8_hell
+
+q8_blood:
+  Type: ZOMBIE
+  Display: '&7Q8 BLOOD'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q8_blood
+
+q9_inf:
+  Type: ZOMBIE
+  Display: '&7Q9 INF'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q9_inf
+
+q9_hell:
+  Type: ZOMBIE
+  Display: '&7Q9 HELL'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q9_hell
+
+q9_blood:
+  Type: ZOMBIE
+  Display: '&7Q9 BLOOD'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q9_blood
+
+q10_inf:
+  Type: ZOMBIE
+  Display: '&7Q10 INF'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q10_inf
+
+q10_hell:
+  Type: ZOMBIE
+  Display: '&7Q10 HELL'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q10_hell
+
+q10_blood:
+  Type: ZOMBIE
+  Display: '&7Q10 BLOOD'
+  Health: 10
+  Damage: 1
+  Options:
+    PreventRandomEquipment: true
+    PreventOtherDrops: true
+    AlwaysShowName: true
+    ShowHealth: true
+  Faction: q_simple
+  Group: q_simple
+  Drops:
+    - q10_blood
