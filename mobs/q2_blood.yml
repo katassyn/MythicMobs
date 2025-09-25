@@ -114,7 +114,7 @@ corrupted_root_creature_blood:
     - leather_boots{color=green} FEET
 xerib_the_hunchback_blood:
   Type: WITCH
-  Display: '&5&lXerib the Hunchback &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lXerath the Hunchback &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 20000  # x10 Zdrowie
   Damage: 300    # x5 Obrażenia
   Faction: q2_blood
@@ -143,7 +143,7 @@ xerib_the_hunchback_blood:
 archus_the_mad_blood:
   Type: ZOMBIE
   Disguise: HUSK
-  Display: '&5&lArchus the Mad &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lArchaz the Madcap &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 30000  # x10 Zdrowie
   Damage: 400    # x5 Obrażenia
   Faction: q2_blood
@@ -172,14 +172,14 @@ archus_the_mad_blood:
 arachna_scourge_of_duria_blood:
   Type: ZOMBIE
   Disguise: SPIDER
-  Display: '&4<&skull> &lArachna, Scourge of Duria&r &4<&skull>'
+  Display: '&4<&skull> &lAraksha, Bane of Durion&r &4<&skull>'
   Health: 50000  # x10 Zdrowie
   Damage: 500
   Faction: q2_blood
   Group: q2_blood # x5 Obrażenia
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Arachna - &c<mob.hp{round=0}> <&skull>'
+    Title: '&c<&skull> Araksha - &c<mob.hp{round=0}> <&skull>'
     Color: RED
     Style: SEGMENTED_12
   Options:
