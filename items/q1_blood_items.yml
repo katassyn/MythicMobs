@@ -66,7 +66,7 @@ path_of_the_untouchables_bloodshed:
 
 grimmags_flaming_wrath_bloodshed:
   Id: furnace_minecart
-  Display: '&6[ III ] &eGrimmag`s Flaming Wrath'
+  Display: '&6[ III ] &eGrimmor`s Flaming Wrath'
   Group: q1-bloodshed
   Lore:
     - ''
@@ -88,7 +88,7 @@ grimmags_flaming_wrath_bloodshed:
 
 fiery_tracks_of_grimmag_bloodshed:
   Id: diamond_boots
-  Display: '&6[ III ] &eFiery Tracks of Grimmag'
+  Display: '&6[ III ] &eFiery Tracks of Grimmor'
   Group: q1-bloodshed
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:90
@@ -112,7 +112,7 @@ fiery_tracks_of_grimmag_bloodshed:
 
 fyrgons_ring_of_fire:
   Id: tnt_minecart
-  Display: '&6[ III ] &l&cFYRGON`S RING OF FIRE'
+  Display: '&6[ III ] &l&cGRIMMOR`S RING OF FIRE'
   Group: q1-bloodshed
   Lore:
     - ''
@@ -134,7 +134,7 @@ fyrgons_ring_of_fire:
 
 cuchulains_battle_armor_bloodshed:
   Id: diamond_chestplate
-  Display: '&6[ III ] &6Cuchulain`s Battle Armor'
+  Display: '&6[ III ] &6Grimmor`s Battle Armor'
   Group: q1-bloodshed
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:80

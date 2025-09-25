@@ -96,7 +96,7 @@ cursed_archer_blood:
 
 parallel_world_evil_miller_blood:
   Type: ZOMBIE
-  Display: '&5&lParallel World Evil Miller &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lParallel Realm Dire Miller &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 20000  # 10x2000
   Damage: 750    # 5x150
   Faction: q3_blood
@@ -225,7 +225,7 @@ slain_archer_blood:
 
 the_bloody_arrow_blood:
   Type: SKELETON
-  Display: '&5&lThe Bloody Arrow &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lThe Crimson Arrow &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 15000  # 10x1500
   Damage: 900    # 5x180
   Faction: q3_blood
@@ -259,14 +259,14 @@ the_bloody_arrow_blood:
 
 undead_parallel_world_king_heredur_blood:
   Type: ZOMBIE
-  Display: '&4<&skull> &lUndead King Heredur &r&4<&skull>'
+  Display: '&4<&skull> &lUndead King Heredorn &r&4<&skull>'
   Health: 60000  # 10x3000
   Damage: 1000   # 5x200
   Faction: q3_blood
   Group: q3_blood
   BossBar:
     Enabled: true
-    Title: '&c<&skull> King Heredur - <mob.hp{round=0}> <&skull>'
+    Title: '&c<&skull> King Heredorn - <mob.hp{round=0}> <&skull>'
     Color: RED
     Style: SEGMENTED_12
   Options:

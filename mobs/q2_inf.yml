@@ -115,7 +115,7 @@ corrupted_root_creature_inf:
 
 xerib_the_hunchback_inf:
   Type: WITCH
-  Display: '&5&lXerib the Hunchback &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lXerath the Hunchback &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2000
   Damage: 60
   Faction: q2_inf
@@ -145,7 +145,7 @@ xerib_the_hunchback_inf:
 archus_the_mad_inf:
   Type: ZOMBIE
   Disguise: HUSK
-  Display: '&5&lArchus the Mad &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lArchaz the Madcap &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000
   Damage: 80
   Faction: q2_inf
@@ -173,14 +173,14 @@ archus_the_mad_inf:
 arachna_scourge_of_duria_inf:
   Type: ZOMBIE
   Disguise: SPIDER
-  Display: '&4<&skull> &lArachna, Scourge of Duria &r&4<&skull>'
+  Display: '&4<&skull> &lAraksha, Bane of Durion &r&4<&skull>'
   Health: 5000
   Damage: 100
   Faction: q2_inf
   Group: q2_inf
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Arachna - &c<mob.hp{round=0}> <&skull>'
+    Title: '&c<&skull> Araksha - &c<mob.hp{round=0}> <&skull>'
     Color: BLUE
     Style: SEGMENTED_12
   Options:

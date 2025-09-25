@@ -66,7 +66,7 @@ path_of_the_untouchables:
 
 cuchulains_battle_armor:
   Id: diamond_chestplate
-  Display: '&9[ I ] &6Cuchulain`s Battle Armor'
+  Display: '&9[ I ] &6Grimmor`s Battle Armor'
   Group: q1-infernal
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:60

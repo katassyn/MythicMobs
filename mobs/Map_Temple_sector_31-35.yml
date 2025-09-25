@@ -89,7 +89,7 @@ gorgon_heretic:
 
 high_priest_baran:
   Type: ZOMBIE
-  Display: '&5&l High Priest Gorgon B`aran&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&l High Priest Gorgon Barun&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1000
   Damage: 250
   Options:

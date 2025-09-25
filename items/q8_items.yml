@@ -324,7 +324,7 @@ unity_of_the_alliance_infernal+4:
     - ATTRIBUTES
 fjalnirs_ring_of_frost_infernal:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Fjalnir`s Ring of Frost'
+  Display: '&9[ I ] &6Sigrosmar`s Ring of Frost'
   Group: q8-infernal
   Lore:
     - ''
@@ -344,7 +344,7 @@ fjalnirs_ring_of_frost_infernal:
 
 fjalnirs_ring_of_frost_infernal+1:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Fjalnir`s Ring of Frost'
+  Display: '&9[ I ] &6Sigrosmar`s Ring of Frost'
   Group: q8-infernal
   Lore:
     - ''
@@ -364,7 +364,7 @@ fjalnirs_ring_of_frost_infernal+1:
 
 fjalnirs_ring_of_frost_infernal+2:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Fjalnir`s Ring of Frost'
+  Display: '&9[ I ] &6Sigrosmar`s Ring of Frost'
   Group: q8-infernal
   Lore:
     - ''
@@ -384,7 +384,7 @@ fjalnirs_ring_of_frost_infernal+2:
 
 fjalnirs_ring_of_frost_infernal+3:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Fjalnir`s Ring of Frost'
+  Display: '&9[ I ] &6Sigrosmar`s Ring of Frost'
   Group: q8-infernal
   Lore:
     - ''
@@ -404,7 +404,7 @@ fjalnirs_ring_of_frost_infernal+3:
 
 fjalnirs_ring_of_frost_infernal+4:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Fjalnir`s Ring of Frost'
+  Display: '&9[ I ] &6Sigrosmar`s Ring of Frost'
   Group: q8-infernal
   Lore:
     - ''
@@ -747,7 +747,7 @@ unity_of_the_alliance_hell+4:
     - ATTRIBUTES
 fjalnirs_ring_of_frost_hell:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Fjalnir`s Ring of Frost'
+  Display: '&5[ II ] &6Sigrosmar`s Ring of Frost'
   Group: q8-hell
   Lore:
     - ''
@@ -767,7 +767,7 @@ fjalnirs_ring_of_frost_hell:
 
 fjalnirs_ring_of_frost_hell+1:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Fjalnir`s Ring of Frost'
+  Display: '&5[ II ] &6Sigrosmar`s Ring of Frost'
   Group: q8-hell
   Lore:
     - ''
@@ -787,7 +787,7 @@ fjalnirs_ring_of_frost_hell+1:
 
 fjalnirs_ring_of_frost_hell+2:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Fjalnir`s Ring of Frost'
+  Display: '&5[ II ] &6Sigrosmar`s Ring of Frost'
   Group: q8-hell
   Lore:
     - ''
@@ -807,7 +807,7 @@ fjalnirs_ring_of_frost_hell+2:
 
 fjalnirs_ring_of_frost_hell+3:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Fjalnir`s Ring of Frost'
+  Display: '&5[ II ] &6Sigrosmar`s Ring of Frost'
   Group: q8-hell
   Lore:
     - ''
@@ -827,7 +827,7 @@ fjalnirs_ring_of_frost_hell+3:
 
 fjalnirs_ring_of_frost_hell+4:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Fjalnir`s Ring of Frost'
+  Display: '&5[ II ] &6Sigrosmar`s Ring of Frost'
   Group: q8-hell
   Lore:
     - ''
@@ -846,7 +846,7 @@ fjalnirs_ring_of_frost_hell+4:
     - ATTRIBUTES
 sigrismarrs_eternal_ward_hell:
   Id: diamond_chestplate
-  Display: '&5[ II ] &eSigrismarr`s Eternal Ward'
+  Display: '&5[ II ] &eSigrosmar`s Eternal Ward'
   Group: q8-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:90
@@ -870,7 +870,7 @@ sigrismarrs_eternal_ward_hell:
 
 sigrismarrs_eternal_ward_hell+1:
   Id: diamond_chestplate
-  Display: '&5[ II ] &eSigrismarr`s Eternal Ward'
+  Display: '&5[ II ] &eSigrosmar`s Eternal Ward'
   Group: q8-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:97
@@ -894,7 +894,7 @@ sigrismarrs_eternal_ward_hell+1:
 
 sigrismarrs_eternal_ward_hell+2:
   Id: diamond_chestplate
-  Display: '&5[ II ] &eSigrismarr`s Eternal Ward'
+  Display: '&5[ II ] &eSigrosmar`s Eternal Ward'
   Group: q8-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:104
@@ -918,7 +918,7 @@ sigrismarrs_eternal_ward_hell+2:
 
 sigrismarrs_eternal_ward_hell+3:
   Id: diamond_chestplate
-  Display: '&5[ II ] &eSigrismarr`s Eternal Ward'
+  Display: '&5[ II ] &eSigrosmar`s Eternal Ward'
   Group: q8-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:111
@@ -942,7 +942,7 @@ sigrismarrs_eternal_ward_hell+3:
 
 sigrismarrs_eternal_ward_hell+4:
   Id: diamond_chestplate
-  Display: '&5[ II ] &eSigrismarr`s Eternal Ward'
+  Display: '&5[ II ] &eSigrosmar`s Eternal Ward'
   Group: q8-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:118
@@ -1169,7 +1169,7 @@ unity_of_the_alliance_blood+4:
     - ATTRIBUTES
 fjalnirs_ring_of_frost_blood:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Fjalnir`s Ring of Frost'
+  Display: '&6[ III ] &6Sigrosmar`s Ring of Frost'
   Group: q8-blood
   Lore:
     - ''
@@ -1189,7 +1189,7 @@ fjalnirs_ring_of_frost_blood:
 
 fjalnirs_ring_of_frost_blood+1:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Fjalnir`s Ring of Frost'
+  Display: '&6[ III ] &6Sigrosmar`s Ring of Frost'
   Group: q8-blood
   Lore:
     - ''
@@ -1209,7 +1209,7 @@ fjalnirs_ring_of_frost_blood+1:
 
 fjalnirs_ring_of_frost_blood+2:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Fjalnir`s Ring of Frost'
+  Display: '&6[ III ] &6Sigrosmar`s Ring of Frost'
   Group: q8-blood
   Lore:
     - ''
@@ -1229,7 +1229,7 @@ fjalnirs_ring_of_frost_blood+2:
 
 fjalnirs_ring_of_frost_blood+3:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Fjalnir`s Ring of Frost'
+  Display: '&6[ III ] &6Sigrosmar`s Ring of Frost'
   Group: q8-blood
   Lore:
     - ''
@@ -1249,7 +1249,7 @@ fjalnirs_ring_of_frost_blood+3:
 
 fjalnirs_ring_of_frost_blood+4:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Fjalnir`s Ring of Frost'
+  Display: '&6[ III ] &6Sigrosmar`s Ring of Frost'
   Group: q8-blood
   Lore:
     - ''
@@ -1388,7 +1388,7 @@ frozen_mud_boots_blood+4:
     - ATTRIBUTES
 sigrismarrs_eternal_ward_blood:
   Id: diamond_chestplate
-  Display: '&6[ III ] &eSigrismarr`s Eternal Ward'
+  Display: '&6[ III ] &eSigrosmar`s Eternal Ward'
   Group: q8-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:100
@@ -1413,7 +1413,7 @@ sigrismarrs_eternal_ward_blood:
 
 sigrismarrs_eternal_ward_blood+1:
   Id: diamond_chestplate
-  Display: '&6[ III ] &eSigrismarr`s Eternal Ward'
+  Display: '&6[ III ] &eSigrosmar`s Eternal Ward'
   Group: q8-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:107
@@ -1437,7 +1437,7 @@ sigrismarrs_eternal_ward_blood+1:
 
 sigrismarrs_eternal_ward_blood+2:
   Id: diamond_chestplate
-  Display: '&6[ III ] &eSigrismarr`s Eternal Ward'
+  Display: '&6[ III ] &eSigrosmar`s Eternal Ward'
   Group: q8-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:114
@@ -1461,7 +1461,7 @@ sigrismarrs_eternal_ward_blood+2:
 
 sigrismarrs_eternal_ward_blood+3:
   Id: diamond_chestplate
-  Display: '&6[ III ] &eSigrismarr`s Eternal Ward'
+  Display: '&6[ III ] &eSigrosmar`s Eternal Ward'
   Group: q8-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:121
@@ -1485,7 +1485,7 @@ sigrismarrs_eternal_ward_blood+3:
 
 sigrismarrs_eternal_ward_blood+4:
   Id: diamond_chestplate
-  Display: '&6[ III ] &eSigrismarr`s Eternal Ward'
+  Display: '&6[ III ] &eSigrosmar`s Eternal Ward'
   Group: q8-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:128
@@ -1508,7 +1508,7 @@ sigrismarrs_eternal_ward_blood+4:
     - ATTRIBUTES
 sigrismarrs_eternal_grasp_blood:
   Id: furnace_minecart
-  Display: '&6[ III ] &l&cSIGRISMARR`S ETERNAL GRASP'
+  Display: '&6[ III ] &l&cSIGROSMAR`S ETERNAL GRASP'
   Group: q8-blood
   Lore:
     - ''
@@ -1530,7 +1530,7 @@ sigrismarrs_eternal_grasp_blood:
 
 sigrismarrs_eternal_grasp_blood+1:
   Id: furnace_minecart
-  Display: '&6[ III ] &l&cSIGRISMARR`S ETERNAL GRASP'
+  Display: '&6[ III ] &l&cSIGROSMAR`S ETERNAL GRASP'
   Group: q8-blood
   Lore:
     - ''
@@ -1552,7 +1552,7 @@ sigrismarrs_eternal_grasp_blood+1:
 
 sigrismarrs_eternal_grasp_blood+2:
   Id: furnace_minecart
-  Display: '&6[ III ] &l&cSIGRISMARR`S ETERNAL GRASP'
+  Display: '&6[ III ] &l&cSIGROSMAR`S ETERNAL GRASP'
   Group: q8-blood
   Lore:
     - ''
@@ -1574,7 +1574,7 @@ sigrismarrs_eternal_grasp_blood+2:
 
 sigrismarrs_eternal_grasp_blood+3:
   Id: furnace_minecart
-  Display: '&6[ III ] &l&cSIGRISMARR`S ETERNAL GRASP'
+  Display: '&6[ III ] &l&cSIGROSMAR`S ETERNAL GRASP'
   Group: q8-blood
   Lore:
     - ''
@@ -1596,7 +1596,7 @@ sigrismarrs_eternal_grasp_blood+3:
 
 sigrismarrs_eternal_grasp_blood+4:
   Id: furnace_minecart
-  Display: '&6[ III ] &l&cSIGRISMARR`S ETERNAL GRASP'
+  Display: '&6[ III ] &l&cSIGROSMAR`S ETERNAL GRASP'
   Group: q8-blood
   Lore:
     - ''

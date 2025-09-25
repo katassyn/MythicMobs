@@ -66,7 +66,7 @@ path_of_the_untouchables+1:
 
 cuchulains_battle_armor+1:
   Id: diamond_chestplate
-  Display: '&9[ I ] &6Cuchulain`s Battle Armor'
+  Display: '&9[ I ] &6Grimmor`s Battle Armor'
   Group: q1-infernal_+1
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:65
@@ -159,7 +159,7 @@ path_of_the_untouchables+2:
 
 cuchulains_battle_armor+2:
   Id: diamond_chestplate
-  Display: '&9[ I ] &6Cuchulain`s Battle Armor'
+  Display: '&9[ I ] &6Grimmor`s Battle Armor'
   Group: q1-infernal_+2
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:70
@@ -250,7 +250,7 @@ path_of_the_untouchables+3:
 
 cuchulains_battle_armor+3:
   Id: diamond_chestplate
-  Display: '&9[ I ] &6Cuchulain`s Battle Armor'
+  Display: '&9[ I ] &6Grimmor`s Battle Armor'
   Group: q1-infernal_+3
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:75
@@ -341,7 +341,7 @@ path_of_the_untouchables+4:
 
 cuchulains_battle_armor+4:
   Id: diamond_chestplate
-  Display: '&9[ I ] &6Cuchulain`s Battle Armor'
+  Display: '&9[ I ] &6Grimmor`s Battle Armor'
   Group: q1-infernal_+4
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:80

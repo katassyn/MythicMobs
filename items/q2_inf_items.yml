@@ -56,7 +56,7 @@ shroud_of_the_untouchables:
 
 oceanus_ring_of_poison:
   Id: hopper_minecart
-  Display: '&9[ I ] &6Oceanus`s Ring of Poison'
+  Display: '&9[ I ] &6Araksha`s Ring of Poison'
   Group: q2-infernal
   Lore:
     - ''

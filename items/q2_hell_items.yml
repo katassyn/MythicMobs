@@ -56,7 +56,7 @@ shroud_of_the_untouchables_hell:
 
 oceanus_ring_of_poison_hell:
   Id: hopper_minecart
-  Display: '&5[ II ] &6Oceanus`s Ring of Poison'
+  Display: '&5[ II ] &6Araksha`s Ring of Poison'
   Group: q2-hell
   Lore:
     - ''
@@ -74,7 +74,7 @@ oceanus_ring_of_poison_hell:
 
 arachnas_venomous_revenge:
   Id: diamond_sword
-  Display: '&5[ II ] &eArachna`s Venomous Revenge'
+  Display: '&5[ II ] &eAraksha`s Venomous Revenge'
   Group: q2-hell
   Lore:
     - ''
