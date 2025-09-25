@@ -453,7 +453,7 @@ elite_heart_III_1000x:
 
 grimmag_frag_I:
   Id: leather
-  Display: '&9[ I ] Grimmage Burned Cape'
+  Display: '&9[ I ] Grimmor`s Cindered Cape'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -465,7 +465,7 @@ grimmag_frag_I:
     Unbreakable: true
 grimmag_frag_II:
   Id: leather
-  Display: '&5[ II ] Grimmage Burned Cape'
+  Display: '&5[ II ] Grimmor`s Cindered Cape'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -477,7 +477,7 @@ grimmag_frag_II:
     Unbreakable: true
 grimmag_frag_III:
   Id: leather
-  Display: '&6&6[ III ] Grimmage Burned Cape'
+  Display: '&6&6[ III ] Grimmor`s Cindered Cape'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -490,7 +490,7 @@ grimmag_frag_III:
 
 arachna_frag_I:
   Id: phantom_membrane
-  Display: '&9[ I ] Arachana Poisonous Skeleton'
+  Display: '&9[ I ] Araksha`s Venom Husk'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -502,7 +502,7 @@ arachna_frag_I:
     Unbreakable: true
 arachna_frag_II:
   Id: phantom_membrane
-  Display: '&5[ II ] Arachana Poisonous Skeleton'
+  Display: '&5[ II ] Araksha`s Venom Husk'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -514,7 +514,7 @@ arachna_frag_II:
     Unbreakable: true
 arachna_frag_III:
   Id: phantom_membrane
-  Display: '&6&6[ III ] Arachana Poisonous Skeleton'
+  Display: '&6&6[ III ] Araksha`s Venom Husk'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -527,7 +527,7 @@ arachna_frag_III:
 
 heredur_frag_I:
   Id: PRISMARINE_CRYSTALS
-  Display: '&9[ I ] Heredur`s Glacial Armor'
+  Display: '&9[ I ] Heredorn`s Glacial Armor'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -539,7 +539,7 @@ heredur_frag_I:
     Unbreakable: true
 heredur_frag_II:
   Id: PRISMARINE_CRYSTALS
-  Display: '&5[ II ] Heredur`s Glacial Armor'
+  Display: '&5[ II ] Heredorn`s Glacial Armor'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -551,7 +551,7 @@ heredur_frag_II:
     Unbreakable: true
 heredur_frag_III:
   Id: PRISMARINE_CRYSTALS
-  Display: '&6&6[ III ] Heredur`s Glacial Armor'
+  Display: '&6&6[ III ] Heredorn`s Glacial Armor'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -564,7 +564,7 @@ heredur_frag_III:
 
 bearach_frag_I:
   Id: HONEYCOMB
-  Display: '&9[ I ] Bearach Honey Hide'
+  Display: '&9[ I ] Bearok Honey Hide'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -576,7 +576,7 @@ bearach_frag_I:
     Unbreakable: true
 bearach_frag_II:
   Id: HONEYCOMB
-  Display: '&5[ II ] Bearach Honey Hide'
+  Display: '&5[ II ] Bearok Honey Hide'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -588,7 +588,7 @@ bearach_frag_II:
     Unbreakable: true
 bearach_frag_III:
   Id: HONEYCOMB
-  Display: '&6&6[ III ] Bearach Honey Hide'
+  Display: '&6&6[ III ] Bearok Honey Hide'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -601,7 +601,7 @@ bearach_frag_III:
 
 khalys_frag_I:
   Id: black_dye
-  Display: '&9[ I ] Khalys Magic Robe'
+  Display: '&9[ I ] Kalith`s Ritual Robe'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -613,7 +613,7 @@ khalys_frag_I:
     Unbreakable: true
 khalys_frag_II:
   Id: black_dye
-  Display: '&5[ II ] Khalys Magic Robe'
+  Display: '&5[ II ] Kalith`s Ritual Robe'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -625,7 +625,7 @@ khalys_frag_II:
     Unbreakable: true
 khalys_frag_III:
   Id: black_dye
-  Display: '&6&6[ III ] Khalys Magic Robe'
+  Display: '&6&6[ III ] Kalith`s Ritual Robe'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -638,7 +638,7 @@ khalys_frag_III:
 
 heralds_frag_I:
   Id: netherite_scrap
-  Display: '&9[ I ] Heralds Dragon Skin'
+  Display: '&9[ I ] Harbinger`s Dragon Skin'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -650,7 +650,7 @@ heralds_frag_I:
     Unbreakable: true
 heralds_frag_II:
   Id: netherite_scrap
-  Display: '&5[ II ] Heralds Dragon Skin'
+  Display: '&5[ II ] Harbinger`s Dragon Skin'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -662,7 +662,7 @@ heralds_frag_II:
     Unbreakable: true
 heralds_frag_III:
   Id: netherite_scrap
-  Display: '&6&6[ III ] Heralds Dragon Skin'
+  Display: '&6&6[ III ] Harbinger`s Dragon Skin'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -675,7 +675,7 @@ heralds_frag_III:
 
 sigrismar_frag_I:
   Id: amethyst_shard
-  Display: '&9[ I ] Sigrismarr`s Eternal Ice'
+  Display: '&9[ I ] Sigrosmar`s Eternal Ice'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -687,7 +687,7 @@ sigrismar_frag_I:
     Unbreakable: true
 sigrismar_frag_II:
   Id: amethyst_shard
-  Display: '&5[ II ] Sigrismarr`s Eternal Ice'
+  Display: '&5[ II ] Sigrosmar`s Eternal Ice'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -699,7 +699,7 @@ sigrismar_frag_II:
     Unbreakable: true
 sigrismar_frag_III:
   Id: amethyst_shard
-  Display: '&6&6[ III ] Sigrismarr`s Eternal Ice'
+  Display: '&6&6[ III ] Sigrosmar`s Eternal Ice'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -712,7 +712,7 @@ sigrismar_frag_III:
 
 medusa_frag_I:
   Id: scute
-  Display: '&9[ I ] M`Edusa Stone Scales'
+  Display: '&9[ I ] M`Edara Stone Scales'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -724,7 +724,7 @@ medusa_frag_I:
     Unbreakable: true
 medusa_frag_II:
   Id: scute
-  Display: '&5[ II ] M`Edusa Stone Scales'
+  Display: '&5[ II ] M`Edara Stone Scales'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -736,7 +736,7 @@ medusa_frag_II:
     Unbreakable: true
 medusa_frag_III:
   Id: scute
-  Display: '&6&6[ III ] M`Edusa Stone Scales'
+  Display: '&6&6[ III ] M`Edara Stone Scales'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -749,7 +749,7 @@ medusa_frag_III:
 
 gorga_frag_I:
   Id: lightning_rod
-  Display: '&9[ I ] Gorga`s Broken Tooth'
+  Display: '&9[ I ] Gorgra`s Broken Tooth'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -761,7 +761,7 @@ gorga_frag_I:
     Unbreakable: true
 gorga_frag_II:
   Id: lightning_rod
-  Display: '&5[ II ] Gorga`s Broken Tooth'
+  Display: '&5[ II ] Gorgra`s Broken Tooth'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -773,7 +773,7 @@ gorga_frag_II:
     Unbreakable: true
 gorga_frag_III:
   Id: lightning_rod
-  Display: '&6&6[ III ] Gorga`s Broken Tooth'
+  Display: '&6&6[ III ] Gorgra`s Broken Tooth'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -786,7 +786,7 @@ gorga_frag_III:
 
 mortis_frag_I:
   Id: bone
-  Display: '&9[ I ] Mortis Sacrificial Bones'
+  Display: '&9[ I ] Mortrix Sacrificial Bones'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -798,7 +798,7 @@ mortis_frag_I:
     Unbreakable: true
 mortis_frag_II:
   Id: bone
-  Display: '&5[ II ] Mortis Sacrificial Bones'
+  Display: '&5[ II ] Mortrix Sacrificial Bones'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -810,7 +810,7 @@ mortis_frag_II:
     Unbreakable: true
 mortis_frag_III:
   Id: bone
-  Display: '&6&6[ III ] Mortis Sacrificial Bones'
+  Display: '&6&6[ III ] Mortrix Sacrificial Bones'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
