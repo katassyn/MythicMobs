@@ -284,7 +284,7 @@ q7_trophy_blood:
 # Q8 - SIGRISMARR (water/wild)
 q8_trophy_inf:
   Id: blaze_rod
-  Display: '&9[ I ] &bSigrosmarr Trophy'
+  Display: '&9[ I ] &bSigrosmar Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -297,7 +297,7 @@ q8_trophy_inf:
 
 q8_trophy_hell:
   Id: blaze_rod
-  Display: '&5[ II ] &bSigrosmarr Trophy'
+  Display: '&5[ II ] &bSigrosmar Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -310,7 +310,7 @@ q8_trophy_hell:
 
 q8_trophy_blood:
   Id: blaze_rod
-  Display: '&6[ III ] &bSigrosmarr Trophy'
+  Display: '&6[ III ] &bSigrosmar Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
