@@ -1,0 +1,894 @@
+q1_inf:
+  Drops:
+    - fireman_pants 1 1
+    - pyro_helmet 1 1
+    - path_of_the_untouchables 1 1
+    - cuchulains_battle_armor 1 1
+    - fireman_pants+1 1 1
+    - pyro_helmet+1 1 1
+    - path_of_the_untouchables+1 1 1
+    - cuchulains_battle_armor+1 1 1
+    - fireman_pants+2 1 1
+    - pyro_helmet+2 1 1
+    - path_of_the_untouchables+2 1 1
+    - cuchulains_battle_armor+2 1 1
+    - fireman_pants+3 1 1
+    - pyro_helmet+3 1 1
+    - path_of_the_untouchables+3 1 1
+    - cuchulains_battle_armor+3 1 1
+    - fireman_pants+4 1 1
+    - pyro_helmet+4 1 1
+    - path_of_the_untouchables+4 1 1
+    - cuchulains_battle_armor+4 1 1
+
+q1_hell:
+  Drops:
+    - fireman_pants_hell 1 1
+    - pyro_helmet_hell 1 1
+    - path_of_the_untouchables_hell 1 1
+    - cuchulains_battle_armor_hell 1 1
+    - grimmags_flaming_wrath 1 1
+    - fiery_tracks_of_grimmag 1 1
+    - fireman_pants_hell+1 1 1
+    - pyro_helmet_hell+1 1 1
+    - path_of_the_untouchables_hell+1 1 1
+    - cuchulains_battle_armor_hell+1 1 1
+    - grimmags_flaming_wrath+1 1 1
+    - fiery_tracks_of_grimmag+1 1 1
+    - fireman_pants_hell+2 1 1
+    - pyro_helmet_hell+2 1 1
+    - path_of_the_untouchables_hell+2 1 1
+    - cuchulains_battle_armor_hell+2 1 1
+    - grimmags_flaming_wrath+2 1 1
+    - fiery_tracks_of_grimmag+2 1 1
+    - fireman_pants_hell+3 1 1
+    - pyro_helmet_hell+3 1 1
+    - path_of_the_untouchables_hell+3 1 1
+    - cuchulains_battle_armor_hell+3 1 1
+    - grimmags_flaming_wrath+3 1 1
+    - fiery_tracks_of_grimmag+3 1 1
+    - fireman_pants_hell+4 1 1
+    - pyro_helmet_hell+4 1 1
+    - path_of_the_untouchables_hell+4 1 1
+    - cuchulains_battle_armor_hell+4 1 1
+    - grimmags_flaming_wrath+4 1 1
+    - fiery_tracks_of_grimmag+4 1 1
+
+q1_blood:
+  Drops:
+    - fireman_pants_bloodshed 1 1
+    - pyro_helmet_bloodshed 1 1
+    - path_of_the_untouchables_bloodshed 1 1
+    - grimmags_flaming_wrath_bloodshed 1 1
+    - fiery_tracks_of_grimmag_bloodshed 1 1
+    - fyrgons_ring_of_fire 1 1
+    - cuchulains_battle_armor_bloodshed 1 1
+    - fireman_pants_bloodshed+1 1 1
+    - pyro_helmet_bloodshed+1 1 1
+    - path_of_the_untouchables_bloodshed+1 1 1
+    - cuchulains_battle_armor_bloodshed+1 1 1
+    - grimmags_flaming_wrath_bloodshed+1 1 1
+    - fiery_tracks_of_grimmag_bloodshed+1 1 1
+    - fyrgons_ring_of_fire+1 1 1
+    - fireman_pants_bloodshed+2 1 1
+    - pyro_helmet_bloodshed+2 1 1
+    - path_of_the_untouchables_bloodshed+2 1 1
+    - cuchulains_battle_armor_bloodshed+2 1 1
+    - grimmags_flaming_wrath_bloodshed+2 1 1
+    - fiery_tracks_of_grimmag_bloodshed+2 1 1
+    - fyrgons_ring_of_fire+2 1 1
+    - fireman_pants_bloodshed+3 1 1
+    - pyro_helmet_bloodshed+3 1 1
+    - path_of_the_untouchables_bloodshed+3 1 1
+    - cuchulains_battle_armor_bloodshed+3 1 1
+    - grimmags_flaming_wrath_bloodshed+3 1 1
+    - fiery_tracks_of_grimmag_bloodshed+3 1 1
+    - fyrgons_ring_of_fire+3 1 1
+    - fireman_pants_bloodshed+4 1 1
+    - pyro_helmet_bloodshed+4 1 1
+    - path_of_the_untouchables_bloodshed+4 1 1
+    - cuchulains_battle_armor_bloodshed+4 1 1
+    - grimmags_flaming_wrath_bloodshed+4 1 1
+    - fiery_tracks_of_grimmag_bloodshed+4 1 1
+    - fyrgons_ring_of_fire+4 1 1
+
+q2_inf:
+  Drops:
+    - spider_web_chestplate 1 1
+    - poisonous_dagger 1 1
+    - shroud_of_the_untouchables 1 1
+    - oceanus_ring_of_poison 1 1
+    - spider_web_chestplate+1 1 1
+    - poisonous_dagger+1 1 1
+    - shroud_of_the_untouchables+1 1 1
+    - oceanus_ring_of_poison+1 1 1
+    - spider_web_chestplate+2 1 1
+    - poisonous_dagger+2 1 1
+    - shroud_of_the_untouchables+2 1 1
+    - oceanus_ring_of_poison+2 1 1
+    - spider_web_chestplate+3 1 1
+    - poisonous_dagger+3 1 1
+    - shroud_of_the_untouchables+3 1 1
+    - oceanus_ring_of_poison+3 1 1
+    - spider_web_chestplate+4 1 1
+    - poisonous_dagger+4 1 1
+    - shroud_of_the_untouchables+4 1 1
+    - oceanus_ring_of_poison+4 1 1
+
+q2_hell:
+  Drops:
+    - spider_web_chestplate_hell 1 1
+    - poisonous_dagger_hell 1 1
+    - shroud_of_the_untouchables_hell 1 1
+    - oceanus_ring_of_poison_hell 1 1
+    - arachnas_venomous_revenge 1 1
+    - spider_web_chestplate_hell+1 1 1
+    - poisonous_dagger_hell+1 1 1
+    - shroud_of_the_untouchables_hell+1 1 1
+    - oceanus_ring_of_poison_hell+1 1 1
+    - arachnas_venomous_revenge+1 1 1
+    - spider_web_chestplate_hell+2 1 1
+    - poisonous_dagger_hell+2 1 1
+    - shroud_of_the_untouchables_hell+2 1 1
+    - oceanus_ring_of_poison_hell+2 1 1
+    - arachnas_venomous_revenge+2 1 1
+    - spider_web_chestplate_hell+3 1 1
+    - poisonous_dagger_hell+3 1 1
+    - shroud_of_the_untouchables_hell+3 1 1
+    - oceanus_ring_of_poison_hell+3 1 1
+    - arachnas_venomous_revenge+3 1 1
+    - spider_web_chestplate_hell+4 1 1
+    - poisonous_dagger_hell+4 1 1
+    - shroud_of_the_untouchables_hell+4 1 1
+    - oceanus_ring_of_poison_hell+4 1 1
+    - arachnas_venomous_revenge+4 1 1
+
+q2_blood:
+  Drops:
+    - spider_web_chestplate_bloodshed 1 1
+    - poisonous_dagger_bloodshed 1 1
+    - shroud_of_the_untouchables_bloodshed 1 1
+    - oceanus_ring_of_poison_bloodshed 1 1
+    - arachnas_venomous_revenge_blood 1 1
+    - arachnas_vigor_of_the_spider 1 1
+    - spider_web_chestplate_bloodshed+1 1 1
+    - poisonous_dagger_bloodshed+1 1 1
+    - shroud_of_the_untouchables_bloodshed+1 1 1
+    - oceanus_ring_of_poison_bloodshed+1 1 1
+    - arachnas_venomous_revenge_blood+1 1 1
+    - arachnas_vigor_of_the_spider+1 1 1
+    - spider_web_chestplate_bloodshed+2 1 1
+    - poisonous_dagger_bloodshed+2 1 1
+    - shroud_of_the_untouchables_bloodshed+2 1 1
+    - oceanus_ring_of_poison_bloodshed+2 1 1
+    - arachnas_venomous_revenge_blood+2 1 1
+    - arachnas_vigor_of_the_spider+2 1 1
+    - spider_web_chestplate_bloodshed+3 1 1
+    - poisonous_dagger_bloodshed+3 1 1
+    - shroud_of_the_untouchables_bloodshed+3 1 1
+    - oceanus_ring_of_poison_bloodshed+3 1 1
+    - arachnas_venomous_revenge_blood+3 1 1
+    - arachnas_vigor_of_the_spider+3 1 1
+    - spider_web_chestplate_bloodshed+4 1 1
+    - poisonous_dagger_bloodshed+4 1 1
+    - shroud_of_the_untouchables_bloodshed+4 1 1
+    - oceanus_ring_of_poison_bloodshed+4 1 1
+    - arachnas_venomous_revenge_blood+4 1 1
+    - arachnas_vigor_of_the_spider+4 1 1
+
+q3_inf:
+  Drops:
+    - undead_chestplate_infernal 1 1
+    - glacial_boots_infernal 1 1
+    - agathons_ring_of_order_infernal 1 1
+    - visage_of_the_untouchables_infernal 1 1
+    - undead_chestplate_infernal+1 1 1
+    - undead_chestplate_infernal+2 1 1
+    - undead_chestplate_infernal+3 1 1
+    - undead_chestplate_infernal+4 1 1
+    - glacial_boots_infernal+1 1 1
+    - glacial_boots_infernal+2 1 1
+    - glacial_boots_infernal+3 1 1
+    - glacial_boots_infernal+4 1 1
+    - agathons_ring_of_order_infernal+1 1 1
+    - agathons_ring_of_order_infernal+2 1 1
+    - agathons_ring_of_order_infernal+3 1 1
+    - agathons_ring_of_order_infernal+4 1 1
+    - visage_of_the_untouchables_infernal+1 1 1
+    - visage_of_the_untouchables_infernal+2 1 1
+    - visage_of_the_untouchables_infernal+3 1 1
+    - visage_of_the_untouchables_infernal+4 1 1
+
+q3_hell:
+  Drops:
+    - undead_chestplate_hell 1 1
+    - glacial_boots_hell 1 1
+    - agathons_ring_of_order_hell 1 1
+    - visage_of_the_untouchables_hell 1 1
+    - heredurs_royal_power_hell 1 1
+    - undead_chestplate_hell+1 1 1
+    - undead_chestplate_hell+2 1 1
+    - undead_chestplate_hell+3 1 1
+    - undead_chestplate_hell+4 1 1
+    - glacial_boots_hell+1 1 1
+    - glacial_boots_hell+2 1 1
+    - glacial_boots_hell+3 1 1
+    - glacial_boots_hell+4 1 1
+    - agathons_ring_of_order_hell+1 1 1
+    - agathons_ring_of_order_hell+2 1 1
+    - agathons_ring_of_order_hell+3 1 1
+    - agathons_ring_of_order_hell+4 1 1
+    - visage_of_the_untouchables_hell+1 1 1
+    - visage_of_the_untouchables_hell+2 1 1
+    - visage_of_the_untouchables_hell+3 1 1
+    - visage_of_the_untouchables_hell+4 1 1
+    - heredurs_royal_power_hell+1 1 1
+    - heredurs_royal_power_hell+2 1 1
+    - heredurs_royal_power_hell+3 1 1
+    - heredurs_royal_power_hell+4 1 1
+
+q3_blood:
+  Drops:
+    - undead_chestplate_blood 1 1
+    - glacial_boots_blood 1 1
+    - agathons_ring_of_order_blood 1 1
+    - visage_of_the_untouchables_blood 1 1
+    - heredurs_royal_power_blood 1 1
+    - heredurs_royal_shield_blood 1 1
+    - undead_chestplate_blood+1 1 1
+    - undead_chestplate_blood+2 1 1
+    - undead_chestplate_blood+3 1 1
+    - undead_chestplate_blood+4 1 1
+    - glacial_boots_blood+1 1 1
+    - glacial_boots_blood+2 1 1
+    - glacial_boots_blood+3 1 1
+    - glacial_boots_blood+4 1 1
+    - agathons_ring_of_order_blood+1 1 1
+    - agathons_ring_of_order_blood+2 1 1
+    - agathons_ring_of_order_blood+3 1 1
+    - agathons_ring_of_order_blood+4 1 1
+    - visage_of_the_untouchables_blood+1 1 1
+    - visage_of_the_untouchables_blood+2 1 1
+    - visage_of_the_untouchables_blood+3 1 1
+    - visage_of_the_untouchables_blood+4 1 1
+    - heredurs_royal_power_blood+1 1 1
+    - heredurs_royal_power_blood+2 1 1
+    - heredurs_royal_power_blood+3 1 1
+    - heredurs_royal_power_blood+4 1 1
+    - heredurs_royal_shield_blood+1 1 1
+    - heredurs_royal_shield_blood+2 1 1
+    - heredurs_royal_shield_blood+3 1 1
+    - heredurs_royal_shield_blood+4 1 1
+
+q4_inf:
+  Drops:
+    - honey_charm_infernal 1 1
+    - beekeeper_hat_infernal 1 1
+    - strike_of_the_untouchables_infernal 1 1
+    - artayas_cape_of_life_infernal 1 1
+    - honey_charm_infernal+1 1 1
+    - honey_charm_infernal+2 1 1
+    - honey_charm_infernal+3 1 1
+    - honey_charm_infernal+4 1 1
+    - beekeeper_hat_infernal+1 1 1
+    - beekeeper_hat_infernal+2 1 1
+    - beekeeper_hat_infernal+3 1 1
+    - beekeeper_hat_infernal+4 1 1
+    - strike_of_the_untouchables_infernal+1 1 1
+    - strike_of_the_untouchables_infernal+2 1 1
+    - strike_of_the_untouchables_infernal+3 1 1
+    - strike_of_the_untouchables_infernal+4 1 1
+    - artayas_cape_of_life_infernal+1 1 1
+    - artayas_cape_of_life_infernal+2 1 1
+    - artayas_cape_of_life_infernal+3 1 1
+    - artayas_cape_of_life_infernal+4 1 1
+
+q4_hell:
+  Drops:
+    - honey_charm_hell 1 1
+    - beekeeper_hat_hell 1 1
+    - strike_of_the_untouchables_hell 1 1
+    - artayas_cape_of_life_hell 1 1
+    - artayas_wild_care_hell 1 1
+    - honey_charm_hell+1 1 1
+    - honey_charm_hell+2 1 1
+    - honey_charm_hell+3 1 1
+    - honey_charm_hell+4 1 1
+    - beekeeper_hat_hell+1 1 1
+    - beekeeper_hat_hell+2 1 1
+    - beekeeper_hat_hell+3 1 1
+    - beekeeper_hat_hell+4 1 1
+    - strike_of_the_untouchables_hell+1 1 1
+    - strike_of_the_untouchables_hell+2 1 1
+    - strike_of_the_untouchables_hell+3 1 1
+    - strike_of_the_untouchables_hell+4 1 1
+    - artayas_cape_of_life_hell+1 1 1
+    - artayas_cape_of_life_hell+2 1 1
+    - artayas_cape_of_life_hell+3 1 1
+    - artayas_cape_of_life_hell+4 1 1
+    - artayas_wild_care_hell+1 1 1
+    - artayas_wild_care_hell+2 1 1
+    - artayas_wild_care_hell+3 1 1
+    - artayas_wild_care_hell+4 1 1
+
+q4_blood:
+  Drops:
+    - honey_charm_blood 1 1
+    - beekeeper_hat_blood 1 1
+    - strike_of_the_untouchables_blood 1 1
+    - artayas_cape_of_life_blood 1 1
+    - artayas_wild_care_blood 1 1
+    - bearachs_tormentor_blood 1 1
+    - bearachs_instinct_blood 1 1
+    - honey_charm_blood+1 1 1
+    - honey_charm_blood+2 1 1
+    - honey_charm_blood+3 1 1
+    - honey_charm_blood+4 1 1
+    - beekeeper_hat_blood+1 1 1
+    - beekeeper_hat_blood+2 1 1
+    - beekeeper_hat_blood+3 1 1
+    - beekeeper_hat_blood+4 1 1
+    - strike_of_the_untouchables_blood+1 1 1
+    - strike_of_the_untouchables_blood+2 1 1
+    - strike_of_the_untouchables_blood+3 1 1
+    - strike_of_the_untouchables_blood+4 1 1
+    - artayas_cape_of_life_blood+1 1 1
+    - artayas_cape_of_life_blood+2 1 1
+    - artayas_cape_of_life_blood+3 1 1
+    - artayas_cape_of_life_blood+4 1 1
+    - artayas_wild_care_blood+1 1 1
+    - artayas_wild_care_blood+2 1 1
+    - artayas_wild_care_blood+3 1 1
+    - artayas_wild_care_blood+4 1 1
+    - bearachs_tormentor_blood+1 1 1
+    - bearachs_tormentor_blood+2 1 1
+    - bearachs_tormentor_blood+3 1 1
+    - bearachs_tormentor_blood+4 1 1
+    - bearachs_instinct_blood+1 1 1
+    - bearachs_instinct_blood+2 1 1
+    - bearachs_instinct_blood+3 1 1
+    - bearachs_instinct_blood+4 1 1
+
+q5_inf:
+  Drops:
+    - andermagic_neckel_infernal 1 1
+    - void_axe_infernal 1 1
+    - duty_of_the_untouchables_infernal 1 1
+    - khalys_dark_gaze_infernal 1 1
+    - andermagic_neckel_infernal+1 1 1
+    - andermagic_neckel_infernal+2 1 1
+    - andermagic_neckel_infernal+3 1 1
+    - andermagic_neckel_infernal+4 1 1
+    - void_axe_infernal+1 1 1
+    - void_axe_infernal+2 1 1
+    - void_axe_infernal+3 1 1
+    - void_axe_infernal+4 1 1
+    - duty_of_the_untouchables_infernal+1 1 1
+    - duty_of_the_untouchables_infernal+2 1 1
+    - duty_of_the_untouchables_infernal+3 1 1
+    - duty_of_the_untouchables_infernal+4 1 1
+    - khalys_dark_gaze_infernal+1 1 1
+    - khalys_dark_gaze_infernal+2 1 1
+    - khalys_dark_gaze_infernal+3 1 1
+    - khalys_dark_gaze_infernal+4 1 1
+
+q5_hell:
+  Drops:
+    - andermagic_neckel_hell 1 1
+    - void_axe_hell 1 1
+    - duty_of_the_untouchables_hell 1 1
+    - khalys_dark_gaze_hell 1 1
+    - khalys_dark_scheme_hell 1 1
+    - andermagic_neckel_hell+1 1 1
+    - andermagic_neckel_hell+2 1 1
+    - andermagic_neckel_hell+3 1 1
+    - andermagic_neckel_hell+4 1 1
+    - void_axe_hell+1 1 1
+    - void_axe_hell+2 1 1
+    - void_axe_hell+3 1 1
+    - void_axe_hell+4 1 1
+    - duty_of_the_untouchables_hell+1 1 1
+    - duty_of_the_untouchables_hell+2 1 1
+    - duty_of_the_untouchables_hell+3 1 1
+    - duty_of_the_untouchables_hell+4 1 1
+    - khalys_dark_gaze_hell+1 1 1
+    - khalys_dark_gaze_hell+2 1 1
+    - khalys_dark_gaze_hell+3 1 1
+    - khalys_dark_gaze_hell+4 1 1
+    - khalys_dark_scheme_hell+1 1 1
+    - khalys_dark_scheme_hell+2 1 1
+    - khalys_dark_scheme_hell+3 1 1
+    - khalys_dark_scheme_hell+4 1 1
+
+q5_blood:
+  Drops:
+    - andermagic_neckel_blood 1 1
+    - void_axe_blood 1 1
+    - duty_of_the_untouchables_blood 1 1
+    - khalys_dark_gaze_blood 1 1
+    - khalys_dark_scheme_blood 1 1
+    - balor_ring_of_chaos_blood 1 1
+    - andermagic_neckel_blood+1 1 1
+    - andermagic_neckel_blood+2 1 1
+    - andermagic_neckel_blood+3 1 1
+    - andermagic_neckel_blood+4 1 1
+    - void_axe_blood+1 1 1
+    - void_axe_blood+2 1 1
+    - void_axe_blood+3 1 1
+    - void_axe_blood+4 1 1
+    - duty_of_the_untouchables_blood+1 1 1
+    - duty_of_the_untouchables_blood+2 1 1
+    - duty_of_the_untouchables_blood+3 1 1
+    - duty_of_the_untouchables_blood+4 1 1
+    - khalys_dark_gaze_blood+1 1 1
+    - khalys_dark_gaze_blood+2 1 1
+    - khalys_dark_gaze_blood+3 1 1
+    - khalys_dark_gaze_blood+4 1 1
+    - khalys_dark_scheme_blood+1 1 1
+    - khalys_dark_scheme_blood+2 1 1
+    - khalys_dark_scheme_blood+3 1 1
+    - khalys_dark_scheme_blood+4 1 1
+    - balor_ring_of_chaos_blood+1 1 1
+    - balor_ring_of_chaos_blood+2 1 1
+    - balor_ring_of_chaos_blood+3 1 1
+    - balor_ring_of_chaos_blood+4 1 1
+
+q6_inf:
+  Drops:
+    - dark_exile_helm_infernal 1 1
+    - dark_exile_helm_infernal+1 1 1
+    - dark_exile_helm_infernal+2 1 1
+    - dark_exile_helm_infernal+3 1 1
+    - dark_exile_helm_infernal+4 1 1
+    - dark_exile_chestplate_infernal 1 1
+    - dark_exile_chestplate_infernal+1 1 1
+    - dark_exile_chestplate_infernal+2 1 1
+    - dark_exile_chestplate_infernal+3 1 1
+    - dark_exile_chestplate_infernal+4 1 1
+    - dark_exile_leggings_infernal 1 1
+    - dark_exile_leggings_infernal+1 1 1
+    - dark_exile_leggings_infernal+2 1 1
+    - dark_exile_leggings_infernal+3 1 1
+    - dark_exile_leggings_infernal+4 1 1
+    - dark_exile_boots_infernal 1 1
+    - dark_exile_boots_infernal+1 1 1
+    - dark_exile_boots_infernal+2 1 1
+    - dark_exile_boots_infernal+3 1 1
+    - dark_exile_boots_infernal+4 1 1
+    - dark_exile_scythe_infernal 1 1
+    - dark_exile_scythe_infernal+1 1 1
+    - dark_exile_scythe_infernal+2 1 1
+    - dark_exile_scythe_infernal+3 1 1
+    - dark_exile_scythe_infernal+4 1 1
+    - mortis_ring_of_death_infernal 1 1
+    - mortis_ring_of_death_infernal+1 1 1
+    - mortis_ring_of_death_infernal+2 1 1
+    - mortis_ring_of_death_infernal+3 1 1
+    - mortis_ring_of_death_infernal+4 1 1
+
+q6_hell:
+  Drops:
+    - dark_exile_helm_hell 1 1
+    - dark_exile_helm_hell+1 1 1
+    - dark_exile_helm_hell+2 1 1
+    - dark_exile_helm_hell+3 1 1
+    - dark_exile_helm_hell+4 1 1
+    - dark_exile_chestplate_hell 1 1
+    - dark_exile_chestplate_hell+1 1 1
+    - dark_exile_chestplate_hell+2 1 1
+    - dark_exile_chestplate_hell+3 1 1
+    - dark_exile_chestplate_hell+4 1 1
+    - dark_exile_leggings_hell 1 1
+    - dark_exile_leggings_hell+1 1 1
+    - dark_exile_leggings_hell+2 1 1
+    - dark_exile_leggings_hell+3 1 1
+    - dark_exile_leggings_hell+4 1 1
+    - dark_exile_boots_hell 1 1
+    - dark_exile_boots_hell+1 1 1
+    - dark_exile_boots_hell+2 1 1
+    - dark_exile_boots_hell+3 1 1
+    - dark_exile_boots_hell+4 1 1
+    - dark_exile_scythe_hell 1 1
+    - dark_exile_scythe_hell+1 1 1
+    - dark_exile_scythe_hell+2 1 1
+    - dark_exile_scythe_hell+3 1 1
+    - dark_exile_scythe_hell+4 1 1
+    - mortis_ring_of_death_hell 1 1
+    - mortis_ring_of_death_hell+1 1 1
+    - mortis_ring_of_death_hell+2 1 1
+    - mortis_ring_of_death_hell+3 1 1
+    - mortis_ring_of_death_hell+4 1 1
+    - seal_of_death_hell 1 1
+    - seal_of_death_hell+1 1 1
+    - seal_of_death_hell+2 1 1
+    - seal_of_death_hell+3 1 1
+    - seal_of_death_hell+4 1 1
+
+q6_blood:
+  Drops:
+    - dark_exile_helm_blood 1 1
+    - dark_exile_helm_blood+1 1 1
+    - dark_exile_helm_blood+2 1 1
+    - dark_exile_helm_blood+3 1 1
+    - dark_exile_helm_blood+4 1 1
+    - dark_exile_chestplate_blood 1 1
+    - dark_exile_chestplate_blood+1 1 1
+    - dark_exile_chestplate_blood+2 1 1
+    - dark_exile_chestplate_blood+3 1 1
+    - dark_exile_chestplate_blood+4 1 1
+    - dark_exile_leggings_blood 1 1
+    - dark_exile_leggings_blood+1 1 1
+    - dark_exile_leggings_blood+2 1 1
+    - dark_exile_leggings_blood+3 1 1
+    - dark_exile_leggings_blood+4 1 1
+    - dark_exile_boots_blood 1 1
+    - dark_exile_boots_blood+1 1 1
+    - dark_exile_boots_blood+2 1 1
+    - dark_exile_boots_blood+3 1 1
+    - dark_exile_boots_blood+4 1 1
+    - dark_exile_scythe_blood 1 1
+    - dark_exile_scythe_blood+1 1 1
+    - dark_exile_scythe_blood+2 1 1
+    - dark_exile_scythe_blood+3 1 1
+    - dark_exile_scythe_blood+4 1 1
+    - mortis_ring_of_death_blood 1 1
+    - mortis_ring_of_death_blood+1 1 1
+    - mortis_ring_of_death_blood+2 1 1
+    - mortis_ring_of_death_blood+3 1 1
+    - mortis_ring_of_death_blood+4 1 1
+    - seal_of_death_blood 1 1
+    - seal_of_death_blood+1 1 1
+    - seal_of_death_blood+2 1 1
+    - seal_of_death_blood+3 1 1
+    - seal_of_death_blood+4 1 1
+    - armor_of_unchained_death_god_blood 1 1
+    - armor_of_unchained_death_god_blood+1 1 1
+    - armor_of_unchained_death_god_blood+2 1 1
+    - armor_of_unchained_death_god_blood+3 1 1
+    - armor_of_unchained_death_god_blood+4 1 1
+    - pants_of_unchained_death_god_blood 1 1
+    - pants_of_unchained_death_god_blood+1 1 1
+    - pants_of_unchained_death_god_blood+2 1 1
+    - pants_of_unchained_death_god_blood+3 1 1
+    - pants_of_unchained_death_god_blood+4 1 1
+
+q7_inf:
+  Drops:
+    - blazing_shield_infernal 1 1
+    - blazing_shield_infernal+1 1 1
+    - blazing_shield_infernal+2 1 1
+    - blazing_shield_infernal+3 1 1
+    - blazing_shield_infernal+4 1 1
+    - fire_shroud_of_sun_infernal 1 1
+    - fire_shroud_of_sun_infernal+1 1 1
+    - fire_shroud_of_sun_infernal+2 1 1
+    - fire_shroud_of_sun_infernal+3 1 1
+    - fire_shroud_of_sun_infernal+4 1 1
+    - resolve_of_the_alliance_infernal 1 1
+    - resolve_of_the_alliance_infernal+1 1 1
+    - resolve_of_the_alliance_infernal+2 1 1
+    - resolve_of_the_alliance_infernal+3 1 1
+    - resolve_of_the_alliance_infernal+4 1 1
+    - fyrgons_fire_belt_infernal 1 1
+    - fyrgons_fire_belt_infernal+1 1 1
+    - fyrgons_fire_belt_infernal+2 1 1
+    - fyrgons_fire_belt_infernal+3 1 1
+    - fyrgons_fire_belt_infernal+4 1 1
+
+q7_hell:
+  Drops:
+    - blazing_shield_hell 1 1
+    - blazing_shield_hell+1 1 1
+    - blazing_shield_hell+2 1 1
+    - blazing_shield_hell+3 1 1
+    - blazing_shield_hell+4 1 1
+    - fire_shroud_of_sun_hell 1 1
+    - fire_shroud_of_sun_hell+1 1 1
+    - fire_shroud_of_sun_hell+2 1 1
+    - fire_shroud_of_sun_hell+3 1 1
+    - fire_shroud_of_sun_hell+4 1 1
+    - resolve_of_the_alliance_hell 1 1
+    - resolve_of_the_alliance_hell+1 1 1
+    - resolve_of_the_alliance_hell+2 1 1
+    - resolve_of_the_alliance_hell+3 1 1
+    - resolve_of_the_alliance_hell+4 1 1
+    - fyrgons_fire_belt_hell 1 1
+    - fyrgons_fire_belt_hell+1 1 1
+    - fyrgons_fire_belt_hell+2 1 1
+    - fyrgons_fire_belt_hell+3 1 1
+    - fyrgons_fire_belt_hell+4 1 1
+    - the_heralds_burning_thunder_hell 1 1
+    - the_heralds_burning_thunder_hell+1 1 1
+    - the_heralds_burning_thunder_hell+2 1 1
+    - the_heralds_burning_thunder_hell+3 1 1
+    - the_heralds_burning_thunder_hell+4 1 1
+
+q7_blood:
+  Drops:
+    - blazing_shield_blood 1 1
+    - blazing_shield_blood+1 1 1
+    - blazing_shield_blood+2 1 1
+    - blazing_shield_blood+3 1 1
+    - blazing_shield_blood+4 1 1
+    - fire_shroud_of_sun_blood 1 1
+    - fire_shroud_of_sun_blood+1 1 1
+    - fire_shroud_of_sun_blood+2 1 1
+    - fire_shroud_of_sun_blood+3 1 1
+    - fire_shroud_of_sun_blood+4 1 1
+    - resolve_of_the_alliance_blood 1 1
+    - resolve_of_the_alliance_blood+1 1 1
+    - resolve_of_the_alliance_blood+2 1 1
+    - resolve_of_the_alliance_blood+3 1 1
+    - resolve_of_the_alliance_blood+4 1 1
+    - fyrgons_fire_belt_blood 1 1
+    - fyrgons_fire_belt_blood+1 1 1
+    - fyrgons_fire_belt_blood+2 1 1
+    - fyrgons_fire_belt_blood+3 1 1
+    - fyrgons_fire_belt_blood+4 1 1
+    - the_heralds_burning_thunder_blood 1 1
+    - the_heralds_burning_thunder_blood+1 1 1
+    - the_heralds_burning_thunder_blood+2 1 1
+    - the_heralds_burning_thunder_blood+3 1 1
+    - the_heralds_burning_thunder_blood+4 1 1
+    - the_heralds_blazing_onslaught_blood 1 1
+    - the_heralds_blazing_onslaught_blood+1 1 1
+    - the_heralds_blazing_onslaught_blood+2 1 1
+    - the_heralds_blazing_onslaught_blood+3 1 1
+    - the_heralds_blazing_onslaught_blood+4 1 1
+    - unbreakable_magma_blood 1 1
+    - unbreakable_magma_blood+1 1 1
+    - unbreakable_magma_blood+2 1 1
+    - unbreakable_magma_blood+3 1 1
+    - unbreakable_magma_blood+4 1 1
+
+q8_inf:
+  Drops:
+    - frost_axe_infernal 1 1
+    - frost_axe_infernal+1 1 1
+    - frost_axe_infernal+2 1 1
+    - frost_axe_infernal+3 1 1
+    - frost_axe_infernal+4 1 1
+    - frozen_mud_boots_infernal 1 1
+    - frozen_mud_boots_infernal+1 1 1
+    - frozen_mud_boots_infernal+2 1 1
+    - frozen_mud_boots_infernal+3 1 1
+    - frozen_mud_boots_infernal+4 1 1
+    - unity_of_the_alliance_infernal 1 1
+    - unity_of_the_alliance_infernal+1 1 1
+    - unity_of_the_alliance_infernal+2 1 1
+    - unity_of_the_alliance_infernal+3 1 1
+    - unity_of_the_alliance_infernal+4 1 1
+    - fjalnirs_ring_of_frost_infernal 1 1
+    - fjalnirs_ring_of_frost_infernal+1 1 1
+    - fjalnirs_ring_of_frost_infernal+2 1 1
+    - fjalnirs_ring_of_frost_infernal+3 1 1
+    - fjalnirs_ring_of_frost_infernal+4 1 1
+
+q8_hell:
+  Drops:
+    - frost_axe_hell 1 1
+    - frost_axe_hell+1 1 1
+    - frost_axe_hell+2 1 1
+    - frost_axe_hell+3 1 1
+    - frost_axe_hell+4 1 1
+    - frozen_mud_boots_hell 1 1
+    - frozen_mud_boots_hell+1 1 1
+    - frozen_mud_boots_hell+2 1 1
+    - frozen_mud_boots_hell+3 1 1
+    - frozen_mud_boots_hell+4 1 1
+    - unity_of_the_alliance_hell 1 1
+    - unity_of_the_alliance_hell+1 1 1
+    - unity_of_the_alliance_hell+2 1 1
+    - unity_of_the_alliance_hell+3 1 1
+    - unity_of_the_alliance_hell+4 1 1
+    - fjalnirs_ring_of_frost_hell 1 1
+    - fjalnirs_ring_of_frost_hell+1 1 1
+    - fjalnirs_ring_of_frost_hell+2 1 1
+    - fjalnirs_ring_of_frost_hell+3 1 1
+    - fjalnirs_ring_of_frost_hell+4 1 1
+    - sigrismarrs_eternal_ward_hell 1 1
+    - sigrismarrs_eternal_ward_hell+1 1 1
+    - sigrismarrs_eternal_ward_hell+2 1 1
+    - sigrismarrs_eternal_ward_hell+3 1 1
+    - sigrismarrs_eternal_ward_hell+4 1 1
+
+q8_blood:
+  Drops:
+    - frost_axe_blood 1 1
+    - frost_axe_blood+1 1 1
+    - frost_axe_blood+2 1 1
+    - frost_axe_blood+3 1 1
+    - frost_axe_blood+4 1 1
+    - unity_of_the_alliance_blood 1 1
+    - unity_of_the_alliance_blood+1 1 1
+    - unity_of_the_alliance_blood+2 1 1
+    - unity_of_the_alliance_blood+3 1 1
+    - unity_of_the_alliance_blood+4 1 1
+    - fjalnirs_ring_of_frost_blood 1 1
+    - fjalnirs_ring_of_frost_blood+1 1 1
+    - fjalnirs_ring_of_frost_blood+2 1 1
+    - fjalnirs_ring_of_frost_blood+3 1 1
+    - fjalnirs_ring_of_frost_blood+4 1 1
+    - frozen_mud_boots_blood 1 1
+    - frozen_mud_boots_blood+1 1 1
+    - frozen_mud_boots_blood+2 1 1
+    - frozen_mud_boots_blood+3 1 1
+    - frozen_mud_boots_blood+4 1 1
+    - sigrismarrs_eternal_ward_blood 1 1
+    - sigrismarrs_eternal_ward_blood+1 1 1
+    - sigrismarrs_eternal_ward_blood+2 1 1
+    - sigrismarrs_eternal_ward_blood+3 1 1
+    - sigrismarrs_eternal_ward_blood+4 1 1
+    - sigrismarrs_eternal_grasp_blood 1 1
+    - sigrismarrs_eternal_grasp_blood+1 1 1
+    - sigrismarrs_eternal_grasp_blood+2 1 1
+    - sigrismarrs_eternal_grasp_blood+3 1 1
+    - sigrismarrs_eternal_grasp_blood+4 1 1
+
+q9_inf:
+  Drops:
+    - ancient_hands_infernal 1 1
+    - ancient_hands_infernal+1 1 1
+    - ancient_hands_infernal+2 1 1
+    - ancient_hands_infernal+3 1 1
+    - ancient_hands_infernal+4 1 1
+    - pure_chunk_of_meat_infernal 1 1
+    - pure_chunk_of_meat_infernal+1 1 1
+    - pure_chunk_of_meat_infernal+2 1 1
+    - pure_chunk_of_meat_infernal+3 1 1
+    - pure_chunk_of_meat_infernal+4 1 1
+    - oceanus_poison_crown_infernal 1 1
+    - oceanus_poison_crown_infernal+1 1 1
+    - oceanus_poison_crown_infernal+2 1 1
+    - oceanus_poison_crown_infernal+3 1 1
+    - oceanus_poison_crown_infernal+4 1 1
+    - swiftness_of_the_alliance_infernal 1 1
+    - swiftness_of_the_alliance_infernal+1 1 1
+    - swiftness_of_the_alliance_infernal+2 1 1
+    - swiftness_of_the_alliance_infernal+3 1 1
+    - swiftness_of_the_alliance_infernal+4 1 1
+
+q9_hell:
+  Drops:
+    - ancient_hands_hell 1 1
+    - ancient_hands_hell+1 1 1
+    - ancient_hands_hell+2 1 1
+    - ancient_hands_hell+3 1 1
+    - ancient_hands_hell+4 1 1
+    - pure_chunk_of_meat_hell 1 1
+    - pure_chunk_of_meat_hell+1 1 1
+    - pure_chunk_of_meat_hell+2 1 1
+    - pure_chunk_of_meat_hell+3 1 1
+    - pure_chunk_of_meat_hell+4 1 1
+    - swiftness_of_the_alliance_hell 1 1
+    - swiftness_of_the_alliance_hell+1 1 1
+    - swiftness_of_the_alliance_hell+2 1 1
+    - swiftness_of_the_alliance_hell+3 1 1
+    - swiftness_of_the_alliance_hell+4 1 1
+    - oceanus_poison_crown_hell 1 1
+    - oceanus_poison_crown_hell+1 1 1
+    - oceanus_poison_crown_hell+2 1 1
+    - oceanus_poison_crown_hell+3 1 1
+    - oceanus_poison_crown_hell+4 1 1
+    - amulet_of_the_kraken_hell 1 1
+    - amulet_of_the_kraken_hell+1 1 1
+    - amulet_of_the_kraken_hell+2 1 1
+    - amulet_of_the_kraken_hell+3 1 1
+    - amulet_of_the_kraken_hell+4 1 1
+
+q9_blood:
+  Drops:
+    - ancient_hands_blood 1 1
+    - ancient_hands_blood+1 1 1
+    - ancient_hands_blood+2 1 1
+    - ancient_hands_blood+3 1 1
+    - ancient_hands_blood+4 1 1
+    - pure_chunk_of_meat_blood 1 1
+    - pure_chunk_of_meat_blood+1 1 1
+    - pure_chunk_of_meat_blood+2 1 1
+    - pure_chunk_of_meat_blood+3 1 1
+    - pure_chunk_of_meat_blood+4 1 1
+    - swiftness_of_the_alliance_blood 1 1
+    - swiftness_of_the_alliance_blood+1 1 1
+    - swiftness_of_the_alliance_blood+2 1 1
+    - swiftness_of_the_alliance_blood+3 1 1
+    - swiftness_of_the_alliance_blood+4 1 1
+    - oceanus_poison_crown_blood 1 1
+    - oceanus_poison_crown_blood+1 1 1
+    - oceanus_poison_crown_blood+2 1 1
+    - oceanus_poison_crown_blood+3 1 1
+    - oceanus_poison_crown_blood+4 1 1
+    - amulet_of_the_kraken_blood 1 1
+    - amulet_of_the_kraken_blood+1 1 1
+    - amulet_of_the_kraken_blood+2 1 1
+    - amulet_of_the_kraken_blood+3 1 1
+    - amulet_of_the_kraken_blood+4 1 1
+    - gorgonskin_leather_boots_blood 1 1
+    - gorgonskin_leather_boots_blood+1 1 1
+    - gorgonskin_leather_boots_blood+2 1 1
+    - gorgonskin_leather_boots_blood+3 1 1
+    - gorgonskin_leather_boots_blood+4 1 1
+
+q10_inf:
+  Drops:
+    - charming_belt_infernal 1 1
+    - charming_belt_infernal+1 1 1
+    - charming_belt_infernal+2 1 1
+    - charming_belt_infernal+3 1 1
+    - charming_belt_infernal+4 1 1
+    - abyssal_treasure_gloves_infernal 1 1
+    - abyssal_treasure_gloves_infernal+1 1 1
+    - abyssal_treasure_gloves_infernal+2 1 1
+    - abyssal_treasure_gloves_infernal+3 1 1
+    - abyssal_treasure_gloves_infernal+4 1 1
+    - ring_of_renewal_infernal 1 1
+    - ring_of_renewal_infernal+1 1 1
+    - ring_of_renewal_infernal+2 1 1
+    - ring_of_renewal_infernal+3 1 1
+    - ring_of_renewal_infernal+4 1 1
+    - rookie_jacket_infernal 1 1
+    - rookie_jacket_infernal+1 1 1
+    - rookie_jacket_infernal+2 1 1
+    - rookie_jacket_infernal+3 1 1
+    - rookie_jacket_infernal+4 1 1
+
+q10_hell:
+  Drops:
+    - charming_belt_hell 1 1
+    - charming_belt_hell+1 1 1
+    - charming_belt_hell+2 1 1
+    - charming_belt_hell+3 1 1
+    - charming_belt_hell+4 1 1
+    - rookie_jacket_hell 1 1
+    - rookie_jacket_hell+1 1 1
+    - rookie_jacket_hell+2 1 1
+    - rookie_jacket_hell+3 1 1
+    - rookie_jacket_hell+4 1 1
+    - abyssal_treasure_gloves_hell 1 1
+    - abyssal_treasure_gloves_hell+1 1 1
+    - abyssal_treasure_gloves_hell+2 1 1
+    - abyssal_treasure_gloves_hell+3 1 1
+    - abyssal_treasure_gloves_hell+4 1 1
+    - ring_of_renewal_hell 1 1
+    - ring_of_renewal_hell+1 1 1
+    - ring_of_renewal_hell+2 1 1
+    - ring_of_renewal_hell+3 1 1
+    - ring_of_renewal_hell+4 1 1
+    - abyssal_treasure_shield_hell 1 1
+    - abyssal_treasure_shield_hell+1 1 1
+    - abyssal_treasure_shield_hell+2 1 1
+    - abyssal_treasure_shield_hell+3 1 1
+    - abyssal_treasure_shield_hell+4 1 1
+
+q10_blood:
+  Drops:
+    - charming_belt_blood 1 1
+    - charming_belt_blood+1 1 1
+    - charming_belt_blood+2 1 1
+    - charming_belt_blood+3 1 1
+    - charming_belt_blood+4 1 1
+    - rookie_jacket_blood 1 1
+    - rookie_jacket_blood+1 1 1
+    - rookie_jacket_blood+2 1 1
+    - rookie_jacket_blood+3 1 1
+    - rookie_jacket_blood+4 1 1
+    - abyssal_treasure_gloves_blood 1 1
+    - abyssal_treasure_gloves_blood+1 1 1
+    - abyssal_treasure_gloves_blood+2 1 1
+    - abyssal_treasure_gloves_blood+3 1 1
+    - abyssal_treasure_gloves_blood+4 1 1
+    - ring_of_renewal_blood 1 1
+    - ring_of_renewal_blood+1 1 1
+    - ring_of_renewal_blood+2 1 1
+    - ring_of_renewal_blood+3 1 1
+    - ring_of_renewal_blood+4 1 1
+    - abyssal_treasure_shield_blood 1 1
+    - abyssal_treasure_shield_blood+1 1 1
+    - abyssal_treasure_shield_blood+2 1 1
+    - abyssal_treasure_shield_blood+3 1 1
+    - abyssal_treasure_shield_blood+4 1 1
+    - abyssal_treasure_helmet_blood 1 1
+    - abyssal_treasure_helmet_blood+1 1 1
+    - abyssal_treasure_helmet_blood+2 1 1
+    - abyssal_treasure_helmet_blood+3 1 1
+    - abyssal_treasure_helmet_blood+4 1 1
