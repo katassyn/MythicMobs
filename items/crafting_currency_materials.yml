@@ -453,7 +453,7 @@ elite_heart_III_1000x:
 
 grimmag_frag_I:
   Id: leather
-  Display: '&9[ I ] Grimmor Burned Cape'
+  Display: '&9[ I ] Grimmor`s Cindered Cape'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -465,7 +465,7 @@ grimmag_frag_I:
     Unbreakable: true
 grimmag_frag_II:
   Id: leather
-  Display: '&5[ II ] Grimmor Burned Cape'
+  Display: '&5[ II ] Grimmor`s Cindered Cape'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -477,7 +477,7 @@ grimmag_frag_II:
     Unbreakable: true
 grimmag_frag_III:
   Id: leather
-  Display: '&6&6[ III ] Grimmor Burned Cape'
+  Display: '&6&6[ III ] Grimmor`s Cindered Cape'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -490,7 +490,7 @@ grimmag_frag_III:
 
 arachna_frag_I:
   Id: phantom_membrane
-  Display: '&9[ I ] Araksha Poisonous Skeleton'
+  Display: '&9[ I ] Araksha`s Venom Husk'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -502,7 +502,7 @@ arachna_frag_I:
     Unbreakable: true
 arachna_frag_II:
   Id: phantom_membrane
-  Display: '&5[ II ] Araksha Poisonous Skeleton'
+  Display: '&5[ II ] Araksha`s Venom Husk'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -514,7 +514,7 @@ arachna_frag_II:
     Unbreakable: true
 arachna_frag_III:
   Id: phantom_membrane
-  Display: '&6&6[ III ] Araksha Poisonous Skeleton'
+  Display: '&6&6[ III ] Araksha`s Venom Husk'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -601,7 +601,7 @@ bearach_frag_III:
 
 khalys_frag_I:
   Id: black_dye
-  Display: '&9[ I ] Kalith Magic Robe'
+  Display: '&9[ I ] Kalith`s Ritual Robe'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -613,7 +613,7 @@ khalys_frag_I:
     Unbreakable: true
 khalys_frag_II:
   Id: black_dye
-  Display: '&5[ II ] Kalith Magic Robe'
+  Display: '&5[ II ] Kalith`s Ritual Robe'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
@@ -625,7 +625,7 @@ khalys_frag_II:
     Unbreakable: true
 khalys_frag_III:
   Id: black_dye
-  Display: '&6&6[ III ] Kalith Magic Robe'
+  Display: '&6&6[ III ] Kalith`s Ritual Robe'
   Group: Crafting
   Enchantments:
     - DURABILITY:10
