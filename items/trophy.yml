@@ -1,7 +1,7 @@
 # Q1 - GRIMMAG (fire/undead)
 q1_trophy_inf:
   Id: skeleton_skull
-  Display: '&9[ I ] &cGrimmag Trophy'
+  Display: '&9[ I ] &cGrimmor Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -14,7 +14,7 @@ q1_trophy_inf:
 
 q1_trophy_hell:
   Id: skeleton_skull
-  Display: '&5[ II ] &cGrimmag Trophy'
+  Display: '&5[ II ] &cGrimmor Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -27,7 +27,7 @@ q1_trophy_hell:
 
 q1_trophy_blood:
   Id: skeleton_skull
-  Display: '&6[ III ] &cGrimmag Trophy'
+  Display: '&6[ III ] &cGrimmor Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -41,7 +41,7 @@ q1_trophy_blood:
 # Q2 - ARACHNA (wild/poison)
 q2_trophy_inf:
   Id: wither_skeleton_skull
-  Display: '&9[ I ] &2Arachna Trophy'
+  Display: '&9[ I ] &2Araksha Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -54,7 +54,7 @@ q2_trophy_inf:
 
 q2_trophy_hell:
   Id: wither_skeleton_skull
-  Display: '&5[ II ] &2Arachna Trophy'
+  Display: '&5[ II ] &2Araksha Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -67,7 +67,7 @@ q2_trophy_hell:
 
 q2_trophy_blood:
   Id: wither_skeleton_skull
-  Display: '&6[ III ] &2Arachna Trophy'
+  Display: '&6[ III ] &2Araksha Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -81,7 +81,7 @@ q2_trophy_blood:
 # Q3 - HEREDUR (undead/water)
 q3_trophy_inf:
   Id: dragon_head
-  Display: '&9[ I ] &1King Heredur Trophy'
+  Display: '&9[ I ] &1King Heredorn Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -94,7 +94,7 @@ q3_trophy_inf:
 
 q3_trophy_hell:
   Id: dragon_head
-  Display: '&5[ II ] &1King Heredur Trophy'
+  Display: '&5[ II ] &1King Heredorn Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -107,7 +107,7 @@ q3_trophy_hell:
 
 q3_trophy_blood:
   Id: dragon_head
-  Display: '&6[ III ] &1King Heredur Trophy'
+  Display: '&6[ III ] &1King Heredorn Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -121,7 +121,7 @@ q3_trophy_blood:
 # Q4 - BEARACH (wild/poison)
 q4_trophy_inf:
   Id: player_head
-  Display: '&9[ I ] &2Bearach Trophy'
+  Display: '&9[ I ] &2Bearok Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -135,7 +135,7 @@ q4_trophy_inf:
 
 q4_trophy_hell:
   Id: player_head
-  Display: '&5[ II ] &2Bearach Trophy'
+  Display: '&5[ II ] &2Bearok Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -149,7 +149,7 @@ q4_trophy_hell:
 
 q4_trophy_blood:
   Id: player_head
-  Display: '&6[ III ] &2Bearach Trophy'
+  Display: '&6[ III ] &2Bearok Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -164,7 +164,7 @@ q4_trophy_blood:
 # Q5 - KHALYS (shadow/undead)
 q5_trophy_inf:
   Id: zombie_head
-  Display: '&9[ I ] &7Khalys Trophy'
+  Display: '&9[ I ] &7Kalith Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -177,7 +177,7 @@ q5_trophy_inf:
 
 q5_trophy_hell:
   Id: zombie_head
-  Display: '&5[ II ] &7Khalys Trophy'
+  Display: '&5[ II ] &7Kalith Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -190,7 +190,7 @@ q5_trophy_hell:
 
 q5_trophy_blood:
   Id: zombie_head
-  Display: '&6[ III ] &7Khalys Trophy'
+  Display: '&6[ III ] &7Kalith Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -204,7 +204,7 @@ q5_trophy_blood:
 # Q6 - MORTIS (undead/shadow)
 q6_trophy_inf:
   Id: creeper_head
-  Display: '&9[ I ] &8Mortis Trophy'
+  Display: '&9[ I ] &8Mortrix Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -217,7 +217,7 @@ q6_trophy_inf:
 
 q6_trophy_hell:
   Id: creeper_head
-  Display: '&5[ II ] &8Mortis Trophy'
+  Display: '&5[ II ] &8Mortrix Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -230,7 +230,7 @@ q6_trophy_hell:
 
 q6_trophy_blood:
   Id: creeper_head
-  Display: '&6[ III ] &8Mortis Trophy'
+  Display: '&6[ III ] &8Mortrix Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -244,7 +244,7 @@ q6_trophy_blood:
 # Q7 - HERALD (shadow/fire)
 q7_trophy_inf:
   Id: piglin_head
-  Display: '&9[ I ] &4Herald Trophy'
+  Display: '&9[ I ] &4Harbinger Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -257,7 +257,7 @@ q7_trophy_inf:
 
 q7_trophy_hell:
   Id: piglin_head
-  Display: '&5[ II ] &4Herald Trophy'
+  Display: '&5[ II ] &4Harbinger Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -270,7 +270,7 @@ q7_trophy_hell:
 
 q7_trophy_blood:
   Id: piglin_head
-  Display: '&6[ III ] &4Herald Trophy'
+  Display: '&6[ III ] &4Harbinger Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -284,7 +284,7 @@ q7_trophy_blood:
 # Q8 - SIGRISMARR (water/wild)
 q8_trophy_inf:
   Id: blaze_rod
-  Display: '&9[ I ] &bSigrismarr Trophy'
+  Display: '&9[ I ] &bSigrosmar Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -297,7 +297,7 @@ q8_trophy_inf:
 
 q8_trophy_hell:
   Id: blaze_rod
-  Display: '&5[ II ] &bSigrismarr Trophy'
+  Display: '&5[ II ] &bSigrosmar Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -310,7 +310,7 @@ q8_trophy_hell:
 
 q8_trophy_blood:
   Id: blaze_rod
-  Display: '&6[ III ] &bSigrismarr Trophy'
+  Display: '&6[ III ] &bSigrosmar Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -324,7 +324,7 @@ q8_trophy_blood:
 # Q9 - MEDUSA (poison/wild)
 q9_trophy_inf:
   Id: lapis_lazuli
-  Display: '&9[ I ] &aMedusa Trophy'
+  Display: '&9[ I ] &aM`Edara Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -337,7 +337,7 @@ q9_trophy_inf:
 
 q9_trophy_hell:
   Id: lapis_lazuli
-  Display: '&5[ II ] &aMedusa Trophy'
+  Display: '&5[ II ] &aM`Edara Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -350,7 +350,7 @@ q9_trophy_hell:
 
 q9_trophy_blood:
   Id: lapis_lazuli
-  Display: '&6[ III ] &aMedusa Trophy'
+  Display: '&6[ III ] &aM`Edara Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -364,7 +364,7 @@ q9_trophy_blood:
 # Q10 - GORGA (poison/water)
 q10_trophy_inf:
   Id: raw_copper
-  Display: '&9[ I ] &3Gorga Trophy'
+  Display: '&9[ I ] &3Gorgra Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -377,7 +377,7 @@ q10_trophy_inf:
 
 q10_trophy_hell:
   Id: raw_copper
-  Display: '&5[ II ] &3Gorga Trophy'
+  Display: '&5[ II ] &3Gorgra Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
@@ -390,7 +390,7 @@ q10_trophy_hell:
 
 q10_trophy_blood:
   Id: raw_copper
-  Display: '&6[ III ] &3Gorga Trophy'
+  Display: '&6[ III ] &3Gorgra Trophy'
   Group: grave_trophy
   Enchantments:
     - DURABILITY:10
