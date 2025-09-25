@@ -1,6 +1,6 @@
 q1_soul:
   Id: DRAGON_BREATH
-  Display: '&c☀ Grimmag’s Burning Soul'
+  Display: '&c☀ Grimmor’s Burning Soul'
   Group: Souls
   Enchantments:
     - DURABILITY:10
@@ -17,7 +17,7 @@ q1_soul:
 
 q2_soul:
   Id: DRAGON_BREATH
-  Display: '&2☠ Arachna’s Venomous Soul'
+  Display: '&2☠ Araksha’s Venomous Soul'
   Group: Souls
   Enchantments:
     - DURABILITY:10
@@ -34,7 +34,7 @@ q2_soul:
 
 q3_soul:
   Id: DRAGON_BREATH
-  Display: '&b❄ King Heredur’s Frostbound Soul'
+  Display: '&b❄ King Heredorn’s Frostbound Soul'
   Group: Souls
   Enchantments:
     - DURABILITY:10
@@ -51,7 +51,7 @@ q3_soul:
 
 q4_soul:
   Id: DRAGON_BREATH
-  Display: '&a🌿 Bearach’s Wildheart Soul'
+  Display: '&a🌿 Bearok’s Wildheart Soul'
   Group: Souls
   Enchantments:
     - DURABILITY:10
@@ -68,7 +68,7 @@ q4_soul:
 
 q5_soul:
   Id: DRAGON_BREATH
-  Display: '&5⚙ Khalys’s Shadowbound Soul'
+  Display: '&5⚙ Kalith’s Shadowbound Soul'
   Group: Souls
   Enchantments:
     - DURABILITY:10
@@ -85,7 +85,7 @@ q5_soul:
 
 q6_soul:
   Id: DRAGON_BREATH
-  Display: '&8⚔ Mortis’s Unchained Soul'
+  Display: '&8⚔ Mortrix’s Unchained Soul'
   Group: Souls
   Enchantments:
     - DURABILITY:10
@@ -102,7 +102,7 @@ q6_soul:
 
 q7_soul:
   Id: DRAGON_BREATH
-  Display: '&6🔥 Herald’s Molten Soul'
+  Display: '&6🔥 Harbinger’s Molten Soul'
   Group: Souls
   Enchantments:
     - DURABILITY:10
@@ -119,7 +119,7 @@ q7_soul:
 
 q8_soul:
   Id: DRAGON_BREATH
-  Display: '&b🌨 Sigrismar’s Blizzard Soul'
+  Display: '&b🌨 Sigrosmar’s Blizzard Soul'
   Group: Souls
   Enchantments:
     - DURABILITY:10
@@ -136,7 +136,7 @@ q8_soul:
 
 q9_soul:
   Id: DRAGON_BREATH
-  Display: '&2🪨 Medusa’s Petrifying Soul'
+  Display: '&2🪨 M`Edara’s Petrifying Soul'
   Group: Souls
   Enchantments:
     - DURABILITY:10
@@ -153,7 +153,7 @@ q9_soul:
 
 q10_soul:
   Id: DRAGON_BREATH
-  Display: '&3🐍 Gorga’s Abyssal Soul'
+  Display: '&3🐍 Gorgra’s Abyssal Soul'
   Group: Souls
   Enchantments:
     - DURABILITY:10

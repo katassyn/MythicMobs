@@ -264,7 +264,7 @@ eternal_hunting_hound_blood:
 ulgar_the_master_butcher_phase1_blood:
   Type: ZOMBIE
   Disguise: PIGLIN
-  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lUlgrom the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 20000  # 10x2000
   Damage: 1500   # 5x300
   Faction: q4_blood
@@ -291,7 +291,7 @@ ulgar_the_master_butcher_phase1_blood:
 ulgar_the_master_butcher_phase2_blood:
   Type: ZOMBIE
   Disguise: PIGLIN_BRUTE
-  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lUlgrom the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 25000  # 10x2500
   Damage: 1750   # 5x350
   Faction: q4_blood
@@ -318,7 +318,7 @@ ulgar_the_master_butcher_phase2_blood:
 ulgar_the_master_butcher_phase3_blood:
   Type: ZOMBIE
   Disguise: PIGLIN_BRUTE
-  Display: '&5&lUlgar the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lUlgrom the Master Butcher &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 30000  # 10x3000
   Damage: 2000   # 5x400
   Faction: q4_blood
@@ -346,14 +346,14 @@ ulgar_the_master_butcher_phase3_blood:
 
 bearach_champion_of_wilds_blood:
   Type: ZOMBIE
-  Display: '&4<&skull> &lBearach, Champion of the Wilds &r&4<&skull>'
+  Display: '&4<&skull> &lBearok, Guardian of the Wilds &r&4<&skull>'
   Health: 30000  # 10x3000
   Damage: 1250   # 5x250
   Faction: q4_blood
   Group: q4_blood
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Bearach - <mob.hp{round=0}> <&skull>'
+    Title: '&c<&skull> Bearok - <mob.hp{round=0}> <&skull>'
     Color: RED
     Style: SEGMENTED_12
   Options:

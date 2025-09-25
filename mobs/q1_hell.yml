@@ -93,7 +93,7 @@ flamecult_worshipper_hell:
 
 perral_world_dragonknight_hell:
   Type: SKELETON
-  Display: '&5&lPerral World Dragonknight&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lParallel Realm Dragonknight&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 9000
   Damage: 300
   Options:
@@ -128,7 +128,7 @@ perral_world_dragonknight_hell:
 
 raazghul_the_corruptor_hell:
   Type: ZOMBIE
-  Display: '&5&lRaazghul the Corruptor&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lRaazgor the Corrupter&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000
   Damage: 500
   Options:
@@ -162,12 +162,12 @@ raazghul_the_corruptor_hell:
 
 grimmag_hell:
   Type: ZOMBIE
-  Display: '&4 <&skull> &l Grimmag the Risen&r&4 <&skull>'
+  Display: '&4 <&skull> &l Grimmor the Risen&r&4 <&skull>'
   Health: 15000
   Damage: 600
   BossBar:
     Enabled: true
-    Title: ' &c<&skull> Grimmag the Risen - <mob.hp{round=0}> <&skull>'
+    Title: ' &c<&skull> Grimmor the Risen - <mob.hp{round=0}> <&skull>'
     Range: 50
     Color: PURPLE
     Style: SEGMENTED_12

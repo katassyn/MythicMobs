@@ -121,7 +121,7 @@ t_1000:
 
 high_priest_danzo:
   Type: ZOMBIE
-  Display: '&5&l High Priest Danzo&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&l High Priest Danru&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2500
   Damage: 375
   Options:

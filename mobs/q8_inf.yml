@@ -337,14 +337,14 @@ pale_enforcer_inf:
 # Mission 3 Boss
 sigrismarr_priest_of_fjalnir_inf:
   Type: ZOMBIE
-  Display: '&4<&skull> &lSigrismarr, Twisted Priest of Fjalnir &r&4<&skull>'
+  Display: '&4<&skull> &lSigrosmar, Twisted Priest of Fjolnar &r&4<&skull>'
   Health: 5000
   Damage: 0  # Only uses skills for damage
   Faction: q8_inf
   Group: q8_inf
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Sigrismarr - <mob.hp{round=0}> <&skull>'
+    Title: '&c<&skull> Sigrosmar - <mob.hp{round=0}> <&skull>'
     Color: BLUE
     Style: SEGMENTED_12
   Options:
