@@ -1,0 +1,705 @@
+# MYTHOLOGICAL T2 ITEMS
+
+# SWORD OF ARES (T2 Legendary)
+sword_of_ares_t2:
+  Id: diamond_sword
+  Display: '&a[ T2 ] &6Sword of Ares'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+445 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 445 ADD
+
+# GLOVES OF HEPHAESTUS (T2 Legendary)
+gloves_of_hephaestus_t2:
+  Id: leather_horse_armor
+  Display: '&a[ T2 ] &6Gloves of Hephaestus'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Attack Speed: &e+0.3 ⚡'
+    - '&7Health: &c+15 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      AttackSpeed: 0.3 ADD
+      Health: 15 ADD
+
+# TEAM RELIC OF ATHENA (T2 Unique)
+team_relic_of_athena_t2:
+  Id: raw_iron
+  Display: '&a[ T2 ] &eTeam Relic of Athena'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Team Buff: &r+5% Damage §c⚔'
+    - '&7Range: &r15 &7blocks'
+    - '&lRarity:&r &e&lUnique'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+# HEART OF POSEIDON (T2 Mythic)
+heart_of_poseidon_t2:
+  Id: raw_copper
+  Display: '&a[ T2 ] &l&cHeart of Poseidon'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Luck: &a+10 🍀'
+    - '&7Luck: &a+10% 🍀'
+    - '&lRarity:&r &c&lMythic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+
+# OLYMPIAN RING OF POWER (T2 SET)
+olympian_ring_of_power_t2:
+  Id: tnt_minecart
+  Display: '&a[ T2 ] &l&bOlympian Ring of Power'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+50 ⚔'
+    - '&7Set: &bOlympian Trinity'
+    - '&8[3] &7+50 Damage §c⚔&7, +50 Health §c❤&7, +5 Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 50 ADD
+
+# OLYMPIAN RING OF VITALITY (T2 SET)
+olympian_ring_of_vitality_t2:
+  Id: hopper_minecart
+  Display: '&a[ T2 ] &l&bOlympian Ring of Vitality'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+50 ❤'
+    - '&7Set: &bOlympian Trinity'
+    - '&8[3] &7+50 Damage §c⚔&7, +50 Health §c❤&7, +5 Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 50 ADD
+
+# OLYMPIAN BELT OF FORTUNE (T2 SET)
+olympian_belt_of_fortune_t2:
+  Id: minecart
+  Display: '&a[ T2 ] &l&bOlympian Belt of Fortune'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Luck: &a+5 🍀'
+    - '&7Set: &bOlympian Trinity'
+    - '&8[3] &7+50 Damage §c⚔&7, +50 Health §c❤&7, +5 Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Luck: 5 ADD
+
+# CLOAK OF HELIOS (T2 Extraordinary)
+cloak_of_helios_t2:
+  Id: white_banner
+  Display: '&a[ T2 ] &5Cloak of Helios'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Speed: &b+0.05 👟'
+    - '&7Attack Speed: &e+0.1 ⚡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      MovementSpeed: 0.05 ADD
+      AttackSpeed: 0.1 ADD
+
+# RING OF ARTEMIS (T2 Extraordinary)
+ring_of_artemis_t2:
+  Id: tnt_minecart
+  Display: '&a[ T2 ] &5Ring of Artemis'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+20 ⚔'
+    - '&7Luck: &a+2 🍀'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 20 ADD
+      Luck: 2 ADD
+
+# BLESSED VERSIONS (+25% stats)
+
+# SWORD OF ARES BLESSED (T2 Legendary)
+sword_of_ares_t2_blessed:
+  Id: diamond_sword
+  Display: '&a[ T2 ] &6Blessed Sword of Ares'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+556 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 556 ADD
+
+# GLOVES OF HEPHAESTUS BLESSED (T2 Legendary)  
+gloves_of_hephaestus_t2_blessed:
+  Id: leather_horse_armor
+  Display: '&a[ T2 ] &6Blessed Gloves of Hephaestus'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Attack Speed: &e+0.4 ⚡'
+    - '&7Health: &c+19 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      AttackSpeed: 0.4 ADD
+      Health: 19 ADD
+
+# CLOAK OF HELIOS BLESSED (T2 Extraordinary)
+cloak_of_helios_t2_blessed:
+  Id: white_banner
+  Display: '&a[ T2 ] &5Blessed Cloak of Helios'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Speed: &b+0.06 👟'
+    - '&7Attack Speed: &e+0.13 ⚡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      MovementSpeed: 0.06 ADD
+      AttackSpeed: 0.13 ADD
+
+# RING OF ARTEMIS BLESSED (T2 Extraordinary)
+ring_of_artemis_t2_blessed:
+  Id: tnt_minecart
+  Display: '&a[ T2 ] &5Blessed Ring of Artemis'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+25 ⚔'
+    - '&7Luck: &a+3 🍀'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 25 ADD
+      Luck: 3 ADD
+
+# DIVINE VERSIONS (+50% stats)
+
+# SWORD OF ARES DIVINE (T2 Legendary)
+sword_of_ares_t2_divine:
+  Id: diamond_sword
+  Display: '&a[ T2 ] &6Divine Sword of Ares'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+668 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 668 ADD
+
+# GLOVES OF HEPHAESTUS DIVINE (T2 Legendary)  
+gloves_of_hephaestus_t2_divine:
+  Id: leather_horse_armor
+  Display: '&a[ T2 ] &6Divine Gloves of Hephaestus'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Attack Speed: &e+0.45 ⚡'
+    - '&7Health: &c+23 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      AttackSpeed: 0.45 ADD
+      Health: 23 ADD
+
+# CLOAK OF HELIOS DIVINE (T2 Extraordinary)
+cloak_of_helios_t2_divine:
+  Id: white_banner
+  Display: '&a[ T2 ] &5Divine Cloak of Helios'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Speed: &b+0.08 👟'
+    - '&7Attack Speed: &e+0.15 ⚡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      MovementSpeed: 0.08 ADD
+      AttackSpeed: 0.15 ADD
+
+# RING OF ARTEMIS DIVINE (T2 Extraordinary)
+ring_of_artemis_t2_divine:
+  Id: tnt_minecart
+  Display: '&a[ T2 ] &5Divine Ring of Artemis'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+30 ⚔'
+    - '&7Luck: &a+3 🍀'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 30 ADD
+      Luck: 3 ADD
+
+# TRANSCENDENT VERSIONS (+75% stats + new stat)
+
+# SWORD OF ARES TRANSCENDENT (T2 Legendary - +3 Luck, +0.1 Attack Speed)
+sword_of_ares_t2_transcendent:
+  Id: diamond_sword
+  Display: '&a[ T2 ] &6Transcendent Sword of Ares'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+779 ⚔'
+    - '&7Luck: &a+3 🍀'
+    - '&7Attack Speed: &e+0.1 ⚡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 779 ADD
+      AttackSpeed: 0.1 ADD
+    All:
+      Luck: 3 ADD
+
+# GLOVES OF HEPHAESTUS TRANSCENDENT (T2 Legendary - +3 Luck, +0.1 Attack Speed)
+gloves_of_hephaestus_t2_transcendent:
+  Id: leather_horse_armor
+  Display: '&a[ T2 ] &6Transcendent Gloves of Hephaestus'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Attack Speed: &e+0.63 ⚡'
+    - '&7Health: &c+26 ❤'
+    - '&7Luck: &a+3 🍀'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      AttackSpeed: 0.63 ADD
+      Health: 26 ADD
+      Luck: 3 ADD
+
+# CLOAK OF HELIOS TRANSCENDENT (T2 Extraordinary - +1 Luck, +0.1 Attack Speed)
+cloak_of_helios_t2_transcendent:
+  Id: white_banner
+  Display: '&a[ T2 ] &5Transcendent Cloak of Helios'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Speed: &b+0.09 👟'
+    - '&7Attack Speed: &e+0.28 ⚡'
+    - '&7Luck: &a+1 🍀'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      MovementSpeed: 0.09 ADD
+      AttackSpeed: 0.28 ADD
+      Luck: 1 ADD
+
+# RING OF ARTEMIS TRANSCENDENT (T2 Extraordinary - +1 Luck, +0.1 Attack Speed)  
+ring_of_artemis_t2_transcendent:
+  Id: tnt_minecart
+  Display: '&a[ T2 ] &5Transcendent Ring of Artemis'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+35 ⚔'
+    - '&7Luck: &a+4 🍀'
+    - '&7Attack Speed: &e+0.1 ⚡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 35 ADD
+      Luck: 4 ADD
+      AttackSpeed: 0.1 ADD
+
+# OLYMPIAN SET BLESSED VERSIONS (+25% stats)
+
+# OLYMPIAN RING OF POWER BLESSED (T2 SET)
+olympian_ring_of_power_t2_blessed:
+  Id: tnt_minecart
+  Display: '&a[ T2 ] &l&bBlessed Olympian Ring of Power'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+63 ⚔'
+    - '&7Set: &bOlympian Trinity'
+    - '&8[3] &7+50 Damage §c⚔&7, +50 Health §c❤&7, +5 Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 63 ADD
+
+# OLYMPIAN RING OF VITALITY BLESSED (T2 SET)
+olympian_ring_of_vitality_t2_blessed:
+  Id: hopper_minecart
+  Display: '&a[ T2 ] &l&bBlessed Olympian Ring of Vitality'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+63 ❤'
+    - '&7Set: &bOlympian Trinity'
+    - '&8[3] &7+50 Damage §c⚔&7, +50 Health §c❤&7, +5 Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 63 ADD
+
+# OLYMPIAN BELT OF FORTUNE BLESSED (T2 SET)
+olympian_belt_of_fortune_t2_blessed:
+  Id: minecart
+  Display: '&a[ T2 ] &l&bBlessed Olympian Belt of Fortune'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Luck: &a+6 🍀'
+    - '&7Set: &bOlympian Trinity'
+    - '&8[3] &7+50 Damage §c⚔&7, +50 Health §c❤&7, +5 Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Luck: 6 ADD
+
+# OLYMPIAN SET DIVINE VERSIONS (+50% stats)
+
+# OLYMPIAN RING OF POWER DIVINE (T2 SET)
+olympian_ring_of_power_t2_divine:
+  Id: tnt_minecart
+  Display: '&a[ T2 ] &l&bDivine Olympian Ring of Power'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+75 ⚔'
+    - '&7Set: &bOlympian Trinity'
+    - '&8[3] &7+50 Damage §c⚔&7, +50 Health §c❤&7, +5 Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 75 ADD
+
+# OLYMPIAN RING OF VITALITY DIVINE (T2 SET)
+olympian_ring_of_vitality_t2_divine:
+  Id: hopper_minecart
+  Display: '&a[ T2 ] &l&bDivine Olympian Ring of Vitality'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+75 ❤'
+    - '&7Set: &bOlympian Trinity'
+    - '&8[3] &7+50 Damage §c⚔&7, +50 Health §c❤&7, +5 Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 75 ADD
+
+# OLYMPIAN BELT OF FORTUNE DIVINE (T2 SET)
+olympian_belt_of_fortune_t2_divine:
+  Id: minecart
+  Display: '&a[ T2 ] &l&bDivine Olympian Belt of Fortune'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Luck: &a+8 🍀'
+    - '&7Set: &bOlympian Trinity'
+    - '&8[3] &7+50 Damage §c⚔&7, +50 Health §c❤&7, +5 Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Luck: 8 ADD
+
+# OLYMPIAN SET TRANSCENDENT VERSIONS (+75% stats + new stat)
+
+# OLYMPIAN RING OF POWER TRANSCENDENT (T2 SET)
+olympian_ring_of_power_t2_transcendent:
+  Id: tnt_minecart
+  Display: '&a[ T2 ] &l&bTranscendent Olympian Ring of Power'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+88 ⚔'
+    - '&7Attack Speed: &e+0.1 ⚡'
+    - '&7Set: &bOlympian Trinity'
+    - '&8[3] &7+50 Damage §c⚔&7, +50 Health §c❤&7, +5 Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 88 ADD
+      AttackSpeed: 0.1 ADD
+
+# OLYMPIAN RING OF VITALITY TRANSCENDENT (T2 SET)
+olympian_ring_of_vitality_t2_transcendent:
+  Id: hopper_minecart
+  Display: '&a[ T2 ] &l&bTranscendent Olympian Ring of Vitality'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+88 ❤'
+    - '&7Luck: &a+3 🍀'
+    - '&7Set: &bOlympian Trinity'
+    - '&8[3] &7+50 Damage §c⚔&7, +50 Health §c❤&7, +5 Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 88 ADD
+      Luck: 3 ADD
+
+# OLYMPIAN BELT OF FORTUNE TRANSCENDENT (T2 SET)
+olympian_belt_of_fortune_t2_transcendent:
+  Id: minecart
+  Display: '&a[ T2 ] &l&bTranscendent Olympian Belt of Fortune'
+  Group: mythological_t2
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Luck: &a+9 🍀'
+    - '&7Attack Speed: &e+0.1 ⚡'
+    - '&7Set: &bOlympian Trinity'
+    - '&8[3] &7+50 Damage §c⚔&7, +50 Health §c❤&7, +5 Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Luck: 9 ADD
+      AttackSpeed: 0.1 ADD

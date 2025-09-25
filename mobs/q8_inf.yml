@@ -9,7 +9,7 @@ electrified_ferocity_inf:
   Group: q8_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -39,7 +39,7 @@ charged_drone_inf:
   Group: q8_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.4  # Fast
+    MovementSpeed: 0.3  # Fast
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -67,7 +67,7 @@ big_heap_of_ice_inf:
   Group: q8_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.15  # Very slow
+    MovementSpeed: 0.2  # Very slow
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -97,7 +97,7 @@ heap_of_ice_inf:
   Group: q8_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.15  # Very slow
+    MovementSpeed: 0.2  # Very slow
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -125,7 +125,7 @@ bloodthirsty_frostwolf_inf:
   Group: q8_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.35
+    MovementSpeed: 0.25
     PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
@@ -156,7 +156,7 @@ shocking_forocity_inf:
   Options:
     FollowRange: 25
     PreventSunburn: true
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -189,7 +189,7 @@ pale_pillager_inf:
   Group: q8_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.35  # Fast
+    MovementSpeed: 0.25  # Fast
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -310,7 +310,7 @@ pale_enforcer_inf:
   Group: q8_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -349,7 +349,7 @@ sigrismarr_priest_of_fjalnir_inf:
     Style: SEGMENTED_12
   Options:
     FollowRange: 30
-    MovementSpeed: 0  # Cannot move
+    MovementSpeed: 0.15  # Cannot move
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true

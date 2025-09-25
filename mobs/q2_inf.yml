@@ -6,7 +6,7 @@ gremlin_marauder_inf:
   Faction: q2_inf
   Group: q2_inf
   Options:
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     FollowRange: 25
     ShowHealth: true
     AlwaysShowName: true
@@ -37,7 +37,7 @@ death_witch_inf:
   Group: q2_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     PreventOtherDrops: true
     PreventItemPickup: true
     ShowHealth: true
@@ -64,7 +64,7 @@ poisonous_spider_inf:
   Group: q2_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.35
+    MovementSpeed: 0.5
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -89,7 +89,7 @@ corrupted_root_creature_inf:
   Group: q2_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.15
+    MovementSpeed: 0.3
     KnockbackResistance: 0.7
     ShowHealth: true
     AlwaysShowName: true
@@ -122,7 +122,7 @@ xerib_the_hunchback_inf:
   Group: q2_inf
   Options:
     FollowRange: 25
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     PreventOtherDrops: true
     PreventItemPickup: true
@@ -152,7 +152,7 @@ archus_the_mad_inf:
   Group: q2_inf
   Options:
     FollowRange: 25
-    MovementSpeed: 0.45
+    MovementSpeed: 0.55
     ShowHealth: true
     PreventOtherDrops: true
     PreventItemPickup: true
@@ -193,7 +193,7 @@ arachna_scourge_of_duria_inf:
     PreventSunburn: true
     PreventJockeyMounts: true
     PreventTransformation: true
-    MovementSpeed: '0.5'
+    MovementSpeed: '0.55'
     KnockbackResistance: 0.85
     Despawn: CHUNK
   Skills:

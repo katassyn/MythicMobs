@@ -8,7 +8,7 @@ scheming_gorgon_blood:
   Group: q10_blood
   Options:
     FollowRange: 20
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -39,7 +39,7 @@ poisonous_jitterjelly_blood:
   Group: q10_blood
   Options:
     FollowRange: 15
-    MovementSpeed: 0.15
+    MovementSpeed: 0.3
     PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
@@ -65,7 +65,7 @@ anderworld_jitterjelly_blood:
   Group: q10_blood
   Options:
     FollowRange: 15
-    MovementSpeed: 0.15
+    MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -90,7 +90,7 @@ combat_ready_zorlobb_blood:
   Group: q10_blood
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -120,7 +120,7 @@ melas_the_swift_footed_blood:
   Group: q10_blood
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -155,7 +155,7 @@ anderworld_jabbax_blood:
   Options:
     FollowRange: 15
     PreventSunburn: true
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -183,7 +183,7 @@ patrolling_jabbax_blood:
   Mount: COW
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
@@ -213,7 +213,7 @@ armed_khaross_blood:
   Group: q10_blood
   Options:
     FollowRange: 20
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -221,7 +221,7 @@ armed_khaross_blood:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - bow HAND
+    - bow_150dmg HAND
     - leather_helmet{color=red} HEAD
     - leather_chestplate{color=red} CHEST
     - leather_leggings{color=red} LEGS
@@ -243,7 +243,7 @@ mordacious_khaross_blood:
   Group: q10_blood
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -273,7 +273,7 @@ akheilos_blood:
   Group: q10_blood
   Options:
     FollowRange: 25
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -283,7 +283,7 @@ akheilos_blood:
     KnockbackResistance: 0.5
     Despawn: CHUNK
   Equipment:
-    - bow HAND
+    - bow_150dmg HAND
     - leather_helmet{color=red} HEAD
     - leather_chestplate{color=red} CHEST
     - leather_leggings{color=red} LEGS
@@ -321,7 +321,7 @@ parallel_world_gorga_blood:
     KnockbackResistance: 1.0
     Despawn: CHUNK
   Equipment:
-    - bow HAND
+    - bow_150dmg HAND
     - leather_helmet{color=purple} HEAD
     - leather_chestplate{color=purple} CHEST
     - leather_leggings{color=purple} LEGS
@@ -346,7 +346,7 @@ snake_minion_blood:
   Group: q10_blood
   Options:
     PreventSunburn: true
-    MovementSpeed: 0.4
+    MovementSpeed: 0.55
     ShowHealth: true
     PreventOtherDrops: true
     Despawn: REMOVE

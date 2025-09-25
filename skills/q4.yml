@@ -17,21 +17,23 @@ SummonHoundPack_inf:
 PowerShot_inf:
   Cooldown: 10
   Skills:
-    - sound{s=entity.arrow.shoot;v=1.2;p=1.1} @self
+    - sound{s=entity.arrow.shoot;v=0.4;p=1.1} @self
     - shoot{type=ARROW;velocity=2.6;damage=200;spread=6} @target
     - potion{type=SLOW;duration=60;level=1} @target
 
 TransformPhase2_inf:
   Cooldown: 999
   Skills:
-    - message{m="&6&lBearach grows enraged!"} @PlayersInRadius{r=40}
-    - potion{type=INCREASE_DAMAGE;duration=9999;level=1} @self
+    - message{m="&5&lUlgar enters his second phase!"} @PlayersInRadius{r=40}
+    - summon{mob=ulgar_the_master_butcher_phase2_inf} @self
+    - remove @self
 
 TransformPhase3_inf:
   Cooldown: 999
   Skills:
-    - message{m="&6&lBearach becomes relentless!"} @PlayersInRadius{r=40}
-    - potion{type=SPEED;duration=9999;level=1} @self
+    - message{m="&5&lUlgar enters his final phase!"} @PlayersInRadius{r=40}
+    - summon{mob=ulgar_the_master_butcher_phase3_inf} @self
+    - remove @self
 
 DeathExplosion_inf:
   Cooldown: 30
@@ -286,4 +288,37 @@ Lightning-Hit-Blood:
   Skills:
     - damage{a=750} @target
     - potion{type=SLOW;duration=80;level=1} @target
+
+# =========================
+# ULGAR TRANSFORM SKILLS
+# =========================
+
+TransformPhase2_hell:
+  Cooldown: 999
+  Skills:
+    - message{m="&5&lUlgar enters his second phase!"} @PlayersInRadius{r=40}
+    - summon{mob=ulgar_the_master_butcher_phase2_hell} @self
+    - remove @self
+
+TransformPhase3_hell:
+  Cooldown: 999
+  Skills:
+    - message{m="&5&lUlgar enters his final phase!"} @PlayersInRadius{r=40}
+    - summon{mob=ulgar_the_master_butcher_phase3_hell} @self
+    - remove @self
+
+TransformPhase2_blood:
+  Cooldown: 999
+  Skills:
+    - message{m="&5&lUlgar enters his second phase!"} @PlayersInRadius{r=40}
+    - summon{mob=ulgar_the_master_butcher_phase2_blood} @self
+    - remove @self
+
+TransformPhase3_blood:
+  Cooldown: 999
+  Skills:
+    - message{m="&5&lUlgar enters his final phase!"} @PlayersInRadius{r=40}
+    - summon{mob=ulgar_the_master_butcher_phase3_blood} @self
+    - remove @self
+
 

@@ -18,8 +18,8 @@ AcidSpit-Hit:
     - effect:particles{p=BLOCK_CRACK;material=SLIME_BLOCK;amount=30;hS=0.4;vS=0.1} @origin
     - damage{a=40} @target
     - potion{type=POISON;duration=100;level=1} @target
-    - damage{a=30} @PlayersInRadius{r=2} @origin
-    - potion{type=POISON;duration=60;level=1} @PlayersInRadius{r=2} @origin
+    - damage{a=30} @PlayersInRadius{r=2}
+    - potion{type=POISON;duration=60;level=1} @PlayersInRadius{r=2}
 
 AcidSpit_hell:
   Cooldown: 8
@@ -31,7 +31,7 @@ AcidSpit-Hit_hell:
     - effect:particles{p=BLOCK_CRACK;material=SLIME_BLOCK;amount=40;hS=0.4;vS=0.1} @origin
     - damage{a=80} @target
     - potion{type=POISON;duration=120;level=1} @target
-    - damage{a=60} @PlayersInRadius{r=2} @origin
+    - damage{a=60} @PlayersInRadius{r=2}
 
 AcidSpit_blood:
   Cooldown: 8
@@ -43,7 +43,7 @@ AcidSpit-Hit_blood:
     - effect:particles{p=BLOCK_CRACK;material=SLIME_BLOCK;amount=60;hS=0.4;vS=0.1} @origin
     - damage{a=200} @target
     - potion{type=POISON;duration=140;level=2} @target
-    - damage{a=150} @PlayersInRadius{r=2} @origin
+    - damage{a=150} @PlayersInRadius{r=2}
 
 ZapBolt:
   Cooldown: 10

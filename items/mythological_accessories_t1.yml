@@ -1,0 +1,612 @@
+# MYTHOLOGICAL T1 ITEMS
+
+# RING OF APOLLO (T1 Legendary)
+ring_of_apollo_t1:
+  Id: tnt_minecart
+  Display: '&9[ T1 ] &6Ring of Apollo'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+10 ❤'
+    - '&7Damage: &c+10 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 10 ADD
+      Damage: 10 ADD
+
+# NECKLACE OF ATHENA (T1 Legendary)
+necklace_of_athena_t1:
+  Id: chest_minecart
+  Display: '&9[ T1 ] &6Necklace of Athena'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+    - LUCK:1
+  Lore:
+    - ''
+    - '&7Luck: &a+1 🍀'
+    - '&7Damage: &c+15 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 15 ADD
+      Luck: 1 ADD
+
+# TEAM RELIC OF ARES (T1 Unique)
+team_relic_of_ares_t1:
+  Id: raw_iron
+  Display: '&9[ T1 ] &eTeam Relic of Ares'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Team Buff: &r+3% Movement Speed §b👟'
+    - '&7Range: &r20 &7blocks'
+    - '&lRarity:&r &e&lUnique'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+# BOSS HEART OF ZEUS (T1 Mythic)
+boss_heart_of_zeus_t1:
+  Id: raw_copper
+  Display: '&9[ T1 ] &l&cHeart of Zeus'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+10% ❤'
+    - '&lRarity:&r &c&lMythic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+# HERMES BOOTS (T1 SET)
+hermes_boots_t1:
+  Id: golden_boots
+  Display: '&9[ T1 ] &l&bHermes Winged Sandals'
+  Group: mythological_t1
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:50
+  Lore:
+    - ''
+    - '&7Protection: &950 🛡'
+    - '&7Set: &bHermes Divine Speed'
+    - '&8[2] &7+5% Movement Speed §b👟&7, +10 Health §c❤'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# HERMES HELMET (T1 SET)
+hermes_helmet_t1:
+  Id: golden_helmet
+  Display: '&9[ T1 ] &l&bHermes Divine Helm'
+  Group: mythological_t1
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:50
+  Lore:
+    - ''
+    - '&7Protection: &950 🛡'
+    - '&7Set: &bHermes Divine Speed'
+    - '&8[2] &7+5% Movement Speed §b👟&7, +10 Health §c❤'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# ADORNMENT OF DEMETER (T1 Extraordinary)
+adornment_of_demeter_t1:
+  Id: furnace_minecart
+  Display: '&9[ T1 ] &5Adornment of Demeter'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+6 ❤'
+    - '&7Luck: &a+1 🍀'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 6 ADD
+      Luck: 1 ADD
+
+# SHIELD OF DIONYSUS (T1 Extraordinary)
+shield_of_dionysus_t1:
+  Id: iron_door
+  Display: '&9[ T1 ] &5Shield of Dionysus'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Block Chance: &b10% 🎲'
+    - '&7Damage: &c+8 ⚔'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 8 ADD
+
+# BLESSED VERSIONS (+25% stats)
+
+# RING OF APOLLO BLESSED (T1 Legendary)
+ring_of_apollo_t1_blessed:
+  Id: tnt_minecart
+  Display: '&9[ T1 ] &6Blessed Ring of Apollo'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+13 ❤'
+    - '&7Damage: &c+13 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 13 ADD
+      Damage: 13 ADD
+
+# NECKLACE OF ATHENA BLESSED (T1 Legendary)
+necklace_of_athena_t1_blessed:
+  Id: chest_minecart
+  Display: '&9[ T1 ] &6Blessed Necklace of Athena'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+    - LUCK:1
+  Lore:
+    - ''
+    - '&7Luck: &a+2 🍀'
+    - '&7Damage: &c+19 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 19 ADD
+      Luck: 2 ADD
+
+# ADORNMENT OF DEMETER BLESSED (T1 Extraordinary)
+adornment_of_demeter_t1_blessed:
+  Id: furnace_minecart
+  Display: '&9[ T1 ] &5Blessed Adornment of Demeter'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+8 ❤'
+    - '&7Luck: &a+2 🍀'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 8 ADD
+      Luck: 2 ADD
+
+# SHIELD OF DIONYSUS BLESSED (T1 Extraordinary)
+shield_of_dionysus_t1_blessed:
+  Id: iron_door
+  Display: '&9[ T1 ] &5Blessed Shield of Dionysus'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Block Chance: &b13% 🎲'
+    - '&7Damage: &c+10 ⚔'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 10 ADD
+
+# DIVINE VERSIONS (+50% stats)
+
+# RING OF APOLLO DIVINE (T1 Legendary)
+ring_of_apollo_t1_divine:
+  Id: tnt_minecart
+  Display: '&9[ T1 ] &6Divine Ring of Apollo'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+15 ❤'
+    - '&7Damage: &c+15 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 15 ADD
+      Damage: 15 ADD
+
+# NECKLACE OF ATHENA DIVINE (T1 Legendary)
+necklace_of_athena_t1_divine:
+  Id: chest_minecart
+  Display: '&9[ T1 ] &6Divine Necklace of Athena'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+    - LUCK:1
+  Lore:
+    - ''
+    - '&7Luck: &a+2 🍀'
+    - '&7Damage: &c+23 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 23 ADD
+      Luck: 2 ADD
+
+# ADORNMENT OF DEMETER DIVINE (T1 Extraordinary)
+adornment_of_demeter_t1_divine:
+  Id: furnace_minecart
+  Display: '&9[ T1 ] &5Divine Adornment of Demeter'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+9 ❤'
+    - '&7Luck: &a+2 🍀'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 9 ADD
+      Luck: 2 ADD
+
+# SHIELD OF DIONYSUS DIVINE (T1 Extraordinary)
+shield_of_dionysus_t1_divine:
+  Id: iron_door
+  Display: '&9[ T1 ] &5Divine Shield of Dionysus'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Block Chance: &b15% 🎲'
+    - '&7Damage: &c+12 ⚔'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 12 ADD
+
+# TRANSCENDENT VERSIONS (+75% stats + new stat)
+
+# RING OF APOLLO TRANSCENDENT (T1 Legendary - +2 Luck)
+ring_of_apollo_t1_transcendent:
+  Id: tnt_minecart
+  Display: '&9[ T1 ] &6Transcendent Ring of Apollo'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+18 ❤'
+    - '&7Damage: &c+18 ⚔'
+    - '&7Luck: &a+2 🍀'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 18 ADD
+      Damage: 18 ADD
+      Luck: 2 ADD
+
+# NECKLACE OF ATHENA TRANSCENDENT (T1 Legendary - +2 Luck)
+necklace_of_athena_t1_transcendent:
+  Id: chest_minecart
+  Display: '&9[ T1 ] &6Transcendent Necklace of Athena'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+    - LUCK:1
+  Lore:
+    - ''
+    - '&7Luck: &a+4 🍀'
+    - '&7Damage: &c+26 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 26 ADD
+      Luck: 4 ADD
+
+# ADORNMENT OF DEMETER TRANSCENDENT (T1 Extraordinary - +1 Luck)
+adornment_of_demeter_t1_transcendent:
+  Id: furnace_minecart
+  Display: '&9[ T1 ] &5Transcendent Adornment of Demeter'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+11 ❤'
+    - '&7Luck: &a+3 🍀'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 11 ADD
+      Luck: 3 ADD
+
+# SHIELD OF DIONYSUS TRANSCENDENT (T1 Extraordinary - +1 Luck)
+shield_of_dionysus_t1_transcendent:
+  Id: iron_door
+  Display: '&9[ T1 ] &5Transcendent Shield of Dionysus'
+  Group: mythological_t1
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Block Chance: &b18% 🎲'
+    - '&7Damage: &c+14 ⚔'
+    - '&7Luck: &a+1 🍀'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 14 ADD
+      Luck: 1 ADD
+
+# HERMES SET BLESSED VERSIONS (+25% protection)
+
+# HERMES BOOTS BLESSED (T1 SET)
+hermes_boots_t1_blessed:
+  Id: golden_boots
+  Display: '&9[ T1 ] &l&bBlessed Hermes Winged Sandals'
+  Group: mythological_t1
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:63
+  Lore:
+    - ''
+    - '&7Protection: &963 🛡'
+    - '&7Set: &bHermes Divine Speed'
+    - '&8[2] &7+5% Movement Speed §b👟&7, +10 Health §c❤'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# HERMES HELMET BLESSED (T1 SET)
+hermes_helmet_t1_blessed:
+  Id: golden_helmet
+  Display: '&9[ T1 ] &l&bBlessed Hermes Divine Helm'
+  Group: mythological_t1
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:63
+  Lore:
+    - ''
+    - '&7Protection: &963 🛡'
+    - '&7Set: &bHermes Divine Speed'
+    - '&8[2] &7+5% Movement Speed §b👟&7, +10 Health §c❤'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# HERMES SET DIVINE VERSIONS (+50% protection)
+
+# HERMES BOOTS DIVINE (T1 SET)
+hermes_boots_t1_divine:
+  Id: golden_boots
+  Display: '&9[ T1 ] &l&bDivine Hermes Winged Sandals'
+  Group: mythological_t1
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:75
+  Lore:
+    - ''
+    - '&7Protection: &975 🛡'
+    - '&7Set: &bHermes Divine Speed'
+    - '&8[2] &7+5% Movement Speed §b👟&7, +10 Health §c❤'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# HERMES HELMET DIVINE (T1 SET)
+hermes_helmet_t1_divine:
+  Id: golden_helmet
+  Display: '&9[ T1 ] &l&bDivine Hermes Divine Helm'
+  Group: mythological_t1
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:75
+  Lore:
+    - ''
+    - '&7Protection: &975 🛡'
+    - '&7Set: &bHermes Divine Speed'
+    - '&8[2] &7+5% Movement Speed §b👟&7, +10 Health §c❤'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# HERMES SET TRANSCENDENT VERSIONS (+75% protection + new effects)
+
+# HERMES BOOTS TRANSCENDENT (T1 SET)
+hermes_boots_t1_transcendent:
+  Id: golden_boots
+  Display: '&9[ T1 ] &l&bTranscendent Hermes Winged Sandals'
+  Group: mythological_t1
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:88
+  Lore:
+    - ''
+    - '&7Protection: &988 🛡'
+    - '&7Set: &bHermes Divine Speed'
+    - '&8[2] &7+5% Movement Speed §b👟&7, +10 Health §c❤'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Attributes:
+    All:
+      Luck: 2 ADD
+
+# HERMES HELMET TRANSCENDENT (T1 SET)
+hermes_helmet_t1_transcendent:
+  Id: golden_helmet
+  Display: '&9[ T1 ] &l&bTranscendent Hermes Divine Helm'
+  Group: mythological_t1
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:88
+  Lore:
+    - ''
+    - '&7Protection: &988 🛡'
+    - '&7Luck: &a+2 🍀'
+    - '&7Set: &bHermes Divine Speed'
+    - '&8[2] &7+5% Movement Speed §b👟&7, +10 Health §c❤'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=4;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Attributes:
+    All:
+      Luck: 2 ADD

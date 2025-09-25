@@ -8,7 +8,7 @@ electrified_ferocity_blood:
   Group: q8_blood
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -38,7 +38,7 @@ charged_drone_blood:
   Group: q8_blood
   Options:
     FollowRange: 15
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -66,7 +66,7 @@ big_heap_of_ice_blood:
   Group: q8_blood
   Options:
     FollowRange: 15
-    MovementSpeed: 0.15
+    MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -96,7 +96,7 @@ heap_of_ice_blood:
   Group: q8_blood
   Options:
     FollowRange: 15
-    MovementSpeed: 0.15
+    MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -124,7 +124,7 @@ bloodthirsty_frostwolf_blood:
   Group: q8_blood
   Options:
     FollowRange: 20
-    MovementSpeed: 0.35
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -155,7 +155,7 @@ shocking_forocity_blood:
   Options:
     FollowRange: 25
     PreventSunburn: true
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -187,7 +187,7 @@ pale_pillager_blood:
   Group: q8_blood
   Options:
     FollowRange: 20
-    MovementSpeed: 0.35
+    MovementSpeed: 0.25
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -217,7 +217,7 @@ simple_troll_blood:
   Group: q8_blood
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.25
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -247,7 +247,7 @@ frost_magician_blood:
   Group: q8_blood
   Options:
     FollowRange: 20
-    MovementSpeed: 0.2
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -278,7 +278,7 @@ frost_bringer_blood:
   Group: q8_blood
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -308,7 +308,7 @@ pale_enforcer_blood:
   Group: q8_blood
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -347,7 +347,7 @@ sigrismarr_priest_of_fjalnir_blood:
   Options:
     FollowRange: 30
     PreventSunburn: true
-    MovementSpeed: 0
+    MovementSpeed: 0.15
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true

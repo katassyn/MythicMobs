@@ -9,3 +9,58 @@ bow_100dmg:
   Options:
     Unbreakable: true
 
+bow_120dmg:
+  Id: BOW
+  Display: "&7Cursed Bow"
+  Enchantments:
+    - ARROW_DAMAGE:118
+    - DURABILITY:10
+  Lore:
+    - "&c+120 damage"
+  Options:
+    Unbreakable: true
+
+bow_150dmg:
+  Id: BOW
+  Display: "&aSanguine Hunter Bow"
+  Enchantments:
+    - ARROW_DAMAGE:148
+    - DURABILITY:10
+  Lore:
+    - "&c+150 damage"
+  Options:
+    Unbreakable: true
+
+bow_200dmg:
+  Id: BOW
+  Display: "&9Fallen Archer Bow"
+  Enchantments:
+    - ARROW_DAMAGE:198
+    - DURABILITY:10
+  Lore:
+    - "&c+200 damage"
+  Options:
+    Unbreakable: true
+
+bow_250dmg:
+  Id: BOW
+  Display: "&5Elite Skeleton Bow"
+  Enchantments:
+    - ARROW_DAMAGE:248
+    - DURABILITY:10
+  Lore:
+    - "&c+250 damage"
+  Options:
+    Unbreakable: true
+
+bow_300dmg:
+  Id: BOW
+  Display: "&cDeath Archer Bow"
+  Enchantments:
+    - ARROW_DAMAGE:298
+    - DURABILITY:10
+  Lore:
+    - "&c+300 damage"
+  Options:
+    Unbreakable: true
+

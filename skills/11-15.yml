@@ -2,7 +2,7 @@ Summon11-15:
   Cooldown: 10
   Skills:
     - effect:particles{p=portal;amount=16;hS=0.5;vS=0.5} @Self
-    - sound{s=entity.evoker.prepare_summon;v=0.9;p=1.1} @Self
+    - sound{s=entity.evoker.prepare_summon;v=0.3;p=1.1} @Self
     - delay 12
     - summon{mob=black_furred_mauler;amount=2;noise=5} @Self
 
@@ -10,7 +10,7 @@ arrow:
   Cooldown: 5
   Skills:
     - effect:particles{p=end_rod;amount=12;hS=0.4;vS=0.4} @Self
-    - sound{s=entity.arrow.shoot;v=0.8;p=1.2} @Self
+    - sound{s=entity.arrow.shoot;v=0.2;p=1.2} @Self
     - delay 6
     - projectile{onTick=arrow-Tick;onHit=arrow-Hit;v=7;i=1;hR=1;vR=1;hnp=true;mr=80} @target
 

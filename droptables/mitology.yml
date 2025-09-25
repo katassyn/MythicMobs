@@ -1,0 +1,185 @@
+mobs_t1_t2_drops:
+  Drops:
+    - mobs_t1_t2_item_drops 1
+mobs_t1_t2_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - andermant 1-2 0.025
+    - lockpick 1-2 0.025
+    - ips 1-3 0.05
+    - essence_crystal 1-3 0.08
+    - power_crystal 1-2 0.08
+    - primordial_soul_crystal 1 0.01
+
+t1_normal_elite_drops:
+  Drops:
+    - t1_normal_elite_items_drops 1
+t1_normal_elite_items_drops:
+    MinItems: 0
+    MaxItems: 1
+    Drops:
+      - ring_of_apollo_t1 1 0.01 # leg item
+      - necklace_of_athena_t1 1 0.01 # leg item
+      - adornment_of_demeter_t1 1 0.05 # extor item
+      - shield_of_dionysus_t1 1 0.05 # extor item
+      - team_relic_of_ares_t1 1 0.005 # team relict
+
+t1_mini_boss_boss_drops:
+  Drops:
+    - t1_mini_boss_boss_items_drops 1
+t1_mini_boss_boss_items_drops:
+    MinItems: 0
+    MaxItems: 1
+    Drops:
+      - ring_of_apollo_t1 1 0.1 # leg item
+      - necklace_of_athena_t1 1 0.1 # leg item
+      - team_relic_of_ares_t1 1 0.025 # team relict
+      - boss_heart_of_zeus_t1 1 0.01 # serce bosa
+      - hermes_boots_t1 1 0.01 # item setowy
+      - hermes_helmet_t1 1 0.01 # item setowy
+
+# T2 DROPS
+t2_normal_elite_drops:
+  Drops:
+    - t2_normal_elite_items_drops 1
+t2_normal_elite_items_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - sword_of_ares_t2 1 0.01 # leg item
+    - gloves_of_hephaestus_t2 1 0.01 # leg item
+    - cloak_of_helios_t2 1 0.05 # extor item
+    - ring_of_artemis_t2 1 0.05 # extor item
+    - team_relic_of_athena_t2 1 0.005 # team relict
+
+t2_mini_boss_boss_drops:
+  Drops:
+    - t2_mini_boss_boss_items_drops 1
+t2_mini_boss_boss_items_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - sword_of_ares_t2 1 0.1 # leg item
+    - gloves_of_hephaestus_t2 1 0.1 # leg item
+    - team_relic_of_athena_t2 1 0.025 # team relict
+    - heart_of_poseidon_t2 1 0.01 # serce bosa
+    - olympian_ring_of_power_t2 1 0.01 # item setowy
+    - olympian_ring_of_vitality_t2 1 0.01 # item setowy
+    - olympian_belt_of_fortune_t2 1 0.01 # item setowy
+
+# T3 DROPS
+t3_normal_elite_drops:
+  Drops:
+    - t3_normal_elite_items_drops 1
+t3_normal_elite_items_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - leggings_of_hermes_t3 1 0.01 # leg item
+    - belt_of_titans_t3 1 0.01 # leg item
+    - boots_of_iris_t3 1 0.05 # extor item
+    - necklace_of_hecate_t3 1 0.05 # extor item
+    - team_relic_of_apollo_t3 1 0.005 # team relict
+
+t3_mini_boss_boss_drops:
+  Drops:
+    - t3_mini_boss_boss_items_drops 1
+t3_mini_boss_boss_items_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - leggings_of_hermes_t3 1 0.1 # leg item
+    - belt_of_titans_t3 1 0.1 # leg item
+    - team_relic_of_apollo_t3 1 0.025 # team relict
+    - heart_of_hades_t3 1 0.01 # serce bosa
+    - divine_chestplate_of_olympus_t3 1 0.01 # item setowy
+    - divine_gloves_of_olympus_t3 1 0.01 # item setowy
+    - divine_leggings_of_olympus_t3 1 0.01 # item setowy
+    - divine_necklace_of_olympus_t3 1 0.01 # item setowy
+
+# T4 DROPS
+t4_normal_elite_drops:
+  Drops:
+    - t4_normal_elite_items_drops 1
+t4_normal_elite_items_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - chestplate_of_ares_t4 1 0.01 # leg item
+    - ring_of_divine_power_t4 1 0.01 # leg item
+    - helm_of_medusa_t4 1 0.05 # extor item
+    - belt_of_prometheus_t4 1 0.05 # extor item
+    - team_relic_of_hermes_t4 1 0.005 # team relict
+
+t4_mini_boss_boss_drops:
+  Drops:
+    - t4_mini_boss_boss_items_drops 1
+t4_mini_boss_boss_items_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - chestplate_of_ares_t4 1 0.1 # leg item
+    - ring_of_divine_power_t4 1 0.1 # leg item
+    - team_relic_of_hermes_t4 1 0.025 # team relict
+    - heart_of_kronos_t4 1 0.01 # serce bosa
+    - aegis_shield_of_zeus_t4 1 0.01 # item setowy
+
+# T5 DROPS
+t5_normal_elite_drops:
+  Drops:
+    - t5_normal_elite_items_drops 1
+t5_normal_elite_items_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - cloak_of_heracles_t5 1 0.01 # leg item
+    - golden_sword_of_apollo_t5 1 0.01 # leg item
+    - necklace_of_orion_t5 1 0.05 # extor item
+    - gloves_of_atlas_t5 1 0.05 # extor item
+    - team_relic_of_zeus_t5 1 0.005 # team relict
+
+t5_mini_boss_boss_drops:
+  Drops:
+    - t5_mini_boss_boss_items_drops 1
+t5_mini_boss_boss_items_drops:
+  MinItems: 0
+  MaxItems: 1
+  Drops:
+    - cloak_of_heracles_t5 1 0.1 # leg item
+    - golden_sword_of_apollo_t5 1 0.1 # leg item
+    - team_relic_of_zeus_t5 1 0.025 # team relict
+    - heart_of_olympus_t5 1 0.01 # serce bosa
+    - titan_ring_of_destruction_t5 1 0.01 # item setowy
+    - titan_ring_of_vitality_t5 1 0.01 # item setowy
+    - titan_necklace_of_supremacy_t5 1 0.01 # item setowy
+    - titan_gloves_of_fortress_t5 1 0.01 # item setowy
+    - titan_weapon_adornment_t5 1 0.01 # item setowy
+
+mobs_t3_t4_drops:
+  Drops:
+    - mobs_t3_t4_item_drops 1
+mobs_t3_t4_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - andermant 1-2 0.025
+    - lockpick 1-2 0.025
+    - ips 1-3 0.05
+    - essence_crystal 2-4 0.09
+    - power_crystal 2-3 0.09
+    - primordial_soul_crystal 1 0.02
+
+mobs_t5_drops:
+  Drops:
+    - mobs_t5_item_drops 1
+mobs_t5_item_drops:
+  MinItems: 0
+  MaxItems: 2
+  Drops:
+    - andermant 1-2 0.025
+    - lockpick 1-2 0.025
+    - ips 1-3 0.05
+    - essence_crystal 3-5 0.09
+    - power_crystal 3-4 0.09
+    - primordial_soul_crystal 1 0.03

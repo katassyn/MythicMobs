@@ -2,7 +2,7 @@ GorgonGaze:
   Cooldown: 10
   Skills:
     - effect:particles{p=totem;amount=12;hS=0.5;vS=0.2} @Self
-    - sound{s=entity.ender_eye.death;v=0.7;p=1.8} @Self
+    - sound{s=entity.ender_eye.death;v=0.2;p=1.8} @Self
     - delay 12
     - potion{t=SLOW;d=80;level=1} @PlayersInRadius{r=6}
 
@@ -10,7 +10,7 @@ JellyfishPulse:
   Cooldown: 12
   Skills:
     - effect:particles{p=cloud;amount=20;hS=1;vS=0.2} @Self
-    - sound{s=entity.guardian.flop;v=0.8;p=1.4} @Self
+    - sound{s=entity.guardian.flop;v=0.2;p=1.4} @Self
     - delay 10
     - potion{t=LEVITATION;d=30;level=1} @PlayersInRadius{r=4}
 

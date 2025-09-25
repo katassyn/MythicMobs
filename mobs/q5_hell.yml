@@ -8,7 +8,7 @@ furious_maggot_hell:
   Group: q5_hell
   Options:
     FollowRange: 15
-    MovementSpeed: 0.15
+    MovementSpeed: 0.3
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -38,7 +38,7 @@ furious_flagrancy_hell:
   Group: q5_hell
   Options:
     FollowRange: 15
-    MovementSpeed: 0.1
+    MovementSpeed: 0.25
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -68,7 +68,7 @@ furious_andermagic_hell:
   Group: q5_hell
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -100,7 +100,7 @@ parallel_world_old_jabbax_shaman_hell:
   Group: q5_hell
   Options:
     FollowRange: 25
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -134,7 +134,7 @@ andermagic_guardian_hell:
   Group: q5_hell
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -165,7 +165,7 @@ living_andermagic_hell:
   Group: q5_hell
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
@@ -197,7 +197,7 @@ wailing_andermagic_ghost_hell:
   Group: q5_hell
   Options:
     FollowRange: 15
-    MovementSpeed: 0.15
+    MovementSpeed: 0.3
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -229,7 +229,7 @@ andermagic_scoropitl_hell:
   Group: q5_hell
   Options:
     FollowRange: 20
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -259,7 +259,7 @@ wandering_experiment_hell:
   Group: q5_hell
   Options:
     FollowRange: 2000
-    MovementSpeed: 0.4
+    MovementSpeed: 0.55
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -298,7 +298,7 @@ khalys_leader_of_cultists_hell:
     Style: SEGMENTED_12
   Options:
     FollowRange: 30
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -332,7 +332,7 @@ khalys_clone_hell:
   Faction: q5_hell
   Group: q5_hell
   Options:
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     PreventOtherDrops: true
     Despawn: REMOVE

@@ -7,7 +7,7 @@ gremlin_marauder_blood:
   Group: q2_blood
   Options:
     FollowRange: 15
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -37,7 +37,7 @@ death_witch_blood:
   Group: q2_blood  # x5 Obrażenia
   Options:
     FollowRange: 20
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     PreventOtherDrops: true
     PreventItemPickup: true
@@ -65,7 +65,7 @@ poisonous_spider_blood:
   Group: q2_blood
   Options:
     FollowRange: 15
-    MovementSpeed: 0.35
+    MovementSpeed: 0.5
     ShowHealth: true
     PreventOtherDrops: true
     AlwaysShowName: true
@@ -91,7 +91,7 @@ corrupted_root_creature_blood:
   Group: q2_blood
   Options:
     FollowRange: 20
-    MovementSpeed: 0.15
+    MovementSpeed: 0.3
     ShowHealth: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -121,7 +121,7 @@ xerib_the_hunchback_blood:
   Group: q2_blood
   Options:
     FollowRange: 25
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     PreventOtherDrops: true
     PreventItemPickup: true
@@ -150,7 +150,7 @@ archus_the_mad_blood:
   Group: q2_blood
   Options:
     FollowRange: 25
-    MovementSpeed: 0.45
+    MovementSpeed: 0.55
     ShowHealth: true
     PreventOtherDrops: true
     PreventItemPickup: true
@@ -184,7 +184,7 @@ arachna_scourge_of_duria_blood:
     Style: SEGMENTED_12
   Options:
     FollowRange: 40
-    MovementSpeed: 0.4
+    MovementSpeed: 0.55
     ShowHealth: true
     AlwaysShowName: true
     PreventOtherDrops: true

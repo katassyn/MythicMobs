@@ -8,7 +8,7 @@ fallen_warrior_inf:
   Group: q6_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -39,7 +39,7 @@ fallen_archer_inf:
   Group: q6_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -47,7 +47,7 @@ fallen_archer_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-  - bow HAND
+  - bow_200dmg HAND
   - iron_helmet HEAD
   - leather_chestplate CHEST
   - leather_leggings LEGS
@@ -70,7 +70,7 @@ death_knight_inf:
   Options:
     FollowRange: 15
     PreventSunburn: true
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -100,7 +100,7 @@ mortis_death_knight_inf:
   Group: q6_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -136,7 +136,7 @@ elite_skeleton_archer_inf:
   Group: q6_inf
   Options:
     FollowRange: 25
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -144,7 +144,7 @@ elite_skeleton_archer_inf:
     PreventRandomEquipment: true
     PreventSunburn: true
   Equipment:
-  - bow HAND
+  - bow_250dmg HAND
   - iron_helmet HEAD
   - iron_chestplate CHEST
   - iron_leggings LEGS
@@ -167,7 +167,7 @@ death_archer_inf:
   Group: q6_inf
   Options:
     FollowRange: 25
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
@@ -175,7 +175,7 @@ death_archer_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-  - bow HAND
+  - bow_300dmg HAND
   - netherite_helmet HEAD
   - netherite_chestplate CHEST
   - netherite_leggings LEGS
@@ -198,7 +198,7 @@ raging_soul_inf:
   Group: q6_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -226,7 +226,7 @@ elite_skeleton_warrior_inf:
   Group: q6_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -258,7 +258,7 @@ murot_high_priest_inf:
   Group: q6_inf
   Options:
     FollowRange: 25
-    MovementSpeed: 0.15
+    MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -299,7 +299,7 @@ skeledragon_phase1_inf:
     Style: SEGMENTED_12
   Options:
     FollowRange: 40
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -331,7 +331,7 @@ skeledragon_phase2_inf:
     Style: SEGMENTED_12
   Options:
     FollowRange: 40
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -364,7 +364,7 @@ mortis_phase3_inf:
     Style: SEGMENTED_12
   Options:
     FollowRange: 40
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true

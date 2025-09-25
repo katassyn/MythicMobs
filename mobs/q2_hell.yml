@@ -7,7 +7,7 @@ gremlin_marauder_hell:
   Group: q2_hell
   Options:
     FollowRange: 15
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -37,7 +37,7 @@ death_witch_hell:
   Group: q2_hell
   Options:
     FollowRange: 20
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     PreventOtherDrops: true
     PreventItemPickup: true
@@ -65,7 +65,7 @@ poisonous_spider_hell:
   Group: q2_hell
   Options:
     FollowRange: 15
-    MovementSpeed: 0.35
+    MovementSpeed: 0.5
     AlwaysShowName: true
     PreventItemPickup: true
     PreventOtherDrops: true
@@ -90,7 +90,7 @@ corrupted_root_creature_hell:
   Group: q2_hell
   Options:
     FollowRange: 20
-    MovementSpeed: 0.15
+    MovementSpeed: 0.3
     ShowHealth: true
     PreventOtherDrops: true
     PreventRandomEquipment: true
@@ -122,7 +122,7 @@ xerib_the_hunchback_hell:
   Group: q2_hell
   Options:
     FollowRange: 25
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     PreventOtherDrops: true
     PreventItemPickup: true
@@ -151,7 +151,7 @@ archus_the_mad_hell:
   Group: q2_hell
   Options:
     FollowRange: 25
-    MovementSpeed: 0.45
+    MovementSpeed: 0.55
     ShowHealth: true
     PreventOtherDrops: true
     PreventItemPickup: true
@@ -185,7 +185,7 @@ arachna_scourge_of_duria_hell:
     Style: SEGMENTED_12
   Options:
     FollowRange: 35
-    MovementSpeed: 0.35
+    MovementSpeed: 0.5
     ShowHealth: true
     AlwaysShowName: true
     PreventOtherDrops: true

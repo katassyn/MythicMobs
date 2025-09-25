@@ -9,7 +9,7 @@ electrified_ferocity_hell:
   Group: q8_hell
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -39,7 +39,7 @@ charged_drone_hell:
   Group: q8_hell
   Options:
     FollowRange: 15
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -67,7 +67,7 @@ big_heap_of_ice_hell:
   Group: q8_hell
   Options:
     FollowRange: 15
-    MovementSpeed: 0.15
+    MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -97,7 +97,7 @@ heap_of_ice_hell:
   Group: q8_hell
   Options:
     FollowRange: 15
-    MovementSpeed: 0.15
+    MovementSpeed: 0.2
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -125,7 +125,7 @@ bloodthirsty_frostwolf_hell:
   Group: q8_hell
   Options:
     FollowRange: 20
-    MovementSpeed: 0.35
+    MovementSpeed: 0.25
     PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
@@ -155,7 +155,7 @@ shocking_forocity_hell:
   Group: q8_hell
   Options:
     FollowRange: 25
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
@@ -190,7 +190,7 @@ pale_pillager_hell:
   Options:
     FollowRange: 20
     PreventSunburn: true
-    MovementSpeed: 0.35
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -220,7 +220,7 @@ simple_troll_hell:
   Options:
     FollowRange: 15
     PreventSunburn: true
-    MovementSpeed: 0.2
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -250,7 +250,7 @@ frost_magician_hell:
   Options:
     FollowRange: 20
     PreventSunburn: true
-    MovementSpeed: 0.2
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -281,7 +281,7 @@ frost_bringer_hell:
   Options:
     FollowRange: 15
     PreventSunburn: true
-    MovementSpeed: 0.2
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -310,7 +310,7 @@ pale_enforcer_hell:
   Group: q8_hell
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -349,7 +349,7 @@ sigrismarr_priest_of_fjalnir_hell:
     Style: SEGMENTED_12
   Options:
     FollowRange: 30
-    MovementSpeed: 0
+    MovementSpeed: 0.15
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true

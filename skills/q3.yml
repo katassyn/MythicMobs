@@ -6,7 +6,7 @@
 ThrowBoulder_inf:
   Cooldown: 9
   Skills:
-    - sound{s=entity.snow_golem.shoot;v=1.2;p=0.8} @self
+    - sound{s=entity.snow_golem.shoot;v=0.4;p=0.8} @self
     - effect:particles{p=block_crack;material=STONE;amount=40;radius=1} @self
     - projectile{onTick=Boulder-Tick;onHit=Boulder-Hit-Inf;v=9;i=CLAY_BALL;hR=1.1;vR=1.1;g=0.05} @target
 
@@ -34,7 +34,7 @@ Ice-Hit-Inf:
   Skills:
     - damage{a=150} @target
     - potion{type=SLOW;duration=50;level=1} @target
-    - sound{s=block.glass.place;v=0.7;p=1.8} @target
+    - sound{s=block.glass.place;v=0.2;p=1.8} @target
 
 FrostExplosion_inf:
   Cooldown: 14
@@ -48,7 +48,7 @@ FrostExplosion_inf:
 BlindingShot_inf:
   Cooldown: 11
   Skills:
-    - sound{s=entity.skeleton.shoot;v=1.2;p=1.2} @self
+    - sound{s=entity.skeleton.shoot;v=0.4;p=1.2} @self
     - shoot{type=ARROW;velocity=2.2;damage=150;target=target} @target
     - potion{type=BLINDNESS;duration=60;level=1} @target
 

@@ -2,7 +2,7 @@ SandBurst:
   Cooldown: 12
   Skills:
     - effect:particles{p=falling_dust;material=SAND;amount=40;hS=1;vS=0.5} @Self
-    - sound{s=block.sand.break;v=1;p=0.9} @Self
+    - sound{s=block.sand.break;v=0.3;p=0.9} @Self
     - delay 10
     - potion{t=BLINDNESS;d=40;level=1} @PlayersInRadius{r=5}
 
@@ -17,6 +17,6 @@ ScarabGuard:
   Cooldown: 14
   Skills:
     - effect:particles{p=totem;amount=18;hS=0.7;vS=0.2} @Self
-    - sound{s=entity.beetle.death;v=0.7;p=1.4} @Self
+    - sound{s=entity.beetle.death;v=0.2;p=1.4} @Self
     - delay 8
     - effect:particles{p=spell;amount=36;hS=1;vS=0.3;speed=0.01} @Self

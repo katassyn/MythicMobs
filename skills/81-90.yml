@@ -2,7 +2,7 @@ RootGrasp:
   Cooldown: 10
   Skills:
     - effect:particles{particle=item_crack;material=oak_sapling;amount=28;speed=0.2;hS=0.5;vS=0.45} @target
-    - sound{s=block.grass.place;v=1;p=0.7} @target
+    - sound{s=block.grass.place;v=0.3;p=0.7} @target
     - delay 25
     - potion{type=SLOW;duration=60;level=2} @target ?targetwithin{d=3}
     - damage{amount=100} @target ?targetwithin{d=3}
@@ -11,7 +11,7 @@ SpawnLeechbeasts:
   Cooldown: 16
   Skills:
     - effect:particles{particle=slime;amount=60;speed=0.15;hS=1;vS=0.6} @self
-    - sound{s=entity.slime.jump;v=1.1;p=0.8} @self
+    - sound{s=entity.slime.jump;v=0.3;p=0.8} @self
     - delay 30
     - summon{type=leechbeast;level=1;amount=10;radius=3} @self
 
@@ -22,7 +22,7 @@ ThunderStrike:
     - targetwithin{d=24}
   Skills:
     - effect:particles{particle=electric_spark;amount=24;hS=1;vS=1} @target
-    - sound{s=entity.warden.sonic_charge;v=1;p=1} @target
+    - sound{s=entity.warden.sonic_charge;v=0.3;p=1} @target
     - delay 28
     - effect:lightning @target
     - damage{amount=150;ignorearmor=true} @PIR{r=3}

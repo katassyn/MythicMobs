@@ -1566,7 +1566,7 @@ clover:
 
 andermant:
   Id: small_amethyst_bud
-  Display: '§5&lAndermant'
+  Display: '§5&lAnderium'
   Group: Currency
   Enchantments:
     - DURABILITY:10
@@ -1992,6 +1992,179 @@ primordial_soul_crystal:
     - DURABILITY:10
   Lore:
     - '§o&cLegendary crafting material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+#THREAD WEAVING MATERIALS
+#THREAD WEAVING MATERIALS
+#THREAD WEAVING MATERIALS
+
+thread_essence:
+  Id: nether_brick
+  Display: '&7Thread Essence'
+  Group: thread_weaving
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&7Basic Thread Weaving material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+shadow_thread_essence:
+  Id: magma_cream
+  Display: '&5Shadow Thread Essence'
+  Group: thread_weaving
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare Thread Weaving material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+undead_thread_essence:
+  Id: magma_cream
+  Display: '&8Undead Thread Essence'
+  Group: thread_weaving
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare Thread Weaving material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+fire_thread_essence:
+  Id: magma_cream
+  Display: '&cFire Thread Essence'
+  Group: thread_weaving
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare Thread Weaving material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+water_thread_essence:
+  Id: magma_cream
+  Display: '&bWater Thread Essence'
+  Group: thread_weaving
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare Thread Weaving material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+wild_thread_essence:
+  Id: magma_cream
+  Display: '&aWild Thread Essence'
+  Group: thread_weaving
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare Thread Weaving material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+poison_thread_essence:
+  Id: magma_cream
+  Display: '&2Poison Thread Essence'
+  Group: thread_weaving
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&aRare Thread Weaving material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+legendary_shadow_thread_essence:
+  Id: rabbit_foot
+  Display: '&5&lLegendary Shadow Thread Essence'
+  Group: thread_weaving
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary Thread Weaving material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+legendary_undead_thread_essence:
+  Id: rabbit_foot
+  Display: '&8&lLegendary Undead Thread Essence'
+  Group: thread_weaving
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary Thread Weaving material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+legendary_fire_thread_essence:
+  Id: rabbit_foot
+  Display: '&c&lLegendary Fire Thread Essence'
+  Group: thread_weaving
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary Thread Weaving material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+legendary_water_thread_essence:
+  Id: rabbit_foot
+  Display: '&b&lLegendary Water Thread Essence'
+  Group: thread_weaving
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary Thread Weaving material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+legendary_wild_thread_essence:
+  Id: rabbit_foot
+  Display: '&a&lLegendary Wild Thread Essence'
+  Group: thread_weaving
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary Thread Weaving material'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+
+legendary_poison_thread_essence:
+  Id: rabbit_foot
+  Display: '&2&lLegendary Poison Thread Essence'
+  Group: thread_weaving
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - '§o&cLegendary Thread Weaving material'
   Options:
     HideFlags: true
     HideAttributes: true

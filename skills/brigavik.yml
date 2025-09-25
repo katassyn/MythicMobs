@@ -4,7 +4,7 @@ SummonLunkyDemons:
     - message{m="&4&l<caster.name>&r begins a ritual! &7(Demons in 1.5s)"} @PIR{r=28}
     - effect:particles{p=soul_fire_flame;amount=70;hS=1.2;vS=0.25;y=0.1} @self
     - effect:particles{p=smoke_large;amount=40;hS=1.4;vS=0.25} @self
-    - sound{s=entity.evoker.prepare_summon;v=1.2;p=0.7} @self
+    - sound{s=entity.evoker.prepare_summon;v=0.4;p=0.7} @self
     - delay 30
     - effect:particles{p=portal;amount=80;hS=2;vS=0.6} @self
     - summon{mob=LunkyFireDemon;amount=10;noise=5} @self
@@ -17,7 +17,7 @@ ShadowNorseman_Dash:
   Skills:
     - effect:particles{p=smoke_large;amount=24;hS=0.5;vS=0.5} @self
     - effect:particles{p=crit;amount=12;speed=0.05;y=1} @self
-    - sound{s=entity.enderman.teleport;v=1;p=1} @self
+    - sound{s=entity.enderman.teleport;v=0.3;p=1} @self
     - delay 12
     - leap{v=1.25;y=0.55} @target
     - effect:particles{p=sweep_attack;amount=12} @self

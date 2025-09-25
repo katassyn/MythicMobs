@@ -14,7 +14,7 @@ flamecult_servant_blood:
     PreventSunburn: true
     PreventJockeyMounts: true
     PreventTransformation: true
-    MovementSpeed: '0.3'
+    MovementSpeed: '0.35'
   Faction: q1_blood
   Group: q1_blood
   Equipment:
@@ -43,7 +43,7 @@ flamecult_archer_blood:
     PreventSunburn: true
     PreventJockeyMounts: true
     PreventTransformation: true
-    MovementSpeed: '0.25'
+    MovementSpeed: '0.35'
   Faction: q1_blood
   Group: q1_blood
   Equipment:
@@ -73,7 +73,7 @@ flamecult_worshipper_blood:
     PreventSunburn: true
     PreventJockeyMounts: true
     PreventTransformation: true
-    MovementSpeed: '0.2'
+    MovementSpeed: '0.35'
     Despawn: CHUNK
   Faction: q1_blood
   Group: q1_blood
@@ -106,7 +106,7 @@ perral_world_dragonknight_blood:
     PreventSunburn: true
     PreventJockeyMounts: true
     PreventTransformation: true
-    MovementSpeed: '0.35'
+    MovementSpeed: '0.4'
     KnockbackResistance: 0.85
     Despawn: CHUNK
   Faction: q1_blood
@@ -141,7 +141,7 @@ raazghul_the_corruptor_blood:
     PreventSunburn: true
     PreventJockeyMounts: true
     PreventTransformation: true
-    MovementSpeed: '0.2'
+    MovementSpeed: '0.4'
     KnockbackResistance: 0.85
     Despawn: CHUNK
   Faction: q1_blood
@@ -181,7 +181,7 @@ grimmag_blood:
     PreventSunburn: true
     PreventJockeyMounts: true
     PreventTransformation: true
-    MovementSpeed: '0.4'
+    MovementSpeed: '0.45'
     KnockbackResistance: 0.85
     Despawn: CHUNK
   Faction: q1_blood

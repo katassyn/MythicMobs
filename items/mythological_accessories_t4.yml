@@ -1,0 +1,518 @@
+# MYTHOLOGICAL T4 ITEMS
+
+# CHESTPLATE OF ARES (T4 Legendary)
+chestplate_of_ares_t4:
+  Id: diamond_chestplate
+  Display: '&5[ T4 ] &6Chestplate of Ares'
+  Group: mythological_t4
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+  Lore:
+    - ''
+    - '&7Protection: &980 🛡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=34;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# RING OF DIVINE POWER (T4 Legendary)
+ring_of_divine_power_t4:
+  Id: hopper_minecart
+  Display: '&5[ T4 ] &6Ring of Divine Power'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+40 ⚔'
+    - '&7Health: &c+40 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 40 ADD
+      Health: 40 ADD
+
+# TEAM RELIC OF HERMES (T4 Unique)
+team_relic_of_hermes_t4:
+  Id: raw_iron
+  Display: '&5[ T4 ] &eTeam Relic of Hermes'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Team Buff: &rDivine Shield (immune to 1st damage) every 60s §6🛡'
+    - '&7Range: &r15 &7blocks'
+    - '&lRarity:&r &e&lUnique'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+# HEART OF KRONOS (T4 Mythic)
+heart_of_kronos_t4:
+  Id: raw_copper
+  Display: '&5[ T4 ] &l&cHeart of Kronos'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &cMovement Speed x100 ⚔'
+    - '&lRarity:&r &c&lMythic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+# AEGIS SHIELD OF ZEUS (T4 SET)
+aegis_shield_of_zeus_t4:
+  Id: iron_door
+  Display: '&5[ T4 ] &l&bAegis Shield of Zeus'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Block Chance: &b35% 🎲'
+    - '&7Health: &c+50 ❤'
+    - '&7Set: &bAegis Protection'
+    - '&8[1] &7+10% Block Chance §b🎲&7, +50 Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 50 ADD
+
+# HELM OF MEDUSA (T4 Extraordinary)
+helm_of_medusa_t4:
+  Id: diamond_helmet
+  Display: '&5[ T4 ] &5Helm of Medusa'
+  Group: mythological_t4
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:50
+  Lore:
+    - ''
+    - '&7Protection: &950 🛡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# BELT OF PROMETHEUS (T4 Extraordinary)
+belt_of_prometheus_t4:
+  Id: minecart
+  Display: '&5[ T4 ] &5Belt of Prometheus'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+25 ⚔'
+    - '&7Health: &c+25 ❤'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 25 ADD
+      Health: 25 ADD
+
+# =============================================
+# BLESSED VERSIONS (+25% STATS)
+# =============================================
+
+# BLESSED CHESTPLATE OF ARES (T4 Legendary)
+blessed_chestplate_of_ares_t4:
+  Id: diamond_chestplate
+  Display: '&5[ T4 ] &6Blessed Chestplate of Ares'
+  Group: mythological_t4
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Lore:
+    - ''
+    - '&7Protection: &9100 🛡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=43;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# BLESSED RING OF DIVINE POWER (T4 Legendary)
+blessed_ring_of_divine_power_t4:
+  Id: hopper_minecart
+  Display: '&5[ T4 ] &6Blessed Ring of Divine Power'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+50 ⚔'
+    - '&7Health: &c+50 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 50 ADD
+      Health: 50 ADD
+
+# BLESSED AEGIS SHIELD OF ZEUS (T4 SET)
+blessed_aegis_shield_of_zeus_t4:
+  Id: iron_door
+  Display: '&5[ T4 ] &l&bBlessed Aegis Shield of Zeus'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Block Chance: &b35% 🎲'
+    - '&7Health: &c+63 ❤'
+    - '&7Set: &bAegis Protection'
+    - '&8[1] &7+10% Block Chance §b🎲&7, +50 Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 63 ADD
+
+# BLESSED HELM OF MEDUSA (T4 Extraordinary)
+blessed_helm_of_medusa_t4:
+  Id: diamond_helmet
+  Display: '&5[ T4 ] &5Blessed Helm of Medusa'
+  Group: mythological_t4
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:63
+  Lore:
+    - ''
+    - '&7Protection: &963 🛡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# BLESSED BELT OF PROMETHEUS (T4 Extraordinary)
+blessed_belt_of_prometheus_t4:
+  Id: minecart
+  Display: '&5[ T4 ] &5Blessed Belt of Prometheus'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+31 ⚔'
+    - '&7Health: &c+31 ❤'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 31 ADD
+      Health: 31 ADD
+
+# =============================================
+# DIVINE VERSIONS (+50% STATS)
+# =============================================
+
+# DIVINE CHESTPLATE OF ARES (T4 Legendary)
+divine_chestplate_of_ares_t4:
+  Id: diamond_chestplate
+  Display: '&5[ T4 ] &6Divine Chestplate of Ares'
+  Group: mythological_t4
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:120
+  Lore:
+    - ''
+    - '&7Protection: &9120 🛡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=51;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# DIVINE RING OF DIVINE POWER (T4 Legendary)
+divine_ring_of_divine_power_t4:
+  Id: hopper_minecart
+  Display: '&5[ T4 ] &6Divine Ring of Divine Power'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+60 ⚔'
+    - '&7Health: &c+60 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 60 ADD
+      Health: 60 ADD
+
+# DIVINE AEGIS SHIELD OF ZEUS (T4 SET)
+divine_aegis_shield_of_zeus_t4:
+  Id: iron_door
+  Display: '&5[ T4 ] &l&bDivine Aegis Shield of Zeus'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Block Chance: &b35% 🎲'
+    - '&7Health: &c+75 ❤'
+    - '&7Set: &bAegis Protection'
+    - '&8[1] &7+10% Block Chance §b🎲&7, +50 Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 75 ADD
+
+# DIVINE HELM OF MEDUSA (T4 Extraordinary)
+divine_helm_of_medusa_t4:
+  Id: diamond_helmet
+  Display: '&5[ T4 ] &5Divine Helm of Medusa'
+  Group: mythological_t4
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:75
+  Lore:
+    - ''
+    - '&7Protection: &975 🛡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# DIVINE BELT OF PROMETHEUS (T4 Extraordinary)
+divine_belt_of_prometheus_t4:
+  Id: minecart
+  Display: '&5[ T4 ] &5Divine Belt of Prometheus'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+38 ⚔'
+    - '&7Health: &c+38 ❤'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 38 ADD
+      Health: 38 ADD
+
+# =============================================
+# TRANSCENDENT VERSIONS (+75% STATS + NEW STATS)
+# =============================================
+
+# TRANSCENDENT CHESTPLATE OF ARES (T4 Legendary)
+transcendent_chestplate_of_ares_t4:
+  Id: diamond_chestplate
+  Display: '&5[ T4 ] &6Transcendent Chestplate of Ares'
+  Group: mythological_t4
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:140
+  Lore:
+    - ''
+    - '&7Protection: &9140 🛡'
+    - '&7Luck: &a+4 🍀'
+    - '&7Attack Speed: &e+0.2 ⚡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=60;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Attributes:
+    All:
+      Luck: 4 ADD
+      AttackSpeed: 0.2 ADD
+
+# TRANSCENDENT RING OF DIVINE POWER (T4 Legendary)
+transcendent_ring_of_divine_power_t4:
+  Id: hopper_minecart
+  Display: '&5[ T4 ] &6Transcendent Ring of Divine Power'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+70 ⚔'
+    - '&7Health: &c+70 ❤'
+    - '&7Luck: &a+4 🍀'
+    - '&7Attack Speed: &e+0.2 ⚡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 70 ADD
+      Health: 70 ADD
+      Luck: 4 ADD
+      AttackSpeed: 0.2 ADD
+
+# TRANSCENDENT AEGIS SHIELD OF ZEUS (T4 SET)
+transcendent_aegis_shield_of_zeus_t4:
+  Id: iron_door
+  Display: '&5[ T4 ] &l&bTranscendent Aegis Shield of Zeus'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Block Chance: &b35% 🎲'
+    - '&7Health: &c+88 ❤'
+    - '&7Set: &bAegis Protection'
+    - '&8[1] &7+10% Block Chance §b🎲&7, +50 Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 88 ADD
+
+# TRANSCENDENT HELM OF MEDUSA (T4 Extraordinary)
+transcendent_helm_of_medusa_t4:
+  Id: diamond_helmet
+  Display: '&5[ T4 ] &5Transcendent Helm of Medusa'
+  Group: mythological_t4
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:88
+  Lore:
+    - ''
+    - '&7Protection: &988 🛡'
+    - '&7Luck: &a+2 🍀'
+    - '&7Attack Speed: &e+0.2 ⚡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=INCREASE_DAMAGE;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Attributes:
+    All:
+      Luck: 2 ADD
+      AttackSpeed: 0.2 ADD
+
+# TRANSCENDENT BELT OF PROMETHEUS (T4 Extraordinary)
+transcendent_belt_of_prometheus_t4:
+  Id: minecart
+  Display: '&5[ T4 ] &5Transcendent Belt of Prometheus'
+  Group: mythological_t4
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+44 ⚔'
+    - '&7Health: &c+44 ❤'
+    - '&7Luck: &a+2 🍀'
+    - '&7Attack Speed: &e+0.2 ⚡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 44 ADD
+      Health: 44 ADD
+      Luck: 2 ADD
+      AttackSpeed: 0.2 ADD

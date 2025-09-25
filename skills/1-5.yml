@@ -2,7 +2,7 @@ UndeadWindup:
   Cooldown: 6
   Skills:
     - effect:particles{p=smoke_large;amount=8;hS=0.6;vS=0.1} @Self
-    - sound{s=entity.zombie.ambient;v=0.7;p=0.9} @Self
+    - sound{s=entity.zombie.ambient;v=0.2;p=0.9} @Self
     - delay 10
     - effect:particles{p=crit;amount=6;hS=0.4;vS=0.1} @Self
 
@@ -10,6 +10,6 @@ GraveDirtThrow:
   Cooldown: 10
   Skills:
     - effect:particles{p=block;material=DIRT;amount=25;hS=0.8;vS=0.2} @Self
-    - sound{s=block.gravel.break;v=1;p=1} @Self
+    - sound{s=block.gravel.break;v=0.3;p=1} @Self
     - delay 12
     - potion{t=BLINDNESS;d=40;level=1} @PlayersInRadius{r=5}

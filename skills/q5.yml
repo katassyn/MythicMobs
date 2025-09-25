@@ -6,7 +6,7 @@
 FireballAttack_inf:
   Cooldown: 8
   Skills:
-    - sound{s=entity.blaze.shoot;v=1.2;p=1.0} @self
+    - sound{s=entity.blaze.shoot;v=0.4;p=1.0} @self
     - projectile{onTick=Fireball-Tick-Inf;onHit=Fireball-Hit-Inf;v=9;i=FIRE_CHARGE;hR=1;vR=1} @target
 
 Fireball-Tick-Inf:
@@ -94,7 +94,7 @@ DeathBeam_inf:
     - message{m="&5Khalys channels deadly energy — LOS!"} @PlayersInRadius{r=30}
     - effect:particles{p=end_rod;amount=100;radius=8} @self
     - delay 18
-    - damage{a=<target.hp>*0.15} @PlayersInRadius{r=8}
+    - damage{a=<trigger.hp>*0.15} @PlayersInRadius{r=8}
     - potion{type=WEAKNESS;duration=60;level=1} @PlayersInRadius{r=8}
 
 # =========================
@@ -185,7 +185,7 @@ DeathBeam_hell:
   Skills:
     - effect:particles{p=end_rod;amount=120;radius=8} @self
     - delay 16
-    - damage{a=<target.hp>*0.20} @PlayersInRadius{r=8}
+    - damage{a=<trigger.hp>*0.20} @PlayersInRadius{r=8}
     - potion{type=WEAKNESS;duration=80;level=2} @PlayersInRadius{r=8}
 
 # =========================
@@ -278,6 +278,6 @@ DeathBeam_blood:
     - message{m="&4Khalys unleashes pure void!"} @PlayersInRadius{r=34}
     - effect:particles{p=end_rod;amount=140;radius=8} @self
     - delay 14
-    - damage{a=<target.hp>*0.25} @PlayersInRadius{r=8}
+    - damage{a=<trigger.hp>*0.25} @PlayersInRadius{r=8}
     - potion{type=WEAKNESS;duration=120;level=3} @PlayersInRadius{r=8}
 

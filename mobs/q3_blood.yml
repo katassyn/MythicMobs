@@ -7,7 +7,7 @@ cursed_farmer_blood:
   Group: q3_blood
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -39,7 +39,7 @@ cursed_troll_blood:
   Group: q3_blood
   Options:
     FollowRange: 20
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -72,7 +72,7 @@ cursed_archer_blood:
   Group: q3_blood
   Options:
     FollowRange: 20
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -88,7 +88,7 @@ cursed_archer_blood:
     - cursed_archer_blood_drop
     - q_blood_mob_crafting
   Equipment:
-    - bow_100dmg HAND
+    - bow_120dmg HAND
     - leather_helmet{color=brown} HEAD
     - leather_chestplate{color=brown} CHEST
     - leather_leggings{color=brown} LEGS
@@ -103,7 +103,7 @@ parallel_world_evil_miller_blood:
   Group: q3_blood
   Options:
     FollowRange: 25
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -139,7 +139,7 @@ slain_assassin_blood:
   Group: q3_blood
   Options:
     FollowRange: 20
-    MovementSpeed: 0.4
+    MovementSpeed: 0.55
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -170,7 +170,7 @@ slain_warrior_blood:
   Group: q3_blood
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -201,7 +201,7 @@ slain_archer_blood:
   Group: q3_blood
   Options:
     FollowRange: 20
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -217,7 +217,7 @@ slain_archer_blood:
     - slain_archer_blood_drop
     - q_blood_mob_crafting
   Equipment:
-    - bow_100dmg HAND
+    - bow_120dmg HAND
     - leather_helmet{color=gray} HEAD
     - leather_chestplate{color=gray} CHEST
     - leather_leggings{color=gray} LEGS
@@ -232,7 +232,7 @@ the_bloody_arrow_blood:
   Group: q3_blood
   Options:
     FollowRange: 25
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -251,7 +251,7 @@ the_bloody_arrow_blood:
     - the_bloody_arrow_blood_drop
     - q_blood_elite_crafting
   Equipment:
-    - bow_100dmg HAND
+    - bow_120dmg HAND
     - wither_skeleton_skull HEAD
     - leather_chestplate{color=red} CHEST
     - leather_leggings{color=red} LEGS
@@ -271,7 +271,7 @@ undead_parallel_world_king_heredur_blood:
     Style: SEGMENTED_12
   Options:
     FollowRange: 30
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true

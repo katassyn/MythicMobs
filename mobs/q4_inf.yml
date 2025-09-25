@@ -8,7 +8,7 @@ sanguine_clan_raging_guardian_inf:
   Group: q4_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -40,7 +40,7 @@ raging_hunting_hound_inf:
   Group: q4_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -99,7 +99,7 @@ sanguine_clan_raging_hunter_inf:
   Group: q4_inf
   Options:
     FollowRange: 25
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -111,7 +111,7 @@ sanguine_clan_raging_hunter_inf:
     - leather_chestplate{color=dark_red} CHEST
     - leather_leggings{color=dark_red} LEGS
     - leather_boots{color=dark_red} FEET
-    - bow_100dmg HAND
+    - bow_150dmg HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -129,7 +129,7 @@ parallel_world_ancient_stag_inf:
   Group: q4_inf
   Options:
     FollowRange: 30
-    MovementSpeed: 0.35
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -143,7 +143,7 @@ parallel_world_ancient_stag_inf:
     - leather_chestplate{color=brown} CHEST
     - leather_leggings{color=brown} LEGS
     - leather_boots{color=brown} FEET
-    - bow_100dmg HAND
+    - bow_150dmg HAND
   Skills:
     - setname{name="<caster.name>";delay=2} @self ~onDamaged
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
@@ -163,7 +163,7 @@ eternal_satyr_warrior_inf:
   Group: q4_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.35
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -214,7 +214,7 @@ eternal_hunter_inf:
   Group: q4_inf
   Options:
     FollowRange: 25
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -228,7 +228,7 @@ eternal_hunter_inf:
     - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
     - skill{s=SummonEternalHounds_inf} ~onTimer:30
   Equipment:
-    - bow_100dmg HAND
+    - bow_150dmg HAND
   Drops:
     - sanguine_hunter_inf_drop
     - q_inf_elite_crafting
@@ -243,7 +243,7 @@ eternal_hunting_hound_inf:
   Group: q4_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -269,7 +269,7 @@ ulgar_the_master_butcher_phase1_inf:
   Group: q4_inf
   Options:
     FollowRange: 25
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -296,7 +296,7 @@ ulgar_the_master_butcher_phase2_inf:
   Group: q4_inf
   Options:
     FollowRange: 25
-    MovementSpeed: 0.35
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -323,7 +323,7 @@ ulgar_the_master_butcher_phase3_inf:
   Group: q4_inf
   Options:
     FollowRange: 25
-    MovementSpeed: 0.4
+    MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -356,7 +356,7 @@ bearach_champion_of_wilds_inf:
     Style: SEGMENTED_12
   Options:
     FollowRange: 30
-    MovementSpeed: 0.3
+    MovementSpeed: 0.25
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -387,7 +387,7 @@ lightning_wolf_inf:
   Faction: q4_inf
   Group: q4_inf
   Options:
-    MovementSpeed: 0
+    MovementSpeed: 0.15
     ShowHealth: true
     PreventOtherDrops: true
     Despawn: REMOVE

@@ -8,7 +8,7 @@ bone_warder_inf:
   Group: q7_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -37,7 +37,7 @@ b1000_combat_mechanoid_inf:
   Group: q7_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.15
+    MovementSpeed: 0.3
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -66,7 +66,7 @@ thundering_cyclops_inf:
   Group: q7_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
@@ -90,7 +90,7 @@ dark_sentinel_inf:
   Group: q7_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -120,7 +120,7 @@ iron_creeper_gate_guard_inf:
   Group: q7_inf
   Options:
     FollowRange: 25
-    MovementSpeed: 0.15
+    MovementSpeed: 0.3
     PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
@@ -152,7 +152,7 @@ wild_razorclaw_inf:
   Group: q7_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.4
+    MovementSpeed: 0.55
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -177,7 +177,7 @@ flamescale_defender_inf:
   Group: q7_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -206,7 +206,7 @@ fireclaw_mercenary_inf:
   Group: q7_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -236,7 +236,7 @@ angry_flamespawn_inf:
   Group: q7_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -259,7 +259,7 @@ commander_embersword_inf:
   Group: q7_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -298,7 +298,7 @@ herald_of_anderworld_inf:
     Style: SEGMENTED_12
   Options:
     FollowRange: 30
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true

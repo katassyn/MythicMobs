@@ -8,7 +8,7 @@ bone_warder_hell:
   Group: q7_hell
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -37,7 +37,7 @@ b1000_combat_mechanoid_hell:
   Group: q7_hell
   Options:
     FollowRange: 15
-    MovementSpeed: 0.15
+    MovementSpeed: 0.3
     PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
@@ -66,7 +66,7 @@ thundering_cyclops_hell:
   Group: q7_hell
   Options:
     FollowRange: 20
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -90,7 +90,7 @@ dark_sentinel_hell:
   Group: q7_hell
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -120,7 +120,7 @@ iron_creeper_gate_guard_hell:
   Group: q7_hell
   Options:
     FollowRange: 25
-    MovementSpeed: 0.15
+    MovementSpeed: 0.3
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -152,7 +152,7 @@ wild_razorclaw_hell:
   Group: q7_hell
   Options:
     FollowRange: 20
-    MovementSpeed: 0.4
+    MovementSpeed: 0.55
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -177,7 +177,7 @@ flamescale_defender_hell:
   Group: q7_hell
   Options:
     FollowRange: 15
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -206,7 +206,7 @@ fireclaw_mercenary_hell:
   Group: q7_hell
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -236,7 +236,7 @@ angry_flamespawn_hell:
   Group: q7_hell
   Options:
     FollowRange: 15
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -259,7 +259,7 @@ commander_embersword_hell:
   Group: q7_hell
   Options:
     FollowRange: 20
-    MovementSpeed: 0.2
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -298,7 +298,7 @@ herald_of_anderworld_hell:
     Style: SEGMENTED_12
   Options:
     FollowRange: 30
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true

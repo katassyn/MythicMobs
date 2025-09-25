@@ -9,7 +9,7 @@ SatyrRoar:
   Cooldown: 9
   Skills:
     - effect:particles{p=angry_villager;amount=20;hS=1;vS=1} @Self
-    - sound{s=entity.evoker.prepare_attack;v=1;p=0.8} @Self
+    - sound{s=entity.evoker.prepare_attack;v=0.3;p=0.8} @Self
     - delay 12
     - damage{d=10} @LivingEntitiesInRadius{r=5}
     - potion{t=SLOW;d=200;level=2} @LivingEntitiesInRadius{r=5}
@@ -19,7 +19,7 @@ SatyrLeap:
   Cooldown: 10
   Skills:
     - effect:particles{p=cloud;amount=15;hS=0.5;vS=0.5} @Self
-    - sound{s=entity.horse.jump;v=1;p=1} @Self
+    - sound{s=entity.horse.jump;v=0.3;p=1} @Self
     - delay 10
     - leap{v=1.5} @Self
     - delay 6
@@ -30,7 +30,7 @@ SatyrSmash:
   Cooldown: 10
   Skills:
     - effect:particles{p=block;material=STONE;amount=24;hS=1;vS=0.5} @Self
-    - sound{s=entity.zombie.attack_iron_door;v=1;p=1} @Self
+    - sound{s=entity.zombie.attack_iron_door;v=0.3;p=1} @Self
     - delay 12
     - damage{d=20}
     - velocity{x=0;y=2;z=0} @Target

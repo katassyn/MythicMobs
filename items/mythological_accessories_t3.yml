@@ -1,0 +1,815 @@
+# MYTHOLOGICAL T3 ITEMS
+
+# LEGGINGS OF HERMES (T3 Legendary)
+leggings_of_hermes_t3:
+  Id: diamond_leggings
+  Display: '&e[ T3 ] &6Leggings of Hermes'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:65
+  Lore:
+    - ''
+    - '&7Protection: &965 🛡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# BELT OF TITANS (T3 Legendary)
+belt_of_titans_t3:
+  Id: minecart
+  Display: '&e[ T3 ] &6Belt of Titans'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+1 🛡'
+    - '&7Health: &c+20 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 1 ADD
+      Health: 20 ADD
+
+# TEAM RELIC OF APOLLO (T3 Unique)
+team_relic_of_apollo_t3:
+  Id: raw_iron
+  Display: '&e[ T3 ] &eTeam Relic of Apollo'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Team Buff: &rHP Regen 100HP/s §c❤'
+    - '&7Range: &r10 &7blocks'
+    - '&lRarity:&r &e&lUnique'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+# HEART OF HADES (T3 Mythic)
+heart_of_hades_t3:
+  Id: raw_copper
+  Display: '&e[ T3 ] &l&cHeart of Hades'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor: &e+30 🛡'
+    - '&7Absorption: &6+200 every 10s 🛡'
+    - '&lRarity:&r &c&lMythic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+# DIVINE CHESTPLATE OF OLYMPUS (T3 SET)
+divine_chestplate_of_olympus_t3:
+  Id: diamond_chestplate
+  Display: '&e[ T3 ] &l&bDivine Chestplate of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+  Lore:
+    - ''
+    - '&7Protection: &980 🛡'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=34;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# DIVINE GLOVES OF OLYMPUS (T3 SET)
+divine_gloves_of_olympus_t3:
+  Id: leather_horse_armor
+  Display: '&e[ T3 ] &l&bDivine Gloves of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Attack Speed: &e+1 ⚡'
+    - '&7Armor: &e+5 🛡'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      AttackSpeed: 1 ADD
+      Armor: 5 ADD
+
+# DIVINE LEGGINGS OF OLYMPUS (T3 SET)
+divine_leggings_of_olympus_t3:
+  Id: diamond_leggings
+  Display: '&e[ T3 ] &l&bDivine Leggings of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:80
+  Lore:
+    - ''
+    - '&7Protection: &980 🛡'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# DIVINE NECKLACE OF OLYMPUS (T3 SET)
+divine_necklace_of_olympus_t3:
+  Id: chest_minecart
+  Display: '&e[ T3 ] &l&bDivine Necklace of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+5% ⚔'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 0.05 ADD_SCALAR
+
+# BOOTS OF IRIS (T3 Extraordinary)
+boots_of_iris_t3:
+  Id: diamond_boots
+  Display: '&e[ T3 ] &5Boots of Iris'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:35
+  Lore:
+    - ''
+    - '&7Protection: &935 🛡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# NECKLACE OF HECATE (T3 Extraordinary)
+necklace_of_hecate_t3:
+  Id: chest_minecart
+  Display: '&e[ T3 ] &5Necklace of Hecate'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+0.3 🛡'
+    - '&7Health: &c+15 ❤'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 0.3 ADD
+      Health: 15 ADD
+
+# =============================================
+# BLESSED VERSIONS (+25% STATS)
+# =============================================
+
+# BLESSED LEGGINGS OF HERMES (T3 Legendary)
+blessed_leggings_of_hermes_t3:
+  Id: diamond_leggings
+  Display: '&e[ T3 ] &6Blessed Leggings of Hermes'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:81
+  Lore:
+    - ''
+    - '&7Protection: &981 🛡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=4;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# BLESSED BELT OF TITANS (T3 Legendary)
+blessed_belt_of_titans_t3:
+  Id: minecart
+  Display: '&e[ T3 ] &6Blessed Belt of Titans'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+1.25 🛡'
+    - '&7Health: &c+25 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 1.25 ADD
+      Health: 25 ADD
+
+# BLESSED DIVINE CHESTPLATE OF OLYMPUS (T3 SET)
+blessed_divine_chestplate_of_olympus_t3:
+  Id: diamond_chestplate
+  Display: '&e[ T3 ] &l&bBlessed Divine Chestplate of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Lore:
+    - ''
+    - '&7Protection: &9100 🛡'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=43;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# BLESSED DIVINE GLOVES OF OLYMPUS (T3 SET)
+blessed_divine_gloves_of_olympus_t3:
+  Id: leather_horse_armor
+  Display: '&e[ T3 ] &l&bBlessed Divine Gloves of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Attack Speed: &e+1.25 ⚡'
+    - '&7Armor: &e+6.25 🛡'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      AttackSpeed: 1.25 ADD
+      Armor: 6.25 ADD
+
+# BLESSED DIVINE LEGGINGS OF OLYMPUS (T3 SET)
+blessed_divine_leggings_of_olympus_t3:
+  Id: diamond_leggings
+  Display: '&e[ T3 ] &l&bBlessed Divine Leggings of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:100
+  Lore:
+    - ''
+    - '&7Protection: &9100 🛡'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=4;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# BLESSED DIVINE NECKLACE OF OLYMPUS (T3 SET)
+blessed_divine_necklace_of_olympus_t3:
+  Id: chest_minecart
+  Display: '&e[ T3 ] &l&bBlessed Divine Necklace of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+6.25% ⚔'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 0.0625 ADD_SCALAR
+
+# BLESSED BOOTS OF IRIS (T3 Extraordinary)
+blessed_boots_of_iris_t3:
+  Id: diamond_boots
+  Display: '&e[ T3 ] &5Blessed Boots of Iris'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:44
+  Lore:
+    - ''
+    - '&7Protection: &944 🛡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# BLESSED NECKLACE OF HECATE (T3 Extraordinary)
+blessed_necklace_of_hecate_t3:
+  Id: chest_minecart
+  Display: '&e[ T3 ] &5Blessed Necklace of Hecate'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+0.375 🛡'
+    - '&7Health: &c+19 ❤'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 0.375 ADD
+      Health: 19 ADD
+
+# =============================================
+# DIVINE VERSIONS (+50% STATS)
+# =============================================
+
+# DIVINE LEGGINGS OF HERMES (T3 Legendary)
+divine_leggings_of_hermes_t3:
+  Id: diamond_leggings
+  Display: '&e[ T3 ] &6Divine Leggings of Hermes'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:98
+  Lore:
+    - ''
+    - '&7Protection: &998 🛡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=4;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# DIVINE BELT OF TITANS (T3 Legendary)
+divine_belt_of_titans_t3:
+  Id: minecart
+  Display: '&e[ T3 ] &6Divine Belt of Titans'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+1.5 🛡'
+    - '&7Health: &c+30 ❤'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 1.5 ADD
+      Health: 30 ADD
+
+# DIVINE DIVINE CHESTPLATE OF OLYMPUS (T3 SET)
+divine_divine_chestplate_of_olympus_t3:
+  Id: diamond_chestplate
+  Display: '&e[ T3 ] &l&bDivine Divine Chestplate of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:120
+  Lore:
+    - ''
+    - '&7Protection: &9120 🛡'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=51;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# DIVINE DIVINE GLOVES OF OLYMPUS (T3 SET)
+divine_divine_gloves_of_olympus_t3:
+  Id: leather_horse_armor
+  Display: '&e[ T3 ] &l&bDivine Divine Gloves of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Attack Speed: &e+1.5 ⚡'
+    - '&7Armor: &e+7.5 🛡'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      AttackSpeed: 1.5 ADD
+      Armor: 7.5 ADD
+
+# DIVINE DIVINE LEGGINGS OF OLYMPUS (T3 SET)
+divine_divine_leggings_of_olympus_t3:
+  Id: diamond_leggings
+  Display: '&e[ T3 ] &l&bDivine Divine Leggings of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:120
+  Lore:
+    - ''
+    - '&7Protection: &9120 🛡'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=4;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# DIVINE DIVINE NECKLACE OF OLYMPUS (T3 SET)
+divine_divine_necklace_of_olympus_t3:
+  Id: chest_minecart
+  Display: '&e[ T3 ] &l&bDivine Divine Necklace of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+7.5% ⚔'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 0.075 ADD_SCALAR
+
+# DIVINE BOOTS OF IRIS (T3 Extraordinary)
+divine_boots_of_iris_t3:
+  Id: diamond_boots
+  Display: '&e[ T3 ] &5Divine Boots of Iris'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:53
+  Lore:
+    - ''
+    - '&7Protection: &953 🛡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=1;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# DIVINE NECKLACE OF HECATE (T3 Extraordinary)
+divine_necklace_of_hecate_t3:
+  Id: chest_minecart
+  Display: '&e[ T3 ] &5Divine Necklace of Hecate'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+0.45 🛡'
+    - '&7Health: &c+23 ❤'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 0.45 ADD
+      Health: 23 ADD
+
+# =============================================
+# TRANSCENDENT VERSIONS (+75% STATS + NEW STATS)
+# =============================================
+
+# TRANSCENDENT LEGGINGS OF HERMES (T3 Legendary)
+transcendent_leggings_of_hermes_t3:
+  Id: diamond_leggings
+  Display: '&e[ T3 ] &6Transcendent Leggings of Hermes'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:114
+  Lore:
+    - ''
+    - '&7Protection: &9114 🛡'
+    - '&7Luck: &a+3 🍀'
+    - '&7Attack Speed: &e+0.2 ⚡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=5;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Attributes:
+    All:
+      Luck: 3 ADD
+      AttackSpeed: 0.2 ADD
+
+# TRANSCENDENT BELT OF TITANS (T3 Legendary)
+transcendent_belt_of_titans_t3:
+  Id: minecart
+  Display: '&e[ T3 ] &6Transcendent Belt of Titans'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+1.75 🛡'
+    - '&7Health: &c+35 ❤'
+    - '&7Luck: &a+3 🍀'
+    - '&7Attack Speed: &e+0.2 ⚡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 1.75 ADD
+      Health: 35 ADD
+      Luck: 3 ADD
+      AttackSpeed: 0.2 ADD
+
+# TRANSCENDENT DIVINE CHESTPLATE OF OLYMPUS (T3 SET)
+transcendent_divine_chestplate_of_olympus_t3:
+  Id: diamond_chestplate
+  Display: '&e[ T3 ] &l&bTranscendent Divine Chestplate of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:140
+  Lore:
+    - ''
+    - '&7Protection: &9140 🛡'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=60;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# TRANSCENDENT DIVINE GLOVES OF OLYMPUS (T3 SET)
+transcendent_divine_gloves_of_olympus_t3:
+  Id: leather_horse_armor
+  Display: '&e[ T3 ] &l&bTranscendent Divine Gloves of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Attack Speed: &e+1.75 ⚡'
+    - '&7Armor: &e+8.75 🛡'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      AttackSpeed: 1.75 ADD
+      Armor: 8.75 ADD
+
+# TRANSCENDENT DIVINE LEGGINGS OF OLYMPUS (T3 SET)
+transcendent_divine_leggings_of_olympus_t3:
+  Id: diamond_leggings
+  Display: '&e[ T3 ] &l&bTranscendent Divine Leggings of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:140
+  Lore:
+    - ''
+    - '&7Protection: &9140 🛡'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=REGENERATION;d=-1;level=5;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=REGENERATION;d=1;level=0;p=false;force=true} @self ~onUnequip
+
+# TRANSCENDENT DIVINE NECKLACE OF OLYMPUS (T3 SET)
+transcendent_divine_necklace_of_olympus_t3:
+  Id: chest_minecart
+  Display: '&e[ T3 ] &l&bTranscendent Divine Necklace of Olympus'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+8.75% ⚔'
+    - '&7Set: &bDivine Olympus'
+    - '&8[2] &7+3% Health §c❤'
+    - '&8[4] &7+100 Damage §c⚔&7, +1% Damage §c⚔'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 0.0875 ADD_SCALAR
+
+# TRANSCENDENT BOOTS OF IRIS (T3 Extraordinary)
+transcendent_boots_of_iris_t3:
+  Id: diamond_boots
+  Display: '&e[ T3 ] &5Transcendent Boots of Iris'
+  Group: mythological_t3
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:61
+  Lore:
+    - ''
+    - '&7Protection: &961 🛡'
+    - '&7Luck: &a+2 🍀'
+    - '&7Attack Speed: &e+0.1 ⚡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Skills:
+    - potion{t=SPEED;d=-1;level=2;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Attributes:
+    All:
+      Luck: 2 ADD
+      AttackSpeed: 0.1 ADD
+
+# TRANSCENDENT NECKLACE OF HECATE (T3 Extraordinary)
+transcendent_necklace_of_hecate_t3:
+  Id: chest_minecart
+  Display: '&e[ T3 ] &5Transcendent Necklace of Hecate'
+  Group: mythological_t3
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+0.525 🛡'
+    - '&7Health: &c+26 ❤'
+    - '&7Luck: &a+2 🍀'
+    - '&7Attack Speed: &e+0.1 ⚡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 0.525 ADD
+      Health: 26 ADD
+      Luck: 2 ADD
+      AttackSpeed: 0.1 ADD

@@ -8,7 +8,7 @@ agile_satyr_warrior_inf:
   Group: q9_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.35  # Faster than average
+    MovementSpeed: 0.5  # Faster than average
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -38,7 +38,7 @@ perfidious_satyr_archer_inf:
   Group: q9_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
@@ -46,7 +46,7 @@ perfidious_satyr_archer_inf:
     PreventOtherDrops: true
     PreventRandomEquipment: true
   Equipment:
-    - bow HAND
+    - bow_200dmg HAND
     - leather_helmet{color=brown} HEAD
     - leather_chestplate{color=brown} CHEST
     - leather_leggings{color=brown} LEGS
@@ -69,7 +69,7 @@ cohort_swordsman_inf:
   Options:
     PreventSunburn: true
     FollowRange: 15
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -98,7 +98,7 @@ stone_golem_inf:
   Group: q9_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.15  # Very slow
+    MovementSpeed: 0.3  # Very slow
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -130,7 +130,7 @@ asterion_inf:
   Group: q9_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -164,7 +164,7 @@ jabbax_inf:
   Group: q9_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -192,7 +192,7 @@ zorlobb_warrior_inf:
   Group: q9_inf
   Options:
     FollowRange: 15
-    MovementSpeed: 0.2  # Slow
+    MovementSpeed: 0.35  # Slow
     PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
@@ -222,7 +222,7 @@ gorgon_acolyte_inf:
   Group: q9_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true
@@ -254,7 +254,7 @@ minotaur_inf:
   Group: q9_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.3
+    MovementSpeed: 0.45
     ShowHealth: true
     PreventSunburn: true
     AlwaysShowName: true
@@ -285,7 +285,7 @@ ebicarus_inf:
   Group: q9_inf
   Options:
     FollowRange: 20
-    MovementSpeed: 0.2  # Slow
+    MovementSpeed: 0.35  # Slow
     ShowHealth: true
     AlwaysShowName: true
     PreventSunburn: true
@@ -323,7 +323,7 @@ medusa_inf:
     Style: SEGMENTED_12
   Options:
     FollowRange: 30
-    MovementSpeed: 0.25
+    MovementSpeed: 0.4
     PreventSunburn: true
     ShowHealth: true
     AlwaysShowName: true
@@ -333,7 +333,7 @@ medusa_inf:
     KnockbackResistance: 0.8
     Despawn: CHUNK
   Equipment:
-    - bow HAND
+    - bow_200dmg HAND
     - leather_helmet{color=green} HEAD
     - leather_chestplate{color=green} CHEST
     - leather_leggings{color=green} LEGS
@@ -356,7 +356,7 @@ snake_minion_inf:
   Faction: q9_inf
   Group: q9_inf
   Options:
-    MovementSpeed: 0.4
+    MovementSpeed: 0.55
     ShowHealth: true
     PreventSunburn: true
     PreventOtherDrops: true

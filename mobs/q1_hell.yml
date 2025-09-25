@@ -14,7 +14,7 @@ flamecult_servant_hell:
     PreventSunburn: true
     PreventJockeyMounts: true
     PreventTransformation: true
-    MovementSpeed: '0.3'
+    MovementSpeed: '0.4'
   Faction: q1_hell
   Group: q1_hell
   Equipment:
@@ -43,7 +43,7 @@ flamecult_archer_hell:
     PreventSunburn: true
     PreventJockeyMounts: true
     PreventTransformation: true
-    MovementSpeed: '0.25'
+    MovementSpeed: '0.35'
   Faction: q1_hell
   Group: q1_hell
   Equipment:
@@ -73,7 +73,7 @@ flamecult_worshipper_hell:
     PreventSunburn: true
     PreventJockeyMounts: true
     PreventTransformation: true
-    MovementSpeed: '0.2'
+    MovementSpeed: '0.35'
     Despawn: CHUNK
   Faction: q1_hell
   Group: q1_hell
@@ -141,7 +141,7 @@ raazghul_the_corruptor_hell:
     PreventSunburn: true
     PreventJockeyMounts: true
     PreventTransformation: true
-    MovementSpeed: '0.2'
+    MovementSpeed: '0.35'
     KnockbackResistance: 0.85
     Despawn: CHUNK
   Faction: q1_hell

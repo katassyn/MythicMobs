@@ -30,8 +30,8 @@ cursed_miner_mine:
 deepmine_overseer_kragg:
   Type: WITHER_SKELETON
   Display: '&4<&skull> &lOverseer Kragg &r&4<&skull>'
-  Health: 9000
-  Damage: 400
+  Health: 20000
+  Damage: 500
   BossBar:
     Enabled: true
     Title: '&c<&skull> Overseer Kragg - <mob.hp{round=0}> <&skull>'
@@ -39,7 +39,7 @@ deepmine_overseer_kragg:
     Style: SEGMENTED_12
   Options:
     FollowRange: 30
-    MovementSpeed: 0.25
+    MovementSpeed: 0.35
     ShowHealth: true
     AlwaysShowName: true
     PreventItemPickup: true

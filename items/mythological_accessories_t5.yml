@@ -1,0 +1,1075 @@
+# MYTHOLOGICAL T5 ITEMS
+
+# CLOAK OF HERACLES (T5 Legendary)
+cloak_of_heracles_t5:
+  Id: white_banner
+  Display: '&c[ T5 ] &6Cloak of Heracles'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+30 ⚔'
+    - '&7Health: &c+30 ❤'
+    - '&7Speed: &b+0.3 👟'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 30 ADD
+      Health: 30 ADD
+      MovementSpeed: 0.3 ADD
+
+# GOLDEN SWORD OF APOLLO (T5 Legendary)
+golden_sword_of_apollo_t5:
+  Id: golden_sword
+  Display: '&c[ T5 ] &6Golden Sword of Apollo'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+777 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 777 ADD
+
+# TEAM RELIC OF ZEUS (T5 Unique)
+team_relic_of_zeus_t5:
+  Id: raw_iron
+  Display: '&c[ T5 ] &eTeam Relic of Zeus'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Team Buff: &r+20 Luck §a🍀'
+    - '&7Range: &r20 &7blocks'
+    - '&lRarity:&r &e&lUnique'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+# HEART OF OLYMPUS (T5 Mythic)
+heart_of_olympus_t5:
+  Id: raw_copper
+  Display: '&c[ T5 ] &l&cHeart of Olympus'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Deflect: &630% damage 🛡'
+    - '&lRarity:&r &c&lMythic'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+
+# TITAN RING OF DESTRUCTION (T5 SET)
+titan_ring_of_destruction_t5:
+  Id: tnt_minecart
+  Display: '&c[ T5 ] &l&bTitan Ring of Destruction'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+400 ⚔'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 400 ADD
+
+# TITAN RING OF VITALITY (T5 SET)
+titan_ring_of_vitality_t5:
+  Id: hopper_minecart
+  Display: '&c[ T5 ] &l&bTitan Ring of Vitality'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+75 ❤'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 75 ADD
+
+# TITAN NECKLACE OF SUPREMACY (T5 SET)
+titan_necklace_of_supremacy_t5:
+  Id: chest_minecart
+  Display: '&c[ T5 ] &l&bTitan Necklace of Supremacy'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+200 ⚔'
+    - '&7Health: &c+50 ❤'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 200 ADD
+      Health: 50 ADD
+
+# TITAN BELT OF MIGHT (T5 SET)
+titan_belt_of_might_t5:
+  Id: minecart
+  Display: '&c[ T5 ] &l&bTitan Belt of Might'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+2 🛡'
+    - '&7Health: &c+33 ❤'
+    - '&7Damage: &c+33 ⚔'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 2 ADD
+      Health: 33 ADD
+      Damage: 33 ADD
+
+# TITAN GLOVES OF FORTRESS (T5 SET)
+titan_gloves_of_fortress_t5:
+  Id: leather_horse_armor
+  Display: '&c[ T5 ] &l&bTitan Gloves of Fortress'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor: &e+8 🛡'
+    - '&7Health: &c+70 ❤'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Armor: 8 ADD
+      Health: 70 ADD
+
+# TITAN WEAPON ADORNMENT (T5 SET)
+titan_weapon_adornment_t5:
+  Id: furnace_minecart
+  Display: '&c[ T5 ] &l&bTitan Weapon Adornment'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+300 ⚔'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 300 ADD
+
+# NECKLACE OF ORION (T5 Extraordinary)
+necklace_of_orion_t5:
+  Id: chest_minecart
+  Display: '&c[ T5 ] &5Necklace of Orion'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+20 ⚔'
+    - '&7Health: &c+20 ❤'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 20 ADD
+      Health: 20 ADD
+
+# GLOVES OF ATLAS (T5 Extraordinary)
+gloves_of_atlas_t5:
+  Id: leather_horse_armor
+  Display: '&c[ T5 ] &5Gloves of Atlas'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+0.5 🛡'
+    - '&7Health: &c+25 ❤'
+    - '&7Armor: &e+3 🛡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 0.5 ADD
+      Health: 25 ADD
+      Armor: 3 ADD
+
+# =============================================
+# BLESSED VERSIONS (+25% STATS)
+# =============================================
+
+# BLESSED CLOAK OF HERACLES (T5 Legendary)
+blessed_cloak_of_heracles_t5:
+  Id: white_banner
+  Display: '&c[ T5 ] &6Blessed Cloak of Heracles'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+38 ⚔'
+    - '&7Health: &c+38 ❤'
+    - '&7Speed: &b+0.375 👟'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 38 ADD
+      Health: 38 ADD
+      MovementSpeed: 0.375 ADD
+
+# BLESSED GOLDEN SWORD OF APOLLO (T5 Legendary)
+blessed_golden_sword_of_apollo_t5:
+  Id: golden_sword
+  Display: '&c[ T5 ] &6Blessed Golden Sword of Apollo'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+971 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 971 ADD
+
+# BLESSED TITAN RING OF DESTRUCTION (T5 SET)
+blessed_titan_ring_of_destruction_t5:
+  Id: tnt_minecart
+  Display: '&c[ T5 ] &l&bBlessed Titan Ring of Destruction'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+500 ⚔'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 500 ADD
+
+# BLESSED TITAN RING OF VITALITY (T5 SET)
+blessed_titan_ring_of_vitality_t5:
+  Id: hopper_minecart
+  Display: '&c[ T5 ] &l&bBlessed Titan Ring of Vitality'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+94 ❤'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 94 ADD
+
+# BLESSED TITAN NECKLACE OF SUPREMACY (T5 SET)
+blessed_titan_necklace_of_supremacy_t5:
+  Id: chest_minecart
+  Display: '&c[ T5 ] &l&bBlessed Titan Necklace of Supremacy'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+250 ⚔'
+    - '&7Health: &c+63 ❤'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 250 ADD
+      Health: 63 ADD
+
+# BLESSED TITAN BELT OF MIGHT (T5 SET)
+blessed_titan_belt_of_might_t5:
+  Id: minecart
+  Display: '&c[ T5 ] &l&bBlessed Titan Belt of Might'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+2.5 🛡'
+    - '&7Health: &c+41 ❤'
+    - '&7Damage: &c+41 ⚔'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 2.5 ADD
+      Health: 41 ADD
+      Damage: 41 ADD
+
+# BLESSED TITAN GLOVES OF FORTRESS (T5 SET)
+blessed_titan_gloves_of_fortress_t5:
+  Id: leather_horse_armor
+  Display: '&c[ T5 ] &l&bBlessed Titan Gloves of Fortress'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor: &e+10 🛡'
+    - '&7Health: &c+88 ❤'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Armor: 10 ADD
+      Health: 88 ADD
+
+# BLESSED TITAN WEAPON ADORNMENT (T5 SET)
+blessed_titan_weapon_adornment_t5:
+  Id: furnace_minecart
+  Display: '&c[ T5 ] &l&bBlessed Titan Weapon Adornment'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+375 ⚔'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 375 ADD
+
+# BLESSED NECKLACE OF ORION (T5 Extraordinary)
+blessed_necklace_of_orion_t5:
+  Id: chest_minecart
+  Display: '&c[ T5 ] &5Blessed Necklace of Orion'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+25 ⚔'
+    - '&7Health: &c+25 ❤'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 25 ADD
+      Health: 25 ADD
+
+# BLESSED GLOVES OF ATLAS (T5 Extraordinary)
+blessed_gloves_of_atlas_t5:
+  Id: leather_horse_armor
+  Display: '&c[ T5 ] &5Blessed Gloves of Atlas'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+0.625 🛡'
+    - '&7Health: &c+31 ❤'
+    - '&7Armor: &e+3.75 🛡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 0.625 ADD
+      Health: 31 ADD
+      Armor: 3.75 ADD
+
+# =============================================
+# DIVINE VERSIONS (+50% STATS)
+# =============================================
+
+# DIVINE CLOAK OF HERACLES (T5 Legendary)
+divine_cloak_of_heracles_t5:
+  Id: white_banner
+  Display: '&c[ T5 ] &6Divine Cloak of Heracles'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+45 ⚔'
+    - '&7Health: &c+45 ❤'
+    - '&7Speed: &b+0.45 👟'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 45 ADD
+      Health: 45 ADD
+      MovementSpeed: 0.45 ADD
+
+# DIVINE GOLDEN SWORD OF APOLLO (T5 Legendary)
+divine_golden_sword_of_apollo_t5:
+  Id: golden_sword
+  Display: '&c[ T5 ] &6Divine Golden Sword of Apollo'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+1166 ⚔'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 1166 ADD
+
+# DIVINE TITAN RING OF DESTRUCTION (T5 SET)
+divine_titan_ring_of_destruction_t5:
+  Id: tnt_minecart
+  Display: '&c[ T5 ] &l&bDivine Titan Ring of Destruction'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+600 ⚔'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 600 ADD
+
+# DIVINE TITAN RING OF VITALITY (T5 SET)
+divine_titan_ring_of_vitality_t5:
+  Id: hopper_minecart
+  Display: '&c[ T5 ] &l&bDivine Titan Ring of Vitality'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+113 ❤'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 113 ADD
+
+# DIVINE TITAN NECKLACE OF SUPREMACY (T5 SET)
+divine_titan_necklace_of_supremacy_t5:
+  Id: chest_minecart
+  Display: '&c[ T5 ] &l&bDivine Titan Necklace of Supremacy'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+300 ⚔'
+    - '&7Health: &c+75 ❤'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 300 ADD
+      Health: 75 ADD
+
+# DIVINE TITAN BELT OF MIGHT (T5 SET)
+divine_titan_belt_of_might_t5:
+  Id: minecart
+  Display: '&c[ T5 ] &l&bDivine Titan Belt of Might'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+3 🛡'
+    - '&7Health: &c+50 ❤'
+    - '&7Damage: &c+50 ⚔'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 3 ADD
+      Health: 50 ADD
+      Damage: 50 ADD
+
+# DIVINE TITAN GLOVES OF FORTRESS (T5 SET)
+divine_titan_gloves_of_fortress_t5:
+  Id: leather_horse_armor
+  Display: '&c[ T5 ] &l&bDivine Titan Gloves of Fortress'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor: &e+12 🛡'
+    - '&7Health: &c+105 ❤'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Armor: 12 ADD
+      Health: 105 ADD
+
+# DIVINE TITAN WEAPON ADORNMENT (T5 SET)
+divine_titan_weapon_adornment_t5:
+  Id: furnace_minecart
+  Display: '&c[ T5 ] &l&bDivine Titan Weapon Adornment'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+450 ⚔'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 450 ADD
+
+# DIVINE NECKLACE OF ORION (T5 Extraordinary)
+divine_necklace_of_orion_t5:
+  Id: chest_minecart
+  Display: '&c[ T5 ] &5Divine Necklace of Orion'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+30 ⚔'
+    - '&7Health: &c+30 ❤'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 30 ADD
+      Health: 30 ADD
+
+# DIVINE GLOVES OF ATLAS (T5 Extraordinary)
+divine_gloves_of_atlas_t5:
+  Id: leather_horse_armor
+  Display: '&c[ T5 ] &5Divine Gloves of Atlas'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+0.75 🛡'
+    - '&7Health: &c+38 ❤'
+    - '&7Armor: &e+4.5 🛡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 0.75 ADD
+      Health: 38 ADD
+      Armor: 4.5 ADD
+
+# =============================================
+# TRANSCENDENT VERSIONS (+75% STATS + NEW STATS)
+# =============================================
+
+# TRANSCENDENT CLOAK OF HERACLES (T5 Legendary)
+transcendent_cloak_of_heracles_t5:
+  Id: white_banner
+  Display: '&c[ T5 ] &6Transcendent Cloak of Heracles'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+53 ⚔'
+    - '&7Health: &c+53 ❤'
+    - '&7Speed: &b+0.525 👟'
+    - '&7Luck: &a+5 🍀'
+    - '&7Attack Speed: &e+0.3 ⚡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 53 ADD
+      Health: 53 ADD
+      MovementSpeed: 0.525 ADD
+      Luck: 5 ADD
+      AttackSpeed: 0.3 ADD
+
+# TRANSCENDENT GOLDEN SWORD OF APOLLO (T5 Legendary)
+transcendent_golden_sword_of_apollo_t5:
+  Id: golden_sword
+  Display: '&c[ T5 ] &6Transcendent Golden Sword of Apollo'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+1360 ⚔'
+    - '&7Luck: &a+5 🍀'
+    - '&7Attack Speed: &e+0.3 ⚡'
+    - '&lRarity:&r &6Legendary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    MainHand:
+      Damage: 1360 ADD
+    All:
+      Luck: 5 ADD
+      AttackSpeed: 0.3 ADD
+
+# TRANSCENDENT TITAN RING OF DESTRUCTION (T5 SET)
+transcendent_titan_ring_of_destruction_t5:
+  Id: tnt_minecart
+  Display: '&c[ T5 ] &l&bTranscendent Titan Ring of Destruction'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+700 ⚔'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 700 ADD
+
+# TRANSCENDENT TITAN RING OF VITALITY (T5 SET)
+transcendent_titan_ring_of_vitality_t5:
+  Id: hopper_minecart
+  Display: '&c[ T5 ] &l&bTranscendent Titan Ring of Vitality'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Health: &c+131 ❤'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Health: 131 ADD
+
+# TRANSCENDENT TITAN NECKLACE OF SUPREMACY (T5 SET)
+transcendent_titan_necklace_of_supremacy_t5:
+  Id: chest_minecart
+  Display: '&c[ T5 ] &l&bTranscendent Titan Necklace of Supremacy'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+350 ⚔'
+    - '&7Health: &c+88 ❤'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 350 ADD
+      Health: 88 ADD
+
+# TRANSCENDENT TITAN BELT OF MIGHT (T5 SET)
+transcendent_titan_belt_of_might_t5:
+  Id: minecart
+  Display: '&c[ T5 ] &l&bTranscendent Titan Belt of Might'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+3.5 🛡'
+    - '&7Health: &c+58 ❤'
+    - '&7Damage: &c+58 ⚔'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 3.5 ADD
+      Health: 58 ADD
+      Damage: 58 ADD
+
+# TRANSCENDENT TITAN GLOVES OF FORTRESS (T5 SET)
+transcendent_titan_gloves_of_fortress_t5:
+  Id: leather_horse_armor
+  Display: '&c[ T5 ] &l&bTranscendent Titan Gloves of Fortress'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor: &e+14 🛡'
+    - '&7Health: &c+123 ❤'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Armor: 14 ADD
+      Health: 123 ADD
+
+# TRANSCENDENT TITAN WEAPON ADORNMENT (T5 SET)
+transcendent_titan_weapon_adornment_t5:
+  Id: furnace_minecart
+  Display: '&c[ T5 ] &l&bTranscendent Titan Weapon Adornment'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+525 ⚔'
+    - '&7Set: &bTitan Supremacy'
+    - '&8[2] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[4] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&8[6] &7+3% Health §c❤&7, +3% Damage §c⚔&7, +3% Luck §a🍀'
+    - '&lRarity:&r &l&bSet'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 525 ADD
+
+# TRANSCENDENT NECKLACE OF ORION (T5 Extraordinary)
+transcendent_necklace_of_orion_t5:
+  Id: chest_minecart
+  Display: '&c[ T5 ] &5Transcendent Necklace of Orion'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Damage: &c+35 ⚔'
+    - '&7Health: &c+35 ❤'
+    - '&7Luck: &a+3 🍀'
+    - '&7Attack Speed: &e+0.2 ⚡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      Damage: 35 ADD
+      Health: 35 ADD
+      Luck: 3 ADD
+      AttackSpeed: 0.2 ADD
+
+# TRANSCENDENT GLOVES OF ATLAS (T5 Extraordinary)
+transcendent_gloves_of_atlas_t5:
+  Id: leather_horse_armor
+  Display: '&c[ T5 ] &5Transcendent Gloves of Atlas'
+  Group: mythological_t5
+  Enchantments:
+    - DURABILITY:10
+  Lore:
+    - ''
+    - '&7Armor Toughness: &e+0.875 🛡'
+    - '&7Health: &c+44 ❤'
+    - '&7Armor: &e+5.25 🛡'
+    - '&7Luck: &a+3 🍀'
+    - '&7Attack Speed: &e+0.2 ⚡'
+    - '&lRarity:&r &5Extraordinary'
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Hide:
+    - ATTRIBUTES
+  Attributes:
+    All:
+      ArmorToughness: 0.875 ADD
+      Health: 44 ADD
+      Armor: 5.25 ADD
+      Luck: 3 ADD
+      AttackSpeed: 0.2 ADD
