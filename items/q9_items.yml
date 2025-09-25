@@ -179,7 +179,7 @@ pure_chunk_of_meat_infernal+4:
     - ATTRIBUTES
 oceanus_poison_crown_infernal:
   Id: iron_helmet
-  Display: '&9[ I ] &6Oceanus Poison Crown'
+  Display: '&9[ I ] &6M`Edara Poison Crown'
   Group: q9-infernal
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:60
@@ -202,7 +202,7 @@ oceanus_poison_crown_infernal:
 
 oceanus_poison_crown_infernal+1:
   Id: iron_helmet
-  Display: '&9[ I ] &6Oceanus Poison Crown'
+  Display: '&9[ I ] &6M`Edara Poison Crown'
   Group: q9-infernal
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:65
@@ -225,7 +225,7 @@ oceanus_poison_crown_infernal+1:
 
 oceanus_poison_crown_infernal+2:
   Id: iron_helmet
-  Display: '&9[ I ] &6Oceanus Poison Crown'
+  Display: '&9[ I ] &6M`Edara Poison Crown'
   Group: q9-infernal
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:70
@@ -248,7 +248,7 @@ oceanus_poison_crown_infernal+2:
 
 oceanus_poison_crown_infernal+3:
   Id: iron_helmet
-  Display: '&9[ I ] &6Oceanus Poison Crown'
+  Display: '&9[ I ] &6M`Edara Poison Crown'
   Group: q9-infernal
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:75
@@ -271,7 +271,7 @@ oceanus_poison_crown_infernal+3:
 
 oceanus_poison_crown_infernal+4:
   Id: iron_helmet
-  Display: '&9[ I ] &6Oceanus Poison Crown'
+  Display: '&9[ I ] &6M`Edara Poison Crown'
   Group: q9-infernal
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:80
@@ -682,7 +682,7 @@ swiftness_of_the_alliance_hell+4:
     - ATTRIBUTES
 oceanus_poison_crown_hell:
   Id: iron_helmet
-  Display: '&5[ II ] &6Oceanus Poison Crown'
+  Display: '&5[ II ] &6M`Edara Poison Crown'
   Group: q9-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:70
@@ -705,7 +705,7 @@ oceanus_poison_crown_hell:
 
 oceanus_poison_crown_hell+1:
   Id: iron_helmet
-  Display: '&5[ II ] &6Oceanus Poison Crown'
+  Display: '&5[ II ] &6M`Edara Poison Crown'
   Group: q9-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:75
@@ -728,7 +728,7 @@ oceanus_poison_crown_hell+1:
 
 oceanus_poison_crown_hell+2:
   Id: iron_helmet
-  Display: '&5[ II ] &6Oceanus Poison Crown'
+  Display: '&5[ II ] &6M`Edara Poison Crown'
   Group: q9-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:80
@@ -751,7 +751,7 @@ oceanus_poison_crown_hell+2:
 
 oceanus_poison_crown_hell+3:
   Id: iron_helmet
-  Display: '&5[ II ] &6Oceanus Poison Crown'
+  Display: '&5[ II ] &6M`Edara Poison Crown'
   Group: q9-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:85
@@ -774,7 +774,7 @@ oceanus_poison_crown_hell+3:
 
 oceanus_poison_crown_hell+4:
   Id: iron_helmet
-  Display: '&5[ II ] &6Oceanus Poison Crown'
+  Display: '&5[ II ] &6M`Edara Poison Crown'
   Group: q9-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:90
@@ -1202,7 +1202,7 @@ swiftness_of_the_alliance_blood+4:
     - ATTRIBUTES
 oceanus_poison_crown_blood:
   Id: iron_helmet
-  Display: '&6[ III ] &6Oceanus Poison Crown'
+  Display: '&6[ III ] &6M`Edara Poison Crown'
   Group: q9-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:80
@@ -1225,7 +1225,7 @@ oceanus_poison_crown_blood:
 
 oceanus_poison_crown_blood+1:
   Id: iron_helmet
-  Display: '&6[ III ] &6Oceanus Poison Crown'
+  Display: '&6[ III ] &6M`Edara Poison Crown'
   Group: q9-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:85
@@ -1248,7 +1248,7 @@ oceanus_poison_crown_blood+1:
 
 oceanus_poison_crown_blood+2:
   Id: iron_helmet
-  Display: '&6[ III ] &6Oceanus Poison Crown'
+  Display: '&6[ III ] &6M`Edara Poison Crown'
   Group: q9-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:90
@@ -1271,7 +1271,7 @@ oceanus_poison_crown_blood+2:
 
 oceanus_poison_crown_blood+3:
   Id: iron_helmet
-  Display: '&6[ III ] &6Oceanus Poison Crown'
+  Display: '&6[ III ] &6M`Edara Poison Crown'
   Group: q9-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:95
@@ -1294,7 +1294,7 @@ oceanus_poison_crown_blood+3:
 
 oceanus_poison_crown_blood+4:
   Id: iron_helmet
-  Display: '&6[ III ] &6Oceanus Poison Crown'
+  Display: '&6[ III ] &6M`Edara Poison Crown'
   Group: q9-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:100

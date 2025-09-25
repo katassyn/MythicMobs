@@ -252,7 +252,7 @@ angry_flamespawn_inf:
 
 commander_embersword_inf:
   Type: ZOMBIE
-  Display: '&5&lCommander Embersword &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lCommander Emberblade &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000
   Damage: 250
   Faction: q7_inf
@@ -286,14 +286,14 @@ commander_embersword_inf:
 # Mission 3 Boss
 herald_of_anderworld_inf:
   Type: ZOMBIE
-  Display: '&4<&skull> &lHerald of the Anderworld &r&4<&skull>'
+  Display: '&4<&skull> &lHarbinger of the Anderrealm &r&4<&skull>'
   Health: 5000
   Damage: 0
   Faction: q7_inf
   Group: q7_inf
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Herald of the Anderworld - <mob.hp{round=0}> <&skull>'
+    Title: '&c<&skull> Harbinger of the Anderrealm - <mob.hp{round=0}> <&skull>'
     Color: BLUE
     Style: SEGMENTED_12
   Options:

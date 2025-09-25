@@ -1,6 +1,6 @@
 # q4-ulepszenia.yml
 
-# Ulepszenia dla Honey Charm (+1 do +4)
+# Ulepszenia dla Amber Apiary Charm (+1 do +4)
 
 # Infernal
 honey_charm_infernal+1:
@@ -245,7 +245,7 @@ honey_charm_blood+4:
   Hide:
     - ATTRIBUTES
 
-# Ulepszenia dla Beekeeper Hat (+1 do +4)
+# Ulepszenia dla Apiarist Hood (+1 do +4)
 
 # Infernal
 beekeeper_hat_infernal+1:
@@ -514,7 +514,7 @@ beekeeper_hat_blood+4:
   Hide:
     - ATTRIBUTES
 
-# Ulepszenia dla Strike of the Untouchables (+1 do +4)
+# Ulepszenia dla Strike of the Unbound (+1 do +4)
 
 # Infernal
 strike_of_the_untouchables_infernal+1:
@@ -740,7 +740,7 @@ strike_of_the_untouchables_blood+4:
 # Infernal
 artayas_cape_of_life_infernal+1:
   Id: white_banner
-  Display: '&9[ I ] &6Artaya`s Cape of Life'
+  Display: '&9[ I ] &6Heartwood Cape of Life'
   Group: q4-infernal
   Lore:
     - ''
@@ -758,7 +758,7 @@ artayas_cape_of_life_infernal+1:
 
 artayas_cape_of_life_infernal+2:
   Id: white_banner
-  Display: '&9[ I ] &6Artaya`s Cape of Life'
+  Display: '&9[ I ] &6Heartwood Cape of Life'
   Group: q4-infernal
   Lore:
     - ''
@@ -776,7 +776,7 @@ artayas_cape_of_life_infernal+2:
 
 artayas_cape_of_life_infernal+3:
   Id: white_banner
-  Display: '&9[ I ] &6Artaya`s Cape of Life'
+  Display: '&9[ I ] &6Heartwood Cape of Life'
   Group: q4-infernal
   Lore:
     - ''
@@ -794,7 +794,7 @@ artayas_cape_of_life_infernal+3:
 
 artayas_cape_of_life_infernal+4:
   Id: white_banner
-  Display: '&9[ I ] &6Artaya`s Cape of Life'
+  Display: '&9[ I ] &6Heartwood Cape of Life'
   Group: q4-infernal
   Lore:
     - ''
@@ -813,7 +813,7 @@ artayas_cape_of_life_infernal+4:
 # Hell
 artayas_cape_of_life_hell+1:
   Id: white_banner
-  Display: '&5[ II ] &6Artaya`s Cape of Life'
+  Display: '&5[ II ] &6Heartwood Cape of Life'
   Group: q4-hell
   Lore:
     - ''
@@ -831,7 +831,7 @@ artayas_cape_of_life_hell+1:
 
 artayas_cape_of_life_hell+2:
   Id: white_banner
-  Display: '&5[ II ] &6Artaya`s Cape of Life'
+  Display: '&5[ II ] &6Heartwood Cape of Life'
   Group: q4-hell
   Lore:
     - ''
@@ -849,7 +849,7 @@ artayas_cape_of_life_hell+2:
 
 artayas_cape_of_life_hell+3:
   Id: white_banner
-  Display: '&5[ II ] &6Artaya`s Cape of Life'
+  Display: '&5[ II ] &6Heartwood Cape of Life'
   Group: q4-hell
   Lore:
     - ''
@@ -867,7 +867,7 @@ artayas_cape_of_life_hell+3:
 
 artayas_cape_of_life_hell+4:
   Id: white_banner
-  Display: '&5[ II ] &6Artaya`s Cape of Life'
+  Display: '&5[ II ] &6Heartwood Cape of Life'
   Group: q4-hell
   Lore:
     - ''
@@ -886,7 +886,7 @@ artayas_cape_of_life_hell+4:
 # Blood
 artayas_cape_of_life_blood+1:
   Id: white_banner
-  Display: '&6[ III ] &6Artaya`s Cape of Life'
+  Display: '&6[ III ] &6Heartwood Cape of Life'
   Group: q4-blood
   Lore:
     - ''
@@ -904,7 +904,7 @@ artayas_cape_of_life_blood+1:
 
 artayas_cape_of_life_blood+2:
   Id: white_banner
-  Display: '&6[ III ] &6Artaya`s Cape of Life'
+  Display: '&6[ III ] &6Heartwood Cape of Life'
   Group: q4-blood
   Lore:
     - ''
@@ -922,7 +922,7 @@ artayas_cape_of_life_blood+2:
 
 artayas_cape_of_life_blood+3:
   Id: white_banner
-  Display: '&6[ III ] &6Artaya`s Cape of Life'
+  Display: '&6[ III ] &6Heartwood Cape of Life'
   Group: q4-blood
   Lore:
     - ''
@@ -940,7 +940,7 @@ artayas_cape_of_life_blood+3:
 
 artayas_cape_of_life_blood+4:
   Id: white_banner
-  Display: '&6[ III ] &6Artaya`s Cape of Life'
+  Display: '&6[ III ] &6Heartwood Cape of Life'
   Group: q4-blood
   Lore:
     - ''
@@ -961,7 +961,7 @@ artayas_cape_of_life_blood+4:
 # Hell
 artayas_wild_care_hell+1:
   Id: iron_door
-  Display: '&5[ II ] &eArtaya`s Wild Care'
+  Display: '&5[ II ] &eHeartwood Wildguard'
   Group: q4-hell
   Lore:
     - ''
@@ -983,7 +983,7 @@ artayas_wild_care_hell+1:
 
 artayas_wild_care_hell+2:
   Id: iron_door
-  Display: '&5[ II ] &eArtaya`s Wild Care'
+  Display: '&5[ II ] &eHeartwood Wildguard'
   Group: q4-hell
   Lore:
     - ''
@@ -1005,7 +1005,7 @@ artayas_wild_care_hell+2:
 
 artayas_wild_care_hell+3:
   Id: iron_door
-  Display: '&5[ II ] &eArtaya`s Wild Care'
+  Display: '&5[ II ] &eHeartwood Wildguard'
   Group: q4-hell
   Lore:
     - ''
@@ -1027,7 +1027,7 @@ artayas_wild_care_hell+3:
 
 artayas_wild_care_hell+4:
   Id: iron_door
-  Display: '&5[ II ] &eArtaya`s Wild Care'
+  Display: '&5[ II ] &eHeartwood Wildguard'
   Group: q4-hell
   Lore:
     - ''
@@ -1050,7 +1050,7 @@ artayas_wild_care_hell+4:
 # Blood
 artayas_wild_care_blood+1:
   Id: iron_door
-  Display: '&6[ III ] &eArtaya`s Wild Care'
+  Display: '&6[ III ] &eHeartwood Wildguard'
   Group: q4-blood
   Lore:
     - ''
@@ -1072,7 +1072,7 @@ artayas_wild_care_blood+1:
 
 artayas_wild_care_blood+2:
   Id: iron_door
-  Display: '&6[ III ] &eArtaya`s Wild Care'
+  Display: '&6[ III ] &eHeartwood Wildguard'
   Group: q4-blood
   Lore:
     - ''
@@ -1094,7 +1094,7 @@ artayas_wild_care_blood+2:
 
 artayas_wild_care_blood+3:
   Id: iron_door
-  Display: '&6[ III ] &eArtaya`s Wild Care'
+  Display: '&6[ III ] &eHeartwood Wildguard'
   Group: q4-blood
   Lore:
     - ''
@@ -1116,7 +1116,7 @@ artayas_wild_care_blood+3:
 
 artayas_wild_care_blood+4:
   Id: iron_door
-  Display: '&6[ III ] &eArtaya`s Wild Care'
+  Display: '&6[ III ] &eHeartwood Wildguard'
   Group: q4-blood
   Lore:
     - ''
@@ -1141,7 +1141,7 @@ artayas_wild_care_blood+4:
 # Blood
 bearachs_tormentor_blood+1:
   Id: netherite_sword
-  Display: '&6[ III ] &l&cBEARACH`S TORMENTOR'
+  Display: '&6[ III ] &l&cBEAROK`S TORMENTOR'
   Group: q4-blood
   Lore:
     - ''
@@ -1164,7 +1164,7 @@ bearachs_tormentor_blood+1:
 
 bearachs_tormentor_blood+2:
   Id: netherite_sword
-  Display: '&6[ III ] &l&cBEARACH`S TORMENTOR'
+  Display: '&6[ III ] &l&cBEAROK`S TORMENTOR'
   Group: q4-blood
   Lore:
     - ''
@@ -1187,7 +1187,7 @@ bearachs_tormentor_blood+2:
 
 bearachs_tormentor_blood+3:
   Id: netherite_sword
-  Display: '&6[ III ] &l&cBEARACH`S TORMENTOR'
+  Display: '&6[ III ] &l&cBEAROK`S TORMENTOR'
   Group: q4-blood
   Lore:
     - ''
@@ -1210,7 +1210,7 @@ bearachs_tormentor_blood+3:
 
 bearachs_tormentor_blood+4:
   Id: netherite_sword
-  Display: '&6[ III ] &l&cBEARACH`S TORMENTOR'
+  Display: '&6[ III ] &l&cBEAROK`S TORMENTOR'
   Group: q4-blood
   Lore:
     - ''
@@ -1236,7 +1236,7 @@ bearachs_tormentor_blood+4:
 # Blood
 bearachs_instinct_blood+1:
   Id: minecart
-  Display: '&6[ III ] &l&cBEARACH`S INSTINCT'
+  Display: '&6[ III ] &l&cBEAROK`S INSTINCT'
   Group: q4-blood
   Lore:
     - ''
@@ -1258,7 +1258,7 @@ bearachs_instinct_blood+1:
 
 bearachs_instinct_blood+2:
   Id: minecart
-  Display: '&6[ III ] &l&cBEARACH`S INSTINCT'
+  Display: '&6[ III ] &l&cBEAROK`S INSTINCT'
   Group: q4-blood
   Lore:
     - ''
@@ -1280,7 +1280,7 @@ bearachs_instinct_blood+2:
 
 bearachs_instinct_blood+3:
   Id: minecart
-  Display: '&6[ III ] &l&cBEARACH`S INSTINCT'
+  Display: '&6[ III ] &l&cBEAROK`S INSTINCT'
   Group: q4-blood
   Lore:
     - ''
@@ -1302,7 +1302,7 @@ bearachs_instinct_blood+3:
 
 bearachs_instinct_blood+4:
   Id: minecart
-  Display: '&6[ III ] &l&cBEARACH`S INSTINCT'
+  Display: '&6[ III ] &l&cBEAROK`S INSTINCT'
   Group: q4-blood
   Lore:
     - ''

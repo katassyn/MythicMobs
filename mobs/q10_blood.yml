@@ -113,7 +113,7 @@ combat_ready_zorlobb_blood:
 
 melas_the_swift_footed_blood:
   Type: ZOMBIE
-  Display: '&5&lMelas the Swift-Footed &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lMelan the Swiftstride &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 20000  # 10x2000
   Damage: 750    # 5x150
   Faction: q10_blood
@@ -266,7 +266,7 @@ mordacious_khaross_blood:
 
 akheilos_blood:
   Type: ZOMBIE
-  Display: '&5&lAkheilos &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lAkhelion &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 20000  # 10x2000
   Damage: 1000   # 5x200
   Faction: q10_blood
@@ -299,14 +299,14 @@ akheilos_blood:
 # Mission 3 Boss
 parallel_world_gorga_blood:
   Type: ZOMBIE
-  Display: '&4<&skull> &lGorga &r&4<&skull>'
+  Display: '&4<&skull> &lGorgra &r&4<&skull>'
   Health: 50000  # 10x5000
   Damage: 1000   # 5x200
   Faction: q10_blood
   Group: q10_blood
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Gorga - <mob.hp{round=0}> <&skull>'
+    Title: '&c<&skull> Gorgra - <mob.hp{round=0}> <&skull>'
     Color: RED
     Style: SEGMENTED_12
   Options:

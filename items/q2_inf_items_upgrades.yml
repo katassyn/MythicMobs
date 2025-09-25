@@ -56,7 +56,7 @@ shroud_of_the_untouchables+1:
 
 oceanus_ring_of_poison+1:
   Id: hopper_minecart
-  Display: '&9[ I ] &6Oceanus`s Ring of Poison'
+  Display: '&9[ I ] &6Araksha`s Ring of Poison'
   Group: q2-infernal
   Lore:
     - ''
@@ -134,7 +134,7 @@ shroud_of_the_untouchables+2:
 
 oceanus_ring_of_poison+2:
   Id: hopper_minecart
-  Display: '&9[ I ] &6Oceanus`s Ring of Poison'
+  Display: '&9[ I ] &6Araksha`s Ring of Poison'
   Group: q2-infernal
   Lore:
     - ''
@@ -212,7 +212,7 @@ shroud_of_the_untouchables+3:
 
 oceanus_ring_of_poison+3:
   Id: hopper_minecart
-  Display: '&9[ I ] &6Oceanus`s Ring of Poison'
+  Display: '&9[ I ] &6Araksha`s Ring of Poison'
   Group: q2-infernal
   Lore:
     - ''
@@ -290,7 +290,7 @@ shroud_of_the_untouchables+4:
 
 oceanus_ring_of_poison+4:
   Id: hopper_minecart
-  Display: '&9[ I ] &6Oceanus`s Ring of Poison'
+  Display: '&9[ I ] &6Araksha`s Ring of Poison'
   Group: q2-infernal
   Lore:
     - ''

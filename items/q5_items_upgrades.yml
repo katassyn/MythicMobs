@@ -1,4 +1,4 @@
-# Ulepszenia dla Andermagic Neckel (+1 do +4)
+# Ulepszenia dla Arcanum Nexus Torque (+1 do +4)
 
 andermagic_neckel_infernal+1:
   Id: chest_minecart
@@ -79,7 +79,7 @@ andermagic_neckel_infernal+4:
       MovementSpeed: 0.14 ADD
   Hide:
     - ATTRIBUTES
-# Ulepszenia dla Void Axe (+1 do +4)
+# Ulepszenia dla Nethercleaver Axe (+1 do +4)
 
 void_axe_infernal+1:
   Id: iron_axe
@@ -152,7 +152,7 @@ void_axe_infernal+4:
       Damage: 308 ADD
   Hide:
     - ATTRIBUTES
-# Ulepszenia dla Duty of the Untouchables (+1 do +4)
+# Ulepszenia dla Duty of the Unbound (+1 do +4)
 
 duty_of_the_untouchables_infernal+1:
   Id: diamond_chestplate
@@ -245,7 +245,7 @@ duty_of_the_untouchables_infernal+4:
 
 khalys_dark_gaze_infernal+1:
   Id: diamond_helmet
-  Display: '&9[ I ] &6Khalys` Dark Gaze'
+  Display: '&9[ I ] &6Kalith` Dark Gaze'
   Group: q5-infernal
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:65
@@ -267,7 +267,7 @@ khalys_dark_gaze_infernal+1:
 
 khalys_dark_gaze_infernal+2:
   Id: diamond_helmet
-  Display: '&9[ I ] &6Khalys` Dark Gaze'
+  Display: '&9[ I ] &6Kalith` Dark Gaze'
   Group: q5-infernal
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:70
@@ -289,7 +289,7 @@ khalys_dark_gaze_infernal+2:
 
 khalys_dark_gaze_infernal+3:
   Id: diamond_helmet
-  Display: '&9[ I ] &6Khalys` Dark Gaze'
+  Display: '&9[ I ] &6Kalith` Dark Gaze'
   Group: q5-infernal
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:75
@@ -311,7 +311,7 @@ khalys_dark_gaze_infernal+3:
 
 khalys_dark_gaze_infernal+4:
   Id: diamond_helmet
-  Display: '&9[ I ] &6Khalys` Dark Gaze'
+  Display: '&9[ I ] &6Kalith` Dark Gaze'
   Group: q5-infernal
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:80
@@ -330,7 +330,7 @@ khalys_dark_gaze_infernal+4:
     - potion{t=INCREASE_DAMAGE;d=1;level=0;p=false;force=true} @self ~onUnequip
   Hide:
     - ATTRIBUTES
-# Ulepszenia dla Andermagic Neckel (+1 do +4)
+# Ulepszenia dla Arcanum Nexus Torque (+1 do +4)
 
 andermagic_neckel_hell+1:
   Id: chest_minecart
@@ -411,7 +411,7 @@ andermagic_neckel_hell+4:
       MovementSpeed: 0.19 ADD
   Hide:
     - ATTRIBUTES
-# Ulepszenia dla Void Axe (+1 do +4)
+# Ulepszenia dla Nethercleaver Axe (+1 do +4)
 
 void_axe_hell+1:
   Id: iron_axe
@@ -484,7 +484,7 @@ void_axe_hell+4:
       Damage: 358 ADD
   Hide:
     - ATTRIBUTES
-# Ulepszenia dla Duty of the Untouchables (+1 do +4)
+# Ulepszenia dla Duty of the Unbound (+1 do +4)
 
 duty_of_the_untouchables_hell+1:
   Id: diamond_chestplate
@@ -577,7 +577,7 @@ duty_of_the_untouchables_hell+4:
 
 khalys_dark_gaze_hell+1:
   Id: diamond_helmet
-  Display: '&5[ II ] &6Khalys` Dark Gaze'
+  Display: '&5[ II ] &6Kalith` Dark Gaze'
   Group: q5-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:75
@@ -599,7 +599,7 @@ khalys_dark_gaze_hell+1:
 
 khalys_dark_gaze_hell+2:
   Id: diamond_helmet
-  Display: '&5[ II ] &6Khalys` Dark Gaze'
+  Display: '&5[ II ] &6Kalith` Dark Gaze'
   Group: q5-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:80
@@ -621,7 +621,7 @@ khalys_dark_gaze_hell+2:
 
 khalys_dark_gaze_hell+3:
   Id: diamond_helmet
-  Display: '&5[ II ] &6Khalys` Dark Gaze'
+  Display: '&5[ II ] &6Kalith` Dark Gaze'
   Group: q5-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:85
@@ -643,7 +643,7 @@ khalys_dark_gaze_hell+3:
 
 khalys_dark_gaze_hell+4:
   Id: diamond_helmet
-  Display: '&5[ II ] &6Khalys` Dark Gaze'
+  Display: '&5[ II ] &6Kalith` Dark Gaze'
   Group: q5-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:90
@@ -666,7 +666,7 @@ khalys_dark_gaze_hell+4:
 
 khalys_dark_scheme_hell+1:
   Id: chest_minecart
-  Display: '&5[ II ] &eKhalys` Dark Scheme'
+  Display: '&5[ II ] &eKalith` Dark Scheme'
   Group: q5-hell
   Lore:
     - ''
@@ -688,7 +688,7 @@ khalys_dark_scheme_hell+1:
 
 khalys_dark_scheme_hell+2:
   Id: chest_minecart
-  Display: '&5[ II ] &eKhalys` Dark Scheme'
+  Display: '&5[ II ] &eKalith` Dark Scheme'
   Group: q5-hell
   Lore:
     - ''
@@ -710,7 +710,7 @@ khalys_dark_scheme_hell+2:
 
 khalys_dark_scheme_hell+3:
   Id: chest_minecart
-  Display: '&5[ II ] &eKhalys` Dark Scheme'
+  Display: '&5[ II ] &eKalith` Dark Scheme'
   Group: q5-hell
   Lore:
     - ''
@@ -732,7 +732,7 @@ khalys_dark_scheme_hell+3:
 
 khalys_dark_scheme_hell+4:
   Id: chest_minecart
-  Display: '&5[ II ] &eKhalys` Dark Scheme'
+  Display: '&5[ II ] &eKalith` Dark Scheme'
   Group: q5-hell
   Lore:
     - ''
@@ -751,7 +751,7 @@ khalys_dark_scheme_hell+4:
       Damage: 300 ADD
   Hide:
     - ATTRIBUTES
-# Ulepszenia dla Andermagic Neckel (+1 do +4)
+# Ulepszenia dla Arcanum Nexus Torque (+1 do +4)
 
 andermagic_neckel_blood+1:
   Id: chest_minecart
@@ -832,7 +832,7 @@ andermagic_neckel_blood+4:
       MovementSpeed: 0.16 ADD
   Hide:
     - ATTRIBUTES
-# Ulepszenia dla Void Axe (+1 do +4)
+# Ulepszenia dla Nethercleaver Axe (+1 do +4)
 
 void_axe_blood+1:
   Id: iron_axe
@@ -905,7 +905,7 @@ void_axe_blood+4:
       Damage: 408 ADD
   Hide:
     - ATTRIBUTES
-# Ulepszenia dla Duty of the Untouchables (+1 do +4)
+# Ulepszenia dla Duty of the Unbound (+1 do +4)
 
 duty_of_the_untouchables_blood+1:
   Id: diamond_chestplate
@@ -998,7 +998,7 @@ duty_of_the_untouchables_blood+4:
 
 khalys_dark_gaze_blood+1:
   Id: diamond_helmet
-  Display: '&6[ III ] &6Khalys` Dark Gaze'
+  Display: '&6[ III ] &6Kalith` Dark Gaze'
   Group: q5-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:85
@@ -1020,7 +1020,7 @@ khalys_dark_gaze_blood+1:
 
 khalys_dark_gaze_blood+2:
   Id: diamond_helmet
-  Display: '&6[ III ] &6Khalys` Dark Gaze'
+  Display: '&6[ III ] &6Kalith` Dark Gaze'
   Group: q5-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:90
@@ -1042,7 +1042,7 @@ khalys_dark_gaze_blood+2:
 
 khalys_dark_gaze_blood+3:
   Id: diamond_helmet
-  Display: '&6[ III ] &6Khalys` Dark Gaze'
+  Display: '&6[ III ] &6Kalith` Dark Gaze'
   Group: q5-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:95
@@ -1064,7 +1064,7 @@ khalys_dark_gaze_blood+3:
 
 khalys_dark_gaze_blood+4:
   Id: diamond_helmet
-  Display: '&6[ III ] &6Khalys` Dark Gaze'
+  Display: '&6[ III ] &6Kalith` Dark Gaze'
   Group: q5-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:100
@@ -1087,7 +1087,7 @@ khalys_dark_gaze_blood+4:
 
 khalys_dark_scheme_blood+1:
   Id: chest_minecart
-  Display: '&6[ III ] &eKhalys` Dark Scheme'
+  Display: '&6[ III ] &eKalith` Dark Scheme'
   Group: q5-blood
   Lore:
     - ''
@@ -1109,7 +1109,7 @@ khalys_dark_scheme_blood+1:
 
 khalys_dark_scheme_blood+2:
   Id: chest_minecart
-  Display: '&6[ III ] &eKhalys` Dark Scheme'
+  Display: '&6[ III ] &eKalith` Dark Scheme'
   Group: q5-blood
   Lore:
     - ''
@@ -1131,7 +1131,7 @@ khalys_dark_scheme_blood+2:
 
 khalys_dark_scheme_blood+3:
   Id: chest_minecart
-  Display: '&6[ III ] &eKhalys` Dark Scheme'
+  Display: '&6[ III ] &eKalith` Dark Scheme'
   Group: q5-blood
   Lore:
     - ''
@@ -1153,7 +1153,7 @@ khalys_dark_scheme_blood+3:
 
 khalys_dark_scheme_blood+4:
   Id: chest_minecart
-  Display: '&6[ III ] &eKhalys` Dark Scheme'
+  Display: '&6[ III ] &eKalith` Dark Scheme'
   Group: q5-blood
   Lore:
     - ''

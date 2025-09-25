@@ -1,6 +1,6 @@
 # q4-bazowe.yml
 
-# Honey Charm (Ozdoba broni - Adornment)
+# Amber Apiary Charm (Ozdoba broni - Adornment)
 honey_charm_infernal:
   Id: furnace_minecart  # Adornment
   Display: '&9[ I ] &9Honey Charm'
@@ -21,7 +21,7 @@ honey_charm_infernal:
   Hide:
     - ATTRIBUTES
 
-# Beekeeper Hat (Hełm)
+# Apiarist Hood (Hełm)
 beekeeper_hat_infernal:
   Id: iron_helmet
   Display: '&9[ I ] &9Beekeeper Hat'
@@ -44,7 +44,7 @@ beekeeper_hat_infernal:
   Hide:
     - ATTRIBUTES
 
-# Strike of the Untouchables (Rękawice - Gloves)
+# Strike of the Unbound (Rękawice - Gloves)
 strike_of_the_untouchables_infernal:
   Id: leather_horse_armor  # Gloves
   Display: '&9[ I ] &5Strike of the Untouchables'
@@ -66,7 +66,7 @@ strike_of_the_untouchables_infernal:
 # Artaya's Cape of Life (Płaszcz - Cloak)
 artayas_cape_of_life_infernal:
   Id: white_banner  # Cloak
-  Display: '&9[ I ] &6Artaya`s Cape of Life'
+  Display: '&9[ I ] &6Heartwood Cape of Life'
   Group: q4-infernal
   Lore:
     - ''
@@ -84,7 +84,7 @@ artayas_cape_of_life_infernal:
 
 # q4-hell
 
-# Honey Charm
+# Amber Apiary Charm
 honey_charm_hell:
   Id: furnace_minecart
   Display: '&5[ II ] &9Honey Charm'
@@ -105,7 +105,7 @@ honey_charm_hell:
   Hide:
     - ATTRIBUTES
 
-# Beekeeper Hat
+# Apiarist Hood
 beekeeper_hat_hell:
   Id: iron_helmet
   Display: '&5[ II ] &9Beekeeper Hat'
@@ -128,7 +128,7 @@ beekeeper_hat_hell:
   Hide:
     - ATTRIBUTES
 
-# Strike of the Untouchables
+# Strike of the Unbound
 strike_of_the_untouchables_hell:
   Id: leather_horse_armor
   Display: '&5[ II ] &5Strike of the Untouchables'
@@ -150,7 +150,7 @@ strike_of_the_untouchables_hell:
 # Artaya's Cape of Life
 artayas_cape_of_life_hell:
   Id: white_banner
-  Display: '&5[ II ] &6Artaya`s Cape of Life'
+  Display: '&5[ II ] &6Heartwood Cape of Life'
   Group: q4-hell
   Lore:
     - ''
@@ -169,7 +169,7 @@ artayas_cape_of_life_hell:
 # Artaya's Wild Care (Tarcza - Shield)
 artayas_wild_care_hell:
   Id: iron_door
-  Display: '&5[ II ] &eArtaya`s Wild Care'
+  Display: '&5[ II ] &eHeartwood Wildguard'
   Group: q4-hell
   Lore:
     - ''
@@ -191,7 +191,7 @@ artayas_wild_care_hell:
 
 # q4-blood
 
-# Honey Charm
+# Amber Apiary Charm
 honey_charm_blood:
   Id: furnace_minecart
   Display: '&6[ III ] &9Honey Charm'
@@ -212,7 +212,7 @@ honey_charm_blood:
   Hide:
     - ATTRIBUTES
 
-# Beekeeper Hat
+# Apiarist Hood
 beekeeper_hat_blood:
   Id: iron_helmet
   Display: '&6[ III ] &9Beekeeper Hat'
@@ -235,7 +235,7 @@ beekeeper_hat_blood:
   Hide:
     - ATTRIBUTES
 
-# Strike of the Untouchables
+# Strike of the Unbound
 strike_of_the_untouchables_blood:
   Id: leather_horse_armor
   Display: '&6[ III ] &5Strike of the Untouchables'
@@ -257,7 +257,7 @@ strike_of_the_untouchables_blood:
 # Artaya's Cape of Life
 artayas_cape_of_life_blood:
   Id: white_banner
-  Display: '&6[ III ] &6Artaya`s Cape of Life'
+  Display: '&6[ III ] &6Heartwood Cape of Life'
   Group: q4-blood
   Lore:
     - ''
@@ -276,7 +276,7 @@ artayas_cape_of_life_blood:
 # Artaya's Wild Care
 artayas_wild_care_blood:
   Id: iron_door
-  Display: '&6[ III ] &eArtaya`s Wild Care'
+  Display: '&6[ III ] &eHeartwood Wildguard'
   Group: q4-blood
   Lore:
     - ''
@@ -299,7 +299,7 @@ artayas_wild_care_blood:
 # Bearach's Tormentor (Broń)
 bearachs_tormentor_blood:
   Id: netherite_sword
-  Display: '&6[ III ] &l&cBEARACH`S TORMENTOR'
+  Display: '&6[ III ] &l&cBEAROK`S TORMENTOR'
   Group: q4-blood
   Lore:
     - ''
@@ -323,7 +323,7 @@ bearachs_tormentor_blood:
 # Bearach's Instinct (Pasek - Belt)
 bearachs_instinct_blood:
   Id: minecart  # Belt
-  Display: '&6[ III ] &l&cBEARACH`S INSTINCT'
+  Display: '&6[ III ] &l&cBEAROK`S INSTINCT'
   Group: q4-blood
   Lore:
     - ''

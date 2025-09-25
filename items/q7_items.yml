@@ -285,7 +285,7 @@ resolve_of_the_alliance_infernal+4:
 
 fyrgons_fire_belt_infernal:
   Id: minecart
-  Display: '&9[ I ] &6Fyrgon`s Fire Belt'
+  Display: '&9[ I ] &6Harbinger`s Fire Belt'
   Group: q7-infernal
   Lore:
     - ''
@@ -305,7 +305,7 @@ fyrgons_fire_belt_infernal:
 
 fyrgons_fire_belt_infernal+1:
   Id: minecart
-  Display: '&9[ I ] &6Fyrgon`s Fire Belt'
+  Display: '&9[ I ] &6Harbinger`s Fire Belt'
   Group: q7-infernal
   Lore:
     - ''
@@ -325,7 +325,7 @@ fyrgons_fire_belt_infernal+1:
 
 fyrgons_fire_belt_infernal+2:
   Id: minecart
-  Display: '&9[ I ] &6Fyrgon`s Fire Belt'
+  Display: '&9[ I ] &6Harbinger`s Fire Belt'
   Group: q7-infernal
   Lore:
     - ''
@@ -345,7 +345,7 @@ fyrgons_fire_belt_infernal+2:
 
 fyrgons_fire_belt_infernal+3:
   Id: minecart
-  Display: '&9[ I ] &6Fyrgon`s Fire Belt'
+  Display: '&9[ I ] &6Harbinger`s Fire Belt'
   Group: q7-infernal
   Lore:
     - ''
@@ -365,7 +365,7 @@ fyrgons_fire_belt_infernal+3:
 
 fyrgons_fire_belt_infernal+4:
   Id: minecart
-  Display: '&9[ I ] &6Fyrgon`s Fire Belt'
+  Display: '&9[ I ] &6Harbinger`s Fire Belt'
   Group: q7-infernal
   Lore:
     - ''
@@ -670,7 +670,7 @@ resolve_of_the_alliance_hell+4:
 
 fyrgons_fire_belt_hell:
   Id: minecart
-  Display: '&5[ II ] &6Fyrgon`s Fire Belt'
+  Display: '&5[ II ] &6Harbinger`s Fire Belt'
   Group: q7-hell
   Lore:
     - ''
@@ -690,7 +690,7 @@ fyrgons_fire_belt_hell:
 
 fyrgons_fire_belt_hell+1:
   Id: minecart
-  Display: '&5[ II ] &6Fyrgon`s Fire Belt'
+  Display: '&5[ II ] &6Harbinger`s Fire Belt'
   Group: q7-hell
   Lore:
     - ''
@@ -710,7 +710,7 @@ fyrgons_fire_belt_hell+1:
 
 fyrgons_fire_belt_hell+2:
   Id: minecart
-  Display: '&5[ II ] &6Fyrgon`s Fire Belt'
+  Display: '&5[ II ] &6Harbinger`s Fire Belt'
   Group: q7-hell
   Lore:
     - ''
@@ -730,7 +730,7 @@ fyrgons_fire_belt_hell+2:
 
 fyrgons_fire_belt_hell+3:
   Id: minecart
-  Display: '&5[ II ] &6Fyrgon`s Fire Belt'
+  Display: '&5[ II ] &6Harbinger`s Fire Belt'
   Group: q7-hell
   Lore:
     - ''
@@ -750,7 +750,7 @@ fyrgons_fire_belt_hell+3:
 
 fyrgons_fire_belt_hell+4:
   Id: minecart
-  Display: '&5[ II ] &6Fyrgon`s Fire Belt'
+  Display: '&5[ II ] &6Harbinger`s Fire Belt'
   Group: q7-hell
   Lore:
     - ''
@@ -770,7 +770,7 @@ fyrgons_fire_belt_hell+4:
 
 the_heralds_burning_thunder_hell:
   Id: diamond_sword
-  Display: '&5[ II ] &eThe Herald`s Burning Thunder'
+  Display: '&5[ II ] &eThe Harbinger`s Burning Thunder'
   Group: q7-hell
   Enchantments:
     - FIRE_ASPECT:5
@@ -792,7 +792,7 @@ the_heralds_burning_thunder_hell:
 
 the_heralds_burning_thunder_hell+1:
   Id: diamond_sword
-  Display: '&5[ II ] &eThe Herald`s Burning Thunder'
+  Display: '&5[ II ] &eThe Harbinger`s Burning Thunder'
   Group: q7-hell
   Enchantments:
     - FIRE_ASPECT:5
@@ -814,7 +814,7 @@ the_heralds_burning_thunder_hell+1:
 
 the_heralds_burning_thunder_hell+2:
   Id: diamond_sword
-  Display: '&5[ II ] &eThe Herald`s Burning Thunder'
+  Display: '&5[ II ] &eThe Harbinger`s Burning Thunder'
   Group: q7-hell
   Enchantments:
     - FIRE_ASPECT:5
@@ -836,7 +836,7 @@ the_heralds_burning_thunder_hell+2:
 
 the_heralds_burning_thunder_hell+3:
   Id: diamond_sword
-  Display: '&5[ II ] &eThe Herald`s Burning Thunder'
+  Display: '&5[ II ] &eThe Harbinger`s Burning Thunder'
   Group: q7-hell
   Enchantments:
     - FIRE_ASPECT:5
@@ -858,7 +858,7 @@ the_heralds_burning_thunder_hell+3:
 
 the_heralds_burning_thunder_hell+4:
   Id: diamond_sword
-  Display: '&5[ II ] &eThe Herald`s Burning Thunder'
+  Display: '&5[ II ] &eThe Harbinger`s Burning Thunder'
   Group: q7-hell
   Enchantments:
     - FIRE_ASPECT:5
@@ -1165,7 +1165,7 @@ resolve_of_the_alliance_blood+4:
 
 fyrgons_fire_belt_blood:
   Id: minecart
-  Display: '&6[ III ] &6Fyrgon`s Fire Belt'
+  Display: '&6[ III ] &6Harbinger`s Fire Belt'
   Group: q7-blood
   Lore:
     - ''
@@ -1185,7 +1185,7 @@ fyrgons_fire_belt_blood:
 
 fyrgons_fire_belt_blood+1:
   Id: minecart
-  Display: '&6[ III ] &6Fyrgon`s Fire Belt'
+  Display: '&6[ III ] &6Harbinger`s Fire Belt'
   Group: q7-blood
   Lore:
     - ''
@@ -1205,7 +1205,7 @@ fyrgons_fire_belt_blood+1:
 
 fyrgons_fire_belt_blood+2:
   Id: minecart
-  Display: '&6[ III ] &6Fyrgon`s Fire Belt'
+  Display: '&6[ III ] &6Harbinger`s Fire Belt'
   Group: q7-blood
   Lore:
     - ''
@@ -1225,7 +1225,7 @@ fyrgons_fire_belt_blood+2:
 
 fyrgons_fire_belt_blood+3:
   Id: minecart
-  Display: '&6[ III ] &6Fyrgon`s Fire Belt'
+  Display: '&6[ III ] &6Harbinger`s Fire Belt'
   Group: q7-blood
   Lore:
     - ''
@@ -1245,7 +1245,7 @@ fyrgons_fire_belt_blood+3:
 
 fyrgons_fire_belt_blood+4:
   Id: minecart
-  Display: '&6[ III ] &6Fyrgon`s Fire Belt'
+  Display: '&6[ III ] &6Harbinger`s Fire Belt'
   Group: q7-blood
   Lore:
     - ''
@@ -1265,7 +1265,7 @@ fyrgons_fire_belt_blood+4:
 
 the_heralds_burning_thunder_blood:
   Id: diamond_sword
-  Display: '&6[ III ] &eThe Herald`s Burning Thunder'
+  Display: '&6[ III ] &eThe Harbinger`s Burning Thunder'
   Group: q7-blood
   Enchantments:
     - FIRE_ASPECT:10
@@ -1287,7 +1287,7 @@ the_heralds_burning_thunder_blood:
 
 the_heralds_burning_thunder_blood+1:
   Id: diamond_sword
-  Display: '&6[ III ] &eThe Herald`s Burning Thunder'
+  Display: '&6[ III ] &eThe Harbinger`s Burning Thunder'
   Group: q7-blood
   Enchantments:
     - FIRE_ASPECT:10
@@ -1309,7 +1309,7 @@ the_heralds_burning_thunder_blood+1:
 
 the_heralds_burning_thunder_blood+2:
   Id: diamond_sword
-  Display: '&6[ III ] &eThe Herald`s Burning Thunder'
+  Display: '&6[ III ] &eThe Harbinger`s Burning Thunder'
   Group: q7-blood
   Enchantments:
     - FIRE_ASPECT:10
@@ -1331,7 +1331,7 @@ the_heralds_burning_thunder_blood+2:
 
 the_heralds_burning_thunder_blood+3:
   Id: diamond_sword
-  Display: '&6[ III ] &eThe Herald`s Burning Thunder'
+  Display: '&6[ III ] &eThe Harbinger`s Burning Thunder'
   Group: q7-blood
   Enchantments:
     - FIRE_ASPECT:10
@@ -1353,7 +1353,7 @@ the_heralds_burning_thunder_blood+3:
 
 the_heralds_burning_thunder_blood+4:
   Id: diamond_sword
-  Display: '&6[ III ] &eThe Herald`s Burning Thunder'
+  Display: '&6[ III ] &eThe Harbinger`s Burning Thunder'
   Group: q7-blood
   Enchantments:
     - FIRE_ASPECT:10
@@ -1375,7 +1375,7 @@ the_heralds_burning_thunder_blood+4:
 
 the_heralds_blazing_onslaught_blood:
   Id: leather_horse_armor
-  Display: '&6[ III ] &c&lTHE HERALD`S BLAZING ONSLAUGHT'
+  Display: '&6[ III ] &c&lTHE HARBINGER`S BLAZING ONSLAUGHT'
   Group: q7-blood
   Lore:
     - ''
@@ -1399,7 +1399,7 @@ the_heralds_blazing_onslaught_blood:
 
 the_heralds_blazing_onslaught_blood+1:
   Id: leather_horse_armor
-  Display: '&6[ III ] &l&cTHE HERALD`S BLAZING ONSLAUGHT'
+  Display: '&6[ III ] &l&cTHE HARBINGER`S BLAZING ONSLAUGHT'
   Group: q7-blood
   Lore:
     - ''
@@ -1423,7 +1423,7 @@ the_heralds_blazing_onslaught_blood+1:
 
 the_heralds_blazing_onslaught_blood+2:
   Id: leather_horse_armor
-  Display: '&6[ III ] &l&cTHE HERALD`S BLAZING ONSLAUGHT'
+  Display: '&6[ III ] &l&cTHE HARBINGER`S BLAZING ONSLAUGHT'
   Group: q7-blood
   Lore:
     - ''
@@ -1447,7 +1447,7 @@ the_heralds_blazing_onslaught_blood+2:
 
 the_heralds_blazing_onslaught_blood+3:
   Id: leather_horse_armor
-  Display: '&6[ III ] &l&cTHE HERALD`S BLAZING ONSLAUGHT'
+  Display: '&6[ III ] &l&cTHE HARBINGER`S BLAZING ONSLAUGHT'
   Group: q7-blood
   Lore:
     - ''
@@ -1471,7 +1471,7 @@ the_heralds_blazing_onslaught_blood+3:
 
 the_heralds_blazing_onslaught_blood+4:
   Id: leather_horse_armor
-  Display: '&6[ III ] &l&cTHE HERALD`S BLAZING ONSLAUGHT'
+  Display: '&6[ III ] &l&cTHE HARBINGER`S BLAZING ONSLAUGHT'
   Group: q7-blood
   Lore:
     - ''

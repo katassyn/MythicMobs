@@ -1,11 +1,11 @@
 Kraken_AbyssalTerror:
   Type: ZOMBIE
-  Display: '&4<&skull> &lKraken, Abyssal Terror &4<&skull>'
+  Display: '&4<&skull> &lKrakar, Abyssal Horror &4<&skull>'
   Health: 90000          # ~70–100k
   Damage: 2000           # bazowy kontaktowy
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Kraken, Abyssal Terror - <mob.hp{round=0}> <&skull>'
+    Title: '&c<&skull> Krakar, Abyssal Horror - <mob.hp{round=0}> <&skull>'
     Range: 50
     Color: RED
     Style: SEGMENTED_12

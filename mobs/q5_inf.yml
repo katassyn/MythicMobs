@@ -286,14 +286,14 @@ wandering_experiment_inf:
 khalys_leader_of_cultists_inf:
   Type: ZOMBIE
   Disguise: WITCH
-  Display: '&4<&skull> &lKhalys, Leader of the Cultists &r&4<&skull>'
+  Display: '&4<&skull> &lKalith, Matriarch of the Cult &r&4<&skull>'
   Health: 3000
   Damage: 200
   Faction: q5_inf
   Group: q5_inf
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Khalys - <mob.hp{round=0}> <&skull>'
+    Title: '&c<&skull> Kalith - <mob.hp{round=0}> <&skull>'
     Color: BLUE
     Style: SEGMENTED_12
   Options:
@@ -326,7 +326,7 @@ khalys_leader_of_cultists_inf:
 khalys_clone_inf:
   Type: ZOMBIE
   Disguise: WITCH
-  Display: '&4Khalys Clone &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
+  Display: '&4Kalith Clone &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]'
   Health: 300 # 10% of original
   Damage: 100 # 50% of original
   Faction: q5_inf

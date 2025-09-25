@@ -1754,7 +1754,7 @@ dark_exile_scythe_blood+4:
 
 mortis_ring_of_death_infernal:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Mortis` Ring of Death'
+  Display: '&9[ I ] &6Mortrix`s Ring of Death'
   Group: q6-infernal
   Lore:
     - ''
@@ -1774,7 +1774,7 @@ mortis_ring_of_death_infernal:
 
 mortis_ring_of_death_infernal+1:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Mortis` Ring of Death'
+  Display: '&9[ I ] &6Mortrix`s Ring of Death'
   Group: q6-infernal
   Lore:
     - ''
@@ -1794,7 +1794,7 @@ mortis_ring_of_death_infernal+1:
 
 mortis_ring_of_death_infernal+2:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Mortis` Ring of Death'
+  Display: '&9[ I ] &6Mortrix`s Ring of Death'
   Group: q6-infernal
   Lore:
     - ''
@@ -1814,7 +1814,7 @@ mortis_ring_of_death_infernal+2:
 
 mortis_ring_of_death_infernal+3:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Mortis` Ring of Death'
+  Display: '&9[ I ] &6Mortrix`s Ring of Death'
   Group: q6-infernal
   Lore:
     - ''
@@ -1834,7 +1834,7 @@ mortis_ring_of_death_infernal+3:
 
 mortis_ring_of_death_infernal+4:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Mortis` Ring of Death'
+  Display: '&9[ I ] &6Mortrix`s Ring of Death'
   Group: q6-infernal
   Lore:
     - ''
@@ -1855,7 +1855,7 @@ mortis_ring_of_death_infernal+4:
 
 mortis_ring_of_death_hell:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Mortis` Ring of Death'
+  Display: '&5[ II ] &6Mortrix`s Ring of Death'
   Group: q6-hell
   Lore:
     - ''
@@ -1875,7 +1875,7 @@ mortis_ring_of_death_hell:
 
 mortis_ring_of_death_hell+1:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Mortis` Ring of Death'
+  Display: '&5[ II ] &6Mortrix`s Ring of Death'
   Group: q6-hell
   Lore:
     - ''
@@ -1895,7 +1895,7 @@ mortis_ring_of_death_hell+1:
 
 mortis_ring_of_death_hell+2:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Mortis` Ring of Death'
+  Display: '&5[ II ] &6Mortrix`s Ring of Death'
   Group: q6-hell
   Lore:
     - ''
@@ -1915,7 +1915,7 @@ mortis_ring_of_death_hell+2:
 
 mortis_ring_of_death_hell+3:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Mortis` Ring of Death'
+  Display: '&5[ II ] &6Mortrix`s Ring of Death'
   Group: q6-hell
   Lore:
     - ''
@@ -1935,7 +1935,7 @@ mortis_ring_of_death_hell+3:
 
 mortis_ring_of_death_hell+4:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Mortis` Ring of Death'
+  Display: '&5[ II ] &6Mortrix`s Ring of Death'
   Group: q6-hell
   Lore:
     - ''
@@ -1956,7 +1956,7 @@ mortis_ring_of_death_hell+4:
 
 mortis_ring_of_death_blood:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Mortis` Ring of Death'
+  Display: '&6[ III ] &6Mortrix`s Ring of Death'
   Group: q6-blood
   Lore:
     - ''
@@ -1976,7 +1976,7 @@ mortis_ring_of_death_blood:
 
 mortis_ring_of_death_blood+1:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Mortis` Ring of Death'
+  Display: '&6[ III ] &6Mortrix`s Ring of Death'
   Group: q6-blood
   Lore:
     - ''
@@ -1996,7 +1996,7 @@ mortis_ring_of_death_blood+1:
 
 mortis_ring_of_death_blood+2:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Mortis` Ring of Death'
+  Display: '&6[ III ] &6Mortrix`s Ring of Death'
   Group: q6-blood
   Lore:
     - ''
@@ -2016,7 +2016,7 @@ mortis_ring_of_death_blood+2:
 
 mortis_ring_of_death_blood+3:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Mortis` Ring of Death'
+  Display: '&6[ III ] &6Mortrix`s Ring of Death'
   Group: q6-blood
   Lore:
     - ''
@@ -2036,7 +2036,7 @@ mortis_ring_of_death_blood+3:
 
 mortis_ring_of_death_blood+4:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Mortis` Ring of Death'
+  Display: '&6[ III ] &6Mortrix`s Ring of Death'
   Group: q6-blood
   Lore:
     - ''
