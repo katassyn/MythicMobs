@@ -122,7 +122,7 @@ stone_golem_hell:
 asterion_hell:
   Type: ZOMBIE
   Disguise: VINDICATOR
-  Display: '&5&lAsterion &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lAsteron &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 9000  # 3x3000
   Damage: 600   # 2x300
   Faction: q9_hell
@@ -276,7 +276,7 @@ minotaur_hell:
 
 ebicarus_hell:
   Type: ZOMBIE
-  Display: '&5&lEbicarus &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lEbidarus &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 9000  # 3x3000
   Damage: 600   # 2x300
   Faction: q9_hell
@@ -308,14 +308,14 @@ ebicarus_hell:
 
 medusa_hell:
   Type: ZOMBIE
-  Display: '&4<&skull> &lM`Edusa &r&4<&skull>'
+  Display: '&4<&skull> &lM`Edara &r&4<&skull>'
   Health: 15000  # 3x5000
   Damage: 400    # 2x200
   Faction: q9_hell
   Group: q9_hell
   BossBar:
     Enabled: true
-    Title: '&c<&skull> M`Edusa - <mob.hp{round=0}> <&skull>'
+    Title: '&c<&skull> M`Edara - <mob.hp{round=0}> <&skull>'
     Color: PURPLE
     Style: SEGMENTED_12
   Options:

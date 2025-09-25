@@ -252,7 +252,7 @@ angry_flamespawn_hell:
 
 commander_embersword_hell:
   Type: ZOMBIE
-  Display: '&5&lCommander Embersword &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lCommander Emberblade &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 9000  # 3x3000
   Damage: 500   # 2x250
   Faction: q7_hell
@@ -286,14 +286,14 @@ commander_embersword_hell:
 # Mission 3 Boss
 herald_of_anderworld_hell:
   Type: ZOMBIE
-  Display: '&4<&skull> &lHerald of the Anderworld &r&4<&skull>'
+  Display: '&4<&skull> &lHarbinger of the Anderrealm &r&4<&skull>'
   Health: 15000  # 3x5000
   Damage: 0      # Uses skills for damage
   Faction: q7_hell
   Group: q7_hell
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Herald of the Anderworld - <mob.hp{round=0}> <&skull>'
+    Title: '&c<&skull> Harbinger of the Anderrealm - <mob.hp{round=0}> <&skull>'
     Color: PURPLE
     Style: SEGMENTED_12
   Options:

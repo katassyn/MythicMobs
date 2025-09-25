@@ -29,7 +29,7 @@ cursed_miner_mine:
 
 deepmine_overseer_kragg:
   Type: WITHER_SKELETON
-  Display: '&4<&skull> &lOverseer Kragg &r&4<&skull>'
+  Display: '&4<&skull> &lOverseer Kraggar &r&4<&skull>'
   Health: 20000
   Damage: 500
   BossBar:

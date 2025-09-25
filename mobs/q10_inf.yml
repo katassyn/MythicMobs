@@ -113,7 +113,7 @@ combat_ready_zorlobb_inf:
 
 melas_the_swift_footed_inf:
   Type: ZOMBIE
-  Display: '&5&lMelas the Swift-Footed &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lMelan the Swiftstride &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2000  # Mini-boss HP
   Damage: 150   # Medium damage
   Faction: q10_inf
@@ -266,7 +266,7 @@ mordacious_khaross_inf:
 
 akheilos_inf:
   Type: ZOMBIE
-  Display: '&5&lAkheilos &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lAkhelion &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 2000  # Mini-boss HP
   Damage: 200   # High damage
   Faction: q10_inf
@@ -299,14 +299,14 @@ akheilos_inf:
 # Mission 3 Boss
 parallel_world_gorga_inf:
   Type: ZOMBIE
-  Display: '&4<&skull> &lGorga &r&4<&skull>'
+  Display: '&4<&skull> &lGorgra &r&4<&skull>'
   Health: 5000  # Boss HP
   Damage: 200   # Base damage
   Faction: q10_inf
   Group: q10_inf
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Gorga - <mob.hp{round=0}> <&skull>'
+    Title: '&c<&skull> Gorgra - <mob.hp{round=0}> <&skull>'
     Color: BLUE
     Style: SEGMENTED_12
   Options:
