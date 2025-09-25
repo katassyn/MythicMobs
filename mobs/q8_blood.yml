@@ -334,14 +334,14 @@ pale_enforcer_blood:
 
 sigrismarr_priest_of_fjalnir_blood:
   Type: ZOMBIE
-  Display: '&4<&skull> &lSigrismarr, Twisted Priest of Fjalnir &r&4<&skull>'
+  Display: '&4<&skull> &lSigrosmar, Twisted Priest of Fjolnar &r&4<&skull>'
   Health: 50000
   Damage: 0
   Faction: q8_blood
   Group: q8_blood
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Sigrismarr - <mob.hp{round=0}> <&skull>'
+    Title: '&c<&skull> Sigrosmar - <mob.hp{round=0}> <&skull>'
     Color: RED
     Style: SEGMENTED_12
   Options:

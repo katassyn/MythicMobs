@@ -93,7 +93,7 @@ obstinate_toltec_shaman:
 quacking_orbax:
   Type: ZOMBIE
   Disguise: SLIME
-  Display: '&5&l Quacking Orbax&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Display: '&5&l Quarling Orbax&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 2500
   Damage: 100
   Armor: 0

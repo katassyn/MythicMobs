@@ -93,7 +93,7 @@ death_knight_inf:
 
 mortis_death_knight_inf:
   Type: SKELETON
-  Display: '&5&lMortis Death Knight &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lMortrix Death Knight &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000
   Damage: 300
   Faction: q6_inf
@@ -251,7 +251,7 @@ elite_skeleton_warrior_inf:
 
 murot_high_priest_inf:
   Type: SKELETON
-  Display: '&5&lMurot, High Priest of Mortis &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lMurond, High Priest of Mortrix &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000
   Damage: 200
   Faction: q6_inf
@@ -287,14 +287,14 @@ murot_high_priest_inf:
 skeledragon_phase1_inf:
   Type: Zombie
   Disguise: Horse
-  Display: '&4<&skull> &lSkeledragon &r&4<&skull>'
+  Display: '&4<&skull> &lBonewyrm &r&4<&skull>'
   Health: 5000
   Damage: 300
   Faction: q6_inf
   Group: q6_inf
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Skeledragon - Phase 1 <&skull>'
+    Title: '&c<&skull> Bonewyrm - Phase 1 <&skull>'
     Color: BLUE
     Style: SEGMENTED_12
   Options:
@@ -319,14 +319,14 @@ skeledragon_phase1_inf:
 skeledragon_phase2_inf:
   Type: Zombie
   Disguise: Horse
-  Display: '&4<&skull> &lMortis & Skeledragon &r&4<&skull>'
+  Display: '&4<&skull> &lMortrix & Bonewyrm &r&4<&skull>'
   Health: 7000
   Damage: 400
   Faction: q6_inf
   Group: q6_inf
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Mortis & Skeledragon - Phase 2 <&skull>'
+    Title: '&c<&skull> Mortrix & Bonewyrm - Phase 2 <&skull>'
     Color: BLUE
     Style: SEGMENTED_12
   Options:
@@ -352,14 +352,14 @@ skeledragon_phase2_inf:
 
 mortis_phase3_inf:
   Type: SKELETON
-  Display: '&4<&skull> &lMortis, Unchained God of Death &r&4<&skull>'
+  Display: '&4<&skull> &lMortrix, Unbound God of Death &r&4<&skull>'
   Health: 10000
   Damage: 500
   Faction: q6_inf
   Group: q6_inf
   BossBar:
     Enabled: true
-    Title: '&c<&skull> Mortis - Final Phase <&skull>'
+    Title: '&c<&skull> Mortrix - Final Phase <&skull>'
     Color: BLUE
     Style: SEGMENTED_12
   Options:
