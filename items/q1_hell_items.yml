@@ -66,7 +66,7 @@ path_of_the_untouchables_hell:
 
 cuchulains_battle_armor_hell:
   Id: diamond_chestplate
-  Display: '&5[ II ] &6Grimmor`s Battle Armor'
+  Display: '&5[ II ] &6Emberforged Battle Armor'
   Group: q1-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:70

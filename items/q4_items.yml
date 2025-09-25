@@ -66,7 +66,7 @@ strike_of_the_untouchables_infernal:
 # Artaya's Cape of Life (Płaszcz - Cloak)
 artayas_cape_of_life_infernal:
   Id: white_banner  # Cloak
-  Display: '&9[ I ] &6Bearok`s Cape of Life'
+  Display: '&9[ I ] &6Heartwood Cape of Life'
   Group: q4-infernal
   Lore:
     - ''
@@ -150,7 +150,7 @@ strike_of_the_untouchables_hell:
 # Artaya's Cape of Life
 artayas_cape_of_life_hell:
   Id: white_banner
-  Display: '&5[ II ] &6Bearok`s Cape of Life'
+  Display: '&5[ II ] &6Heartwood Cape of Life'
   Group: q4-hell
   Lore:
     - ''
@@ -169,7 +169,7 @@ artayas_cape_of_life_hell:
 # Artaya's Wild Care (Tarcza - Shield)
 artayas_wild_care_hell:
   Id: iron_door
-  Display: '&5[ II ] &eBearok`s Wild Care'
+  Display: '&5[ II ] &eHeartwood Wildguard'
   Group: q4-hell
   Lore:
     - ''
@@ -257,7 +257,7 @@ strike_of_the_untouchables_blood:
 # Artaya's Cape of Life
 artayas_cape_of_life_blood:
   Id: white_banner
-  Display: '&6[ III ] &6Bearok`s Cape of Life'
+  Display: '&6[ III ] &6Heartwood Cape of Life'
   Group: q4-blood
   Lore:
     - ''
@@ -276,7 +276,7 @@ artayas_cape_of_life_blood:
 # Artaya's Wild Care
 artayas_wild_care_blood:
   Id: iron_door
-  Display: '&6[ III ] &eBearok`s Wild Care'
+  Display: '&6[ III ] &eHeartwood Wildguard'
   Group: q4-blood
   Lore:
     - ''

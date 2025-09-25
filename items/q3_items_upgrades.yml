@@ -188,7 +188,7 @@ glacial_boots_infernal+4:
 
 agathons_ring_of_order_infernal+1:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Heredorn`s Ring of Order'
+  Display: '&9[ I ] &6Frostbound Ring of Order'
   Group: q3-infernal
   Lore:
     - ''
@@ -208,7 +208,7 @@ agathons_ring_of_order_infernal+1:
 
 agathons_ring_of_order_infernal+2:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Heredorn`s Ring of Order'
+  Display: '&9[ I ] &6Frostbound Ring of Order'
   Group: q3-infernal
   Lore:
     - ''
@@ -228,7 +228,7 @@ agathons_ring_of_order_infernal+2:
 
 agathons_ring_of_order_infernal+3:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Heredorn`s Ring of Order'
+  Display: '&9[ I ] &6Frostbound Ring of Order'
   Group: q3-infernal
   Lore:
     - ''
@@ -248,7 +248,7 @@ agathons_ring_of_order_infernal+3:
 
 agathons_ring_of_order_infernal+4:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Heredorn`s Ring of Order'
+  Display: '&9[ I ] &6Frostbound Ring of Order'
   Group: q3-infernal
   Lore:
     - ''
@@ -548,7 +548,7 @@ glacial_boots_hell+4:
 
 agathons_ring_of_order_hell+1:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Heredorn`s Ring of Order'
+  Display: '&5[ II ] &6Frostbound Ring of Order'
   Group: q3-hell
   Lore:
     - ''
@@ -568,7 +568,7 @@ agathons_ring_of_order_hell+1:
 
 agathons_ring_of_order_hell+2:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Heredorn`s Ring of Order'
+  Display: '&5[ II ] &6Frostbound Ring of Order'
   Group: q3-hell
   Lore:
     - ''
@@ -588,7 +588,7 @@ agathons_ring_of_order_hell+2:
 
 agathons_ring_of_order_hell+3:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Heredorn`s Ring of Order'
+  Display: '&5[ II ] &6Frostbound Ring of Order'
   Group: q3-hell
   Lore:
     - ''
@@ -608,7 +608,7 @@ agathons_ring_of_order_hell+3:
 
 agathons_ring_of_order_hell+4:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Heredorn`s Ring of Order'
+  Display: '&5[ II ] &6Frostbound Ring of Order'
   Group: q3-hell
   Lore:
     - ''
@@ -1005,7 +1005,7 @@ glacial_boots_blood+4:
 
 agathons_ring_of_order_blood+1:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Heredorn`s Ring of Order'
+  Display: '&6[ III ] &6Frostbound Ring of Order'
   Group: q3-blood
   Lore:
     - ''
@@ -1025,7 +1025,7 @@ agathons_ring_of_order_blood+1:
 
 agathons_ring_of_order_blood+2:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Heredorn`s Ring of Order'
+  Display: '&6[ III ] &6Frostbound Ring of Order'
   Group: q3-blood
   Lore:
     - ''
@@ -1045,7 +1045,7 @@ agathons_ring_of_order_blood+2:
 
 agathons_ring_of_order_blood+3:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Heredorn`s Ring of Order'
+  Display: '&6[ III ] &6Frostbound Ring of Order'
   Group: q3-blood
   Lore:
     - ''
@@ -1065,7 +1065,7 @@ agathons_ring_of_order_blood+3:
 
 agathons_ring_of_order_blood+4:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Heredorn`s Ring of Order'
+  Display: '&6[ III ] &6Frostbound Ring of Order'
   Group: q3-blood
   Lore:
     - ''

@@ -46,7 +46,7 @@ glacial_boots_infernal:
 
 agathons_ring_of_order_infernal:
   Id: tnt_minecart
-  Display: '&9[ I ] &6Heredorn`s Ring of Order'
+  Display: '&9[ I ] &6Frostbound Ring of Order'
   Group: q3-infernal
   Lore:
     - ''
@@ -134,7 +134,7 @@ glacial_boots_hell:
 
 agathons_ring_of_order_hell:
   Id: tnt_minecart
-  Display: '&5[ II ] &6Heredorn`s Ring of Order'
+  Display: '&5[ II ] &6Frostbound Ring of Order'
   Group: q3-hell
   Lore:
     - ''
@@ -246,7 +246,7 @@ glacial_boots_blood:
 
 agathons_ring_of_order_blood:
   Id: tnt_minecart
-  Display: '&6[ III ] &6Heredorn`s Ring of Order'
+  Display: '&6[ III ] &6Frostbound Ring of Order'
   Group: q3-blood
   Lore:
     - ''

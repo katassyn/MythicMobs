@@ -66,7 +66,7 @@ path_of_the_untouchables_hell+1:
 
 cuchulains_battle_armor_hell+1:
   Id: diamond_chestplate
-  Display: '&5[ II ] &6Grimmor`s Battle Armor'
+  Display: '&5[ II ] &6Emberforged Battle Armor'
   Group: q1-hell_+1
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:75
@@ -203,7 +203,7 @@ path_of_the_untouchables_hell+2:
 
 cuchulains_battle_armor_hell+2:
   Id: diamond_chestplate
-  Display: '&5[ II ] &6Grimmor`s Battle Armor'
+  Display: '&5[ II ] &6Emberforged Battle Armor'
   Group: q1-hell_+2
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:80
@@ -341,7 +341,7 @@ path_of_the_untouchables_hell+3:
 
 cuchulains_battle_armor_hell+3:
   Id: diamond_chestplate
-  Display: '&5[ II ] &6Grimmor`s Battle Armor'
+  Display: '&5[ II ] &6Emberforged Battle Armor'
   Group: q1-hell_+3
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:85
@@ -479,7 +479,7 @@ path_of_the_untouchables_hell+4:
 
 cuchulains_battle_armor_hell+4:
   Id: diamond_chestplate
-  Display: '&5[ II ] &6Grimmor`s Battle Armor'
+  Display: '&5[ II ] &6Emberforged Battle Armor'
   Group: q1-hell_+4
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:90

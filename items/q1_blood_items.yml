@@ -134,7 +134,7 @@ fyrgons_ring_of_fire:
 
 cuchulains_battle_armor_bloodshed:
   Id: diamond_chestplate
-  Display: '&6[ III ] &6Grimmor`s Battle Armor'
+  Display: '&6[ III ] &6Emberforged Battle Armor'
   Group: q1-bloodshed
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:80
