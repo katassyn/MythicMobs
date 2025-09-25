@@ -108,7 +108,7 @@ aegis_shield_of_zeus_t4:
 # HELM OF MEDUSA (T4 Extraordinary)
 helm_of_medusa_t4:
   Id: diamond_helmet
-  Display: '&5[ T4 ] &5Helm of Medusa'
+  Display: '&5[ T4 ] &5Helm of M`Edara'
   Group: mythological_t4
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:50
@@ -224,7 +224,7 @@ blessed_aegis_shield_of_zeus_t4:
 # BLESSED HELM OF MEDUSA (T4 Extraordinary)
 blessed_helm_of_medusa_t4:
   Id: diamond_helmet
-  Display: '&5[ T4 ] &5Blessed Helm of Medusa'
+  Display: '&5[ T4 ] &5Blessed Helm of M`Edara'
   Group: mythological_t4
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:63
@@ -340,7 +340,7 @@ divine_aegis_shield_of_zeus_t4:
 # DIVINE HELM OF MEDUSA (T4 Extraordinary)
 divine_helm_of_medusa_t4:
   Id: diamond_helmet
-  Display: '&5[ T4 ] &5Divine Helm of Medusa'
+  Display: '&5[ T4 ] &5Divine Helm of M`Edara'
   Group: mythological_t4
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:75
@@ -466,7 +466,7 @@ transcendent_aegis_shield_of_zeus_t4:
 # TRANSCENDENT HELM OF MEDUSA (T4 Extraordinary)
 transcendent_helm_of_medusa_t4:
   Id: diamond_helmet
-  Display: '&5[ T4 ] &5Transcendent Helm of Medusa'
+  Display: '&5[ T4 ] &5Transcendent Helm of M`Edara'
   Group: mythological_t4
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:88

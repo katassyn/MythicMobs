@@ -56,7 +56,7 @@ shroud_of_the_untouchables_bloodshed:
 
 oceanus_ring_of_poison_bloodshed:
   Id: hopper_minecart
-  Display: '&6[ III ] &6Oceanus`s Ring of Poison'
+  Display: '&6[ III ] &6Araksha`s Ring of Poison'
   Group: q2-blood
   Lore:
     - ''
@@ -74,7 +74,7 @@ oceanus_ring_of_poison_bloodshed:
 
 arachnas_venomous_revenge_blood:
   Id: diamond_sword
-  Display: '&6[ III ] &eArachna`s Venomous Revenge'
+  Display: '&6[ III ] &eAraksha`s Venomous Revenge'
   Group: q2-blood
   Lore:
     - ''
@@ -95,7 +95,7 @@ arachnas_venomous_revenge_blood:
 
 arachnas_vigor_of_the_spider:
   Id: chest_minecart
-  Display: '&6[ III ] &l&cARACHNA`S VIGOR OF THE SPIDER'
+  Display: '&6[ III ] &l&cARAKSHA`S VIGOR OF THE SPIDER'
   Group: q2-blood
   Lore:
     - ''

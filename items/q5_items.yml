@@ -1,6 +1,6 @@
 # q5-infernal.yml
 
-# Andermagic Neckel (Naszyjnik)
+# Arcanum Nexus Torque (Naszyjnik)
 andermagic_neckel_infernal:
   Id: chest_minecart  # Naszyjnik
   Display: '&9[ I ] &9Andermagic Neckel'
@@ -21,7 +21,7 @@ andermagic_neckel_infernal:
   Hide:
     - ATTRIBUTES
 
-# Void Axe
+# Nethercleaver Axe
 void_axe_infernal:
   Id: iron_axe
   Display: '&9[ I ] &9Void Axe'
@@ -40,7 +40,7 @@ void_axe_infernal:
   Hide:
     - ATTRIBUTES
 
-# Duty of the Untouchables (Zbroja)
+# Duty of the Unbound (Zbroja)
 duty_of_the_untouchables_infernal:
   Id: diamond_chestplate
   Display: '&9[ I ] &5Duty of the Untouchables'
@@ -66,7 +66,7 @@ duty_of_the_untouchables_infernal:
 # Khalys' Dark Gaze (Hełm)
 khalys_dark_gaze_infernal:
   Id: diamond_helmet
-  Display: '&9[ I ] &6Khalys` Dark Gaze'
+  Display: '&9[ I ] &6Kalith` Dark Gaze'
   Group: q5-infernal
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:60
@@ -87,7 +87,7 @@ khalys_dark_gaze_infernal:
     - ATTRIBUTES
 # q5-hell.yml
 
-# Andermagic Neckel (Naszyjnik)
+# Arcanum Nexus Torque (Naszyjnik)
 andermagic_neckel_hell:
   Id: chest_minecart
   Display: '&5[ II ] &9Andermagic Neckel'
@@ -108,7 +108,7 @@ andermagic_neckel_hell:
   Hide:
     - ATTRIBUTES
 
-# Void Axe
+# Nethercleaver Axe
 void_axe_hell:
   Id: iron_axe
   Display: '&5[ II ] &9Void Axe'
@@ -127,7 +127,7 @@ void_axe_hell:
   Hide:
     - ATTRIBUTES
 
-# Duty of the Untouchables (Zbroja)
+# Duty of the Unbound (Zbroja)
 duty_of_the_untouchables_hell:
   Id: diamond_chestplate
   Display: '&5[ II ] &5Duty of the Untouchables'
@@ -153,7 +153,7 @@ duty_of_the_untouchables_hell:
 # Khalys' Dark Gaze (Hełm)
 khalys_dark_gaze_hell:
   Id: diamond_helmet
-  Display: '&5[ II ] &6Khalys` Dark Gaze'
+  Display: '&5[ II ] &6Kalith` Dark Gaze'
   Group: q5-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:70
@@ -176,7 +176,7 @@ khalys_dark_gaze_hell:
 # Khalys' Dark Scheme (Naszyjnik)
 khalys_dark_scheme_hell:
   Id: chest_minecart
-  Display: '&5[ II ] &eKhalys` Dark Scheme'
+  Display: '&5[ II ] &eKalith` Dark Scheme'
   Group: q5-hell
   Lore:
     - ''
@@ -197,7 +197,7 @@ khalys_dark_scheme_hell:
     - ATTRIBUTES
 # q5-blood.yml
 
-# Andermagic Neckel (Naszyjnik)
+# Arcanum Nexus Torque (Naszyjnik)
 andermagic_neckel_blood:
   Id: chest_minecart
   Display: '&6[ III ] &9Andermagic Neckel'
@@ -218,7 +218,7 @@ andermagic_neckel_blood:
   Hide:
     - ATTRIBUTES
 
-# Void Axe
+# Nethercleaver Axe
 void_axe_blood:
   Id: iron_axe
   Display: '&6[ III ] &9Void Axe'
@@ -237,7 +237,7 @@ void_axe_blood:
   Hide:
     - ATTRIBUTES
 
-# Duty of the Untouchables (Zbroja)
+# Duty of the Unbound (Zbroja)
 duty_of_the_untouchables_blood:
   Id: diamond_chestplate
   Display: '&6[ III ] &5Duty of the Untouchables'
@@ -263,7 +263,7 @@ duty_of_the_untouchables_blood:
 # Khalys' Dark Gaze (Hełm)
 khalys_dark_gaze_blood:
   Id: diamond_helmet
-  Display: '&6[ III ] &6Khalys` Dark Gaze'
+  Display: '&6[ III ] &6Kalith` Dark Gaze'
   Group: q5-blood
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:80
@@ -286,7 +286,7 @@ khalys_dark_gaze_blood:
 # Khalys' Dark Scheme (Naszyjnik)
 khalys_dark_scheme_blood:
   Id: chest_minecart
-  Display: '&6[ III ] &eKhalys` Dark Scheme'
+  Display: '&6[ III ] &eKalith` Dark Scheme'
   Group: q5-blood
   Lore:
     - ''

@@ -61,7 +61,7 @@ shroud_of_the_untouchables_bloodshed+1:
 
 oceanus_ring_of_poison_bloodshed+1:
   Id: hopper_minecart
-  Display: '&6[ III ] &6Oceanus`s Ring of Poison'
+  Display: '&6[ III ] &6Araksha`s Ring of Poison'
   Group: q2-blood_+1
   Lore:
     - ''
@@ -79,7 +79,7 @@ oceanus_ring_of_poison_bloodshed+1:
 
 arachnas_venomous_revenge_blood+1:
   Id: diamond_sword
-  Display: '&6[ III ] &eArachna`s Venomous Revenge'
+  Display: '&6[ III ] &eAraksha`s Venomous Revenge'
   Group: q2-blood_+1
   Lore:
     - ''
@@ -100,7 +100,7 @@ arachnas_venomous_revenge_blood+1:
 
 arachnas_vigor_of_the_spider+1:
   Id: chest_minecart
-  Display: '&6[ III ] &l&cARACHNA`S VIGOR OF THE SPIDER'
+  Display: '&6[ III ] &l&cARAKSHA`S VIGOR OF THE SPIDER'
   Group: q2-blood_+1
   Lore:
     - ''
@@ -180,7 +180,7 @@ shroud_of_the_untouchables_bloodshed+2:
 
 oceanus_ring_of_poison_bloodshed+2:
   Id: hopper_minecart
-  Display: '&6[ III ] &6Oceanus`s Ring of Poison'
+  Display: '&6[ III ] &6Araksha`s Ring of Poison'
   Group: q2-blood_+2
   Lore:
     - ''
@@ -199,7 +199,7 @@ oceanus_ring_of_poison_bloodshed+2:
 
 arachnas_venomous_revenge_blood+2:
   Id: diamond_sword
-  Display: '&6[ III ] &eArachna`s Venomous Revenge'
+  Display: '&6[ III ] &eAraksha`s Venomous Revenge'
   Group: q2-blood_+2
   Lore:
     - ''
@@ -221,7 +221,7 @@ arachnas_venomous_revenge_blood+2:
 
 arachnas_vigor_of_the_spider+2:
   Id: chest_minecart
-  Display: '&6[ III ] &l&cARACHNA`S VIGOR OF THE SPIDER'
+  Display: '&6[ III ] &l&cARAKSHA`S VIGOR OF THE SPIDER'
   Group: q2-blood_+2
   Lore:
     - ''
@@ -302,7 +302,7 @@ shroud_of_the_untouchables_bloodshed+3:
 
 oceanus_ring_of_poison_bloodshed+3:
   Id: hopper_minecart
-  Display: '&6[ III ] &6Oceanus`s Ring of Poison'
+  Display: '&6[ III ] &6Araksha`s Ring of Poison'
   Group: q2-blood_+3
   Lore:
     - ''
@@ -320,7 +320,7 @@ oceanus_ring_of_poison_bloodshed+3:
 
 arachnas_venomous_revenge_blood+3:
   Id: diamond_sword
-  Display: '&6[ III ] &eArachna`s Venomous Revenge'
+  Display: '&6[ III ] &eAraksha`s Venomous Revenge'
   Group: q2-blood_+3
   Lore:
     - ''
@@ -341,7 +341,7 @@ arachnas_venomous_revenge_blood+3:
 
 arachnas_vigor_of_the_spider+3:
   Id: chest_minecart
-  Display: '&6[ III ] &l&cARACHNA`S VIGOR OF THE SPIDER'
+  Display: '&6[ III ] &l&cARAKSHA`S VIGOR OF THE SPIDER'
   Group: q2-blood_+3
   Lore:
     - ''
@@ -422,7 +422,7 @@ shroud_of_the_untouchables_bloodshed+4:
 
 oceanus_ring_of_poison_bloodshed+4:
   Id: hopper_minecart
-  Display: '&6[ III ] &6Oceanus`s Ring of Poison'
+  Display: '&6[ III ] &6Araksha`s Ring of Poison'
   Group: q2-blood_+4
   Lore:
     - ''
@@ -440,7 +440,7 @@ oceanus_ring_of_poison_bloodshed+4:
 
 arachnas_venomous_revenge_blood+4:
   Id: diamond_sword
-  Display: '&6[ III ] &eArachna`s Venomous Revenge'
+  Display: '&6[ III ] &eAraksha`s Venomous Revenge'
   Group: q2-blood_+4
   Lore:
     - ''
@@ -461,7 +461,7 @@ arachnas_venomous_revenge_blood+4:
 
 arachnas_vigor_of_the_spider+4:
   Id: chest_minecart
-  Display: '&6[ III ] &l&cARACHNA`S VIGOR OF THE SPIDER'
+  Display: '&6[ III ] &l&cARAKSHA`S VIGOR OF THE SPIDER'
   Group: q2-blood_+4
   Lore:
     - ''

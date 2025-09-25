@@ -66,7 +66,7 @@ path_of_the_untouchables_hell:
 
 cuchulains_battle_armor_hell:
   Id: diamond_chestplate
-  Display: '&5[ II ] &6Cuchulain`s Battle Armor'
+  Display: '&5[ II ] &6Grimmor`s Battle Armor'
   Group: q1-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:70
@@ -88,7 +88,7 @@ cuchulains_battle_armor_hell:
 
 grimmags_flaming_wrath:
   Id: furnace_minecart
-  Display: '&5[ II ] &eGrimmag`s Flaming Wrath'
+  Display: '&5[ II ] &eGrimmor`s Flaming Wrath'
   Group: q1-hell
   Lore:
     - ''
@@ -110,7 +110,7 @@ grimmags_flaming_wrath:
 
 fiery_tracks_of_grimmag:
   Id: diamond_boots
-  Display: '&5[ II ] &eFiery Tracks of Grimmag'
+  Display: '&5[ II ] &eFiery Tracks of Grimmor'
   Group: q1-hell
   Enchantments:
     - PROTECTION_ENVIRONMENTAL:80
