@@ -245,8 +245,7 @@ bone_warder_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 b1000_combat_mechanoid_hell_drop:
   Drops:
@@ -265,8 +264,7 @@ b1000_combat_mechanoid_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 thundering_cyclops_hell_drop:
   Drops:
@@ -285,8 +283,7 @@ thundering_cyclops_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 dark_sentinel_hell_drop:
   Drops:
@@ -305,8 +302,7 @@ dark_sentinel_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 gate_guard_hell_drop:
   Drops:
@@ -344,8 +340,7 @@ razorclaw_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 flamescale_hell_drop:
   Drops:
@@ -364,8 +359,7 @@ flamescale_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 fireclaw_hell_drop:
   Drops:
@@ -384,8 +378,7 @@ fireclaw_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 flamespawn_hell_drop:
   Drops:
@@ -404,8 +397,7 @@ flamespawn_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 commander_hell_drop:
   Drops:
@@ -465,8 +457,7 @@ bone_warder_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 b1000_combat_mechanoid_blood_drop:
   Drops:
@@ -485,8 +476,7 @@ b1000_combat_mechanoid_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 thundering_cyclops_blood_drop:
   Drops:
@@ -566,8 +556,7 @@ razorclaw_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 flamescale_blood_drop:
   Drops:
@@ -586,8 +575,7 @@ flamescale_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 fireclaw_blood_drop:
   Drops:
@@ -606,8 +594,7 @@ fireclaw_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_blood 1 0.03
-    - nothing 1 0.97
+    - nothing 1 1
 
 flamespawn_blood_drop:
   Drops:
@@ -626,8 +613,7 @@ flamespawn_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fyrgons_fire_belt_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 commander_blood_drop:
   Drops:

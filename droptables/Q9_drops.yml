@@ -245,8 +245,7 @@ agile_satyr_warrior_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 perfidious_satyr_archer_hell_drop:
   Drops:
@@ -265,8 +264,7 @@ perfidious_satyr_archer_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 cohort_swordsman_hell_drop:
   Drops:
@@ -285,8 +283,7 @@ cohort_swordsman_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 stone_golem_hell_drop:
   Drops:
@@ -305,8 +302,7 @@ stone_golem_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 asterion_hell_drop:
   Drops:
@@ -344,8 +340,7 @@ jabbax_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 zorlobb_warrior_hell_drop:
   Drops:
@@ -364,8 +359,7 @@ zorlobb_warrior_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 gorgon_acolyte_hell_drop:
   Drops:
@@ -384,8 +378,7 @@ gorgon_acolyte_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 minotaur_hell_drop:
   Drops:
@@ -404,8 +397,7 @@ minotaur_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 ebicarus_hell_drop:
   Drops:
@@ -465,8 +457,7 @@ agile_satyr_warrior_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 perfidious_satyr_archer_blood_drop:
   Drops:
@@ -485,8 +476,7 @@ perfidious_satyr_archer_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 cohort_swordsman_blood_drop:
   Drops:
@@ -565,8 +555,7 @@ jabbax_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 zorlobb_warrior_blood_drop:
   Drops:
@@ -585,8 +574,7 @@ zorlobb_warrior_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_blood 1 0.03
-    - nothing 1 0.97
+    - nothing 1 1
 
 gorgon_acolyte_blood_drop:
   Drops:
@@ -605,8 +593,7 @@ gorgon_acolyte_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 minotaur_blood_drop:
   Drops:
@@ -625,8 +612,7 @@ minotaur_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_poison_crown_blood 1 0.03
-    - nothing 1 0.97
+    - nothing 1 1
 
 ebicarus_blood_drop:
   Drops:
