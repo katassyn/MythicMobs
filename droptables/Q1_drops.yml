@@ -145,8 +145,98 @@ raazghul_the_corruptor_blood_item_drops:
   Drops:
     - cuchulains_battle_armor_bloodshed 1 0.06
     - grimmags_flaming_wrath_bloodshed 1 0.025
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=1}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=2}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=3}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=4}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=5}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=6}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=7}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=8}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=9}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=10}
     - fiery_tracks_of_grimmag_bloodshed 1 0.025
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=1}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=2}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=3}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=4}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=5}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=6}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=7}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=8}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=9}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=10}
     - fyrgons_ring_of_fire 1 0.001
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=1}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=2}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=3}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=4}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=5}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=6}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=7}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=8}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=9}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=10}
 
 grimmag_blood:
   Drops:
@@ -160,5 +250,95 @@ grimmag_blood_item_drops:
   Drops:
     - cuchulains_battle_armor_bloodshed 1 0.15
     - grimmags_flaming_wrath_bloodshed 1 0.05
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=1}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=2}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=3}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=4}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=5}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=6}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=7}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=8}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=9}
+    - grimmags_flaming_wrath_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=10}
     - fiery_tracks_of_grimmag_bloodshed 1 0.05
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=1}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=2}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=3}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=4}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=5}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=6}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=7}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=8}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=9}
+    - fiery_tracks_of_grimmag_bloodshed 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=10}
     - fyrgons_ring_of_fire 1 0.01
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=1}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=2}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=3}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=4}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=5}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=6}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=7}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=8}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=9}
+    - fyrgons_ring_of_fire 1 0.002
+      Conditions:
+        - attribute{attribute=GENERIC_LUCK amount=>=10}
