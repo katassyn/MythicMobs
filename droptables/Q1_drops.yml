@@ -255,8 +255,8 @@ grimmag_blood_rare_drops:
     - cuchulains_battle_armor_bloodshed 1 0.08
     - grimmags_flaming_wrath_bloodshed 1 0.03
     - fiery_tracks_of_grimmag_bloodshed 1 0.03
-    - fyrgons_ring_of_fire 1 0.008
-    - nothing 1 0.852
+    - fyrgons_ring_of_fire 1 0.01
+    - nothing 1 0.85
 
 q1_soul_luck:
   TotalItems: 1
