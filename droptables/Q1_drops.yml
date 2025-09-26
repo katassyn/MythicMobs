@@ -19,7 +19,6 @@ flamecult_servant_inf_rare_drops:
     - path_of_the_untouchables 1 0.005
     - cuchulains_battle_armor 1 0.001
     - nothing 1 0.994
-
 flamecult_worshipper_inf:
   Drops:
     - ips 1 0.25
@@ -38,7 +37,6 @@ flamecult_worshipper_inf_rare_drops:
   Drops:
     - cuchulains_battle_armor 1 0.01
     - nothing 1 0.99
-
 raazghul_the_corruptor_inf:
   Drops:
     - ips 1 0.5
@@ -57,7 +55,6 @@ raazghul_the_corruptor_inf_rare_drops:
   Drops:
     - cuchulains_battle_armor 1 0.025
     - nothing 1 0.975
-
 grimmag_inf:
   Drops:
     - grimmag_frag_I 1 0.05
