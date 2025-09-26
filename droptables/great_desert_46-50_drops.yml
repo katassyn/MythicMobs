@@ -3,39 +3,52 @@ serpent_fighter:
     # - experience 10
     - serpent_fighter_item_drops 1
 serpent_fighter_item_drops:
-  MinItems: 0
-  MaxItems: 1
+  TotalItems: 1
+  BonusLuckItems: 0.15
   Drops:
     - serpent_gaze 1 0.01
     - viper_coils 1 0.01
     - scarab_helm 1 0.005
+    - nothing 1 0.975
 
 serpent_spitter:
   Drops:
     # - experience 10
     - serpent_spitter_item_drops 1
+    - serpent_spitter_rare_drops 1
 serpent_spitter_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
     - serpent_gaze 1 0.03
+serpent_spitter_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - viper_coils 1 0.003
     - scarab_helm 1 0.015
     - scales_of_the_serpent 1 0.005
     - scorpion_sting 1 0.005
+    - nothing 1 0.972
 
 scarab_knephre:
   Drops:
     - deaddd_bush 1 0.25
     # - experience 10
     - scarab_knephre_item_drops 1
+    - scarab_knephre_rare_drops 1
 scarab_knephre_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
     - serpent_gaze 1 0.08
     - viper_coils 1 0.08
+scarab_knephre_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - scarab_helm 1 0.025
     - scales_of_the_serpent 1 0.015
     - scorpion_sting 1 0.015
     - nefrit_blade 1 0.005
+    - nothing 1 0.94

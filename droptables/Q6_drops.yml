@@ -5,6 +5,7 @@ fallen_warrior_inf_drop:
   Drops:
     - ips 1 0.01
     - fallen_warrior_inf_drop_item_drops 1
+    - fallen_warrior_inf_drop_rare_drops 1
 fallen_warrior_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -14,12 +15,19 @@ fallen_warrior_inf_drop_item_drops:
     - dark_exile_leggings_infernal 1 0.01
     - dark_exile_boots_infernal 1 0.01
     - dark_exile_scythe_infernal 1 0.005
+
+fallen_warrior_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_infernal 1 0.0005
+    - nothing 1 0.9995
 
 fallen_archer_inf_drop:
   Drops:
     - ips 1 0.01
     - fallen_archer_inf_drop_item_drops 1
+    - fallen_archer_inf_drop_rare_drops 1
 fallen_archer_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -29,12 +37,19 @@ fallen_archer_inf_drop_item_drops:
     - dark_exile_leggings_infernal 1 0.01
     - dark_exile_boots_infernal 1 0.01
     - dark_exile_scythe_infernal 1 0.005
+
+fallen_archer_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_infernal 1 0.0005
+    - nothing 1 0.9995
 
 raging_soul_inf_drop:
   Drops:
     - ips 1 0.01
     - raging_soul_inf_drop_item_drops 1
+    - raging_soul_inf_drop_rare_drops 1
 raging_soul_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -44,12 +59,19 @@ raging_soul_inf_drop_item_drops:
     - dark_exile_leggings_infernal 1 0.01
     - dark_exile_boots_infernal 1 0.01
     - dark_exile_scythe_infernal 1 0.005
+
+raging_soul_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_infernal 1 0.0005
+    - nothing 1 0.9995
 
 elite_skeleton_archer_inf_drop:
   Drops:
     - ips 1 0.25
     - elite_skeleton_archer_inf_drop_item_drops 1
+    - elite_skeleton_archer_inf_drop_rare_drops 1
 elite_skeleton_archer_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -59,12 +81,19 @@ elite_skeleton_archer_inf_drop_item_drops:
     - dark_exile_leggings_infernal 1 0.01
     - dark_exile_boots_infernal 1 0.01
     - dark_exile_scythe_infernal 1 0.01
+
+elite_skeleton_archer_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_infernal 1 0.01
+    - nothing 1 0.99
 
 elite_skeleton_warrior_inf_drop:
   Drops:
     - ips 1 0.25
     - elite_skeleton_warrior_inf_drop_item_drops 1
+    - elite_skeleton_warrior_inf_drop_rare_drops 1
 elite_skeleton_warrior_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -74,12 +103,19 @@ elite_skeleton_warrior_inf_drop_item_drops:
     - dark_exile_leggings_infernal 1 0.01
     - dark_exile_boots_infernal 1 0.01
     - dark_exile_scythe_infernal 1 0.01
+
+elite_skeleton_warrior_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_infernal 1 0.01
+    - nothing 1 0.99
 
 death_knight_inf_drop:
   Drops:
     - ips 1 0.25
     - death_knight_inf_drop_item_drops 1
+    - death_knight_inf_drop_rare_drops 1
 death_knight_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -89,12 +125,19 @@ death_knight_inf_drop_item_drops:
     - dark_exile_leggings_infernal 1 0.01
     - dark_exile_boots_infernal 1 0.01
     - dark_exile_scythe_infernal 1 0.01
+
+death_knight_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_infernal 1 0.01
+    - nothing 1 0.99
 
 death_archer_inf_drop:
   Drops:
     - ips 1 0.25
     - death_archer_inf_drop_item_drops 1
+    - death_archer_inf_drop_rare_drops 1
 death_archer_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -104,12 +147,19 @@ death_archer_inf_drop_item_drops:
     - dark_exile_leggings_infernal 1 0.01
     - dark_exile_boots_infernal 1 0.01
     - dark_exile_scythe_infernal 1 0.01
+
+death_archer_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_infernal 1 0.01
+    - nothing 1 0.99
 
 mortis_death_knight_inf_drop:
   Drops:
     - ips 1 0.5
     - mortis_death_knight_inf_drop_item_drops 1
+    - mortis_death_knight_inf_drop_rare_drops 1
 mortis_death_knight_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 2
@@ -119,12 +169,19 @@ mortis_death_knight_inf_drop_item_drops:
     - dark_exile_leggings_infernal 1 0.04
     - dark_exile_boots_infernal 1 0.04
     - dark_exile_scythe_infernal 1 0.04
+
+mortis_death_knight_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_infernal 1 0.04
+    - nothing 1 0.96
 
 murot_priest_inf_drop:
   Drops:
     - ips 1 0.5
     - murot_priest_inf_drop_item_drops 1
+    - murot_priest_inf_drop_rare_drops 1
 murot_priest_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 2
@@ -134,13 +191,20 @@ murot_priest_inf_drop_item_drops:
     - dark_exile_leggings_infernal 1 0.04
     - dark_exile_boots_infernal 1 0.04
     - dark_exile_scythe_infernal 1 0.04
+
+murot_priest_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_infernal 1 0.04
+    - nothing 1 0.96
 
 mortis_inf_drop:
   Drops:
     - mortis_frag_I 1 0.05
     - ips 1 1
     - mortis_inf_drop_item_drops 1
+    - mortis_inf_drop_rare_drops 1
 mortis_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 3
@@ -150,7 +214,13 @@ mortis_inf_drop_item_drops:
     - dark_exile_leggings_infernal 1 0.1
     - dark_exile_boots_infernal 1 0.1
     - dark_exile_scythe_infernal 1 0.1
+
+mortis_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_infernal 1 0.1
+    - nothing 1 0.9
 
 # HELL HELL HELL
 # HELL HELL HELL
@@ -159,6 +229,7 @@ fallen_warrior_hell_drop:
   Drops:
     - ips 2 0.01
     - fallen_warrior_hell_drop_item_drops 1
+    - fallen_warrior_hell_drop_rare_drops 1
 fallen_warrior_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -168,12 +239,19 @@ fallen_warrior_hell_drop_item_drops:
     - dark_exile_leggings_hell 1 0.01
     - dark_exile_boots_hell 1 0.01
     - dark_exile_scythe_hell 1 0.01
+
+fallen_warrior_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_hell 1 0.001
+    - nothing 1 0.999
 
 fallen_archer_hell_drop:
   Drops:
     - ips 2 0.01
     - fallen_archer_hell_drop_item_drops 1
+    - fallen_archer_hell_drop_rare_drops 1
 fallen_archer_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -183,12 +261,19 @@ fallen_archer_hell_drop_item_drops:
     - dark_exile_leggings_hell 1 0.01
     - dark_exile_boots_hell 1 0.01
     - dark_exile_scythe_hell 1 0.01
+
+fallen_archer_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_hell 1 0.001
+    - nothing 1 0.999
 
 raging_soul_hell_drop:
   Drops:
     - ips 2 0.01
     - raging_soul_hell_drop_item_drops 1
+    - raging_soul_hell_drop_rare_drops 1
 raging_soul_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -198,12 +283,19 @@ raging_soul_hell_drop_item_drops:
     - dark_exile_leggings_hell 1 0.01
     - dark_exile_boots_hell 1 0.01
     - dark_exile_scythe_hell 1 0.01
+
+raging_soul_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_hell 1 0.001
+    - nothing 1 0.999
 
 elite_skeleton_archer_hell_drop:
   Drops:
     - ips 2 0.25
     - elite_skeleton_archer_hell_drop_item_drops 1
+    - elite_skeleton_archer_hell_drop_rare_drops 1
 elite_skeleton_archer_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -213,12 +305,19 @@ elite_skeleton_archer_hell_drop_item_drops:
     - dark_exile_leggings_hell 1 0.025
     - dark_exile_boots_hell 1 0.025
     - dark_exile_scythe_hell 1 0.05
+
+elite_skeleton_archer_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_hell 1 0.02
+    - nothing 1 0.98
 
 elite_skeleton_warrior_hell_drop:
   Drops:
     - ips 2 0.25
     - elite_skeleton_warrior_hell_drop_item_drops 1
+    - elite_skeleton_warrior_hell_drop_rare_drops 1
 elite_skeleton_warrior_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -228,12 +327,19 @@ elite_skeleton_warrior_hell_drop_item_drops:
     - dark_exile_leggings_hell 1 0.025
     - dark_exile_boots_hell 1 0.025
     - dark_exile_scythe_hell 1 0.05
+
+elite_skeleton_warrior_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_hell 1 0.02
+    - nothing 1 0.98
 
 death_knight_hell_drop:
   Drops:
     - ips 2 0.25
     - death_knight_hell_drop_item_drops 1
+    - death_knight_hell_drop_rare_drops 1
 death_knight_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -243,12 +349,19 @@ death_knight_hell_drop_item_drops:
     - dark_exile_leggings_hell 1 0.025
     - dark_exile_boots_hell 1 0.025
     - dark_exile_scythe_hell 1 0.05
+
+death_knight_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_hell 1 0.02
+    - nothing 1 0.98
 
 death_archer_hell_drop:
   Drops:
     - ips 2 0.25
     - death_archer_hell_drop_item_drops 1
+    - death_archer_hell_drop_rare_drops 1
 death_archer_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -258,12 +371,19 @@ death_archer_hell_drop_item_drops:
     - dark_exile_leggings_hell 1 0.025
     - dark_exile_boots_hell 1 0.025
     - dark_exile_scythe_hell 1 0.05
+
+death_archer_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_hell 1 0.02
+    - nothing 1 0.98
 
 mortis_death_knight_hell_drop:
   Drops:
     - ips 2 0.5
     - mortis_death_knight_hell_drop_item_drops 1
+    - mortis_death_knight_hell_drop_rare_drops 1
 mortis_death_knight_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 2
@@ -274,12 +394,19 @@ mortis_death_knight_hell_drop_item_drops:
     - dark_exile_boots_hell 1 0.05
     - dark_exile_scythe_hell 1 0.05
     - mortis_ring_of_death_hell 1 0.05
+
+mortis_death_knight_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - seal_of_death_hell 1 0.0125
+    - nothing 1 0.9875
 
 murot_priest_hell_drop:
   Drops:
     - ips 2 0.5
     - murot_priest_hell_drop_item_drops 1
+    - murot_priest_hell_drop_rare_drops 1
 murot_priest_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 2
@@ -290,13 +417,20 @@ murot_priest_hell_drop_item_drops:
     - dark_exile_boots_hell 1 0.05
     - dark_exile_scythe_hell 1 0.05
     - mortis_ring_of_death_hell 1 0.05
+
+murot_priest_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - seal_of_death_hell 1 0.0125
+    - nothing 1 0.9875
 
 mortis_hell_drop:
   Drops:
     - mortis_frag_II 1 0.05
     - ips 2 1
     - mortis_hell_drop_item_drops 1
+    - mortis_hell_drop_rare_drops 1
 mortis_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 3
@@ -308,7 +442,13 @@ mortis_hell_drop_item_drops:
     - dark_exile_scythe_hell 1 0.125
     - dark_exile_scythe_hell 1 0.125
     - mortis_ring_of_death_hell 1 0.125
+
+mortis_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - seal_of_death_hell 1 0.025
+    - nothing 1 0.975
 
 # BLOOD BLOOD BLOOD
 # BLOOD BLOOD BLOOD
@@ -317,6 +457,7 @@ fallen_warrior_blood_drop:
   Drops:
     - ips 3 0.01
     - fallen_warrior_blood_drop_item_drops 1
+    - fallen_warrior_blood_drop_rare_drops 1
 fallen_warrior_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -326,12 +467,19 @@ fallen_warrior_blood_drop_item_drops:
     - dark_exile_leggings_blood 1 0.01
     - dark_exile_boots_blood 1 0.01
     - dark_exile_scythe_blood 1 0.015
+
+fallen_warrior_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_blood 1 0.005
+    - nothing 1 0.995
 
 fallen_archer_blood_drop:
   Drops:
     - ips 3 0.01
     - fallen_archer_blood_drop_item_drops 1
+    - fallen_archer_blood_drop_rare_drops 1
 fallen_archer_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -341,12 +489,19 @@ fallen_archer_blood_drop_item_drops:
     - dark_exile_leggings_blood 1 0.01
     - dark_exile_boots_blood 1 0.01
     - dark_exile_scythe_blood 1 0.015
+
+fallen_archer_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_blood 1 0.005
+    - nothing 1 0.995
 
 raging_soul_blood_drop:
   Drops:
     - ips 3 0.01
     - raging_soul_blood_drop_item_drops 1
+    - raging_soul_blood_drop_rare_drops 1
 raging_soul_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -356,12 +511,19 @@ raging_soul_blood_drop_item_drops:
     - dark_exile_leggings_blood 1 0.01
     - dark_exile_boots_blood 1 0.01
     - dark_exile_scythe_blood 1 0.015
+
+raging_soul_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_blood 1 0.005
+    - nothing 1 0.995
 
 elite_skeleton_archer_blood_drop:
   Drops:
     - ips 3 0.01
     - elite_skeleton_archer_blood_drop_item_drops 1
+    - elite_skeleton_archer_blood_drop_rare_drops 1
 elite_skeleton_archer_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -371,12 +533,19 @@ elite_skeleton_archer_blood_drop_item_drops:
     - dark_exile_leggings_blood 1 0.025
     - dark_exile_boots_blood 1 0.025
     - dark_exile_scythe_blood 1 0.075
+
+elite_skeleton_archer_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_blood 1 0.03
+    - nothing 1 0.97
 
 elite_skeleton_warrior_blood_drop:
   Drops:
     - ips 3 0.01
     - elite_skeleton_warrior_blood_drop_item_drops 1
+    - elite_skeleton_warrior_blood_drop_rare_drops 1
 elite_skeleton_warrior_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -386,12 +555,19 @@ elite_skeleton_warrior_blood_drop_item_drops:
     - dark_exile_leggings_blood 1 0.025
     - dark_exile_boots_blood 1 0.025
     - dark_exile_scythe_blood 1 0.075
+
+elite_skeleton_warrior_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_blood 1 0.03
+    - nothing 1 0.97
 
 death_knight_blood_drop:
   Drops:
     - ips 3 0.01
     - death_knight_blood_drop_item_drops 1
+    - death_knight_blood_drop_rare_drops 1
 death_knight_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -401,12 +577,19 @@ death_knight_blood_drop_item_drops:
     - dark_exile_leggings_blood 1 0.05
     - dark_exile_boots_blood 1 0.05
     - dark_exile_scythe_blood 1 0.05
+
+death_knight_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_blood 1 0.03
+    - nothing 1 0.97
 
 death_archer_blood_drop:
   Drops:
     - ips 3 0.01
     - death_archer_blood_drop_item_drops 1
+    - death_archer_blood_drop_rare_drops 1
 death_archer_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -416,12 +599,19 @@ death_archer_blood_drop_item_drops:
     - dark_exile_leggings_blood 1 0.075
     - dark_exile_boots_blood 1 0.075
     - dark_exile_scythe_blood 1 0.075
+
+death_archer_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - mortis_ring_of_death_blood 1 0.03
+    - nothing 1 0.97
 
 mortis_death_knight_blood_drop:
   Drops:
     - ips 3 0.5
     - mortis_death_knight_blood_drop_item_drops 1
+    - mortis_death_knight_blood_drop_rare_drops 1
 mortis_death_knight_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 2
@@ -434,12 +624,19 @@ mortis_death_knight_blood_drop_item_drops:
     - mortis_ring_of_death_blood 1 0.06
     - seal_of_death_blood 1 0.025
     - armor_of_unchained_death_god_blood 1 0.001
+
+mortis_death_knight_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - pants_of_unchained_death_god_blood 1 0.001
+    - nothing 1 0.999
 
 murot_priest_blood_drop:
   Drops:
     - ips 3 0.5
     - murot_priest_blood_drop_item_drops 1
+    - murot_priest_blood_drop_rare_drops 1
 murot_priest_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 2
@@ -452,14 +649,21 @@ murot_priest_blood_drop_item_drops:
     - mortis_ring_of_death_blood 1 0.06
     - seal_of_death_blood 1 0.025
     - armor_of_unchained_death_god_blood 1 0.001
+
+murot_priest_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - pants_of_unchained_death_god_blood 1 0.001
+    - nothing 1 0.999
 
 mortis_blood_drop:
   Drops:
     - mortis_frag_III 1 0.05
     - ips 3 1
     - mortis_blood_drop_item_drops 1
-    - q6_soul 1 0.01
+    - mortis_blood_drop_rare_drops 1
+    - q6_soul_luck 1
 mortis_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 3
@@ -472,4 +676,18 @@ mortis_blood_drop_item_drops:
     - mortis_ring_of_death_blood 1 0.15
     - seal_of_death_blood 1 0.05
     - armor_of_unchained_death_god_blood 1 0.01
+
+mortis_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - pants_of_unchained_death_god_blood 1 0.01
+    - nothing 1 0.99
+
+
+q6_soul_luck:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
+    - q6_soul 1 0.01
+    - nothing 1 0.99

@@ -12,29 +12,41 @@ teta_shaman:
   Drops:
     # - experience 10
     - teta_shaman_item_drops 1
+    - teta_shaman_rare_drops 1
 teta_shaman_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
     - ips 1 0.1
+teta_shaman_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - armor_of_elder_tree 1 0.025
     - steps_of_elder_deity 1 0.025
     - cloak_of_spirit_hunter 1 0.025
     - spear_of_sacred_oak 1 0.025
+    - nothing 1 0.9
 
 orbax:
   Drops:
     - sticky_mucus 1 0.2
     # - experience 10
     - orbax_item_drops 1
+    - orbax_rare_drops 1
 orbax_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
     - ips 1 0.2
+orbax_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - armor_of_elder_tree 1 0.05
     - steps_of_elder_deity 1 0.05
     - cloak_of_spirit_hunter 1 0.05
     - spear_of_sacred_oak 1 0.05
     - ring_of_eternal_grove 1 0.02
     - mask_of_the_ancient_watcher 1 0.02
+    - nothing 1 0.76

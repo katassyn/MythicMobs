@@ -13,25 +13,38 @@ soul_collector_telepolos:
     - soul_of_an_acient_spartan 1 0.15
     # - experience 10
     - soul_collector_telepolos_item_drops 1
+    - soul_collector_telepolos_rare_drops 1
 soul_collector_telepolos_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
     - ips 1 0.2
+soul_collector_telepolos_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - aegis_striders 1 0.05
     - phalanx_blade 1 0.05
     - dory_gauntlet 1 0.05
     - sandal_blade 1 0.02
     - hoplon_reaver 1 0.02
+    - nothing 1 0.8
 
 elite_telepolos:
   drops:
     -elite_telepolos_item_drops 1
+    -elite_telepolos_rare_drops 1
 elite_telepolos_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
     - ips 1 0.1
+elite_telepolos_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - aegis_striders 1 0.025
     - phalanx_blade 1 0.025
     - dory_gauntlet 1 0.025
+    - nothing 1 0.925
+

@@ -5,6 +5,7 @@ furious_maggot_inf_drop:
   Drops:
     - ips 1 0.01
     - furious_maggot_inf_drop_item_drops 1
+    - furious_maggot_inf_drop_rare_drops 1
 furious_maggot_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -12,12 +13,19 @@ furious_maggot_inf_drop_item_drops:
     - andermagic_neckel_infernal 1 0.01
     - void_axe_infernal 1 0.01
     - duty_of_the_untouchables_infernal 1 0.01
+
+furious_maggot_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_infernal 1 0.0005
+    - nothing 1 0.9995
 
 furious_flagrancy_inf_drop:
   Drops:
     - ips 1 0.01
     - furious_flagrancy_inf_drop_item_drops 1
+    - furious_flagrancy_inf_drop_rare_drops 1
 furious_flagrancy_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -25,12 +33,19 @@ furious_flagrancy_inf_drop_item_drops:
     - andermagic_neckel_infernal 1 0.01
     - void_axe_infernal 1 0.01
     - duty_of_the_untouchables_infernal 1 0.01
+
+furious_flagrancy_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_infernal 1 0.0005
+    - nothing 1 0.9995
 
 living_andermagic_inf_drop:
   Drops:
     - ips 1 0.01
     - living_andermagic_inf_drop_item_drops 1
+    - living_andermagic_inf_drop_rare_drops 1
 living_andermagic_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -38,12 +53,19 @@ living_andermagic_inf_drop_item_drops:
     - andermagic_neckel_infernal 1 0.01
     - void_axe_infernal 1 0.01
     - duty_of_the_untouchables_infernal 1 0.01
+
+living_andermagic_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_infernal 1 0.0005
+    - nothing 1 0.9995
 
 andermagic_guardian_inf_drop:
   Drops:
     - ips 1 0.01
     - andermagic_guardian_inf_drop_item_drops 1
+    - andermagic_guardian_inf_drop_rare_drops 1
 andermagic_guardian_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -51,12 +73,19 @@ andermagic_guardian_inf_drop_item_drops:
     - andermagic_neckel_infernal 1 0.01
     - void_axe_infernal 1 0.01
     - duty_of_the_untouchables_infernal 1 0.01
+
+andermagic_guardian_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_infernal 1 0.0005
+    - nothing 1 0.9995
 
 furious_andermagic_inf_drop:
   Drops:
     - ips 1 0.25
     - furious_andermagic_inf_drop_item_drops 1
+    - furious_andermagic_inf_drop_rare_drops 1
 furious_andermagic_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -64,12 +93,19 @@ furious_andermagic_inf_drop_item_drops:
     - andermagic_neckel_infernal 1 0.25
     - void_axe_infernal 1 0.25
     - duty_of_the_untouchables_infernal 1 0.05
+
+furious_andermagic_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_infernal 1 0.01
+    - nothing 1 0.99
 
 wailing_ghost_inf_drop:
   Drops:
     - ips 1 0.25
     - wailing_ghost_inf_drop_item_drops 1
+    - wailing_ghost_inf_drop_rare_drops 1
 wailing_ghost_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -77,12 +113,19 @@ wailing_ghost_inf_drop_item_drops:
     - andermagic_neckel_infernal 1 0.25
     - void_axe_infernal 1 0.25
     - duty_of_the_untouchables_infernal 1 0.05
+
+wailing_ghost_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_infernal 1 0.01
+    - nothing 1 0.99
 
 andermagic_scoropitl_inf_drop:
   Drops:
     - ips 1 0.25
     - andermagic_scoropitl_inf_drop_item_drops 1
+    - andermagic_scoropitl_inf_drop_rare_drops 1
 andermagic_scoropitl_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -90,12 +133,19 @@ andermagic_scoropitl_inf_drop_item_drops:
     - andermagic_neckel_infernal 1 0.25
     - void_axe_infernal 1 0.25
     - duty_of_the_untouchables_infernal 1 0.05
+
+andermagic_scoropitl_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_infernal 1 0.01
+    - nothing 1 0.99
 
 old_jabbax_shaman_inf_drop:
   Drops:
     - ips 1 0.5
     - old_jabbax_shaman_inf_drop_item_drops 1
+    - old_jabbax_shaman_inf_drop_rare_drops 1
 old_jabbax_shaman_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 2
@@ -103,12 +153,19 @@ old_jabbax_shaman_inf_drop_item_drops:
     - andermagic_neckel_infernal 1 0.5
     - void_axe_infernal 1 0.5
     - duty_of_the_untouchables_infernal 1 0.1
+
+old_jabbax_shaman_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_infernal 1 0.04
+    - nothing 1 0.96
 
 wandering_experiment_inf_drop:
   Drops:
     - ips 1 0.5
     - wandering_experiment_inf_drop_item_drops 1
+    - wandering_experiment_inf_drop_rare_drops 1
 wandering_experiment_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 2
@@ -116,13 +173,20 @@ wandering_experiment_inf_drop_item_drops:
     - andermagic_neckel_infernal 1 0.5
     - void_axe_infernal 1 0.5
     - duty_of_the_untouchables_infernal 1 0.1
+
+wandering_experiment_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_infernal 1 0.04
+    - nothing 1 0.96
 
 khalys_inf_drop:
   Drops:
     - khalys_frag_I 1 0.05
     - ips 1 1
     - khalys_inf_drop_item_drops 1
+    - khalys_inf_drop_rare_drops 1
 khalys_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 3
@@ -130,7 +194,13 @@ khalys_inf_drop_item_drops:
     - andermagic_neckel_infernal 1 1
     - void_axe_infernal 1 1
     - duty_of_the_untouchables_infernal 1 0.25
+
+khalys_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_infernal 1 0.1
+    - nothing 1 0.9
 
 # HELL HELL HELL
 # HELL HELL HELL
@@ -139,6 +209,7 @@ furious_maggot_hell_drop:
   Drops:
     - ips 2 0.01
     - furious_maggot_hell_drop_item_drops 1
+    - furious_maggot_hell_drop_rare_drops 1
 furious_maggot_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -146,12 +217,19 @@ furious_maggot_hell_drop_item_drops:
     - andermagic_neckel_hell 1 0.01
     - void_axe_hell 1 0.01
     - duty_of_the_untouchables_hell 1 0.02
+
+furious_maggot_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_hell 1 0.001
+    - nothing 1 0.999
 
 furious_flagrancy_hell_drop:
   Drops:
     - ips 2 0.01
     - furious_flagrancy_hell_drop_item_drops 1
+    - furious_flagrancy_hell_drop_rare_drops 1
 furious_flagrancy_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -159,12 +237,19 @@ furious_flagrancy_hell_drop_item_drops:
     - andermagic_neckel_hell 1 0.01
     - void_axe_hell 1 0.01
     - duty_of_the_untouchables_hell 1 0.02
+
+furious_flagrancy_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_hell 1 0.001
+    - nothing 1 0.999
 
 living_andermagic_hell_drop:
   Drops:
     - ips 2 0.01
     - living_andermagic_hell_drop_item_drops 1
+    - living_andermagic_hell_drop_rare_drops 1
 living_andermagic_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -172,12 +257,19 @@ living_andermagic_hell_drop_item_drops:
     - andermagic_neckel_hell 1 0.01
     - void_axe_hell 1 0.01
     - duty_of_the_untouchables_hell 1 0.02
+
+living_andermagic_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_hell 1 0.001
+    - nothing 1 0.999
 
 andermagic_guardian_hell_drop:
   Drops:
     - ips 2 0.01
     - andermagic_guardian_hell_drop_item_drops 1
+    - andermagic_guardian_hell_drop_rare_drops 1
 andermagic_guardian_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -185,12 +277,19 @@ andermagic_guardian_hell_drop_item_drops:
     - andermagic_neckel_hell 1 0.01
     - void_axe_hell 1 0.01
     - duty_of_the_untouchables_hell 1 0.02
+
+andermagic_guardian_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_hell 1 0.001
+    - nothing 1 0.999
 
 furious_andermagic_hell_drop:
   Drops:
     - ips 2 0.25
     - furious_andermagic_hell_drop_item_drops 1
+    - furious_andermagic_hell_drop_rare_drops 1
 furious_andermagic_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -198,12 +297,19 @@ furious_andermagic_hell_drop_item_drops:
     - andermagic_neckel_hell 1 0.025
     - void_axe_hell 1 0.025
     - duty_of_the_untouchables_hell 1 0.1
+
+furious_andermagic_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_hell 1 0.02
+    - nothing 1 0.98
 
 wailing_ghost_hell_drop:
   Drops:
     - ips 2 0.25
     - wailing_ghost_hell_drop_item_drops 1
+    - wailing_ghost_hell_drop_rare_drops 1
 wailing_ghost_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -211,12 +317,19 @@ wailing_ghost_hell_drop_item_drops:
     - andermagic_neckel_hell 1 0.025
     - void_axe_hell 1 0.025
     - duty_of_the_untouchables_hell 1 0.1
+
+wailing_ghost_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_hell 1 0.02
+    - nothing 1 0.98
 
 andermagic_scoropitl_hell_drop:
   Drops:
     - ips 2 0.25
     - andermagic_scoropitl_hell_drop_item_drops 1
+    - andermagic_scoropitl_hell_drop_rare_drops 1
 andermagic_scoropitl_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -224,41 +337,68 @@ andermagic_scoropitl_hell_drop_item_drops:
     - andermagic_neckel_hell 1 0.025
     - void_axe_hell 1 0.025
     - duty_of_the_untouchables_hell 1 0.1
+
+andermagic_scoropitl_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_hell 1 0.02
+    - nothing 1 0.98
 
 old_jabbax_shaman_hell_drop:
   Drops:
     - ips 2 0.5
     - old_jabbax_shaman_hell_drop_item_drops 1
+    - old_jabbax_shaman_hell_drop_rare_drops 1
 old_jabbax_shaman_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
     - khalys_dark_gaze_hell 1 0.05
+
+old_jabbax_shaman_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_scheme_hell 1 0.0125
+    - nothing 1 0.9875
 
 wandering_experiment_hell_drop:
   Drops:
     - ips 2 0.5
     - wandering_experiment_hell_drop_item_drops 1
+    - wandering_experiment_hell_drop_rare_drops 1
 wandering_experiment_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
     - khalys_dark_gaze_hell 1 0.05
+
+wandering_experiment_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_scheme_hell 1 0.0125
+    - nothing 1 0.9875
 
 khalys_hell_drop:
   Drops:
     - khalys_frag_II 1 0.05
     - ips 2 1
     - khalys_hell_drop_item_drops 1
+    - khalys_hell_drop_rare_drops 1
 khalys_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 3
   Drops:
     - khalys_dark_gaze_hell 1 0.125
+
+khalys_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_scheme_hell 1 0.025
+    - nothing 1 0.975
 
 # BLOOD BLOOD BLOOD
 # BLOOD BLOOD BLOOD
@@ -267,6 +407,7 @@ furious_maggot_blood_drop:
   Drops:
     - ips 3 0.01
     - furious_maggot_blood_drop_item_drops 1
+    - furious_maggot_blood_drop_rare_drops 1
 furious_maggot_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -274,12 +415,19 @@ furious_maggot_blood_drop_item_drops:
     - andermagic_neckel_blood 1 0.01
     - void_axe_blood 1 0.01
     - duty_of_the_untouchables_blood 1 0.03
+
+furious_maggot_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_blood 1 0.005
+    - nothing 1 0.995
 
 furious_flagrancy_blood_drop:
   Drops:
     - ips 3 0.01
     - furious_flagrancy_blood_drop_item_drops 1
+    - furious_flagrancy_blood_drop_rare_drops 1
 furious_flagrancy_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -287,12 +435,19 @@ furious_flagrancy_blood_drop_item_drops:
     - andermagic_neckel_blood 1 0.01
     - void_axe_blood 1 0.01
     - duty_of_the_untouchables_blood 1 0.03
+
+furious_flagrancy_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_blood 1 0.005
+    - nothing 1 0.995
 
 living_andermagic_blood_drop:
   Drops:
     - ips 3 0.01
     - living_andermagic_blood_drop_item_drops 1
+    - living_andermagic_blood_drop_rare_drops 1
 living_andermagic_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -300,12 +455,19 @@ living_andermagic_blood_drop_item_drops:
     - andermagic_neckel_blood 1 0.01
     - void_axe_blood 1 0.01
     - duty_of_the_untouchables_blood 1 0.03
+
+living_andermagic_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_blood 1 0.005
+    - nothing 1 0.995
 
 andermagic_guardian_blood_drop:
   Drops:
     - ips 3 0.01
     - andermagic_guardian_blood_drop_item_drops 1
+    - andermagic_guardian_blood_drop_rare_drops 1
 andermagic_guardian_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -313,12 +475,19 @@ andermagic_guardian_blood_drop_item_drops:
     - andermagic_neckel_blood 1 0.01
     - void_axe_blood 1 0.01
     - duty_of_the_untouchables_blood 1 0.03
+
+andermagic_guardian_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_blood 1 0.005
+    - nothing 1 0.995
 
 furious_andermagic_blood_drop:
   Drops:
     - ips 3 0.01
     - furious_andermagic_blood_drop_item_drops 1
+    - furious_andermagic_blood_drop_rare_drops 1
 furious_andermagic_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -326,12 +495,19 @@ furious_andermagic_blood_drop_item_drops:
     - andermagic_neckel_blood 1 0.25
     - void_axe_blood 1 0.025
     - duty_of_the_untouchables_blood 1 0.2
+
+furious_andermagic_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_blood 1 0.03
+    - nothing 1 0.97
 
 wailing_ghost_blood_drop:
   Drops:
     - ips 3 0.01
     - wailing_ghost_blood_drop_item_drops 1
+    - wailing_ghost_blood_drop_rare_drops 1
 wailing_ghost_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -339,12 +515,19 @@ wailing_ghost_blood_drop_item_drops:
     - andermagic_neckel_blood 1 0.25
     - void_axe_blood 1 0.025
     - duty_of_the_untouchables_blood 1 0.2
+
+wailing_ghost_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_blood 1 0.03
+    - nothing 1 0.97
 
 andermagic_scoropitl_blood_drop:
   Drops:
     - ips 3 0.01
     - andermagic_scoropitl_blood_drop_item_drops 1
+    - andermagic_scoropitl_blood_drop_rare_drops 1
 andermagic_scoropitl_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -352,42 +535,77 @@ andermagic_scoropitl_blood_drop_item_drops:
     - andermagic_neckel_blood 1 0.25
     - void_axe_blood 1 0.025
     - duty_of_the_untouchables_blood 1 0.2
+
+andermagic_scoropitl_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - khalys_dark_gaze_blood 1 0.03
+    - nothing 1 0.97
 
 old_jabbax_shaman_blood_drop:
   Drops:
     - ips 3 0.5
     - old_jabbax_shaman_blood_drop_item_drops 1
+    - old_jabbax_shaman_blood_drop_rare_drops 1
 old_jabbax_shaman_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
     - khalys_dark_gaze_blood 1 0.06
     - khalys_dark_scheme_blood 1 0.025
+
+old_jabbax_shaman_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - balor_ring_of_chaos_blood 1 0.001
+    - nothing 1 0.999
 
 wandering_experiment_blood_drop:
   Drops:
     - ips 3 0.5
     - wandering_experiment_blood_drop_item_drops 1
+    - wandering_experiment_blood_drop_rare_drops 1
 wandering_experiment_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
     - khalys_dark_gaze_blood 1 0.06
     - khalys_dark_scheme_blood 1 0.025
+
+wandering_experiment_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - balor_ring_of_chaos_blood 1 0.001
+    - nothing 1 0.999
 
 khalys_blood_drop:
   Drops:
     - khalys_frag_III 1 0.05
     - ips 3 1
     - khalys_blood_drop_item_drops 1
-    - q5_soul 1 0.01
+    - khalys_blood_drop_rare_drops 1
+    - q5_soul_luck 1
 khalys_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 3
   Drops:
     - khalys_dark_gaze_blood 1 0.15
     - khalys_dark_scheme_blood 1 0.05
+
+khalys_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - balor_ring_of_chaos_blood 1 0.01
+    - nothing 1 0.99
+
+
+q5_soul_luck:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
+    - q5_soul 1 0.01
+    - nothing 1 0.99
