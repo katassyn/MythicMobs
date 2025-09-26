@@ -3,8 +3,8 @@ satyr:
     # - experience 10
     - satyr_item_drops 1
 satyr_item_drops:
-  MinItems: 0
-  MaxItems: 1
+  TotalItems: 1
+  BonusLuckItems: 0.15
   Drops:
     - dune_wrap 1 0.01
     - desert_sandals 1 0.01
@@ -12,16 +12,22 @@ satyr_item_drops:
     - sunfire_chestplate 1 0.005
     - flamecaller_scimitar 1 0.005
     - inferno_dagger 1 0.005
+    - nothing 1 0.95
 
 cyclops:
   Drops:
     # - experience 10
     - cyclops_item_drops 1
+    - cyclops_rare_drops 1
 cyclops_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
     - dune_wrap 1 0.03
+cyclops_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - desert_sandals 1 0.003
     - sandstorm_leggings 1 0.015
     - sunfire_chestplate 1 0.015
@@ -29,18 +35,24 @@ cyclops_item_drops:
     - inferno_dagger 1 0.015
     - eternal_ember_chestplate 1 0.005
     - flamewarden_helm 1 0.005
+    - nothing 1 0.927
 
 satyr_general:
   Drops:
     # - experience 10
     - satyrs_horn 1 0.25
     - satyr_general_item_drops 1
+    - satyr_general_rare_drops 1
 satyr_general_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
     - dune_wrap 1 0.08
     - desert_sandals 1 0.08
+satyr_general_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - sandstorm_leggings 1 0.025
     - sunfire_chestplate 1 0.025
     - flamecaller_scimitar 1 0.025
@@ -49,3 +61,4 @@ satyr_general_item_drops:
     - flamewarden_helm 1 0.015
     - scorchweaver_leggings 1 0.005
     - doomsday_scythe 1 0.005
+    - nothing 1 0.835

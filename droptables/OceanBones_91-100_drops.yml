@@ -11,28 +11,39 @@ oceanbones_drop_items:
 cold_death_knight:
   Drops:
     - cold_death_knight_items 1
+    - cold_death_knight_rare_drops 1
 
 cold_death_knight_items:
   MinItems: 0
   MaxItems: 1
   Drops:
     - ips 1 0.1
+cold_death_knight_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - death_knight_helmet 1 0.01
     - death_knight_chestplate 1 0.01
     - death_knight_leggings 1 0.01
     - death_knight_boots 1 0.01
     - death_knight_blade 1 0.01
+    - nothing 1 0.95
 
 death_knight_of_the_watch:
   Drops:
     - Throphy_of_the_long_forgotten_bone_dragon 1 0.1
     - death_knight_of_the_watch_items 1
+    - death_knight_of_the_watch_rare_drops 1
 
 death_knight_of_the_watch_items:
   MinItems: 0
   MaxItems: 1
   Drops:
     - ips 1 0.2
+death_knight_of_the_watch_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - death_knight_helmet 1 0.02
     - death_knight_chestplate 1 0.02
     - death_knight_leggings 1 0.02
@@ -46,3 +57,4 @@ death_knight_of_the_watch_items:
     - aegis_of_dark_souls 1 0.0075
     - belt_of_the_death_knight 1 0.0075
     - gauntlets_of_shadow_grasp 1 0.0075
+    - nothing 1 0.8475

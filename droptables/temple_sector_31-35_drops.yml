@@ -3,43 +3,56 @@ gorgon:
     # - experience 10
     - gorgon_item_drops 1
 gorgon_item_drops:
-  MinItems: 0
-  MaxItems: 1
+  TotalItems: 1
+  BonusLuckItems: 0.15
   Drops:
     - mermans_boots 1 0.01
     - nautilus_helm 1 0.01
     - abyssal_leggings 1 0.005
     - trident_blade 1 0.005
+    - nothing 1 0.97
 
 gorgon_heretic:
   Drops:
     # - experience 10
     - gorgon_heretic_item_drops 1
+    - gorgon_heretic_rare_drops 1
 gorgon_heretic_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
     - mermans_boots 1 0.03
+gorgon_heretic_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - nautilus_helm 1 0.003
     - abyssal_leggings 1 0.015
     - trident_blade 1 0.015
     - coral_guardian_chestplate 1 0.005
     - tidal_crown 1 0.005
+    - nothing 1 0.957
 
 high_priest_baran:
   Drops:
     # - experience 10
     - gorgons_poison 1 0.25
     - high_priest_baran_item_drops 1
+    - high_priest_baran_rare_drops 1
 high_priest_baran_item_drops:
   MinItems: 0
   MaxItems: 1
   Drops:
     - mermans_boots 1 0.08
     - nautilus_helm 1 0.08
+high_priest_baran_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - abyssal_leggings 1 0.025
     - trident_blade 1 0.025
     - coral_guardian_chestplate 1 0.015
     - tidal_crown 1 0.015
     - ancient_fury 1 0.005
     - sea_emperor_greaves 1 0.005
+    - nothing 1 0.91

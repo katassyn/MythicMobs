@@ -5,6 +5,7 @@ cursed_farmer_inf_drop:
   Drops:
     - ips 1 0.01
     - cursed_farmer_inf_drop_item_drops 1
+    - cursed_farmer_inf_drop_rare_drops 1
 cursed_farmer_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -12,12 +13,19 @@ cursed_farmer_inf_drop_item_drops:
     - undead_chestplate_infernal 1 0.01
     - glacial_boots_infernal 1 0.01
     - visage_of_the_untouchables_infernal 1 0.01
+
+cursed_farmer_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_infernal 1 0.0005
+    - nothing 1 0.9995
 
 cursed_archer_inf_drop:
   Drops:
     - ips 1 0.01
     - cursed_archer_inf_drop_item_drops 1
+    - cursed_archer_inf_drop_rare_drops 1
 cursed_archer_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -25,12 +33,19 @@ cursed_archer_inf_drop_item_drops:
     - undead_chestplate_infernal 1 0.01
     - glacial_boots_infernal 1 0.01
     - visage_of_the_untouchables_infernal 1 0.01
+
+cursed_archer_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_infernal 1 0.0005
+    - nothing 1 0.9995
 
 slain_warrior_inf_drop:
   Drops:
     - ips 1 0.01
     - slain_warrior_inf_drop_item_drops 1
+    - slain_warrior_inf_drop_rare_drops 1
 slain_warrior_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -38,12 +53,19 @@ slain_warrior_inf_drop_item_drops:
     - undead_chestplate_infernal 1 0.01
     - glacial_boots_infernal 1 0.01
     - visage_of_the_untouchables_infernal 1 0.01
+
+slain_warrior_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_infernal 1 0.0005
+    - nothing 1 0.9995
 
 slain_archer_inf_drop:
   Drops:
     - ips 1 0.01
     - slain_archer_inf_drop_item_drops 1
+    - slain_archer_inf_drop_rare_drops 1
 slain_archer_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -51,12 +73,19 @@ slain_archer_inf_drop_item_drops:
     - undead_chestplate_infernal 1 0.01
     - glacial_boots_infernal 1 0.01
     - visage_of_the_untouchables_infernal 1 0.01
+
+slain_archer_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_infernal 1 0.0005
+    - nothing 1 0.9995
 
 cursed_troll_inf_drop:
   Drops:
     - ips 1 0.25
     - cursed_troll_inf_drop_item_drops 1
+    - cursed_troll_inf_drop_rare_drops 1
 cursed_troll_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -64,12 +93,19 @@ cursed_troll_inf_drop_item_drops:
     - undead_chestplate_infernal 1 0.25
     - glacial_boots_infernal 1 0.25
     - visage_of_the_untouchables_infernal 1 0.05
+
+cursed_troll_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_infernal 1 0.01
+    - nothing 1 0.99
 
 slain_assassin_inf_drop:
   Drops:
     - ips 1 0.25
     - slain_assassin_inf_drop_item_drops 1
+    - slain_assassin_inf_drop_rare_drops 1
 slain_assassin_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -77,12 +113,19 @@ slain_assassin_inf_drop_item_drops:
     - undead_chestplate_infernal 1 0.25
     - glacial_boots_infernal 1 0.25
     - visage_of_the_untouchables_infernal 1 0.05
+
+slain_assassin_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_infernal 1 0.01
+    - nothing 1 0.99
 
 parallel_world_evil_miller_inf_drop:
   Drops:
     - ips 1 0.5
     - parallel_world_evil_miller_inf_drop_item_drops 1
+    - parallel_world_evil_miller_inf_drop_rare_drops 1
 parallel_world_evil_miller_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 2
@@ -90,12 +133,19 @@ parallel_world_evil_miller_inf_drop_item_drops:
     - undead_chestplate_infernal 1 0.5
     - glacial_boots_infernal 1 0.5
     - visage_of_the_untouchables_infernal 1 0.1
+
+parallel_world_evil_miller_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_infernal 1 0.04
+    - nothing 1 0.96
 
 the_bloody_arrow_inf_drop:
   Drops:
     - ips 1 0.5
     - the_bloody_arrow_inf_drop_item_drops 1
+    - the_bloody_arrow_inf_drop_rare_drops 1
 the_bloody_arrow_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 2
@@ -103,13 +153,20 @@ the_bloody_arrow_inf_drop_item_drops:
     - undead_chestplate_infernal 1 0.5
     - glacial_boots_infernal 1 0.5
     - visage_of_the_untouchables_infernal 1 0.1
+
+the_bloody_arrow_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_infernal 1 0.04
+    - nothing 1 0.96
 
 king_heredur_inf_drop:
   Drops:
     - heredur_frag_I 1 0.05
     - ips 1 1
     - king_heredur_inf_drop_item_drops 1
+    - king_heredur_inf_drop_rare_drops 1
 king_heredur_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 3
@@ -117,7 +174,13 @@ king_heredur_inf_drop_item_drops:
     - undead_chestplate_infernal 1 1
     - glacial_boots_infernal 1 1
     - visage_of_the_untouchables_infernal 1 0.25
+
+king_heredur_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_infernal 1 0.1
+    - nothing 1 0.9
 
 # HELL HELL HELL
 # HELL HELL HELL
@@ -126,6 +189,7 @@ cursed_farmer_hell_drop:
   Drops:
     - ips 2 0.01
     - cursed_farmer_hell_drop_item_drops 1
+    - cursed_farmer_hell_drop_rare_drops 1
 cursed_farmer_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -133,12 +197,19 @@ cursed_farmer_hell_drop_item_drops:
     - undead_chestplate_hell 1 0.01
     - glacial_boots_hell 1 0.01
     - visage_of_the_untouchables_hell 1 0.02
+
+cursed_farmer_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_hell 1 0.001
+    - nothing 1 0.999
 
 cursed_archer_hell_drop:
   Drops:
     - ips 2 0.01
     - cursed_archer_hell_drop_item_drops 1
+    - cursed_archer_hell_drop_rare_drops 1
 cursed_archer_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -146,12 +217,19 @@ cursed_archer_hell_drop_item_drops:
     - undead_chestplate_hell 1 0.01
     - glacial_boots_hell 1 0.01
     - visage_of_the_untouchables_hell 1 0.02
+
+cursed_archer_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_hell 1 0.001
+    - nothing 1 0.999
 
 slain_warrior_hell_drop:
   Drops:
     - ips 2 0.01
     - slain_warrior_hell_drop_item_drops 1
+    - slain_warrior_hell_drop_rare_drops 1
 slain_warrior_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -159,12 +237,19 @@ slain_warrior_hell_drop_item_drops:
     - undead_chestplate_hell 1 0.01
     - glacial_boots_hell 1 0.01
     - visage_of_the_untouchables_hell 1 0.02
+
+slain_warrior_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_hell 1 0.001
+    - nothing 1 0.999
 
 slain_archer_hell_drop:
   Drops:
     - ips 2 0.01
     - slain_archer_hell_drop_item_drops 1
+    - slain_archer_hell_drop_rare_drops 1
 slain_archer_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -172,12 +257,19 @@ slain_archer_hell_drop_item_drops:
     - undead_chestplate_hell 1 0.01
     - glacial_boots_hell 1 0.01
     - visage_of_the_untouchables_hell 1 0.02
+
+slain_archer_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_hell 1 0.001
+    - nothing 1 0.999
 
 cursed_troll_hell_drop:
   Drops:
     - ips 2 0.25
     - cursed_troll_hell_drop_item_drops 1
+    - cursed_troll_hell_drop_rare_drops 1
 cursed_troll_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -185,12 +277,19 @@ cursed_troll_hell_drop_item_drops:
     - undead_chestplate_hell 1 0.025
     - glacial_boots_hell 1 0.025
     - visage_of_the_untouchables_hell 1 0.1
+
+cursed_troll_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_hell 1 0.02
+    - nothing 1 0.98
 
 slain_assassin_hell_drop:
   Drops:
     - ips 2 0.25
     - slain_assassin_hell_drop_item_drops 1
+    - slain_assassin_hell_drop_rare_drops 1
 slain_assassin_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -198,41 +297,68 @@ slain_assassin_hell_drop_item_drops:
     - undead_chestplate_hell 1 0.025
     - glacial_boots_hell 1 0.025
     - visage_of_the_untouchables_hell 1 0.1
+
+slain_assassin_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_hell 1 0.02
+    - nothing 1 0.98
 
 parallel_world_evil_miller_hell_drop:
   Drops:
     - ips 2 0.5
     - parallel_world_evil_miller_hell_drop_item_drops 1
+    - parallel_world_evil_miller_hell_drop_rare_drops 1
 parallel_world_evil_miller_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
     - agathons_ring_of_order_hell 1 0.05
+
+parallel_world_evil_miller_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - heredurs_royal_power_hell 1 0.0125
+    - nothing 1 0.9875
 
 the_bloody_arrow_hell_drop:
   Drops:
     - ips 2 0.5
     - the_bloody_arrow_hell_drop_item_drops 1
+    - the_bloody_arrow_hell_drop_rare_drops 1
 the_bloody_arrow_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
     - agathons_ring_of_order_hell 1 0.05
+
+the_bloody_arrow_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - heredurs_royal_power_hell 1 0.0125
+    - nothing 1 0.9875
 
 king_heredur_hell_drop:
   Drops:
     - heredur_frag_II 1 0.05
     - ips 2 1
     - king_heredur_hell_drop_item_drops 1
+    - king_heredur_hell_drop_rare_drops 1
 king_heredur_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 3
   Drops:
     - agathons_ring_of_order_hell 1 0.125
+
+king_heredur_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - heredurs_royal_power_hell 1 0.025
+    - nothing 1 0.975
 
 # BLOOD BLOOD BLOOD
 # BLOOD BLOOD BLOOD
@@ -241,6 +367,7 @@ cursed_farmer_blood_drop:
   Drops:
     - ips 3 0.01
     - cursed_farmer_blood_drop_item_drops 1
+    - cursed_farmer_blood_drop_rare_drops 1
 cursed_farmer_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -248,12 +375,19 @@ cursed_farmer_blood_drop_item_drops:
     - undead_chestplate_blood 1 0.01
     - glacial_boots_blood 1 0.01
     - visage_of_the_untouchables_blood 1 0.03
+
+cursed_farmer_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_blood 1 0.005
+    - nothing 1 0.995
 
 cursed_archer_blood_drop:
   Drops:
     - ips 3 0.01
     - cursed_archer_blood_drop_item_drops 1
+    - cursed_archer_blood_drop_rare_drops 1
 cursed_archer_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -261,12 +395,19 @@ cursed_archer_blood_drop_item_drops:
     - undead_chestplate_blood 1 0.01
     - glacial_boots_blood 1 0.01
     - visage_of_the_untouchables_blood 1 0.03
+
+cursed_archer_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_blood 1 0.005
+    - nothing 1 0.995
 
 slain_warrior_blood_drop:
   Drops:
     - ips 3 0.01
     - slain_warrior_blood_drop_item_drops 1
+    - slain_warrior_blood_drop_rare_drops 1
 slain_warrior_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -274,12 +415,19 @@ slain_warrior_blood_drop_item_drops:
     - undead_chestplate_blood 1 0.01
     - glacial_boots_blood 1 0.01
     - visage_of_the_untouchables_blood 1 0.03
+
+slain_warrior_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_blood 1 0.005
+    - nothing 1 0.995
 
 slain_archer_blood_drop:
   Drops:
     - ips 3 0.01
     - slain_archer_blood_drop_item_drops 1
+    - slain_archer_blood_drop_rare_drops 1
 slain_archer_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -287,12 +435,19 @@ slain_archer_blood_drop_item_drops:
     - undead_chestplate_blood 1 0.01
     - glacial_boots_blood 1 0.01
     - visage_of_the_untouchables_blood 1 0.03
+
+slain_archer_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_blood 1 0.005
+    - nothing 1 0.995
 
 cursed_troll_blood_drop:
   Drops:
     - ips 3 0.01
     - cursed_troll_blood_drop_item_drops 1
+    - cursed_troll_blood_drop_rare_drops 1
 cursed_troll_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -300,12 +455,19 @@ cursed_troll_blood_drop_item_drops:
     - undead_chestplate_blood 1 0.25
     - glacial_boots_blood 1 0.025
     - visage_of_the_untouchables_blood 1 0.2
+
+cursed_troll_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_blood 1 0.03
+    - nothing 1 0.97
 
 slain_assassin_blood_drop:
   Drops:
     - ips 3 0.01
     - slain_assassin_blood_drop_item_drops 1
+    - slain_assassin_blood_drop_rare_drops 1
 slain_assassin_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -313,42 +475,77 @@ slain_assassin_blood_drop_item_drops:
     - undead_chestplate_blood 1 0.25
     - glacial_boots_blood 1 0.025
     - visage_of_the_untouchables_blood 1 0.2
+
+slain_assassin_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - agathons_ring_of_order_blood 1 0.03
+    - nothing 1 0.97
 
 parallel_world_evil_miller_blood_drop:
   Drops:
     - ips 3 0.5
     - parallel_world_evil_miller_blood_drop_item_drops 1
+    - parallel_world_evil_miller_blood_drop_rare_drops 1
 parallel_world_evil_miller_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
     - agathons_ring_of_order_blood 1 0.06
     - heredurs_royal_power_blood 1 0.025
+
+parallel_world_evil_miller_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - heredurs_royal_shield_blood 1 0.001
+    - nothing 1 0.999
 
 the_bloody_arrow_blood_drop:
   Drops:
     - ips 3 0.5
     - the_bloody_arrow_blood_drop_item_drops 1
+    - the_bloody_arrow_blood_drop_rare_drops 1
 the_bloody_arrow_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
     - agathons_ring_of_order_blood 1 0.06
     - heredurs_royal_power_blood 1 0.025
+
+the_bloody_arrow_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - heredurs_royal_shield_blood 1 0.001
+    - nothing 1 0.999
 
 king_heredur_blood_drop:
   Drops:
     - heredur_frag_III 1 0.05
     - ips 3 1
     - king_heredur_blood_drop_item_drops 1
-    - q3_soul 1 0.01
+    - king_heredur_blood_drop_rare_drops 1
+    - q3_soul_luck 1
 king_heredur_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 3
   Drops:
     - agathons_ring_of_order_blood 1 0.15
     - heredurs_royal_power_blood 1 0.05
+
+king_heredur_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - heredurs_royal_shield_blood 1 0.01
+    - nothing 1 0.99
+
+
+q3_soul_luck:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
+    - q3_soul 1 0.01
+    - nothing 1 0.99
