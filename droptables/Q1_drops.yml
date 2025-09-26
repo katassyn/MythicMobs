@@ -96,8 +96,8 @@ flamecult_servant_hell_rare_drops:
   BonusLuckItems: 0.15
   Drops:
     - cuchulains_battle_armor_hell 1 0.002
-    - grimmags_flaming_wrath 1 0.00075
-    - fiery_tracks_of_grimmag 1 0.00075
+   # - grimmags_flaming_wrath 1 0.00075
+    #- fiery_tracks_of_grimmag 1 0.00075
     - nothing 1 0.9965
 
 flamecult_worshipper_hell:
@@ -117,8 +117,8 @@ flamecult_worshipper_hell_rare_drops:
   BonusLuckItems: 0.15
   Drops:
     - cuchulains_battle_armor_hell 1 0.012
-    - grimmags_flaming_wrath 1 0.003
-    - fiery_tracks_of_grimmag 1 0.003
+    #- grimmags_flaming_wrath 1 0.003
+   # - fiery_tracks_of_grimmag 1 0.003
     - nothing 1 0.982
 
 raazghul_the_corruptor_hell:
@@ -185,9 +185,9 @@ flamecult_servant_blood_rare_drops:
   BonusLuckItems: 0.15
   Drops:
     - cuchulains_battle_armor_bloodshed 1 0.004
-    - grimmags_flaming_wrath_bloodshed 1 0.001
-    - fiery_tracks_of_grimmag_bloodshed 1 0.001
-    - fyrgons_ring_of_fire 1 0.0005
+    #- grimmags_flaming_wrath_bloodshed 1 0.001
+    #- fiery_tracks_of_grimmag_bloodshed 1 0.001
+   # - fyrgons_ring_of_fire 1 0.0005
     - nothing 1 0.9935
 
 flamecult_worshipper_blood:
@@ -207,9 +207,9 @@ flamecult_worshipper_blood_rare_drops:
   BonusLuckItems: 0.15
   Drops:
     - cuchulains_battle_armor_bloodshed 1 0.015
-    - grimmags_flaming_wrath_bloodshed 1 0.004
-    - fiery_tracks_of_grimmag_bloodshed 1 0.004
-    - fyrgons_ring_of_fire 1 0.001
+    #- grimmags_flaming_wrath_bloodshed 1 0.004
+    # fiery_tracks_of_grimmag_bloodshed 1 0.004
+    #- fyrgons_ring_of_fire 1 0.001
     - nothing 1 0.976
 
 raazghul_the_corruptor_blood:
