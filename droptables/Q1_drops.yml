@@ -61,7 +61,6 @@ grimmag_inf:
     - ips 1 1
     - grimmag_inf_item_drops 1
     - grimmag_inf_rare_drops 1
-    - q1_soul_luck 1
 grimmag_inf_item_drops:
   MinItems: 0
   MaxItems: 3
@@ -95,10 +94,7 @@ flamecult_servant_hell_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - cuchulains_battle_armor_hell 1 0.002
-   # - grimmags_flaming_wrath 1 0.00075
-    #- fiery_tracks_of_grimmag 1 0.00075
-    - nothing 1 0.9965
+    - nothing 1 1
 
 flamecult_worshipper_hell:
   Drops:
@@ -116,10 +112,7 @@ flamecult_worshipper_hell_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - cuchulains_battle_armor_hell 1 0.012
-    #- grimmags_flaming_wrath 1 0.003
-   # - fiery_tracks_of_grimmag 1 0.003
-    - nothing 1 0.982
+    - nothing 1 1
 
 raazghul_the_corruptor_hell:
   Drops:
@@ -137,10 +130,9 @@ raazghul_the_corruptor_hell_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - cuchulains_battle_armor_hell 1 0.03
-    - grimmags_flaming_wrath 1 0.007
-    - fiery_tracks_of_grimmag 1 0.007
-    - nothing 1 0.956
+    - grimmags_flaming_wrath 1 0.00625
+    - fiery_tracks_of_grimmag 1 0.00625
+    - nothing 1 0.9875
 
 grimmag_hell:
   Drops:
@@ -148,7 +140,6 @@ grimmag_hell:
     - ips 2 1
     - grimmag_hell_item_drops 1
     - grimmag_hell_rare_drops 1
-    - q1_soul_luck 1
 grimmag_hell_item_drops:
   MinItems: 0
   MaxItems: 3
@@ -160,10 +151,9 @@ grimmag_hell_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - cuchulains_battle_armor_hell 1 0.05
-    - grimmags_flaming_wrath 1 0.02
-    - fiery_tracks_of_grimmag 1 0.02
-    - nothing 1 0.91
+    - grimmags_flaming_wrath 1 0.0125
+    - fiery_tracks_of_grimmag 1 0.0125
+    - nothing 1 0.975
 
 # BLOOD BLOOD BLOOD
 # BLOOD BLOOD BLOOD
@@ -184,11 +174,7 @@ flamecult_servant_blood_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - cuchulains_battle_armor_bloodshed 1 0.004
-    #- grimmags_flaming_wrath_bloodshed 1 0.001
-    #- fiery_tracks_of_grimmag_bloodshed 1 0.001
-   # - fyrgons_ring_of_fire 1 0.0005
-    - nothing 1 0.9935
+    - nothing 1 1
 
 flamecult_worshipper_blood:
   Drops:
@@ -206,11 +192,7 @@ flamecult_worshipper_blood_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - cuchulains_battle_armor_bloodshed 1 0.015
-    #- grimmags_flaming_wrath_bloodshed 1 0.004
-    # fiery_tracks_of_grimmag_bloodshed 1 0.004
-    #- fyrgons_ring_of_fire 1 0.001
-    - nothing 1 0.976
+    - nothing 1 1
 
 raazghul_the_corruptor_blood:
   Drops:
@@ -228,11 +210,10 @@ raazghul_the_corruptor_blood_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - cuchulains_battle_armor_bloodshed 1 0.04
-    - grimmags_flaming_wrath_bloodshed 1 0.01
-    - fiery_tracks_of_grimmag_bloodshed 1 0.01
-    - fyrgons_ring_of_fire 1 0.002
-    - nothing 1 0.938
+    - grimmags_flaming_wrath_bloodshed 1 0.0125
+    - fiery_tracks_of_grimmag_bloodshed 1 0.0125
+    - fyrgons_ring_of_fire 1 0.001
+    - nothing 1 0.974
 
 grimmag_blood:
   Drops:
@@ -252,11 +233,10 @@ grimmag_blood_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - cuchulains_battle_armor_bloodshed 1 0.08
-    - grimmags_flaming_wrath_bloodshed 1 0.03
-    - fiery_tracks_of_grimmag_bloodshed 1 0.03
+    - grimmags_flaming_wrath_bloodshed 1 0.025
+    - fiery_tracks_of_grimmag_bloodshed 1 0.025
     - fyrgons_ring_of_fire 1 0.01
-    - nothing 1 0.85
+    - nothing 1 0.94
 
 q1_soul_luck:
   TotalItems: 1

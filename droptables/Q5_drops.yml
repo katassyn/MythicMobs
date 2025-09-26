@@ -222,8 +222,7 @@ furious_maggot_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 furious_flagrancy_hell_drop:
   Drops:
@@ -242,8 +241,7 @@ furious_flagrancy_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 living_andermagic_hell_drop:
   Drops:
@@ -262,8 +260,7 @@ living_andermagic_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 andermagic_guardian_hell_drop:
   Drops:
@@ -282,8 +279,7 @@ andermagic_guardian_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 furious_andermagic_hell_drop:
   Drops:
@@ -302,8 +298,7 @@ furious_andermagic_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 wailing_ghost_hell_drop:
   Drops:
@@ -322,8 +317,7 @@ wailing_ghost_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 andermagic_scoropitl_hell_drop:
   Drops:
@@ -342,8 +336,7 @@ andermagic_scoropitl_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 old_jabbax_shaman_hell_drop:
   Drops:
@@ -420,8 +413,7 @@ furious_maggot_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 furious_flagrancy_blood_drop:
   Drops:
@@ -440,8 +432,7 @@ furious_flagrancy_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 living_andermagic_blood_drop:
   Drops:
@@ -460,8 +451,7 @@ living_andermagic_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 andermagic_guardian_blood_drop:
   Drops:
@@ -480,8 +470,7 @@ andermagic_guardian_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 furious_andermagic_blood_drop:
   Drops:
@@ -500,8 +489,7 @@ furious_andermagic_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_blood 1 0.03
-    - nothing 1 0.97
+    - nothing 1 1
 
 wailing_ghost_blood_drop:
   Drops:
@@ -520,8 +508,7 @@ wailing_ghost_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_blood 1 0.03
-    - nothing 1 0.97
+    - nothing 1 1
 
 andermagic_scoropitl_blood_drop:
   Drops:
@@ -540,8 +527,7 @@ andermagic_scoropitl_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - khalys_dark_gaze_blood 1 0.03
-    - nothing 1 0.97
+    - nothing 1 1
 
 old_jabbax_shaman_blood_drop:
   Drops:

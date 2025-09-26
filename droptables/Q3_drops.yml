@@ -202,8 +202,7 @@ cursed_farmer_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - agathons_ring_of_order_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 cursed_archer_hell_drop:
   Drops:
@@ -222,8 +221,7 @@ cursed_archer_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - agathons_ring_of_order_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 slain_warrior_hell_drop:
   Drops:
@@ -242,8 +240,7 @@ slain_warrior_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - agathons_ring_of_order_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 slain_archer_hell_drop:
   Drops:
@@ -262,8 +259,7 @@ slain_archer_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - agathons_ring_of_order_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 cursed_troll_hell_drop:
   Drops:
@@ -282,8 +278,7 @@ cursed_troll_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - agathons_ring_of_order_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 slain_assassin_hell_drop:
   Drops:
@@ -302,8 +297,7 @@ slain_assassin_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - agathons_ring_of_order_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 parallel_world_evil_miller_hell_drop:
   Drops:
@@ -380,8 +374,7 @@ cursed_farmer_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - agathons_ring_of_order_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 cursed_archer_blood_drop:
   Drops:
@@ -400,8 +393,7 @@ cursed_archer_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - agathons_ring_of_order_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 slain_warrior_blood_drop:
   Drops:
@@ -420,8 +412,7 @@ slain_warrior_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - agathons_ring_of_order_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 slain_archer_blood_drop:
   Drops:
@@ -440,8 +431,7 @@ slain_archer_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - agathons_ring_of_order_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 cursed_troll_blood_drop:
   Drops:
@@ -460,8 +450,7 @@ cursed_troll_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - agathons_ring_of_order_blood 1 0.03
-    - nothing 1 0.97
+    - nothing 1 1
 
 slain_assassin_blood_drop:
   Drops:
@@ -480,8 +469,7 @@ slain_assassin_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - agathons_ring_of_order_blood 1 0.03
-    - nothing 1 0.97
+    - nothing 1 1
 
 parallel_world_evil_miller_blood_drop:
   Drops:

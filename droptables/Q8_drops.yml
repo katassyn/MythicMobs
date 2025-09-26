@@ -245,8 +245,7 @@ electrified_ferocity_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 charged_drone_hell_drop:
   Drops:
@@ -265,8 +264,7 @@ charged_drone_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 big_heap_hell_drop:
   Drops:
@@ -285,8 +283,7 @@ big_heap_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 frostwolf_hell_drop:
   Drops:
@@ -305,8 +302,7 @@ frostwolf_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 shocking_forocity_hell_drop:
   Drops:
@@ -344,8 +340,7 @@ pale_pillager_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 simple_troll_hell_drop:
   Drops:
@@ -364,8 +359,7 @@ simple_troll_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 frost_magician_hell_drop:
   Drops:
@@ -384,8 +378,7 @@ frost_magician_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 frost_bringer_hell_drop:
   Drops:
@@ -404,8 +397,7 @@ frost_bringer_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 pale_enforcer_hell_drop:
   Drops:
@@ -465,8 +457,7 @@ electrified_ferocity_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 charged_drone_blood_drop:
   Drops:
@@ -485,8 +476,7 @@ charged_drone_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 big_heap_blood_drop:
   Drops:
@@ -565,8 +555,7 @@ pale_pillager_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 simple_troll_blood_drop:
   Drops:
@@ -585,8 +574,7 @@ simple_troll_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 frost_magician_blood_drop:
   Drops:
@@ -605,8 +593,7 @@ frost_magician_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_blood 1 0.03
-    - nothing 1 0.97
+    - nothing 1 1
 
 frost_bringer_blood_drop:
   Drops:
@@ -625,8 +612,7 @@ frost_bringer_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - fjalnirs_ring_of_frost_blood 1 0.03
-    - nothing 1 0.97
+    - nothing 1 1
 
 pale_enforcer_blood_drop:
   Drops:

@@ -102,8 +102,7 @@ gremlin_marauder_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_ring_of_poison_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 corrupted_root_creature_hell_drop:
   Drops:
@@ -122,8 +121,7 @@ corrupted_root_creature_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_ring_of_poison_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 xerib_the_hunchback_hell_drop:
   Drops:
@@ -182,8 +180,7 @@ gremlin_marauder_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_ring_of_poison_bloodshed 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 corrupted_root_creature_blood_drop:
   Drops:
@@ -202,8 +199,7 @@ corrupted_root_creature_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - oceanus_ring_of_poison_bloodshed 1 0.03
-    - nothing 1 0.97
+    - nothing 1 1
 
 xerib_the_hunchback_blood_drop:
   Drops:

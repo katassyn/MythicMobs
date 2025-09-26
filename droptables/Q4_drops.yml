@@ -142,8 +142,7 @@ sanguine_clan_raging_guardian_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - artayas_cape_of_life_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 raging_hunting_hound_hell_drop:
   Drops:
@@ -162,8 +161,7 @@ raging_hunting_hound_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - artayas_cape_of_life_hell 1 0.001
-    - nothing 1 0.999
+    - nothing 1 1
 
 sanguine_clan_raging_snooper_hell_drop:
   Drops:
@@ -182,8 +180,7 @@ sanguine_clan_raging_snooper_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - artayas_cape_of_life_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 sanguine_hunter_hell_drop:
   Drops:
@@ -202,8 +199,7 @@ sanguine_hunter_hell_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - artayas_cape_of_life_hell 1 0.02
-    - nothing 1 0.98
+    - nothing 1 1
 
 ancient_stag_hell_drop:
   Drops:
@@ -262,8 +258,7 @@ sanguine_clan_raging_guardian_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - artayas_cape_of_life_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 raging_hunting_hound_blood_drop:
   Drops:
@@ -282,8 +277,7 @@ raging_hunting_hound_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - artayas_cape_of_life_blood 1 0.005
-    - nothing 1 0.995
+    - nothing 1 1
 
 sanguine_clan_raging_snooper_blood_drop:
   Drops:
@@ -302,8 +296,7 @@ sanguine_clan_raging_snooper_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - artayas_cape_of_life_blood 1 0.03
-    - nothing 1 0.97
+    - nothing 1 1
 
 sanguine_hunter_blood_drop:
   Drops:
@@ -322,8 +315,7 @@ sanguine_hunter_blood_drop_rare_drops:
   TotalItems: 1
   BonusLuckItems: 0.15
   Drops:
-    - artayas_cape_of_life_blood 1 0.03
-    - nothing 1 0.97
+    - nothing 1 1
 
 ancient_stag_blood_drop:
   Drops:
