@@ -5,6 +5,7 @@ agile_satyr_warrior_inf_drop:
   Drops:
     - ips 1 0.01
     - agile_satyr_warrior_inf_drop_item_drops 1
+    - agile_satyr_warrior_inf_drop_rare_drops 1
 agile_satyr_warrior_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -12,12 +13,19 @@ agile_satyr_warrior_inf_drop_item_drops:
     - ancient_hands_infernal 1 0.01
     - pure_chunk_of_meat_infernal 1 0.01
     - swiftness_of_the_alliance_infernal 1 0.01
+
+agile_satyr_warrior_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_infernal 1 0.0005
+    - nothing 1 0.9995
 
 perfidious_satyr_archer_inf_drop:
   Drops:
     - ips 1 0.01
     - perfidious_satyr_archer_inf_drop_item_drops 1
+    - perfidious_satyr_archer_inf_drop_rare_drops 1
 perfidious_satyr_archer_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -25,12 +33,19 @@ perfidious_satyr_archer_inf_drop_item_drops:
     - ancient_hands_infernal 1 0.01
     - pure_chunk_of_meat_infernal 1 0.01
     - swiftness_of_the_alliance_infernal 1 0.01
+
+perfidious_satyr_archer_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_infernal 1 0.0005
+    - nothing 1 0.9995
 
 cohort_swordsman_inf_drop:
   Drops:
     - ips 1 0.25
     - cohort_swordsman_inf_drop_item_drops 1
+    - cohort_swordsman_inf_drop_rare_drops 1
 cohort_swordsman_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -38,12 +53,19 @@ cohort_swordsman_inf_drop_item_drops:
     - ancient_hands_infernal 1 0.25
     - pure_chunk_of_meat_infernal 1 0.25
     - swiftness_of_the_alliance_infernal 1 0.05
+
+cohort_swordsman_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_infernal 1 0.01
+    - nothing 1 0.99
 
 stone_golem_inf_drop:
   Drops:
     - ips 1 0.25
     - stone_golem_inf_drop_item_drops 1
+    - stone_golem_inf_drop_rare_drops 1
 stone_golem_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -51,12 +73,19 @@ stone_golem_inf_drop_item_drops:
     - ancient_hands_infernal 1 0.25
     - pure_chunk_of_meat_infernal 1 0.25
     - swiftness_of_the_alliance_infernal 1 0.05
+
+stone_golem_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_infernal 1 0.01
+    - nothing 1 0.99
 
 asterion_inf_drop:
   Drops:
     - ips 1 0.5
     - asterion_inf_drop_item_drops 1
+    - asterion_inf_drop_rare_drops 1
 asterion_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 2
@@ -64,13 +93,20 @@ asterion_inf_drop_item_drops:
     - ancient_hands_infernal 1 0.5
     - pure_chunk_of_meat_infernal 1 0.5
     - swiftness_of_the_alliance_infernal 1 0.1
+
+asterion_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_infernal 1 0.04
+    - nothing 1 0.96
 
 # Mission 2 Mobs
 jabbax_inf_drop:
   Drops:
     - ips 1 0.01
     - jabbax_inf_drop_item_drops 1
+    - jabbax_inf_drop_rare_drops 1
 jabbax_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -78,12 +114,19 @@ jabbax_inf_drop_item_drops:
     - ancient_hands_infernal 1 0.01
     - pure_chunk_of_meat_infernal 1 0.01
     - swiftness_of_the_alliance_infernal 1 0.01
+
+jabbax_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_infernal 1 0.0005
+    - nothing 1 0.9995
 
 zorlobb_warrior_inf_drop:
   Drops:
     - ips 1 0.25
     - zorlobb_warrior_inf_drop_item_drops 1
+    - zorlobb_warrior_inf_drop_rare_drops 1
 zorlobb_warrior_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -91,12 +134,19 @@ zorlobb_warrior_inf_drop_item_drops:
     - ancient_hands_infernal 1 0.25
     - pure_chunk_of_meat_infernal 1 0.25
     - swiftness_of_the_alliance_infernal 1 0.05
+
+zorlobb_warrior_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_infernal 1 0.01
+    - nothing 1 0.99
 
 gorgon_acolyte_inf_drop:
   Drops:
     - ips 1 0.01
     - gorgon_acolyte_inf_drop_item_drops 1
+    - gorgon_acolyte_inf_drop_rare_drops 1
 gorgon_acolyte_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -104,12 +154,19 @@ gorgon_acolyte_inf_drop_item_drops:
     - ancient_hands_infernal 1 0.01
     - pure_chunk_of_meat_infernal 1 0.01
     - swiftness_of_the_alliance_infernal 1 0.01
+
+gorgon_acolyte_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_infernal 1 0.0005
+    - nothing 1 0.9995
 
 minotaur_inf_drop:
   Drops:
     - ips 1 0.25
     - minotaur_inf_drop_item_drops 1
+    - minotaur_inf_drop_rare_drops 1
 minotaur_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -117,12 +174,19 @@ minotaur_inf_drop_item_drops:
     - ancient_hands_infernal 1 0.25
     - pure_chunk_of_meat_infernal 1 0.25
     - swiftness_of_the_alliance_infernal 1 0.05
+
+minotaur_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_infernal 1 0.01
+    - nothing 1 0.99
 
 ebicarus_inf_drop:
   Drops:
     - ips 1 0.5
     - ebicarus_inf_drop_item_drops 1
+    - ebicarus_inf_drop_rare_drops 1
 ebicarus_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 2
@@ -130,7 +194,13 @@ ebicarus_inf_drop_item_drops:
     - ancient_hands_infernal 1 0.5
     - pure_chunk_of_meat_infernal 1 0.5
     - swiftness_of_the_alliance_infernal 1 0.1
+
+ebicarus_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_infernal 1 0.04
+    - nothing 1 0.96
 
 # Mission 3 Boss
 medusa_inf_drop:
@@ -138,6 +208,7 @@ medusa_inf_drop:
     - medusa_frag_I 1 0.05
     - ips 1 1
     - medusa_inf_drop_item_drops 1
+    - medusa_inf_drop_rare_drops 1
 medusa_inf_drop_item_drops:
   MinItems: 0
   MaxItems: 3
@@ -145,7 +216,13 @@ medusa_inf_drop_item_drops:
     - ancient_hands_infernal 1 1
     - pure_chunk_of_meat_infernal 1 1
     - swiftness_of_the_alliance_infernal 1 0.25
+
+medusa_inf_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_infernal 1 0.1
+    - nothing 1 0.9
 
 # HELL HELL HELL
 # HELL HELL HELL
@@ -155,6 +232,7 @@ agile_satyr_warrior_hell_drop:
   Drops:
     - ips 2 0.01
     - agile_satyr_warrior_hell_drop_item_drops 1
+    - agile_satyr_warrior_hell_drop_rare_drops 1
 agile_satyr_warrior_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -162,12 +240,19 @@ agile_satyr_warrior_hell_drop_item_drops:
     - ancient_hands_hell 1 0.01
     - pure_chunk_of_meat_hell 1 0.01
     - swiftness_of_the_alliance_hell 1 0.02
+
+agile_satyr_warrior_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_hell 1 0.001
+    - nothing 1 0.999
 
 perfidious_satyr_archer_hell_drop:
   Drops:
     - ips 2 0.01
     - perfidious_satyr_archer_hell_drop_item_drops 1
+    - perfidious_satyr_archer_hell_drop_rare_drops 1
 perfidious_satyr_archer_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -175,12 +260,19 @@ perfidious_satyr_archer_hell_drop_item_drops:
     - ancient_hands_hell 1 0.01
     - pure_chunk_of_meat_hell 1 0.01
     - swiftness_of_the_alliance_hell 1 0.02
+
+perfidious_satyr_archer_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_hell 1 0.001
+    - nothing 1 0.999
 
 cohort_swordsman_hell_drop:
   Drops:
     - ips 2 0.25
     - cohort_swordsman_hell_drop_item_drops 1
+    - cohort_swordsman_hell_drop_rare_drops 1
 cohort_swordsman_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -188,12 +280,19 @@ cohort_swordsman_hell_drop_item_drops:
     - ancient_hands_hell 1 0.025
     - pure_chunk_of_meat_hell 1 0.025
     - swiftness_of_the_alliance_hell 1 0.1
+
+cohort_swordsman_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_hell 1 0.02
+    - nothing 1 0.98
 
 stone_golem_hell_drop:
   Drops:
     - ips 2 0.25
     - stone_golem_hell_drop_item_drops 1
+    - stone_golem_hell_drop_rare_drops 1
 stone_golem_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -201,24 +300,38 @@ stone_golem_hell_drop_item_drops:
     - ancient_hands_hell 1 0.025
     - pure_chunk_of_meat_hell 1 0.025
     - swiftness_of_the_alliance_hell 1 0.1
+
+stone_golem_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_hell 1 0.02
+    - nothing 1 0.98
 
 asterion_hell_drop:
   Drops:
     - ips 2 0.5
     - asterion_hell_drop_item_drops 1
+    - asterion_hell_drop_rare_drops 1
 asterion_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
     - oceanus_poison_crown_hell 1 0.05
+
+asterion_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - amulet_of_the_kraken_hell 1 0.0125
+    - nothing 1 0.9875
 
 # Mission 2 Mobs
 jabbax_hell_drop:
   Drops:
     - ips 2 0.01
     - jabbax_hell_drop_item_drops 1
+    - jabbax_hell_drop_rare_drops 1
 jabbax_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -226,12 +339,19 @@ jabbax_hell_drop_item_drops:
     - ancient_hands_hell 1 0.01
     - pure_chunk_of_meat_hell 1 0.01
     - swiftness_of_the_alliance_hell 1 0.02
+
+jabbax_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_hell 1 0.001
+    - nothing 1 0.999
 
 zorlobb_warrior_hell_drop:
   Drops:
     - ips 2 0.25
     - zorlobb_warrior_hell_drop_item_drops 1
+    - zorlobb_warrior_hell_drop_rare_drops 1
 zorlobb_warrior_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -239,12 +359,19 @@ zorlobb_warrior_hell_drop_item_drops:
     - ancient_hands_hell 1 0.025
     - pure_chunk_of_meat_hell 1 0.025
     - swiftness_of_the_alliance_hell 1 0.1
+
+zorlobb_warrior_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_hell 1 0.02
+    - nothing 1 0.98
 
 gorgon_acolyte_hell_drop:
   Drops:
     - ips 2 0.01
     - gorgon_acolyte_hell_drop_item_drops 1
+    - gorgon_acolyte_hell_drop_rare_drops 1
 gorgon_acolyte_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -252,12 +379,19 @@ gorgon_acolyte_hell_drop_item_drops:
     - ancient_hands_hell 1 0.01
     - pure_chunk_of_meat_hell 1 0.01
     - swiftness_of_the_alliance_hell 1 0.02
+
+gorgon_acolyte_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_hell 1 0.001
+    - nothing 1 0.999
 
 minotaur_hell_drop:
   Drops:
     - ips 2 0.25
     - minotaur_hell_drop_item_drops 1
+    - minotaur_hell_drop_rare_drops 1
 minotaur_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -265,18 +399,31 @@ minotaur_hell_drop_item_drops:
     - ancient_hands_hell 1 0.025
     - pure_chunk_of_meat_hell 1 0.025
     - swiftness_of_the_alliance_hell 1 0.1
+
+minotaur_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_hell 1 0.02
+    - nothing 1 0.98
 
 ebicarus_hell_drop:
   Drops:
     - ips 2 0.5
     - ebicarus_hell_drop_item_drops 1
+    - ebicarus_hell_drop_rare_drops 1
 ebicarus_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
     - oceanus_poison_crown_hell 1 0.05
+
+ebicarus_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - amulet_of_the_kraken_hell 1 0.0125
+    - nothing 1 0.9875
 
 # Mission 3 Boss
 medusa_hell_drop:
@@ -284,12 +431,19 @@ medusa_hell_drop:
     - medusa_frag_II 1 0.05
     - ips 2 1
     - medusa_hell_drop_item_drops 1
+    - medusa_hell_drop_rare_drops 1
 medusa_hell_drop_item_drops:
   MinItems: 0
   MaxItems: 3
   Drops:
     - oceanus_poison_crown_hell 1 0.125
+
+medusa_hell_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - amulet_of_the_kraken_hell 1 0.025
+    - nothing 1 0.975
 
 # BLOOD BLOOD BLOOD
 # BLOOD BLOOD BLOOD
@@ -298,6 +452,7 @@ agile_satyr_warrior_blood_drop:
   Drops:
     - ips 3 0.01
     - agile_satyr_warrior_blood_drop_item_drops 1
+    - agile_satyr_warrior_blood_drop_rare_drops 1
 agile_satyr_warrior_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -305,12 +460,19 @@ agile_satyr_warrior_blood_drop_item_drops:
     - ancient_hands_blood 1 0.01
     - pure_chunk_of_meat_blood 1 0.01
     - swiftness_of_the_alliance_blood 1 0.03
+
+agile_satyr_warrior_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_blood 1 0.005
+    - nothing 1 0.995
 
 perfidious_satyr_archer_blood_drop:
   Drops:
     - ips 3 0.01
     - perfidious_satyr_archer_blood_drop_item_drops 1
+    - perfidious_satyr_archer_blood_drop_rare_drops 1
 perfidious_satyr_archer_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -318,12 +480,19 @@ perfidious_satyr_archer_blood_drop_item_drops:
     - ancient_hands_blood 1 0.01
     - pure_chunk_of_meat_blood 1 0.01
     - swiftness_of_the_alliance_blood 1 0.03
+
+perfidious_satyr_archer_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_blood 1 0.005
+    - nothing 1 0.995
 
 cohort_swordsman_blood_drop:
   Drops:
     - ips 3 0.01
     - cohort_swordsman_blood_drop_item_drops 1
+    - cohort_swordsman_blood_drop_rare_drops 1
 cohort_swordsman_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -331,12 +500,19 @@ cohort_swordsman_blood_drop_item_drops:
     - ancient_hands_blood 1 0.25
     - pure_chunk_of_meat_blood 1 0.025
     - swiftness_of_the_alliance_blood 1 0.2
+
+cohort_swordsman_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_blood 1 0.03
+    - nothing 1 0.97
 
 stone_golem_blood_drop:
   Drops:
     - ips 3 0.01
     - stone_golem_blood_drop_item_drops 1
+    - stone_golem_blood_drop_rare_drops 1
 stone_golem_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -344,25 +520,39 @@ stone_golem_blood_drop_item_drops:
     - ancient_hands_blood 1 0.25
     - pure_chunk_of_meat_blood 1 0.025
     - swiftness_of_the_alliance_blood 1 0.2
+
+stone_golem_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_blood 1 0.03
+    - nothing 1 0.97
 
 asterion_blood_drop:
   Drops:
     - ips 3 0.5
     - asterion_blood_drop_item_drops 1
+    - asterion_blood_drop_rare_drops 1
 asterion_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
     - oceanus_poison_crown_blood 1 0.06
     - amulet_of_the_kraken_blood 1 0.025
+
+asterion_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - gorgonskin_leather_boots_blood 1 0.001
+    - nothing 1 0.999
 
 # Mission 2 Mobs
 jabbax_blood_drop:
   Drops:
     - ips 3 0.01
     - jabbax_blood_drop_item_drops 1
+    - jabbax_blood_drop_rare_drops 1
 jabbax_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -370,12 +560,19 @@ jabbax_blood_drop_item_drops:
     - ancient_hands_blood 1 0.01
     - pure_chunk_of_meat_blood 1 0.01
     - swiftness_of_the_alliance_blood 1 0.03
+
+jabbax_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_blood 1 0.005
+    - nothing 1 0.995
 
 zorlobb_warrior_blood_drop:
   Drops:
     - ips 3 0.01
     - zorlobb_warrior_blood_drop_item_drops 1
+    - zorlobb_warrior_blood_drop_rare_drops 1
 zorlobb_warrior_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -383,12 +580,19 @@ zorlobb_warrior_blood_drop_item_drops:
     - ancient_hands_blood 1 0.25
     - pure_chunk_of_meat_blood 1 0.025
     - swiftness_of_the_alliance_blood 1 0.2
+
+zorlobb_warrior_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_blood 1 0.03
+    - nothing 1 0.97
 
 gorgon_acolyte_blood_drop:
   Drops:
     - ips 3 0.01
     - gorgon_acolyte_blood_drop_item_drops 1
+    - gorgon_acolyte_blood_drop_rare_drops 1
 gorgon_acolyte_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -396,12 +600,19 @@ gorgon_acolyte_blood_drop_item_drops:
     - ancient_hands_blood 1 0.01
     - pure_chunk_of_meat_blood 1 0.01
     - swiftness_of_the_alliance_blood 1 0.03
+
+gorgon_acolyte_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_blood 1 0.005
+    - nothing 1 0.995
 
 minotaur_blood_drop:
   Drops:
     - ips 3 0.01
     - minotaur_blood_drop_item_drops 1
+    - minotaur_blood_drop_rare_drops 1
 minotaur_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 1
@@ -409,19 +620,32 @@ minotaur_blood_drop_item_drops:
     - ancient_hands_blood 1 0.25
     - pure_chunk_of_meat_blood 1 0.025
     - swiftness_of_the_alliance_blood 1 0.2
+
+minotaur_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - oceanus_poison_crown_blood 1 0.03
+    - nothing 1 0.97
 
 ebicarus_blood_drop:
   Drops:
     - ips 3 0.5
     - ebicarus_blood_drop_item_drops 1
+    - ebicarus_blood_drop_rare_drops 1
 ebicarus_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 2
   Drops:
     - oceanus_poison_crown_blood 1 0.06
     - amulet_of_the_kraken_blood 1 0.025
+
+ebicarus_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - gorgonskin_leather_boots_blood 1 0.001
+    - nothing 1 0.999
 
 # Mission 3 Boss
 medusa_blood_drop:
@@ -429,11 +653,26 @@ medusa_blood_drop:
     - medusa_frag_III 1 0.05
     - ips 3 1
     - medusa_blood_drop_item_drops 1
-    - q9_soul 1 0.01
+    - medusa_blood_drop_rare_drops 1
+    - q9_soul_luck 1
 medusa_blood_drop_item_drops:
   MinItems: 0
   MaxItems: 3
   Drops:
     - oceanus_poison_crown_blood 1 0.15
     - amulet_of_the_kraken_blood 1 0.05
+
+medusa_blood_drop_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
     - gorgonskin_leather_boots_blood 1 0.01
+    - nothing 1 0.99
+
+
+q9_soul_luck:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
+    - q9_soul 1 0.01
+    - nothing 1 0.99
