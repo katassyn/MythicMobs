@@ -63,7 +63,7 @@ RunFromPlayer_inf:
 SummonCopy_inf:
   Cooldown: 42
   Skills:
-    - message{m="&4Khalys creates a copy!"} @PlayersInRadius{r=30}
+    - message{m="&4Kalith creates a copy!"} @PlayersInRadius{r=30}
     - summon{mob=khalys_clone_inf;amount=1;radius=3} @self
 
 MagicMissile_inf:
@@ -91,7 +91,7 @@ Teleport_inf:
 DeathBeam_inf:
   Cooldown: 20
   Skills:
-    - message{m="&5Khalys channels deadly energy — LOS!"} @PlayersInRadius{r=30}
+    - message{m="&5Kalith channels deadly energy — LOS!"} @PlayersInRadius{r=30}
     - effect:particles{p=end_rod;amount=100;radius=8} @self
     - delay 18
     - damage{a=<trigger.hp>*0.15} @PlayersInRadius{r=8}
@@ -275,7 +275,7 @@ Teleport_blood:
 DeathBeam_blood:
   Cooldown: 16
   Skills:
-    - message{m="&4Khalys unleashes pure void!"} @PlayersInRadius{r=34}
+    - message{m="&4Kalith unleashes pure void!"} @PlayersInRadius{r=34}
     - effect:particles{p=end_rod;amount=140;radius=8} @self
     - delay 14
     - damage{a=<trigger.hp>*0.25} @PlayersInRadius{r=8}

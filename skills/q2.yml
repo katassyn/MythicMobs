@@ -319,7 +319,7 @@ ThrowStone_blood:
     - GCD{ticks=50}
 
 # =========================
-# Arachna — webs, venom, spider adds
+# Arakhasa — webs, venom, spider adds
 # =========================
 
 Q2-WebHit-100:
@@ -343,7 +343,7 @@ Q2-WebHit-500:
 WebShot_inf:
   Cooldown: 9
   Skills:
-    - message{m="&cArachna weaves a web!"} @PlayersInRadius{r=40}
+    - message{m="&cArakhasa weaves a web!"} @PlayersInRadius{r=40}
     - sound{s=entity.spider.ambient;v=0.3;p=1.1} @self
     - delay 8
     - projectile{onTick=Web-Tick;onHit=Q2-WebHit-100;v=26;g=0;hs=false;i=1;hnp=true;oh=TRUE;ot=TRUE;hR=1.1;vR=1.1} @PlayersInRadius{r=26;limit=1;sort=NEAREST}
@@ -352,7 +352,7 @@ WebShot_inf:
 WebShot_hell:
   Cooldown: 9
   Skills:
-    - message{m="&cArachna shoots sticky silk!"} @PlayersInRadius{r=40}
+    - message{m="&cArakhasa shoots sticky silk!"} @PlayersInRadius{r=40}
     - delay 8
     - projectile{onTick=Web-Tick;onHit=Q2-WebHit-200;v=28;g=0;hs=false;i=1;hnp=true;oh=TRUE;ot=TRUE;hR=1.1;vR=1.1} @PlayersInRadius{r=28;limit=1;sort=NEAREST}
     - GCD{ticks=40}
@@ -372,7 +372,7 @@ Web-Tick:
 VenomSpit_inf:
   Cooldown: 11
   Skills:
-    - message{m="&cArachna spits venom!"} @PlayersInRadius{r=40}
+    - message{m="&cArakhasa spits venom!"} @PlayersInRadius{r=40}
     - skill{s=AoE-Telegraph-Small} @targetlocation
     - delay 14
     - potion{type=POISON;duration=120;level=1} @target
@@ -382,7 +382,7 @@ VenomSpit_inf:
 VenomSpit_hell:
   Cooldown: 11
   Skills:
-    - message{m="&cArachna spits venom!"} @PlayersInRadius{r=40}
+    - message{m="&cArakhasa spits venom!"} @PlayersInRadius{r=40}
     - skill{s=AoE-Telegraph-Small} @targetlocation
     - delay 12
     - potion{type=POISON;duration=140;level=1} @target
@@ -392,7 +392,7 @@ VenomSpit_hell:
 VenomSpit_blood:
   Cooldown: 12
   Skills:
-    - message{m="&cArachna spits venom!"} @PlayersInRadius{r=40}
+    - message{m="&cArakhasa spits venom!"} @PlayersInRadius{r=40}
     - skill{s=AoE-Telegraph-Small} @targetlocation
     - delay 12
     - potion{type=POISON;duration=160;level=1} @target
@@ -402,7 +402,7 @@ VenomSpit_blood:
 SummonPoisonousSpiders_inf:
   Cooldown: 18
   Skills:
-    - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=40}
+    - message{m="&cArakhasa summons her brood!"} @PlayersInRadius{r=40}
     - sound{s=entity.spider.ambient;v=0.3;p=0.8} @self
     - effect:particles{p=SPIT;amount=40;hS=1.2;vS=0.4} @self
     - delay 20
@@ -412,7 +412,7 @@ SummonPoisonousSpiders_inf:
 SummonPoisonousSpiders_hell:
   Cooldown: 18
   Skills:
-    - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=40}
+    - message{m="&cArakhasa summons her brood!"} @PlayersInRadius{r=40}
     - delay 18
     - summon{mob=poisonous_spider_hell;amount=2;radius=12;noise=5} @ring{radius=12;points=10}
     - GCD{ticks=100}
@@ -420,7 +420,7 @@ SummonPoisonousSpiders_hell:
 SummonPoisonousSpiders_blood:
   Cooldown: 20
   Skills:
-    - message{m="&cArachna summons her brood!"} @PlayersInRadius{r=40}
+    - message{m="&cArakhasa summons her brood!"} @PlayersInRadius{r=40}
     - delay 18
     - summon{mob=poisonous_spider_blood;amount=2;radius=14;noise=6} @ring{radius=14;points=12}
     - GCD{ticks=110}

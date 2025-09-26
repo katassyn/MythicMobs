@@ -91,7 +91,7 @@ BeeSwarm-Hit:
 Whirlwind_inf:
   Cooldown: 14
   Skills:
-    - message{m="&3Bearach spins up a whirlwind!"} @PlayersInRadius{r=22}
+    - message{m="&3Bearok spins up a whirlwind!"} @PlayersInRadius{r=22}
     - effect:particles{p=cloud;amount=100;radius=3} @self
     - pull{v=0.7} @PlayersInRadius{r=4}
     - delay 10

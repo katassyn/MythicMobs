@@ -139,7 +139,7 @@ DeathZone:
 
 SummonDragon:
   Skills:
-  - message{m="&cMortis joins the fight!"} @PlayersInRadius{r=30}
+  - message{m="&cMortrix joins the fight!"} @PlayersInRadius{r=30}
   - sound{s=entity.ender_dragon.growl;v=1.2;p=0.8} @self
   - summon{mob=skeledragon_phase2_inf;amount=1;radius=0} @self
 
@@ -155,7 +155,7 @@ SummonPhase2:
 
 SummonPhase3:
   Skills:
-  - message{m="&cMortis breaks free!"} @PlayersInRadius{r=30}
+  - message{m="&cMortrix breaks free!"} @PlayersInRadius{r=30}
   - sound{s=entity.wither.spawn;v=1.2;p=0.7} @self
   - delay 80
   - summon{mob=mortis_phase3_inf;amount=1;radius=0} @self
@@ -301,7 +301,7 @@ DeathZone_hell:
 
 SummonDragon_hell:
   Skills:
-  - message{m="&cMortis joins the fight!"} @PlayersInRadius{r=30}
+  - message{m="&cMortrix joins the fight!"} @PlayersInRadius{r=30}
   - sound{s=entity.ender_dragon.growl;v=1.2;p=0.8} @self
   - summon{mob=skeledragon_phase2_hell;amount=1;radius=0} @self
 
@@ -317,7 +317,7 @@ SummonPhase2_hell:
 
 SummonPhase3_hell:
   Skills:
-  - message{m="&cMortis unleashes full power!"} @PlayersInRadius{r=30}
+  - message{m="&cMortrix unleashes full power!"} @PlayersInRadius{r=30}
   - sound{s=entity.wither.spawn;v=1.2;p=0.6} @self
   - delay 80
   - summon{mob=mortis_phase3_hell;amount=1;radius=0} @self
@@ -466,7 +466,7 @@ DeathZone_blood:
 
 SummonDragon_blood:
   Skills:
-  - message{m="&cMortis joins the fight!"} @PlayersInRadius{r=30}
+  - message{m="&cMortrix joins the fight!"} @PlayersInRadius{r=30}
   - sound{s=entity.ender_dragon.growl;v=1.2;p=0.8} @self
   - summon{mob=skeledragon_phase2_blood;amount=1;radius=0} @self
 
@@ -482,7 +482,7 @@ SummonPhase2_blood:
 
 SummonPhase3_blood:
   Skills:
-  - message{m="&4Mortis transforms the battlefield!"} @PlayersInRadius{r=30}
+  - message{m="&4Mortrix transforms the battlefield!"} @PlayersInRadius{r=30}
   - sound{s=entity.wither.spawn;v=1.2;p=0.5} @self
   - delay 80
   - summon{mob=mortis_phase3_blood;amount=1;radius=0} @self

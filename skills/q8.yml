@@ -364,7 +364,7 @@ SummonPillagers_blood:
 TripleIceBolt:
   Cooldown: 10
   Skills:
-    - message{m="&bSigrismarr launches frozen projectiles!"} @PlayersInRadius{r=30}
+    - message{m="&bSigrosmarr launches frozen projectiles!"} @PlayersInRadius{r=30}
     - effect:particlering{p=SNOWFLAKE;r=2.4;points=22;amount=1;y=0.1} @self
     - projectile{onTick=Ice-Tick;onHit=Ice-Hit;v=8;i=SNOWBALL;hR=1;vR=1;amount=3} @target
 
@@ -381,7 +381,7 @@ Ice-Hit:
 TripleIceBolt_hell:
   Cooldown: 10
   Skills:
-    - message{m="&bSigrismarr launches frozen projectiles!"} @PlayersInRadius{r=30}
+    - message{m="&bSigrosmarr launches frozen projectiles!"} @PlayersInRadius{r=30}
     - effect:particlering{p=SNOWFLAKE;r=2.6;points=24;amount=1;y=0.1} @self
     - projectile{onTick=Ice-Tick-Hell;onHit=Ice-Hit-Hell;v=8;i=SNOWBALL;hR=1;vR=1;amount=3} @target
 
@@ -398,7 +398,7 @@ Ice-Hit-Hell:
 TripleIceBolt_blood:
   Cooldown: 10
   Skills:
-    - message{m="&bSigrismarr launches frozen projectiles!"} @PlayersInRadius{r=30}
+    - message{m="&bSigrosmarr launches frozen projectiles!"} @PlayersInRadius{r=30}
     - effect:particlering{p=SNOWFLAKE;r=2.8;points=26;amount=1;y=0.1} @self
     - projectile{onTick=Ice-Tick-Blood;onHit=Ice-Hit-Blood;v=8;i=SNOWBALL;hR=1;vR=1;amount=3} @target
 
@@ -461,7 +461,7 @@ ImmunityPhase:
   Conditions:
     - offgcd
   Skills:
-    - message{m="&bSigrismarr channels ancient frost magic!"} @PlayersInRadius{r=30}
+    - message{m="&bSigrosmarr channels ancient frost magic!"} @PlayersInRadius{r=30}
     - skill{s=FX_Ice_Telegraph_M} @self
     - potion{type=DAMAGE_RESISTANCE;duration=200;level=4} @self
     - summon{mob=frost_magician_inf;amount=5;radius=5} @self
@@ -472,7 +472,7 @@ ImmunityPhase_hell:
   Conditions:
     - offgcd
   Skills:
-    - message{m="&bSigrismarr channels ancient frost magic!"} @PlayersInRadius{r=30}
+    - message{m="&bSigrosmarr channels ancient frost magic!"} @PlayersInRadius{r=30}
     - skill{s=FX_Ice_Telegraph_M} @self
     - potion{type=DAMAGE_RESISTANCE;duration=200;level=4} @self
     - summon{mob=frost_magician_hell;amount=5;radius=5} @self
@@ -483,7 +483,7 @@ ImmunityPhase_blood:
   Conditions:
     - offgcd
   Skills:
-    - message{m="&bSigrismarr channels ancient frost magic!"} @PlayersInRadius{r=30}
+    - message{m="&bSigrosmarr channels ancient frost magic!"} @PlayersInRadius{r=30}
     - skill{s=FX_Ice_Telegraph_M} @self
     - potion{type=DAMAGE_RESISTANCE;duration=200;level=255} @self
     - summon{mob=frost_magician_blood;amount=5;radius=5} @self

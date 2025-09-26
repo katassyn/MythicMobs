@@ -69,7 +69,7 @@ SummonUndead_inf:
 DeathBeam_inf:
   Cooldown: 20
   Skills:
-    - message{m="&5Heredur channels a &ldeath beam&7 — spread out!"} @PlayersInRadius{r=30}
+    - message{m="&5Heredorn channels a &ldeath beam&7 — spread out!"} @PlayersInRadius{r=30}
     - effect:particles{p=end_rod;amount=80;radius=6} @self
     - delay 20
     - projectile{onTick=Beam-Tick;onHit=Beam-Hit-Inf;v=3.2;i=DRAGON_FIREBALL;hR=1;vR=1} @NearestPlayer{r=30}

@@ -203,7 +203,7 @@ PowerfulFlamingShot-Hit:
 SummonSnakes:
   Cooldown: 15
   Skills:
-    - message{m="&cGorga summons venomous snakes!"} @PlayersInRadius{r=20}
+    - message{m="&cGorgra summons venomous snakes!"} @PlayersInRadius{r=20}
     - summon{mob=snake_minion_inf;amount=3;radius=3} @self
 
 ScatteredShot:
@@ -235,7 +235,7 @@ SummonReinforcements:
   Conditions:
     - offgcd
   Skills:
-    - message{m="&cGorga calls for reinforcements!"} @PlayersInRadius{r=30}
+    - message{m="&cGorgra calls for reinforcements!"} @PlayersInRadius{r=30}
     - summon{mob=armed_khaross_inf;amount=3;radius=5} @self
     - summon{mob=mordacious_khaross_inf;amount=3;radius=5} @self
     - summon{mob=patrolling_jabbax_inf;amount=1;radius=5} @self
@@ -365,7 +365,7 @@ PowerfulFlamingShot_hell-Hit:
 SummonSnakes_hell:
   Cooldown: 15
   Skills:
-    - message{m="&cGorga summons venomous snakes!"} @PlayersInRadius{r=20}
+    - message{m="&cGorgra summons venomous snakes!"} @PlayersInRadius{r=20}
     - summon{mob=snake_minion_hell;amount=3;radius=3} @self
 
 ScatteredShot_hell:
@@ -397,7 +397,7 @@ SummonReinforcements_hell:
   Conditions:
     - offgcd
   Skills:
-    - message{m="&cGorga calls for reinforcements!"} @PlayersInRadius{r=30}
+    - message{m="&cGorgra calls for reinforcements!"} @PlayersInRadius{r=30}
     - summon{mob=armed_khaross_hell;amount=3;radius=5} @self
     - summon{mob=mordacious_khaross_hell;amount=3;radius=5} @self
     - summon{mob=patrolling_jabbax_hell;amount=1;radius=5} @self
@@ -529,7 +529,7 @@ PowerfulFlamingShot_blood-Hit:
 SummonSnakes_blood:
   Cooldown: 15
   Skills:
-    - message{m="&cGorga summons venomous snakes!"} @PlayersInRadius{r=20}
+    - message{m="&cGorgra summons venomous snakes!"} @PlayersInRadius{r=20}
     - summon{mob=snake_minion_blood;amount=3;radius=3} @self
 
 ScatteredShot_blood:
@@ -561,7 +561,7 @@ SummonReinforcements_blood:
   Conditions:
     - offgcd
   Skills:
-    - message{m="&cGorga calls for reinforcements!"} @PlayersInRadius{r=30}
+    - message{m="&cGorgra calls for reinforcements!"} @PlayersInRadius{r=30}
     - summon{mob=armed_khaross_blood;amount=3;radius=5} @self
     - summon{mob=mordacious_khaross_blood;amount=3;radius=5} @self
     - summon{mob=patrolling_jabbax_blood;amount=1;radius=5} @self

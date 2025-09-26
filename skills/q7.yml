@@ -110,7 +110,7 @@ Meteor-Hit:
 SummonFlamespawnsLarge:
   Cooldown: 28
   Skills:
-    - message{m="&cThe herald summons its minions!"} @PlayersInRadius{r=30}
+    - message{m="&cThe Harbringer summons its minions!"} @PlayersInRadius{r=30}
     - sound{s=block.portal.trigger;v=0.4;p=0.6} @self
     - effect:particles{p=PORTAL;amount=100;hS=1;vS=1;speed=0.2} @self
     - summon{mob=angry_flamespawn_inf;amount=5;radius=5} @self
@@ -230,7 +230,7 @@ Meteor-Hit-Hell:
 SummonFlamespawnsLarge_hell:
   Cooldown: 28
   Skills:
-    - message{m="&cThe herald sends a legion of fire!"} @PlayersInRadius{r=30}
+    - message{m="&cThe Harbringer sends a legion of fire!"} @PlayersInRadius{r=30}
     - sound{s=block.portal.trigger;v=0.4;p=0.6} @self
     - effect:particles{p=PORTAL;amount=120;hS=1;vS=1;speed=0.2} @self
     - summon{mob=angry_flamespawn_hell;amount=6;radius=5} @self
@@ -350,7 +350,7 @@ Meteor-Hit-Blood:
 SummonFlamespawnsLarge_blood:
   Cooldown: 26
   Skills:
-    - message{m="&4&lThe Blood Herald summons a horde!"} @PlayersInRadius{r=30}
+    - message{m="&4&lThe Blood Harbringer summons a horde!"} @PlayersInRadius{r=30}
     - sound{s=block.portal.trigger;v=0.4;p=0.6} @self
     - effect:particles{p=PORTAL;amount=120;hS=1;vS=1;speed=0.2} @self
     - summon{mob=angry_flamespawn_blood;amount=6;radius=5} @self
