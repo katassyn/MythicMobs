@@ -92,7 +92,7 @@ furious_andermagic_blood:
 parallel_world_old_jabbax_shaman_blood:
   Type: ZOMBIE
   Disguise: MUSHROOM_COW
-  Display: '&5&lParallel World Old Jabbax Shaman &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]
+  Display: '&5&lParallel World Old Shaman &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]
     &4<&heart>'
   Health: 20000 # 10x2000
   Damage: 900 # 5x180
@@ -221,7 +221,7 @@ wailing_andermagic_ghost_blood:
 andermagic_scoropitl_blood:
   Type: ZOMBIE
   Disguise: SPIDER
-  Display: '&e&lAndermagic Scoropitl &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]
+  Display: '&e&lAndermagic Scorpio &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7]
     &4<&heart>'
   Health: 12000 # 10x1200
   Damage: 750 # 5x150

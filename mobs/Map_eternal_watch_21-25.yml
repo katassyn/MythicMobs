@@ -88,7 +88,7 @@ frost_catcher:
     - effect:particles{p=drip_water;a=10;vs=0.5;hs=0.5;s=0;y=1;repeat=5;repeatInterval=20} @PIR{r=6}
 frost_paw:
   Type: Zombie
-  Display: '&5&l Frost Paw&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&l Frost Wolf King&r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 350
   Damage: 20
   Armor: 0

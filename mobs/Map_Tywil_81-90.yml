@@ -59,7 +59,7 @@ leechbeast:
 
 orbax:
   Type: SLIME
-  Display: '&l Heinous Orbax [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Display: '&l Heinous Bombax [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 1200
   Damage: 150
   Options:
@@ -86,7 +86,7 @@ orbax:
 
 thunder_beech:
   Type: ZOMBIE
-  Display: '&5&l Thunder Beech&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Display: '&5&l Thunder birch&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 4500
   Damage: 300
   Armor: 0

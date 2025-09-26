@@ -157,7 +157,7 @@ asterion_inf:
 # Mission 2 Mobs
 jabbax_inf:
   Type: ZOMBIE
-  Display: '&lJabbax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&lBombax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 500  # Very low HP
   Damage: 100  # Low damage
   Faction: q9_inf
@@ -185,7 +185,7 @@ jabbax_inf:
 
 zorlobb_warrior_inf:
   Type: ZOMBIE
-  Display: '&e&lZorlobb Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&e&lLobster Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1500  # High HP elite
   Damage: 250   # High damage
   Faction: q9_inf

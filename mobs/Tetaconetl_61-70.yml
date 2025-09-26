@@ -1,6 +1,6 @@
 obstinate_toltec_warrior:
   Type: ZOMBIE
-  Display: '&lObstinate Toltec Warrior [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Display: '&lObstinate Warrior [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 800
   Damage: 120
   Options:
@@ -30,7 +30,7 @@ obstinate_toltec_warrior:
 
 obstinate_toltec_hunter:
   Type: SKELETON
-  Display: '&lObstinate Toltec Hunter [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Display: '&lObstinate Hunter [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 600
   Damage: 80
   Options:
@@ -60,7 +60,7 @@ obstinate_toltec_hunter:
 
 obstinate_toltec_shaman:
   Type: zombie
-  Display: '&e&l Obstinate Toltec Shaman&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Display: '&e&l Obstinate Shaman&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 1000
   Damage: 150
   Options:
@@ -93,7 +93,7 @@ obstinate_toltec_shaman:
 quacking_orbax:
   Type: ZOMBIE
   Disguise: SLIME
-  Display: '&5&l Quarling Orbax&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Display: '&5&l Quarling Bombax&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 2500
   Damage: 100
   Armor: 0

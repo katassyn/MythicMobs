@@ -30,7 +30,7 @@ shade_crawler:
 
 shadow_gazer:
   Type: BABY_ZOMBIE
-  Display: '&lShadow Gazer [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Display: '&lShadow Monster [&4&l<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 500
   Damage: 100
   Options:
@@ -159,7 +159,7 @@ traitorous_imperial_swordsman:
 adamant_lava_hound:
   Type: zombie
   Disguise: wolf
-  Display: '&e&l Adamant Lava Hound&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
+  Display: '&e&l Lava Hound&r &l[&4<caster.hp{round=2}>&r&l/&4&l<caster.mhp>&r&l]&r &4<&heart>'
   Health: 1400
   Damage: 0
   Options:

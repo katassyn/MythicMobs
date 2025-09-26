@@ -113,7 +113,7 @@ dark_sentinel_blood:
 
 iron_creeper_gate_guard_blood:
   Type: ZOMBIE
-  Display: '&5&lIron Creeper Gate Guard &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lIron Gate Guard &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 30000  # 10x3000
   Damage: 1000   # 5x200
   Faction: q7_blood

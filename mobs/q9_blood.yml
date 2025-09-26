@@ -155,7 +155,7 @@ asterion_blood:
 
 jabbax_blood:
   Type: ZOMBIE
-  Display: '&lJabbax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&lBombax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 5000  # 10x500
   Damage: 500   # 5x100
   Faction: q9_blood
@@ -183,7 +183,7 @@ jabbax_blood:
 
 zorlobb_warrior_blood:
   Type: ZOMBIE
-  Display: '&e&lZorlobb Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&e&lLobster Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 15000  # 10x1500
   Damage: 1250   # 5x250
   Faction: q9_blood

@@ -155,7 +155,7 @@ asterion_hell:
 
 jabbax_hell:
   Type: ZOMBIE
-  Display: '&lJabbax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&lBombax &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 1500  # 3x500
   Damage: 200   # 2x100
   Faction: q9_hell
@@ -183,7 +183,7 @@ jabbax_hell:
 
 zorlobb_warrior_hell:
   Type: ZOMBIE
-  Display: '&e&lZorlobb Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&e&lLobster Warrior &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 4500  # 3x1500
   Damage: 500   # 2x250
   Faction: q9_hell

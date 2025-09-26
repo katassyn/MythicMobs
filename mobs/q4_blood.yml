@@ -1,7 +1,7 @@
 sanguine_clan_raging_guardian_blood:
   Type: ZOMBIE
   Disguise: PIGLIN
-  Display: '&lSanguine Clan`s Raging Guardian &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&lSun Clan`s Raging Guardian &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 4000  # 10x400
   Damage: 500   # 5x100
   Faction: q4_blood
@@ -33,7 +33,7 @@ sanguine_clan_raging_guardian_blood:
 raging_hunting_hound_blood:
   Type: ZOMBIE
   Disguise: WOLF
-  Display: '&lRaging Hunting-Hound &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&lHunting-Hound &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 3000  # 10x300
   Damage: 400   # 5x80
   Faction: q4_blood
@@ -63,7 +63,7 @@ raging_hunting_hound_blood:
 
 sanguine_clan_raging_snooper_blood:
   Type: ZOMBIE
-  Display: '&e&lSanguine Clan`s Raging Snooper &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&e&lSunClan`s Raging Snooper &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 6000  # 10x600
   Damage: 600   # 5x120
   Faction: q4_blood
@@ -94,7 +94,7 @@ sanguine_clan_raging_snooper_blood:
 
 sanguine_clan_raging_hunter_blood:
   Type: SKELETON
-  Display: '&e&lSanguine Clan`s Raging Hunter &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&e&lSun Clan`s Raging Hunter &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 8000  # 10x800
   Damage: 750   # 5x150
   Faction: q4_blood
@@ -124,7 +124,7 @@ sanguine_clan_raging_hunter_blood:
 
 parallel_world_ancient_stag_blood:
   Type: SKELETON
-  Display: '&5&lParallel World Ancient Stag &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lAncient Hunter &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 20000  # 10x2000
   Damage: 1000   # 5x200
   Faction: q4_blood

@@ -1,6 +1,6 @@
 LunkyFireDemon:
   Type: ZOMBIE
-  Display: '&lLunky Fire Demon &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&lFire Demon &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 250
   Damage: 90
   Options:
@@ -29,7 +29,7 @@ LunkyFireDemon:
 
 ShadowGazer:
   Type: BABY_ZOMBIE
-  Display: '&lShadow Gazer &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&lShadow Beast &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 700
   Damage: 120
   Options:
@@ -57,7 +57,7 @@ ShadowGazer:
 HungrynorseWolf:
   Type: ZOMBIE
   Disguise: WOLF
-  Display: '&lHungrynorse Wolf &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&lHungry Wolf &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 300
   Damage: 100
   Options:

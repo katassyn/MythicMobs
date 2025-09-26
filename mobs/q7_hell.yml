@@ -113,7 +113,7 @@ dark_sentinel_hell:
 
 iron_creeper_gate_guard_hell:
   Type: ZOMBIE
-  Display: '&5&lIron Creeper Gate Guard &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Display: '&5&lIron Gate Guard &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
   Health: 9000  # 3x3000
   Damage: 400   # 2x200
   Faction: q7_hell
