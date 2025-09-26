@@ -1,0 +1,30 @@
+# =========================
+#  SKILLE WSPÓLNE
+# =========================
+BleedMaxHP2p: # Krwawienie: 5% max HP celu co 1s przez 5s
+  Skills:
+    - repeat{times=5;interval=20}:
+        - damage{amount="<target.mhp>*0.05";ia=true} @target
+        - effect:particles{p=reddust;amount=10;speed=0.1;hS=0.2;vS=0.2} @target
+        - sound{s=entity.player.hurt;v=0.6;p=0.8} @target
+
+BleedMaxHP1p: # Delikatniejsze krwawienie: 1% max HP celu co 1s przez 5s
+  Skills:
+    - repeat{times=5;interval=20}:
+        - damage{amount="<target.mhp>*0.02";ia=true} @target
+        - effect:particles{p=reddust;amount=6;speed=0.05;hS=0.2;vS=0.2} @target
+
+BloodSpit: # Pocisk: obrażenia + bardzo duże spowolnienie
+  Skills:
+    - projectile{v=18;i=1;hR=1;vR=1;hnp=true;onHit=BloodSpit_Hit;onTick=BloodSpit_Tick} @target
+
+BloodSpit_Hit:
+  Skills:
+    - damage{amount=45} @target
+    - potion{type=SLOW;duration=160;level=7} @target   # bardzo duże spowolnienie (ok. Slowness VIII)
+    - effect:particles{p=block_crack;m=redstone_block;amount=24;speed=0.2;hS=0.3;vS=0.3} @target
+    - sound{s=entity.slime.attack;v=1.0;p=0.6} @target
+
+BloodSpit_Tick:
+  Skills:
+    - effect:particles{p=reddust;amount=2;speed=0.01;hS=0.05;vS=0.05} @origin

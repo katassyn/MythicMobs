@@ -1,0 +1,83 @@
+# =========================
+#  MOBS
+# =========================
+
+blood_sludge:
+  Type: SLIME
+  Display: '&4&lBlood Sludge &r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 50000
+  Damage: 18
+  Options:
+    Size: 6
+    FollowRange: 18
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.06'     # ledwo się rusza
+  Faction: Bloodborne
+  Group: Bloodborne
+  # Atak nakłada krwawienie % HP celu; co jakiś czas strzela pociskiem ze spowolnieniem
+  Skills:
+    - skill{s=BleedMaxHP2p} @target ~onAttack
+    - skill{s=BloodSpit} @target ~onTimer:100 ?incombat
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - normal_mobs_drops
+
+blood_sludgeling:
+  Type: SLIME
+  Display: '&f&lBlood Sludgeling &r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 6500
+  Damage: 8
+  Options:
+    Size: 2
+    FollowRange: 16
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.18'
+  Faction: Bloodborne
+  Group: Bloodborne
+  Skills:
+    - skill{s=BleedMaxHP1p} @target ~onAttack
+    - skill{s=BloodSpit} @target ~onTimer:160 ?incombat
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - normal_mobs_drops
+
+blood_leech:
+  Type: SILVERFISH
+  Display: '&f&lBlood Leech &r &r&r&7[&c<caster.hp{round=1}>&7/&c<caster.mhp>&7] &4<&heart>'
+  Health: 2200
+  Damage: 5
+  Options:
+    FollowRange: 20
+    ShowHealth: true
+    AlwaysShowName: true
+    PreventItemPickup: true
+    PreventOtherDrops: true
+    PreventRandomEquipment: true
+    PreventSunburn: true
+    PreventJockeyMounts: true
+    PreventTransformation: true
+    MovementSpeed: '0.23'
+  Faction: Bloodborne
+  Group: Bloodborne
+  Skills:
+    - skill{s=BleedMaxHP1p} @target ~onAttack
+    - setname{name="<caster.name>";delay=2} @self ~onDamaged
+    - setname{name="<caster.name>";delay=2} @self ~onTimer:10 ?incombat
+  Drops:
+    - normal_mobs_drops
