@@ -1,0 +1,285 @@
+Krakens_Abyssal_Aegis:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&c&lSTORM-EYE KRAKEN BREASTPLATE'
+  Group: fishing_pool
+  Lore:
+    - ''
+    - '&7Protection:&9 130 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&7Health:&c +500 ❤'
+    - '&lRarity:&r &c&lMYTHIC'
+    - '&8-------------------'
+    - '&aRequired Level:&6 90'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:130
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    Chest:
+      Health: 500 ADD
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=79;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+Krakens_Tidewalkers:
+  Id: diamond_boots
+  Display: '&e&lTentacle-Twine Boots'
+  Group: fishing_pool
+  Lore:
+    - ''
+    - '&7Protection:&9 110 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&7Movement Speed:&b +0.12 👟'
+    - '&lRarity:&r &e&lUnique'
+    - '&8-------------------'
+    - '&aRequired Level:&6 80'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:110
+    - THORNS:35
+    - DEPTH_STRIDER:3
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    Feet:
+      MovementSpeed: 0.12 ADD
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+Krakens_Abyssal_Aegis_+1:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&c&lSTORM-EYE KRAKEN BREASTPLATE'
+  Group: fishing_pool
+  Lore:
+    - ''
+    - '&7Protection:&9 140 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&7Health:&c +500 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 90'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:140
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    Chest:
+      Health: 500 ADD
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=89;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+Krakens_Abyssal_Aegis_+2:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&c&lSTORM-EYE KRAKEN BREASTPLATE'
+  Group: fishing_pool
+  Lore:
+    - ''
+    - '&7Protection:&9 150 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&7Health:&c +500 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 90'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:150
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    Chest:
+      Health: 500 ADD
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=99;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+Krakens_Abyssal_Aegis_+3:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&c&lSTORM-EYE KRAKEN BREASTPLATE'
+  Group: fishing_pool
+  Lore:
+    - ''
+    - '&7Protection:&9 160 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&7Health:&c +500 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 90'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:160
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    Chest:
+      Health: 500 ADD
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=109;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+Krakens_Abyssal_Aegis_+4:
+  Id: NETHERITE_CHESTPLATE
+  Display: '&c&lSTORM-EYE KRAKEN BREASTPLATE'
+  Group: fishing_pool
+  Lore:
+    - ''
+    - '&7Protection:&9 170 🛡'
+    - '&7Thorns:&2 40 🌵'
+    - '&7Health:&c +500 ❤'
+    - '&lRarity:&r &c&lMYTHIC &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 90'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:170
+    - THORNS:40
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    Chest:
+      Health: 500 ADD
+  Skills:
+    - potion{t=ABSORPTION;d=400;level=119;p=false;hasIcon=false;force=true} @self ~onTimer:200
+    - potion{t=ABSORPTION;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+
+Krakens_Tidewalkers_+1:
+  Id: diamond_boots
+  Display: '&e&lTentacle-Twine Boots'
+  Group: fishing_pool
+  Lore:
+    - ''
+    - '&7Protection:&9 116 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&7Movement Speed:&b +0.12 👟'
+    - '&lRarity:&r &e&lUnique &l+1'
+    - '&8-------------------'
+    - '&aRequired Level:&6 80'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:116
+    - THORNS:35
+    - DEPTH_STRIDER:3
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    Feet:
+      MovementSpeed: 0.12 ADD
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+Krakens_Tidewalkers_+2:
+  Id: diamond_boots
+  Display: '&e&lTentacle-Twine Boots'
+  Group: fishing_pool
+  Lore:
+    - ''
+    - '&7Protection:&9 122 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&7Movement Speed:&b +0.12 👟'
+    - '&lRarity:&r &e&lUnique &l+2'
+    - '&8-------------------'
+    - '&aRequired Level:&6 80'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:122
+    - THORNS:35
+    - DEPTH_STRIDER:3
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    Feet:
+      MovementSpeed: 0.12 ADD
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+Krakens_Tidewalkers_+3:
+  Id: diamond_boots
+  Display: '&e&lTentacle-Twine Boots'
+  Group: fishing_pool
+  Lore:
+    - ''
+    - '&7Protection:&9 128 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&7Movement Speed:&b +0.12 👟'
+    - '&lRarity:&r &e&lUnique &l+3'
+    - '&8-------------------'
+    - '&aRequired Level:&6 80'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:128
+    - THORNS:35
+    - DEPTH_STRIDER:3
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    Feet:
+      MovementSpeed: 0.12 ADD
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES
+
+Krakens_Tidewalkers_+4:
+  Id: diamond_boots
+  Display: '&e&lTentacle-Twine Boots'
+  Group: fishing_pool
+  Lore:
+    - ''
+    - '&7Protection:&9 134 🛡'
+    - '&7Thorns:&2 35 🌵'
+    - '&7Movement Speed:&b +0.12 👟'
+    - '&lRarity:&r &e&lUnique &l+4'
+    - '&8-------------------'
+    - '&aRequired Level:&6 80'
+  Enchantments:
+    - PROTECTION_ENVIRONMENTAL:134
+    - THORNS:35
+    - DEPTH_STRIDER:3
+  Options:
+    HideFlags: true
+    HideAttributes: true
+    Unbreakable: true
+  Attributes:
+    Feet:
+      MovementSpeed: 0.12 ADD
+  Skills:
+    - potion{t=SPEED;d=-1;level=3;p=false;hasIcon=false} @self ~onTimer:10
+    - potion{t=SPEED;d=1;level=0;p=false;force=true} @self ~onUnequip
+  Hide:
+    - ATTRIBUTES

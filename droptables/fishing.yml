@@ -3,6 +3,7 @@ kraken_drop:
     - unidentified_treasure_map 1-5 1
     - kraken_drop_item_drops 1
     - rune_drop 1
+    - kraken_rare_drops 1
 kraken_drop_item_drops:
   MinItems: 1
   MaxItems: 5
@@ -30,3 +31,10 @@ rune_drop:
     - RUNE_GEBO_I 1
     - RUNE_EHWAZ_I 1
     - RUNE_BERKANO_I 1
+kraken_rare_drops:
+  TotalItems: 1
+  BonusLuckItems: 0.15
+  Drops:
+    - Krakens_Abyssal_Aegis 1 0.02
+    - Krakens_Tidewalkers 1 0.05
+    - nothing 1 0.93
